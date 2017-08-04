@@ -1,0 +1,1 @@
+var ngTranslate = angular.module('ngTranslate', ['ngCookies','ngResource']);
