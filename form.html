@@ -1,0 +1,146 @@
+<html>
+<script language="JavaScript">
+function extrairAlcada(form){
+       if(form.alcada.value=="gg"){
+               return "Gerente Geral";
+       }else if(form.alcada.value=="gn"){
+               return "Gerente de Negócios";
+       }
+}
+//Função que controla os destinatários da solicitação.
+function funcDestinatario(alcada){
+       if(alcada.value=="gg"){
+               document.getElementById("email").action="mailto:gugugoes@gmail.com";
+       }else if(alcada.value=="gn"){
+               document.getElementById("email").action="mailto:gugugoes@gmail.com";
+       }
+}
+//Função controla os motivos de substituição e as infomarções necessárias para a solicitação
+function funcMotivo(motivo){
+       //Controla exibição da divTitular
+       if(motivo.value!="branco"){
+               document.getElementById('divTitular').style.display='block';
+       }else{
+               document.getElementById('divTitular').style.display='none';
+       }
+       //Controla exibição do campo descrição para o motivo outros
+       if(motivo.value=="out"){
+               document.getElementById('outros').style.display='block';
+       }else{
+               document.getElementById('outros').style.display='none';
+       }
+       //Controla exibição da divSubstituto para o motivo vaga disponível
+       if(motivo.value=="vd"){
+               document.getElementById('divSubstituto').style.display='none';
+               document.getElementById('tagTitular').style.display='none';
+               document.getElementById('tagFunc').style.display='block';
+       }else{
+               document.getElementById('tagTitular').style.display='block';
+               document.getElementById('tagFunc').style.display='none';
+       }
+       //Controla exibição da divSubstituto
+       if(motivo.value=="ft" || motivo.value=="at" || motivo.value=="lst" || motivo.value=="out"){
+               document.getElementById('divSubstituto').style.display='block';
+       }else{
+               document.getElementById('divSubstituto').style.display='none';
+       }
+}
+function validaCampos(form){
+       if(form.agencia.value==""){
+               alert("Por favor informar o número da Agência no formato 0XXX.");
+               form.agencia.focus();
+               return false;
+       }else if(form.alcada.value=="branco"){
+               alert("Por favor informar a alçada.");
+               form.alcada.focus();
+               return false;
+       }else if(form.motivo.value=="branco"){
+               alert("Por favor informar o Motivo da Inclusão/Alteração de alçada");
+               form.motivo.focus();
+               return false;
+       }else if(form.motivo.value=="out" && form.outros.value==""){
+               alert("Por favor informar descrever o Motivo da Inclusão/Alteração de alçada");
+               form.motivo.facus();
+               return false;
+       }else if(form.nomeTitular.value==""){
+               alert("Por favor informar o nome do Funcionário");
+               form.nomeTitular.focus();
+               return false;
+       }else if(form.matriculaTitular.value==""){
+               alert("Por favor informar a matrícula do Funcionário");
+               form.matriculaTitular.focus();
+               return false;
+       }else if(form.motivo.value=="ft" || form.motivo.value=="at" || form.motivo.value=="lst"){
+               if(form.nomeSubstituto.value==""){
+                       alert("Por favor informar o nome do Funcionário Substituto.");
+                       form.nomeSubstituto.focus();
+                       return false;
+               }else if(form.matriculaSubstituto.value==""){
+                       alert("Por favor informar a matrícula do Funcionário Substituto.");
+                       form.matriculaSubstituto.focus();
+                       return false;
+               }
+       }
+       return true;
+}
+function montarSolicitacao(form){
+       var solicitacao = "Solicitação de Inclusão/Alteração de alçada\n\n";
+       solicitacao = solicitacao + "Agência: " + form.agencia.value;
+       solicitacao = solicitacao + "\n"
+       solicitacao = solicitacao + "Alçada: " + extrairAlcada(form);
+       document.getElementById('GCR').value= solicitacao;
+       alert(document.getElementById('GCR').value);
+}
+function validarMontar(form){
+       if(validaCampos(form)){
+               montarSolicitacao(form);
+               document.getElementById('email').submit();
+       }
+}
+</script>
+       <head>
+               <title>Solicitação de Acesso GCR</title>
+       </head>
+       <BODY>
+               <h3 align="center">Solicitação de Inclusão/Alteração de Alçada</h3>
+       <form name="form">
+               <font color="red" size="2">*</font>Agência: <input type="text" size="4" length="4" name="agencia">
+               <font color="red" size="2">*</font>Alçada:
+               <select onChange="funcDestinatario(this);" name="alcada">
+                       <option value="branco">-Selecione uma alçada-
+                       <option value="gg">Gerente Geral</option>
+                       <option value="gn">Gerente de Negócios</option>
+               </select>
+               </br></br>
+               <font size="2" color="red">*</font>Motivo da alteração:
+               <select onChange="funcMotivo(this);" name="motivo">
+                       <option value="branco">-Selecione um Motivo-
+                       <option value="vd">Vaga disponível</option>
+                       <option value="ft">Férias do titular</option>
+                       <option value="at">Abono titular</option>
+                       <option value="lst">Licença Saúde do titular</option>
+                       <option value="out">Outros</option>
+               </select>
+               <input type="text" name="outros" style="display:none">
+               <div name="divTitular" id="divTitular" style="display:none">
+                       <div id="tagTitular" name="tagTitular"><h5>Funcionário Titular</h5></div>
+                       <div name="tagFunc" id="tagFunc"><h5>Funcionário</h5></div>
+               <font size="2" color="red">*</font>Nome:<input type="text"name="nomeTitular">
+               <font size="2" color="red">*</font>Matrícula:<input type="text"name="matriculaTitular">
+               </div>
+               <div name="divSubstituto" id="divSubstituto" style="display:none">
+               <h5>Funcionário Substituto</h5>
+               <font size="2" color="red">*</font>Nome:<input type="text" name="nomeSubstituto">
+               <font size="2" color="red">*</font>Matrícula:<input type="text" name="matriculaSubstituto">
+               </div>
+               </br>
+                       <input type="hidden" value="" name="Solicitação">
+                       <input type="button" value="Enviar" onClick="validarMontar(document.getElementById('form'));">
+                       <input type="RESET" VALUE="Cancelar">
+       </form>
+       <form name="email" method="post" onSubmit = "return enviar(this);" ENCTYPE="text/plain">
+               <input type="hidden" name="GCR">
+       </form>
+       <font color="red" size="2">* Campos obrigatórios</font>
+       </BODY>
+</html>
