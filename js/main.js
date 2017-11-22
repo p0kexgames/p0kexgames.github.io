@@ -2897,12 +2897,12 @@ pokesarray = [
    moves:"no", 
    loots:"no"},
    
-  {shiny:"Shiny", nome:"Sylveon",  numero:"",  level:"",   ball1:"Nenhuma",   ball2:"Nenhuma", 
-   clan1:"",   clan2:"",   tipo1:"",   tipo2:"", 
-   regiao:"",   geracao:"",   dificuldade:"", xpcaught:"0", pricenpc:"0",
+  {shiny:"Shiny", nome:"Sylveon",  numero:"700-1",  level:"",   ball1:"Nenhuma",   ball2:"Nenhuma", 
+   clan1:"Psycraft",   clan2:"Nenhum",   tipo1:"Psiquico",   tipo2:"Nenhum", 
+   regiao:"Kalos",   geracao:"6",   dificuldade:"Dimensional zone", xpcaught:"0", pricenpc:"0",
    fast:"no", heavy:"no", 
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
-   mapas:'no',  vip: "yes", 
+   mapas:'no',  vip: "no", 
    moves:"no", 
    loots:"no"},
    
