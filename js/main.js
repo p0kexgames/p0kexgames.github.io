@@ -7902,6 +7902,71 @@ $(".aviso").html(" ");
        $(".aviso").removeClass( 'hide' );
   }
 
+  if (myPokeDificuldade === 'Clan') {
+       $(".modal").addClass('Clan');
+       $(".Clan .ballstable div").html(" ");
+       text = "<div class='dificuldade'>";
+        text += "Esse Pokemon não pode ser capturado, para ter um basta ir ao respectivo clan no TC.";
+       text += "</div>";
+       $(".aviso").append( text );
+       $(".aviso").addClass( 'show' );
+       $(".aviso").removeClass( 'hide' );
+  }
+  if (myPokeDificuldade === 'Inicial') {
+       $(".modal").addClass('Inicial');
+       $(".Inicial .ballstable div").html(" ");
+       text = "<div class='dificuldade'>";
+        text += "Esse Pokemon não pode ser capturado.";
+       text += "</div>";
+       $(".aviso").append( text );
+       $(".aviso").addClass( 'show' );
+       $(".aviso").removeClass( 'hide' );
+  }
+  if (myPokeDificuldade === 'Agatha quest') {
+       $(".modal").addClass('Agatha');
+       $(".modal").addClass('quest');
+       $(".Agatha.quest .ballstable div").html(" ");
+       text = "<div class='dificuldade'>";
+        text += "Esse Pokemon não pode ser capturado. Para ter um deverá completar a Agatha Quest";
+       text += "</div>";
+       $(".aviso").append( text );
+       $(".aviso").addClass( 'show' );
+       $(".aviso").removeClass( 'hide' );
+  }
+  if (myPokeDificuldade === 'Eventos') {
+       $(".modal").addClass('Eventos');
+       $(".Eventos .ballstable div").html(" ");
+       text = "<div class='dificuldade'>";
+        text += "Esse Pokemon está disponível em eventos.";
+       text += "</div>";
+       $(".aviso").append( text );
+       $(".aviso").addClass( 'show' );
+       $(".aviso").removeClass( 'hide' );
+  }
+  if (myPokeDificuldade === 'Diamond shop') {
+       $(".modal").addClass('Diamond');
+       $(".modal").addClass('shop');
+       $(".Diamond.shop .ballstable div").html(" ");
+       text = "<div class='dificuldade'>";
+        text += "Esse Pokemon pode ser obtido somente pelo Diamond shop dentro do jogo.";
+       text += "</div>";
+       $(".aviso").append( text );
+       $(".aviso").addClass( 'show' );
+       $(".aviso").removeClass( 'hide' );
+  }
+  if (myPokeDificuldade === 'Pesca') {
+       $(".modal").addClass('Pesca');
+       $(".Pesca .ballstable div").html(" ");
+       text = "<div class='dificuldade'>";
+        text += "Esse Pokemon pode ser obtido através da pesca com iscas especificas.";
+       text += "</div>";
+       $(".aviso").append( text );
+       $(".aviso").addClass( 'show' );
+       $(".aviso").removeClass( 'hide' );
+  }
+ 
+  
+
 
   //// CASO POSSUA ALGUM MOVE NA TABELA IRÁ EXIBIR NO CAMPO
   if (myPokeMoves != "no") {
@@ -9464,6 +9529,70 @@ $(".aviso").html(" ");
        $(".aviso").removeClass( 'hide' );
   }
 
+  if (myPokeDificuldade === 'Clan') {
+       $(".modal").addClass('Clan');
+       $(".Clan .ballstable div").html(" ");
+       text = "<div class='dificuldade'>";
+        text += "Esse Pokemon não pode ser capturado, para ter um basta ir ao respectivo clan no TC.";
+       text += "</div>";
+       $(".aviso").append( text );
+       $(".aviso").addClass( 'show' );
+       $(".aviso").removeClass( 'hide' );
+  }
+  if (myPokeDificuldade === 'Inicial') {
+       $(".modal").addClass('Inicial');
+       $(".Inicial .ballstable div").html(" ");
+       text = "<div class='dificuldade'>";
+        text += "Esse Pokemon não pode ser capturado.";
+       text += "</div>";
+       $(".aviso").append( text );
+       $(".aviso").addClass( 'show' );
+       $(".aviso").removeClass( 'hide' );
+  }
+  if (myPokeDificuldade === 'Agatha quest') {
+       $(".modal").addClass('Agatha');
+       $(".modal").addClass('quest');
+       $(".Agatha.quest .ballstable div").html(" ");
+       text = "<div class='dificuldade'>";
+        text += "Esse Pokemon não pode ser capturado. Para ter um deverá completar a Agatha Quest";
+       text += "</div>";
+       $(".aviso").append( text );
+       $(".aviso").addClass( 'show' );
+       $(".aviso").removeClass( 'hide' );
+  }
+  if (myPokeDificuldade === 'Eventos') {
+       $(".modal").addClass('Eventos');
+       $(".Eventos .ballstable div").html(" ");
+       text = "<div class='dificuldade'>";
+        text += "Esse Pokemon está disponível em eventos.";
+       text += "</div>";
+       $(".aviso").append( text );
+       $(".aviso").addClass( 'show' );
+       $(".aviso").removeClass( 'hide' );
+  }
+  if (myPokeDificuldade === 'Diamond shop') {
+       $(".modal").addClass('Diamond');
+       $(".modal").addClass('shop');
+       $(".Diamond.shop .ballstable div").html(" ");
+       text = "<div class='dificuldade'>";
+        text += "Esse Pokemon pode ser obtido somente pelo Diamond shop dentro do jogo.";
+       text += "</div>";
+       $(".aviso").append( text );
+       $(".aviso").addClass( 'show' );
+       $(".aviso").removeClass( 'hide' );
+  }
+  if (myPokeDificuldade === 'Pesca') {
+       $(".modal").addClass('Pesca');
+       $(".Pesca .ballstable div").html(" ");
+       text = "<div class='dificuldade'>";
+        text += "Esse Pokemon pode ser obtido através da pesca com iscas especificas.";
+       text += "</div>";
+       $(".aviso").append( text );
+       $(".aviso").addClass( 'show' );
+       $(".aviso").removeClass( 'hide' );
+  }
+ 
+  
 
   //// CASO POSSUA ALGUM MOVE NA TABELA IRÁ EXIBIR NO CAMPO
   if (myPokeMoves != "no") {
