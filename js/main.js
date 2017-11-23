@@ -1727,6 +1727,7 @@ ShinysMegasArray = [
    moves:"Headbutt-80,Bubbles-80,Hand water gun-80,Giant water gun-80,Water pulse-80,Brine-80,Hydro cannon-80,Skull bash-85,Hydropump-90,Rain dance-80,", 
    loots:"no"},
    
+  /////////// Sem imagem daki pra baixo
   {shiny:"Shiny", nome:"Butterfree",  numero:"12-1",  level:"60",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Naturia",   clan2:"Wingeon",   tipo1:"Inseto",   tipo2:"Voador", 
    regiao:"Kanto",   geracao:"1",   dificuldade:"Caught", xpcaught:"0", pricenpc:"0",
@@ -1780,7 +1781,7 @@ ShinysMegasArray = [
    moves:"Peck-120,Feather dance-120,Drill peck-120,Air cutter-120,Wing attack-120,Air vortex-120,Aerial ace-120,Agility-120,", 
    loots:"no"},
   
-  /////////// Revisar daki pra baixo e adicionar imagem desses abaixo
+  /////////// Revisar daki pra baixo
   {shiny:"Shiny", nome:"Raichu",  numero:"26-1",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Raibolt",   clan2:"Nenhum",   tipo1:"Elétrico",   tipo2:"Nenhum", 
    regiao:"Kanto",   geracao:"1",   dificuldade:"Caught", xpcaught:"0", pricenpc:"0",
