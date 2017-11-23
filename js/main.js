@@ -1659,7 +1659,7 @@ ShinysMegasArray = [
    fast:"no", heavy:"no", 
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
-   moves:"no", 
+   moves:"Tackle-6,Razor leaf-6,Vine whip-6,Leech seed-7,Poison powder-8,", 
    loots:"no"},
   {shiny:"Shiny", nome:"Venusaur",  numero:"3-1",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma",
   clan1:"Naturia",   clan2:"Malefic",   tipo1:"Grama",   tipo2:"Venenoso", 
@@ -1680,7 +1680,7 @@ ShinysMegasArray = [
    fast:"no", heavy:"no", 
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
-   moves:"no", 
+   moves:"Scratch-6,Ember-6,Flamethrower-8,Fireball-6,Rage-7,", 
    loots:"no"},
   {shiny:"Shiny", nome:"Charizard",  numero:"6-1",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma",
   clan1:"Volcanic",   clan2:"Wingeon",   tipo1:"Fogo",   tipo2:"Voador", 
@@ -1710,7 +1710,7 @@ ShinysMegasArray = [
    fast:"no", heavy:"no", 
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
-   moves:"no", 
+   moves:"Headbutt-6,Bubbles-6,Water gun-8,Waterball-6,Harden-7,", 
    loots:"no"},
   {shiny:"Shiny", nome:"Blastoise",  numero:"9-1",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma",
   clan1:"Seavell",   clan2:"Nenhum",   tipo1:"Água",   tipo2:"Nenhum", 
@@ -1727,15 +1727,13 @@ ShinysMegasArray = [
    moves:"Headbutt-80,Bubbles-80,Hand water gun-80,Giant water gun-80,Water pulse-80,Brine-80,Hydro cannon-80,Skull bash-85,Hydropump-90,Rain dance-80,", 
    loots:"no"},
    
-   
-  /////////// Revisar daki pra baixo e adicionar imagem desses abaixo
   {shiny:"Shiny", nome:"Butterfree",  numero:"12-1",  level:"60",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Naturia",   clan2:"Wingeon",   tipo1:"Inseto",   tipo2:"Voador", 
    regiao:"Kanto",   geracao:"1",   dificuldade:"Caught", xpcaught:"0", pricenpc:"0",
    fast:"yes", heavy:"no", 
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
-   moves:"no", 
+   moves:"Super sonic-60,Silver wind-60,Whirlwind-62,Confusion-64,Psybeam-66,Air cutter-68,Sleep powder-60,Safeguard-70,Poison powder-60,", 
    loots:"no"},
    
   {shiny:"Shiny", nome:"Beedrill",  numero:"15-1",  level:"60",   ball1:"Nenhuma",   ball2:"Nenhuma", 
@@ -1744,7 +1742,7 @@ ShinysMegasArray = [
    fast:"yes", heavy:"no", 
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
-   moves:"no", 
+   moves:"String shot-60,Poison jab-60,Poison sting-60,Fury cutter-65,Pin missile-65,Toxic spikes-62,Rage-60,Strafe-68,Evasion-Passiva,", 
    loots:"no"},
    
   {shiny:"Shiny", nome:"Pidgeot",  numero:"18-1",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma", 
@@ -1753,7 +1751,7 @@ ShinysMegasArray = [
    fast:"yes", heavy:"no", 
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
-   moves:"no", 
+   moves:"Whirlwind-100,Drill peck-100,Wing attack-102,Aeroblast-104,Hurricane-110,Agility-100,Roost-105,", 
    loots:"no"},
    
   {shiny:"Shiny", nome:"Rattata",  numero:"19-1",  level:"10",   ball1:"Nenhuma",   ball2:"Nenhuma", 
@@ -1762,7 +1760,7 @@ ShinysMegasArray = [
    fast:"no", heavy:"no", 
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
-   moves:"no", 
+   moves:"Quick attack-10,Bite-10,Scratch-10,Pursuit-10,Super fang-10,Scary face-12,Fury-Passiva,", 
    loots:"no"},
   {shiny:"Shiny", nome:"Raticate",  numero:"20-1",  level:"60",   ball1:"Nenhuma",   ball2:"Nenhuma",  
    clan1:"Gardestrike",   clan2:"Nenhum",   tipo1:"Normal",   tipo2:"Nenhum", 
@@ -1770,9 +1768,11 @@ ShinysMegasArray = [
    fast:"no", heavy:"no", 
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
-   moves:"no", 
+   moves:"Quick attack-60,Bite-60,Scratch-60,Pursuit-60,Sucker punch-63,Super fang-60,Scary face-62,Fury-Passiva,", 
    loots:"no"},
    
+  /////////// Revisar daki pra baixo e adicionar imagem desses abaixo
+
   {shiny:"Shiny", nome:"Fearow",  numero:"22-1",  level:"120",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Wingeon",   clan2:"Nenhum",   tipo1:"Voador",   tipo2:"Normal", 
    regiao:"Kanto",   geracao:"1",   dificuldade:"Clan", xpcaught:"0", pricenpc:"0",
