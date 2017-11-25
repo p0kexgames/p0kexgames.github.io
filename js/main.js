@@ -6616,11 +6616,11 @@ var semDex2 = "<div onclick='enviarcontribuicao()' class='semdex hand " +myPokeN
 
 
   //// FORMATA O CAMPO DOS LOOTS PARA EXIBIR CORRETAMENTE
-     var text = myPokeLoots.split(',');
+     var text = myPokeLoots.split('//');
      len = text.length;
 	 
      for( j=0; j<len; j++ ) {          
-      var text2 = '.'+text[j]+'';
+      var text2 = '.'+text[j]+' { background: url(https://p0kexgames.github.io/images/'+text[j]+') no-repeat scroll 0 4px transparent; }';
       $("style.loots").append(text2);	
      }
 	 
