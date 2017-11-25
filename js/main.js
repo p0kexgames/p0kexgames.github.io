@@ -1734,7 +1734,7 @@ ShinysMegasArray = [
    fast:"yes", heavy:"no", 
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
-   moves:"Super sonic-60,Silver wind-60,Whirlwind-62,Confusion-64,Psybeam-66,Air cutter-68,Sleep powder-60,Safeguard-70,Poison powder-60,", 
+   moves:"Supersonic-60,Silver wind-60,Whirlwind-62,Confusion-64,Psybeam-66,Air cutter-68,Sleep powder-60,Safeguard-70,Poison powder-60,", 
    loots:"no"},
    
   {shiny:"Shiny", nome:"Beedrill",  numero:"15-1",  level:"60",   ball1:"Nenhuma",   ball2:"Nenhuma", 
