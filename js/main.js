@@ -6618,12 +6618,12 @@ var semDex2 = "<div onclick='enviarcontribuicao()' class='semdex hand " +myPokeN
   //// FORMATA O CAMPO DOS LOOTS PARA EXIBIR CORRETAMENTE
      var text = myPokeLoots.split(',');
      len = text.length;
-	 var text2 = "<style>";
+	 
      for( j=0; j<len; j++ ) {          
-      text2 += text[j];	
+      var text2 = '.'+text[j]+'';
+      $("style.loots").append(text2);	
      }
-	 text2 += "</style>";
-     $("body").append(text2);
+	 
 
 
 
