@@ -8184,7 +8184,7 @@ $(".aviso").html(" ");
            len = text.length,               
            result = [];  
        for( i=0; i<len; i++ ) {          
-           result[i] = '<i></i><span class="itemQTD">'+text[0]+'</span> <span class="itemPerc">'+text[1]+'--</span>';
+           result[i] = '<i class="item-img">.</i><span class="itemQTD">'+text[0]+'</span> <span class="itemPerc">'+text[1]+'--</span>';
 
           
           if(result.indexOf(text[i]) == -1) result.push(text[i]); 
@@ -8223,7 +8223,7 @@ $(".aviso").html(" ");
            len = text.length,               
            result = [];  
        for( i=0; i<len; i++ ) {          
-           result[i] = '<i></i><span class="itemNome">'+text[0]+'</span> <span class="itemPercentual">'+text[1]+'</span>';
+           result[i] = '<span class="itemNome">'+text[0]+'</span> <span class="itemPercentual">'+text[1]+'</span>';
 
 
           if(result.indexOf(text[i]) == -1) result.push(text[i]); 
@@ -9813,7 +9813,7 @@ $(".aviso").html(" ");
            len = text.length,               
            result = [];  
        for( i=0; i<len; i++ ) {          
-           result[i] = '<i></i><span class="itemQTD">'+text[0]+'</span> <span class="itemPerc">'+text[1]+'--</span>';
+           result[i] = '<i class="item-img">.</i><span class="itemQTD">'+text[0]+'</span> <span class="itemPerc">'+text[1]+'--</span>';
 
           if(result.indexOf(text[i]) == -1) result.push(text[i]); 
           var text2 = text[1].split('--');
@@ -9850,7 +9850,7 @@ $(".aviso").html(" ");
            len = text.length,               
            result = [];  
        for( i=0; i<len; i++ ) {          
-           result[i] = '<i></i><span class="itemNome">'+text[0]+'</span> <span class="itemPercentual">'+text[1]+'</span>';
+           result[i] = '<span class="itemNome">'+text[0]+'</span> <span class="itemPercentual">'+text[1]+'</span>';
 
           if(result.indexOf(text[i]) == -1) result.push(text[i]); 
           var text2 = text[1].split('--');
