@@ -3094,18 +3094,18 @@ ballsArrayVarPrice = [
 
 movesArray = [
  
- { move: "Ancient armor", type: "", desc: "", 
-   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "",
+ { move: "Ancient armor", type: "Normal", desc: "aumenta a defesa e dobra a velocidade de ataque fisico do pokemon por 12 segundos.", 
+   aoe: "", blind: "", buff: "yes", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "",
+   nevermiss: "", paralyze: "", passive: "", poison: "", self: "yes", slow: "", stun: "", target: "", 
+   healing: "", silence: "", freeze: "", knockback: "", },
+ 
+ { move: "Hand water gun", type: "Água", desc: "causa dano em uma área frontal.", 
+   aoe: "yes", blind: "", buff: "", burn: "", confusion: "", damage: "yes", debuff: "", lifesteal: "",
    nevermiss: "", paralyze: "", passive: "", poison: "", self: "", slow: "", stun: "", target: "", 
    healing: "", silence: "", freeze: "", knockback: "", },
  
- { move: "Hand water gun", type: "Água", desc: "", 
-   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "",
-   nevermiss: "", paralyze: "", passive: "", poison: "", self: "", slow: "", stun: "", target: "", 
-   healing: "", silence: "", freeze: "", knockback: "", },
- 
- { move: "Giant water gun", type: "Água", desc: "", 
-   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "",
+ { move: "Giant water gun", type: "Água", desc: "causa dano em uma grande área frontal.", 
+   aoe: "yes", blind: "", buff: "", burn: "", confusion: "", damage: "yes", debuff: "", lifesteal: "",
    nevermiss: "", paralyze: "", passive: "", poison: "", self: "", slow: "", stun: "", target: "", 
    healing: "", silence: "", freeze: "", knockback: "", },
  
