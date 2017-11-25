@@ -3093,6 +3093,24 @@ ballsArrayVarPrice = [
 ]
 
 movesArray = [
+ 
+ { move: "Ancient armor", type: "", desc: "", 
+   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "",
+   nevermiss: "", paralyze: "", passive: "", poison: "", self: "", slow: "", stun: "", target: "", 
+   healing: "", silence: "", freeze: "", knockback: "", },
+ 
+ { move: "Hand water gun", type: "Água", desc: "", 
+   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "",
+   nevermiss: "", paralyze: "", passive: "", poison: "", self: "", slow: "", stun: "", target: "", 
+   healing: "", silence: "", freeze: "", knockback: "", },
+ 
+ { move: "Giant water gun", type: "Água", desc: "", 
+   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "",
+   nevermiss: "", paralyze: "", passive: "", poison: "", self: "", slow: "", stun: "", target: "", 
+   healing: "", silence: "", freeze: "", knockback: "", },
+ 
+ 
+ 
  { move: "Tackle", type: "Normal", desc: "causa dano ao oponente, só pode ser usado a curta distância.", 
    aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "yes", debuff: "", lifesteal: "",
    nevermiss: "", paralyze: "", passive: "", poison: "", self: "", slow: "", stun: "", target: "yes", 
