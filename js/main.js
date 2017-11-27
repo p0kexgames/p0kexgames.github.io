@@ -1836,7 +1836,7 @@ ShinysMegasArray = [
    loots:"no"},
   {shiny:"Shiny", nome:"Vileplume",  numero:"45-1",  level:"120",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Naturia",   clan2:"Nenhum",   tipo1:"Grama",   tipo2:"Nenhum", 
-   regiao:"Kanto",   geracao:"1",   dificuldade:"Clan", xpcaught:"0", pricenpc:"0",
+   regiao:"Kanto",   geracao:"1",   dificuldade:"Clan", xpcaught:"0", pricenpc:"800000",
    fast:"no", heavy:"no", 
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
