@@ -10474,7 +10474,8 @@ $(".tab-forca a").click( function() {
 
 
     $('.modal .item3').click(function() {
-     var mySearch = $('.modal h4 .nome').html();
+     //var mySearch = $('.modal h4 .nome').html();
+     var mySearch = $(this).find('.nome').text();
      ga('send', 'event', 'Clicks', 'Shiny', mySearch);
     });
  
