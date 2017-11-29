@@ -1904,7 +1904,7 @@ ShinysMegasArray = [
    loots:"no"},
    
   {shiny:"Dark", nome:"Abra",  numero:"63-1",  level:"120",   ball1:"Nenhuma",   ball2:"Nenhuma", 
-   clan1:"",   clan2:"",   tipo1:"",   tipo2:"", 
+   clan1:"Malefic",   clan2:"Psycraft",   tipo1:"Fantasma",   tipo2:"Psiquico", 
    regiao:"Kanto",   geracao:"1",   dificuldade:"Agatha quest", xpcaught:"0", pricenpc:"0",
    fast:"no", heavy:"no", 
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
@@ -1912,7 +1912,7 @@ ShinysMegasArray = [
    moves:"no", 
    loots:"no"},
   {shiny:"Light", nome:"Abra",  numero:"63-2",  level:"120",   ball1:"Nenhuma",   ball2:"Nenhuma", 
-   clan1:"",   clan2:"",   tipo1:"",   tipo2:"", 
+   clan1:"Malefic",   clan2:"Psycraft",   tipo1:"Fantasma",   tipo2:"Psiquico", 
    regiao:"Kanto",   geracao:"1",   dificuldade:"Agatha quest", xpcaught:"0", pricenpc:"0",
    fast:"no", heavy:"no", 
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
