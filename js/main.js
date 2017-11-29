@@ -2561,7 +2561,7 @@ ShinysMegasArray = [
    moves:"no", 
    loots:"no"},
    
-  {shiny:"Shiny", nome:"Corsola",  numero:"",  level:"",   ball1:"Nenhuma",   ball2:"Nenhuma", 
+  {shiny:"Shiny", nome:"Corsola",  numero:"222-1",  level:"80",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Seavell",   clan2:"Orebound",   tipo1:"Água",   tipo2:"Pedra", 
    regiao:"Johto",   geracao:"2",   dificuldade:"Caught", xpcaught:"0", pricenpc:"unseleable",
    fast:"no", heavy:"no", 
