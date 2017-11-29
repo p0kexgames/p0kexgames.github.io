@@ -10473,6 +10473,11 @@ $(".tab-forca a").click( function() {
     });
 
 
+    $('.modal .item3').click(function() {
+     var mySearch = $('.modal h4 .nome').html();
+     ga('send', 'event', 'Clicks', 'Shiny', mySearch);
+    });
+ 
     $('.card.card-clan .card-block a').click(function() {
      var mySearch = $(this).find('i').text();
      ga('send', 'event', 'Pesquisa Simples', 'Clan', mySearch);
