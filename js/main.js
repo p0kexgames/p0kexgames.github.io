@@ -52,7 +52,7 @@ pokesarray = [
  vip: "no", moves:"String shot-10,Headbutt-10,Harden-10,Bug bite-10,", loots:"(1-1)//butterfly wing--2.1%,(1-5)//bug gosme--80.0%,(1-1)//pot of moss bug--19.5%,"},
  {nome:"Butterfree", numero:12, level:30, ball1:"Greatball", ball2:"Superball", clan1:"Naturia", clan2:"Wingeon", tipo1:"Inseto", tipo2:"Voador", regiao:"Kanto", geracao:"1", dificuldade:"Fácil", xpcaught:"10000", pricenpc:"2000",  shiny:"yes", fast:"yes", heavy:"no", preevo2:"Caterpie", preevo1:"Metapod", evo1:"no", evo2:"no", npreevo2:"10", npreevo1:"11", nevo1:"no", nevo2:"no", 
  mapas:'"top":23,"left":37,"text":"Floresta de Viridian - (FREE)";"top":31,"left":44,"text":"Ilha a direita de cinnabar - (VIP)";"top":86,"left":44,"text":"Floresta de Mandarin - (FREE)";"top":84,"left":73,"text":"Murcott Island - (VIP)"', 
- vip: "no", moves:"Supersonic-30,Silver wind-30,Whirlwind-30,Confusion-30,Psybeam-32,Air cutter-34,Sleep powder-30,Safeguard-36,Poison powder-30,", loots:"(1-1)//butterfly wing--4.3%,(1-6)//straw--80.0%,(1-6)//bug gosme--80.0%,(1-1)//Cocoon stone--Raro,(1-1)//pot of moss bug--24.0%,(1-1)//bag of pollem--9.0%,"},
+ vip: "no", moves:"Super sonic-30,Silver wind-30,Whirlwind-30,Confusion-30,Psybeam-32,Air cutter-34,Sleep powder-30,Safeguard-36,Poison powder-30,", loots:"(1-1)//butterfly wing--4.3%,(1-6)//straw--80.0%,(1-6)//bug gosme--80.0%,(1-1)//Cocoon stone--Raro,(1-1)//pot of moss bug--24.0%,(1-1)//bag of pollem--9.0%,"},
 
  {nome:"Weedle", numero:13, level:1, ball1:"Pokeball", ball2:"Greatball", clan1:"Naturia", clan2:"Malefic", tipo1:"Inseto", tipo2:"Venenoso", regiao:"Kanto", geracao:"1", dificuldade:"Fácil", xpcaught:"500", pricenpc:"5",  shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"Kakuna", evo2:"Beedrill", npreevo2:"no", npreevo1:"no", nevo1:"14", nevo2:"15", 
  mapas:'"top":19,"left":45,"text":"Esquerda de Cerulean - Próximo ao pântano - (FREE)";"top":23,"left":56,"text":"Floresta a direita de Saffron (FREE)";"top":23,"left":35,"text":"Floresta de Viridian (FREE)"', 
@@ -142,9 +142,9 @@ pokesarray = [
  mapas:'no',  vip: "no", moves:"Doubleslap-70,Body slam-74,Sing-70,Hyper voice-70,Multi slap-70,Rock n roll-74,Echoed voice-75,Softboiled-75,Charm-70,Melody-Passiva,", loots:"(1-1)//microphone--4.0% (28.0%),(1-33)//rubber ball--80.0%,(1-1)//Heart stone--Raro,(1-1)//comb--20.0% (20.0%),"},
  
  {nome:"Zubat", numero:41, level:10, ball1:"Pokeball", ball2:"Greatball", clan1:"Malefic", clan2:"Wingeon", tipo1:"Venenoso", tipo2:"Voador", regiao:"Kanto", geracao:"1", dificuldade:"Fácil", xpcaught:"3000", pricenpc:"120",  shiny:"yes", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"Golbat", evo2:"Crobat", npreevo2:"no", npreevo1:"no", nevo1:"42", nevo2:"169", 
- mapas:'no',  vip: "no", moves:"Supersonic-10,Bite-10,Poison fang-10,Absorb-12,Toxic-15,Lifesteal-Passiva,", loots:"(1-1)//bat wing--1.8%,(1-4)//bottle of poison--80%,(1-4)//straw--80.0%,(1-1)//tooth--18.0%,"},
+ mapas:'no',  vip: "no", moves:"Super sonic-10,Bite-10,Poison fang-10,Absorb-12,Toxic-15,Lifesteal-Passiva,", loots:"(1-1)//bat wing--1.8%,(1-4)//bottle of poison--80%,(1-4)//straw--80.0%,(1-1)//tooth--18.0%,"},
  {nome:"Golbat", numero:42, level:40, ball1:"Greatball", ball2:"Superball", clan1:"Malefic", clan2:"Wingeon", tipo1:"Venenoso", tipo2:"Voador", regiao:"Kanto", geracao:"1", dificuldade:"Médio", xpcaught:"15000", pricenpc:"3000",  shiny:"yes", fast:"yes", heavy:"no", preevo2:"no", preevo1:"Zubat", evo1:"Crobat", evo2:"no", npreevo2:"no", npreevo1:"41", nevo1:"169", nevo2:"no", 
- mapas:'no',  vip: "no", moves:"Supersonic-40,Bite-40,Poison fang-40,Toxic-40,Whirlwind-40,Wing attack-40,Air cutter-44,Lifesteal-Passiva,", loots:"(1-1)//bat wing--4.3%,(1-9)//bottle of poison--80%,(1-9)//straw--80.0%,(1-1)//Venom stone--Raro,(1-1)//tooth--25.5%,"},
+ mapas:'no',  vip: "no", moves:"Super sonic-40,Bite-40,Poison fang-40,Toxic-40,Whirlwind-40,Wing attack-40,Air cutter-44,Lifesteal-Passiva,", loots:"(1-1)//bat wing--4.3%,(1-9)//bottle of poison--80%,(1-9)//straw--80.0%,(1-1)//Venom stone--Raro,(1-1)//tooth--25.5%,"},
  
  {nome:"Oddish", numero:43, level:1, ball1:"Pokeball", ball2:"Greatball", clan1:"Naturia", clan2:"Malefic", tipo1:"Grama", tipo2:"Venenoso", regiao:"Kanto", geracao:"1", dificuldade:"Fácil", xpcaught:"500", pricenpc:"5",  shiny:"yes", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"Gloom", evo2:"Vileplume, Bellosson", npreevo2:"no", npreevo1:"no", nevo1:"44", nevo2:"45,182", 
  mapas:'no',  vip: "no", moves:"Absorb-7,Acid-1,Leech seed-1,Sleep powder-9,Stun spore-8,Poison powder-8,Spores reaction-Passiva,Mega drain-Passiva,", loots:"(1-1)//strange flower--Raro,(1-3)//seed--80%,(1-3)//bottle of poison--80.0%,(1-1)//bag of pollem--1.5%,"},
@@ -159,9 +159,9 @@ pokesarray = [
  mapas:'no',  vip: "no", moves:"Absorb-50,Leech seed-55,Poison sting-50,Slash-50,Poison bomb-50,Stun spore-50,Poison powder-50,Sleep powder-50,Fury cutter-56,X scissor-58,Mega drain-Passiva,Spores reaction-Passiva,", loots:"(1-1)//mushroom--4.3%,(1-13)//bug gosme--80%,(1-13)//seed--80%,(1-1)//Cocoon stone--Raro,(1-1)//Leaf stone--Raro,(1-1)//bag of pollem--15.0%,"},
  
  {nome:"Venonat", numero:48, level:20, ball1:"Pokeball", ball2:"Greatball", clan1:"Naturia", clan2:"Malefic", tipo1:"Grama", tipo2:"Venenoso", regiao:"Kanto", geracao:"1", dificuldade:"Fácil", xpcaught:"10000", pricenpc:"1500",  shiny:"yes", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"Venomoth", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"49", nevo2:"no", 
- mapas:'no',  vip: "no", moves:"Supersonic-20,Psybeam-20,Silver wind-20,Confusion-20,Psychic-26,Sleep powder-28,Poison powder-22,Stun spore-24,", loots:"(1-1)//bug antenna--4.0%,(1-5)//bug gosme--80%,(1-5)//bottle of poison--80.0%,(1-1)//bag of pollem--6.0%,"},
+ mapas:'no',  vip: "no", moves:"Super sonic-20,Psybeam-20,Silver wind-20,Confusion-20,Psychic-26,Sleep powder-28,Poison powder-22,Stun spore-24,", loots:"(1-1)//bug antenna--4.0%,(1-5)//bug gosme--80%,(1-5)//bottle of poison--80.0%,(1-1)//bag of pollem--6.0%,"},
  {nome:"Venomoth", numero:49, level:50, ball1:"Greatball", ball2:"Superball", clan1:"Naturia", clan2:"Malefic", tipo1:"Grama", tipo2:"Venenoso", regiao:"Kanto", geracao:"1", dificuldade:"Médio", xpcaught:"50000", pricenpc:"7250",  shiny:"yes", fast:"no", heavy:"no", preevo2:"no", preevo1:"Venonat", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"48", nevo1:"no", nevo2:"no", 
- mapas:'no',  vip: "no", moves:"Supersonic-50,Psybeam-50,Silver wind-50,Confusion-56,Psychic-50,Signal beam-56,Bug buzz-54,Sleep powder-50,Poison powder-50,", loots:"(1-1)//bug venom--4.3%,(1-13)//bug gosme--80%,(1-13)//bottle of poison--80.0%,(1-1)//Venom stone--Raro,(1-1)//Cocoon stone--Raro,(1-1)//bag of pollem--15.0%,"},
+ mapas:'no',  vip: "no", moves:"Super sonic-50,Psybeam-50,Silver wind-50,Confusion-56,Psychic-50,Signal beam-56,Bug buzz-54,Sleep powder-50,Poison powder-50,", loots:"(1-1)//bug venom--4.3%,(1-13)//bug gosme--80%,(1-13)//bottle of poison--80.0%,(1-1)//Venom stone--Raro,(1-1)//Cocoon stone--Raro,(1-1)//bag of pollem--15.0%,"},
  
  {nome:"Diglett", numero:50, level:10, ball1:"Pokeball", ball2:"Greatball", clan1:"Orebound", clan2:"Nenhum", tipo1:"Terra", tipo2:"Nenhum", regiao:"Kanto", geracao:"1", dificuldade:"Fácil", xpcaught:"3000", pricenpc:"200",  shiny:"no", fast:"yes", heavy:"no", preevo2:"no", preevo1:"no", evo1:"Dugtrio", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"51", nevo2:"no", 
  mapas:'no',  vip: "no", moves:"Sand attack-10,Slash-10,Mud shot-10,Mud slap-12,Earth power-15,", loots:"(1-1)//piece of diglett--1.8%,(1-5)//earth ball--80.0%,(1-1)//sandbag--8.0%,"},
@@ -193,9 +193,9 @@ pokesarray = [
  {nome:"Poliwag", numero:60, level:1, ball1:"Pokeball", ball2:"Greatball", clan1:"Seavell", clan2:"Nenhum", tipo1:"Água", tipo2:"Nenhum", regiao:"Kanto", geracao:"1", dificuldade:"Fácil", xpcaught:"3000", pricenpc:"80",  shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"Poliwhirl", evo2:"Poliwrath, Politoed", npreevo2:"no", npreevo1:"no", nevo1:"61", nevo2:"62,186", 
  mapas:'no',  vip: "no", moves:"Doubleslap-1,Bubbles-1,Water gun-6,Aqua tail-3,Hypnosis-8,", loots:"(1-1)//strange thing--Raro,(1-3)//water gem--80%,(1-1)//water pendant--16.5%,"},
  {nome:"Poliwhirl", numero:61, level:30, ball1:"Greatball", ball2:"Superball", clan1:"Seavell", clan2:"Nenhum", tipo1:"Água", tipo2:"Nenhum", regiao:"Kanto", geracao:"1", dificuldade:"Fácil", xpcaught:"10000", pricenpc:"3000",  shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"Poliwag", evo1:"Poliwrath, Politoed", evo2:"no", npreevo2:"no", npreevo1:"60", nevo1:"62,186", nevo2:"no", 
- mapas:'no',  vip: "yes", moves:"Mud shot-30,Doubleslap-30,Bubblebeam-30,Water gun-30,Ice beam-30,Brick break-32,Dynamic punch-40,Hypnosis-30,", loots:"(1-1)//strange thing--1.6%,(1-13)//water gem--80%,(1-1)//Water stone--Raro,(1-1)//water pendant--22.5%,"},
+ mapas:'no',  vip: "yes", moves:"Mud shot-30,Doubleslap-30,Bubblebeam-30,Water gun-30,Ice beam-30,Brick break-32,Dynamicpunch-40,Hypnosis-30,", loots:"(1-1)//strange thing--1.6%,(1-13)//water gem--80%,(1-1)//Water stone--Raro,(1-1)//water pendant--22.5%,"},
  {nome:"Poliwrath", numero:62, level:70, ball1:"Superball", ball2:"Ultraball", clan1:"Seavell", clan2:"Gardestrike", tipo1:"Água", tipo2:"Lutador", regiao:"Kanto", geracao:"1", dificuldade:"Médio", xpcaught:"100000", pricenpc:"13000",  shiny:"no", fast:"no", heavy:"no", preevo2:"Poliwag", preevo1:"Poliwhirl", evo1:"no", evo2:"no", npreevo2:"60", npreevo1:"61", nevo1:"no", nevo2:"no", 
- mapas:'no',  vip: "yes", moves:"Mud shot-70,Doubleslap-70,Bubblebeam-70,Water gun-70,Ice beam-70,Brick break-72,Dynamic punch-77,Focus blast-78,Hypnosis-70,", loots:"(1-1)//strange thing--8.3%,(1-16)//water gem--80%,(1-16)//band aid--80.0%,(1-1)//Punch stone--Raro,(1-1)//water pendant--34.5%,"},
+ mapas:'no',  vip: "yes", moves:"Mud shot-70,Doubleslap-70,Bubblebeam-70,Water gun-70,Ice beam-70,Brick break-72,Dynamicpunch-77,Focus blast-78,Hypnosis-70,", loots:"(1-1)//strange thing--8.3%,(1-16)//water gem--80%,(1-16)//band aid--80.0%,(1-1)//Punch stone--Raro,(1-1)//water pendant--34.5%,"},
  
  {nome:"Abra", numero:63, level:10, ball1:"Pokeball", ball2:"Greatball", clan1:"Psycraft", clan2:"Nenhum", tipo1:"Psiquico", tipo2:"Nenhum", regiao:"Kanto", geracao:"1", dificuldade:"Fácil", xpcaught:"3000", pricenpc:"800",  shiny:"yes", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"Kadabra", evo2:"Alakazam", npreevo2:"no", npreevo1:"no", nevo1:"64", nevo2:"65", 
  mapas:'"top":25,"left":75,"text":"Desert Island - (VIP)";"top":87,"left":31,"text":"Deserto Mandarin - (FREE)"', 
@@ -217,7 +217,7 @@ pokesarray = [
  {nome:"Machamp", numero:68, level:80, ball1:"Ultraball", ball2:"Nenhuma", clan1:"Gardestrike", clan2:"Nenhum", tipo1:"Lutador", tipo2:"Nenhum", regiao:"Kanto", geracao:"1", dificuldade:"Difícil", xpcaught:"200000", pricenpc:"17000",  shiny:"yes", fast:"yes", heavy:"yes", preevo2:"Machop", preevo1:"Machoke", evo1:"no", evo2:"no", npreevo2:"66", npreevo1:"67", nevo1:"no", nevo2:"no", 
  mapas:'"top":6,"left":18,"text":"Outland East - Saida da direita (VIP)";"top":19,"left":59,"text":"Direita de Cerulean - Ultimo andar do Rock Tunel na parte aberta ao norte (VIP)";"top":24,"left":30,"text":"Esquerda de Viridian - (Subterrâneo) Ao norte do Coliseum (VIP)";"top":56,"left":29,"text":"Esquerda de Shamouti - Ao sul do Fight Club (FREE)"', 
  vip: "no",
- moves:"Triple punch-80,Karate chop-80,Revenge-92,Focus blast-80,Arm thrust-86,Vital throw-88,Dynamic punch-90,Agility-48,Foresight-Passiva,", loots:"(1-1)//belt of champion--1.5% (6.0%),(1-40)//band aid--80%,(1-1)//Punch stone--Raro,"},
+ moves:"Triple punch-80,Karate chop-80,Revenge-92,Focus blast-80,Arm thrust-86,Vital throw-88,Dynamicpunch-90,Agility-48,Foresight-Passiva,", loots:"(1-1)//belt of champion--1.5% (6.0%),(1-40)//band aid--80%,(1-1)//Punch stone--Raro,"},
  
  {nome:"Bellsprout", numero:69, level:1, ball1:"Pokeball", ball2:"Greatball", clan1:"Naturia", clan2:"Malefic", tipo1:"Grama", tipo2:"Venenoso", regiao:"Kanto", geracao:"1", dificuldade:"Fácil", xpcaught:"3000", pricenpc:"80",  shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"Weepinbell", evo2:"Victreebel", npreevo2:"no", npreevo1:"no", nevo1:"70", nevo2:"71", 
  mapas:'no',  vip: "no", moves:"Razor leaf-6,Vine whip-8,Acid-4,Slash-1,", loots:"(1-1)//plant tail--Raro,(1-1)//seed--80.0%,(1-1)//bottle of poison--80%,(1-1)//leaves--21.5%,"},
@@ -227,9 +227,9 @@ pokesarray = [
  mapas:'no',  vip: "yes", moves:"Razor leaf-70,Vine whip-70,Magical leaf-70,Poison bomb-70,Stun spore-70,Poison powder-70,Sleep powder-75,Leaf storm-77,Giga drain-75,Growth-76,", loots:"(1-1)//plant tail--8.3%,(1-13)//seed--80.0%,(1-13)//bottle of poison--80%,(1-1)//Leaf stone--Raro,(1-1)//Venom stone--Raro,(1-1)//leaves--35.0%,"},
  
  {nome:"Tentacool", numero:72, level:10, ball1:"Pokeball", ball2:"Greatball", clan1:"Seavell", clan2:"Malefic", tipo1:"Água", tipo2:"Venenoso", regiao:"Kanto", geracao:"1", dificuldade:"Fácil", xpcaught:"3000", pricenpc:"300",  shiny:"yes", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"Tentacruel", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"73", nevo2:"no", 
- mapas:'no',  vip: "no", moves:"Supersonic-16,Wrap-10,Bubbles-10,Poison jab-10,Acid-10,Waterball-10,", loots:"(1-1)//giant ruby--Raro,(1-4)//water gem--80.0%,(1-4)//bottle of poison--80%,(1-1)//ruby--4.5%,"},
+ mapas:'no',  vip: "no", moves:"Super sonic-16,Wrap-10,Bubbles-10,Poison jab-10,Acid-10,Waterball-10,", loots:"(1-1)//giant ruby--Raro,(1-4)//water gem--80.0%,(1-4)//bottle of poison--80%,(1-1)//ruby--4.5%,"},
  {nome:"Tentacruel", numero:73, level:80, ball1:"Ultraball", ball2:"Nenhuma", clan1:"Seavell", clan2:"Malefic", tipo1:"Água", tipo2:"Venenoso", regiao:"Kanto", geracao:"1", dificuldade:"Difícil", xpcaught:"200000", pricenpc:"10000",  shiny:"yes", fast:"no", heavy:"no", preevo2:"no", preevo1:"Tentacool", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"72", nevo1:"no", nevo2:"no", 
- mapas:'no',  vip: "no", moves:"Supersonic-80,Wrap-80,Bubbles-80,Poison jab-80,Waterball-80,Bubblebeam-80,Acid-80,Water pulse-80,Mortal gas-88,Hydropump-90,Liquid ooze-Passiva,", loots:"(1-1)//giant ruby--4.3%,(1-20)//water gem--80.0%,(1-20)//bottle of poison--80%,(1-1)//Water stone--Raro,(1-1)//Venom stone--Raro,(1-1)//ruby--24.0%,(1-1)//diving mask--Raro,(1-1)//air tank--Raro,(1-1)//fins--Raro,(1-1)//Tentacruel tentacle--Raro,"},
+ mapas:'no',  vip: "no", moves:"Super sonic-80,Wrap-80,Bubbles-80,Poison jab-80,Waterball-80,Bubblebeam-80,Acid-80,Water pulse-80,Mortal gas-88,Hydropump-90,Liquid ooze-Passiva,", loots:"(1-1)//giant ruby--4.3%,(1-20)//water gem--80.0%,(1-20)//bottle of poison--80%,(1-1)//Water stone--Raro,(1-1)//Venom stone--Raro,(1-1)//ruby--24.0%,(1-1)//diving mask--Raro,(1-1)//air tank--Raro,(1-1)//fins--Raro,(1-1)//Tentacruel tentacle--Raro,"},
  
  {nome:"Geodude", numero:74, level:10, ball1:"Pokeball", ball2:"Greatball", clan1:"Orebound", clan2:"Nenhum", tipo1:"Pedra", tipo2:"Terra", regiao:"Kanto", geracao:"1", dificuldade:"Fácil", xpcaught:"3000", pricenpc:"300",  shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"Graveler", evo2:"Golem", npreevo2:"no", npreevo1:"no", nevo1:"75", nevo2:"76", 
  mapas:'no',  vip: "no", moves:"Rock throw-10,Rock slide-10,Stone edge-13,Earth power-15,Harden-15,", loots:"(1-1)//strange rock--Raro,(1-4)//small stone--80%,(1-4)//earth ball--80%,(1-1)//stone orb--14.5%,"},
@@ -249,9 +249,9 @@ pokesarray = [
  mapas:'no',  vip: "no", moves:"Aqua tail-50,Headbutt-50,Iron tail-50,Waterball-50,Water pulse-50,Confusion-50,Psychic-57,Yawn-50,Amnesia-Passiva,", loots:"(1-1)//slow tail--8.9%,(1-11)//water gem--80%,(1-11)//enchanted gem--80%,(1-1)//Water stone--Raro,(1-1)//water pendant--28.5%,"}, 
  
  {nome:"Magnemite", numero:81, level:10, ball1:"Pokeball", ball2:"Greatball", clan1:"Raibolt", clan2:"Ironhard", tipo1:"Elétrico", tipo2:"Metal", regiao:"Kanto", geracao:"1", dificuldade:"Fácil", xpcaught:"3000", pricenpc:"400",  shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"Magneton", evo2:"Magnezone", npreevo2:"no", npreevo1:"no", nevo1:"82", nevo2:"462", 
- mapas:'no',  vip: "no", moves:"Supersonic-10,Thunder shock-10,Spark-10,Electro ball-10,Sonicboom-15,", loots:"(1-1)//magnet--3.6%,(1-4)//screw--80%,(1-4)//piece of steel--80%,(1-1)//electric box--9.5%,"},
+ mapas:'no',  vip: "no", moves:"Super sonic-10,Thunder shock-10,Spark-10,Electro ball-10,Sonicboom-15,", loots:"(1-1)//magnet--3.6%,(1-4)//screw--80%,(1-4)//piece of steel--80%,(1-1)//electric box--9.5%,"},
  {nome:"Magneton", numero:82, level:80, ball1:"Ultraball", ball2:"Nenhuma", clan1:"Raibolt", clan2:"Ironhard", tipo1:"Elétrico", tipo2:"Metal", regiao:"Kanto", geracao:"1", dificuldade:"Médio", xpcaught:"15000", pricenpc:"5400",  shiny:"yes", fast:"no", heavy:"no", preevo2:"no", preevo1:"Magnemite", evo1:"Magnezone", evo2:"no", npreevo2:"no", npreevo1:"81", nevo1:"462", nevo2:"no", 
- mapas:'no',  vip: "no", moves:"Supersonic-80,Thunder shock-80,Spark-80,Tri attack-95,Thunder-88,Electric storm-92,Electro ball-80,Flash cannon-88,", loots:"(1-1)//magnet--9.3%,(1-10)//screw--80%,(1-10)//piece of steel--80%,(1-1)//Thunder stone--Raro,(1-1)//electric box--17.0%,"},
+ mapas:'no',  vip: "no", moves:"Super sonic-80,Thunder shock-80,Spark-80,Tri attack-95,Thunder-88,Electric storm-92,Electro ball-80,Flash cannon-88,", loots:"(1-1)//magnet--9.3%,(1-10)//screw--80%,(1-10)//piece of steel--80%,(1-1)//Thunder stone--Raro,(1-1)//electric box--17.0%,"},
 
  {nome:"Farfetchd", numero:83, level:50, ball1:"Greatball", ball2:"Superball", clan1:"Wingeon", clan2:"Gardestrike", tipo1:"Voador", tipo2:"Normal", regiao:"Kanto", geracao:"1", dificuldade:"Médio", xpcaught:"50000", pricenpc:"8000",  shiny:"yes", fast:"yes", heavy:"no", preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
  mapas:'no',  vip: "no", moves:"Sand attack-50,Drill peck-50,Stickmerang-52,Stickslash-51,Stick throw-54,Night slash-50,Air slash-53,Agility-50,", loots:"(1-1)//Farfetchd stick--4.3%,(1-10)//straw--80%,(1-10)//rubber ball--80.0%,(1-1)//Heart stone--Raro,(1-1)//feather--37.0%,"},
@@ -272,9 +272,9 @@ pokesarray = [
  mapas:'no',  vip: "no", moves:"Mud shot-80,Acid-80,Sludge-80,Mud bomb-80,Poison bomb-80,Venoshock-92,Sludge wave-80,Harden-90,Acid armor-88,", loots:"(1-1)//sticky hand--8.1%,(1-42)//bottle of poison--80.0%,(1-1)//Venom stone--Raro,"},
 
  {nome:"Shellder", numero:90, level:10, ball1:"Pokeball", ball2:"Greatball", clan1:"Seavell", clan2:"Nenhum", tipo1:"Água", tipo2:"Gelo", regiao:"Kanto", geracao:"1", dificuldade:"Fácil", xpcaught:"3000", pricenpc:"200",  shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"Cloyster", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"91", nevo2:"no", 
- mapas:'no',  vip: "no", moves:"Lick-10,Supersonic-17,Bubbles-14,Clamp-18,Ice beam-15,Harden-16,", loots:"(1-1)//locksmith of shell--4.3%,(1-5)//water gem--80%,(1-5)//snowball--80%,(1-1)//ice orb--11.0%,(1-1)//water pendant--3.0%,"},
+ mapas:'no',  vip: "no", moves:"Lick-10,Super sonic-17,Bubbles-14,Clamp-18,Ice beam-15,Harden-16,", loots:"(1-1)//locksmith of shell--4.3%,(1-5)//water gem--80%,(1-5)//snowball--80%,(1-1)//ice orb--11.0%,(1-1)//water pendant--3.0%,"},
  {nome:"Cloyster", numero:91, level:60, ball1:"Greatball", ball2:"Superball", clan1:"Seavell", clan2:"Nenhum", tipo1:"Água", tipo2:"Gelo", regiao:"Kanto", geracao:"1", dificuldade:"Médio", xpcaught:"100000", pricenpc:"10200",  shiny:"no", fast:"no", heavy:"yes", preevo2:"no", preevo1:"Shellder", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"90", nevo1:"no", nevo2:"no", 
- mapas:'no',  vip: "yes", moves:"Lick-60,Supersonic-60,Bubbles-14,Clamp-60,Bubbles-60,Ice beam-60,Aurora beam-64,Blizzard-68,Harden-62,", loots:"(1-1)//strange spike--4.3% (25.5%),(1-15)//snowball--80%,(1-15)//water gem--80%,(1-1)//Ice stone--Raro,(1-1)//Water stone--Raro,(1-1)//ice orb--11.0%,(1-1)//water pendant--26.0% (78.0%),"},
+ mapas:'no',  vip: "yes", moves:"Lick-60,Super sonic-60,Bubbles-14,Clamp-60,Bubbles-60,Ice beam-60,Aurora beam-64,Blizzard-68,Harden-62,", loots:"(1-1)//strange spike--4.3% (25.5%),(1-15)//snowball--80%,(1-15)//water gem--80%,(1-1)//Ice stone--Raro,(1-1)//Water stone--Raro,(1-1)//ice orb--11.0%,(1-1)//water pendant--26.0% (78.0%),"},
 
  {nome:"Gastly", numero:92, level:20, ball1:"Pokeball", ball2:"Greatball", clan1:"Malefic", clan2:"Nenhum", tipo1:"Fantasma", tipo2:"Venenoso", regiao:"Kanto", geracao:"1", dificuldade:"Fácil", xpcaught:"10000", pricenpc:"3000",  shiny:"yes", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"Haunter", evo2:"Gengar", npreevo2:"no", npreevo1:"no", nevo1:"93", nevo2:"94", 
  mapas:'no',  vip: "no", moves:"Lick-20,Shadow ball-20,Night shade-26,Invisible-24,Hypnosis-28,Fear-30,Levitate-Passiva,", loots:"(1-1)//traces of ghost--Raro,(1-5)//ghost essence--80%,(1-5)//bottle of poison--80%,"},
@@ -323,7 +323,7 @@ pokesarray = [
  {nome:"Lickitung", numero:108, level:60, ball1:"Saffariball", ball2:"nenhuma", clan1:"Gardestrike", clan2:"Nenhum", tipo1:"Normal", tipo2:"Nenhum", regiao:"Kanto", geracao:"1", dificuldade:"Difícil", xpcaught:"500000", pricenpc:"60000",  shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
  mapas:'"top":30,"left":51,"text":"Fuchsia - Saffari (espalhados)"', 
  vip: "yes",
- moves:"Lick-60,Shadow ball-60,Slam-60,Body slam-64,Mega punch-60,Iron tail-60,Squishy licking-65,Supersonic-60,Defense curl-60,", loots:"(1-1)//tongue--4.3%,(1-28)//rubber ball--80.0%,(1-1)//Heart stone--Raro,"},
+ moves:"Lick-60,Shadow ball-60,Slam-60,Body slam-64,Mega punch-60,Iron tail-60,Squishy licking-65,Super sonic-60,Defense curl-60,", loots:"(1-1)//tongue--4.3%,(1-28)//rubber ball--80.0%,(1-1)//Heart stone--Raro,"},
 
  {nome:"Koffing", numero:109, level:10, ball1:"Pokeball", ball2:"Greatball", clan1:"Malefic", clan2:"Nenhum", tipo1:"Venenoso", tipo2:"Nenhum", regiao:"Kanto", geracao:"1", dificuldade:"Fácil", xpcaught:"3000", pricenpc:"300",  shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"Weezing", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"110", nevo2:"no", 
  mapas:'no',  vip: "no", moves:"Mud shot-10,Acid-10,Headbutt-10,Mud bomb-13,Poison bomb-15,Poison gas-15,Selfdestruction-20,Levitate-Passiva,", loots:"(1-1)//venom flute--1.8%,(1-8)//bottle of poison--80.0%,"},
@@ -350,9 +350,9 @@ pokesarray = [
  mapas:'no',  vip: "no", moves:"Mud shot-40,Smokescreen-40,Water pulse-40,Bubbles-40,Bubblebeam-40,Water gun-40,Dragon pulse-45,Hydro cannon-48,Dragon rage-Passiva,", loots:"(1-1)//seahorse tail--2.0%,(1-23)//water gem--80.0%,(1-1)//Water stone--Raro,(1-1)//diving mask--Raro,(1-1)//air tank--Raro,(1-1)//fins--Raro,"},
 
  {nome:"Goldeen", numero:118, level:10, ball1:"Pokeball", ball2:"Greatball", clan1:"Seavell", clan2:"Nenhum", tipo1:"Água", tipo2:"Nenhum", regiao:"Kanto", geracao:"1", dificuldade:"Fácil", xpcaught:"3000", pricenpc:"200",  shiny:"yes", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"Seaking", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"119", nevo2:"no", 
- mapas:'no',  vip: "no", moves:"Supersonic-18,Horn attack-10,Poison sting-10,Water gun-12,Water pulse-15,Aqua tail-12,", loots:"(1-1)//fish fin--1.2%,(1-5)//water gem--80.0%,(1-1)//horn--3.5%,"},
+ mapas:'no',  vip: "no", moves:"Super sonic-18,Horn attack-10,Poison sting-10,Water gun-12,Water pulse-15,Aqua tail-12,", loots:"(1-1)//fish fin--1.2%,(1-5)//water gem--80.0%,(1-1)//horn--3.5%,"},
  {nome:"Seaking", numero:119, level:40, ball1:"Greatball", ball2:"Superball", clan1:"Seavell", clan2:"Nenhum", tipo1:"Água", tipo2:"Nenhum", regiao:"Kanto", geracao:"1", dificuldade:"Médio", xpcaught:"15000", pricenpc:"3000",  shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"Goldeen", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"118", nevo1:"no", nevo2:"no", 
- mapas:'no',  vip: "no", moves:"Supersonic-40,Horn attack-40,Waterfall-45,Water gun-40,Water pulse-40,Aqua tail-40,Horn drill-48,Aqua ring-40,", loots:"(1-1)//fish fin--4.3%,(1-18)//water gem--80.0%,(1-1)//Water stone--Raro,(1-1)//horn--11.0%,(1-1)//diving mask--Raro,(1-1)//air tank--Raro,(1-1)//fins--Raro,"},
+ mapas:'no',  vip: "no", moves:"Super sonic-40,Horn attack-40,Waterfall-45,Water gun-40,Water pulse-40,Aqua tail-40,Horn drill-48,Aqua ring-40,", loots:"(1-1)//fish fin--4.3%,(1-18)//water gem--80.0%,(1-1)//Water stone--Raro,(1-1)//horn--11.0%,(1-1)//diving mask--Raro,(1-1)//air tank--Raro,(1-1)//fins--Raro,"},
 
  {nome:"Staryu", numero:120, level:20, ball1:"Pokeball", ball2:"Greatball", clan1:"Seavell", clan2:"Psycraft", tipo1:"Água", tipo2:"Psiquico", regiao:"Kanto", geracao:"1", dificuldade:"Fácil", xpcaught:"10000", pricenpc:"400",  shiny:"yes", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"Starmie", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"121", nevo2:"no", 
  mapas:'no',  vip: "no", moves:"Swift-20,Water gun-20,Bubblebeam-23,Psyshock-28,Psychic-20,Harden-20,Recover-25,", loots:"(1-1)//gem star--1.9%,(1-8)//water gem--80.0%,(1-1)//ruby--4.5%,"},
@@ -403,7 +403,7 @@ pokesarray = [
  mapas:'no',  vip: "yes", moves:"Quick attack-60,Bite-60,Flamethrower-60,Sacred fire-60,Blaze kick-60,Flame burst-60,Overheat-64,Fire blast-68,", loots:"(1-1)//pot of lava--50.0%(1-1)//flareon cream--100.0%,(1-1)//Fire stone--5.0%,(1-1)//vaporeon bag--1.5%,(1-1)//jolteon bag--1.5%,(1-1)//eevee bag--1.5%,(1-1)//flareon bag--1.5%,(1-1)//umbreon bag--1.5%,(1-1)//espeon bag--1.5%,(1-1)//flareon valentines card--2.0%,(1-1)//glaceon bag--Raro,(1-1)//leafeon bag--Raro,(1-1)//sylveon bag--Raro,"},
 
  {nome:"Porygon", numero:137, level:40, ball1:"nenhuma", ball2:"nenhuma", clan1:"Gardestrike", clan2:"Nenhum", tipo1:"Normal", tipo2:"Nenhum", regiao:"Kanto", geracao:"1", dificuldade:"Não capturável", xpcaught:"0", pricenpc:"60000",  shiny:"yes", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"Porygon2", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"233", nevo2:"no", 
- mapas:'no',  vip: "", moves:"Supersonic-40,Psybeam-40,Psycho cut-48,Psychic-40,Zap cannon-44,Focus energy-48,Magic coat-46,Restore-40,", loots:"no"},
+ mapas:'no',  vip: "", moves:"Super sonic-40,Psybeam-40,Psycho cut-48,Psychic-40,Zap cannon-44,Focus energy-48,Magic coat-46,Restore-40,", loots:"no"},
 
  {nome:"Omanyte", numero:138, level:20, ball1:"Masterball", ball2:"nenhuma", clan1:"Seavell", clan2:"Orebound", tipo1:"Água", tipo2:"Pedra", regiao:"Kanto", geracao:"1", dificuldade:"Difícil", xpcaught:"0", pricenpc:"20000",  shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"Omastar", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"139", nevo2:"no", 
  mapas:'no',  vip: "yes", moves:"Bite-20,Rock throw-20,Waterball-20,Water gun-20,Mud shot-20,Brine-25,Harden-26,Ancient power-30,", loots:"(1-1)//helix fossil--Raro,(1-5)//water gem--80.0%,(1-5)//small stone--80.0%,(1-1)//stone orb--16.0%,"},
@@ -416,7 +416,7 @@ pokesarray = [
  mapas:'no',  vip: "yes", moves:"Absorb-80,Slash-85,Rock throw-80,Rock slide-80,Mud shot-85,Night slash-80,Rock tomb-80,Ancient power-95,Harden-90,Fossilized shell-Passiva,", loots:"(1-1)//dome fossil--Raro,(1-20)//water gem--80.0%,(1-20)//small stone--80.0%,(1-1)//Water stone--Raro,(1-1)//Crystal stone--Raro,(1-1)//stone orb--34.0%,"},
 
  {nome:"Aerodactyl", numero:142, level:150, ball1:"nenhuma", ball2:"nenhuma", clan1:"Orebound", clan2:"Wingeon", tipo1:"Pedra", tipo2:"Voador", regiao:"Kanto", geracao:"1", dificuldade:"Não capturável", xpcaught:"0", pricenpc:"unseleable",  shiny:"no", fast:"yes", heavy:"no", preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
- mapas:'no',  vip: "yes", moves:"Roar-160,Supersonic-150,Bite-150,Crunch-150,Rock throw-150,Rock slide-150,Air cutter-158,Wing attack-150,Falling rocks-155,Hyper beam-160,Ancient power-165,", loots:"(1-1)//old amber--Raro,(1-25)//small stone--80.0%,(1-25)//straw--80.0%,(1-1)//Rock stone--3.0%,(1-1)//Ancient stone--Raro,(1-1)//stone orb--40.0%,"},
+ mapas:'no',  vip: "yes", moves:"Roar-160,Super sonic-150,Bite-150,Crunch-150,Rock throw-150,Rock slide-150,Air cutter-158,Wing attack-150,Falling rocks-155,Hyper beam-160,Ancient power-165,", loots:"(1-1)//old amber--Raro,(1-25)//small stone--80.0%,(1-25)//straw--80.0%,(1-1)//Rock stone--3.0%,(1-1)//Ancient stone--Raro,(1-1)//stone orb--40.0%,"},
 
  {nome:"Snorlax", numero:143, level:100, ball1:"Ultraball", ball2:"Nenhuma", clan1:"Gardestrike", clan2:"Nenhum", tipo1:"Normal", tipo2:"Nenhum", regiao:"Kanto", geracao:"1", dificuldade:"Difícil", xpcaught:"650000", pricenpc:"200000",  shiny:"yes", fast:"no", heavy:"yes", preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
  mapas:'no',  vip: "no", moves:"Lick-100,Bite-100,Crunch-100,Mega punch-100,Body slam-104,Giga impact-105,Hyper beam-105,Crusher stomp-110,Rest-106,", loots:"(1-1)//bitten apple--20.0% (80.0%),(1-1)//Heart stone--Raro,(1-1)//pizza--30.0%,(1-1)//hamburguer--30.0%,(1-1)//hotdog--30.0%,"},
@@ -473,9 +473,9 @@ pokesarray = [
  mapas:'no',  vip: "yes", moves:"Quick attack-60,Peck-60,Drill peck-60,Confusion-60,Echoed voice-65,Air slash-63,Dream eater-60,Hypnosis-60,Roost-65,", loots:"(1-1)//owl feather--4.3% (59.5%),(1-16)//straw--80.0%,(1-16)//rubber ball--80.0%,(1-1)//Feather stone--Raro,(1-1)//Heart stone--Raro,(1-1)//feather--44.5% (89.0%),"},
 
  {nome:"Ledyba", numero:165,   level:10,   ball1:"Pokeball",   ball2:"Greatball",   clan1:"Naturia",   clan2:"Wingeon",   tipo1:"Inseto",   tipo2:"Voador",   regiao:"Johto",   geracao:"2",   dificuldade:"Fácil", xpcaught:"3000", pricenpc:"250",  shiny:"no", fast:"yes", heavy:"no", preevo2:"no", preevo1:"no", evo1:"Ledian", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"166", nevo2:"no", 
- mapas:'no',  vip: "yes", moves:"Quick attack-10,Supersonic-10,Swift-10,Silver wind-13,Agility-17,Evasion-Passiva,", loots:"(1-1)//ladybug wing--1.9%,(1-4)//bug gosme--80.0%,(1-4)//straw--80.0%,(1-1)//pot of moss bug--19.5%,"},
+ mapas:'no',  vip: "yes", moves:"Quick attack-10,Super sonic-10,Swift-10,Silver wind-13,Agility-17,Evasion-Passiva,", loots:"(1-1)//ladybug wing--1.9%,(1-4)//bug gosme--80.0%,(1-4)//straw--80.0%,(1-1)//pot of moss bug--19.5%,"},
  {nome:"Ledian", numero:166,   level:40,   ball1:"Greatball",   ball2:"Superball",   clan1:"Naturia",   clan2:"Wingeon",   tipo1:"Inseto",   tipo2:"Voador",   regiao:"Johto",   geracao:"2",   dificuldade:"Médio", xpcaught:"15000", pricenpc:"3000",  shiny:"no", fast:"yes", heavy:"no", preevo2:"no", preevo1:"Ledyba", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"165", nevo1:"no", nevo2:"no", 
- mapas:'no',  vip: "no", moves:"Quick attack-40,Supersonic-40,Swift-40,Silver wind-40,Struggle bug-48,Bug buzz-42,Reflect-48,Agility-42,Evasion-Passiva,", loots:"(1-1)//ladybug wing--4.3%,(1-9)//bug gosme--80.0%,(1-9)//straw--80.0%,(1-1)//Cocoon stone--Raro,(1-1)//pot of moss bug--25.5%,"},
+ mapas:'no',  vip: "no", moves:"Quick attack-40,Super sonic-40,Swift-40,Silver wind-40,Struggle bug-48,Bug buzz-42,Reflect-48,Agility-42,Evasion-Passiva,", loots:"(1-1)//ladybug wing--4.3%,(1-9)//bug gosme--80.0%,(1-9)//straw--80.0%,(1-1)//Cocoon stone--Raro,(1-1)//pot of moss bug--25.5%,"},
 
  {nome:"Spinarak", numero:167,   level:10,   ball1:"Pokeball",   ball2:"Greatball",   clan1:"Naturia",   clan2:"Malefic",   tipo1:"Inseto",   tipo2:"Venenoso",   regiao:"Johto",   geracao:"2",   dificuldade:"Fácil", xpcaught:"3000", pricenpc:"250",  shiny:"no", fast:"yes", heavy:"no", preevo2:"no", preevo1:"no", evo1:"Ariados", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"168", nevo2:"no", 
  mapas:'no',  vip: "no", moves:"String shot-10,Poison sting-10,Fury swipes-10,Poison jab-15,", loots:"(1-1)//spider leg--1.2%,(1-4)//bug gosme--80.0%,(1-4)//bottle of poison--80.0%,(1-1)//pot of moss bug--18.0%,"},
@@ -483,12 +483,12 @@ pokesarray = [
  mapas:'no',  vip: "no", moves:"String shot-40,Bug bite-40,Poison sting-40,Fury swipes-40,Poison jab-40,Pin missile-43,Spider web-50,Psychic-47,", loots:"(1-1)//spider leg--8.3%,(1-9)//bug gosme--80.0%,(1-9)//bottle of poison--80.0%,(1-1)//Cocoon stone--Raro,(1-1)//pot of moss bug--25.5%,"},
 
  {nome:"Crobat", numero:169,   level:80,   ball1:"Ultraball",   ball2:"Nenhuma",   clan1:"Malefic",   clan2:"Wingeon",   tipo1:"Venenoso",   tipo2:"Voador",   regiao:"Johto",   geracao:"2",   dificuldade:"Difícil", xpcaught:"500000", pricenpc:"58000",  shiny:"yes", fast:"yes", heavy:"no", preevo2:"Zubat", preevo1:"Golbat", evo1:"no", evo2:"no", npreevo2:"41", npreevo1:"42", nevo1:"no", nevo2:"no", 
- mapas:'no',  vip: "yes", moves:"Supersonic-80,Bite-80,Poison fang-80,Toxic-80,Air slash-83,Wing attack-80,Air cutter-88,Cross poison-84,Venom gale-95,Lifesteal-Passiva,", loots:"(1-1)//giant bat wing--4.3% (12.8%),(1-20)//bottle of poison--80.0%,(1-20)//straw--80.0%,(1-1)//Venom stone--Raro,(1-1)//Ancient stone--Raro,(1-1)//tooth--39.0% (39.0%),"},
+ mapas:'no',  vip: "yes", moves:"Super sonic-80,Bite-80,Poison fang-80,Toxic-80,Air slash-83,Wing attack-80,Air cutter-88,Cross poison-84,Venom gale-95,Lifesteal-Passiva,", loots:"(1-1)//giant bat wing--4.3% (12.8%),(1-20)//bottle of poison--80.0%,(1-20)//straw--80.0%,(1-1)//Venom stone--Raro,(1-1)//Ancient stone--Raro,(1-1)//tooth--39.0% (39.0%),"},
 
  {nome:"Chinchou", numero:170,   level:10,   ball1:"Pokeball",   ball2:"Greatball",   clan1:"Seavell",   clan2:"Raibolt",   tipo1:"Água",   tipo2:"Elétrico",   regiao:"Johto",   geracao:"2",   dificuldade:"Fácil", xpcaught:"3000", pricenpc:"1000",  shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"Lanturn", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"171", nevo2:"no", 
- mapas:'no',  vip: "yes", moves:"Supersonic-15,Bubbles-10,Spark-10,Water gun-10,Thunder wave-13,", loots:"(1-1)//point of light--1.3%,(1-4)//water gem--80.0%,(1-4)//screw--80.0%,(1-1)//water pendant--19.5%,(1-1)//electric box--4.5%,"},
+ mapas:'no',  vip: "yes", moves:"Super sonic-15,Bubbles-10,Spark-10,Water gun-10,Thunder wave-13,", loots:"(1-1)//point of light--1.3%,(1-4)//water gem--80.0%,(1-4)//screw--80.0%,(1-1)//water pendant--19.5%,(1-1)//electric box--4.5%,"},
  {nome:"Lanturn", numero:171,   level:80,   ball1:"Ultraball",   ball2:"Nenhuma",   clan1:"Seavell",   clan2:"Raibolt",   tipo1:"Água",   tipo2:"Elétrico",   regiao:"Johto",   geracao:"2",   dificuldade:"Difícil", xpcaught:"100000", pricenpc:"6000",  shiny:"yes", fast:"no", heavy:"no", preevo2:"no", preevo1:"Chinchou", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"170", nevo1:"no", nevo2:"no", 
- mapas:'no',  vip: "yes", moves:"Supersonic-80,Bubbles-80,Bubblebeam-80,Spark-80,Thunder wave-80,Water pulse-80,Surf-85,Wild charge-85,Hydropump-90,Bright light-90,", loots:"(1-1)//point of light--8.3%,(1-13)//water gem--80.0%,(1-13)//screw--80.0%,(1-1)//Water stone--Raro,(1-1)//Thunder stone--Raro,(1-1)//water pendant--30.0%,(1-1)//electric box--15.0%,(1-1)//diving mask--Raro,(1-1)//air tank--Raro,(1-1)//fins--Raro,"},
+ mapas:'no',  vip: "yes", moves:"Super sonic-80,Bubbles-80,Bubblebeam-80,Spark-80,Thunder wave-80,Water pulse-80,Surf-85,Wild charge-85,Hydropump-90,Bright light-90,", loots:"(1-1)//point of light--8.3%,(1-13)//water gem--80.0%,(1-13)//screw--80.0%,(1-1)//Water stone--Raro,(1-1)//Thunder stone--Raro,(1-1)//water pendant--30.0%,(1-1)//electric box--15.0%,(1-1)//diving mask--Raro,(1-1)//air tank--Raro,(1-1)//fins--Raro,"},
 
  {nome:"Pichu", numero:172,    level:20,   ball1:"Pokeball",   ball2:"Greatball",   clan1:"Raibolt",   clan2:"Nenhum",   tipo1:"Elétrico",   tipo2:"Nenhum",   regiao:"Johto",   geracao:"2",   dificuldade:"Fácil", xpcaught:"10000", pricenpc:"3000",  shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"Pikachu", evo2:"Raichu", npreevo2:"no", npreevo1:"no", nevo1:"25", nevo2:"26", 
  mapas:'no',  vip: "yes", moves:"Quick attack-20,Thunder shock-20,Thunder bolt-22,Thunder wave-24,Iron tail-26,Thunder-26,Agility-28,Electric charge-Passiva,", loots:"(1-1)//electric rat tail--Raro,(1-10)//screw--80.0%,(1-1)//electric box--11.0%,"},
@@ -546,7 +546,7 @@ pokesarray = [
  mapas:'no',  vip: "no", moves:"Leech seed-30,Razor leaf-30,Petal dance-32,Bullet seed-34,Sunny day-36,Solar beam-38,Mega drain-Passiva,", loots:"(1-1)//helicopter leave--4.3%,(1-15)//seed--80.0%,(1-1)//Leaf stone--Raro,(1-1)//leaves--29.0%,"},
 
  {nome:"Yanma", numero:193,    level:50,   ball1:"Greatball",   ball2:"Superball",   clan1:"Naturia",   clan2:"Wingeon",   tipo1:"Inseto",   tipo2:"Voador",   regiao:"Johto",   geracao:"2",   dificuldade:"Médio", xpcaught:"50000", pricenpc:"9000",  shiny:"no", fast:"yes", heavy:"no", preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
- mapas:'no',  vip: "yes", moves:"Supersonic-50,Tackle-50,Quick attack-50,U turn-50,Double team-52,Wing attack-50,Air slash-58,Bug buzz-56,", loots:"(1-1)//insect tail--4.3%,(1-13)//bug gosme--80.0%,(1-13)//straw--80.0%,(1-1)//Cocoon stone--Raro,(1-1)//pot of moss bug--30.0%,"}, 
+ mapas:'no',  vip: "yes", moves:"Super sonic-50,Tackle-50,Quick attack-50,U turn-50,Double team-52,Wing attack-50,Air slash-58,Bug buzz-56,", loots:"(1-1)//insect tail--4.3%,(1-13)//bug gosme--80.0%,(1-13)//straw--80.0%,(1-1)//Cocoon stone--Raro,(1-1)//pot of moss bug--30.0%,"}, 
 
  {nome:"Wooper", numero:194,   level:20,   ball1:"Pokeball",   ball2:"Greatball",   clan1:"Seavell",   clan2:"Orebound",   tipo1:"Água",   tipo2:"Terra",   regiao:"Johto",   geracao:"2",   dificuldade:"Fácil", xpcaught:"10000", pricenpc:"2000",  shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"Quagsire", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"195", nevo2:"no", 
  mapas:'no',  vip: "yes", moves:"Slam-20,Mud shot-20,Aqua tail-20,Water gun-20,Waterball-24,Muddy water-28,Earthquake-30,Amnesia-Passiva,", loots:"(1-1)//wooper horn--1.3%,(1-5)//water gem--80.0%,(1-5)//earth ball--80.0%,(1-1)//water pendant--21.0%,(1-1)//sandbag--6.0%,"},
@@ -810,12 +810,12 @@ pokesarray = [
    shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"Pelipper", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"279", nevo2:"no", 
    mapas:'no',
   vip: "no",
- moves:"Supersonic-30,Gust-32,Bubbles-35,Wing attack-32,Scald-32,Rain dance-30,", loots:"no"},
+ moves:"Super sonic-30,Gust-32,Bubbles-35,Wing attack-32,Scald-32,Rain dance-30,", loots:"no"},
   {nome:"Pelipper",  numero:279,  level:80,   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Seavell",   clan2:"Wingeon",   tipo1:"Água",   tipo2:"Voador", 
    regiao:"Hoen",   geracao:"3",   dificuldade:"Dimensional zone", xpcaught:"0", pricenpc:"100000",
    shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"Wingull", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"278", nevo1:"no", nevo2:"no", 
-   mapas:'no',  vip: "no", moves:"Supersonic-80,Gust-82,Wing attack-82,Fly-82,Scald-82,Surf-85,Swallow-83,Stockpile-83,Rain dance-80,Protect-80,", loots:"no"},
+   mapas:'no',  vip: "no", moves:"Super sonic-80,Gust-82,Wing attack-82,Fly-82,Scald-82,Surf-85,Swallow-83,Stockpile-83,Rain dance-80,Protect-80,", loots:"no"},
 
   {nome:"Ralts",   numero:280,  level:20,   ball1:"Ultraball",   ball2:"Nenhuma", 
    clan1:"Psycraft",   clan2:"Nenhum",   tipo1:"Psiquico",   tipo2:"Fada", 
@@ -842,7 +842,7 @@ pokesarray = [
    clan1:"Naturia",   clan2:"Gardestrike",   tipo1:"Grama",   tipo2:"Lutador", 
    regiao:"Hoen",   geracao:"3",   dificuldade:"Dimensional zone", xpcaught:"0", pricenpc:"100000",
    shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"Shroomish", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"285", nevo1:"no", nevo2:"no", 
-   mapas:'no',  vip: "no", moves:"Leech seed-80,Bullet seed-80,Energy ball-80,Force palm-80,Sky uppercut-88,Dynamic punch-80,Sleep plague-80,Giga drain-85,Growth-80,Spores reaction-Passiva,", loots:"no"},
+   mapas:'no',  vip: "no", moves:"Leech seed-80,Bullet seed-80,Energy ball-80,Force palm-80,Sky uppercut-88,Dynamicpunch-80,Sleep plague-80,Giga drain-85,Growth-80,Spores reaction-Passiva,", loots:"no"},
 
   {nome:"Slakoth",  numero:287,  level:20,   ball1:"Greatball",   ball2:"Superball", 
    clan1:"Gardestrike",   clan2:"Nenhum",   tipo1:"Normal",   tipo2:"Nenhum", 
@@ -880,17 +880,17 @@ pokesarray = [
    clan1:"Gardestrike",   clan2:"Nenhum",   tipo1:"Normal",   tipo2:"Nenhum", 
    regiao:"Hoen",   geracao:"3",   dificuldade:"Fácil", xpcaught:"10000", pricenpc:"3000",
    shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"Loudred", evo2:"Exploud", npreevo2:"no", npreevo1:"no", nevo1:"294", nevo2:"295", 
-   mapas:'no',  vip: "yes", moves:"Supersonic-20,Tackle-20,Pound-20,Hyper voice-20,Hyper beam-26,Uproar-Passiva,", loots:"(1-1)//cute ball--2.0% (10.0%),(1-10)//rubber ball--80.0% (100.0%),(1-1)//nail--20.0% (60.0%),"},
+   mapas:'no',  vip: "yes", moves:"Super sonic-20,Tackle-20,Pound-20,Hyper voice-20,Hyper beam-26,Uproar-Passiva,", loots:"(1-1)//cute ball--2.0% (10.0%),(1-10)//rubber ball--80.0% (100.0%),(1-1)//nail--20.0% (60.0%),"},
   {nome:"Loudred",  numero:294,  level:40,   ball1:"Greatball",   ball2:"Superball", 
    clan1:"Gardestrike",   clan2:"Nenhum",   tipo1:"Normal",   tipo2:"Nenhum", 
    regiao:"Hoen",   geracao:"3",   dificuldade:"Médio", xpcaught:"15000", pricenpc:"8000",
    shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"Whismur", evo1:"Exploud", evo2:"no", npreevo2:"no", npreevo1:"293", nevo1:"295", nevo2:"no", 
-   mapas:'no',  vip: "yes", moves:"Supersonic-50,Bite-50,Crunch-50,Hyper voice-50,Hyper beam-50,Uproar-Passiva,", loots:"(1-1)//cute ball--4.0% (20.0%),(1-20)//rubber ball--80.0% (100.0%),(1-1)//eruption ears--2.1% (10.5%),(1-1)//Heart stone--Raro,(1-1)//nail--35.0% (100.0%),"},
+   mapas:'no',  vip: "yes", moves:"Super sonic-50,Bite-50,Crunch-50,Hyper voice-50,Hyper beam-50,Uproar-Passiva,", loots:"(1-1)//cute ball--4.0% (20.0%),(1-20)//rubber ball--80.0% (100.0%),(1-1)//eruption ears--2.1% (10.5%),(1-1)//Heart stone--Raro,(1-1)//nail--35.0% (100.0%),"},
   {nome:"Exploud",  numero:295,  level:80,   ball1:"Ultraball",   ball2:"Nenhuma", 
    clan1:"Gardestrike",   clan2:"Nenhum",   tipo1:"Normal",   tipo2:"Nenhum", 
    regiao:"Hoen",   geracao:"3",   dificuldade:"Difícil", xpcaught:"200000", pricenpc:"18000",
    shiny:"no", fast:"no", heavy:"no", preevo2:"Whismur", preevo1:"Loudred", evo1:"no", evo2:"no", npreevo2:"293", npreevo1:"294", nevo1:"no", nevo2:"no", 
-   mapas:'no',  vip: "yes", moves:"Supersonic-80,Bite-80,Crunch-80,Pound-80,Fire fang-80,Echoed voice-85,Boomburst-95,Hyper voice-80,Hyper beam-90,Uproar-Passiva,Leftovers-Passiva,", loots:"(1-1)//cute ball--8.5% (51.0%),(1-43)//rubber ball--80.0% (100.0%),(1-1)//eruption ears--4.5% (54.0%),(1-1)//Heart stone--Raro,(1-1)//nail--50.0% (100.0%),"},
+   mapas:'no',  vip: "yes", moves:"Super sonic-80,Bite-80,Crunch-80,Pound-80,Fire fang-80,Echoed voice-85,Boomburst-95,Hyper voice-80,Hyper beam-90,Uproar-Passiva,Leftovers-Passiva,", loots:"(1-1)//cute ball--8.5% (51.0%),(1-43)//rubber ball--80.0% (100.0%),(1-1)//eruption ears--4.5% (54.0%),(1-1)//Heart stone--Raro,(1-1)//nail--50.0% (100.0%),"},
 
   {nome:"Makuhita",  numero:296,  level:20,   ball1:"Ultraball",   ball2:"Nenhuma", 
    clan1:"Gardestrike",   clan2:"Nenhum",   tipo1:"Lutador",   tipo2:"Nenhum", 
@@ -1014,12 +1014,12 @@ pokesarray = [
    clan1:"Orebound",   clan2:"Wingeon",   tipo1:"Terra",   tipo2:"Dragão", 
    regiao:"Hoen",   geracao:"3",   dificuldade:"Médio", xpcaught:"15000", pricenpc:"8000",
    shiny:"no", fast:"yes", heavy:"no", preevo2:"no", preevo1:"Trapinch", evo1:"Flygon", evo2:"no", npreevo2:"no", npreevo1:"328", nevo1:"330", nevo2:"no", 
-   mapas:'no',  vip: "yes", moves:"Supersonic-50,Rock slide-50,Sand tomb-52,Bulldoze-50,Earthquake-56,Levitate-Passiva,", loots:"(1-1)//sand tail--2.0% (10.0%),(1-10)//dragon scale--80.0% (100.0%),(1-10)//earth ball--80.0% (100.0%),(1-1)//sandbag--30.0% (90.0%),(1-1)//Earth stone--Raro,"},
+   mapas:'no',  vip: "yes", moves:"Super sonic-50,Rock slide-50,Sand tomb-52,Bulldoze-50,Earthquake-56,Levitate-Passiva,", loots:"(1-1)//sand tail--2.0% (10.0%),(1-10)//dragon scale--80.0% (100.0%),(1-10)//earth ball--80.0% (100.0%),(1-1)//sandbag--30.0% (90.0%),(1-1)//Earth stone--Raro,"},
   {nome:"Flygon",  numero:330,  level:80,   ball1:"Ultraball",   ball2:"Maguball", 
    clan1:"Orebound",   clan2:"Wingeon",   tipo1:"Terra",   tipo2:"Dragão", 
    regiao:"Hoen",   geracao:"3",   dificuldade:"Difícil", xpcaught:"500000", pricenpc:"58000",
    shiny:"no", fast:"yes", heavy:"no", preevo2:"Trapinch", preevo1:"Vibrava", evo1:"no", evo2:"no", npreevo2:"328", npreevo1:"329", nevo1:"no", nevo2:"no", 
-   mapas:'no',  vip: "yes", moves:"Supersonic-80,Rock slide-80,Sand tomb-82,Dragon flight-80,Dragon breath-82,Fissure-90,Hyper beam-88,Earthquake-90,Levitate-Passiva,", loots:"(1-1)//sand tail--4.3% (17.0%),(1-21)//dragon scale--80.0% (100.0%),(1-21)//earth ball--80.0% (100.0%),(1-1)//sandbag--50.0% (50.0%),(1-1)//Earth stone--Raro,(1-1)//Crystal stone--Raro,"},
+   mapas:'no',  vip: "yes", moves:"Super sonic-80,Rock slide-80,Sand tomb-82,Dragon flight-80,Dragon breath-82,Fissure-90,Hyper beam-88,Earthquake-90,Levitate-Passiva,", loots:"(1-1)//sand tail--4.3% (17.0%),(1-21)//dragon scale--80.0% (100.0%),(1-21)//earth ball--80.0% (100.0%),(1-1)//sandbag--50.0% (50.0%),(1-1)//Earth stone--Raro,(1-1)//Crystal stone--Raro,"},
 
   {nome:"Swablu",  numero:333,  level:30,   ball1:"Pokeball",   ball2:"Greatball", 
    clan1:"Gardestrike",   clan2:"Wingeon",   tipo1:"Normal",   tipo2:"Voador", 
@@ -1382,7 +1382,7 @@ pokesarray = [
    clan1:"Raibolt",   clan2:"Ironhard",   tipo1:"Elétrico",   tipo2:"Metal", 
    regiao:"Sinoh",   geracao:"4",   dificuldade:"Sem sistema", xpcaught:"500000", pricenpc:"120000",
    shiny:"no", fast:"no", heavy:"yes", preevo2:"Magnemite", preevo1:"Magneton", evo1:"no", evo2:"no", npreevo2:"81", npreevo1:"82", nevo1:"no", nevo2:"no", 
-   mapas:'no',  vip: "yes", moves:"Supersonic-100,Thunder shock-100,Spark-100,Thunder wave-100,Magnet bomb-115,Tri attack-115,Flash cannon-108,Magnet field-Passiva,Magnet rise-Passiva,Tri vision-Passiva,", loots:"(1-43)//piece of steel--80.0% (100.0%),(1-1)//magnet--100.0%,(1-1)//Thunder stone--1.1%,(1-1)//Metal stone--Raro,(1-1)//Data UFO--Raro,(1-1)//titanium imam--Raro,"},
+   mapas:'no',  vip: "yes", moves:"Super sonic-100,Thunder shock-100,Spark-100,Thunder wave-100,Magnet bomb-115,Tri attack-115,Flash cannon-108,Magnet field-Passiva,Magnet rise-Passiva,Tri vision-Passiva,", loots:"(1-43)//piece of steel--80.0% (100.0%),(1-1)//magnet--100.0%,(1-1)//Thunder stone--1.1%,(1-1)//Metal stone--Raro,(1-1)//Data UFO--Raro,(1-1)//titanium imam--Raro,"},
 
    {nome:"Lickilicky",  numero:463,  level:100,   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Gardestrike",   clan2:"Nenhum",   tipo1:"Normal",   tipo2:"Nenhum", 
@@ -1823,7 +1823,7 @@ ShinysMegasArray = [
    fast:"yes", heavy:"no", 
    preevo2:"no", preevo1:"Shiny Zubat", evo1:"Shiny Crobat", evo2:"no", npreevo2:"no", npreevo1:"41-1", nevo1:"169-1", nevo2:"no", 
    mapas:'no',  vip: "no", 
-   moves:"Super sonic-60,Bite,60,Poison fang-60,Toxic-60,Whirlwind-60,Wing attack-60,Air cutter-68,Cross poison-64,Venom gale-75,Lifesteal-Passiva,", 
+   moves:"Super sonic-60,Bite-60,Poison fang-60,Toxic-60,Whirlwind-60,Wing attack-60,Air cutter-68,Cross poison-64,Venom gale-75,Lifesteal-Passiva,", 
    loots:"no"},
    
   {shiny:"Shiny", nome:"Oddish",  numero:"43-1",  level:"10",   ball1:"Nenhuma",   ball2:"Nenhuma", 
@@ -1832,7 +1832,7 @@ ShinysMegasArray = [
    fast:"no", heavy:"no", 
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
-   moves:"Absorb-10,Leech seed-10,Acid-10,Poison bomb-13,Posion gas-17,Sleep powder-10,Stun spore-10,Poison powder-10,Spores reaction-Passiva,", 
+   moves:"Absorb-10,Leech seed-10,Acid-10,Poison bomb-13,Poison gas-17,Sleep powder-10,Stun spore-10,Poison powder-10,Spores reaction-Passiva,", 
    loots:"no"},
   {shiny:"Shiny", nome:"Vileplume",  numero:"45-1",  level:"120",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Naturia",   clan2:"Nenhum",   tipo1:"Grama",   tipo2:"Nenhum", 
@@ -1874,7 +1874,7 @@ ShinysMegasArray = [
    fast:"no", heavy:"no", 
    preevo2:"no", preevo1:"Shiny Venonat", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"48-1", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
-   moves:"Super sonic-100,Leech lfe-105,Silver wind-100,Confusion-106,Psychic-100,Signal beam-100,Whirlwind-100,Bug buzz-106,Sleep powder-100,Poison powder-100,", 
+   moves:"Super sonic-100,Leech life-105,Silver wind-100,Confusion-106,Psychic-100,Signal beam-100,Whirlwind-100,Bug buzz-106,Sleep powder-100,Poison powder-100,", 
    loots:"no"},
    
   {shiny:"Champion", nome:"Primeape",  numero:"57-1",  level:"",   ball1:"Nenhuma",   ball2:"Nenhuma", 
@@ -1933,7 +1933,7 @@ ShinysMegasArray = [
    fast:"no", heavy:"no", 
    preevo2:"no", preevo1:"Alakazam", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"65", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "yes", 
-   moves:"Psybeam-80,Psy pulse-80,Kinesis-80,COnfusion-80,Psychic-80,Future sight-90,Instant teleportaion-80,Reflect-85,Restore-85,", 
+   moves:"Psybeam-80,Psy pulse-80,Kinesis-80,Confusion-80,Psychic-80,Future sight-90,Instant teleportation-80,Reflect-85,Restore-85,", 
    loots:"no"},
    
   {shiny:"Shiny", nome:"Machamp",  numero:"68-1",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma", 
@@ -2372,7 +2372,7 @@ ShinysMegasArray = [
    fast:"no", heavy:"no", 
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
-   moves:"Supersonic-200,Psybeam-200,Psycho cut-208,Psychic-200,Zap cannon-204,Hyper beam-210,Tri attack-215,Focus energy-210,Magic coat-208,Restore-200,Illusion-200,", 
+   moves:"Super sonic-200,Psybeam-200,Psycho cut-208,Psychic-200,Zap cannon-204,Hyper beam-210,Tri attack-215,Focus energy-210,Magic coat-208,Restore-200,Illusion-200,", 
    loots:"no"},
    
   {shiny:"Shiny", nome:"Snorlax",  numero:"143-1",  level:"200",   ball1:"Nenhuma",   ball2:"Nenhuma", 
@@ -3308,7 +3308,7 @@ movesArray = [
    nevermiss: "", paralyze: "", passive: "", poison: "", self: "", slow: "", stun: "", target: "yes", 
    healing: "", silence: "", freeze: "", knockback: "", },
  
- { move: "Supersonic", type: "Normal", desc: "aplica o efeito confusion por 10 segundos.", 
+ { move: "Super sonic", type: "Normal", desc: "aplica o efeito confusion por 10 segundos.", 
    aoe: "", blind: "", buff: "", burn: "", confusion: "yes", damage: "", debuff: "", lifesteal: "", 
    nevermiss: "", paralyze: "", passive: "", poison: "", self: "", slow: "", stun: "", target: "yes", 
    healing: "", silence: "", freeze: "", knockback: "", },
@@ -3848,7 +3848,7 @@ movesArray = [
    target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "", stun: "yes", passive: "", 
    healing: "", silence: "", freeze: "", knockback: "", },
  
- { move: "Dynamic punch", type: "Lutador", desc: "causa dano em uma área progressivamente ao redor do pokemon, sendo possível acertar mais de uma vez o mesmo oponente, aplica efeito confusion por 8 segundos.", 
+ { move: "Dynamicpunch", type: "Lutador", desc: "causa dano em uma área progressivamente ao redor do pokemon, sendo possível acertar mais de uma vez o mesmo oponente, aplica efeito confusion por 8 segundos.", 
    aoe: "yes", blind: "", buff: "", burn: "", confusion: "yes", damage: "yes", debuff: "", lifesteal: "", 
    target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "", stun: "", passive: "", 
    healing: "", silence: "", freeze: "", knockback: "", },
@@ -5993,7 +5993,109 @@ movesArray = [
  { move: "Compass slash", type: "Metal", desc: "", 
    aoe: "yes", blind: "", buff: "", burn: "", confusion: "", damage: "yes", debuff: "", lifesteal: "", 
    target: "", nevermiss: "yes", paralyze: "", poison: "", self: "", slow: "yes", stun: "", passive: "", 
-   healing: "", silence: "", freeze: "", knockback: "", } // bisharp
+   healing: "", silence: "", freeze: "", knockback: "", }, // bisharp
+ 
+ { move: "Poison spore", type: "", desc: "", 
+   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "yes", stun: "", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", }, //s.plume
+ 
+ { move: "Final gambit", type: "", desc: "", 
+   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "yes", stun: "", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", }, //champion primeape
+ 
+ { move: "Kinesis", type: "", desc: "", 
+   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "yes", stun: "", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", }, //mega alakazam
+ 
+ { move: "Explosion", type: "", desc: "", 
+   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "yes", stun: "", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", }, //s.golem
+ 
+ { move: "Regenerator", type: "", desc: "", 
+   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "yes", stun: "", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", }, //Mega slowbro
+ 
+ { move: "Snatch", type: "", desc: "", 
+   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "yes", stun: "", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", }, //s.gengar
+ 
+ { move: "Shadow tag", type: "", desc: "", 
+   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "yes", stun: "", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", }, //mega gengar
+ 
+ { move: "Stone pulse", type: "", desc: "", 
+   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "yes", stun: "", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", }, //BIG ONIX
+ 
+ { move: "Giant force", type: "", desc: "", 
+   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "yes", stun: "", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", }, //BIG ONIX
+ 
+ { move: "Synchronoise", type: "", desc: "", 
+   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "yes", stun: "", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", }, //s.gengar
+ 
+ { move: "Warping reality", type: "", desc: "", 
+   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "yes", stun: "", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", }, //s.gengar
+ 
+ { move: "Hypnotist", type: "", desc: "", 
+   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "yes", stun: "", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", }, //s.gengar
+ 
+ { move: "Flash kick", type: "", desc: "", 
+   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "yes", stun: "", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", }, //elite lee
+ 
+ { move: "Low sweep", type: "", desc: "", 
+   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "yes", stun: "", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", }, //elite lee
+ 
+ { move: "Detect", type: "", desc: "", 
+   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "yes", stun: "", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", }, //elite chan
+ 
+ { move: "Quick guard", type: "", desc: "", 
+   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "yes", stun: "", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", }, //elite chan
+ 
+ { move: "Vine grap", type: "", desc: "", 
+   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "yes", stun: "", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", }, //s.tangela
+ 
+ { move: "Parental bond", type: "", desc: "", 
+   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "yes", stun: "", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", }, //mega kangaskhan
+ 
+ { move: "Stampede", type: "", desc: "", 
+   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "yes", stun: "", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", }, //s.tauros
+ 
+ { move: "Eating grapefruit", type: "", desc: "", 
+   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "yes", stun: "", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", } //s.snorlax
+
+   
 ]
 
 
@@ -7983,7 +8085,7 @@ $(".aviso").html(" ");
        $(".modal").addClass('Pesca');
        $(".Pesca .ballstable div").html(" ");
        text = "<div class='dificuldade'>";
-        text += "Esse Pokemon pode ser obtido através da pesca com iscas especificas.";
+        text += "Esse Pokemon pode ser obtido através de pesca.";
        text += "</div>";
        $(".aviso").append( text );
        $(".aviso").addClass( 'show' );
