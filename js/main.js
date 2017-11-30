@@ -7425,7 +7425,7 @@ criarPaginacaodeTabela();
 
 
  // alert ('Atenção, \n\nPara ver o local no mapa clique na imagem do pokemon, em seguida selecione a aba mapas clique na imagem em miniatura para abrir a imagem na tela grande e repare nos marcadores em vermelho\n\n\nCaso os locais destacados estejam errados deixe seu comentario e se possível uma print da sua tela para que nos consertemos.');
-  alert ('Olá Já é possível visualizar os pokes Shinys, Moves, Loots (de todos os pokes) e tambêm as médias (dos shiny cyber)\n\nPara ver as informações do pokemon shiny basta clicar na foto do pokemon desejado, na janela que abrir posicioneo mouse em cima da bolinha verde (ao lado da foto) que irá mostrar as versões shinys, megas disponíveis.\n\n\nEstamos atualizando as informações, contamos com sua colaboração caso encontre algum erro.');
+  alert ('Já é possível visualizar os pokes Shinys, Moves, Loots (de todos os pokes) e tambêm as médias (dos shiny cyber)\n\nPara ver as informações do pokemon shiny basta clicar na foto do pokemon desejado, na janela que abrir posicioneo mouse em cima da bolinha verde (ao lado da foto) que irá mostrar as versões shinys, megas disponíveis.\n\n\nEstamos atualizando as informações, contamos com sua colaboração caso encontre algum erro.');
 
 // ATUALIZA O MODAL DE INFORMAÇÃO DO POKE AO CLICAR NA CLASSE .ITEM
  $(document).on("click", ".item", function () {
@@ -10256,7 +10256,6 @@ jQuery(document).ready(function($){
   $(document).on("click", ".item3", function () {
      var mySearch = $(this).find('h5').text();
      ga('send', 'event', 'Clicks', 'Shiny', mySearch);
-     alert(mySearch);
   });
  
 
