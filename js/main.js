@@ -2066,7 +2066,7 @@ ShinysMegasArray = [
    loots:"no"},
   {shiny:"Big", nome:"Onix",  numero:"95-2",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Orebound",   clan2:"Nenhum",   tipo1:"Pedra",   tipo2:"Nenhum", 
-   regiao:"Kanto",   geracao:"1",   dificuldade:"Embedded tower", xpcaught:"0", pricenpc:"unseleable",
+   regiao:"Kanto",   geracao:"1",   dificuldade:"Dimensional zone", xpcaught:"0", pricenpc:"unseleable",
    fast:"no", heavy:"yes", 
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
