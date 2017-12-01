@@ -8554,7 +8554,7 @@ $(".aviso").html(" ");
 	var text = query;
 	var term1 = "Shiny ";
 	var term2 = "Mega ";
-	if( text.indexOf( term ) != -1 && text.indexOf( term2 ) != -1 ) {
+	if( text.indexOf( term1 ) != -1 && text.indexOf( term2 ) != -1 ) {
 		query = query.replace("Shiny ", ""); 
 		query = query.replace("Mega ", ""); 
 
