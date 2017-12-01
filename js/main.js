@@ -7583,7 +7583,7 @@ criarPaginacaodeTabela();
 
 //////////////////
   $(".modal-pokes-comentarios div div").html("");
-  var modalFBComment = '<div class="fb-comments fbfbfb" data-numposts="5" data-href="http://mediaspxg.blogspot.com/2017/08/'+myPokeNome.replace(".", "").toLowerCase()+'.html"/>';
+  var modalFBComment = '<div class="fb-comments fbfbfb" data-numposts="5" data-href="http://mediaspxg.blogspot.com/2017/08/'+myPokeNome2.replace(".", "").toLowerCase()+'.html"/>';
   $(".modal-pokes-comentarios div div").append( modalFBComment );
 
 
@@ -8433,6 +8433,8 @@ $(".aviso").html(" ");
     $("#descricao").html("");
     for( i=0; i<ShinysMegasArray.length; i++) {
        var myPokeShinyNome = ShinysMegasArray[i].nome;
+	   var myPokeNome2 = myPokeNome.replace("Shiny ", "").replace("Mega ", "").replace("Baby ", "").replace("Minun and ", "").replace("Champion ", "").replace("Elite ", "").replace("Crystal ", "").replace("Big ", "").replace("Mini ", "").replace("Giant ", "").replace("Shiny Giant ", "").replace("Legion ", "").replace("Water ", "").replace("Fire ", "").replace("Grass ", "").replace("Flying ", "").replace("Ice ", "");
+
        var myPokeShinyTipo = ShinysMegasArray[i].shiny;
   
        var myPokeShinyNum = ShinysMegasArray[i].numero;
@@ -8548,8 +8550,6 @@ $(".aviso").html(" ");
  $(".tablebe4").attr("title", "Fastball");
 
  
- 
-   var myPokeNome2 = myPokeNome.replace("Shiny ", "").replace("Mega ", "").replace("Baby ", "").replace("Minun and ", "").replace("Champion ", "").replace("Elite ", "").replace("Crystal ", "").replace("Big ", "").replace("Mini ", "").replace("Giant ", "").replace("Shiny Giant ", "").replace("Legion ", "").replace("Water ", "").replace("Fire ", "").replace("Grass ", "").replace("Flying ", "").replace("Ice ", "");
    $(".fb-like-in").html( '<div class="fb-like-'+myPokeNome2+'"> <div class="fb-like" data-action="like" data-href="http://mediaspxg.blogspot.com/2017/08/'+myPokeNome2.toLowerCase()+'.html" data-layout="button_count" data-share="true" data-show-faces="false"></div> </div>' );
    $(".rating-modal").html( '<div class="rw-ui-container" data-title="'+myPokeNome2+'"></div>' );
    
@@ -9229,7 +9229,7 @@ var itemsCount = $("#ourHolder > div.zqzq").length;
 //////////////////
 
   $(".modal-pokes-comentarios div div").html("");
-  var modalFBComment = '<div class="fb-comments fbfbfb" data-numposts="5" data-href="http://mediaspxg.blogspot.com/2017/08/'+myPokeNome.replace(".", "").toLowerCase()+'.html"/>';
+  var modalFBComment = '<div class="fb-comments fbfbfb" data-numposts="5" data-href="http://mediaspxg.blogspot.com/2017/08/'+myPokeNome2.replace(".", "").toLowerCase()+'.html"/>';
   $(".modal-pokes-comentarios div div").append( modalFBComment );
 
 //////////// FUNÇÃO PARA EXIBIÇÃO DO MAPA   AO EXIBIR MODAL DA PESQUISA AVANÇADA /////////////////////////////////////////
@@ -10062,6 +10062,8 @@ $(".aviso").html(" ");
     for( i=0; i<ShinysMegasArray.length; i++) {
        var myPokeShinyNome = ShinysMegasArray[i].nome;
        var myPokeShinyTipo = ShinysMegasArray[i].shiny;
+   var myPokeNome2 = myPokeNome.replace("Shiny ", "").replace("Mega ", "").replace("Baby ", "").replace("Minun and ", "").replace("Champion ", "").replace("Elite ", "").replace("Crystal ", "").replace("Big ", "").replace("Mini ", "").replace("Giant ", "").replace("Shiny Giant ", "").replace("Legion ", "").replace("Water ", "").replace("Fire ", "").replace("Grass ", "").replace("Flying ", "").replace("Ice ", "");
+
   
     var myPokeShinyNum = ShinysMegasArray[i].numero;
     var myPokeShinyLevel = ShinysMegasArray[i].level;
@@ -10169,7 +10171,6 @@ $(".aviso").html(" ");
  $(".tablebe3").attr("title", "Heavyball");
  $(".tablebe4").attr("title", "Fastball");
    
-   var myPokeNome2 = myPokeNome.replace("Shiny ", "").replace("Mega ", "").replace("Baby ", "").replace("Minun and ", "").replace("Champion ", "").replace("Elite ", "").replace("Crystal ", "").replace("Big ", "").replace("Mini ", "").replace("Giant ", "").replace("Shiny Giant ", "").replace("Legion ", "").replace("Water ", "").replace("Fire ", "").replace("Grass ", "").replace("Flying ", "").replace("Ice ", "");
    $(".fb-like-in").html( '<div class="fb-like-'+myPokeNome2+'"> <div class="fb-like" data-action="like" data-href="http://mediaspxg.blogspot.com/2017/08/'+myPokeNome2.toLowerCase()+'.html" data-layout="button_count" data-share="true" data-show-faces="false"></div> </div>' );
    $(".rating-modal").html( '<div class="rw-ui-container" data-title="'+myPokeNome2+'"></div>' );
    
