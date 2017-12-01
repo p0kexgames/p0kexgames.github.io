@@ -7554,7 +7554,7 @@ criarPaginacaodeTabela();
 
    var myPokeNum = $(this).data('numero');
    var myPokeNome = $(this).find('.id h5').text();
-   var myPokeNome2 = myPokeNome.replace("Shiny ", "").replace("Mega ", "").replace("Baby ", "").replace("Minun and ", "").replace("Champion ", "").replace("Elite ", "").replace("Crystal ", "").replace("Big ", "").replace("Mini ", "").replace("Giant ", "").replace("Shiny Giant ", "").replace("Legion ", "").replace("Water ", "").replace("Fire ", "").replace("Grass ", "").replace("Flying ", "").replace("Ice ", "").replace(/\(|\)/g, '').replace("Mega X ", "").replace("Mega Y ", "").replace("2 ", "").replace("3 ", "").replace("4 ", "").replace("5 ", "").replace("6 ", "").replace("7 ", "").replace("8 ", "");
+   var myPokeNome2 = myPokeNome.replace("Shiny ", "").replace("Mega ", "").replace("Baby ", "").replace("Minun and ", "").replace("Champion ", "").replace("Elite ", "").replace("Crystal ", "").replace("Big ", "").replace("Mini ", "").replace("Giant ", "").replace("Shiny Giant ", "").replace("Legion ", "").replace("Water ", "").replace("Fire ", "").replace("Grass ", "").replace("Flying ", "").replace("Ice ", "").replace(/\(|\)/g, '').replace("X ", "").replace("Y ", "").replace("2 ", "").replace("3 ", "").replace("4 ", "").replace("5 ", "").replace("6 ", "").replace("7 ", "").replace("8 ", "");
 
    var myPokeLevel = $(this).data('level');
    
@@ -8445,7 +8445,7 @@ $(".aviso").html(" ");
     $("#descricao").html("");
     for( i=0; i<ShinysMegasArray.length; i++) {
        var myPokeShinyNome = ShinysMegasArray[i].nome;
-   var myPokeNome2 = myPokeNome.replace("Shiny ", "").replace("Mega ", "").replace("Baby ", "").replace("Minun and ", "").replace("Champion ", "").replace("Elite ", "").replace("Crystal ", "").replace("Big ", "").replace("Mini ", "").replace("Giant ", "").replace("Shiny Giant ", "").replace("Legion ", "").replace("Water ", "").replace("Fire ", "").replace("Grass ", "").replace("Flying ", "").replace("Ice ", "").replace(/\(|\)/g, '').replace("Mega X ", "").replace("Mega Y ", "").replace("2 ", "").replace("3 ", "").replace("4 ", "").replace("5 ", "").replace("6 ", "").replace("7 ", "").replace("8 ", "");
+       var myPokeNome2 = myPokeNome.replace("Shiny ", "").replace("Mega ", "").replace("Baby ", "").replace("Minun and ", "").replace("Champion ", "").replace("Elite ", "").replace("Crystal ", "").replace("Big ", "").replace("Mini ", "").replace("Giant ", "").replace("Shiny Giant ", "").replace("Legion ", "").replace("Water ", "").replace("Fire ", "").replace("Grass ", "").replace("Flying ", "").replace("Ice ", "").replace(/\(|\)/g, '').replace("X ", "").replace("Y ", "").replace("2 ", "").replace("3 ", "").replace("4 ", "").replace("5 ", "").replace("6 ", "").replace("7 ", "").replace("8 ", "");
 
        var myPokeShinyTipo = ShinysMegasArray[i].shiny;
   
@@ -9201,7 +9201,7 @@ var itemsCount = $("#ourHolder > div.zqzq").length;
    
    var myPokeNum = $('.item.zqzq').data('numero');
    var myPokeNome = $('.item.zqzq').find('.id h5').text();
-   var myPokeNome2 = myPokeNome.replace("Shiny ", "").replace("Mega ", "").replace("Baby ", "").replace("Minun and ", "").replace("Champion ", "").replace("Elite ", "").replace("Crystal ", "").replace("Big ", "").replace("Mini ", "").replace("Giant ", "").replace("Shiny Giant ", "").replace("Legion ", "").replace("Water ", "").replace("Fire ", "").replace("Grass ", "").replace("Flying ", "").replace("Ice ", "").replace(/\(|\)/g, '').replace("Mega X ", "").replace("Mega Y ", "").replace("2 ", "").replace("3 ", "").replace("4 ", "").replace("5 ", "").replace("6 ", "").replace("7 ", "").replace("8 ", "");
+   var myPokeNome2 = myPokeNome.replace("Shiny ", "").replace("Mega ", "").replace("Baby ", "").replace("Minun and ", "").replace("Champion ", "").replace("Elite ", "").replace("Crystal ", "").replace("Big ", "").replace("Mini ", "").replace("Giant ", "").replace("Shiny Giant ", "").replace("Legion ", "").replace("Water ", "").replace("Fire ", "").replace("Grass ", "").replace("Flying ", "").replace("Ice ", "").replace(/\(|\)/g, '').replace("X ", "").replace("Y ", "").replace("2 ", "").replace("3 ", "").replace("4 ", "").replace("5 ", "").replace("6 ", "").replace("7 ", "").replace("8 ", "");
 
    var myPokeLevel = $('.item.zqzq').data('level');
    
@@ -10076,7 +10076,7 @@ $(".aviso").html(" ");
     for( i=0; i<ShinysMegasArray.length; i++) {
        var myPokeShinyNome = ShinysMegasArray[i].nome;
        var myPokeShinyTipo = ShinysMegasArray[i].shiny;
-   var myPokeNome2 = myPokeNome.replace("Shiny ", "").replace("Mega ", "").replace("Baby ", "").replace("Minun and ", "").replace("Champion ", "").replace("Elite ", "").replace("Crystal ", "").replace("Big ", "").replace("Mini ", "").replace("Giant ", "").replace("Shiny Giant ", "").replace("Legion ", "").replace("Water ", "").replace("Fire ", "").replace("Grass ", "").replace("Flying ", "").replace("Ice ", "").replace(/\(|\)/g, '').replace("Mega X ", "").replace("Mega Y ", "").replace("2 ", "").replace("3 ", "").replace("4 ", "").replace("5 ", "").replace("6 ", "").replace("7 ", "").replace("8 ", "");
+       var myPokeNome2 = myPokeNome.replace("Shiny ", "").replace("Mega ", "").replace("Baby ", "").replace("Minun and ", "").replace("Champion ", "").replace("Elite ", "").replace("Crystal ", "").replace("Big ", "").replace("Mini ", "").replace("Giant ", "").replace("Shiny Giant ", "").replace("Legion ", "").replace("Water ", "").replace("Fire ", "").replace("Grass ", "").replace("Flying ", "").replace("Ice ", "").replace(/\(|\)/g, '').replace("X ", "").replace("Y ", "").replace("2 ", "").replace("3 ", "").replace("4 ", "").replace("5 ", "").replace("6 ", "").replace("7 ", "").replace("8 ", "");
 
   
     var myPokeShinyNum = ShinysMegasArray[i].numero;
