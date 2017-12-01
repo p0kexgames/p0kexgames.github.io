@@ -5995,105 +5995,105 @@ movesArray = [
    target: "", nevermiss: "yes", paralyze: "", poison: "", self: "", slow: "yes", stun: "", passive: "", 
    healing: "", silence: "", freeze: "", knockback: "", }, // bisharp
  
- { move: "Poison spore", type: "", desc: "", 
-   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
-   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "yes", stun: "", passive: "", 
-   healing: "", silence: "", freeze: "", knockback: "", }, //s.plume
+ { move: "Poison spore", type: "Venenoso", desc: "ativa quando o seu pokemon ataca ou é atacado fisicamente, aplica efeito poison (x20) em uma área ao redor do pokemon.", 
+   aoe: "yes", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "yes", self: "", slow: "", stun: "", passive: "yes", 
+   healing: "", silence: "", freeze: "", knockback: "", }, 
  
- { move: "Final gambit", type: "", desc: "", 
-   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
-   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "yes", stun: "", passive: "", 
-   healing: "", silence: "", freeze: "", knockback: "", }, //champion primeape
+ { move: "Final gambit", type: "Lutador", desc: "causa dano em uma grande área ao redor do pokemon.", 
+   aoe: "yes", blind: "", buff: "", burn: "", confusion: "", damage: "yes", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "", stun: "", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", }, 
  
- { move: "Kinesis", type: "", desc: "", 
-   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
-   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "yes", stun: "", passive: "", 
-   healing: "", silence: "", freeze: "", knockback: "", }, //mega alakazam
+ { move: "Kinesis", type: "Psiquico", desc: "causa múltiplos danos em uma área ao redor do pokemon, aplica efeito blind por 5 segundos.", 
+   aoe: "yes", blind: "yes", buff: "", burn: "", confusion: "", damage: "yes", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "", stun: "", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", }, 
  
- { move: "Explosion", type: "", desc: "", 
-   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
-   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "yes", stun: "", passive: "", 
-   healing: "", silence: "", freeze: "", knockback: "", }, //s.golem
+ { move: "Explosion", type: "Normal", desc: "seu pokemon é derrotado no momento em que usa Explosion, causa dano em uma grande área ao redor do pokemon, esse dano é baseado na vida corrente do usuário ignorando a defesa do inimigo.", 
+   aoe: "yes", blind: "", buff: "", burn: "", confusion: "", damage: "yes", debuff: "yes", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "", stun: "", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", },
  
- { move: "Regenerator", type: "", desc: "", 
-   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
-   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "yes", stun: "", passive: "", 
-   healing: "", silence: "", freeze: "", knockback: "", }, //Mega slowbro
+ { move: "Regenerator", type: "Água", desc: "ao utilizar o ataque withdraw o pokemon irá curar 1/3 do seu hp máximo.", 
+   aoe: "", blind: "", buff: "yes", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "", stun: "", passive: "yes", 
+   healing: "", silence: "", freeze: "", knockback: "", },
  
- { move: "Snatch", type: "", desc: "", 
-   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
-   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "yes", stun: "", passive: "", 
-   healing: "", silence: "", freeze: "", knockback: "", }, //s.gengar
+ { move: "Snatch", type: "Noturno", desc: "transfere ao oponente todos status negativos que o usuário está sofrendo por 10 segundos.", 
+   aoe: "", blind: "yes", buff: "", burn: "", confusion: "yes", damage: "", debuff: "", lifesteal: "", 
+   target: "yes", nevermiss: "yes", paralyze: "yes", poison: "", self: "", slow: "", stun: "", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", }, 
  
- { move: "Shadow tag", type: "", desc: "", 
-   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
-   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "yes", stun: "", passive: "", 
-   healing: "", silence: "", freeze: "", knockback: "", }, //mega gengar
+ { move: "Shadow tag", type: "Fantasma", desc: "causa dano em uma grande área ao redor do pokemon obrigando todos os oponentes a atacar o usuário por 15 segundos. Shadow tag concede imunidade a poison para seus alvos.", 
+   aoe: "yes", blind: "", buff: "yes", burn: "", confusion: "", damage: "yes", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "yes", paralyze: "", poison: "", self: "", slow: "", stun: "", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", },
  
- { move: "Stone pulse", type: "", desc: "", 
-   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
-   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "yes", stun: "", passive: "", 
-   healing: "", silence: "", freeze: "", knockback: "", }, //BIG ONIX
+ { move: "Stone pulse", type: "Pedra", desc: "ativa quando o pokemon é atacado fisicamente, causa dano em uma área ao redor dele.", 
+   aoe: "yes", blind: "", buff: "", burn: "", confusion: "", damage: "yes", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "", stun: "", passive: "yes", 
+   healing: "", silence: "", freeze: "", knockback: "", }, 
  
- { move: "Giant force", type: "", desc: "", 
-   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
-   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "yes", stun: "", passive: "", 
-   healing: "", silence: "", freeze: "", knockback: "", }, //BIG ONIX
+ { move: "Giant force", type: "Pedra", desc: "todos ataques tipo terra se tornam tipo pedra.", 
+   aoe: "", blind: "", buff: "yes", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "", stun: "", passive: "yes", 
+   healing: "", silence: "", freeze: "", knockback: "", },
  
- { move: "Synchronoise", type: "", desc: "", 
-   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
-   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "yes", stun: "", passive: "", 
-   healing: "", silence: "", freeze: "", knockback: "", }, //s.gengar
+ { move: "Synchronoise", type: "Psiquico", desc: "causa vários danos consecutivos ao oponente.", 
+   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "yes", debuff: "", lifesteal: "", 
+   target: "yes", nevermiss: "", paralyze: "", poison: "", self: "", slow: "", stun: "", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", },
  
- { move: "Warping reality", type: "", desc: "", 
-   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
-   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "yes", stun: "", passive: "", 
-   healing: "", silence: "", freeze: "", knockback: "", }, //s.gengar
+ { move: "Warping reality", type: "Fantasma", desc: "duplica o usuário para confundir os oponentes. Enquanto o usuário fica invisível e invunerável a danos por 5 segundos.", 
+   aoe: "", blind: "", buff: "yes", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "yes", slow: "", stun: "", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", }, 
  
- { move: "Hypnotist", type: "", desc: "", 
-   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
-   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "yes", stun: "", passive: "", 
-   healing: "", silence: "", freeze: "", knockback: "", }, //s.gengar
+ { move: "Hypnotist", type: "Psiquico", desc: "ao invés de causar o efeito confusion, ataques do usuário causam STUN. Alguns ataques terão efeito de duração reduzida.", 
+   aoe: "", blind: "", buff: "yes", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "", stun: "", passive: "yes", 
+   healing: "", silence: "", freeze: "", knockback: "", }, 
  
- { move: "Flash kick", type: "", desc: "", 
-   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
-   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "yes", stun: "", passive: "", 
-   healing: "", silence: "", freeze: "", knockback: "", }, //elite lee
+ { move: "Flash kick", type: "Dragão", desc: "o usuário move-se até o final do ataque, causando dano aos oponentes em uma área frontal.", 
+   aoe: "yes", blind: "", buff: "yes", burn: "", confusion: "", damage: "yes", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "yes", paralyze: "", poison: "", self: "", slow: "", stun: "", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", }, 
  
- { move: "Low sweep", type: "", desc: "", 
-   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
-   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "yes", stun: "", passive: "", 
-   healing: "", silence: "", freeze: "", knockback: "", }, //elite lee
+ { move: "Low sweep", type: "Lutador", desc: "causa dano em uma área frontal, aplicando efeito stun por 2 segundos. dobra o dano causado pelos ataques fisicos durante 4 segundos. Esse ataque só funciona quando demon kicker é ativado.", 
+   aoe: "yes", blind: "", buff: "yes", burn: "", confusion: "", damage: "yes", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "", stun: "yes", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", }, 
  
- { move: "Detect", type: "", desc: "", 
-   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
-   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "yes", stun: "", passive: "", 
-   healing: "", silence: "", freeze: "", knockback: "", }, //elite chan
+ { move: "Detect", type: "Lutador", desc: "o pokemon fica invunerável a danos por 5 segundos.", 
+   aoe: "", blind: "", buff: "yes", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "yes", slow: "", stun: "", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", }, 
  
- { move: "Quick guard", type: "", desc: "", 
-   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
-   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "yes", stun: "", passive: "", 
-   healing: "", silence: "", freeze: "", knockback: "", }, //elite chan
+ { move: "Quick guard", type: "Lutador", desc: "o pokemon fica invunerável a danos por 2 segundos e tem a velocidade de movimento aumentada por 3 segundos.", 
+   aoe: "", blind: "", buff: "yes", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "yes", slow: "", stun: "", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", }, 
  
- { move: "Vine grap", type: "", desc: "", 
-   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
-   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "yes", stun: "", passive: "", 
-   healing: "", silence: "", freeze: "", knockback: "", }, //s.tangela
+ { move: "Vine grap", type: "Grama", desc: "causa dano fazendo com que o usuário e o alvo fiquem imóveis e sem poder atacar durante 5 segundos.", 
+   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "yes", debuff: "yes", lifesteal: "", 
+   target: "yes", nevermiss: "", paralyze: "", poison: "", self: "", slow: "", stun: "yes", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", },
  
- { move: "Parental bond", type: "", desc: "", 
-   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
-   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "yes", stun: "", passive: "", 
-   healing: "", silence: "", freeze: "", knockback: "", }, //mega kangaskhan
+ { move: "Parental bond", type: "Normal", desc: "todo ataque causado por kangaskhan é usado novamente por seu filhote depois de 1.5 segundos. além disso todo ataque lutador e terra são transformados em tipo normal.", 
+   aoe: "", blind: "", buff: "yes", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "", stun: "", passive: "yes", 
+   healing: "", silence: "", freeze: "", knockback: "", }, 
  
- { move: "Stampede", type: "", desc: "", 
-   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
+ { move: "Stampede", type: "Normal", desc: "causa dano em uma grande área, aplicando o efeito slow ou paralyze por 5 segundos.", 
+   aoe: "yes", blind: "", buff: "", burn: "", confusion: "", damage: "yes", debuff: "", lifesteal: "", 
    target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "yes", stun: "", passive: "", 
-   healing: "", silence: "", freeze: "", knockback: "", }, //s.tauros
+   healing: "", silence: "", freeze: "", knockback: "", }, 
  
- { move: "Eating grapefruit", type: "", desc: "", 
-   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
-   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "yes", stun: "", passive: "", 
-   healing: "", silence: "", freeze: "", knockback: "", } //s.snorlax
+ { move: "Eating grapefruit", type: "Normal", desc: "cura o seu pokemon, porém o mesmo recebe o efeito stun por 5 segundos.", 
+   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "yes", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "yes", slow: "", stun: "", passive: "", 
+   healing: "yes", silence: "", freeze: "", knockback: "", } 
 
    
 ]
