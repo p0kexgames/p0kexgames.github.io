@@ -8547,27 +8547,12 @@ $(".aviso").html(" ");
  $(".tablebe3").attr("title", "Heavyball");
  $(".tablebe4").attr("title", "Fastball");
 
-	 //caso tenha vindo de um link ?search=string faz a busca pela string na url
-	var query = myPokeNome; 
-
-
-	var text = query;
-	var term1 = "Shiny ";
-	var term2 = "Mega ";
-	if( text.indexOf( term1 ) != -1 && text.indexOf( term2 ) != -1 ) {
-		query = query.replace("Shiny ", ""); 
-		query = query.replace("Mega ", ""); 
-
-
-		if (query !== "") {
-			var myPokeNome2 = query; 
-			alert (myPokeNome2);
-		}
-	}
+ 
+ 
+   var myPokeNome2 = myPokeNome.replace("Shiny ", "").replace("Mega ", "").replace("Baby ", "").replace("Minun and ", "").replace("Champion ", "").replace("Elite ", "").replace("Crystal ", "").replace("Big ", "").replace("Mini ", "").replace("Giant ", "").replace("Shiny Giant ", "").replace("Legion ", "").replace("Water ", "").replace("Fire ", "").replace("Grass ", "").replace("Flying ", "").replace("Ice ", "");
+   $(".fb-like-in").html( '<div class="fb-like-'+myPokeNome2+'"> <div class="fb-like" data-action="like" data-href="http://mediaspxg.blogspot.com/2017/08/'+myPokeNome2.toLowerCase()+'.html" data-layout="button_count" data-share="true" data-show-faces="false"></div> </div>' );
+   $(".rating-modal").html( '<div class="rw-ui-container" data-title="'+myPokeNome2+'"></div>' );
    
-   $(".fb-like-in").html( '<div class="fb-like-'+myPokeNome+'"> <div class="fb-like" data-action="like" data-href="http://mediaspxg.blogspot.com/2017/08/'+myPokeNome.replace(".", "").toLowerCase()+'.html" data-layout="button_count" data-share="true" data-show-faces="false"></div> </div>' );
-   $(".rating-modal").html( '<div class="rw-ui-container" data-title="'+myPokeNome+'"></div>' );
-
    $(".leveltable .level").html( myPokeLevel );
    $(".leveltable .regiao").html( myPokeRegiao );
    $(".leveltable .geracao").html( myPokeGeracao );
@@ -10183,11 +10168,11 @@ $(".aviso").html(" ");
 
  $(".tablebe3").attr("title", "Heavyball");
  $(".tablebe4").attr("title", "Fastball");
-
    
-   $(".fb-like-in").html( '<div class="fb-like-'+myPokeNome+'"> <div class="fb-like" data-action="like" data-href="http://mediaspxg.blogspot.com/2017/08/'+myPokeNome.replace(".", "").toLowerCase()+'.html" data-layout="button_count" data-share="true" data-show-faces="false"></div> </div>' );
-   $(".rating-modal").html( '<div class="rw-ui-container" data-title="'+myPokeNome+'"></div>' );
-
+   var myPokeNome2 = myPokeNome.replace("Shiny ", "").replace("Mega ", "").replace("Baby ", "").replace("Minun and ", "").replace("Champion ", "").replace("Elite ", "").replace("Crystal ", "").replace("Big ", "").replace("Mini ", "").replace("Giant ", "").replace("Shiny Giant ", "").replace("Legion ", "").replace("Water ", "").replace("Fire ", "").replace("Grass ", "").replace("Flying ", "").replace("Ice ", "");
+   $(".fb-like-in").html( '<div class="fb-like-'+myPokeNome2+'"> <div class="fb-like" data-action="like" data-href="http://mediaspxg.blogspot.com/2017/08/'+myPokeNome2.toLowerCase()+'.html" data-layout="button_count" data-share="true" data-show-faces="false"></div> </div>' );
+   $(".rating-modal").html( '<div class="rw-ui-container" data-title="'+myPokeNome2+'"></div>' );
+   
    $(".leveltable .level").html( myPokeLevel );
    $(".leveltable .regiao").html( myPokeRegiao );
    $(".leveltable .geracao").html( myPokeGeracao );
