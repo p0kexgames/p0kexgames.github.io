@@ -1102,7 +1102,7 @@ pokesarray = [
    clan1:"Volcanic",   clan2:"Nenhum",   tipo1:"Normal",   tipo2:"Nenhum", 
    regiao:"Hoen",   geracao:"3",   dificuldade:"Sem sistema", xpcaught:"500000", pricenpc:"120000",
    shiny:"yes", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
-   mapas:'no',  vip: "yes", moves:"Forecast-Especial,", loots:"(1-20)//essence of fire--80.0%,(1-20)//snowball--80.0%,(1-20)//water gem--80.0%,(1-1)//pot of lava--80.0%,(1-1)//ice orb--80.0%,(1-1)//water pendant--80.0%,(1-1)//Water stone--1.3%,(1-1)//Fire stone--1.3%,(1-1)//Ice stone--1.3%,"},
+   mapas:'no',  vip: "yes", moves:"Forecast-Passiva,", loots:"(1-20)//essence of fire--80.0%,(1-20)//snowball--80.0%,(1-20)//water gem--80.0%,(1-1)//pot of lava--80.0%,(1-1)//ice orb--80.0%,(1-1)//water pendant--80.0%,(1-1)//Water stone--1.3%,(1-1)//Fire stone--1.3%,(1-1)//Ice stone--1.3%,"},
 
   {nome:"Kecleon",  numero:352,  level:80,   ball1:"Ultraball",   ball2:"Nenhuma", 
    clan1:"Gardestrike",   clan2:"Nenhum",   tipo1:"Normal",   tipo2:"Nenhum", 
@@ -2890,7 +2890,7 @@ ShinysMegasArray = [
    fast:"yes", heavy:"no", 
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "yes", 
-   moves:"Thunder shock-100,Feather dance-100,Air cutter-108,Shockwave-100,Whirlwind-100,Subtitute-100,Air slash-103,Aerial ace-104,Morph-100,Levitate-Passiva,", 
+   moves:"Thunder shock-100,Feather dance-100,Air cutter-108,Shockwave-100,Whirlwind-100,Substitute-100,Air slash-103,Aerial ace-104,Morph-100,Levitate-Passiva,", 
    loots:"no"},
   {shiny:"Ice", nome:"Rotom",  numero:"479-5",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Raibolt",   clan2:"Nenhum",   tipo1:"Elétrico",   tipo2:"Gelo", 
