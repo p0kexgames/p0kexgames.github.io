@@ -1283,11 +1283,11 @@ pokesarray = [
    mapas:'no',  vip: "no", moves:"Sand attack-80,Doubleslap-80,Swift-80,Pursuit-80,Last resort-80,Double hit-82,Fury swipes-80,Agility-80,Double team-82,", loots:"no"},
 
    
-  {nome:"Mismagius",  numero:429,  level:"200",   ball1:"Nenhuma",   ball2:"Nenhuma",
+  {nome:"Mismagius",  numero:429,  level:"400",   ball1:"Nenhuma",   ball2:"Nenhuma",
    clan1:"Malefic",   clan2:"Nenhum",   tipo1:"Fantasma",   tipo2:"Nenhum", 
    regiao:"Sinoh",   geracao:"4",   dificuldade:"Não capturável", xpcaught:"0", pricenpc:"0",
    shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
-   mapas:'no',  vip: "yes", moves:"no", loots:"no"},
+   mapas:'no',  vip: "yes", moves:"Shadow ball-400,Dark pulse-400,Cursed hollow-400,Black blow-400,Black box-400,Night daze-406,Fear-400,Mystical fire-410,Double team-402,Dark accurate-1320,Seismic toss-Passiva,", loots:"no"},
 
    
   {nome:"Honchkrow",  numero:430,  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma",
