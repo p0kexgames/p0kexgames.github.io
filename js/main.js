@@ -8014,6 +8014,16 @@ $(".aviso").html(" ");
        $(".aviso").addClass( 'show' );
        $(".aviso").removeClass( 'hide' );
   }
+  if (myPokeDificuldade === 'Form') {
+       $(".modal").addClass('Form');
+       $(".Form .ballstable div").html(" ");
+       text = "<div class='dificuldade'>";
+        text += "Essa forma não pode ser capturada, somente a forma principal, para obter essa forma somente por drop.";
+       text += "</div>";
+       $(".aviso").append( text );
+       $(".aviso").addClass( 'show' );
+       $(".aviso").removeClass( 'hide' );
+  }
   if (myPokeDificuldade === 'Caught') {
        $(".modal").addClass('Caught');
        $(".Caught .ballstable div").html(" ");
