@@ -2330,7 +2330,7 @@ ShinysMegasArray = [
    fast:"no", heavy:"no", 
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
-   moves:"no", 
+   moves:"Transform-Habilidade,", 
    loots:"no"},
    
   {shiny:"Shiny", nome:"Eevee",  numero:"133-1",  level:"70",   ball1:"Nenhuma",   ball2:"Nenhuma", 
