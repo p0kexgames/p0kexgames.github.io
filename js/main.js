@@ -2763,7 +2763,7 @@ ShinysMegasArray = [
    fast:"yes", heavy:"no", 
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "yes", 
-   moves:"Roar-110,Swift-100,Volt fang-100,Spark-100,Ice fang-100,Thunder-100,Discharge-105,Mamaragan-110,Magnet flux-100,", 
+   moves:"Roar-110,Swift-100,Volt fang-100,Spark-100,Ice fang-100,Thunder-100,Discharge-105,Mamaragan-110,Magnetic flux-100,", 
    loots:"no"},
   {shiny:"Mega", nome:"Manectric",  numero:"310-2",  level:"80",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Raibolt",   clan2:"Nenhum",   tipo1:"Elétrico",   tipo2:"Nenhum", 
@@ -4678,9 +4678,9 @@ movesArray = [
    target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "", stun: "", passive: "", 
    healing: "", silence: "", freeze: "", knockback: "", },
  
- { move: "Electro field", type: "Elétrico", desc: "", 
-   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
-   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "", stun: "", passive: "", 
+ { move: "Electro field", type: "Elétrico", desc: "causa dano em uma área ao redor do pokemon, aplicando efeito paralize por 10 segundos.", 
+   aoe: "yes", blind: "", buff: "", burn: "", confusion: "", damage: "yes", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "yes", poison: "", self: "", slow: "", stun: "", passive: "", 
    healing: "", silence: "", freeze: "", knockback: "", },
  
  { move: "Lightning hell", type: "Elétrico", desc: "", 
@@ -6103,9 +6103,108 @@ movesArray = [
  { move: "Eating grapefruit", type: "Normal", desc: "cura o seu pokemon, porém o mesmo recebe o efeito stun por 5 segundos.", 
    aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "yes", lifesteal: "", 
    target: "", nevermiss: "", paralyze: "", poison: "", self: "yes", slow: "", stun: "", passive: "", 
-   healing: "yes", silence: "", freeze: "", knockback: "", } 
+   healing: "yes", silence: "", freeze: "", knockback: "", }, 
+ 
+ 
+ 
+ { move: "Sleep plague", type: "Grama", desc: "causa efeito sleep em uma grande área, dura 6 segundos.", 
+   aoe: "yes", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "", stun: "yes", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", }, 
+ 
+ { move: "Web rain", type: "Inseto", desc: "causa dano em uma grande área ao redor do pokemon, aplicando efeito stun por 10 segundos.", 
+   aoe: "yes", blind: "", buff: "", burn: "", confusion: "", damage: "yes", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "", stun: "yes", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", }, 
+ 
+ { move: "Split", type: "Normal", desc: "multiplica o usuario para confundir os oponentes. dura 10 segundos.", 
+   aoe: "", blind: "", buff: "yes", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "yes", slow: "", stun: "", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", }, 
+ 
+ { move: "Unown strike", type: "Normal", desc: "quando split esta ativo, causa dano ao oponente.", 
+   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "yes", debuff: "", lifesteal: "", 
+   target: "yes", nevermiss: "", paralyze: "", poison: "", self: "", slow: "", stun: "", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", }, 
+ 
+ { move: "Phantom force", type: "Fantasma", desc: "o pokemon e seus aliados ficam invulneráveis a danos e invisíveis por 5 segundos. é concedido bônus de ataque ao seu pokemon e aliados.", 
+   aoe: "yes", blind: "", buff: "yes", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "", stun: "", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", }, 
+ 
+ { move: "Autotomize", type: "Metal", desc: "aumenta a velocidade de movimento do pokemon por 8 segundos.", 
+   aoe: "", blind: "", buff: "yes", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "yes", slow: "", stun: "", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", }, 
+ 
+ { move: "Intimidate", type: "Normal", desc: "ao entrar em combate o pokemon faz com que seus oponentes tenham o ataque reduzido por 10 segundos.", 
+   aoe: "", blind: "", buff: "yes", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "", stun: "", passive: "yes", 
+   healing: "", silence: "", freeze: "", knockback: "", }, 
+ 
+ { move: "Fire fist", type: "Fogo", desc: "causa vários danos consecutivos ao oponente, causando efeito stun por 1 segundo. o usuário não poderá se mover por 1 segundo.", 
+   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "yes", debuff: "", lifesteal: "", 
+   target: "yes", nevermiss: "", paralyze: "", poison: "", self: "", slow: "", stun: "", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", }, 
+ 
+ { move: "Disarming voice", type: "Fada", desc: "causa dano em uma área frontal, causando efeito paralyze por 10 segundos.", 
+   aoe: "yes", blind: "", buff: "", burn: "", confusion: "", damage: "yes", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "yes", poison: "", self: "", slow: "", stun: "", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", }, 
+ 
+ { move: "Misty terrain", type: "", desc: "", 
+   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "", stun: "", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", }, 
+ 
+ { move: "Magic bounce", type: "Pedra", desc: "seu pokemon entra em um modo defensivo, perdendo velocidade de movimento, porêm fixando sua direção por tempo ilimitado. quando está com magic bounce ativado, qualquer ataque que o atingir pela frente terá redução de 90% de dano e o usuário terá o ataque fisico dobrado. quando usado novamente, bounce desfixa sua posição, voltando para sua velocidade original e perdendo o bonus. se o usuario for atingido pelas costas, será penalizado com efeito stun por 0.4 segundos.", 
+   aoe: "", blind: "", buff: "yes", burn: "", confusion: "", damage: "", debuff: "yes", lifesteal: "", 
+   target: "", nevermiss: "yes", paralyze: "", poison: "", self: "", slow: "", stun: "", passive: "yes", 
+   healing: "", silence: "", freeze: "", knockback: "", }, 
+ 
+ { move: "Afraid of needles", type: "Normal", desc: "após seu pokemon ser derrotado, ele voltará totalmente regenerado, porem não poderá se mexer ou atacar por 3 segundos.", 
+   aoe: "", blind: "", buff: "yes", burn: "", confusion: "", damage: "", debuff: "yes", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "", stun: "", passive: "yes", 
+   healing: "", silence: "", freeze: "", knockback: "", }, 
+ 
+ { move: "Mist", type: "Gelo", desc: "cria um campo de névoa que ofusca a visão dos oponentes por 6 segundos.", 
+   aoe: "yes", blind: "", buff: "yes", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "", stun: "", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", }, 
+ 
+ { move: "Sacred breath", type: "Dragão", desc: "ativa quando o pokemon é atacado fisicamente, causando dano em uma área ao redor dele.", 
+   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "yes", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "", stun: "", passive: "yes", 
+   healing: "", silence: "", freeze: "", knockback: "", }, 
+ 
+ { move: "Circle throw", type: "Lutador", desc: "causa dano em uma grande área ao redor do pokemon, aplica efeito stun por 5 segundos e impede qualquer tipo de movimentação do adversário.", 
+   aoe: "yes", blind: "", buff: "", burn: "", confusion: "", damage: "yes", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "", stun: "yes", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", }, 
+ 
+ { move: "Mind reader", type: "Normal", desc: "remove todos os efeitos negativos que afetam o pokemon e concede um bonus de dano para o proximo ataque.", 
+   aoe: "", blind: "", buff: "yes", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "yes", paralyze: "", poison: "", self: "yes", slow: "", stun: "", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", }, 
+ 
+ { move: "Compound eyes", type: "Inseto", desc: "o pokemon usuário quando usar spider web possui mais chances de causar stun no oponente.", 
+   aoe: "", blind: "", buff: "yes", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "", stun: "", passive: "yes", 
+   healing: "", silence: "", freeze: "", knockback: "", }, 
+ 
+ { move: "Baby doll eyes", type: "Fada", desc: "causa dano em uma grande área ao redor do pokemon, aplicando efeito silence por 8 segundos. ao ser utilizado, aumenta a velocidade de movimento do pokemon por 12 segundos.", 
+   aoe: "yes", blind: "", buff: "yes", burn: "", confusion: "", damage: "yes", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "", stun: "", passive: "", 
+   healing: "", silence: "yes", freeze: "", knockback: "", }
 
    
+// , 
+ 
+// { move: "", type: "", desc: "", 
+//   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
+//   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "", stun: "", passive: "", 
+//   healing: "", silence: "", freeze: "", knockback: "", } 
+ 
 ]
 
 
