@@ -6152,9 +6152,9 @@ movesArray = [
    target: "", nevermiss: "", paralyze: "yes", poison: "", self: "", slow: "", stun: "", passive: "", 
    healing: "", silence: "", freeze: "", knockback: "", }, 
  
- { move: "Misty terrain", type: "", desc: "", 
-   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
-   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "", stun: "", passive: "", 
+ { move: "Misty terrain", type: "Normal", desc: "remove os efeitos negativos do usuário e aliados periodicamente em uma grande área, concede defesa contra tipo dragão por 8 segundos.", 
+   aoe: "yes", blind: "", buff: "yes", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "yes", paralyze: "", poison: "", self: "", slow: "", stun: "", passive: "", 
    healing: "", silence: "", freeze: "", knockback: "", }, 
  
  { move: "Magic bounce", type: "Pedra", desc: "seu pokemon entra em um modo defensivo, perdendo velocidade de movimento, porêm fixando sua direção por tempo ilimitado. quando está com magic bounce ativado, qualquer ataque que o atingir pela frente terá redução de 90% de dano e o usuário terá o ataque fisico dobrado. quando usado novamente, bounce desfixa sua posição, voltando para sua velocidade original e perdendo o bonus. se o usuario for atingido pelas costas, será penalizado com efeito stun por 0.4 segundos.", 
