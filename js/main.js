@@ -4683,8 +4683,8 @@ movesArray = [
    target: "", nevermiss: "", paralyze: "yes", poison: "", self: "", slow: "", stun: "", passive: "", 
    healing: "", silence: "", freeze: "", knockback: "", },
  
- { move: "Lightning hell", type: "Elétrico", desc: "", 
-   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
+ { move: "Lightning hell", type: "Elétrico", desc: "Causa dano em uma grande area ao redor do pokemon aplicando o efeito paralize por 15 segundos e concede bônus ao próximo ataque, porém, o usuário perde 20% da vida.", 
+   aoe: "yes", blind: "", buff: "yes", burn: "", confusion: "", damage: "yes", debuff: "yes", lifesteal: "", 
    target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "", stun: "", passive: "", 
    healing: "", silence: "", freeze: "", knockback: "", },
  
