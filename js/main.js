@@ -1035,7 +1035,7 @@ pokesarray = [
   {nome:"Zangoose",  numero:335,  level:80,   ball1:"Ultraball",   ball2:"Nenhuma", 
    clan1:"Gardestrike",   clan2:"Nenhum",   tipo1:"Normal",   tipo2:"Nenhum", 
    regiao:"Hoen",   geracao:"3",   dificuldade:"Difícil", xpcaught:"200000", pricenpc:"22000",
-   shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
+   shiny:"no", fast:"yes", heavy:"no", preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "yes", moves:"Quick attack-80,Slash-80,Dig-82,Pursuit-80,Razor wind-88,Fury swipes-80,Last resort-85,Swords dance-88,Taunt-80,Toxic boost-Passiva,Immunity-Passiva,", loots:"(1-1)//tribe mark--4.3% (59.5%,(1-1)//wool ball--24.3% (72.8%),(1-43)//rubber ball--80.0% (100.0%),(1-1)//Heart stone--Raro,"},
   {nome:"Seviper",  numero:336,  level:80,   ball1:"Ultraball",   ball2:"Nenhuma", 
    clan1:"Malefic",   clan2:"Nenhum",   tipo1:"Venenoso",   tipo2:"Nenhum", 
