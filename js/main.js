@@ -9731,13 +9731,14 @@ $(".aviso").html(" ");
       }
 
 
+
   if (myPokeDificuldade === 'Embedded tower') {
        $(".modal").addClass('Embedded');
        $(".modal").addClass('tower');
        //$(".modal-body .valornpc b").html( 'Indisponível' );
        $(".Embedded.tower .ballstable div").html(" ");
        text = "<div class='dificuldade'>";
-        text += "Esse Pokemon poderá ser adquirido através da Embedded tower.";
+        text += "<i class='fa fa-exclamation-circle'></i> Esse Pokemon poderá ser adquirido através da <a href='http://pokexgames-tutoriais.blogspot.com/2014/10/embedded-tower.html' target='_top'>Embedded tower Quest</a> em Phenac.";
        text += "</div>";
        $(".aviso").append( text );
        $(".aviso").addClass( 'show' );
@@ -9747,7 +9748,17 @@ $(".aviso").html(" ");
        $(".modal").addClass('Drop');
        $(".Drop .ballstable div").html(" ");
        text = "<div class='dificuldade'>";
-        text += "Esse Pokemon poderá ser adquirido por drop.";
+        text += "<i class='fa fa-exclamation-circle'></i> Esse Pokemon poderá ser adquirido por drop da própria mega evolução em Phenac.";
+       text += "</div>";
+       $(".aviso").append( text );
+       $(".aviso").addClass( 'show' );
+       $(".aviso").removeClass( 'hide' );
+  }
+  if (myPokeDificuldade === 'Form') {
+       $(".modal").addClass('Form');
+       $(".Form .ballstable div").html(" ");
+       text = "<div class='dificuldade'>";
+        text += "<i class='fa fa-warning'></i> Essa forma não pode ser capturada, somente a forma principal, para obter essa forma somente por drop.";
        text += "</div>";
        $(".aviso").append( text );
        $(".aviso").addClass( 'show' );
@@ -9757,7 +9768,7 @@ $(".aviso").html(" ");
        $(".modal").addClass('Caught');
        $(".Caught .ballstable div").html(" ");
        text = "<div class='dificuldade'>";
-        text += "Esse Pokemon Não possui média pois não está no sistema.";
+        text += "<i class='fa fa-warning'></i> Esse Pokemon Não possui média pois não está no sistema.";
        text += "</div>";
        $(".aviso").append( text );
        $(".aviso").addClass( 'show' );
@@ -9773,7 +9784,7 @@ $(".aviso").html(" ");
        $(".Cyber.world .ballstable div.tablebe3").html("1400");
        $(".Cyber.world .ballstable div.tablebe4").html("1400");
        text = "<div class='dificuldade'>";
-        text += "Esse Pokemon poderá ser adquirido somente com a quest Cyber world completa.";
+        text += "<i class='fa fa-exclamation-circle'></i> Esse Pokemon poderá ser adquirido somente com a <a href='http://pokexgames-tutoriais.blogspot.com/2014/02/cyber-world-quest.html' target='_top'>quest Cyber world</a> completa.";
        text += "</div>";
        $(".aviso").append( text );
        $(".aviso").addClass( 'show' );
@@ -9784,7 +9795,7 @@ $(".aviso").html(" ");
        $(".modal").addClass('Clan');
        $(".Clan .ballstable div").html(" ");
        text = "<div class='dificuldade'>";
-        text += "Esse Pokemon não pode ser capturado, para ter um basta ir ao respectivo clan no TC.";
+        text += "<i class='fa fa-warning'></i> Esse Pokemon não pode ser capturado, para ter um basta ir ao subsolo do respectivo clan no TC com sua versao normal +20 mais o dinheiro necessário.";
        text += "</div>";
        $(".aviso").append( text );
        $(".aviso").addClass( 'show' );
@@ -9794,7 +9805,7 @@ $(".aviso").html(" ");
        $(".modal").addClass('Inicial');
        $(".Inicial .ballstable div").html(" ");
        text = "<div class='dificuldade'>";
-        text += "Esse Pokemon não pode ser capturado.";
+        text += "<i class='fa fa-warning'></i> Esse Pokemon não pode ser capturado. Somente pode ter um na <a href='http://pokexgames-tutoriais.blogspot.com/2017/10/quest-halloween-2017.html' target='_top'>quest da Stacy</a> ou escolhendo como inicial";
        text += "</div>";
        $(".aviso").append( text );
        $(".aviso").addClass( 'show' );
@@ -9805,7 +9816,7 @@ $(".aviso").html(" ");
        $(".modal").addClass('quest');
        $(".Agatha.quest .ballstable div").html(" ");
        text = "<div class='dificuldade'>";
-        text += "Esse Pokemon não pode ser capturado. Para ter um deverá completar a Agatha Quest";
+        text += "<i class='fa fa-warning'></i> Esse Pokemon não pode ser capturado. Para ter um deverá completar a <a href='http://pokexgames-tutoriais.blogspot.com/2011/07/agatha-quest-lvl-100.html' target='_top'>Agatha Quest</a>";
        text += "</div>";
        $(".aviso").append( text );
        $(".aviso").addClass( 'show' );
@@ -9815,7 +9826,7 @@ $(".aviso").html(" ");
        $(".modal").addClass('Eventos');
        $(".Eventos .ballstable div").html(" ");
        text = "<div class='dificuldade'>";
-        text += "Esse Pokemon está disponível em eventos.";
+        text += "<i class='fa fa-exclamation-circle'></i> Esse Pokemon está disponível somente em eventos. Não possui média.";
        text += "</div>";
        $(".aviso").append( text );
        $(".aviso").addClass( 'show' );
@@ -9826,7 +9837,7 @@ $(".aviso").html(" ");
        $(".modal").addClass('shop');
        $(".Diamond.shop .ballstable div").html(" ");
        text = "<div class='dificuldade'>";
-        text += "Esse Pokemon pode ser obtido somente pelo Diamond shop dentro do jogo.";
+        text += "<i class='fa fa-warning'></i> Esse Pokemon pode ser obtido somente pelo Diamond shop dentro do jogo.";
        text += "</div>";
        $(".aviso").append( text );
        $(".aviso").addClass( 'show' );
@@ -9836,13 +9847,15 @@ $(".aviso").html(" ");
        $(".modal").addClass('Pesca');
        $(".Pesca .ballstable div").html(" ");
        text = "<div class='dificuldade'>";
-        text += "Esse Pokemon pode ser obtido através da pesca com iscas especificas.";
+        text += "<i class='fa fa-exclamation-circle'></i> Esse Pokemon pode ser obtido através de pesca.";
        text += "</div>";
        $(".aviso").append( text );
        $(".aviso").addClass( 'show' );
        $(".aviso").removeClass( 'hide' );
   }
  
+  
+
   
 
   //// CASO POSSUA ALGUM MOVE NA TABELA IRÁ EXIBIR NO CAMPO
