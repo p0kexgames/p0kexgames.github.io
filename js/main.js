@@ -8072,7 +8072,7 @@ $(".aviso").html(" ");
        //$(".modal-body .valornpc b").html( 'Indisponível' );
        $(".Dimensional.zone .ballstable div").html(" ");
        text = "<div class='dificuldade'>";
-        text += "<i class='fa fa-exclamation-circle'></i> Esse Pokemon poderá ser adquirido através da <a href='http://pokexgames-tutoriais.blogspot.com/2017/05/dimensional-zone-disponivel-em-fase.html' target='_top'>Dimensional Zone no TC</a>. (depende das rotações)";
+        text += "<i class='fa fa-exclamation-circle'></i> Esse Pokemon poderá ser adquirido através da <a href='http://pokexgames-tutoriais.blogspot.com/2017/05/dimensional-zone-disponivel-em-fase.html' target='_top'>Dimensional Zone</a>. (depende das rotações)";
        text += "</div>";
        $(".aviso").append( text );
        $(".aviso").addClass( 'show' );
@@ -8081,14 +8081,11 @@ $(".aviso").html(" ");
       $(".aviso").addClass( 'hide' );
       $(".aviso").removeClass( 'show' );
   }
-
-   if (myPokeDificuldade === 'Não capturável') {
+  if (myPokeDificuldade === 'Não capturável') {
        $(".modal").addClass('Não');
        $(".modal").addClass('capturável');
        $(".Não.capturável .ballstable div").html(" ");
       }
-
- 
 
   if (myPokeDificuldade === 'Embedded tower') {
        $(".modal").addClass('Embedded');
@@ -8096,7 +8093,7 @@ $(".aviso").html(" ");
        //$(".modal-body .valornpc b").html( 'Indisponível' );
        $(".Embedded.tower .ballstable div").html(" ");
        text = "<div class='dificuldade'>";
-        text += "<i class='fa fa-exclamation-circle'></i> Esse Pokemon poderá ser adquirido através da <a href='http://pokexgames-tutoriais.blogspot.com/2014/10/embedded-tower.html' target='_top'>Embedded tower Quest</a> em Phenac.";
+        text += "<i class='fa fa-exclamation-circle'></i> Esse Pokemon poderá ser adquirido através da <a href='http://pokexgames-tutoriais.blogspot.com/2014/10/embedded-tower.html' target='_top'>Embedded tower</a> em Phenac.";
        text += "</div>";
        $(".aviso").append( text );
        $(".aviso").addClass( 'show' );
@@ -8106,7 +8103,7 @@ $(".aviso").html(" ");
        $(".modal").addClass('Drop');
        $(".Drop .ballstable div").html(" ");
        text = "<div class='dificuldade'>";
-        text += "<i class='fa fa-exclamation-circle'></i> Esse Pokemon poderá ser adquirido por drop da própria mega evolução em Phenac.";
+        text += "<i class='fa fa-exclamation-circle'></i> Esse Pokemon poderá ser adquirido por drop da própria mega evolução.";
        text += "</div>";
        $(".aviso").append( text );
        $(".aviso").addClass( 'show' );
@@ -8142,7 +8139,7 @@ $(".aviso").html(" ");
        $(".Cyber.world .ballstable div.tablebe3").html("1400");
        $(".Cyber.world .ballstable div.tablebe4").html("1400");
        text = "<div class='dificuldade'>";
-        text += "<i class='fa fa-exclamation-circle'></i> Esse Pokemon poderá ser adquirido somente com a <a href='http://pokexgames-tutoriais.blogspot.com/2014/02/cyber-world-quest.html' target='_top'>quest Cyber world</a> completa.";
+        text += "<i class='fa fa-exclamation-circle'></i> Esse Pokemon poderá ser adquirido somente com a <a href='http://pokexgames-tutoriais.blogspot.com/2014/02/cyber-world-quest.html' target='_top'>Cyber world quest</a>.";
        text += "</div>";
        $(".aviso").append( text );
        $(".aviso").addClass( 'show' );
@@ -8163,7 +8160,7 @@ $(".aviso").html(" ");
        $(".modal").addClass('Inicial');
        $(".Inicial .ballstable div").html(" ");
        text = "<div class='dificuldade'>";
-        text += "<i class='fa fa-warning'></i> Esse Pokemon não pode ser capturado. Somente pode ter um na <a href='http://pokexgames-tutoriais.blogspot.com/2017/10/quest-halloween-2017.html' target='_top'>quest da Stacy</a> ou escolhendo como inicial";
+        text += "<i class='fa fa-warning'></i> Não pode ser capturado. Somente pode ter um na <a href='http://pokexgames-tutoriais.blogspot.com/2017/10/quest-halloween-2017.html' target='_top'>quest da Stacy</a> ou escolhendo como inicial.";
        text += "</div>";
        $(".aviso").append( text );
        $(".aviso").addClass( 'show' );
@@ -9713,7 +9710,7 @@ $(".aviso").html(" ");
        //$(".modal-body .valornpc b").html( 'Indisponível' );
        $(".Dimensional.zone .ballstable div").html(" ");
        text = "<div class='dificuldade'>";
-        text += "Esse Pokemon poderá ser adquirido através da Dimensional Zone.";
+        text += "<i class='fa fa-exclamation-circle'></i> Esse Pokemon poderá ser adquirido através da <a href='http://pokexgames-tutoriais.blogspot.com/2017/05/dimensional-zone-disponivel-em-fase.html' target='_top'>Dimensional Zone</a>. (depende das rotações)";
        text += "</div>";
        $(".aviso").append( text );
        $(".aviso").addClass( 'show' );
@@ -9722,15 +9719,11 @@ $(".aviso").html(" ");
       $(".aviso").addClass( 'hide' );
       $(".aviso").removeClass( 'show' );
   }
-
-
-   if (myPokeDificuldade === 'Não capturável') {
+  if (myPokeDificuldade === 'Não capturável') {
        $(".modal").addClass('Não');
        $(".modal").addClass('capturável');
        $(".Não.capturável .ballstable div").html(" ");
       }
-
-
 
   if (myPokeDificuldade === 'Embedded tower') {
        $(".modal").addClass('Embedded');
@@ -9738,7 +9731,7 @@ $(".aviso").html(" ");
        //$(".modal-body .valornpc b").html( 'Indisponível' );
        $(".Embedded.tower .ballstable div").html(" ");
        text = "<div class='dificuldade'>";
-        text += "<i class='fa fa-exclamation-circle'></i> Esse Pokemon poderá ser adquirido através da <a href='http://pokexgames-tutoriais.blogspot.com/2014/10/embedded-tower.html' target='_top'>Embedded tower Quest</a> em Phenac.";
+        text += "<i class='fa fa-exclamation-circle'></i> Esse Pokemon poderá ser adquirido através da <a href='http://pokexgames-tutoriais.blogspot.com/2014/10/embedded-tower.html' target='_top'>Embedded tower</a> em Phenac.";
        text += "</div>";
        $(".aviso").append( text );
        $(".aviso").addClass( 'show' );
@@ -9748,7 +9741,7 @@ $(".aviso").html(" ");
        $(".modal").addClass('Drop');
        $(".Drop .ballstable div").html(" ");
        text = "<div class='dificuldade'>";
-        text += "<i class='fa fa-exclamation-circle'></i> Esse Pokemon poderá ser adquirido por drop da própria mega evolução em Phenac.";
+        text += "<i class='fa fa-exclamation-circle'></i> Esse Pokemon poderá ser adquirido por drop da própria mega evolução.";
        text += "</div>";
        $(".aviso").append( text );
        $(".aviso").addClass( 'show' );
@@ -9784,7 +9777,7 @@ $(".aviso").html(" ");
        $(".Cyber.world .ballstable div.tablebe3").html("1400");
        $(".Cyber.world .ballstable div.tablebe4").html("1400");
        text = "<div class='dificuldade'>";
-        text += "<i class='fa fa-exclamation-circle'></i> Esse Pokemon poderá ser adquirido somente com a <a href='http://pokexgames-tutoriais.blogspot.com/2014/02/cyber-world-quest.html' target='_top'>quest Cyber world</a> completa.";
+        text += "<i class='fa fa-exclamation-circle'></i> Esse Pokemon poderá ser adquirido somente com a <a href='http://pokexgames-tutoriais.blogspot.com/2014/02/cyber-world-quest.html' target='_top'>Cyber world quest</a>.";
        text += "</div>";
        $(".aviso").append( text );
        $(".aviso").addClass( 'show' );
@@ -9805,7 +9798,7 @@ $(".aviso").html(" ");
        $(".modal").addClass('Inicial');
        $(".Inicial .ballstable div").html(" ");
        text = "<div class='dificuldade'>";
-        text += "<i class='fa fa-warning'></i> Esse Pokemon não pode ser capturado. Somente pode ter um na <a href='http://pokexgames-tutoriais.blogspot.com/2017/10/quest-halloween-2017.html' target='_top'>quest da Stacy</a> ou escolhendo como inicial";
+        text += "<i class='fa fa-warning'></i> Não pode ser capturado. Somente pode ter um na <a href='http://pokexgames-tutoriais.blogspot.com/2017/10/quest-halloween-2017.html' target='_top'>quest da Stacy</a> ou escolhendo como inicial.";
        text += "</div>";
        $(".aviso").append( text );
        $(".aviso").addClass( 'show' );
@@ -9854,6 +9847,7 @@ $(".aviso").html(" ");
        $(".aviso").removeClass( 'hide' );
   }
  
+  
   
 
   
