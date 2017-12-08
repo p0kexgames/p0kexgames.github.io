@@ -6194,11 +6194,14 @@ movesArray = [
  { move: "Baby doll eyes", type: "Fada", desc: "causa dano em uma grande área ao redor do pokemon, aplicando efeito silence por 8 segundos. ao ser utilizado, aumenta a velocidade de movimento do pokemon por 12 segundos.", 
    aoe: "yes", blind: "", buff: "yes", burn: "", confusion: "", damage: "yes", debuff: "", lifesteal: "", 
    target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "", stun: "", passive: "", 
-   healing: "", silence: "yes", freeze: "", knockback: "", }
+   healing: "", silence: "yes", freeze: "", knockback: "", }, 
+ 
+ { move: "Air vortex", type: "Voador", desc: "o pokemon puxa todos os oponentes a sua volta, causando pequenos danos, aplicando efeito stun, a duração é de 10 segundos e o pokemon que utiliza esse ataque não pode se mover ou atacar durante esse periodo.", 
+   aoe: "yes", blind: "", buff: "", burn: "", confusion: "", damage: "yes", debuff: "yes", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "", stun: "yes", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", }
 
    
-// , 
- 
 // { move: "", type: "", desc: "", 
 //   aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
 //   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "", stun: "", passive: "", 
