@@ -7705,11 +7705,10 @@ criarPaginacaodeTabela();
    
    if (myPokeEvolveStone !== '') {
 	$('#subdesc .evo-desc').css('display', 'block');
-	$("#subdesc .evo-desc").html(myPokeEvolveStone);
+	$("#subdesc .evo-desc").html("Evolui com: "+myPokeEvolveStone);
    } else {
 	$('#subdesc .evo-desc').css('display', 'none');
    }
-   
    if (myPokeBoost !== '' && myPokeBoostStone !== '') {
 	$('#subdesc .boost-desc').css('display', 'block');
 	$("#subdesc .boost-desc .qtde").html(myPokeBoost);
@@ -7717,6 +7716,8 @@ criarPaginacaodeTabela();
    } else {
 	$('#subdesc .boost-desc').css('display', 'none');
    }
+   
+   
    
 //////////////////
   $(".modal-pokes-comentarios div div").html("");
@@ -9370,6 +9371,27 @@ var itemsCount = $("#ourHolder > div.zqzq").length;
    var myPokeVIP = $('.item.zqzq').data('vip');
    var myPokeMoves = $('.item.zqzq').data('moves');
    var myPokeLoots = $('.item.zqzq').data('loots');
+   
+   var myPokeEvolveStone = $('.item.zqzq').data('evostone');
+   var myPokeBoost = $('.item.zqzq').data('boost');
+   var myPokeBoostStone = $('.item.zqzq').data('boostone');
+
+   
+   if (myPokeEvolveStone !== '') {
+	$('#subdesc .evo-desc').css('display', 'block');
+	$("#subdesc .evo-desc").html("Evolui com: "+myPokeEvolveStone);
+   } else {
+	$('#subdesc .evo-desc').css('display', 'none');
+   }
+   if (myPokeBoost !== '' && myPokeBoostStone !== '') {
+	$('#subdesc .boost-desc').css('display', 'block');
+	$("#subdesc .boost-desc .qtde").html(myPokeBoost);
+	$("#subdesc .boost-desc .stone").html(myPokeBoostStone);
+   } else {
+	$('#subdesc .boost-desc').css('display', 'none');
+   }
+   
+   
    
    
 //////////////////
