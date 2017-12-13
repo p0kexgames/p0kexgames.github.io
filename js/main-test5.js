@@ -7697,7 +7697,27 @@ criarPaginacaodeTabela();
    
    var myPokeMoves = $(this).data('moves');
    var myPokeLoots = $(this).data('loots');
+   
+   var myPokeEvolveStone = $(this).data('evostone');
+   var myPokeBoost = $(this).data('boost');
+   var myPokeBoostStone = $(this).data('boostone');
 
+   
+   if (myPokeEvolveStone !== '') {
+	$('#subdesc .evo-desc').css('display', 'block');
+	$("#subdesc .evo-desc").html(myPokeEvolveStone);
+   } else {
+	$('#subdesc .evo-desc').css('display', 'none');
+   }
+   
+   if (myPokeBoost !== '' && myPokeBoostStone !== '') {
+	$('#subdesc .boost-desc').css('display', 'block');
+	$("#subdesc .boost-desc .qtde").html(myPokeBoost);
+	$("#subdesc .boost-desc .stone").html(myPokeBoostStone);
+   } else {
+	$('#subdesc .boost-desc').css('display', 'none');
+   }
+   
 //////////////////
   $(".modal-pokes-comentarios div div").html("");
   var modalFBComment = '<div class="fb-comments fbfbfb" data-numposts="5" data-href="http://mediaspxg.blogspot.com/2017/08/'+myPokeNome2.replace(".", "").toLowerCase()+'.html"/>';
