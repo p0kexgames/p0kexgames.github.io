@@ -7713,6 +7713,9 @@ criarPaginacaodeTabela();
 	$('#subdesc .boost-desc').css('display', 'block');
 	$("#subdesc .boost-desc .qtde").html("Aumenta a cada: "+myPokeBoost);
 	$("#subdesc .boost-desc .stone").html("Bosta com: "+myPokeBoostStone);
+	
+	$("#subdesc .boost-desc").attr("onmouseover", "getElementById('boost"+myPokeBoost+"info').style.display='block'");
+	$("#subdesc .boost-desc").attr("onmouseout", "getElementById('boost"+myPokeBoost+"info').style.display='none'");
    } else {
 	$('#subdesc .boost-desc').css('display', 'none');
    }
@@ -9386,10 +9389,12 @@ var itemsCount = $("#ourHolder > div.zqzq").length;
 	$('#subdesc .boost-desc').css('display', 'block');
 	$("#subdesc .boost-desc .qtde").html("Aumenta a cada: "+myPokeBoost);
 	$("#subdesc .boost-desc .stone").html("Bosta com: "+myPokeBoostStone);
+	
+	$("#subdesc .boost-desc").attr("onmouseover", "getElementById('boost"+myPokeBoost+"info').style.display='block'");
+	$("#subdesc .boost-desc").attr("onmouseout", "getElementById('boost"+myPokeBoost+"info').style.display='none'");
    } else {
 	$('#subdesc .boost-desc').css('display', 'none');
    }
-   
    
    
    
