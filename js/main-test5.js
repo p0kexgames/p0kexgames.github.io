@@ -1217,7 +1217,7 @@ pokesarray = [
    clan1:"Ironhard",   clan2:"Nenhum",   tipo1:"Metal",   tipo2:"Nenhum", 
    regiao:"Hoen",   geracao:"3",   dificuldade:"Não capturável", xpcaught:"0", pricenpc:"unseleable",
    shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
-   mapas:'no',  vip: "yes", moves:"no", loots:"no", evoStone:"", boost:"", booStone:"", habilidades:""},
+   mapas:'no',  vip: "yes", moves:"Iron spiner-500,Iron head-500,Iron tail-500,Hammer arm-500,Ancient power-515,Metal burst-500,Meteor mash-500,Flash cannon-508,Hyper beam-510,Harden-500,", loots:"no", evoStone:"", boost:"", booStone:"", habilidades:""},
 
 ///////// INICIO GERACAO 4
   {nome:"Torterra",  numero:389,  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma",
