@@ -2856,7 +2856,7 @@ ShinysMegasArray = [
    fast:"no", heavy:"no", 
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
-   moves:"no", 
+   moves:"Swift-100,Ice shards-100,Ice fang-100,Ice beam-100,Frost breath-102,Tail whip-100,Blizzard-106,Hail-108,Magic coat-106,Barrier-120,Ice body-Passiva,", 
    loots:"no", evoStone:"", boost:"", booStone:"", habilidades:""},
    
   {shiny:"Water", nome:"Rotom",  numero:"479-1",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma", 
@@ -5869,10 +5869,10 @@ movesArray = [
  ////////
  
  ////////
- { move: "Ice body", type: "Gelo", desc: "", 
+ { move: "Ice body", type: "Gelo", desc: "ao utilizar hail o pokemon cura 1/3 de sua vida máxima.", 
    aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
-   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "", stun: "", passive: "", 
-   healing: "", silence: "", freeze: "", knockback: "", }, // glaceon
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "", stun: "", passive: "yes", 
+   healing: "yes", silence: "", freeze: "", knockback: "", }, // glaceon
  ////////
  
  { move: "Zen headbutt", type: "Psiquico", desc: "causa dano e aplica efeito stun por 6 segundos.", 
