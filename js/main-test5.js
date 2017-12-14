@@ -1667,7 +1667,7 @@ ShinysMegasArray = [
    fast:"no", heavy:"yes", preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Tackle-100,Razor leaf-100,Vine whip-100,Headbutt-100,Leech seed-100,Bullet seed-100,Solar beam-100,Giga drain-105,Sleep powder-100,Poison powder-100,Leaf storm-110,Thick fat-Passiva,", 
-   loots:"(1-1)//leaves--60.0%,(1-1)//bulb--4.0%,(1-1)//bag of pollem--8.0%,(1-1)//Leaf stone--Raro,(1-1)//Bulbasaur doll--1.5%,(1-100)//seed--80.0%,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//leaves--60.0%,(1-1)//bulb--4.0%,(1-1)//bag of pollem--8.0%,(1-1)//Leaf stone--Raro,(1-1)//Bulbasaur doll--1.5%,(1-100)//seed--80.0%,", evoStone:"", boost:"2", booStone:"Leaf stone", habilidades:"Ride"},
   {shiny:"Mega", nome:"Venusaur",  numero:"3-2",  level:"80",   ball1:"Nenhuma",   ball2:"Nenhuma",
    clan1:"Naturia",   clan2:"Malefic",   tipo1:"Grama",   tipo2:"Venenoso", 
    regiao:"Kanto",   geracao:"1",   dificuldade:"Embedded tower", xpcaught:"0", pricenpc:"0",
