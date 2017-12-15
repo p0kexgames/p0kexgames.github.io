@@ -7718,19 +7718,20 @@ criarPaginacaodeTabela();
 	
 	$("#subdesc .boost-desc").attr("onmouseover", "getElementById('boost"+myPokeBoost+"info').style.display='block'");
 	$("#subdesc .boost-desc").attr("onmouseout", "getElementById('boost"+myPokeBoost+"info').style.display='none'");
-	if (myPokeBoostStone === 'Mystic star') {
-		$('#boost50info .linhas-1').css('display', 'none');
-		$('#boost50info .linhas-2').css('display', 'block');
-	} else {
-		$('#boost50info .linhas-1').css('display', 'block');
-		$('#boost50info .linhas-2').css('display', 'none');
-	}
 	if (myPokeBoostStone === 'Metal stone' || myPokeBoostStone === 'Crystal stone' || myPokeBoostStone === 'Ancient stone') {
 		$('#boost30info .linhas-1').css('display', 'none');
 		$('#boost30info .linhas-2').css('display', 'block');
 	} else {
 		$('#boost30info .linhas-1').css('display', 'block');
 		$('#boost30info .linhas-2').css('display', 'none');
+		
+		if (myPokeBoostStone === 'Mystic star') {
+			$('#boost50info .linhas-1').css('display', 'none');
+			$('#boost50info .linhas-2').css('display', 'block');
+		} else {
+			$('#boost50info .linhas-1').css('display', 'block');
+			$('#boost50info .linhas-2').css('display', 'none');
+		}
 	}
 	   
    } else {
@@ -9416,19 +9417,20 @@ var itemsCount = $("#ourHolder > div.zqzq").length;
 	
 	$("#subdesc .boost-desc").attr("onmouseover", "getElementById('boost"+myPokeBoost+"info').style.display='block'");
 	$("#subdesc .boost-desc").attr("onmouseout", "getElementById('boost"+myPokeBoost+"info').style.display='none'");
-	if (myPokeBoostStone === 'Mystic star') {
-		$('#boost50info .linhas-1').css('display', 'none');
-		$('#boost50info .linhas-2').css('display', 'block');
-	} else {
-		$('#boost50info .linhas-1').css('display', 'block');
-		$('#boost50info .linhas-2').css('display', 'none');
-	}
 	if (myPokeBoostStone === 'Metal stone' || myPokeBoostStone === 'Crystal stone' || myPokeBoostStone === 'Ancient stone') {
 		$('#boost30info .linhas-1').css('display', 'none');
 		$('#boost30info .linhas-2').css('display', 'block');
 	} else {
 		$('#boost30info .linhas-1').css('display', 'block');
 		$('#boost30info .linhas-2').css('display', 'none');
+		
+		if (myPokeBoostStone === 'Mystic star') {
+			$('#boost50info .linhas-1').css('display', 'none');
+			$('#boost50info .linhas-2').css('display', 'block');
+		} else {
+			$('#boost50info .linhas-1').css('display', 'block');
+			$('#boost50info .linhas-2').css('display', 'none');
+		}
 	}
 	   
    } else {
