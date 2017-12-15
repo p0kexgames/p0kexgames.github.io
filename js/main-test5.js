@@ -588,7 +588,7 @@ pokesarray = [
  mapas:'no',  vip: "yes", moves:"Sand attack-40,Slash-40,Dig-42,U turn-40,X scissor-45,Fury cutter-48,Guillotine-50,Harden-42,Shadow slice-Passiva,", loots:"(1-1)//Gligar claw--4.3%,(1-10)//earth ball--80.0%,(1-10)//straw--80.0%,(1-1)//sandbag--17.0%,(1-1)//tooth--12.0%,", evoStone:"", boost:"", booStone:"", habilidades:""},
 
  {nome:"Steelix",   numero:208,  level:100,   ball1:"Ultraball",   ball2:"Nenhuma",   clan1:"Orebound",   clan2:"Ironhard",   tipo1:"Terra",   tipo2:"Metal",   regiao:"Johto",   geracao:"2",   dificuldade:"Difícil", xpcaught:"650000", pricenpc:"110000",  shiny:"yes", fast:"no", heavy:"yes", preevo2:"no", preevo1:"Onix", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"95", nevo1:"no", nevo2:"no", 
- mapas:'no',  vip: "yes", moves:"Iron tail-100,Iron head-100,Sand tomb-102,Rock tomb-100,Stone edge-100,Earth power-105,Fissure-110,Earthquake-107,Harden-100,Iron defense-104,", loots:"(1-1)//steelix tail--Raro,(1-25)//piece of steel--80.0%,(1-25)//earth ball--80.0%,(1-1)//Metal stone--Raro,(1-1)//Earth stone--Raro,(1-1)//sandbag--35.0% (70.0%),", evoStone:"", boost:"", booStone:"", habilidades:""},
+ mapas:'no',  vip: "yes", moves:"Iron tail-100,Iron head-100,Sand tomb-102,Rock tomb-100,Stone edge-100,Earth power-105,Fissure-110,Earthquake-107,Harden-100,Iron defense-104,", loots:"(1-1)//steelix tail--Raro,(1-25)//piece of steel--80.0%,(1-25)//earth ball--80.0%,(1-1)//Metal stone--Raro,(1-1)//Earth stone--Raro,(1-1)//sandbag--35.0% (70.0%),", evoStone:"", boost:"30", booStone:"Metal stone", habilidades:"Ride, Strenght"},
 
  {nome:"Snubbull",   numero:209,  level:30,   ball1:"Pokeball",   ball2:"Greatball",   clan1:"Psycraft",   clan2:"Nenhum",   tipo1:"Fada",   tipo2:"Nenhum",   regiao:"Johto",   geracao:"2",   dificuldade:"Fácil", xpcaught:"10000", pricenpc:"2500",  shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"Granbull", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"210", nevo2:"no", 
  mapas:'no',  vip: "no", moves:"Lick-30,Bite-30,Crunch-30,Play rough-30,Fire fang-32,Ice fang-34,Rage-30,", loots:"(1-1)//dog ear--2.0%,(1-15)//rubber ball--80.0%,", evoStone:"", boost:"", booStone:"", habilidades:""},
@@ -7725,7 +7725,7 @@ criarPaginacaodeTabela();
 		$('#boost50info .linhas-1').css('display', 'block');
 		$('#boost50info .linhas-2').css('display', 'none');
 	}
-	else if (myPokeBoostStone === 'Metal stone' || myPokeBoostStone === 'Crystal stone' || myPokeBoostStone === 'Ancient stone') {
+	if (myPokeBoostStone === 'Metal stone' || myPokeBoostStone === 'Crystal stone' || myPokeBoostStone === 'Ancient stone') {
 		$('#boost30info .linhas-1').css('display', 'none');
 		$('#boost30info .linhas-2').css('display', 'block');
 	} else {
@@ -9423,7 +9423,7 @@ var itemsCount = $("#ourHolder > div.zqzq").length;
 		$('#boost50info .linhas-1').css('display', 'block');
 		$('#boost50info .linhas-2').css('display', 'none');
 	}
-	else if (myPokeBoostStone === 'Metal stone' || myPokeBoostStone === 'Crystal stone' || myPokeBoostStone === 'Ancient stone') {
+	if (myPokeBoostStone === 'Metal stone' || myPokeBoostStone === 'Crystal stone' || myPokeBoostStone === 'Ancient stone') {
 		$('#boost30info .linhas-1').css('display', 'none');
 		$('#boost30info .linhas-2').css('display', 'block');
 	} else {
