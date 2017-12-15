@@ -7939,7 +7939,7 @@ $(".aviso").html(" ");
            len = text.length,               
            result = [];                     
      for( i=0; i<len; i++ ) {
-      result[i] = '<div class="evo-wrapper col-xs-12 col-sm-12 col-md-12 col-lg-12"><span class="pokedex filtrar hand pokedex-'+text[i]+'" data-search="num'+text[i]+'"></span></div><div class="stone-wrapper"></div>'; 
+      result[i] = '<div class="evo-wrapper col-xs-12 col-sm-12 col-md-12 col-lg-12"><span class="pokedex filtrar hand pokedex-'+text[i]+'" data-search="num'+myPokeNum3+'"></span></div><div class="stone-wrapper"></div>'; 
      }
   if(result.indexOf(text[i]) == -1) result.push(text[i]);
         $(this).html(result.join('')); 
@@ -9362,7 +9362,6 @@ var itemsCount = $("#ourHolder > div.zqzq").length;
    var myMediaUB = $(this).data('mediaub');
    var myMediaBE = $(this).data('mediabe');
    
-   
    var myPokeNum = $('.item.zqzq').data('numero');
    var myPokeNum2 = $('.item.zqzq').data('numero') + '';
    var myPokeNum3 = myPokeNum2.split('-')[0];
@@ -9648,7 +9647,7 @@ if (myPokeMapas !== 'no') {
            len = text.length,               
            result = [];                     
      for( i=0; i<len; i++ ) {
-      result[i] = '<div class="evo-wrapper col-xs-12 col-sm-12 col-md-12 col-lg-12"><span class="pokedex filtrar hand pokedex-'+text[i]+'" data-search="num'+text[i]+'"></span></div><div class="stone-wrapper"></div>'; 
+      result[i] = '<div class="evo-wrapper col-xs-12 col-sm-12 col-md-12 col-lg-12"><span class="pokedex filtrar hand pokedex-'+text[i]+'" data-search="num'+myPokeNum3+'"></span></div><div class="stone-wrapper"></div>'; 
      }
   if(result.indexOf(text[i]) == -1) result.push(text[i]);
         $(this).html(result.join('')); 
