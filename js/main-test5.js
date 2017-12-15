@@ -7926,8 +7926,10 @@ $(".aviso").html(" ");
 // CRIA A FORMATAÇÃO DOS ELEMENTOS DO CAMPO EVOLUÇÃO DO MODAL
   $('.evo').each(function( ind ){
        var text = $(this).html().split(';;'),             
-           result = [];     
-           result[i] = ''+text[0]+'';
+           result = [];  
+		   var textoUnFormated = text[0] + '';
+		   var textoFormated = textoUnFormated.split('-')[0];
+           result[i] = ''+textoFormated+'';
            $(this).html(result.join('')); 
     
     
@@ -9634,8 +9636,10 @@ if (myPokeMapas !== 'no') {
 // CRIA A FORMATAÇÃO DOS ELEMENTOS DO CAMPO EVOLUÇÃO DO MODAL
   $('.evo').each(function( ind ){
        var text = $(this).html().split(';;'),             
-           result = [];     
-           result[i] = ''+text[0]+'';
+           result = [];  
+		   var textoUnFormated = text[0] + '';
+		   var textoFormated = textoUnFormated.split('-')[0];
+           result[i] = ''+textoFormated+'';
            $(this).html(result.join('')); 
     
     
