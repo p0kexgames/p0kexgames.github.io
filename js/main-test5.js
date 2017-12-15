@@ -7718,6 +7718,21 @@ criarPaginacaodeTabela();
 	
 	$("#subdesc .boost-desc").attr("onmouseover", "getElementById('boost"+myPokeBoost+"info').style.display='block'");
 	$("#subdesc .boost-desc").attr("onmouseout", "getElementById('boost"+myPokeBoost+"info').style.display='none'");
+	if (myPokeBoostStone === 'Mystic star') {
+		$('#boost50info .linhas-1').css('display', 'block');
+		$('#boost50info .linhas-2').css('display', 'none');
+	} else {
+		$('#boost50info .linhas-1').css('display', 'none');
+		$('#boost50info .linhas-2').css('display', 'block');
+	}
+	if (myPokeBoostStone === 'Metal stone' || myPokeBoostStone === 'Crystal stone' || myPokeBoostStone === 'Ancient stone') {
+		$('#boost30info .linhas-1').css('display', 'none');
+		$('#boost30info .linhas-2').css('display', 'block');
+	} else {
+		$('#boost30info .linhas-1').css('display', 'block');
+		$('#boost30info .linhas-2').css('display', 'none');
+	}
+	   
    } else {
 	$('#subdesc .boost-desc').css('display', 'none');
    }
@@ -9391,13 +9406,31 @@ var itemsCount = $("#ourHolder > div.zqzq").length;
    } else {
 	$('#subdesc .evo-desc').css('display', 'none');
    }
+
    if (myPokeBoost !== '' && myPokeBoostStone !== '') {
 	$('#subdesc .boost-desc').css('display', 'block');
 	$("#subdesc .boost-desc .qtde").html("Aumenta a cada: "+myPokeBoost);
 	$("#subdesc .boost-desc .stone").html("Bosta com: "+myPokeBoostStone);
+	   
+	$(".boost .stone-container").html(myPokeBoostStone);
 	
 	$("#subdesc .boost-desc").attr("onmouseover", "getElementById('boost"+myPokeBoost+"info').style.display='block'");
 	$("#subdesc .boost-desc").attr("onmouseout", "getElementById('boost"+myPokeBoost+"info').style.display='none'");
+	if (myPokeBoostStone === 'Mystic star') {
+		$('#boost50info .linhas-1').css('display', 'block');
+		$('#boost50info .linhas-2').css('display', 'none');
+	} else {
+		$('#boost50info .linhas-1').css('display', 'none');
+		$('#boost50info .linhas-2').css('display', 'block');
+	}
+	if (myPokeBoostStone === 'Metal stone' || myPokeBoostStone === 'Crystal stone' || myPokeBoostStone === 'Ancient stone') {
+		$('#boost30info .linhas-1').css('display', 'none');
+		$('#boost30info .linhas-2').css('display', 'block');
+	} else {
+		$('#boost30info .linhas-1').css('display', 'block');
+		$('#boost30info .linhas-2').css('display', 'none');
+	}
+	   
    } else {
 	$('#subdesc .boost-desc').css('display', 'none');
    }
