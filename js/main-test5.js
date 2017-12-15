@@ -7658,6 +7658,7 @@ criarPaginacaodeTabela();
  
 
    var myPokeNum = $(this).data('numero');
+   var myPokeNum2 = myPokeNum.split('-')[0];
    var myPokeNome = $(this).find('.id h5').text();
    var myPokeNome2 = myPokeNome.replace("Shiny ", "").replace("Mega ", "").replace("Baby ", "").replace("Minun and ", "").replace("Champion ", "").replace("Elite ", "").replace("Crystal ", "").replace("Big ", "").replace("Mini ", "").replace("Giant ", "").replace("Shiny Giant ", "").replace("Legion ", "").replace("Water ", "").replace("Fire ", "").replace("Grass ", "").replace("Flying ", "").replace("Ice ", "").replace(/\(|\)/g, '').replace("X ", "").replace("Y ", "").replace("Dark ", "").replace("Light ", "").replace("2 ", "").replace("3 ", "").replace("4 ", "").replace("5 ", "").replace("6 ", "").replace("7 ", "").replace("8 ", "");
 
@@ -8554,7 +8555,7 @@ $(".aviso").html(" ");
 
    
    $(".modal-header b.nome").html( myPokeNome );
-   $(".modal-header b.numero").html( myPokeNum.split('-')[0] );
+   $(".modal-header b.numero").html( myPokeNum2 );
    
    $(".modal-body .modal-capa .pokedex").attr('class', 'col-xs-12 col-sm-12 col-md-12 col-lg-12 pokedex');
    $(".modal-body .modal-capa .pokedex").addClass('pokedex-'+myPokeNum);
@@ -8603,6 +8604,7 @@ $(".aviso").html(" ");
        var myPokeShinyTipo = ShinysMegasArray[i].shiny;
   
        var myPokeShinyNum = ShinysMegasArray[i].numero;
+   var myPokeNum2 = myPokeShinyNum.split('-')[0];
 	    
        var myPokeShinyLevel = ShinysMegasArray[i].level;
     
@@ -9358,6 +9360,7 @@ var itemsCount = $("#ourHolder > div.zqzq").length;
    
    
    var myPokeNum = $('.item.zqzq').data('numero');
+   var myPokeNum2 = myPokeNum.split('-')[0];
    var myPokeNome = $('.item.zqzq').find('.id h5').text();
    var myPokeNome2 = myPokeNome.replace("Shiny ", "").replace("Mega ", "").replace("Baby ", "").replace("Minun and ", "").replace("Champion ", "").replace("Elite ", "").replace("Crystal ", "").replace("Big ", "").replace("Mini ", "").replace("Giant ", "").replace("Shiny Giant ", "").replace("Legion ", "").replace("Water ", "").replace("Fire ", "").replace("Grass ", "").replace("Flying ", "").replace("Ice ", "").replace(/\(|\)/g, '').replace("X ", "").replace("Y ", "").replace("Dark ", "").replace("Light ", "").replace("2 ", "").replace("3 ", "").replace("4 ", "").replace("5 ", "").replace("6 ", "").replace("7 ", "").replace("8 ", "");
 
@@ -10241,7 +10244,7 @@ $(".aviso").html(" ");
 
    
    $(".modal-header b.nome").html( myPokeNome );
-   $(".modal-header b.numero").html( myPokeNum.split('-')[0] );
+   $(".modal-header b.numero").html( myPokeNum2 );
    
    $(".modal-body .modal-capa .pokedex").attr('class', 'col-xs-12 col-sm-12 col-md-12 col-lg-12 pokedex');
    $(".modal-body .modal-capa .pokedex").addClass('pokedex-'+myPokeNum);
