@@ -7923,13 +7923,11 @@ $(".aviso").html(" ");
   }
   
   
-// CRIA A FORMATAÇÃO DOS ELEMENTOS DO CAMPO EVOLUÇÃO DO MODAL
+  // CRIA A FORMATAÇÃO DOS ELEMENTOS DO CAMPO EVOLUÇÃO DO MODAL
   $('.evo').each(function( ind ){
        var text = $(this).html().split(';;'),             
-           result = [];  
-		   var textoUnFormated = text[0] + '';
-		   var textoFormated = textoUnFormated.split('-')[0];
-           result[i] = ''+textoFormated+'';
+           result = [];     
+           result[i] = ''+text[0]+'';
            $(this).html(result.join('')); 
     
     
@@ -7938,7 +7936,9 @@ $(".aviso").html(" ");
            len = text.length,               
            result = [];                     
      for( i=0; i<len; i++ ) {
-      result[i] = '<div class="evo-wrapper col-xs-12 col-sm-12 col-md-12 col-lg-12"><span class="pokedex filtrar hand pokedex-'+text[i]+'" data-search="num'+text[i]+'"></span></div><div class="stone-wrapper"></div>'; 
+		   var textoUnFormated = text[i] + '';
+		   var textoFormated = textoUnFormated.split('-')[0];
+      result[i] = '<div class="evo-wrapper col-xs-12 col-sm-12 col-md-12 col-lg-12"><span class="pokedex filtrar hand pokedex-'+text[i]+'" data-search="num'+textoFormated+'"></span></div><div class="stone-wrapper"></div>'; 
      }
   if(result.indexOf(text[i]) == -1) result.push(text[i]);
         $(this).html(result.join('')); 
@@ -9636,10 +9636,8 @@ if (myPokeMapas !== 'no') {
 // CRIA A FORMATAÇÃO DOS ELEMENTOS DO CAMPO EVOLUÇÃO DO MODAL
   $('.evo').each(function( ind ){
        var text = $(this).html().split(';;'),             
-           result = [];  
-		   var textoUnFormated = text[0] + '';
-		   var textoFormated = textoUnFormated.split('-')[0];
-           result[i] = ''+textoFormated+'';
+           result = [];     
+           result[i] = ''+text[0]+'';
            $(this).html(result.join('')); 
     
     
@@ -9647,10 +9645,12 @@ if (myPokeMapas !== 'no') {
        var text = $(this).html().split(','),
            len = text.length,               
            result = [];                     
-     for( i=0; i<len; i++ ) {
-      result[i] = '<div class="evo-wrapper col-xs-12 col-sm-12 col-md-12 col-lg-12"><span class="pokedex filtrar hand pokedex-'+text[i]+'" data-search="num'+text[i]+'"></span></div><div class="stone-wrapper"></div>'; 
-     }
-  if(result.indexOf(text[i]) == -1) result.push(text[i]);
+		for( i=0; i<len; i++ ) {
+			   var textoUnFormated = text[i] + '';
+			   var textoFormated = textoUnFormated.split('-')[0];
+		   result[i] = '<div class="evo-wrapper col-xs-12 col-sm-12 col-md-12 col-lg-12"><span class="pokedex filtrar hand pokedex-'+text[i]+'" data-search="num'+textoFormated+'"></span></div><div class="stone-wrapper"></div>'; 
+		}
+		if(result.indexOf(text[i]) == -1) result.push(text[i]);
         $(this).html(result.join('')); 
   });
   
