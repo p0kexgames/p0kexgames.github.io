@@ -8279,10 +8279,10 @@ $(".aviso").html(" ");
      }
 	 
   if (myPokeHabilidades !== "") {
-	  $(".MBT-tabs-content .habilidades").html( ''+myPokeHabilidades+'>' );
-	  $(".MBT-tabs-content .habilidades").css('display', 'block');
+	  $("p.habilidades").html( ''+myPokeHabilidades+'' );
+	  $("p.habilidades").css('display', 'block');
       } else {
-	  $(".MBT-tabs-content .habilidades").css('display', 'none');
+	  $("p.habilidades").css('display', 'none');
       }
 
 
@@ -9980,10 +9980,10 @@ $(".aviso").html(" ");
        $("div.MBT-tabviewsection > ul > li.tab-move").css('display', 'none');
      } 
   if (myPokeHabilidades !== "") {
-	  $(".MBT-tabs-content .habilidades").html( ''+myPokeHabilidades+'>' );
-	  $(".MBT-tabs-content .habilidades").css('display', 'block');
+	  $("p.habilidades").html( ''+myPokeHabilidades+'' );
+	  $("p.habilidades").css('display', 'block');
       } else {
-	  $(".MBT-tabs-content .habilidades").css('display', 'none');
+	  $("p.habilidades").css('display', 'none');
       }
 
 
