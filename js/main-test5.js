@@ -8555,7 +8555,7 @@ $(".aviso").html(" ");
    
    $(".modal-header b.nome").html( myPokeNome );
    //$(".modal-header b.numero").html( myPokeNum );
-   $(".modal-header b.numero").html(myPokeNum.split('-')[0].slice(0, -1));
+   $(".modal-header b.numero").html(myPokeNum.split('-')[0]);
    
    $(".modal-body .modal-capa .pokedex").attr('class', 'col-xs-12 col-sm-12 col-md-12 col-lg-12 pokedex');
    $(".modal-body .modal-capa .pokedex").addClass('pokedex-'+myPokeNum);
@@ -10243,7 +10243,7 @@ $(".aviso").html(" ");
    
    $(".modal-header b.nome").html( myPokeNome );
    //$(".modal-header b.numero").html( myPokeNum );
-   $(".modal-header b.numero").html(myPokeNum.split('-')[0].slice(0, -1));
+   $(".modal-header b.numero").html(myPokeNum.split('-')[0]);
    
    $(".modal-body .modal-capa .pokedex").attr('class', 'col-xs-12 col-sm-12 col-md-12 col-lg-12 pokedex');
    $(".modal-body .modal-capa .pokedex").addClass('pokedex-'+myPokeNum);
