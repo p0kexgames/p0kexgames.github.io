@@ -8277,8 +8277,12 @@ $(".aviso").html(" ");
        $(".MBT-tabs-content .moves").html(" ");
        $("div.MBT-tabviewsection > ul > li.tab-move").css('display', 'none');
      }
-  if (myPokeHabilidades != "no") {
-	  
+	 
+  if (myPokeHabilidades !== "") {
+	  $(".MBT-tabs-content .habilidades").html( ''+myPokeHabilidades+'>' );
+	  $(".MBT-tabs-content .habilidades").css('display', 'block');
+      } else {
+	  $(".MBT-tabs-content .habilidades").css('display', 'none');
       }
 
 
@@ -9416,6 +9420,8 @@ var itemsCount = $("#ourHolder > div.zqzq").length;
    var myPokeEvolveStone = $('.item.zqzq').data('evostone');
    var myPokeBoost = $('.item.zqzq').data('boost');
    var myPokeBoostStone = $('.item.zqzq').data('boostone');
+	 
+   var myPokeHabilidades = $('.item.zqzq').data('habilidades');
 
    
    if (myPokeEvolveStone !== '') {
@@ -9972,7 +9978,13 @@ $(".aviso").html(" ");
       } else {
        $(".MBT-tabs-content .moves").html(" ");
        $("div.MBT-tabviewsection > ul > li.tab-move").css('display', 'none');
-     }
+     } 
+  if (myPokeHabilidades !== "") {
+	  $(".MBT-tabs-content .habilidades").html( ''+myPokeHabilidades+'>' );
+	  $(".MBT-tabs-content .habilidades").css('display', 'block');
+      } else {
+	  $(".MBT-tabs-content .habilidades").css('display', 'none');
+      }
 
 
   //// FORMATA O CAMPO DOS MOVES PARA EXIBIR CORRETAMENTE
