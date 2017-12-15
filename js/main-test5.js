@@ -7657,7 +7657,7 @@ criarPaginacaodeTabela();
  
  
 
-   var myPokeNum = $(this).data('numero');
+   var myPokeNum = $(this).data('numero').split('-')[0];
    var myPokeNome = $(this).find('.id h5').text();
    var myPokeNome2 = myPokeNome.replace("Shiny ", "").replace("Mega ", "").replace("Baby ", "").replace("Minun and ", "").replace("Champion ", "").replace("Elite ", "").replace("Crystal ", "").replace("Big ", "").replace("Mini ", "").replace("Giant ", "").replace("Shiny Giant ", "").replace("Legion ", "").replace("Water ", "").replace("Fire ", "").replace("Grass ", "").replace("Flying ", "").replace("Ice ", "").replace(/\(|\)/g, '').replace("X ", "").replace("Y ", "").replace("Dark ", "").replace("Light ", "").replace("2 ", "").replace("3 ", "").replace("4 ", "").replace("5 ", "").replace("6 ", "").replace("7 ", "").replace("8 ", "");
 
@@ -8603,7 +8603,6 @@ $(".aviso").html(" ");
        var myPokeShinyTipo = ShinysMegasArray[i].shiny;
   
        var myPokeShinyNum = ShinysMegasArray[i].numero;
-       var myPokeShinyNum2 = myPokeShinyNum.split('-')[0];
 	    
        var myPokeShinyLevel = ShinysMegasArray[i].level;
     
@@ -8647,7 +8646,7 @@ $(".aviso").html(" ");
        var myPokeShinyEvolveStone = ShinysMegasArray[i].evoStone;
     
        if(myPokeShinyNome === myPokeNome) {
-         var desc = "<div class='item item3 hand' data-numero='" + myPokeShinyNum2 + "' data-nome='" + myPokeShinyTipo + " " + myPokeShinyNome + "' data-boost='" + myPokeShinyBoost + "' data-boostone='" + myPokeShinyBoostStone + "' data-evostone='" + myPokeShinyEvolveStone + "' data-clan1='" + myPokeShinyClan1 + "' data-clan2='" + myPokeShinyClan2 + "' data-tipo1='" + myPokeShinyTipo1 + "' data-tipo2='" + myPokeShinyTipo2 + "' data-level='" + myPokeShinyLevel + "' data-ball1='" + myPokeShinyBall1 + "' data-ball2='" + myPokeShinyBall2 + "' data-regiao='" + myPokeShinyRegiao + "' data-geracao='" + myPokeShinyGeracao + "' data-dificuldade='" + myPokeShinyDificuldade + "' data-xpcaught='" + myPokeShinyXpCaught + "' data-pricenpc='" + myPokeShinyPriceNPC + "' data-fast='" + myPokeShinyFast + "' data-heavy='" + myPokeShinyHeavy + "' data-preevo2='" + myPokeShinyPreEvo2 + "' data-preevo1='" + myPokeShinyPreEvo1 + "' data-evo1='" + myPokeShinyEvo1 + "' data-evo2='" + myPokeShinyEvo2 + "' data-npreevo2='" + myPokeShinyNPreEvo2 + "' data-npreevo1='" + myPokeShinyNPreEvo1 + "' data-nevo1='" + myPokeShinyNEvo1 + "' data-nevo2='" + myPokeShinyNEvo2 + "' data-mapas='" + myPokeShinyMapas + "' data-moves='" + myPokeShinyMoves + "' data-loots='" + myPokeShinyLoots + "' data-moves='" + myPokeShinyMoves + "' data-vip='"+myPokeShinyVIP+"'><div class='id'><h5>"+myPokeShinyTipo+" "+myPokeShinyNome+"</h5></div></div>";
+         var desc = "<div class='item item3 hand' data-numero='" + myPokeShinyNum + "' data-nome='" + myPokeShinyTipo + " " + myPokeShinyNome + "' data-boost='" + myPokeShinyBoost + "' data-boostone='" + myPokeShinyBoostStone + "' data-evostone='" + myPokeShinyEvolveStone + "' data-clan1='" + myPokeShinyClan1 + "' data-clan2='" + myPokeShinyClan2 + "' data-tipo1='" + myPokeShinyTipo1 + "' data-tipo2='" + myPokeShinyTipo2 + "' data-level='" + myPokeShinyLevel + "' data-ball1='" + myPokeShinyBall1 + "' data-ball2='" + myPokeShinyBall2 + "' data-regiao='" + myPokeShinyRegiao + "' data-geracao='" + myPokeShinyGeracao + "' data-dificuldade='" + myPokeShinyDificuldade + "' data-xpcaught='" + myPokeShinyXpCaught + "' data-pricenpc='" + myPokeShinyPriceNPC + "' data-fast='" + myPokeShinyFast + "' data-heavy='" + myPokeShinyHeavy + "' data-preevo2='" + myPokeShinyPreEvo2 + "' data-preevo1='" + myPokeShinyPreEvo1 + "' data-evo1='" + myPokeShinyEvo1 + "' data-evo2='" + myPokeShinyEvo2 + "' data-npreevo2='" + myPokeShinyNPreEvo2 + "' data-npreevo1='" + myPokeShinyNPreEvo1 + "' data-nevo1='" + myPokeShinyNEvo1 + "' data-nevo2='" + myPokeShinyNEvo2 + "' data-mapas='" + myPokeShinyMapas + "' data-moves='" + myPokeShinyMoves + "' data-loots='" + myPokeShinyLoots + "' data-moves='" + myPokeShinyMoves + "' data-vip='"+myPokeShinyVIP+"'><div class='id'><h5>"+myPokeShinyTipo+" "+myPokeShinyNome+"</h5></div></div>";
          $("#descricao").append( desc );
        }
     
@@ -9358,7 +9357,7 @@ var itemsCount = $("#ourHolder > div.zqzq").length;
    var myMediaBE = $(this).data('mediabe');
    
    
-   var myPokeNum = $('.item.zqzq').data('numero');
+   var myPokeNum = $('.item.zqzq').data('numero').split('-')[0];
    var myPokeNome = $('.item.zqzq').find('.id h5').text();
    var myPokeNome2 = myPokeNome.replace("Shiny ", "").replace("Mega ", "").replace("Baby ", "").replace("Minun and ", "").replace("Champion ", "").replace("Elite ", "").replace("Crystal ", "").replace("Big ", "").replace("Mini ", "").replace("Giant ", "").replace("Shiny Giant ", "").replace("Legion ", "").replace("Water ", "").replace("Fire ", "").replace("Grass ", "").replace("Flying ", "").replace("Ice ", "").replace(/\(|\)/g, '').replace("X ", "").replace("Y ", "").replace("Dark ", "").replace("Light ", "").replace("2 ", "").replace("3 ", "").replace("4 ", "").replace("5 ", "").replace("6 ", "").replace("7 ", "").replace("8 ", "");
 
@@ -10291,7 +10290,6 @@ $(".aviso").html(" ");
 
   
     var myPokeShinyNum = ShinysMegasArray[i].numero;
-       var myPokeShinyNum2 = myPokeShinyNum.split('-')[0];
 	    
     var myPokeShinyLevel = ShinysMegasArray[i].level;
     
@@ -10335,7 +10333,7 @@ $(".aviso").html(" ");
        var myPokeShinyEvolveStone = ShinysMegasArray[i].evoStone;
     
        if(myPokeShinyNome === myPokeNome) {
-         var desc = "<div class='item item3 hand' data-numero='" + myPokeShinyNum2 + "' data-nome='" + myPokeShinyTipo + " " + myPokeShinyNome + "' data-boost='" + myPokeShinyBoost + "' data-boostone='" + myPokeShinyBoostStone + "' data-evostone='" + myPokeShinyEvolveStone + "' data-clan1='" + myPokeShinyClan1 + "' data-clan2='" + myPokeShinyClan2 + "' data-tipo1='" + myPokeShinyTipo1 + "' data-tipo2='" + myPokeShinyTipo2 + "' data-level='" + myPokeShinyLevel + "' data-ball1='" + myPokeShinyBall1 + "' data-ball2='" + myPokeShinyBall2 + "' data-regiao='" + myPokeShinyRegiao + "' data-geracao='" + myPokeShinyGeracao + "' data-dificuldade='" + myPokeShinyDificuldade + "' data-xpcaught='" + myPokeShinyXpCaught + "' data-pricenpc='" + myPokeShinyPriceNPC + "' data-fast='" + myPokeShinyFast + "' data-heavy='" + myPokeShinyHeavy + "' data-preevo2='" + myPokeShinyPreEvo2 + "' data-preevo1='" + myPokeShinyPreEvo1 + "' data-evo1='" + myPokeShinyEvo1 + "' data-evo2='" + myPokeShinyEvo2 + "' data-npreevo2='" + myPokeShinyNPreEvo2 + "' data-npreevo1='" + myPokeShinyNPreEvo1 + "' data-nevo1='" + myPokeShinyNEvo1 + "' data-nevo2='" + myPokeShinyNEvo2 + "' data-mapas='" + myPokeShinyMapas + "' data-moves='" + myPokeShinyMoves + "' data-loots='" + myPokeShinyLoots + "' data-moves='" + myPokeShinyMoves + "' data-vip='"+myPokeShinyVIP+"'><div class='id'><h5>"+myPokeShinyTipo+" "+myPokeShinyNome+"</h5></div></div>";
+         var desc = "<div class='item item3 hand' data-numero='" + myPokeShinyNum + "' data-nome='" + myPokeShinyTipo + " " + myPokeShinyNome + "' data-boost='" + myPokeShinyBoost + "' data-boostone='" + myPokeShinyBoostStone + "' data-evostone='" + myPokeShinyEvolveStone + "' data-clan1='" + myPokeShinyClan1 + "' data-clan2='" + myPokeShinyClan2 + "' data-tipo1='" + myPokeShinyTipo1 + "' data-tipo2='" + myPokeShinyTipo2 + "' data-level='" + myPokeShinyLevel + "' data-ball1='" + myPokeShinyBall1 + "' data-ball2='" + myPokeShinyBall2 + "' data-regiao='" + myPokeShinyRegiao + "' data-geracao='" + myPokeShinyGeracao + "' data-dificuldade='" + myPokeShinyDificuldade + "' data-xpcaught='" + myPokeShinyXpCaught + "' data-pricenpc='" + myPokeShinyPriceNPC + "' data-fast='" + myPokeShinyFast + "' data-heavy='" + myPokeShinyHeavy + "' data-preevo2='" + myPokeShinyPreEvo2 + "' data-preevo1='" + myPokeShinyPreEvo1 + "' data-evo1='" + myPokeShinyEvo1 + "' data-evo2='" + myPokeShinyEvo2 + "' data-npreevo2='" + myPokeShinyNPreEvo2 + "' data-npreevo1='" + myPokeShinyNPreEvo1 + "' data-nevo1='" + myPokeShinyNEvo1 + "' data-nevo2='" + myPokeShinyNEvo2 + "' data-mapas='" + myPokeShinyMapas + "' data-moves='" + myPokeShinyMoves + "' data-loots='" + myPokeShinyLoots + "' data-moves='" + myPokeShinyMoves + "' data-vip='"+myPokeShinyVIP+"'><div class='id'><h5>"+myPokeShinyTipo+" "+myPokeShinyNome+"</h5></div></div>";
          $("#descricao").append( desc );
        }
     
