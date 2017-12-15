@@ -6448,6 +6448,7 @@ function criarTablePrincipal() {
    var myPokeEvolveStone = pokesarray[i].evoStone;
    var myPokeBoost = pokesarray[i].boost;
    var myPokeBoostStone = pokesarray[i].booStone;
+   var myPokeHabilidades = pokesarray[i].habilidades;
   
    var myPokeMoves = pokesarray[i].moves;
    
@@ -6527,7 +6528,7 @@ function criarTablePrincipal() {
      'MediaBE': Math.ceil(myPokePriceNPC * 4  / 90 / 10) * 10
     });
   
-    text += "<div data-toggle='modal' data-numero='" + myPokeNum + "' data-nome='" + myPokeNome + "' data-boost='" + myPokeBoost + "' data-boostone='" + myPokeBoostStone + "' data-evostone='" + myPokeEvolveStone + "' data-clan1='" + myPokeClan1 + "' data-clan2='" + myPokeClan2 + "' data-tipo1='" + myPokeTipo1 + "' data-tipo2='" + myPokeTipo2 + "' data-level='" + myPokeLevel + "' data-ball1='" + myPokeBall1 + "' data-ball2='" + myPokeBall2 + "' data-regiao='" + myPokeRegiao + "' data-geracao='" + myPokeGeracao + "' data-dificuldade='" + myPokeDificuldade + "' data-xpcaught='" + myPokeXpCaught + "' data-pricenpc='" + myPokePriceNPC + "' data-shiny='" + myPokeShiny + "' data-fast='" + myPokeFast + "' data-heavy='" + myPokeHeavy + "' data-preevo2='" + myPokePreEvo2 + "' data-preevo1='" + myPokePreEvo1 + "' data-evo1='" + myPokeEvo1 + "' data-evo2='" + myPokeEvo2 + "' data-npreevo2='" + myPokeNPreEvo2 + "' data-npreevo1='" + myPokeNPreEvo1 + "' data-nevo1='" + myPokeNEvo1 + "' data-nevo2='" + myPokeNEvo2 + "' data-mapas='" + myPokeMapas + "' data-moves='" + myPokeMoves + "' data-loots='" + myPokeLoots + "' data-moves='" + myPokeMoves + "' data-mediapb='"+pbMedia+"' data-mediagb='"+gbMedia+"' data-mediasb='"+sbMedia+"' data-mediaub='"+ubMedia+"' data-mediabe='"+beMedia+"' data-vip='"+myPokeVIP+"' data-target='.bs-example-modal' class='item " + myPokeDificuldade + " " + myPokeNome + " num" + myPokeNum + " gera" + myPokeGeracao + " lvl" + myPokeLevel + " " + myPokeTipo1.replace(/[áàâã]/g,'a').replace(/[éèê]/g,'e').replace(/[íìî]/g,'i').replace(/[óòôõ]/g,'o').replace(/[úùû]/g,'u').replace(/[ÁÀÂÃ]/g,'A').replace(/[ÉÈÊ]/g,'E').replace(/[ÍÌÎ]/g,'I').replace(/[ÓÒÔÕ]/g,'O').replace(/[ÚÙÛ]/g,'U') + " " + myPokeTipo2.replace(/[áàâã]/g,'a').replace(/[éèê]/g,'e').replace(/[íìî]/g,'i').replace(/[óòôõ]/g,'o').replace(/[úùû]/g,'u').replace(/[ÁÀÂÃ]/g,'A').replace(/[ÉÈÊ]/g,'E').replace(/[ÍÌÎ]/g,'I').replace(/[ÓÒÔÕ]/g,'O').replace(/[ÚÙÛ]/g,'U') + " " + myPokeClan1 + " " + myPokeClan2 + " "+myPokeMoves+" "+myPokeLoots+" ";
+    text += "<div data-toggle='modal' data-numero='" + myPokeNum + "' data-nome='" + myPokeNome + "' data-habilidades='" + myPokeHabilidades + "' data-boost='" + myPokeBoost + "' data-boostone='" + myPokeBoostStone + "' data-evostone='" + myPokeEvolveStone + "' data-clan1='" + myPokeClan1 + "' data-clan2='" + myPokeClan2 + "' data-tipo1='" + myPokeTipo1 + "' data-tipo2='" + myPokeTipo2 + "' data-level='" + myPokeLevel + "' data-ball1='" + myPokeBall1 + "' data-ball2='" + myPokeBall2 + "' data-regiao='" + myPokeRegiao + "' data-geracao='" + myPokeGeracao + "' data-dificuldade='" + myPokeDificuldade + "' data-xpcaught='" + myPokeXpCaught + "' data-pricenpc='" + myPokePriceNPC + "' data-shiny='" + myPokeShiny + "' data-fast='" + myPokeFast + "' data-heavy='" + myPokeHeavy + "' data-preevo2='" + myPokePreEvo2 + "' data-preevo1='" + myPokePreEvo1 + "' data-evo1='" + myPokeEvo1 + "' data-evo2='" + myPokeEvo2 + "' data-npreevo2='" + myPokeNPreEvo2 + "' data-npreevo1='" + myPokeNPreEvo1 + "' data-nevo1='" + myPokeNEvo1 + "' data-nevo2='" + myPokeNEvo2 + "' data-mapas='" + myPokeMapas + "' data-moves='" + myPokeMoves + "' data-loots='" + myPokeLoots + "' data-moves='" + myPokeMoves + "' data-mediapb='"+pbMedia+"' data-mediagb='"+gbMedia+"' data-mediasb='"+sbMedia+"' data-mediaub='"+ubMedia+"' data-mediabe='"+beMedia+"' data-vip='"+myPokeVIP+"' data-target='.bs-example-modal' class='item " + myPokeDificuldade + " " + myPokeNome + " num" + myPokeNum + " gera" + myPokeGeracao + " lvl" + myPokeLevel + " " + myPokeTipo1.replace(/[áàâã]/g,'a').replace(/[éèê]/g,'e').replace(/[íìî]/g,'i').replace(/[óòôõ]/g,'o').replace(/[úùû]/g,'u').replace(/[ÁÀÂÃ]/g,'A').replace(/[ÉÈÊ]/g,'E').replace(/[ÍÌÎ]/g,'I').replace(/[ÓÒÔÕ]/g,'O').replace(/[ÚÙÛ]/g,'U') + " " + myPokeTipo2.replace(/[áàâã]/g,'a').replace(/[éèê]/g,'e').replace(/[íìî]/g,'i').replace(/[óòôõ]/g,'o').replace(/[úùû]/g,'u').replace(/[ÁÀÂÃ]/g,'A').replace(/[ÉÈÊ]/g,'E').replace(/[ÍÌÎ]/g,'I').replace(/[ÓÒÔÕ]/g,'O').replace(/[ÚÙÛ]/g,'U') + " " + myPokeClan1 + " " + myPokeClan2 + " "+myPokeMoves+" "+myPokeLoots+" ";
    if (myPokeBall1 !== 'Saffariball') {
     if (myPokeTipo1 === 'Grama' || myPokeTipo2 === 'Grama' || myPokeTipo1 === 'Venenoso' || myPokeTipo2 === 'Venenoso') {
      text += "Janguruball ";
@@ -7705,6 +7706,8 @@ criarPaginacaodeTabela();
    var myPokeEvolveStone = $(this).data('evostone');
    var myPokeBoost = $(this).data('boost');
    var myPokeBoostStone = $(this).data('boostone');
+	 
+   var myPokeHabilidades = $(this).data('habilidades');
 
    
    if (myPokeEvolveStone !== '') {
@@ -8274,6 +8277,9 @@ $(".aviso").html(" ");
        $(".MBT-tabs-content .moves").html(" ");
        $("div.MBT-tabviewsection > ul > li.tab-move").css('display', 'none');
      }
+  if (myPokeHabilidades != "no") {
+	  
+      }
 
 
   //// FORMATA O CAMPO DOS MOVES PARA EXIBIR CORRETAMENTE
@@ -8650,9 +8656,11 @@ $(".aviso").html(" ");
        var myPokeShinyBoost = ShinysMegasArray[i].boost;
        var myPokeShinyBoostStone = ShinysMegasArray[i].booStone;
        var myPokeShinyEvolveStone = ShinysMegasArray[i].evoStone;
+	    
+       var myPokeShinyHabilidades = ShinysMegasArray[i].habilidades;
     
        if(myPokeShinyNome === myPokeNome) {
-         var desc = "<div class='item item3 hand' data-numero='" + myPokeShinyNum + "' data-nome='" + myPokeShinyTipo + " " + myPokeShinyNome + "' data-boost='" + myPokeShinyBoost + "' data-boostone='" + myPokeShinyBoostStone + "' data-evostone='" + myPokeShinyEvolveStone + "' data-clan1='" + myPokeShinyClan1 + "' data-clan2='" + myPokeShinyClan2 + "' data-tipo1='" + myPokeShinyTipo1 + "' data-tipo2='" + myPokeShinyTipo2 + "' data-level='" + myPokeShinyLevel + "' data-ball1='" + myPokeShinyBall1 + "' data-ball2='" + myPokeShinyBall2 + "' data-regiao='" + myPokeShinyRegiao + "' data-geracao='" + myPokeShinyGeracao + "' data-dificuldade='" + myPokeShinyDificuldade + "' data-xpcaught='" + myPokeShinyXpCaught + "' data-pricenpc='" + myPokeShinyPriceNPC + "' data-fast='" + myPokeShinyFast + "' data-heavy='" + myPokeShinyHeavy + "' data-preevo2='" + myPokeShinyPreEvo2 + "' data-preevo1='" + myPokeShinyPreEvo1 + "' data-evo1='" + myPokeShinyEvo1 + "' data-evo2='" + myPokeShinyEvo2 + "' data-npreevo2='" + myPokeShinyNPreEvo2 + "' data-npreevo1='" + myPokeShinyNPreEvo1 + "' data-nevo1='" + myPokeShinyNEvo1 + "' data-nevo2='" + myPokeShinyNEvo2 + "' data-mapas='" + myPokeShinyMapas + "' data-moves='" + myPokeShinyMoves + "' data-loots='" + myPokeShinyLoots + "' data-moves='" + myPokeShinyMoves + "' data-vip='"+myPokeShinyVIP+"'><div class='id'><h5>"+myPokeShinyTipo+" "+myPokeShinyNome+"</h5></div></div>";
+         var desc = "<div class='item item3 hand' data-numero='" + myPokeShinyNum + "' data-nome='" + myPokeShinyTipo + " " + myPokeShinyNome + "' data-habilidades='" + myPokeShinyHabilidades + "' data-boost='" + myPokeShinyBoost + "' data-boostone='" + myPokeShinyBoostStone + "' data-evostone='" + myPokeShinyEvolveStone + "' data-clan1='" + myPokeShinyClan1 + "' data-clan2='" + myPokeShinyClan2 + "' data-tipo1='" + myPokeShinyTipo1 + "' data-tipo2='" + myPokeShinyTipo2 + "' data-level='" + myPokeShinyLevel + "' data-ball1='" + myPokeShinyBall1 + "' data-ball2='" + myPokeShinyBall2 + "' data-regiao='" + myPokeShinyRegiao + "' data-geracao='" + myPokeShinyGeracao + "' data-dificuldade='" + myPokeShinyDificuldade + "' data-xpcaught='" + myPokeShinyXpCaught + "' data-pricenpc='" + myPokeShinyPriceNPC + "' data-fast='" + myPokeShinyFast + "' data-heavy='" + myPokeShinyHeavy + "' data-preevo2='" + myPokeShinyPreEvo2 + "' data-preevo1='" + myPokeShinyPreEvo1 + "' data-evo1='" + myPokeShinyEvo1 + "' data-evo2='" + myPokeShinyEvo2 + "' data-npreevo2='" + myPokeShinyNPreEvo2 + "' data-npreevo1='" + myPokeShinyNPreEvo1 + "' data-nevo1='" + myPokeShinyNEvo1 + "' data-nevo2='" + myPokeShinyNEvo2 + "' data-mapas='" + myPokeShinyMapas + "' data-moves='" + myPokeShinyMoves + "' data-loots='" + myPokeShinyLoots + "' data-moves='" + myPokeShinyMoves + "' data-vip='"+myPokeShinyVIP+"'><div class='id'><h5>"+myPokeShinyTipo+" "+myPokeShinyNome+"</h5></div></div>";
          $("#descricao").append( desc );
        }
     
@@ -10341,9 +10349,11 @@ $(".aviso").html(" ");
        var myPokeShinyBoost = ShinysMegasArray[i].boost;
        var myPokeShinyBoostStone = ShinysMegasArray[i].booStone;
        var myPokeShinyEvolveStone = ShinysMegasArray[i].evoStone;
+	    
+       var myPokeShinyHabilidades = ShinysMegasArray[i].habilidades;
     
        if(myPokeShinyNome === myPokeNome) {
-         var desc = "<div class='item item3 hand' data-numero='" + myPokeShinyNum + "' data-nome='" + myPokeShinyTipo + " " + myPokeShinyNome + "' data-boost='" + myPokeShinyBoost + "' data-boostone='" + myPokeShinyBoostStone + "' data-evostone='" + myPokeShinyEvolveStone + "' data-clan1='" + myPokeShinyClan1 + "' data-clan2='" + myPokeShinyClan2 + "' data-tipo1='" + myPokeShinyTipo1 + "' data-tipo2='" + myPokeShinyTipo2 + "' data-level='" + myPokeShinyLevel + "' data-ball1='" + myPokeShinyBall1 + "' data-ball2='" + myPokeShinyBall2 + "' data-regiao='" + myPokeShinyRegiao + "' data-geracao='" + myPokeShinyGeracao + "' data-dificuldade='" + myPokeShinyDificuldade + "' data-xpcaught='" + myPokeShinyXpCaught + "' data-pricenpc='" + myPokeShinyPriceNPC + "' data-fast='" + myPokeShinyFast + "' data-heavy='" + myPokeShinyHeavy + "' data-preevo2='" + myPokeShinyPreEvo2 + "' data-preevo1='" + myPokeShinyPreEvo1 + "' data-evo1='" + myPokeShinyEvo1 + "' data-evo2='" + myPokeShinyEvo2 + "' data-npreevo2='" + myPokeShinyNPreEvo2 + "' data-npreevo1='" + myPokeShinyNPreEvo1 + "' data-nevo1='" + myPokeShinyNEvo1 + "' data-nevo2='" + myPokeShinyNEvo2 + "' data-mapas='" + myPokeShinyMapas + "' data-moves='" + myPokeShinyMoves + "' data-loots='" + myPokeShinyLoots + "' data-moves='" + myPokeShinyMoves + "' data-vip='"+myPokeShinyVIP+"'><div class='id'><h5>"+myPokeShinyTipo+" "+myPokeShinyNome+"</h5></div></div>";
+         var desc = "<div class='item item3 hand' data-numero='" + myPokeShinyNum + "' data-nome='" + myPokeShinyTipo + " " + myPokeShinyNome + "' data-habilidades='" + myPokeShinyHabilidades + "' data-boost='" + myPokeShinyBoost + "' data-boostone='" + myPokeShinyBoostStone + "' data-evostone='" + myPokeShinyEvolveStone + "' data-clan1='" + myPokeShinyClan1 + "' data-clan2='" + myPokeShinyClan2 + "' data-tipo1='" + myPokeShinyTipo1 + "' data-tipo2='" + myPokeShinyTipo2 + "' data-level='" + myPokeShinyLevel + "' data-ball1='" + myPokeShinyBall1 + "' data-ball2='" + myPokeShinyBall2 + "' data-regiao='" + myPokeShinyRegiao + "' data-geracao='" + myPokeShinyGeracao + "' data-dificuldade='" + myPokeShinyDificuldade + "' data-xpcaught='" + myPokeShinyXpCaught + "' data-pricenpc='" + myPokeShinyPriceNPC + "' data-fast='" + myPokeShinyFast + "' data-heavy='" + myPokeShinyHeavy + "' data-preevo2='" + myPokeShinyPreEvo2 + "' data-preevo1='" + myPokeShinyPreEvo1 + "' data-evo1='" + myPokeShinyEvo1 + "' data-evo2='" + myPokeShinyEvo2 + "' data-npreevo2='" + myPokeShinyNPreEvo2 + "' data-npreevo1='" + myPokeShinyNPreEvo1 + "' data-nevo1='" + myPokeShinyNEvo1 + "' data-nevo2='" + myPokeShinyNEvo2 + "' data-mapas='" + myPokeShinyMapas + "' data-moves='" + myPokeShinyMoves + "' data-loots='" + myPokeShinyLoots + "' data-moves='" + myPokeShinyMoves + "' data-vip='"+myPokeShinyVIP+"'><div class='id'><h5>"+myPokeShinyTipo+" "+myPokeShinyNome+"</h5></div></div>";
          $("#descricao").append( desc );
        }
     
