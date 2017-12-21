@@ -9534,10 +9534,11 @@ if (myPokeMapas !== 'no') {
   
   if (myPokeBall1 === 'Saffariball' || myPokeBall1 === 'saffariball' || myPokeBall2 === 'Saffariball' || myPokeBall2 === 'saffariball') {
     $('.tablesfb').css('display', 'block');
-	
+	$(".bs-example-modal").addClass(myPokeBall1);
       
   } else {
     $(".bs-example-modal").removeClass("Saffariball");
+    $('.tablesfb').css('display', 'none');
   }
   
   
@@ -9821,40 +9822,6 @@ else if (myPokeLevel > 70) {
        $(".Sem.sistema .ballstable div").html(" ");
       }
 	
-
-   if (myPokeBall1 === 'Saffariball') {
-	   $('.tableub').removeClass('show');
-	   $('.tableub').addClass('hide');
-	   
-	   $('.tablebe1').removeClass('show');
-	   $('.tablebe1').addClass('hide');
-	   
-	   $('.tablebe2').removeClass('show');
-	   $('.tablebe2').addClass('hide');
-	   
-	   $('.tablebe3').removeClass('show');
-	   $('.tablebe3').addClass('hide');
-	   
-	   $('.tablebe4').removeClass('show');
-	   $('.tablebe4').addClass('hide');
-	   alert("aviso");
-      } else  {
-	   $('.tableub').removeClass('hide');
-	   $('.tableub').addClass('show');
-	   
-	   $('.tablebe1').removeClass('hide');
-	   $('.tablebe1').addClass('show');
-	   
-	   $('.tablebe2').removeClass('hide');
-	   $('.tablebe2').addClass('show');
-	   
-	   $('.tablebe3').removeClass('hide');
-	   $('.tablebe3').addClass('show');
-	   
-	   $('.tablebe4').removeClass('hide');
-	   $('.tablebe4').addClass('show');
-      }
-
 
 
 $(".aviso").html(" ");
