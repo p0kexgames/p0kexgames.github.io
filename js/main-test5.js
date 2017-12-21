@@ -9534,6 +9534,29 @@ if (myPokeMapas !== 'no') {
   
   if (myPokeBall1 === 'Saffariball' || myPokeBall1 === 'saffariball' || myPokeBall2 === 'Saffariball' || myPokeBall2 === 'saffariball') {
     $('.tablesfb').css('display', 'block');
+	
+    $('.tableub').css('display', 'none');
+    $('.tablebe1').css('display', 'none');
+    $('.tablebe2').css('display', 'none');
+    $('.tablebe3').css('display', 'none');
+    $('.tablebe4').css('display', 'none');
+	alert("saffariball2");
+	
+	   //$('.tableub').removeClass('show');
+	   //$('.tableub').addClass('hide');
+	   
+	   //$('.tablebe1').removeClass('show');
+	   //$('.tablebe1').addClass('hide');
+	   
+	   //$('.tablebe2').removeClass('show');
+	   //$('.tablebe2').addClass('hide');
+	   
+	   //$('.tablebe3').removeClass('show');
+	   //$('.tablebe3').addClass('hide');
+	   
+	   //$('.tablebe4').removeClass('show');
+	   //$('.tablebe4').addClass('hide');
+      
   } else {
     $(".bs-example-modal").removeClass("Saffariball");
   }
@@ -9809,23 +9832,6 @@ else if (myPokeLevel > 70) {
 
    if (myPokeBall1 === 'Masterball') {
        $(".modal").addClass(myPokeBall1);
-      }
-   else if (myPokeBall1 === 'Saffariball') {
-	   $('.tableub').removeClass('show');
-	   $('.tableub').addClass('hide');
-	   
-	   $('.tablebe1').removeClass('show');
-	   $('.tablebe1').addClass('hide');
-	   
-	   $('.tablebe2').removeClass('show');
-	   $('.tablebe2').addClass('hide');
-	   
-	   $('.tablebe3').removeClass('show');
-	   $('.tablebe3').addClass('hide');
-	   
-	   $('.tablebe4').removeClass('show');
-	   $('.tablebe4').addClass('hide');
-	   alert("saffariball");
       }
 	  
 
