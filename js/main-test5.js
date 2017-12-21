@@ -8099,7 +8099,7 @@ else if (myPokeLevel > 70) {
 }
   
   
-  if (myPokeBall1 === 'Saffariball' && myPokeBall1 === 'saffariball' && myPokeBall2 === 'Saffariball' && myPokeBall2 === 'saffariball') {
+  if (myPokeBall1 === 'Saffariball' || myPokeBall1 === 'saffariball' || myPokeBall2 === 'Saffariball' || myPokeBall2 === 'saffariball') {
     $(".bs-example-modal").addClass(myPokeBall1);
     $('.tablesfb').css('display', 'block');
   } else {
@@ -9802,13 +9802,14 @@ else if (myPokeLevel > 70) {
   
    
 
-  if (myPokeBall1 === 'Saffariball' && myPokeBall1 === 'saffariball' && myPokeBall2 === 'Saffariball' && myPokeBall2 === 'saffariball') {
+  if (myPokeBall1 === 'Saffariball' || myPokeBall1 === 'saffariball' || myPokeBall2 === 'Saffariball' || myPokeBall2 === 'saffariball') {
     $(".bs-example-modal").addClass(myPokeBall1);
     $('.tablesfb').css('display', 'block');
 	alert("saffari");
   } else {
     $(".bs-example-modal").removeClass("Saffariball");
     $('.tablesfb').css('display', 'none');
+	alert("aviso");
   }
 
   
