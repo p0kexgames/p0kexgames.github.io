@@ -8099,7 +8099,7 @@ else if (myPokeLevel > 70) {
 }
   
   
-  if (myPokeBall1 === 'Saffariball' || myPokeBall1 === 'saffariball' || myPokeBall2 === 'Saffariball' || myPokeBall2 === 'saffariball') {
+  if (myPokeBall1 === 'Saffariball' && myPokeBall1 === 'saffariball' && myPokeBall2 === 'Saffariball' && myPokeBall2 === 'saffariball') {
     $(".bs-example-modal").addClass(myPokeBall1);
     $('.tablesfb').css('display', 'block');
   } else {
@@ -9488,6 +9488,9 @@ if (myPokeMapas !== 'no') {
   $("#image-wrapper").attr('data-nome', myPokeNome);
   
   
+  $(".filtrar.hand.levell").attr('data-search', 'lvl'+myPokeLevel);
+  $(".filtrar.hand.levell").attr('title', 'filtrar resultados para Level '+myPokeLevel);
+  
   $("#mapas-list").html("");
   
      var array = myPokeMapas.split(';'),
@@ -9529,17 +9532,6 @@ if (myPokeMapas !== 'no') {
 //////////////////////// FIM FUNÇÃO QUE EXIBE OS MAPAS AO EXIBIR MODAL DA PESQUISA AVANÇADA //////////////////////////////////////////////
   
 
-  $(".filtrar.hand.levell").attr('data-search', 'lvl'+myPokeLevel);
-  $(".filtrar.hand.levell").attr('title', 'filtrar resultados para Level '+myPokeLevel);
-  
-  if (myPokeBall1 === 'Saffariball' || myPokeBall1 === 'saffariball' || myPokeBall2 === 'Saffariball' || myPokeBall2 === 'saffariball') {
-    $('.tablesfb').css('display', 'block');
-	$(".bs-example-modal").addClass(myPokeBall1);
-      
-  } else {
-    $(".bs-example-modal").removeClass("Saffariball");
-    $('.tablesfb').css('display', 'none');
-  }
   
   
   $(".forca-fraqueza-null div div").html(" "); 
@@ -9810,6 +9802,16 @@ else if (myPokeLevel > 70) {
   
    
 
+  if (myPokeBall1 === 'Saffariball' && myPokeBall1 === 'saffariball' && myPokeBall2 === 'Saffariball' && myPokeBall2 === 'saffariball') {
+    $(".bs-example-modal").addClass(myPokeBall1);
+    $('.tablesfb').css('display', 'block');
+	alert("saffari");
+  } else {
+    $(".bs-example-modal").removeClass("Saffariball");
+    $('.tablesfb').css('display', 'none');
+  }
+
+  
    if (myPokeBall1 === 'Masterball') {
        $(".modal").addClass(myPokeBall1);
       }
