@@ -254,7 +254,7 @@ pokesarray = [
  mapas:'no',  vip: "no", moves:"Super sonic-80,Thunder shock-80,Spark-80,Tri attack-95,Thunder-88,Electric storm-92,Electro ball-80,Flash cannon-88,", loots:"(1-1)//magnet--9.3%,(1-10)//screw--80%,(1-10)//piece of steel--80%,(1-1)//Thunder stone--Raro,(1-1)//electric box--17.0%,", evoStone:"Data UFO (x10)", boost:"3", booStone:"Thunder stone", habilidades:"Light"},
 
  {nome:"Farfetchd", numero:83, level:50, ball1:"Greatball", ball2:"Superball", clan1:"Wingeon", clan2:"Gardestrike", tipo1:"Voador", tipo2:"Normal", regiao:"Kanto", geracao:"1", dificuldade:"Médio", xpcaught:"50000", pricenpc:"8000",  shiny:"yes", fast:"yes", heavy:"no", preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
- mapas:'no',  vip: "no", moves:"Sand attack-50,Drill peck-50,Stickmerang-52,Stickslash-51,Stick throw-54,Night slash-50,Air slash-53,Agility-50,", loots:"(1-1)//Farfetchd stick--4.3%,(1-10)//straw--80%,(1-10)//rubber ball--80.0%,(1-1)//Heart stone--Raro,(1-1)//feather--37.0%,", evoStone:"", boost:"7", booStone:"Feather stone", habilidades:"Cut, Fly"},
+ mapas:'no',  vip: "no", moves:"Sand attack-50,Drill peck-50,Stickmerang-52,Stickslash-51,Stick throw-54,Night slash-50,Air slash-53,Agility-50,", loots:"(1-1)//Farfetchd stick--4.3%,(1-10)//straw--80%,(1-10)//rubber ball--80.0%,(1-1)//Feather stone--Raro,(1-1)//feather--37.0%,", evoStone:"", boost:"7", booStone:"Feather stone", habilidades:"Cut, Fly"},
 
  {nome:"Doduo", numero:84, level:10, ball1:"Pokeball", ball2:"Greatball", clan1:"Wingeon", clan2:"Gardestrike", tipo1:"Voador", tipo2:"Normal", regiao:"Kanto", geracao:"1", dificuldade:"Fácil", xpcaught:"3000", pricenpc:"600",  shiny:"no", fast:"yes", heavy:"no", preevo2:"no", preevo1:"no", evo1:"Dodrio", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"85", nevo2:"no", 
  mapas:'no',  vip: "no", moves:"Sand attack-10,Peck-10,Drill peck-10,Rage-15,Agility-15,", loots:"(1-1)//dodrio feather--1.4%,(1-4)//straw--80%,(1-4)//rubber ball--80%,(1-1)//bird beak--4.6%,", evoStone:"Feather stone", boost:"15", booStone:"Feather stone", habilidades:"Ride"},
@@ -775,7 +775,7 @@ pokesarray = [
    clan1:"Seavell",   clan2:"Naturia",   tipo1:"Água",   tipo2:"Grama", 
    regiao:"Hoen",   geracao:"3",   dificuldade:"Difícil", xpcaught:"200000", pricenpc:"18000",
    shiny:"no", fast:"no", heavy:"no", preevo2:"Lotad", preevo1:"Lombre", evo1:"no", evo2:"no", npreevo2:"270", npreevo1:"271", nevo1:"no", nevo2:"no", 
-   mapas:'no',  vip: "yes", moves:"Absorb-80,Fury swipes-80,Water pulse-80,Bubblebeam-80,Waterfall-80,Scald-82,Hydropump-88,Rain dance-80,Energy ball-80,Swift swim-Passiva,Water sport-Passiva,", loots:"(1-1)//water plant--4.5% (72.0%),(1-21)//seed--80.0% (100.0%),(1-21)//water gem--80.0% (100.0%),(1-1)//leaves--22.8% (68.3%),(1-1)//water pendant--22.8% (68.3%),(1-1)//Leaf stone--Raro,(1-1)//Water stone--Raro,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   mapas:'no',  vip: "yes", moves:"Absorb-80,Fury swipes-80,Water pulse-80,Bubblebeam-80,Waterfall-80,Scald-82,Hydropump-88,Rain dance-80,Energy ball-80,Swift swim-Passiva,Water sport-Passiva,Rain dish-Passiva,", loots:"(1-1)//water plant--4.5% (72.0%),(1-21)//seed--80.0% (100.0%),(1-21)//water gem--80.0% (100.0%),(1-1)//leaves--22.8% (68.3%),(1-1)//water pendant--22.8% (68.3%),(1-1)//Leaf stone--Raro,(1-1)//Water stone--Raro,", evoStone:"", boost:"", booStone:"", habilidades:""},
 
   {nome:"Seedot",  numero:273,  level:20,   ball1:"Pokeball",   ball2:"Greatball", 
    clan1:"Naturia",   clan2:"Nenhum",   tipo1:"Grama",   tipo2:"Nenhum", 
@@ -1429,7 +1429,7 @@ pokesarray = [
    clan1:"Seavell",   clan2:"Nenhum",   tipo1:"Gelo",   tipo2:"Nenhum", 
    regiao:"Sinoh",   geracao:"4",   dificuldade:"Dimensional zone", xpcaught:"0", pricenpc:"100000",
    shiny:"yes", fast:"no", heavy:"no", preevo2:"no", preevo1:"Eevee", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"133", nevo1:"no", nevo2:"no", 
-   mapas:'no',  vip: "no", moves:"Shift-60,Ice shards-60,Ice fang-60,Ice beam-60,Frost breath-62,Blizzard-66,Hail-68,Ice body-Passiva,", loots:"no", evoStone:"", boost:"", booStone:"", habilidades:""},
+   mapas:'no',  vip: "no", moves:"Swift-60,Ice shards-60,Ice fang-60,Avalanche-60,Frost power-60,Blizzard-66,Hail-68,Ice body-Passiva,", loots:"no", evoStone:"", boost:"", booStone:"", habilidades:""},
 
   {nome:"Gliscor",  numero:472,  level:"80",   ball1:"Ultraball",   ball2:"Nenhuma",
    clan1:"Orebound",   clan2:"Wingeon",   tipo1:"Terra",   tipo2:"Voador", 
@@ -1778,8 +1778,8 @@ ShinysMegasArray = [
    fast:"yes", heavy:"no", 
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
-   moves:"Peck-120,Feather dance-120,Drill peck-120,Air cutter-120,Wing attack-120,Air vortex-120,Aerial ace-120,Agility-120,", 
-   loots:"no", evoStone:"", boost:"", booStone:"", habilidades:""},
+   moves:"Peck-120,Feather dance-120,Drill peck-120,Air cutter-120,Sky attack-130,Air vortex-120,Aerial ace-120,Agility-120,", 
+   loots:"no", evoStone:"", boost:"2", booStone:"Feather stone", habilidades:"Fly"},
   
   {shiny:"Shiny", nome:"Raichu",  numero:"26-1",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Raibolt",   clan2:"Nenhum",   tipo1:"Elétrico",   tipo2:"Nenhum", 
@@ -2426,7 +2426,7 @@ ShinysMegasArray = [
    fast:"no", heavy:"no", 
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "yes", 
-   moves:"Quick attack-100,Swift-100,Ember-100,Flamethrower-100,Flame circle-100,Smokescreen-100,Eruption-100,Lava plume-105,Inferno-110,Defense curl-100,", 
+   moves:"Quick attack-100,Swift-100,Ember-100,Flamethrower-100,Flame circle-100,Smokescreen-100,Eruption-100,Flare blitz-110,Inferno-110,", 
    loots:"(1-1)//hot fur--80.3% (100.0%),(1-43)//essence of fire--80.0%,(1-1)//Fire stone--10.3% (30.9%),(1-1)//pot of lava--85.5% (100.0%),(1-1)//fur--85.5% (100.0%),", evoStone:"", boost:"", booStone:"", habilidades:""},
    
   {shiny:"Shiny", nome:"Feraligatr",  numero:"160-1",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma", 
@@ -2822,7 +2822,7 @@ ShinysMegasArray = [
    fast:"no", heavy:"yes", 
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "yes", 
-   moves:"Psy pulse-100,Extrasensory-100,Meteor mash-100,Psychic-100,Metal sound-130,Psy impact-110,Dream eater-100,Hypnosis-100,Iron defense-104,Miracle eye-950,Levitate-Passiva,", 
+   moves:"Psy pulse-100,Extrasensory-100,Meteor mash-100,Psychic-100,Metal sound-130,Psy impact-110,Dream eater-100,Hypnosis-100,Iron defense-104,Miracle eye-950,", 
    loots:"no", evoStone:"", boost:"", booStone:"", habilidades:""},
 
   {shiny:"Shiny", nome:"Lucario",  numero:"448-1",  level:"120",   ball1:"Nenhuma",   ball2:"Nenhuma", 
@@ -5730,9 +5730,9 @@ movesArray = [
    target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "", stun: "", passive: "yes", 
    healing: "", silence: "", freeze: "", knockback: "", },
  
- { move: "Double hit", type: "Normal", desc: "causa dano ao oponente, aplicando efeito slow por 6 segundos.", 
+ { move: "Double hit", type: "Normal", desc: "causa dano ao oponente.", 
    aoe: "", blind: "", buff: "", burn: "", confusion: "", damage: "yes", debuff: "", lifesteal: "", 
-   target: "yes", nevermiss: "", paralyze: "", poison: "", self: "", slow: "yes", stun: "", passive: "", 
+   target: "yes", nevermiss: "", paralyze: "", poison: "", self: "", slow: "", stun: "", passive: "", 
    healing: "", silence: "", freeze: "", knockback: "", }, 
  
  { move: "Crow swarm", type: "Voador", desc: "causa dano em uma grande área ao redor do pokemon, podendo atingir mias de uma vez cada oponente, aplica efeito slow por 6 segundos.", 
@@ -6195,6 +6195,11 @@ movesArray = [
    aoe: "yes", blind: "", buff: "yes", burn: "", confusion: "", damage: "yes", debuff: "", lifesteal: "", 
    target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "", stun: "", passive: "", 
    healing: "", silence: "yes", freeze: "", knockback: "", }, 
+ 
+ { move: "Rain dish", type: "Água", desc: "Ao utilizar o ataque Rain dance o usuário irá curar 33% do HP total", 
+   aoe: "", blind: "", buff: "yes", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "yes", slow: "", stun: "", passive: "yes", 
+   healing: "yes", silence: "", freeze: "", knockback: "", }, 
  
  { move: "Air vortex", type: "Voador", desc: "o pokemon puxa todos os oponentes a sua volta, causando pequenos danos, aplicando efeito stun, a duração é de 10 segundos e o pokemon que utiliza esse ataque não pode se mover ou atacar durante esse periodo.", 
    aoe: "yes", blind: "", buff: "", burn: "", confusion: "", damage: "yes", debuff: "yes", lifesteal: "", 
