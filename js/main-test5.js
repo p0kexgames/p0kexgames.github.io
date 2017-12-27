@@ -10863,6 +10863,10 @@ $(".tab-forca a").click( function() {
 
 
  
+    $('.download-app').click(function() {
+     //var mySearch = $(this).find('i').text();
+     ga('send', 'event', 'Click', 'Downloads', 'Go to site');
+    });
     $('.card.card-clan .card-block a').click(function() {
      var mySearch = $(this).find('i').text();
      ga('send', 'event', 'Pesquisa Simples', 'Clan', mySearch);
