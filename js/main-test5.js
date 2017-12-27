@@ -10865,7 +10865,7 @@ $(".tab-forca a").click( function() {
  
     $('.download-app').click(function() {
      //var mySearch = $(this).find('i').text();
-     ga('send', 'event', 'Click', 'Downloads', 'Go to site');
+     ga('send', 'event', 'Clicks', 'Downloads', 'Go to site');
     });
     $('.card.card-clan .card-block a').click(function() {
      var mySearch = $(this).find('i').text();
