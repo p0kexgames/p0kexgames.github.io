@@ -6487,6 +6487,16 @@ function criarTablePrincipal() {
        var beMedia = " " ;
    }
    
+  if (myPokeNome === "Elekid" || myPokeNome === "Magby") {
+  
+   var pbMedia = Math.ceil(myPokePriceNPC * 0.3 / 2*1.5) ;
+   var gbMedia = Math.ceil(myPokePriceNPC * 1 / 10*1.5);
+   var sbMedia = Math.ceil(myPokePriceNPC * 1 / 28*1.5);
+   var ubMedia = Math.ceil(myPokePriceNPC * 1.5  / 90*1.5);
+ 
+   var beMedia = Math.ceil(myPokePriceNPC * 1.05 / 90*1.5);
+
+  }
    
   if (myPokeNome === "Bagon" || myPokeNome === "Lanturn" || myPokeNome === "Pinsir") {
   
@@ -6509,6 +6519,7 @@ function criarTablePrincipal() {
    var beMedia = Math.ceil(myPokePriceNPC * 1.05 / 90*1.5);
 
   }
+
 
   if (myPokeNome === "Machamp") {
   
@@ -7167,6 +7178,16 @@ function criartableShinys() {
    }
    
    
+  if (myPokeNome === "Elekid" || myPokeNome === "Magby") {
+  
+   var pbMedia = Math.ceil(myPokePriceNPC * 0.3 / 2*1.5) ;
+   var gbMedia = Math.ceil(myPokePriceNPC * 1 / 10*1.5);
+   var sbMedia = Math.ceil(myPokePriceNPC * 1 / 28*1.5);
+   var ubMedia = Math.ceil(myPokePriceNPC * 1.5  / 90*1.5);
+ 
+   var beMedia = Math.ceil(myPokePriceNPC * 1.05 / 90*1.5);
+
+  }
   if (myPokeNome === "Bagon" || myPokeNome === "Lanturn" || myPokeNome === "Pinsir") {
   
    var pbMedia = Math.ceil(myPokePriceNPC * 0.3 / 2*2) ;
@@ -7992,6 +8013,20 @@ $(".aviso").html(" ");
   }
   
   
+  if (myPokeNome === "Elekid" || myPokeNome === "Magby") {
+	  
+   $(".modal-body .tablepb").html( Math.ceil(myPokePriceNPC * 0.3 / 2 / 10*2*1.5) * 10 );
+   $(".modal-body .tablegb").html( Math.ceil(myPokePriceNPC * 1 / 10 / 10*2*1.5) * 10 );
+   $(".modal-body .tablesb").html( Math.ceil(myPokePriceNPC * 1 / 28 / 10*2*1.5) * 10 );
+   $(".modal-body .tableub").html( Math.ceil(myPokePriceNPC * 1.5  / 90 / 10*2*1.5) * 10 );
+   
+   $(".modal-body .tablebe1").html( Math.ceil(myPokePriceNPC * 1.05 / 90 / 10*2*1.5) * 10 );
+   $(".modal-body .tablebe2").html( Math.ceil(myPokePriceNPC * 1.05 / 90 / 10*2*1.5) * 10 );
+   $(".modal-body .tablebe3").html( Math.ceil(myPokePriceNPC * 1.05 / 90 / 10*2*1.5) * 10 );
+   $(".modal-body .tablebe4").html( Math.ceil(myPokePriceNPC * 1.05 / 90 / 10*2*1.5) * 10 );
+
+  }
+	 
   if (myPokeNome === "Bagon" || myPokeNome === "Lanturn" || myPokeNome === "Pinsir") {
    $(".modal-body .tablepb").html( Math.ceil(myPokePriceNPC * 0.3 / 2 / 10*2) * 10 );
    $(".modal-body .tablegb").html( Math.ceil(myPokePriceNPC * 1 / 10 / 10*2) * 10 );
@@ -9690,6 +9725,19 @@ if (myPokeMapas !== 'no') {
    $(".modal-body .tablebe4").html( Math.ceil(myPokePriceNPC * 1.05 / 90 / 10) * 10 );
   }
   
+  if (myPokeNome === "Elekid" || myPokeNome === "Magby") {
+	  
+   $(".modal-body .tablepb").html( Math.ceil(myPokePriceNPC * 0.3 / 2 / 10*2*1.5) * 10 );
+   $(".modal-body .tablegb").html( Math.ceil(myPokePriceNPC * 1 / 10 / 10*2*1.5) * 10 );
+   $(".modal-body .tablesb").html( Math.ceil(myPokePriceNPC * 1 / 28 / 10*2*1.5) * 10 );
+   $(".modal-body .tableub").html( Math.ceil(myPokePriceNPC * 1.5  / 90 / 10*2*1.5) * 10 );
+   
+   $(".modal-body .tablebe1").html( Math.ceil(myPokePriceNPC * 1.05 / 90 / 10*2*1.5) * 10 );
+   $(".modal-body .tablebe2").html( Math.ceil(myPokePriceNPC * 1.05 / 90 / 10*2*1.5) * 10 );
+   $(".modal-body .tablebe3").html( Math.ceil(myPokePriceNPC * 1.05 / 90 / 10*2*1.5) * 10 );
+   $(".modal-body .tablebe4").html( Math.ceil(myPokePriceNPC * 1.05 / 90 / 10*2*1.5) * 10 );
+
+  }
   if (myPokeNome === "Bagon" || myPokeNome === "Lanturn" || myPokeNome === "Pinsir") {
    $(".modal-body .tablepb").html( Math.ceil(myPokePriceNPC * 0.3 / 2 / 10*2) * 10 );
    $(".modal-body .tablegb").html( Math.ceil(myPokePriceNPC * 1 / 10 / 10*2) * 10 );
