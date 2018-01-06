@@ -754,28 +754,28 @@ pokesarray = [
    clan1:"Malefic",   clan2:"Nenhum",   tipo1:"Noturno",   tipo2:"Nenhum", 
    regiao:"Hoen",   geracao:"3",   dificuldade:"Dimensional zone", xpcaught:"0", pricenpc:"5000",
    shiny:"no", fast:"yes", heavy:"no", preevo2:"no", preevo1:"no", evo1:"Mightyena", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"262", nevo2:"no", 
-   mapas:'no',  vip: "no", moves:"Roar-40,Bite-30,Crunch-30,Shadow claw-30,Night slash-30,", loots:"no", evoStone:"", boost:"", booStone:"", habilidades:""},
+   mapas:'no',  vip: "no", moves:"Roar-40,Bite-30,Crunch-30,Shadow claw-30,Night slash-30,", loots:"no", evoStone:"Mirror stone (x10)", boost:"10", booStone:"Mirror stone", habilidades:"Dig"},
   {nome:"Mightyena", numero:262,  level:80,   ball1:"Ultraball",   ball2:"Nenhuma", 
    clan1:"Malefic",   clan2:"Nenhum",   tipo1:"Noturno",   tipo2:"Nenhum", 
    regiao:"Hoen",   geracao:"3",   dificuldade:"Dimensional zone", xpcaught:"0", pricenpc:"100000",
    shiny:"no", fast:"yes", heavy:"no", preevo2:"no", preevo1:"Poochyena", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"261", nevo1:"no", nevo2:"no", 
-   mapas:'no',  vip: "no", moves:"Roar-90,Bite-80,Crunch-80,Take down-80,Shadow claw-80,Astonish-80,Night slash-80,Night daze-86,Taunt-80,Snarl-Passiva,", loots:"no", evoStone:"", boost:"", booStone:"", habilidades:""},
+   mapas:'no',  vip: "no", moves:"Roar-90,Bite-80,Crunch-80,Take down-80,Shadow claw-80,Astonish-80,Night slash-80,Night daze-86,Taunt-80,Snarl-Passiva,", loots:"no", evoStone:"", boost:"5", booStone:"Mirror stone", habilidades:"Dig"},
 
   {nome:"Lotad",  numero:270,  level:20,   ball1:"Pokeball",   ball2:"Greatball", 
    clan1:"Seavell",   clan2:"Naturia",   tipo1:"Água",   tipo2:"Grama", 
    regiao:"Hoen",   geracao:"3",   dificuldade:"Fácil", xpcaught:"10000", pricenpc:"3000",
    shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"Lombre", evo2:"Ludicolo", npreevo2:"no", npreevo1:"no", nevo1:"271", nevo2:"272", 
-   mapas:'no',  vip: "yes", moves:"Absorb-20,Fury swipes-20,Bubblebeam-20,Scald-28,Rain dance-25,Mega drain-Passiva,Swift swim-Passiva,", loots:"(1-1)//water plant--1.1% (5.5%),(1-5)//seed--80.0% (100.0%),(1-5)//water gem--80.0% (100.0%),(1-1)//leaves--13.0% (39.0%),(1-1)//water pendant--13.0% (39.0%),", evoStone:"", boost:"", booStone:"", habilidades:""},
+   mapas:'no',  vip: "yes", moves:"Absorb-20,Fury swipes-20,Bubblebeam-20,Scald-28,Rain dance-25,Mega drain-Passiva,Swift swim-Passiva,", loots:"(1-1)//water plant--1.1% (5.5%),(1-5)//seed--80.0% (100.0%),(1-5)//water gem--80.0% (100.0%),(1-1)//leaves--13.0% (39.0%),(1-1)//water pendant--13.0% (39.0%),", evoStone:"Water stone", boost:"10", booStone:"Leaf stone", habilidades:"Headbutt"},
   {nome:"Lombre",  numero:271,  level:50,   ball1:"Greatball",   ball2:"Superball", 
    clan1:"Seavell",   clan2:"Naturia",   tipo1:"Água",   tipo2:"Grama", 
    regiao:"Hoen",   geracao:"3",   dificuldade:"Médio", xpcaught:"15000", pricenpc:"8000",
    shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"Lotad", evo1:"Ludicolo", evo2:"no", npreevo2:"no", npreevo1:"270", nevo1:"272", nevo2:"no", 
-   mapas:'no',  vip: "yes", moves:"Absorb-50,Fury swipes-50,Water pulse-50,Bubblebeam-50,Waterfall-50,Scald-52,Rain dance-50,Mega drain-Passiva,Swift swim-Passiva,", loots:"(1-1)//water plant--2.2% (11.0%),(1-10)//seed--80.0% (100.0%),(1-10)//water gem--80.0% (100.0%),(1-1)//leaves--16.0% (48.0%),(1-1)//water pendant--16.0% (48.0%),(1-1)//Leaf stone--Raro,(1-1)//Water stone--Raro,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   mapas:'no',  vip: "yes", moves:"Absorb-50,Fury swipes-50,Water pulse-50,Bubblebeam-50,Waterfall-50,Scald-52,Rain dance-50,Mega drain-Passiva,Swift swim-Passiva,", loots:"(1-1)//water plant--2.2% (11.0%),(1-10)//seed--80.0% (100.0%),(1-10)//water gem--80.0% (100.0%),(1-1)//leaves--16.0% (48.0%),(1-1)//water pendant--16.0% (48.0%),(1-1)//Leaf stone--Raro,(1-1)//Water stone--Raro,", evoStone:"Leaf stone,Water stone", boost:"7", booStone:"Leaf stone", habilidades:"Surf"},
   {nome:"Ludicolo",  numero:272,  level:80,   ball1:"Ultraball",   ball2:"Nenhuma", 
    clan1:"Seavell",   clan2:"Naturia",   tipo1:"Água",   tipo2:"Grama", 
    regiao:"Hoen",   geracao:"3",   dificuldade:"Difícil", xpcaught:"200000", pricenpc:"18000",
    shiny:"no", fast:"no", heavy:"no", preevo2:"Lotad", preevo1:"Lombre", evo1:"no", evo2:"no", npreevo2:"270", npreevo1:"271", nevo1:"no", nevo2:"no", 
-   mapas:'no',  vip: "yes", moves:"Absorb-80,Fury swipes-80,Water pulse-80,Bubblebeam-80,Waterfall-80,Scald-82,Hydropump-88,Rain dance-80,Energy ball-80,Swift swim-Passiva,Water sport-Passiva,Rain dish-Passiva,", loots:"(1-1)//water plant--4.5% (72.0%),(1-21)//seed--80.0% (100.0%),(1-21)//water gem--80.0% (100.0%),(1-1)//leaves--22.8% (68.3%),(1-1)//water pendant--22.8% (68.3%),(1-1)//Leaf stone--Raro,(1-1)//Water stone--Raro,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   mapas:'no',  vip: "yes", moves:"Absorb-80,Fury swipes-80,Water pulse-80,Bubblebeam-80,Waterfall-80,Scald-82,Hydropump-88,Rain dance-80,Energy ball-80,Swift swim-Passiva,Water sport-Passiva,Rain dish-Passiva,", loots:"(1-1)//water plant--4.5% (72.0%),(1-21)//seed--80.0% (100.0%),(1-21)//water gem--80.0% (100.0%),(1-1)//leaves--22.8% (68.3%),(1-1)//water pendant--22.8% (68.3%),(1-1)//Leaf stone--Raro,(1-1)//Water stone--Raro,", evoStone:"", boost:"3", booStone:"Leaf stone", habilidades:"Rock smash, Headbutt, Surf"},
 
   {nome:"Seedot",  numero:273,  level:20,   ball1:"Pokeball",   ball2:"Greatball", 
    clan1:"Naturia",   clan2:"Nenhum",   tipo1:"Grama",   tipo2:"Nenhum", 
@@ -8015,15 +8015,17 @@ $(".aviso").html(" ");
   
   if (myPokeNome === "Elekid" || myPokeNome === "Magby") {
 	  
-   $(".modal-body .tablepb").html( Math.ceil(myPokePriceNPC * 0.3 / 2 / 10*2*1.85) * 10 );
-   $(".modal-body .tablegb").html( Math.ceil(myPokePriceNPC * 1 / 10 / 10*2*1.85) * 10 );
-   $(".modal-body .tablesb").html( Math.ceil(myPokePriceNPC * 1 / 28 / 10*2*1.85) * 10 );
-   $(".modal-body .tableub").html( Math.ceil(myPokePriceNPC * 1.5  / 90 / 10*2*1.85) * 10 );
+   //var pbMedia = Math.ceil(myPokePriceNPC * 0.3 / 2*1.85) ;
+	  
+   $(".modal-body .tablepb").html( Math.ceil(myPokePriceNPC * 0.3 / 2*1.85) );
+   $(".modal-body .tablegb").html( Math.ceil(myPokePriceNPC * 1 / 10 / 2*1.85) );
+   $(".modal-body .tablesb").html( Math.ceil(myPokePriceNPC * 1 / 28 / 2*1.85) );
+   $(".modal-body .tableub").html( Math.ceil(myPokePriceNPC * 1.5  / 90 / 2*1.85) );
    
-   $(".modal-body .tablebe1").html( Math.ceil(myPokePriceNPC * 1.05 / 90 / 10*2*1.85) * 10 );
-   $(".modal-body .tablebe2").html( Math.ceil(myPokePriceNPC * 1.05 / 90 / 10*2*1.85) * 10 );
-   $(".modal-body .tablebe3").html( Math.ceil(myPokePriceNPC * 1.05 / 90 / 10*2*1.85) * 10 );
-   $(".modal-body .tablebe4").html( Math.ceil(myPokePriceNPC * 1.05 / 90 / 10*2*1.85) * 10 );
+   $(".modal-body .tablebe1").html( Math.ceil(myPokePriceNPC * 1.05 / 90 / 2*1.85) );
+   $(".modal-body .tablebe2").html( Math.ceil(myPokePriceNPC * 1.05 / 90 / 2*1.85) );
+   $(".modal-body .tablebe3").html( Math.ceil(myPokePriceNPC * 1.05 / 90 / 2*1.85) );
+   $(".modal-body .tablebe4").html( Math.ceil(myPokePriceNPC * 1.05 / 90 / 2*1.85) );
 
   }
 	 
@@ -9727,15 +9729,15 @@ if (myPokeMapas !== 'no') {
   
   if (myPokeNome === "Elekid" || myPokeNome === "Magby") {
 	  
-   $(".modal-body .tablepb").html( Math.ceil(myPokePriceNPC * 0.3 / 2 / 10*2*1.5) * 10 );
-   $(".modal-body .tablegb").html( Math.ceil(myPokePriceNPC * 1 / 10 / 10*2*1.5) * 10 );
-   $(".modal-body .tablesb").html( Math.ceil(myPokePriceNPC * 1 / 28 / 10*2*1.5) * 10 );
-   $(".modal-body .tableub").html( Math.ceil(myPokePriceNPC * 1.5  / 90 / 10*2*1.5) * 10 );
+   $(".modal-body .tablepb").html( Math.ceil(myPokePriceNPC * 0.3 / 2 / 2*1.85) );
+   $(".modal-body .tablegb").html( Math.ceil(myPokePriceNPC * 1 / 10 / 2*1.85) );
+   $(".modal-body .tablesb").html( Math.ceil(myPokePriceNPC * 1 / 28 / 2*1.85) );
+   $(".modal-body .tableub").html( Math.ceil(myPokePriceNPC * 1.5  / 90 / 2*1.85) );
    
-   $(".modal-body .tablebe1").html( Math.ceil(myPokePriceNPC * 1.05 / 90 / 10*2*1.5) * 10 );
-   $(".modal-body .tablebe2").html( Math.ceil(myPokePriceNPC * 1.05 / 90 / 10*2*1.5) * 10 );
-   $(".modal-body .tablebe3").html( Math.ceil(myPokePriceNPC * 1.05 / 90 / 10*2*1.5) * 10 );
-   $(".modal-body .tablebe4").html( Math.ceil(myPokePriceNPC * 1.05 / 90 / 10*2*1.5) * 10 );
+   $(".modal-body .tablebe1").html( Math.ceil(myPokePriceNPC * 1.05 / 90 / 2*1.85) );
+   $(".modal-body .tablebe2").html( Math.ceil(myPokePriceNPC * 1.05 / 90 / 2*1.85) );
+   $(".modal-body .tablebe3").html( Math.ceil(myPokePriceNPC * 1.05 / 90 / 2*1.85) );
+   $(".modal-body .tablebe4").html( Math.ceil(myPokePriceNPC * 1.05 / 90 / 2*1.85) );
 
   }
   if (myPokeNome === "Bagon" || myPokeNome === "Lanturn" || myPokeNome === "Pinsir") {
