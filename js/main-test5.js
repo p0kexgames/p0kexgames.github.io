@@ -881,7 +881,7 @@ pokesarray = [
    regiao:"Hoen",   geracao:"3",   dificuldade:"Fácil", xpcaught:"10000", pricenpc:"3000",
    shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"Loudred", evo2:"Exploud", npreevo2:"no", npreevo1:"no", nevo1:"294", nevo2:"295", 
    mapas:'no',  vip: "yes", moves:"Super sonic-20,Tackle-20,Pound-20,Hyper voice-20,Hyper beam-26,Uproar-Passiva,", loots:"(1-1)//cute ball--2.0% (10.0%),(1-10)//rubber ball--80.0% (100.0%),(1-1)//nail--20.0% (60.0%),", evoStone:"Heart stone", boost:"10", booStone:"Heart stone", habilidades:"Headbutt"},
-  {nome:"Loudred",  numero:294,  level:40,   ball1:"Greatball",   ball2:"Superball", 
+  {nome:"Loudred",  numero:294,  level:50,   ball1:"Greatball",   ball2:"Superball", 
    clan1:"Gardestrike",   clan2:"Nenhum",   tipo1:"Normal",   tipo2:"Nenhum", 
    regiao:"Hoen",   geracao:"3",   dificuldade:"Médio", xpcaught:"15000", pricenpc:"8000",
    shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"Whismur", evo1:"Exploud", evo2:"no", npreevo2:"no", npreevo1:"293", nevo1:"295", nevo2:"no", 
