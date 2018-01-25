@@ -1957,7 +1957,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Rock throw-120,Rock slide-120,Stone edge-120,Rock blast-120,Rock wrecker-125,Falling rocks-120,Harden-120,Rollout-120,Explosion-120,", 
-   loots:"no", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"no", evoStone:"", boost:"2", booStone:"Rock stone", habilidades:"Dig, Rock smash, Headbutt"},
    
   {shiny:"Mega", nome:"Slowbro",  numero:"80-1",  level:"80",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Seavell",   clan2:"Psycraft",   tipo1:"Água",   tipo2:"Psiquico", 
