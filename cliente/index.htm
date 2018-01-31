@@ -1,0 +1,153 @@
+<html>
+
+  <head>
+	<script src="client.min.js"></script>
+</head>
+
+  <body>
+		
+		
+  
+  <script>
+
+	var client = new ClientJS(); // Create A New Client Object
+
+	if( client.isMobile() ) { // Check For Mobile Device
+
+		if( client.isMobileAndroid() ) { // Check For Android
+			alert('We Got Us Some Android!');
+
+		}else if( client.isMobileIOS() ){ // Check For iOS
+			alert('We Got Us Some Apple iOS!');
+
+		}else{
+			alert('Unknown Mobile Device...');
+		}
+	}else{
+		if( client.isJava() ) { // Check If Java Is Installed
+  			alert('Java ' + client.getJavaVersion() ); // Get Java Version
+
+		}else{
+			alert('No Java Installed...');
+		}
+	}
+
+</script>
+
+<div>Device/Browser Fingerprint: <span id="fingerprint"></span></div>
+<script>
+
+	var client = new ClientJS(); // Create A New Client Object
+	var fingerprint = client.getFingerprint(); // Calculate Device/Browser Fingerprint
+	document.getElementById("fingerprint").innerHTML = fingerprint;
+
+</script>
+
+<div>Custom Fingerprint: <span id="custom-fingerprint"></span></div>
+<script>
+
+	var client = new ClientJS(); // Create A New Client Object
+	var ua = client.getBrowserData().ua;
+	var canvasPrint = client.getCanvasPrint();
+
+	var fingerprint = client.getCustomFingerprint(ua, canvasPrint);
+
+	document.getElementById("custom-fingerprint").innerHTML = fingerprint;
+
+</script>
+
+<hr/>
+
+<div>user Agent: <span id="userAgent"></span></div>
+<script>
+
+	var client = new ClientJS(); // Create A New Client Object
+	var userAgent = client.getUserAgent(); // Get User Agent String
+	document.getElementById("userAgent").innerHTML = userAgent;
+
+</script>
+
+<div>Navegador: <span id="browser"></span></div>
+<script>
+
+	var client = new ClientJS(); // Create A New Client Object
+	var browser = client.getBrowser(); // Get Browser
+	document.getElementById("browser").innerHTML = browser;
+
+</script>
+
+<div>Versão do Navegador: <span id="browserVersion"></span></div>
+<script>
+
+	var client = new ClientJS(); // Create A New Client Object
+	var browserVersion = client.getBrowserVersion(); // Get Browser Version
+	document.getElementById("browserVersion").innerHTML = browserVersion;
+
+</script>
+
+<hr/>
+
+<div>Sistema operacional: <span id="OS"></span></div>
+<script>
+
+	var client = new ClientJS(); // Create A New Client Object
+	var OS = client.getOS(); // Get OS Version
+	document.getElementById("OS").innerHTML = OS;
+
+</script>
+
+
+<div>Versão do Sistema operacional: <span id="osVersion"></span></div>
+<script>
+
+	var client = new ClientJS(); // Create A New Client Object
+	var osVersion = client.getOSVersion(); // Get OS Version
+	document.getElementById("osVersion").innerHTML = osVersion;
+
+</script>
+
+<hr/>
+
+<div>Monitor: <span id="screenPrint"></span></div>
+<script>
+
+	var client = new ClientJS(); // Create A New Client Object
+	var screenPrint = client.getScreenPrint(); // Get Screen Print
+	document.getElementById("screenPrint").innerHTML = screenPrint;
+
+</script>
+
+
+<div>colorDepth: <span id="colorDepth"></span></div>
+<script>
+
+	var client = new ClientJS(); // Create A New Client Object
+	var colorDepth = client.getColorDepth(); // Get Color Depth
+	document.getElementById("colorDepth").innerHTML = colorDepth;
+
+</script>
+
+<div>Resolução atual: <span id="currentResolution"></span></div>
+<script>
+
+	var client = new ClientJS(); // Create A New Client Object
+	var currentResolution = client.getCurrentResolution(); // Get Current Resolution
+	document.getElementById("currentResolution").innerHTML = currentResolution;
+
+</script>
+
+<div>Resolução disponivel: <span id="availableResolution"></span></div>
+<script>
+
+	var client = new ClientJS(); // Create A New Client Object
+	var availableResolution = client.getAvailableResolution(); // Get Available Resolution
+	document.getElementById("availableResolution").innerHTML = availableResolution;
+
+</script>
+<br/>
+<br/>
+
+<a href="https://clientjs.org">referencias</a>
+  </body>
+
+</html>
