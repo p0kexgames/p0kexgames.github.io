@@ -2,152 +2,232 @@
 
   <head>
 	<script src="client.min.js"></script>
+	<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false"></script>
 </head>
 
   <body>
-		
+	
+	
+	
+	
+<div>Device/Browser Fingerprint: <span id="fingerprint"></span></div>	
+<div>Custom Fingerprint: <span id="custom-fingerprint"></span></div>
+	<hr/>
+<div>user Agent: <span id="userAgent"></span></div>
+<div>Navegador: <span id="browser"></span></div>
+<div>Versão do Navegador: <span id="browserVersion"></span></div>
+	<hr/>
+<div>Sistema operacional: <span id="OS"></span></div>
+<div>Versão do Sistema operacional: <span id="osVersion"></span></div>
+	<hr/>
+<div>Monitor: <span id="screenPrint"></span></div>
+<div>colorDepth: <span id="colorDepth"></span></div>
+<div>Resolução atual: <span id="currentResolution"></span></div>
+<div>Resolução disponivel: <span id="availableResolution"></span></div>
+	<hr/>
+<div>Meu IP <span id="meuip"></span></div>
+<div>Latitude / Longitude: <span id="latlng"></span></div>
 		
   
   <script>
+	/////////////////////////////////////////////////////////////////
+	//
+	// Referencias: 
+	// https://clientjs.org
+	//
+	/////////////////////////////////////////////////////////////////
+	
+	
+	//FINGERPRINTS
+	var client = new ClientJS(); // Create A New Client Object
+	var fingerprint = client.getFingerprint(); // Calculate Device/Browser Fingerprint
+	document.getElementById("fingerprint").innerHTML = fingerprint;
+	
+	
+	//CUSTOM FINGERPRINTS
+	var client = new ClientJS(); // Create A New Client Object
+	var ua = client.getBrowserData().ua;
+	var canvasPrint = client.getCanvasPrint();
+	var fingerprint = client.getCustomFingerprint(ua, canvasPrint);
+	document.getElementById("custom-fingerprint").innerHTML = fingerprint;
+	
+	
+	//USERAGENT
+	var client = new ClientJS(); // Create A New Client Object
+	var userAgent = client.getUserAgent(); // Get User Agent String
+	document.getElementById("userAgent").innerHTML = userAgent;
+	
+	
+	//NAVEGADOR
+	var client = new ClientJS(); // Create A New Client Object
+	var browser = client.getBrowser(); // Get Browser
+	document.getElementById("browser").innerHTML = browser;
+	
+	
+	//VERSAO DO NAVEGADOR
+	var client = new ClientJS(); // Create A New Client Object
+	var browserVersion = client.getBrowserVersion(); // Get Browser Version
+	document.getElementById("browserVersion").innerHTML = browserVersion;
+	
+	
+	//SISTEMA OPERACIONAL
+	var client = new ClientJS(); // Create A New Client Object
+	var OS = client.getOS(); // Get OS Version
+	document.getElementById("OS").innerHTML = OS;
+	
 
+	//VERSAO DO SISTEMA OPERACIONAL
+	var client = new ClientJS(); // Create A New Client Object
+	var osVersion = client.getOSVersion(); // Get OS Version
+	document.getElementById("osVersion").innerHTML = osVersion;
+	
+	
+	//SCREEN PRINT
+	var client = new ClientJS(); // Create A New Client Object
+	var screenPrint = client.getScreenPrint(); // Get Screen Print
+	document.getElementById("screenPrint").innerHTML = screenPrint;
+	
+	
+	//COLOR DEPTH
+	var client = new ClientJS(); // Create A New Client Object
+	var colorDepth = client.getColorDepth(); // Get Color Depth
+	document.getElementById("colorDepth").innerHTML = colorDepth;
+	
+	
+	//RESOLUCAO ATUAL
+	var client = new ClientJS(); // Create A New Client Object
+	var currentResolution = client.getCurrentResolution(); // Get Current Resolution
+	document.getElementById("currentResolution").innerHTML = currentResolution;
+	
+	
+	//RESOLUCAO DISPONIVEL
+	var client = new ClientJS(); // Create A New Client Object
+	var availableResolution = client.getAvailableResolution(); // Get Available Resolution
+	document.getElementById("availableResolution").innerHTML = availableResolution;
+	
+	
+	//FUNÇÂO MOSTRA IP
+	function getIP(json) {
+		document.getElementById("meuip").innerHTML = json.ip;
+	}
+	
+	
+	
+	
+	
+	//OUTRAS FUNÇÔES
 	var client = new ClientJS(); // Create A New Client Object
 
 	if( client.isMobile() ) { // Check For Mobile Device
 
 		if( client.isMobileAndroid() ) { // Check For Android
-			alert('We Got Us Some Android!');
+			//alert('We Got Us Some Android!');
 
 		}else if( client.isMobileIOS() ){ // Check For iOS
-			alert('We Got Us Some Apple iOS!');
+			//alert('We Got Us Some Apple iOS!');
 
 		}else{
-			alert('Unknown Mobile Device...');
+			//alert('Unknown Mobile Device...');
 		}
 	}else{
 		if( client.isJava() ) { // Check If Java Is Installed
-  			alert('Java ' + client.getJavaVersion() ); // Get Java Version
+  			//alert('Java ' + client.getJavaVersion() ); // Get Java Version
 
 		}else{
-			alert('No Java Installed...');
+			//alert('No Java Installed...');
 		}
 	}
 
 </script>
 
-<div>Device/Browser Fingerprint: <span id="fingerprint"></span></div>
-<script>
 
-	var client = new ClientJS(); // Create A New Client Object
-	var fingerprint = client.getFingerprint(); // Calculate Device/Browser Fingerprint
-	document.getElementById("fingerprint").innerHTML = fingerprint;
+
+
+
+
+
+<script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
+
+
+
+
+
+---------------------------
+
+    <article>
+      <p>Procurando LOCAL: <span id="status">(aguardando local...)</span></p>
+    </article>
+<script>
+function success(position) {
+  var s = document.querySelector('#status');
+
+  if (s.className == 'success') {
+    // not sure why we're hitting this twice in FF, I think it's to do with a cached result coming back
+    return;
+  }
+
+  s.innerHTML = "Encontrado!";
+  s.className = 'success';
+
+  var mapcanvas = document.createElement('div');
+  mapcanvas.id = 'mapcanvas';
+  mapcanvas.style.height = '400px';
+  mapcanvas.style.width = '560px';
+
+  document.querySelector('article').appendChild(mapcanvas);
+
+  var latlng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+  var myOptions = {
+    zoom: 15,
+    center: latlng,
+    mapTypeControl: false,
+    navigationControlOptions: {style: google.maps.NavigationControlStyle.SMALL},
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  };
+  var map = new google.maps.Map(document.getElementById("mapcanvas"), myOptions);
+
+  var marker = new google.maps.Marker({
+      position: latlng,
+      map: map,
+      title:"Você está aqui! (margem de erro "+position.coords.accuracy+" metros)"
+  });
+  
+  alert ( latlng );
+	document.getElementById("latlng").innerHTML = latlng;
+}
+
+function error(msg) {
+  var s = document.querySelector('#status');
+  s.innerHTML = typeof msg == 'string' ? msg : "Não encontrado!";
+  s.className = 'fail';
+
+	document.getElementById("latlng").innerHTML = "Não encontrado!";
+  var mapcanvas = "É necessário ativar a localização desse dispositivo";
+
+
+  document.querySelector('article').append(mapcanvas);
+	
+  // console.log(arguments);
+}
+
+if (navigator.geolocation) {
+  navigator.geolocation.getCurrentPosition(success, error);
+} else {
+  error('not supported');
+}
 
 </script>
 
-<div>Custom Fingerprint: <span id="custom-fingerprint"></span></div>
-<script>
-
-	var client = new ClientJS(); // Create A New Client Object
-	var ua = client.getBrowserData().ua;
-	var canvasPrint = client.getCanvasPrint();
-
-	var fingerprint = client.getCustomFingerprint(ua, canvasPrint);
-
-	document.getElementById("custom-fingerprint").innerHTML = fingerprint;
-
-</script>
-
-<hr/>
-
-<div>user Agent: <span id="userAgent"></span></div>
-<script>
-
-	var client = new ClientJS(); // Create A New Client Object
-	var userAgent = client.getUserAgent(); // Get User Agent String
-	document.getElementById("userAgent").innerHTML = userAgent;
-
-</script>
-
-<div>Navegador: <span id="browser"></span></div>
-<script>
-
-	var client = new ClientJS(); // Create A New Client Object
-	var browser = client.getBrowser(); // Get Browser
-	document.getElementById("browser").innerHTML = browser;
-
-</script>
-
-<div>Versão do Navegador: <span id="browserVersion"></span></div>
-<script>
-
-	var client = new ClientJS(); // Create A New Client Object
-	var browserVersion = client.getBrowserVersion(); // Get Browser Version
-	document.getElementById("browserVersion").innerHTML = browserVersion;
-
-</script>
-
-<hr/>
-
-<div>Sistema operacional: <span id="OS"></span></div>
-<script>
-
-	var client = new ClientJS(); // Create A New Client Object
-	var OS = client.getOS(); // Get OS Version
-	document.getElementById("OS").innerHTML = OS;
-
-</script>
+------------------------------
 
 
-<div>Versão do Sistema operacional: <span id="osVersion"></span></div>
-<script>
 
-	var client = new ClientJS(); // Create A New Client Object
-	var osVersion = client.getOSVersion(); // Get OS Version
-	document.getElementById("osVersion").innerHTML = osVersion;
-
-</script>
-
-<hr/>
-
-<div>Monitor: <span id="screenPrint"></span></div>
-<script>
-
-	var client = new ClientJS(); // Create A New Client Object
-	var screenPrint = client.getScreenPrint(); // Get Screen Print
-	document.getElementById("screenPrint").innerHTML = screenPrint;
-
-</script>
-
-
-<div>colorDepth: <span id="colorDepth"></span></div>
-<script>
-
-	var client = new ClientJS(); // Create A New Client Object
-	var colorDepth = client.getColorDepth(); // Get Color Depth
-	document.getElementById("colorDepth").innerHTML = colorDepth;
-
-</script>
-
-<div>Resolução atual: <span id="currentResolution"></span></div>
-<script>
-
-	var client = new ClientJS(); // Create A New Client Object
-	var currentResolution = client.getCurrentResolution(); // Get Current Resolution
-	document.getElementById("currentResolution").innerHTML = currentResolution;
-
-</script>
-
-<div>Resolução disponivel: <span id="availableResolution"></span></div>
-<script>
-
-	var client = new ClientJS(); // Create A New Client Object
-	var availableResolution = client.getAvailableResolution(); // Get Available Resolution
-	document.getElementById("availableResolution").innerHTML = availableResolution;
-
-</script>
 <br/>
 <br/>
 
-<a href="https://clientjs.org">referencias</a>
+<a href="https://clientjs.org">referencias clientjs</a>
+
+
   </body>
 
 </html>
