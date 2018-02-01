@@ -9,7 +9,6 @@
 	
 	
 	
-	
 <div>Device/Browser Fingerprint: <span id="fingerprint"></span></div>	
 <div>Custom Fingerprint: <span id="custom-fingerprint"></span></div>
 	<hr/>
@@ -27,6 +26,14 @@
 	<hr/>
 <div>Meu IP <span id="meuip"></span></div>
 <div>Latitude / Longitude: <span id="latlng"></span></div>
+
+<br/>
+<br/>
+---------------------------
+
+    <article>
+      <p>Procurando LOCAL: <span id="status">(aguardando local...)</span></p>
+    </article>
 		
   
   <script>
@@ -137,27 +144,14 @@
 			//alert('No Java Installed...');
 		}
 	}
-
-</script>
-
-
-
-
-
-
-
-<script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
-
-
-
-
-
----------------------------
-
-    <article>
-      <p>Procurando LOCAL: <span id="status">(aguardando local...)</span></p>
-    </article>
-<script>
+	
+	
+	
+	
+	
+	
+	//FUNÇÃO QUE ABRE O MAPA
+	
 function success(position) {
   var s = document.querySelector('#status');
 
@@ -216,16 +210,21 @@ if (navigator.geolocation) {
   error('not supported');
 }
 
+
 </script>
 
-------------------------------
 
 
 
-<br/>
-<br/>
 
-<a href="https://clientjs.org">referencias clientjs</a>
+
+
+<script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
+
+
+
+
+
 
 
   </body>
