@@ -10622,13 +10622,16 @@ function enviarcontribuicao() {
 
  var name = $( "#pokes-sem-dex" ).val();
  var IPINFO = $( "#details" ).text();
+ var IPINFO2 = $( "#meuip" ).text();
+ var FINGERPRINT = $( "#fingerprint" ).text();
+ var CUSTOMFINGERPRINT = $( "#custom-fingerprint" ).text();
 
 $( ".contact-form-email.contributtion" ).val("contribuicao2@pxgtutor.com");
 
  if (name == "all") {
-   $(".modal .contact-form-name").val("Contribuição DeviceID="+getDeviceId()+" IP="+IPINFO.replace(/[{}"]/g,''));
+   $(".modal .contact-form-name").val("Contribuição DeviceID="+getDeviceId()+" Fingerprint="+FINGERPRINT+" CustomFingerprint="+CUSTOMFINGERPRINT+" IP="+IPINFO.replace(/[{}"]/g,'')+" IP2="+IPINFO2);
  } else {
-   $(".modal .contact-form-name").val("Contribuição: "+name+" DeviceID="+getDeviceId()+" IP="+IPINFO.replace(/[{}"]/g,''));
+   $(".modal .contact-form-name").val("Contribuição: "+name+" DeviceID="+getDeviceId()+" Fingerprint="+FINGERPRINT+" CustomFingerprint="+CUSTOMFINGERPRINT+" IP="+IPINFO.replace(/[{}"]/g,'')+" IP2="+IPINFO2);
  }
  $(".semdex").removeClass("active");
  $(".semdex."+name).addClass("active");
