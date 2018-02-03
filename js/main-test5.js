@@ -7666,7 +7666,7 @@ criarPaginacaodeTabela();
 
 
  // alert ('Atenção, \n\nPara ver o local no mapa clique na imagem do pokemon, em seguida selecione a aba mapas clique na imagem em miniatura para abrir a imagem na tela grande e repare nos marcadores em vermelho\n\n\nCaso os locais destacados estejam errados deixe seu comentario e se possível uma print da sua tela para que nos consertemos.');
-  alert ('Já é possível visualizar os pokes Shinys, Moves, Loots (de todos os pokes) e as médias (dos shiny cyber)\n\nPara ver as informações do pokemon shiny basta clicar na foto do pokemon desejado, na janela que abrir posicioneo mouse em cima da bolinha verde (ao lado da foto) que irá mostrar as versões shinys, megas disponíveis.\n\n\nEstamos atualizando as informações, contamos com sua colaboração caso encontre algum erro.');
+  alert ('Baixe nosso aplicativo atualizado (versão 2.0.1) para android 4.1 ou superior       \n Baixe no Link: https://goo.gl/xNZuru              Estamos em fase BETA e atualizando as informações, contamos com sua colaboração caso encontre algum erro.');
 
 // ATUALIZA O MODAL DE INFORMAÇÃO DO POKE AO CLICAR NA CLASSE .ITEM
  $(document).on("click", ".item", function () {
