@@ -1777,7 +1777,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "yes", 
    moves:"Mega kick-100,Thunder shock-100,Thunder bolt-100,Thunder wave-100,Thunder punch-100,Iron tail-100,Body slam-105,Thunder-100,Electric storm-110,Electric charge-Passiva,", 
-   loots:"(1-1)//electric box--35.0%,(1-1)//Thunder stone--Raro,(1-20)//screw--80.0%,(1-1)//Raichu doll--Raro,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//electric box--35.0%,(1-1)//Thunder stone--Raro,(1-20)//screw--80.0%,(1-1)//Raichu doll--Raro,", evoStone:"", boost:"2", booStone:"Thunder stone", habilidades:"Light, Headbutt"},
     
   {shiny:"Shiny", nome:"Nidoking",  numero:"34-1",  level:"120",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Malefic",   clan2:"Nenhum",   tipo1:"Venenoso",   tipo2:"Terra", 
@@ -1786,7 +1786,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Quick attack-120,Horn attack-120,Poison fang-120,Poison jab-120,Toxic spikes-120,Sludge wave-120,Venoshock-120,Cross poison-120,Fear-120,Rage-120,", 
-   loots:"no", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"no", evoStone:"", boost:"2", booStone:"Venom stone", habilidades:"Dig, Rock smash, Headbutt"},
    
   {shiny:"Shiny", nome:"Ninetales",  numero:"38-1",  level:"150",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Volcanic",   clan2:"Nenhum",   tipo1:"Fogo",   tipo2:"Nenhum", 
@@ -1795,7 +1795,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "yes", 
    moves:"Quick attack-150,Iron tail-150,Ember-150,Flamethrower-150,Flame wheel-150,Fireball-150,Fire spin-150,Fire blast-154,Inferno-160,Safeguard-160,", 
-   loots:"(1-1)//fox tail--10.0%,(1-90)//essence of fire--100.0%,(1-1)//Fire stone--8.0%,(1-1)//comb--100.0%,(1-1)//fur--100.0%,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//fox tail--10.0%,(1-90)//essence of fire--100.0%,(1-1)//Fire stone--8.0%,(1-1)//comb--100.0%,(1-1)//fur--100.0%,", evoStone:"", boost:"2", booStone:"Fire stone", habilidades:"Dig, Ride"},
    
   {shiny:"Shiny", nome:"Zubat",  numero:"41-1",  level:"10",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Malefic",   clan2:"Wingeon",   tipo1:"Venenoso",   tipo2:"Voador", 
@@ -1804,7 +1804,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"Shiny Golbat", evo2:"Shiny Crobat", npreevo2:"no", npreevo1:"no", nevo1:"42-1", nevo2:"169-1", 
    mapas:'no',  vip: "no", 
    moves:"Super sonic-20,Bite-20,Poison fang-20,Toxic-20,Whirlwind-20,Wing attack-20,Air cutter-24,Lifesteal-Passiva,", 
-   loots:"(1-1)//tooth-15.0%,(1-1)//bat wing--8.0%,(1-3)//bottle of poison--80.0%,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//tooth-15.0%,(1-1)//bat wing--8.0%,(1-3)//bottle of poison--80.0%,", evoStone:"Venom stone (x2)", boost:"10", booStone:"Venom stone", habilidades:""},
   {shiny:"Shiny", nome:"Golbat",  numero:"42-1",  level:"60",   ball1:"Nenhuma",   ball2:"Nenhuma",  
    clan1:"Malefic",   clan2:"Wingeon",   tipo1:"Venenoso",   tipo2:"Voador", 
    regiao:"Kanto",   geracao:"1",   dificuldade:"Caught", xpcaught:"0", pricenpc:"unseleable",
@@ -1812,7 +1812,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"Shiny Zubat", evo1:"Shiny Crobat", evo2:"no", npreevo2:"no", npreevo1:"41-1", nevo1:"169-1", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Super sonic-60,Bite-60,Poison fang-60,Toxic-60,Whirlwind-60,Wing attack-60,Air cutter-68,Cross poison-64,Venom gale-75,Lifesteal-Passiva,", 
-   loots:"(1-1)//bat wing--25.0%,(1-1)//tooth--25.0%,(1-1)//Venom stone--Raro,(1-4)//bottle of poison--80.0%,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//bat wing--25.0%,(1-1)//tooth--25.0%,(1-1)//Venom stone--Raro,(1-4)//bottle of poison--80.0%,", evoStone:"Ancient stone (x2)", boost:"4", booStone:"Venom stone", habilidades:""},
    
   {shiny:"Shiny", nome:"Oddish",  numero:"43-1",  level:"10",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Naturia",   clan2:"Malefic",   tipo1:"Grama",   tipo2:"Venenoso", 
@@ -1821,7 +1821,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Absorb-10,Leech seed-10,Acid-10,Poison bomb-13,Poison gas-17,Sleep powder-10,Stun spore-10,Poison powder-10,Spores reaction-Passiva,", 
-   loots:"no", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"no", evoStone:"", boost:"15", booStone:"Leaf stone", habilidades:"Cut"},
   {shiny:"Shiny", nome:"Vileplume",  numero:"45-1",  level:"120",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Naturia",   clan2:"Nenhum",   tipo1:"Grama",   tipo2:"Nenhum", 
    regiao:"Kanto",   geracao:"1",   dificuldade:"Clan", xpcaught:"0", pricenpc:"800000",
@@ -1829,7 +1829,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Seed bomb-120,Leech seed-120,Magical leaf-120,Leaf blade-120,Petal dance-120,Petal blizzard-120,Sleep powder-120,Sunny day-120,Chlorophyll-Passiva,Poison spore-Passiva,Spores reaction-Passiva,Mega drain-Passiva,", 
-   loots:"(1-1)//leaves--20.0%,(1-1)//bag of pollem--Raro,(1-15)//seed--80.0%,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//leaves--20.0%,(1-1)//bag of pollem--Raro,(1-15)//seed--80.0%,", evoStone:"", boost:"2", booStone:"Leaf stone", habilidades:"Cut"},
    
   {shiny:"Shiny", nome:"Paras",  numero:"46-1",  level:"10",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Naturia",   clan2:"Nenhum",   tipo1:"Inseto",   tipo2:"Grama", 
@@ -1838,7 +1838,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"Shiny Parasect", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"47-1", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Scratch-10,Poison sting-10,Slash-10,Stun spore-15,Poison powder-13,Sleep powder-17,", 
-   loots:"(1-1)//mushroom--5.0%,(1-1)//pot of moss bug--10.0%,(1-18)//seed--80.0%,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//mushroom--5.0%,(1-1)//pot of moss bug--10.0%,(1-18)//seed--80.0%,", evoStone:"Cocoon stone (x2)", boost:"15", booStone:"Cocoon stone", habilidades:"Dig, Cut"},
   {shiny:"Shiny", nome:"Parasect",  numero:"47-1",  level:"60",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Naturia",   clan2:"Nenhum",   tipo1:"Inseto",   tipo2:"Grama", 
    regiao:"Kanto",   geracao:"1",   dificuldade:"Caught", xpcaught:"0", pricenpc:"unseleable",
@@ -1846,7 +1846,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"Shiny Paras", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"46-1", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Absorb-60,Leech life-65,Poison sting-60,Slash-60,Poison bomb-60,Stun spore-60,Poison powder-60,Sleep powder-60,Fury cutter-66,X scissor-68,Mega drain-Passiva,Spores reaction-Passiva,", 
-   loots:"(1-1)//mushroom--30.0%,(1-1)//pot of moss bug--30.0%,(1-1)//Cocoon stone--Raro,(1-55)//seed--80.0%,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//mushroom--30.0%,(1-1)//pot of moss bug--30.0%,(1-1)//Cocoon stone--Raro,(1-55)//seed--80.0%,", evoStone:"", boost:"4", booStone:"Cocoon stone", habilidades:"Dig, Cut"},
    
   {shiny:"Shiny", nome:"Venonat",  numero:"48-1",  level:"20",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Naturia",   clan2:"Malefic",   tipo1:"Inseto",   tipo2:"Venenoso", 
@@ -1855,7 +1855,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"Shiny Venomoth", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"49-1", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Super sonic-20,Psybeam-20,Silver wind-20,Confusion-26,Psychic-20,Signal beam-26,Bug buzz-24,Sleep powder-20,Poison powder-20,", 
-   loots:"(1-1)//tooth--15.0%,(1-1)//bug antenna--5.0%,(1-22)//seed--80.0%,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//tooth--15.0%,(1-1)//bug antenna--5.0%,(1-22)//seed--80.0%,", evoStone:"Venom stone,Cocoon stone", boost:"8", booStone:"Venom stone", habilidades:"Headbutt"},
   {shiny:"Shiny", nome:"Venomoth",  numero:"49-1",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Naturia",   clan2:"Malefic",   tipo1:"Inseto",   tipo2:"Venenoso", 
    regiao:"Kanto",   geracao:"1",   dificuldade:"Caught", xpcaught:"0", pricenpc:"unseleable",
@@ -1863,7 +1863,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"Shiny Venonat", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"48-1", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Super sonic-100,Leech life-105,Silver wind-100,Confusion-106,Psychic-100,Signal beam-100,Whirlwind-100,Bug buzz-106,Sleep powder-100,Poison powder-100,", 
-   loots:"(1-1)//tooth--15.0%,(1-1)//bug venom--10.0%,(1-1)//Cocoon stone--Raro,(1-50)//seed--80.0%,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//tooth--15.0%,(1-1)//bug venom--10.0%,(1-1)//Cocoon stone--Raro,(1-50)//seed--80.0%,", evoStone:"", boost:"2", booStone:"Venom stone", habilidades:"Fly"},
    
   {shiny:"Champion", nome:"Primeape",  numero:"57-1",  level:"",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Gardestrike",   clan2:"Nenhum",   tipo1:"Lutador",   tipo2:"Nenhum", 
@@ -1872,7 +1872,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Triple kick-100,Karate chop-100,Revenge-112,Cross chop-104,Focus energy-107,Final gambit-105,Dynamicpunch-110,Bulk up-100,Foresight-Passiva,", 
-   loots:"no", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"no", evoStone:"", boost:"3", booStone:"Mirror stone", habilidades:"Rock smash, Headbutt"},
    
   {shiny:"Shiny", nome:"Growlithe",  numero:"58-1",  level:"30",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Volcanic",   clan2:"Nenhum",   tipo1:"Fogo",   tipo2:"Nenhum", 
@@ -1881,7 +1881,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"Shiny Arcanine", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"59-1", nevo2:"no", 
    mapas:'no',  vip: "yes", 
    moves:"Roar-40,Bite-30,Ember-30,Flamethrower-30,Fireball-30,Fire fang-30,Extremespeed-30,Fire blast-32,Heat wave-34,", 
-   loots:"(1-1)//pot of lava--10.0%,(1-1)//nail--20.0%,(1-1)//fur--8.0%,(1-12)//essence of fire--80.0%,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//pot of lava--10.0%,(1-1)//nail--20.0%,(1-1)//fur--8.0%,(1-12)//essence of fire--80.0%,", evoStone:"Crystal stone,Fire stone", boost:"8", booStone:"Fire stone", habilidades:"Dig, Headbutt"},
   {shiny:"Shiny", nome:"Arcanine",  numero:"59-1",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Volcanic",   clan2:"Nenhum",   tipo1:"Fogo",   tipo2:"Nenhum", 
    regiao:"Kanto",   geracao:"1",   dificuldade:"Caught", xpcaught:"0", pricenpc:"unseleable",
@@ -1889,7 +1889,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"Shiny Growlithe", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"58-1", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "yes", 
    moves:"Roar-110,Bite-100,Ember-100,Flamethrower-100,Fireball-100,Fire fang-100,Extremespeed-100,Fire blast-102,Heat wave-104,War dog-106,", 
-   loots:"(1-1)//pot of lava--20.0%,(1-1)//nail--40.0%,(1-1)//fur--80.0%,(1-35)//essence of fire--80.0%,(1-1)Fire stone--Raro,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//pot of lava--20.0%,(1-1)//nail--40.0%,(1-1)//fur--80.0%,(1-35)//essence of fire--80.0%,(1-1)Fire stone--Raro,", evoStone:"", boost:"2", booStone:"Fire stone", habilidades:"Dig, Ride, Headbutt"},
    
   {shiny:"Dark", nome:"Abra",  numero:"63-1",  level:"120",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Malefic",   clan2:"Psycraft",   tipo1:"Fantasma",   tipo2:"Psiquico", 
@@ -1898,7 +1898,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "yes", 
    moves:"Shadow ball-120,Shadowave-120,Shadow sphere-120,Night shade-120,Astonish-120,Invisible-120,Nightmare-120,Hypnosis-120,Reflect-120,Morph-120,", 
-   loots:"no", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"no", evoStone:"", boost:"2", booStone:"Darkness stone", habilidades:"Teleport, Light, Blink"},
   {shiny:"Light", nome:"Abra",  numero:"63-2",  level:"120",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Malefic",   clan2:"Psycraft",   tipo1:"Fantasma",   tipo2:"Psiquico", 
    regiao:"Kanto",   geracao:"1",   dificuldade:"Agatha quest", xpcaught:"0", pricenpc:"0",
@@ -1914,7 +1914,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Psybeam-100,Psywave-100,Psy pulse-100,Confusion-100,Psychic-100,Psyusion-115,Calm mind-100,Hypnosis-100,Reflect-105,Restore-105,Miracle eye-100,", 
-   loots:"(1-1)//future orb--45.0%,(1-1)//psychic spoon--80.3%,(1-1)//Enigma stone--Raro,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//future orb--45.0%,(1-1)//psychic spoon--80.3%,(1-1)//Enigma stone--Raro,", evoStone:"", boost:"2", booStone:"Enigma stone", habilidades:"Teleport, Light, Control mind, Blink"},
   {shiny:"Mega", nome:"Alakazam",  numero:"65-2",  level:"80",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Psycraft",   clan2:"Nenhum",   tipo1:"Psiquico",   tipo2:"Nenhum", 
    regiao:"Kanto",   geracao:"1",   dificuldade:"Embedded tower", xpcaught:"0", pricenpc:"0",
@@ -1931,7 +1931,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Triple punch-100,Karate chop-100,Revenge-112,Focus blast-100,Arm thrust-106,Vital throw-108,Dynamicpunch-110,Agility-100,Foresight-Passiva,", 
-   loots:"(1-1)//belt of champion--Raro,(1-40)//band aid--8.0%,(1-1)//Punch stone--Raro,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//belt of champion--Raro,(1-40)//band aid--8.0%,(1-1)//Punch stone--Raro,", evoStone:"", boost:"2", booStone:"Punch stone", habilidades:"Rock smash, Headbutt"},
    
   {shiny:"Shiny", nome:"Tentacool",  numero:"72-1",  level:"20",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Seavell",   clan2:"Malefic",   tipo1:"Água",   tipo2:"Venenoso", 
@@ -1940,7 +1940,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"Shiny Tentacruel", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"73-1", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Super sonic-20,Wrap-20,Bubbles-20,Poison jab-20,Waterball-20,Bubblebeam-20,Acid-20,Poison bomb-20,Mortal gas-28,Hydropump-30,", 
-   loots:"(1-1)//water pendant--5.0%,(1-1)//ruby--Raro,(1-2)//water gem--80.0%,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//water pendant--5.0%,(1-1)//ruby--Raro,(1-2)//water gem--80.0%,", evoStone:"Water stone,Venom stone", boost:"10", booStone:"Water stone", habilidades:"Surf"},
   {shiny:"Shiny", nome:"Tentacruel",  numero:"73-1",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Seavell",   clan2:"Malefic",   tipo1:"Água",   tipo2:"Venenoso", 
    regiao:"Kanto",   geracao:"1",   dificuldade:"Caught", xpcaught:"0", pricenpc:"unseleable",
@@ -1948,7 +1948,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"Shiny Tentacool", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"72-1", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Super sonic-100,Wrap-100,Bubbles-100,Poison jab-100,Waterball-100,Bubblebeam-100,Acid-100,Poison bomb-100,Mortal gas-110,Hydropump-105,Liquid ooze-Passiva,", 
-   loots:"(1-1)//water pendant--60.0%,(1-1)//ruby--5.0%,(1-1)//Water stone--Raro,(1-15)//water gem--80.0%,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//water pendant--60.0%,(1-1)//ruby--5.0%,(1-1)//Water stone--Raro,(1-15)//water gem--80.0%,", evoStone:"", boost:"2", booStone:"Water stone", habilidades:"Surf, Control mind"},
    
   {shiny:"Shiny", nome:"Golem",  numero:"76-1",  level:"120",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Orebound",   clan2:"Nenhum",   tipo1:"Pedra",   tipo2:"", 
@@ -1975,7 +1975,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "yes", 
    moves:"Super sonic-150,Thunder shock-150,Spark-150,Tri attack-165,Thunder-158,Electric storm-162,Electro ball-150,Flash cannon-158,", 
-   loots:"(1-1)//magnet--100.0%,(1-40)//screw--100.0%,(1-40)//piece of steel--100.0%,(1-1)//Thunder stone--Raro,(1-1)//electric box--100.0%,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//magnet--100.0%,(1-40)//screw--100.0%,(1-40)//piece of steel--100.0%,(1-1)//Thunder stone--Raro,(1-1)//electric box--100.0%,", evoStone:"", boost:"2", booStone:"Thunder stone", habilidades:"Light"},
    
   {shiny:"Elite", nome:"Farfetchd",  numero:"83-1",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Wingeon",   clan2:"Gardestrike",   tipo1:"Voador",   tipo2:"Normal", 
@@ -1984,7 +1984,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Sand attack-100,Drill peck-100,Stickmerang-104,Slash-100,Stick throw-106,Night slash-100,Air slash-103,Brave bird-100,", 
-   loots:"(1-1)//feather--50.0%,(1-1)//Farfetchd stick--5.0%,(1-25)//straw--80.0%,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//feather--50.0%,(1-1)//Farfetchd stick--5.0%,(1-25)//straw--80.0%,", evoStone:"", boost:"2", booStone:"Feather stone", habilidades:"Cut, Fly"},
    
   {shiny:"Shiny", nome:"Dodrio",  numero:"85-1",  level:"150",   ball1:"Nenhuma",   ball2:"Nenhuma",
   clan1:"Wingeon",   clan2:"Nenhum",   tipo1:"Voador",   tipo2:"Nenhum", 
@@ -1992,7 +1992,7 @@ ShinysMegasArray = [
    fast:"yes", heavy:"no", preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "yes", 
    moves:"Peck-150,Pursuit-150,Pluck-155,Tri attack-165,Double hit-152,Roost-155,Sky attack-160,Agility-150,Taunt-150,Uproar-Passiva,", 
-   loots:"(1-1)//dodrio feather--100.0%,(1-40)//straw--100.0%,(1-40)//rubber ball--100.0%,(1-1)//Feather stone--8.0%,(1-1)//bird beak--100.0%,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//dodrio feather--100.0%,(1-40)//straw--100.0%,(1-40)//rubber ball--100.0%,(1-1)//Feather stone--8.0%,(1-1)//bird beak--100.0%,", evoStone:"", boost:"2", booStone:"Feather stone", habilidades:"Ride"},
    
   {shiny:"Shiny", nome:"Grimer",  numero:"88-1",  level:"20",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Malefic",   clan2:"Nenhum",   tipo1:"Venenoso",   tipo2:"Nenhum", 
@@ -2001,7 +2001,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"Shiny Muk", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"89-1", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Mud shot-20,Acid-20,Sludge-20,Mud bomb-20,Poison bomb-20,Venoshock-32,Sludge wave-20,Harden-35,", 
-   loots:"(1-1)//gosme-10.0%,(1-4)//bottle of poison--80.0%,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//gosme-10.0%,(1-4)//bottle of poison--80.0%,", evoStone:"Venom stone (x2)", boost:"10", booStone:"Venom stone", habilidades:""},
   {shiny:"Shiny", nome:"Muk",  numero:"89-1",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Malefic",   clan2:"Nenhum",   tipo1:"Venenoso",   tipo2:"Nenhum", 
    regiao:"Kanto",   geracao:"1",   dificuldade:"Caught", xpcaught:"0", pricenpc:"unseleable",
@@ -2009,7 +2009,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"Shiny Grimer", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"88-1", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Mud shot-100,Acid-100,Sludge-100,Mud bomb-100,Poison bomb-100,Venoshock-112,Sludge wave-100,Harden-155,Acid armor-108,", 
-   loots:"(1-1)//gosme--30.0%,(1-1)//Venom stone--Raro,(1-4)//bottle of poison--80.0%,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//gosme--30.0%,(1-1)//Venom stone--Raro,(1-4)//bottle of poison--80.0%,", evoStone:"", boost:"2", booStone:"Venom stone", habilidades:""},
    
   {shiny:"Shiny", nome:"Gastly",  numero:"92-1",  level:"30",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Malefic",   clan2:"Nenhum",   tipo1:"Fantasma",   tipo2:"Venenoso", 
@@ -2018,7 +2018,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Lick-30,Shadow ball-30,Night shade-36,Shadow storm-45,Invisible-34,Hypnosis-38,Fear-40,Levitate-Passiva,", 
-   loots:"no", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"no", evoStone:"", boost:"6", booStone:"Darkness stone", habilidades:""},
   {shiny:"Shiny", nome:"Haunter",  numero:"93-1",  level:"60",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Malefic",   clan2:"Nenhum",   tipo1:"Fantasma",   tipo2:"Venenoso", 
    regiao:"Kanto",   geracao:"1",   dificuldade:"Eventos", xpcaught:"0", pricenpc:"unseleable",
@@ -2026,7 +2026,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Lick-60,Shadow ball-60,Night shade-60,Shadow storm-75,Invisible-60,Nightmare-65,Hypnosis-60,Fear-60,Dark accurate-1020,Levitate-Passiva,", 
-   loots:"no", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"no", evoStone:"", boost:"5", booStone:"Darkness stone", habilidades:""},
   {shiny:"Shiny", nome:"Gengar",  numero:"94-1",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Malefic",   clan2:"Nenhum",   tipo1:"Fantasma",   tipo2:"Venenoso", 
    regiao:"Kanto",   geracao:"1",   dificuldade:"Caught", xpcaught:"0", pricenpc:"unseleable",
@@ -2034,7 +2034,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Lick-100,Shadow ball-100,Shadow punch-103,Snatch-102,Shadow storm-106,Invisible-100,Nightmare-100,Hypnosis-100,Fear-100,Dark accurate-1000,Levitate-Passiva,", 
-   loots:"(1-1)//traces of ghost--5.3% (47.3%),(1-20)//ghost essence--80.0%,(1-20)//bottle of poison--80.0%,(1-1)//Darkness stone--Raro,(1-1)//Venom stone--Raro,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//traces of ghost--5.3% (47.3%),(1-20)//ghost essence--80.0%,(1-20)//bottle of poison--80.0%,(1-1)//Darkness stone--Raro,(1-1)//Venom stone--Raro,", evoStone:"", boost:"2", booStone:"Darkness stone", habilidades:"Levitate, Control mind"},
   {shiny:"Mega", nome:"Gengar",  numero:"94-2",  level:"80",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Malefic",   clan2:"Nenhum",   tipo1:"Fantasma",   tipo2:"Venenoso", 
    regiao:"Kanto",   geracao:"1",   dificuldade:"Embedded tower", xpcaught:"0", pricenpc:"0",
@@ -2051,7 +2051,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "yes", 
    moves:"Sand attack-100,Iron tail-100,Rock throw-100,Rock slide-100,Earth power-100,Falling rocks-100,Earthquake-100,Harden-100,Camouflage-104,", 
-   loots:"(1-1)//stone orb--15.0%,(1-1)//Onix tail--Raro,(1-1)//Rock stone--Raro,(1-1)//Crystal stone--Raro,(1-60)//small stone--80.0%,(1-1)//Crystal stone--Raro,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//stone orb--15.0%,(1-1)//Onix tail--Raro,(1-1)//Rock stone--Raro,(1-1)//Crystal stone--Raro,(1-60)//small stone--80.0%,(1-1)//Crystal stone--Raro,", evoStone:"", boost:"30", booStone:"Crystal stone", habilidades:"Dig, Rock smash, Ride, Headbutt"},
   {shiny:"Big", nome:"Onix",  numero:"95-2",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Orebound",   clan2:"Nenhum",   tipo1:"Pedra",   tipo2:"Nenhum", 
    regiao:"Kanto",   geracao:"1",   dificuldade:"Dimensional zone", xpcaught:"0", pricenpc:"unseleable",
@@ -2059,7 +2059,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Slam-100,Rock throw-100,Rock slide-100,Rock blast-100,Sand tomb-102,Earthquake-110,Harden-100,Stone pulse-Passiva,Giant force-Passiva,", 
-   loots:"no", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"no", evoStone:"", boost:"3", booStone:"Dimensional stone", habilidades:"Dig, Rock smash, Ride, Headbutt"},
    
   {shiny:"Shiny", nome:"Hypno",  numero:"97-1",  level:"120",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Psycraft",   clan2:"Nenhum",   tipo1:"Psiquico",   tipo2:"Nenhum", 
@@ -2068,7 +2068,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Psy pulse-120,Psywave-120,Psybeam-120,Confusion-120,Synchronoise-120,Psyshock-120,Warping reality-120,Dream eater-120,Hypnosis-120,Nasty plot-120,Miracle eye-1000,Hypnotist-Passiva,", 
-   loots:"no", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"no", evoStone:"", boost:"2", booStone:"Enigma stone", habilidades:"Teleport, Light, Blink, Headbutt"},
    
   {shiny:"Shiny", nome:"Krabby",  numero:"98-1",  level:"10",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Seavell",   clan2:"Nenhum",   tipo1:"Água",   tipo2:"Nenhum", 
@@ -2077,7 +2077,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"Shiny Kingler", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"99-1", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Bubbles-10,Bubblebeam-10,Mud shot-10,Crabhammer-10,Metal claw-15,Brine-10,Hyper beam-19,Guillotine-20,Harden-10,", 
-   loots:"(1-1)//crab claw--10.0%,(1-2)//water gem--80.0%,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//crab claw--10.0%,(1-2)//water gem--80.0%,", evoStone:"Water stone (x2)", boost:"10", booStone:"Water stone", habilidades:"Dig, Rock smash, Cut"},
   {shiny:"Shiny", nome:"Kingler",  numero:"99-1",  level:"60",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Seavell",   clan2:"Nenhum",   tipo1:"Água",   tipo2:"Nenhum", 
    regiao:"Kanto",   geracao:"1",   dificuldade:"Caught", xpcaught:"0", pricenpc:"unseleable",
@@ -2085,7 +2085,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"Shiny Krabby", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"98-1", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Bubbles-60,Bubblebeam-60,Mud shot-60,Crabhammer-60,Metal claw-67,Brine-60,Hyper beam-69,Guillotine-62,Harden-60,", 
-   loots:"(1-1)//crab claw--10.0%,(1-1)//Water stone--Raro,(1-5)//water gem--80.0%,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//crab claw--10.0%,(1-1)//Water stone--Raro,(1-5)//water gem--80.0%,", evoStone:"", boost:"5", booStone:"Water stone", habilidades:"Dig, Rock smash, Headbutt, Cut"},
    
   {shiny:"Shiny", nome:"Voltorb",  numero:"100-1",  level:"20",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Raibolt",   clan2:"Nenhum",   tipo1:"Elétrico",   tipo2:"Nenhum", 
@@ -2094,7 +2094,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"Shiny Electrode", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"101-1", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Thunder shock-10,Spark-10,Thunder wave-10,Rollout-10,Charge beam-10,Electric storm-15,Selfdestruction-10,", 
-   loots:"(1-1)//electric box--8.0%,(1-7)//screw--80.0%,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//electric box--8.0%,(1-7)//screw--80.0%,", evoStone:"Thunder stone (x2)", boost:"10", booStone:"Thunder stone", habilidades:"Light"},
   {shiny:"Shiny", nome:"Electrode",  numero:"101-1",  level:"80",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Raibolt",   clan2:"Nenhum",   tipo1:"Elétrico",   tipo2:"Nenhum", 
    regiao:"Kanto",   geracao:"1",   dificuldade:"Caught", xpcaught:"0", pricenpc:"unseleable",
@@ -2102,7 +2102,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"Shiny Voltorb", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"100-1", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Magic coat-80,Thunder shock-80,Spark-80,Thunder wave-80,Rollout-80,Charge beam-84,Electro ball-80,Electric storm-88,Selfdestruction-80,", 
-   loots:"(1-1)//electric box--16.0%,(1-1)//Thunder stone--Raro,(1-16)//screw--80.0%,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//electric box--16.0%,(1-1)//Thunder stone--Raro,(1-16)//screw--80.0%,", evoStone:"", boost:"3", booStone:"Thunder stone", habilidades:"Light"},
    
   {shiny:"Shiny", nome:"Cubone",  numero:"104-1",  level:"20",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Orebound",   clan2:"Nenhum",   tipo1:"Terra",   tipo2:"Nenhum", 
@@ -2111,7 +2111,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"Shiny Marowak", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"105-1", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Mud shot-20,Headbutt-20,Bonemerang-20,Bone club-20,Bone rush-20,Earth power-24,Bulldoze-26,Rage-30,Smack down-30,Bone spin-Passiva,", 
-   loots:"(1-1)//bone--50.0%,(1-22)//small stone--80.0%,(1-1)//Cubone doll--Raro,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//bone--50.0%,(1-22)//small stone--80.0%,(1-1)//Cubone doll--Raro,", evoStone:"Earth stone (x2)", boost:"9", booStone:"Earth stone", habilidades:"Dig, Rock smash, Cut, Headbutt"},
   {shiny:"Shiny", nome:"Marowak",  numero:"105-1",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma",  
    clan1:"Orebound",   clan2:"Nenhum",   tipo1:"Terra",   tipo2:"Nenhum", 
    regiao:"Kanto",   geracao:"1",   dificuldade:"Caught", xpcaught:"0", pricenpc:"unseleable",
@@ -2119,7 +2119,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"Shiny Cubone", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"104-1", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Mud sport-100,Headbutt-100,Bonemerang-100,Bone club-100,Bone rush-100,Earth power-104,Bulldoze-106,Rage-100,Smack down-110,Bone spin-Passiva,", 
-   loots:"(1-1)//bone--4.3% (80.0%),(1-28)//earth ball--80.0%,(1-1)//Earth stone--Raro,(1-1)//sandbag--21.5% (86.0%),", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//bone--4.3% (80.0%),(1-28)//earth ball--80.0%,(1-1)//Earth stone--Raro,(1-1)//sandbag--21.5% (86.0%),", evoStone:"", boost:"2", booStone:"Earth stone", habilidades:"Dig, Rock smash, Cut, Headbutt"},
    
   {shiny:"Elite", nome:"Hitmonlee",  numero:"106-1",  level:"120",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Gardestrike",   clan2:"Nenhum",   tipo1:"Lutador",   tipo2:"Nenhum", 
@@ -2128,7 +2128,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Triple kick lee-120,Mega kick-120,Hi jump kick-120,Flash kick-125,Low sweep-120,Demon kicker-Passiva,Evasion-Passiva,Foresight-Passiva,", 
-   loots:"no", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"no", evoStone:"", boost:"2", booStone:"Punch stone", habilidades:"Rock smash, Headbutt"},
   {shiny:"Elite", nome:"Hitmonchan",  numero:"107-1",  level:"120",   ball1:"Nenhuma",   ball2:"Nenhuma",  
    clan1:"Gardestrike",   clan2:"Nenhum",   tipo1:"Lutador",   tipo2:"Nenhum", 
    regiao:"Kanto",   geracao:"1",   dificuldade:"Clan", xpcaught:"0", pricenpc:"1000000",
@@ -2136,7 +2136,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Triple punch-120,Mega punch-120,Focus punch-120,Ultimate champion-120,Elemental hands-120,Detect-120,Quick guard-125,Demon puncher-Passiva,Foresight-Passiva,", 
-   loots:"no", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"no", evoStone:"", boost:"2", booStone:"Punch stone", habilidades:"Rock smash, Headbutt"},
    
   {shiny:"Shiny", nome:"Rhydon",  numero:"112-1",  level:"150",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Orebound",   clan2:"Nenhum",   tipo1:"Terra",   tipo2:"Nenhum", 
@@ -2145,7 +2145,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "yes", 
    moves:"Horn attack-150,Stone edge-150,Rock throw-150,Dig-152,Horn drill-150,Bulldoze-153,Hammer arm-150,Fissure-160,Drill run-157,", 
-   loots:"(1-1)//horn drill--100.0%,(1-40)//small stone--100.0%,(1-40)//earth ball--80.0%,(1-1)//Earth stone--8.0% (24.0%),(1-1)//horn--100.0%,(1-1)//stone orb--100.0%,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//horn drill--100.0%,(1-40)//small stone--100.0%,(1-40)//earth ball--80.0%,(1-1)//Earth stone--8.0% (24.0%),(1-1)//horn--100.0%,(1-1)//stone orb--100.0%,", evoStone:"", boost:"2", booStone:"Earth stone", habilidades:"Dig, Rock smash, Headbutt"},
    
   {shiny:"Shiny", nome:"Tangela",  numero:"114-1",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Naturia",   clan2:"Nenhum",   tipo1:"Grama",   tipo2:"Nenhum", 
@@ -2154,7 +2154,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Absorb-100,Leech seed-100,Vine whip-100,Power whip-108,Wrap-100,Vine grap-108,Poison powder-100,Stun spore-100,Mega drain-Passiva,Spores reaction-Passiva,", 
-   loots:"(1-1)//blue vines--2.0%,(1-40)//seed--80.0%,(1-1)//Leaf stone--Raro,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//blue vines--2.0%,(1-40)//seed--80.0%,(1-1)//Leaf stone--Raro,", evoStone:"", boost:"2", booStone:"Leaf stone", habilidades:"Cut"},
    
   {shiny:"Mega", nome:"Kangaskhan",  numero:"115-1",  level:"80",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Gardestrike",   clan2:"Nenhum",   tipo1:"Normal",   tipo2:"Nenhum", 
@@ -2172,7 +2172,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"Shiny Seadra", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"117-1", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Mud shot-10,Smokescreen-10,Quick attack-10,Bubbles-10,Bubblebeam-10,Water gun-10,Dragon pulse-15,Hydro cannon-20,Dragon rage-Passiva,", 
-   loots:"(1-1)//water pendant--5.0%,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//water pendant--5.0%,", evoStone:"Water stone (x2)", boost:"10", booStone:"Water stone", habilidades:"Headbutt"},
   {shiny:"Shiny", nome:"Seadra",  numero:"117-1",  level:"60",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Seavell",   clan2:"Nenhum",   tipo1:"Água",   tipo2:"Nenhum", 
    regiao:"Kanto",   geracao:"1",   dificuldade:"Caught", xpcaught:"0", pricenpc:"unseleable",
@@ -2180,7 +2180,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"Shiny Horsea", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"116-1", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Mud shot-60,Smokescreen-60,Quick attack-60,Bubbles-60,Bubblebeam-60,Water gun-60,Dragon pulse-65,Hydro cannon-65,Dragon rage-Passiva,", 
-   loots:"(1-1)//water pendant--10.0%,(1-1)//Water stone--Raro,(1-9)//water gem--80.0%,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//water pendant--10.0%,(1-1)//Water stone--Raro,(1-9)//water gem--80.0%,", evoStone:"", boost:"4", booStone:"Water stone", habilidades:"Surf, Headbutt"},
    
   {shiny:"Shiny", nome:"Goldeen",  numero:"118-1",  level:"40",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Seavell",   clan2:"Nenhum",   tipo1:"Água",   tipo2:"Nenhum", 
@@ -2189,7 +2189,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Super sonic-40,Horn attack-40,Waterfall-45,Water gun-40,Water pulse-40,Aqua tail-40,Horn drill-48,Aqua ring-40,", 
-   loots:"(1-4)//fish fin--9.0%,(1-39)//water gem--80.0%,(1-1)//blue fish fin--100.0%,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-4)//fish fin--9.0%,(1-39)//water gem--80.0%,(1-1)//blue fish fin--100.0%,", evoStone:"", boost:"10", booStone:"Water stone", habilidades:"Surf"},
    
   {shiny:"Shiny", nome:"Staryu",  numero:"120-1",  level:"50",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Seavell",   clan2:"Nenhum",   tipo1:"Água",   tipo2:"Nenhum", 
@@ -2198,7 +2198,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Swift-50,Water gun-50,Bubblebeam-53,Psyshock-58,Psychic-50,Harden-50,Recover-55,", 
-   loots:"(1-1)//blue gem star--100.0%,(1-49)//water gem--80.0%,(1-1)//ruby--55.0%,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//blue gem star--100.0%,(1-49)//water gem--80.0%,(1-1)//ruby--55.0%,", evoStone:"", boost:"10", booStone:"Water stone", habilidades:"Surf"},
    
   {shiny:"Shiny", nome:"Mr.mime",  numero:"122-1",  level:"100",   ball1:"Saffariball",   ball2:"Nenhuma", 
    clan1:"Psycraft",   clan2:"Nenhum",   tipo1:"Psiquico",   tipo2:"Fada", 
@@ -2207,7 +2207,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "yes", 
    moves:"Play rough-100,Psywave-100,Dazzling gleam-104,Confusion-100,Psychic-100,Psyusion-115,Reflect-100,Mimic wall-100,Barrier-120,Miracle eye-1000,", 
-   loots:"(1-1)//mimic clothes--14.3%,(1-99)//enchanted gem--80.0%,(1-1)//Enigma stone--10.0%,(1-1)//future orb--48.0%,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//mimic clothes--14.3%,(1-99)//enchanted gem--80.0%,(1-1)//Enigma stone--10.0%,(1-1)//future orb--48.0%,", evoStone:"", boost:"2", booStone:"Enigma stone", habilidades:"Teleport, Light, Blink"},
    
   {shiny:"Shiny", nome:"Scyther",  numero:"123-1",  level:"100",   ball1:"Saffariball",   ball2:"Nenhuma", 
    clan1:"Naturia",   clan2:"Wingeon",   tipo1:"Grama",   tipo2:"Voador", 
@@ -2216,7 +2216,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "yes", 
    moves:"Quick attack-100,Night slash-100,Wing attack-100,Fury cutter-105,Shredder team-115,Air slash-103,Agility-100,Team slice-118,Swords dance-108,Counter helix-Passiva,Evasion-Passiva,", 
-   loots:"(1-1)//scythe--Raro,(1-1)//pot of moss bug--100.0%,(1-1)//Cocoon stone--Raro,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//scythe--Raro,(1-1)//pot of moss bug--100.0%,(1-1)//Cocoon stone--Raro,", evoStone:"", boost:"2", booStone:"Cocoon stone", habilidades:"Cut, Headbutt"},
    
   {shiny:"Shiny", nome:"Jynx",  numero:"124-1",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Seavell",   clan2:"Psycraft",   tipo1:"Água",   tipo2:"Psiquico", 
@@ -2225,7 +2225,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "yes", 
    moves:"Lovely kiss-100,Draining kiss-100,Psywave-100,Psy pulse-100,Ice ball-100,Ice beam-100,Icy wind-100,Aurora beam-104,Blizzard-106,Heart stamp-108,", 
-   loots:"(1-1)//ice orb--40.0%,(1-1)//ice bra--Raro,(1-1)//Ice stone--Raro,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//ice orb--40.0%,(1-1)//ice bra--Raro,(1-1)//Ice stone--Raro,", evoStone:"", boost:"2", booStone:"Ice stone", habilidades:"Teleport, Blink"},
    
   {shiny:"Shiny", nome:"Electabuzz",  numero:"125-1",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Raibolt",   clan2:"Nenhum",   tipo1:"Elétrico",   tipo2:"Nenhum", 
@@ -2234,7 +2234,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "yes", 
    moves:"Low kick-100,Electroweb-100,Thunder punch-100,Thunder shock-100,Thunder bolt-100,Focus blast-100,Thunder-100,Mamaragan-110,Static-Passiva,", 
-   loots:"(1-1)//electric box--35.0%,(1-1)//electric tail--Raro,(1-1)//Thunder stone--Raro,(1-40)//screw--80.0%,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//electric box--35.0%,(1-1)//electric tail--Raro,(1-1)//Thunder stone--Raro,(1-40)//screw--80.0%,", evoStone:"", boost:"2", booStone:"Thunder stone", habilidades:"Rock smash, Light, Headbutt"},
    
   {shiny:"Shiny", nome:"Magmar",  numero:"126-1",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Volcanic",   clan2:"Nenhum",   tipo1:"Fogo",   tipo2:"Nenhum", 
@@ -2243,7 +2243,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "yes", 
    moves:"Scratch-100,Smog-100,Fire punch-100,Ember-100,Fire spin-100,Focus blast-100,Fire blast-100,Magma fist-100,Magma storm-105,Flame body-Passiva,", 
-   loots:"(1-1)//magma foot--1.2% (6.0%),(1-90)//essence of fire--100.0%,(1-1)//Fire stone--Raro,(1-1)//pot of lava--100.0%,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//magma foot--1.2% (6.0%),(1-90)//essence of fire--100.0%,(1-1)//Fire stone--Raro,(1-1)//pot of lava--100.0%,", evoStone:"", boost:"2", booStone:"Fire stone", habilidades:"Rock smash, Headbutt"},
    
   {shiny:"Shiny", nome:"Pinsir",  numero:"127-1",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Naturia",   clan2:"Nenhum",   tipo1:"Inseto",   tipo2:"Nenhum", 
@@ -2252,7 +2252,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Bug bite-100,Brick break-100,Bind-100,X scissor-105,Fury cutter-108,Guillotine-110,Revenge-112,Harden-102,Swords dance-108,Bug instinct-Passiva,Seismic toss-Passiva,", 
-   loots:"(1-1)//Pinsir horn--80.0%,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//Pinsir horn--80.0%,", evoStone:"", boost:"2", booStone:"Cocoon stone", habilidades:"Cut, Rock smash, Headbutt"},
    
   {shiny:"Shiny", nome:"Tauros",  numero:"128-1",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Gardestrike",   clan2:"Nenhum",   tipo1:"Normal",   tipo2:"Nenhum", 
@@ -2261,7 +2261,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Horn attack-100,Take down-100,Pursuit-100,Thrash-105,Giga impact-105,Hyper beam-110,Stampede-105,Scary face-106,Rage-100,Rest-110,", 
-   loots:"(1-1)//Heart stone--Raro,(1-1)//bull tail--8.0%,(1-23)//rubber ball--8.0%,(1-1)//horn--8.4%,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//Heart stone--Raro,(1-1)//bull tail--8.0%,(1-23)//rubber ball--8.0%,(1-1)//horn--8.4%,", evoStone:"", boost:"2", booStone:"Heart stone", habilidades:"Rock smash, Ride, Headbutt"},
    
   {shiny:"Mini", nome:"Magikarp",  numero:"129-1",  level:"1",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Seavell",   clan2:"Nenhum",   tipo1:"Água",   tipo2:"Nenhum", 
@@ -2294,7 +2294,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Tackle-30,Splash-30,Waterfall-30,", 
-   loots:"(1-5)//Shiny magikarp fin--80.0%,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-5)//Shiny magikarp fin--80.0%,", evoStone:"", boost:"20", booStone:"Water stone", habilidades:""},
   {shiny:"Shiny Giant", nome:"Magikarp",  numero:"129-1",  level:"60",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Seavell",   clan2:"Nenhum",   tipo1:"Água",   tipo2:"Nenhum", 
    regiao:"Kanto",   geracao:"1",   dificuldade:"Pesca", xpcaught:"0", pricenpc:"unseleable",
@@ -2302,7 +2302,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Aqua tail-60,Waterball-60,Splash-60,Water pulse-60,Whirlpool-70,Hydropump-70,Surf-100,Rain dance-80,Dragon rage-Passiva,", 
-   loots:"(1-10)//Shiny magikarp fin--80.0%,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-10)//Shiny magikarp fin--80.0%,", evoStone:"", boost:"5", booStone:"Water stone", habilidades:"Surf"},
   {shiny:"Shiny", nome:"Gyarados",  numero:"130-1",  level:"120",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Seavell",   clan2:"Wingeon",   tipo1:"Água",   tipo2:"Voador", 
    regiao:"Kanto",   geracao:"1",   dificuldade:"Caught", xpcaught:"0", pricenpc:"unseleable",
@@ -2310,7 +2310,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Roar-130,Dragon tail-120,Aqua tail-120,Waterball-120,Twister-124,Hydro cannon-120,Dragon breath-122,Hyper beam-120,Hydropump-128,Dragon dance-126,", 
-   loots:"(1-1)//water pendant--100.0%,(1-1)//Gyarados tail--2.0%,(1-1)//Water stone--Raro,(1-1)//Crystal stone--Raro,(1-15)//water gem--80.0%,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//water pendant--100.0%,(1-1)//Gyarados tail--2.0%,(1-1)//Water stone--Raro,(1-1)//Crystal stone--Raro,(1-15)//water gem--80.0%,", evoStone:"", boost:"10", booStone:"Crystal stone", habilidades:"Surf, Headbutt"},
    
   {shiny:"Shiny", nome:"Ditto",  numero:"132-1",  level:"1",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Gardestrike",   clan2:"Nenhum",   tipo1:"Normal",   tipo2:"Nenhum", 
@@ -2328,7 +2328,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Sweet kiss-70,Quick attack-70,Bite-70,Headbutt-70,Iron tail-76,Great love-78,Fake tears-76,Wish-70,", 
-   loots:"no", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"no", evoStone:"", boost:"6", booStone:"Dimensional stone", habilidades:"Dig"},
   {shiny:"Shiny", nome:"Vaporeon",  numero:"134-1",  level:"120",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Seavell",   clan2:"Nenhum",   tipo1:"Água",   tipo2:"Nenhum", 
    regiao:"Kanto",   geracao:"1",   dificuldade:"Clan", xpcaught:"0", pricenpc:"800000",
@@ -2336,7 +2336,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Quick attack-120,Water gun-120,Bubblebeam-120,Water pulse-120,Muddy water-120,Aurora beam-120,Hydropump-120,Acid armor-120,Aqua ring-120,", 
-   loots:"no", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"no", evoStone:"", boost:"2", booStone:"Water stone", habilidades:"Dig, Surf, Headbutt"},
   {shiny:"Shiny", nome:"Jolteon",  numero:"135-1",  level:"120",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Raibolt",   clan2:"Nenhum",   tipo1:"Elétrico",   tipo2:"Nenhum", 
    regiao:"Kanto",   geracao:"1",   dificuldade:"Clan", xpcaught:"0", pricenpc:"800000",
@@ -2344,7 +2344,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Quick attack-120,Thunder bolt-120,Thunder fang-120,Pin missile-120,Last resort-120,Thunder-120,Electric storm-120,Volt fang-120,Agility-120,", 
-   loots:"no", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"no", evoStone:"", boost:"2", booStone:"Thunder stone", habilidades:"Dig, Light, headbutt"},
   {shiny:"Shiny", nome:"Flareon",  numero:"136-1",  level:"120",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Volcanic",   clan2:"Nenhum",   tipo1:"Fogo",   tipo2:"Nenhum", 
    regiao:"Kanto",   geracao:"1",   dificuldade:"Clan", xpcaught:"0", pricenpc:"800000",
@@ -2352,7 +2352,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Quick attack-120,Bite-120,Flamethrower-120,Sacred fire-120,Blaze kick-120,Flame burst-120,Overheat-120,Fire blast-120,Magma storm-120,", 
-   loots:"no", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"no", evoStone:"", boost:"2", booStone:"Fire stone", habilidades:"Dig, Headbutt"},
    
   {shiny:"Giant", nome:"Porygon",  numero:"137-1",  level:"200",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Gardestrike",   clan2:"Nenhum",   tipo1:"Normal",   tipo2:"Nenhum", 
@@ -2361,7 +2361,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Super sonic-200,Psybeam-200,Psycho cut-208,Psychic-200,Zap cannon-204,Hyper beam-210,Tri attack-215,Focus energy-210,Magic coat-208,Restore-200,Illusion-200,", 
-   loots:"no", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"no", evoStone:"", boost:"", booStone:"", habilidades:"Teleport, Light, Fly, Blink"},
    
   {shiny:"Shiny", nome:"Snorlax",  numero:"143-1",  level:"200",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Gardestrike",   clan2:"Nenhum",   tipo1:"Normal",   tipo2:"Nenhum", 
@@ -2370,7 +2370,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "yes", 
    moves:"Lick-200,Bite-200,Crunch-200,Mega punch-200,Body slam-204,Giga impact-205,Hyper beam-205,Crusher stomp-210,Eating grapefruit-206,", 
-   loots:"(1-1)//bitten apple--20.0%,(1-1)//Heart stone--100.0%,(1-1)//Heart stone--100.0%,(1-1)//Ancient stone--10.0%,(1-1)//pizza--100.0%,(1-1)//hamburger--100.0%,(1-1)//hotdog--100.0%,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//bitten apple--20.0%,(1-1)//Heart stone--100.0%,(1-1)//Heart stone--100.0%,(1-1)//Ancient stone--10.0%,(1-1)//pizza--100.0%,(1-1)//hamburger--100.0%,(1-1)//hotdog--100.0%,", evoStone:"", boost:"2", booStone:"Heart stone", habilidades:"Rock smash, Surf, Headbutt"},
    
   {shiny:"Shiny", nome:"Dratini",  numero:"147-1",  level:"40",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Wingeon",   clan2:"Nenhum",   tipo1:"Dragão",   tipo2:"Nenhum", 
@@ -2379,7 +2379,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"Shiny Dragonair", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"148-1", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Aqua tail-40,Thunder wave-40,Slam-40,Wrap-40,Dragon tail-40,Dragon breath-42,Twister-44,Hyper beam-48,Dragon rage-Passiva,", 
-   loots:"(1-1)//water pendant--10.0%,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//water pendant--10.0%,", evoStone:"Crystal stone (x2)", boost:"50", booStone:"Crystal stone", habilidades:"Headbutt"},
   {shiny:"Shiny", nome:"Dragonair",  numero:"148-1",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma",  
    clan1:"Wingeon",   clan2:"Nenhum",   tipo1:"Dragão",   tipo2:"Nenhum", 
    regiao:"Kanto",   geracao:"1",   dificuldade:"Caught", xpcaught:"0", pricenpc:"unseleable",
@@ -2387,7 +2387,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"Shiny Dratini", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"147-1", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Iron tail-100,Thunder wave-100,Slam-100,Wrap-100,Dragon tail-100,Dragon breath-102,Twister-104,Hyper beam-108,Draco meteor-115,Dragon rage-Passiva,", 
-   loots:"(1-1)//water pendant--30.0%,(1-1)//Crystal stone--Raro,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//water pendant--30.0%,(1-1)//Crystal stone--Raro,", evoStone:"", boost:"50", booStone:"Crystal stone", habilidades:"Fly, Headbutt"},
    
    
    
@@ -2407,7 +2407,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "yes", 
    moves:"Razor leaf-100,Magical leaf-100,Petal dance-100,Leaf tornado-110,Ingrain-110,Sleep plague-100,Light screen-100,Aromatherapy-104,", 
-   loots:"(1-1)//great petal--24.3% (97.0%),(1-43)//seed--100.0%,(1-1)//Leaf stone--10.3% (30.9%),(1-1)//leaves--85.5% (100.0%),(1-1)//bag of pollem--85.5% (100.0%),", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//great petal--24.3% (97.0%),(1-43)//seed--100.0%,(1-1)//Leaf stone--10.3% (30.9%),(1-1)//leaves--85.5% (100.0%),(1-1)//bag of pollem--85.5% (100.0%),", evoStone:"", boost:"2", booStone:"Leaf stone", habilidades:"Cut, Ride, Headbutt"},
    
   {shiny:"Shiny", nome:"Typhlosion",  numero:"157-1",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Volcanic",   clan2:"Nenhum",   tipo1:"Fogo",   tipo2:"Nenhum", 
@@ -2416,7 +2416,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "yes", 
    moves:"Quick attack-100,Swift-100,Ember-100,Flamethrower-100,Flame circle-100,Smokescreen-100,Eruption-100,Flare blitz-110,Inferno-110,", 
-   loots:"(1-1)//hot fur--80.3% (100.0%),(1-43)//essence of fire--80.0%,(1-1)//Fire stone--10.3% (30.9%),(1-1)//pot of lava--85.5% (100.0%),(1-1)//fur--85.5% (100.0%),", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//hot fur--80.3% (100.0%),(1-43)//essence of fire--80.0%,(1-1)//Fire stone--10.3% (30.9%),(1-1)//pot of lava--85.5% (100.0%),(1-1)//fur--85.5% (100.0%),", evoStone:"", boost:"2", booStone:"Fire stone", habilidades:"Dig, Rock smash, Cut, headbutt"},
    
   {shiny:"Shiny", nome:"Feraligatr",  numero:"160-1",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Seavell",   clan2:"Nenhum",   tipo1:"Água",   tipo2:"Nenhum", 
@@ -2425,7 +2425,8 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "yes", 
    moves:"Crunch-100,Bubbles-100,Water pulse-100,Ice fang-100,Thrash-100,Hydro cannon-100,Waterfall-100,Water spout-110,Scary face-102,Agility-100,", 
-   loots:"(1-1)//red scale--84.3% (100.0%),(1-43)//wawter gem--80.0%,(1-1)//Water gem--10.3% (30.9%),(1-1)//water pendant--80.5% (100.0%),(1-1)//nail--85.5% (100.0%),", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//red scale--84.3% (100.0%),(1-43)//wawter gem--80.0%,(1-1)//Water gem--10.3% (30.9%),(1-1)//water pendant--80.5% (100.0%),(1-1)//nail--85.5% (100.0%),", evoStone:"", boost:"2", booStone:"Water stone", habilidades:"Surf, Cut, Headbutt"},
+   
    
   {shiny:"Shiny", nome:"Noctowl",  numero:"164-1",  level:"80",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Gardestrike",   clan2:"Wingeon",   tipo1:"Normal",   tipo2:"Voador", 
@@ -2434,7 +2435,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Quick attack-80,Peck-80,Fly-82,Echoed voice-85,Air slash-83,Hurricane-90,Dream eater-80,Hypnosis-80,", 
-   loots:"no", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"no", evoStone:"", boost:"5", booStone:"Dimensional stone", habilidades:"Fly"},
    
   {shiny:"Shiny", nome:"Ariados",  numero:"168-1",  level:"150",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Naturia",   clan2:"Nenhum",   tipo1:"Inseto",   tipo2:"Nenhum", 
@@ -2443,7 +2444,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "yes", 
    moves:"String shot-150,Bug bite-150,Poison sting-150,Fury swipes-150,X scissor-160,Poison jab-150,Pin missile-153,Spider web-160,Psychic-157,Web rain-160,", 
-   loots:"(1-1)//spider leg--100.0%,(1-40)//bug gosme--100.0%,(1-40)//bottle of poison--100.0%,(1-1)//Cocoon stone--8.0%,(1-1)//pot of moss bug--100.0%,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//spider leg--100.0%,(1-40)//bug gosme--100.0%,(1-40)//bottle of poison--100.0%,(1-1)//Cocoon stone--8.0%,(1-1)//pot of moss bug--100.0%,", evoStone:"", boost:"2", booStone:"Cocoon stone", habilidades:""},
    
   {shiny:"Shiny", nome:"Crobat",  numero:"169-1",  level:"80",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Malefic",   clan2:"Wingeon",   tipo1:"Venenoso",   tipo2:"Voador", 
@@ -2452,7 +2453,7 @@ ShinysMegasArray = [
    preevo2:"Shiny Zubat", preevo1:"Shiny Golbat", evo1:"no", evo2:"no", npreevo2:"41-1", npreevo1:"42-1", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "yes", 
    moves:"Super sonic-80,Bite-80,Poison fang-80,Toxic-80,Air slash-83,Wing attack-80,Air cutter-88,Cross poison-84,Venom gale-95,Lifesteal-Passiva,", 
-   loots:"(1-1)//giant bat wing--4.3% (17.0%),(1-50)//bottle of poison--100.0%,(1-50)//straw--100.0%,(1-1)//Venom stone--18.8% (75.2%),(1-1)//tooth--39.0% (78.0%),", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//giant bat wing--4.3% (17.0%),(1-50)//bottle of poison--100.0%,(1-50)//straw--100.0%,(1-1)//Venom stone--18.8% (75.2%),(1-1)//tooth--39.0% (78.0%),", evoStone:"", boost:"2", booStone:"Venom stone", habilidades:"Fly"},
    
   {shiny:"Shiny", nome:"Lanturn",  numero:"171-1",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Seavell",   clan2:"Raibolt",   tipo1:"Água",   tipo2:"Elétrico", 
@@ -2461,7 +2462,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Super sonic-100,Bubbles-100,Bubblebeam-100,Spark-100,Thunder wave-100,Water pulse-100,Surf-105,Wild charge-105,Hydropump-110,Bright light-110,", 
-   loots:"(1-1)//point of light--84.3%,(1-13)//water gem--80.0%,(1-13)//screw--80.0%,(1-1)//Water stone--10.0%,(1-1)//Thunder stone--10.0%,(1-1)//water pendant--80.0%,(1-1)//electric box--85.0%,(1-1)//diving mask--Raro,(1-1)//air tank--Raro,(1-1)//fins--Raro,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//point of light--84.3%,(1-13)//water gem--80.0%,(1-13)//screw--80.0%,(1-1)//Water stone--10.0%,(1-1)//Thunder stone--10.0%,(1-1)//water pendant--80.0%,(1-1)//electric box--85.0%,(1-1)//diving mask--Raro,(1-1)//air tank--Raro,(1-1)//fins--Raro,", evoStone:"", boost:"2", booStone:"Water stone", habilidades:"Light"},
    
   {shiny:"Shiny", nome:"Xatu",  numero:"178-1",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Psycraft",   clan2:"Nenhum",   tipo1:"Psiquico",   tipo2:"Nenhum", 
@@ -2470,7 +2471,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Peck-100,Feather dance-100,Confuse ray-102,Shadow ball-100,Night shade-105,Astonish-100,Tailwind-100,Predict-105,Double team-102,", 
-   loots:"(1-1)//strange wing--94.3% (100.0%),(1-19)//straw--80.0%,(1-19)//enchanted gem--80.0%,(1-1)//Enigma stone--Raro,(1-1)//feather--47.5% (95.0%),", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//strange wing--94.3% (100.0%),(1-19)//straw--80.0%,(1-19)//enchanted gem--80.0%,(1-1)//Enigma stone--Raro,(1-1)//feather--47.5% (95.0%),", evoStone:"", boost:"2", booStone:"Enigma stone", habilidades:"Teleport, Light, Blink"},
    
   {shiny:"Shiny", nome:"Ampharos",  numero:"181-1",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Raibolt",   clan2:"Nenhum",   tipo1:"Elétrico",   tipo2:"Nenhum", 
@@ -2479,7 +2480,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "yes", 
    moves:"Charge-100,Fire punch-100,Cotton spore-100,Thunder bolt-100,Thunder shock-100,Thunder wave-100,Thunder punch-100,Thunder-100,Electro field-110,Signal beam-100,", 
-   loots:"(1-1)//sheep wool--84.3% (100.0%),(1-43)//screw--80.0%,(1-1)//Thunder stone--10.3% (30.9%),(1-1)//electric box--80.5% (100.0%),", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//sheep wool--84.3% (100.0%),(1-43)//screw--80.0%,(1-1)//Thunder stone--10.3% (30.9%),(1-1)//electric box--80.5% (100.0%),", evoStone:"", boost:"2", booStone:"Thunder stone", habilidades:"Light, Headbutt"},
   {shiny:"Mega", nome:"Ampharos",  numero:"181-2",  level:"80",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Raibolt",   clan2:"Wingeon",   tipo1:"Elétrico",   tipo2:"Dragão", 
    regiao:"Johto",   geracao:"2",   dificuldade:"Embedded tower", xpcaught:"0", pricenpc:"0",
@@ -2496,7 +2497,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Mud shot-150,Doubleslap-150,Bubblebeam-150,Water gun-150,Hyper voice-150,Whirlpool-152,Tongue hook-150,Tongue grap-158,Hydropump-160,Hypnosis-150,", 
-   loots:"(1-1)//strange thing--100.0%,(1-70)//water gem--100.0%,(1-1)//Water stone--8.0%,(1-1)//water pendant--100.0%,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//strange thing--100.0%,(1-70)//water gem--100.0%,(1-1)//Water stone--8.0%,(1-1)//water pendant--100.0%,", evoStone:"", boost:"2", booStone:"Water stone", habilidades:"Surf, Headbutt"},
    
   {shiny:"Shiny", nome:"Espeon",  numero:"196-1",  level:"150",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Psycraft",   clan2:"Nenhum",   tipo1:"Psiquico",   tipo2:"Nenhum", 
@@ -2505,7 +2506,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "yes", 
    moves:"Charm-150,Swift-150,Bite-150,Psywave-150,Psy pulse-150,Confusion-150,Psychic-154,Psyshock-158,Psyusion-165,Miracle eye-1000,", 
-   loots:"(1-99)//enchanted gem--100.0%,(1-1)//Enigma stone--8.0%,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-99)//enchanted gem--100.0%,(1-1)//Enigma stone--8.0%,", evoStone:"", boost:"2", booStone:"Enigma stone", habilidades:"Dig, Teleport, Headbutt, Blink"},
   {shiny:"Shiny", nome:"Umbreon",  numero:"197-1",  level:"150",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Malefic",   clan2:"Nenhum",   tipo1:"Noturno",   tipo2:"Nenhum", 
    regiao:"Johto",   geracao:"2",   dificuldade:"Cyber world", xpcaught:"0", pricenpc:"unseleable",
@@ -2513,7 +2514,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "yes", 
    moves:"Bite-150,Faint attack-150,Shadowave-150,Dark pulse-150,Pursuit-150,Confuse ray-154,Last resort-150,Assurance-158,Night daze-156,", 
-   loots:"(1-99)//dark gem--100.0%,(1-1)//Darkness stone--8.0%,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-99)//dark gem--100.0%,(1-1)//Darkness stone--8.0%,", evoStone:"", boost:"2", booStone:"Darkness stone", habilidades:"Dig, Headbutt, Blink"},
    
   {shiny:"Legion", nome:"Unown",  numero:"201-1",  level:"150",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Psycraft",   clan2:"Nenhum",   tipo1:"Psiquico",   tipo2:"Nenhum", 
@@ -2522,7 +2523,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "yes", 
    moves:"Dark pulse-150,Hidden power-150,Psychic-150,Split-150,Warping reality-150,Metronome-150,Unown strike-150,Phantom force-150,Levitate-Passiva,", 
-   loots:"no", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"no", evoStone:"25", boost:"Mystic star", booStone:"Blink", habilidades:"Teleport"},
    
   {shiny:"Mega", nome:"Steelix",  numero:"208-1",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Orebound",   clan2:"Ironhard",   tipo1:"Terra",   tipo2:"Metal", 
@@ -2540,7 +2541,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Tackle-80,Poison sting-80,Toxic spikes-82,Toxic-80,Venoshock-80,Harden-84,Minimize-88,Spike skin-Passiva,", 
-   loots:"(1-1)//pink small tail--4.3%,(1-49)//bottle of poison--80.0%,(1-1)//Venom stone--1.2%,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//pink small tail--4.3%,(1-49)//bottle of poison--80.0%,(1-1)//Venom stone--1.2%,", evoStone:"", boost:"5", booStone:"Venom stone", habilidades:"Headbutt"},
    
   {shiny:"Mega", nome:"Scizor",  numero:"212-1",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Naturia",   clan2:"Ironhard",   tipo1:"Inseto",   tipo2:"Metal", 
@@ -2558,7 +2559,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "yes", 
    moves:"Ember-100,Rock throw-100,Rock slide-100,Flamethrower-100,Flame burst-100,Stone edge-100,Ancient power-108,Blast burn-115,Harden-100,Yawn-106,Amnesia-Passiva,", 
-   loots:"(1-1)//fire ear--4.3%,(1-15)//essence of fire--80.0%,(1-15)//small stone--80.0%,(1-1)//Fire stone--Raro,(1-1)//Rock stone--Raro,(1-1)//pot of lava--28.0%,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//fire ear--4.3%,(1-15)//essence of fire--80.0%,(1-15)//small stone--80.0%,(1-1)//Fire stone--Raro,(1-1)//Rock stone--Raro,(1-1)//pot of lava--28.0%,", evoStone:"", boost:"2", booStone:"Fire stone", habilidades:"Rock smash, Headbutt"},
    
   {shiny:"Shiny", nome:"Corsola",  numero:"222-1",  level:"60",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Seavell",   clan2:"Orebound",   tipo1:"Água",   tipo2:"Pedra", 
@@ -2567,7 +2568,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Tackle-60,Bubbles-60,Bubblebeam-60,Rock blast-60,Power gem-60,Ancient power-68,Recover-65,Harden-65,", 
-   loots:"(1-1)//green piece of coral--100.0%,(1-26)//water gem--80.0%,(1-26)//small stone--80.0%,(1-1)//Water stone--Raro,(1-1)//water pendant--53.0%,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//green piece of coral--100.0%,(1-26)//water gem--80.0%,(1-26)//small stone--80.0%,(1-1)//Water stone--Raro,(1-1)//water pendant--53.0%,", evoStone:"", boost:"5", booStone:"Water stone", habilidades:"Rock smash, Headbutt"},
    
   {shiny:"Shiny", nome:"Delibird",  numero:"225-1",  level:"70",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Seavell",   clan2:"Wingeon",   tipo1:"Gelo",   tipo2:"Voador", 
@@ -2576,7 +2577,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Present-70,Doubleslap-70,Pluck-75,Frost breath-72,Healing wish-72,Blizzard-80,Rock n roll-74,Egg rain-80,", 
-   loots:"no", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"no", evoStone:"", boost:"6", booStone:"Dimensional stone", habilidades:""},
    
   {shiny:"Shiny", nome:"Stantler",  numero:"234-1",  level:"150",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Gardestrike",   clan2:"Nenhum",   tipo1:"Normal",   tipo2:"Nenhum", 
@@ -2585,7 +2586,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "yes", 
    moves:"Attract-150,Tackle-150,Stomp-158,Last resort-155,Confuse ray-154,Take down-150,Jump kick-156,Calm mind-150,Stampede-155,Intimidate-Passiva,", 
-   loots:"(1-1)//reindeer horn--100.0%,(1-80)//rubber ball--100.0%,(1-1)//Heart stone--8.0%,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//reindeer horn--100.0%,(1-80)//rubber ball--100.0%,(1-1)//Heart stone--8.0%,", evoStone:"", boost:"2", booStone:"Heart stone", habilidades:"Rock smash, Ride, Headbutt"},
    
   {shiny:"(2)", nome:"Smeargle",  numero:"235",  level:"1",   ball1:"Nenhuma",   ball2:"Nenhuma",  
    clan1:"Gardestrike",   clan2:"Nenhum",   tipo1:"Normal",   tipo2:"Nenhum", 
@@ -2651,7 +2652,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Triple kick-120,Rolling kick-120,Revenge-120,Focus energy-127,Detect-120,Counter spin-Passiva,Foresight-Passiva,", 
-   loots:"no", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"no", evoStone:"", boost:"2", booStone:"Punch stone", habilidades:"Rock smash, Headbutt"},
    
   {shiny:"Shiny", nome:"Larvitar",  numero:"246-1",  level:"40",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Orebound",   clan2:"Nenhum",   tipo1:"Terra",   tipo2:"Pedra", 
@@ -2660,7 +2661,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"Shiny Pupitar", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"247-1", nevo2:"no", 
    mapas:'no',  vip: "yes", 
    moves:"Bite-40,Crunch-40,Dark pulse-40,Rock slide-40,Stone edge-40,Earthquake-45,Hyper beam-47,Sandstorm-40,", 
-   loots:"(1-1)//lizard tail--10.0%,(1-5)//small stone--80.0%,(1-5)//earth ball--80.0%,(1-1)//stone orb--56.0%,(1-1)//sandbag--16.0%,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//lizard tail--10.0%,(1-5)//small stone--80.0%,(1-5)//earth ball--80.0%,(1-1)//stone orb--56.0%,(1-1)//sandbag--16.0%,", evoStone:"Ancient stone (x2)", boost:"50", booStone:"Ancient stone", habilidades:"Dig, Rock smash, Cut, Headbutt"},
   {shiny:"Shiny", nome:"Pupitar",  numero:"247-1",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma",
    clan1:"Orebound",   clan2:"Nenhum",   tipo1:"Terra",   tipo2:"Pedra", 
    regiao:"Johto",   geracao:"2",   dificuldade:"Caught", xpcaught:"0", pricenpc:"unseleable",
@@ -2668,7 +2669,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"Shiny Larvitar", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"246-1", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "yes", 
    moves:"Rock tomb-100,Dark pulse-100,Rock slide-100,Stone edge-100,Bulldoze-106,Ancient power-115,Magnitude-106,Hyper beam-108,Sandstorm-100,Scary face-102,", 
-   loots:"(1-1)//lizard tail--82.5%,(1-16)//small stone--80.0%,(1-16)//earth ball--80.0%,(1-1)//stone orb--89.5%,(1-1)//sandbag--89.5%,(1-1)//Ancient stone--10.1%,(1-1)//Rock stone--10.1%,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-1)//lizard tail--82.5%,(1-16)//small stone--80.0%,(1-16)//earth ball--80.0%,(1-1)//stone orb--89.5%,(1-1)//sandbag--89.5%,(1-1)//Ancient stone--10.1%,(1-1)//Rock stone--10.1%,", evoStone:"", boost:"50", booStone:"Ancient stone", habilidades:"Dig, Rock smash, Cut, Headbutt"},
   {shiny:"Mega", nome:"Tyranitar",  numero:"248-1",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Orebound",   clan2:"Malefic",   tipo1:"Pedra",   tipo2:"Noturno", 
    regiao:"Johto",   geracao:"2",   dificuldade:"Embedded tower", xpcaught:"0", pricenpc:"0",
@@ -2752,7 +2753,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "yes", 
    moves:"Roar-110,Swift-100,Volt fang-100,Spark-100,Ice fang-100,Thunder-100,Discharge-105,Mamaragan-110,Magnetic flux-100,", 
-   loots:"no", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"no", evoStone:"", boost:"2", booStone:"Mirror stone", habilidades:"Cut"},
   {shiny:"Mega", nome:"Manectric",  numero:"310-2",  level:"80",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Raibolt",   clan2:"Nenhum",   tipo1:"Elétrico",   tipo2:"Nenhum", 
    regiao:"Hoen",   geracao:"3",   dificuldade:"Drop", xpcaught:"0", pricenpc:"0",
@@ -2787,7 +2788,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "yes", 
    moves:"Shadow ball-100,Ember-100,Flamethrower-100,Fireball-100,Eruption-100,Fire blast-100,Magma storm-110,Solar beam-100,Forecast-Passiva,Sacred breath-Passiva,", 
-   loots:"(1-99)//essence of fire--80.0%,(1-99)//snowball--80.0%,(1-99)//water gem--80.0%,(1-1)//pot of lava--80.0%,(1-1)//ice orb--80.0%,(1-1)//water pendant--80.0%,(1-1)//Water stone--1.3%,(1-1)//Fire stone--1.3%,(1-1)//Ice stone--1.3%,", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"(1-99)//essence of fire--80.0%,(1-99)//snowball--80.0%,(1-99)//water gem--80.0%,(1-1)//pot of lava--80.0%,(1-1)//ice orb--80.0%,(1-1)//water pendant--80.0%,(1-1)//Water stone--1.3%,(1-1)//Fire stone--1.3%,(1-1)//Ice stone--1.3%,", evoStone:"", boost:"50", booStone:"Mystic star", habilidades:""},
   {shiny:"Water", nome:"Castform",  numero:"351-2",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Volcanic",   clan2:"Nenhum",   tipo1:"Água",   tipo2:"Nenhum", 
    regiao:"Hoen",   geracao:"3",   dificuldade:"Sem sistema", xpcaught:"0", pricenpc:"0",
@@ -2812,7 +2813,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "yes", 
    moves:"Psy pulse-100,Extrasensory-100,Meteor mash-100,Psychic-100,Metal sound-130,Psy impact-110,Dream eater-100,Hypnosis-100,Iron defense-104,Miracle eye-950,", 
-   loots:"no", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"no", evoStone:"", boost:"2", booStone:"Dimensional stone", habilidades:"Teleport, Light, Blink"},
 
   {shiny:"Shiny", nome:"Lucario",  numero:"448-1",  level:"120",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Ironhard",   clan2:"Nenhum",   tipo1:"Metal",   tipo2:"Lutador", 
@@ -2821,7 +2822,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Quick attack-120,Iron head-120,Close combat-120,Metal claw-120,Bullet punch-120,Bone rush-120,Aura sphere-120,Swords dance-120,Evasion-Passiva,Superpower-Passiva,Foresight-Passiva,", 
-   loots:"no", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"no", evoStone:"", boost:"2", booStone:"Punch stone", habilidades:"Rock smash, Light, Headbutt"},
   {shiny:"Mega", nome:"Lucario",  numero:"448-2",  level:"80",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Ironhard",   clan2:"Gardestrike",   tipo1:"Metal",   tipo2:"Lutador", 
    regiao:"Sinoh",   geracao:"4",   dificuldade:"Drop", xpcaught:"0", pricenpc:"0",
@@ -2838,7 +2839,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Leech seed-100,Leaf blade-100,X scissor-104,Grassy terrain-110,Hyper voice-100,Grass whistle-100,Substitute-100,Synthesis-100,Protect-100,", 
-   loots:"no", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"no", evoStone:"", boost:"2", booStone:"Mirror stone", habilidades:"Dig"},
   {shiny:"Shiny", nome:"Glaceon",  numero:"471-1",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Seavell",   clan2:"Nenhum",   tipo1:"Gelo",   tipo2:"Nenhum", 
    regiao:"Sinoh",   geracao:"4",   dificuldade:"Dimensional zone", xpcaught:"0", pricenpc:"unseleable",
@@ -2846,7 +2847,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Swift-100,Ice shards-100,Ice fang-100,Ice beam-100,Frost breath-102,Tail whip-100,Blizzard-106,Hail-108,Magic coat-106,Barrier-120,Ice body-Passiva,", 
-   loots:"no", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"no", evoStone:"", boost:"2", booStone:"Mirror stone", habilidades:"Dig"},
    
   {shiny:"Water", nome:"Rotom",  numero:"479-1",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Raibolt",   clan2:"Nenhum",   tipo1:"Elétrico",   tipo2:"Água", 
@@ -2896,7 +2897,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Bug bite-100,Electroweb-100,Leech life-105,X scissor-105,Fury cutter-106,Struggle bug-108,Signal beam-100,Spider web-110,Web rain-110,Compound eyes-Passiva,", 
-   loots:"no", evoStone:"", boost:"", booStone:"", habilidades:""},
+   loots:"no", evoStone:"", boost:"2", booStone:"Dimensional stone", habilidades:"Dig, Cut, Light"},
    
   {shiny:"Shiny", nome:"Sylveon",  numero:"700-1",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Psycraft",   clan2:"Nenhum",   tipo1:"Psiquico",   tipo2:"Nenhum", 
@@ -2905,7 +2906,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Charm-100,Draining kiss-100,Swift-100,Disarming voice-100,Take down-100,Fairy wind-100,Last resort-100,Great love-108,Baby doll eyes-112,", 
-   loots:"no", evoStone:"", boost:"", booStone:"", habilidades:""}
+   loots:"no", evoStone:"", boost:"2", booStone:"Mirror stone", habilidades:"Dig"}
 
 
 ]
@@ -7666,7 +7667,7 @@ criarPaginacaodeTabela();
 
 
  // alert ('Atenção, \n\nPara ver o local no mapa clique na imagem do pokemon, em seguida selecione a aba mapas clique na imagem em miniatura para abrir a imagem na tela grande e repare nos marcadores em vermelho\n\n\nCaso os locais destacados estejam errados deixe seu comentario e se possível uma print da sua tela para que nos consertemos.');
-  alert ('Baixe nosso aplicativo atualizado (versão 2.0.1) para android 4.1 ou superior       \n Baixe no Link: https://goo.gl/xNZuru              Estamos em fase BETA e atualizando as informações, contamos com sua colaboração caso encontre algum erro.');
+  alert ('Baixe nosso aplicativo atualizado (versão 2.0.1) para android 4.1 ou superior\nBaixe no Link: http://pokexgames-tutoriais.blogspot.com/p/download.html/n/n/nEstamos em fase BETA e atualizando as informações, contamos com sua colaboração caso encontre algum erro. :)');
 
 // ATUALIZA O MODAL DE INFORMAÇÃO DO POKE AO CLICAR NA CLASSE .ITEM
  $(document).on("click", ".item", function () {
