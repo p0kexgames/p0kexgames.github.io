@@ -6194,6 +6194,11 @@ movesArray = [
  { move: "Air vortex", type: "Voador", desc: "o pokemon puxa todos os oponentes a sua volta, causando pequenos danos, aplicando efeito stun, a duração é de 10 segundos e o pokemon que utiliza esse ataque não pode se mover ou atacar durante esse periodo.", 
    aoe: "yes", blind: "", buff: "", burn: "", confusion: "", damage: "yes", debuff: "yes", lifesteal: "", 
    target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "", stun: "yes", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", }, 
+ 
+ { move: "Frozen armor", type: "Gelo", desc: "concede ao usuário resistência adicional contra ataques dos elementos DRAGÃO e GRAMA por 30 segundos.", 
+   aoe: "", blind: "", buff: "yes", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "yes", paralyze: "", poison: "", self: "yes", slow: "", stun: "", passive: "", 
    healing: "", silence: "", freeze: "", knockback: "", }
 
    
