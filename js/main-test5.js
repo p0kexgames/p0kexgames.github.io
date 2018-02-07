@@ -413,7 +413,7 @@ pokesarray = [
  {nome:"Kabuto", numero:140, level:20, ball1:"Masterball", ball2:"nenhuma", clan1:"Seavell", clan2:"Orebound", tipo1:"Água", tipo2:"Pedra", regiao:"Kanto", geracao:"1", dificuldade:"Difícil", xpcaught:"0", pricenpc:"20000",  shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"Kabutops", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"141", nevo2:"no", 
  mapas:'no',  vip: "yes", moves:"Scratch-20,Bubbles-20,Slash-20,Mud shot-20,Night slash-20,Harden-28,Ancient power-26,Mega drain-Passiva,", loots:"(1-1)//dome fossil--Raro,(1-5)//water gem--80.0%,(1-5)//small stone--80.0%,(1-1)//stone orb--16.0%,", evoStone:"Crystal stone,Rock stone", boost:"10", booStone:"Water stone", habilidades:"Cut, Dig"},
  {nome:"Kabutops", numero:141, level:80, ball1:"Masterball", ball2:"nenhuma", clan1:"Seavell", clan2:"Orebound", tipo1:"Água", tipo2:"Pedra", regiao:"Kanto", geracao:"1", dificuldade:"Difícil", xpcaught:"0", pricenpc:"75000",  shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"Kabuto", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"140", nevo1:"no", nevo2:"no", 
- mapas:'no',  vip: "yes", moves:"Absorb-80,Slash-85,Rock throw-80,Rock slide-80,Mud shot-85,Night slash-80,Rock tomb-80,Ancient power-95,Harden-90,Fossilized shell-Passiva,", loots:"(1-1)//dome fossil--Raro,(1-20)//water gem--80.0%,(1-20)//small stone--80.0%,(1-1)//Water stone--Raro,(1-1)//Crystal stone--Raro,(1-1)//stone orb--34.0%,", evoStone:"", boost:"3", booStone:"Rock stone", habilidades:"Rock smash, Dig, Cut, Surf, Headbutt"},
+ mapas:'no',  vip: "yes", moves:"Ancient absorb-80,Slash-85,Rock throw-80,Rock slide-80,Mud shot-85,Night slash-80,Rock tomb-80,Ancient power-95,Fossilized shell-Passiva,", loots:"(1-1)//dome fossil--Raro,(1-20)//water gem--80.0%,(1-20)//small stone--80.0%,(1-1)//Water stone--Raro,(1-1)//Crystal stone--Raro,(1-1)//stone orb--34.0%,", evoStone:"", boost:"3", booStone:"Rock stone", habilidades:"Rock smash, Dig, Cut, Surf, Headbutt"},
 
  {nome:"Aerodactyl", numero:142, level:150, ball1:"nenhuma", ball2:"nenhuma", clan1:"Orebound", clan2:"Wingeon", tipo1:"Pedra", tipo2:"Voador", regiao:"Kanto", geracao:"1", dificuldade:"Não capturável", xpcaught:"0", pricenpc:"unseleable",  shiny:"no", fast:"yes", heavy:"no", preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
  mapas:'no',  vip: "yes", moves:"Roar-160,Super sonic-150,Bite-150,Crunch-150,Rock throw-150,Rock slide-150,Air cutter-158,Wing attack-150,Falling rocks-155,Hyper beam-160,Ancient power-165,", loots:"(1-1)//old amber--Raro,(1-25)//small stone--80.0%,(1-25)//straw--80.0%,(1-1)//Rock stone--3.0%,(1-1)//Ancient stone--Raro,(1-1)//stone orb--40.0%,", evoStone:"", boost:"30", booStone:"Ancient stone", habilidades:"Fly, Rock smash, Headbutt"},
@@ -574,7 +574,7 @@ pokesarray = [
  mapas:'"top":87,"left":31,"text":"Deserto Mandarin - (FREE)"',  vip: "no", moves:"Destiny bond-100,Safeguard-110,Mirror coat-Passiva,Stunning confusion-Passiva,", loots:"(1-1)//strange tail--4.3%,(1-40)//enchanted gem--80.0%,(1-1)//Enigma stone--Raro,(1-1)//future orb--34.0%,", evoStone:"", boost:"3", booStone:"Enigma stone", habilidades:"Headbutt"},
 
  {nome:"Girafarig",   numero:203,  level:80,   ball1:"Ultraball",   ball2:"Nenhuma",   clan1:"Psycraft",   clan2:"Gardestrike",   tipo1:"Psiquico",   tipo2:"Normal",   regiao:"Johto",   geracao:"2",   dificuldade:"Difícil", xpcaught:"500000", pricenpc:"120000",  shiny:"no", fast:"yes", heavy:"no", preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
- mapas:'no',  vip: "no", moves:"Tackle-80,Crunch-80,Stomp-80,Shadow ball-80,Astonish-80,Confusion-80,Psychic-80,Assurance-85,Nasty plot-95,Agility-80,", loots:"(1-1)//strange antenna--4.3% (38.3%),(1-20)//rubber ball--80.0%,(1-20)//enchanted gem--80.0%,(1-1)//Enigma stone--Raro,(1-1)//Heart stone--Raro,(1-1)//future orb--34.0% (68.0%),", evoStone:"", boost:"3", booStone:"Enigma stone", habilidades:"Teleport, Ride, Light, Headbutt"},
+ mapas:'no',  vip: "no", moves:"Tackle-80,Crunch-80,Shadow ball-80,Shockwave-80,Astonish-80,Psychic-80,Assurance-85,Nasty plot-95,Agility-80,", loots:"(1-1)//strange antenna--4.3% (38.3%),(1-20)//rubber ball--80.0%,(1-20)//enchanted gem--80.0%,(1-1)//Enigma stone--Raro,(1-1)//Heart stone--Raro,(1-1)//future orb--34.0% (68.0%),", evoStone:"", boost:"3", booStone:"Enigma stone", habilidades:"Teleport, Ride, Light, Headbutt"},
 
  {nome:"Pineco",   numero:204,  level:10,   ball1:"Pokeball",   ball2:"Greatball",   clan1:"Naturia",   clan2:"Nenhum",   tipo1:"Inseto",   tipo2:"Nenhum",  regiao:"Johto",   geracao:"2",   dificuldade:"Fácil", xpcaught:"3000", pricenpc:"300",  shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"Forretress", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"205", nevo2:"no", 
  mapas:'no',  vip: "yes", moves:"Tackle-10,Bug bite-10,Toxic spikes-10,Gyro ball-18,Harden-12,Selfdestruction-10,", loots:"(1-1)//piece of shell--Raro,(1-8)//bug gosme--80.0%,(1-1)//pot of moss bug--19.5%,", evoStone:"Cocoon stone (x2)", boost:"15", booStone:"Cocoon stone", habilidades:"Dig, Headbutt"},
@@ -652,7 +652,7 @@ pokesarray = [
  moves:"Roar-110,Bite-100,Crunch-100,Ember-100,Faint attack-100,Shadowave-100,Flamethrower-100,Incinerate-100,Fire blast-102,Inferno-110,", loots:"(1-1)//strange bone--8.3%,(1-20)//essence of fire--80.0%,(1-20)//dark gem--80.0%,(1-1)//Fire stone--Raro,(1-1)//Darkness stone--Raro,(1-1)//pot of lava--34.0%,", evoStone:"", boost:"3", booStone:"Darkness stone", habilidades:"Dig, Headbutt, Ride"},
 
  {nome:"Kingdra",  numero:230,  level:100,   ball1:"Ultraball",   ball2:"Taleball",   clan1:"Seavell",   clan2:"Wingeon",   tipo1:"Água",   tipo2:"Dragão",   regiao:"Johto",   geracao:"2",   dificuldade:"Difícil", xpcaught:"500000", pricenpc:"60000",  shiny:"no", fast:"no", heavy:"yes", preevo2:"Horsea", preevo1:"Seadra", evo1:"no", evo2:"no", npreevo2:"116", npreevo1:"117", nevo1:"no", nevo2:"no", 
- mapas:'no',  vip: "no", moves:"Mud shot-100,Smokescreen-100,Bubbles-100,Bubblebeam-100,Water gun-100,Water pulse-100,Twister-104,Dragon pulse-105,Hydropump-108,Dragon dance-106,", loots:"(1-1)//seahorse tail--4.3% (8.5%),(1-23)//dragon scale--80.0%,(1-23)//water gem--80.0%,(1-1)//Crystal stone--Raro,(1-1)//Water stone--Raro,(1-1)//water pendant--42.0% (84.0%),(1-1)//diving mask--Raro,(1-1)//air tank--Raro,(1-1)//fins--Raro,", evoStone:"", boost:"30", booStone:"Crystal stone", habilidades:"Surf, Headbutt"},
+ mapas:'no',  vip: "no", moves:"Mud shot-100,Smokescreen-100,Bubbles-100,Bubblebeam-100,Scald-102,Water pulse-100,Twister-104,Dragon pulse-105,Surf-105,Dragon dance-106,", loots:"(1-1)//seahorse tail--4.3% (8.5%),(1-23)//dragon scale--80.0%,(1-23)//water gem--80.0%,(1-1)//Crystal stone--Raro,(1-1)//Water stone--Raro,(1-1)//water pendant--42.0% (84.0%),(1-1)//diving mask--Raro,(1-1)//air tank--Raro,(1-1)//fins--Raro,", evoStone:"", boost:"30", booStone:"Crystal stone", habilidades:"Surf, Headbutt"},
 
  {nome:"Phanpy",   numero:231,  level:20,   ball1:"Pokeball",   ball2:"Greatball",   clan1:"Orebound",   clan2:"Nenhum",   tipo1:"Terra",   tipo2:"Nenhum",   regiao:"Johto",   geracao:"2",   dificuldade:"Fácil", xpcaught:"10000", pricenpc:"3000",  shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"Donphan", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"232", nevo2:"no", 
  mapas:'no',  vip: "yes", moves:"Tackle-20,Take down-24,Horn attack-20,Rollout-26,Defense curl-28,", loots:"(1-1)//elephant foot--Raro,(1-10)//earth ball--80.0%,(1-1)//sandbag--11.0%,", evoStone:"Earth stone (x2)", boost:"10", booStone:"Earth stone", habilidades:"Dig, Rock smash, Headbutt"},
@@ -770,7 +770,7 @@ pokesarray = [
    clan1:"Seavell",   clan2:"Naturia",   tipo1:"Água",   tipo2:"Grama", 
    regiao:"Hoen",   geracao:"3",   dificuldade:"Médio", xpcaught:"15000", pricenpc:"8000",
    shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"Lotad", evo1:"Ludicolo", evo2:"no", npreevo2:"no", npreevo1:"270", nevo1:"272", nevo2:"no", 
-   mapas:'no',  vip: "yes", moves:"Absorb-50,Fury swipes-50,Water pulse-50,Bubblebeam-50,Waterfall-50,Scald-52,Rain dance-50,Mega drain-Passiva,Swift swim-Passiva,", loots:"(1-1)//water plant--2.2% (11.0%),(1-10)//seed--80.0% (100.0%),(1-10)//water gem--80.0% (100.0%),(1-1)//leaves--16.0% (48.0%),(1-1)//water pendant--16.0% (48.0%),(1-1)//Leaf stone--Raro,(1-1)//Water stone--Raro,", evoStone:"Leaf stone,Water stone", boost:"7", booStone:"Leaf stone", habilidades:"Surf"},
+   mapas:'no',  vip: "yes", moves:"Absorb-100,Fury swipes-100,Water pulse-100,Bubblebeam-100,Waterfall-100,Scald-102,Hydropump-102,Rain dance-100,Energy ball-100,Swift swim-Passiva,", loots:"(1-1)//water plant--2.2% (11.0%),(1-10)//seed--80.0% (100.0%),(1-10)//water gem--80.0% (100.0%),(1-1)//leaves--16.0% (48.0%),(1-1)//water pendant--16.0% (48.0%),(1-1)//Leaf stone--Raro,(1-1)//Water stone--Raro,", evoStone:"Leaf stone,Water stone", boost:"7", booStone:"Leaf stone", habilidades:"Surf"},
   {nome:"Ludicolo",  numero:272,  level:100,   ball1:"Ultraball",   ball2:"Nenhuma", 
    clan1:"Seavell",   clan2:"Naturia",   tipo1:"Água",   tipo2:"Grama", 
    regiao:"Hoen",   geracao:"3",   dificuldade:"Difícil", xpcaught:"200000", pricenpc:"18000",
@@ -1553,7 +1553,7 @@ pokesarray = [
    clan1:"Naturia",   clan2:"Ironhard",   tipo1:"Grama",   tipo2:"Metal", 
    regiao:"Unova",   geracao:"5",   dificuldade:"Dimensional zone", xpcaught:"0", pricenpc:"350000",
    shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"Ferroseed", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"597", nevo1:"no", nevo2:"no", 
-   mapas:'no',  vip: "no", moves:"Iron head-100,Leech seed-100,Grass knot-100,Power whip-108,Energy ball-100,Spikes-110,Bullet seed-100,Giga drain-105,Solar beam-100,Iron barbs-Passiva,", loots:"no", evoStone:"", boost:"3", booStone:"Dimensional stone", habilidades:""},
+   mapas:'no',  vip: "no", moves:"Iron head-100,Leech seed-100,Grass knot-100,Power whip-108,Thunder bolt-100,Spikes-110,Bullet seed-100,Giga drain-105,Solar beam-100,Iron barbs-Passiva,", loots:"no", evoStone:"", boost:"3", booStone:"Dimensional stone", habilidades:""},
 
    
   {nome:"Litwick",  numero:607,  level:"20",   ball1:"Nenhuma",   ball2:"Nenhuma",
@@ -1991,7 +1991,7 @@ ShinysMegasArray = [
    regiao:"Kanto",   geracao:"1",   dificuldade:"Cyber world", xpcaught:"0", pricenpc:"Unseleable",
    fast:"yes", heavy:"no", preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "yes", 
-   moves:"Peck-150,Pursuit-150,Pluck-155,Tri attack-165,Double hit-152,Roost-155,Sky attack-160,Agility-150,Taunt-150,Uproar-Passiva,", 
+   moves:"Peck-150,Pluck-155,Pursuit-150,Trash-155,Tri attack-165,Double hit-152,Sky attack-160,Agility-150,Taunt-150,Uproar-Passiva,", 
    loots:"(1-1)//dodrio feather--100.0%,(1-40)//straw--100.0%,(1-40)//rubber ball--100.0%,(1-1)//Feather stone--8.0%,(1-1)//bird beak--100.0%,", evoStone:"", boost:"2", booStone:"Feather stone", habilidades:"Ride"},
    
   {shiny:"Shiny", nome:"Grimer",  numero:"88-1",  level:"20",   ball1:"Nenhuma",   ball2:"Nenhuma", 
@@ -2879,7 +2879,7 @@ ShinysMegasArray = [
    fast:"yes", heavy:"no", 
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "yes", 
-   moves:"Thunder shock-100,Feather dance-100,Air cutter-108,Shockwave-100,Whirlwind-100,Substitute-100,Air slash-103,Aerial ace-104,Morph-100,Levitate-Passiva,", 
+   moves:"Thunder shock-100,Feather dance-100,Air cutter-108,Shockwave-100,Air slash-103,Substitute-100,Sky attack-110,Aerial ace-104,Morph-100,Levitate-Passiva,", 
    loots:"(1-40)//screw--100.0%,(1-1)//Thunder stone--Raro,(1-1)//electric box--100.0%,(1-1)//zap--5.7%,(1-1)//Fan--Raro,", evoStone:"", boost:"", booStone:"", habilidades:""},
   {shiny:"Ice", nome:"Rotom",  numero:"479-5",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Raibolt",   clan2:"Nenhum",   tipo1:"Elétrico",   tipo2:"Gelo", 
@@ -2887,7 +2887,7 @@ ShinysMegasArray = [
    fast:"yes", heavy:"no", 
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "yes", 
-   moves:"Thunder shock-100,Ice shards-100,Powder snow-100,Shockwave-100,Icy wind-100,Substitute-100,Aurora beam-104,Blizzard-108,Morph-100,Levitate-Passiva,", 
+   moves:"Ice shards-100,Powder snow-100,Shockwave-100,Icy wind-100,Substitute-100,Aurora beam-104,Blizzard-108,Frozen armor-100,Morph-100,Levitate-Passiva,", 
    loots:"(1-40)//screw--100.0%,(1-1)//Thunder stone--Raro,(1-1)//electric box--100.0%,(1-1)//zap--5.7%,(1-1)//Frost--Raro,", evoStone:"", boost:"", booStone:"", habilidades:""},
    
   {shiny:"Giant", nome:"Galvantula",  numero:"596-1",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma", 
