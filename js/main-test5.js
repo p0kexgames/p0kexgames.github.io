@@ -8718,6 +8718,13 @@ $(".aviso").html(" ");
    
    $(".modal-body .modal-capa .fast-heavy-outter .fast-container").attr('class', 'fast-container');
    $(".modal-body .modal-capa .fast-heavy-outter .fast-container").addClass('fast-'+myPokeFast);
+	
+   $(".modal-body .modal-capa .fast-heavy-outter .lupa-container").attr('class', 'lupa-container');
+	 
+   else if (myPokeMapas !== '') {
+    $(".modal-body .modal-capa .fast-heavy-outter .lupa-container").attr('class', 'lupa-container lupa');
+    $(".modal-body .modal-capa .fast-heavy-outter .lupa-container").addClass('map-'+myPokeMapas);
+   }
    
    
    
@@ -10438,6 +10445,13 @@ $(".aviso").html(" ");
    
    $(".modal-body .modal-capa .fast-heavy-outter .fast-container").attr('class', 'fast-container');
    $(".modal-body .modal-capa .fast-heavy-outter .fast-container").addClass('fast-'+myPokeFast);
+	  
+   $(".modal-body .modal-capa .fast-heavy-outter .lupa-container").attr('class', 'lupa-container');
+	 
+   else if (myPokeMapas !== '') {
+    $(".modal-body .modal-capa .fast-heavy-outter .lupa-container").attr('class', 'lupa-container lupa');
+    $(".modal-body .modal-capa .fast-heavy-outter .lupa-container").addClass('map-'+myPokeMapas);
+   }
    
    
    
