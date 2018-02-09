@@ -8712,12 +8712,6 @@ $(".aviso").html(" ");
     $("#descricao").html("");
    }
 	 
-   $(".modal-body .modal-capa .fast-heavy-outter .lupa-container").attr('class', 'lupa-container');
-	 
-   else if (myPokeMapas !== '') {
-    $(".modal-body .modal-capa .fast-heavy-outter .lupa-container").attr('class', 'lupa-container lupa');
-    $(".modal-body .modal-capa .fast-heavy-outter .lupa-container").addClass('map-'+myPokeMapas);
-   }
    
    
    $(".modal-body .modal-capa .fast-heavy-outter .heavy-container").attr('class', 'heavy-container');
@@ -10440,12 +10434,6 @@ $(".aviso").html(" ");
     $("#descricao").html("");
    } 
 	 
-   $(".modal-body .modal-capa .fast-heavy-outter .lupa-container").attr('class', 'lupa-container');
-	 
-   else if (myPokeMapas !== '') {
-    $(".modal-body .modal-capa .fast-heavy-outter .lupa-container").attr('class', 'lupa-container lupa');
-    $(".modal-body .modal-capa .fast-heavy-outter .lupa-container").addClass('map-'+myPokeMapas);
-   }
    
    
    $(".modal-body .modal-capa .fast-heavy-outter .heavy-container").attr('class', 'heavy-container');
