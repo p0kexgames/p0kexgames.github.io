@@ -1463,7 +1463,7 @@ pokesarray = [
    clan1:"Volcanic",   clan2:"Ironhard",   tipo1:"Fogo",   tipo2:"Metal", 
    regiao:"Sinoh",   geracao:"4",   dificuldade:"Dimensional zone", xpcaught:"0", pricenpc:"unseleable",
    shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
-   mapas:'no',  vip: "no", moves:"no", loots:"no", evoStone:"", boost:"", booStone:"", habilidades:"Dig, Rock smash, Light, Headbutt"},
+   mapas:'no',  vip: "no", moves:"Volcano shot-150,Iron head-150,Crunch-150,Stone edge-150,Ancient power-150,Rock slide-150,Magma storm-150,Heat wave-150,Hyper beam-150,Flash cannon-150,Flash fire-Passiva,", loots:"no", evoStone:"", boost:"", booStone:"", habilidades:"Dig, Rock smash, Light, Headbutt"},
 
   
 ///////// INICIO GERACAO 5
