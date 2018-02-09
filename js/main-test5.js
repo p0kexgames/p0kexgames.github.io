@@ -8711,6 +8711,13 @@ $(".aviso").html(" ");
     $(".modal-body .modal-capa .shiny-container").attr("onmouseout", false);
     $("#descricao").html("");
    }
+	 
+   $(".modal-body .modal-capa .fast-heavy-outter .lupa-container").attr('class', 'lupa-container');
+	 
+   else if (myPokeMapas !== '') {
+    $(".modal-body .modal-capa .fast-heavy-outter .lupa-container").attr('class', 'lupa-container lupa');
+    $(".modal-body .modal-capa .fast-heavy-outter .lupa-container").addClass('map-'+myPokeMapas);
+   }
    
    
    $(".modal-body .modal-capa .fast-heavy-outter .heavy-container").attr('class', 'heavy-container');
@@ -8719,12 +8726,6 @@ $(".aviso").html(" ");
    $(".modal-body .modal-capa .fast-heavy-outter .fast-container").attr('class', 'fast-container');
    $(".modal-body .modal-capa .fast-heavy-outter .fast-container").addClass('fast-'+myPokeFast);
 	
-   $(".modal-body .modal-capa .fast-heavy-outter .lupa-container").attr('class', 'lupa-container');
-	 
-   else if (myPokeMapas !== '') {
-    $(".modal-body .modal-capa .fast-heavy-outter .lupa-container").attr('class', 'lupa-container lupa');
-    $(".modal-body .modal-capa .fast-heavy-outter .lupa-container").addClass('map-'+myPokeMapas);
-   }
    
    
    
@@ -10437,6 +10438,13 @@ $(".aviso").html(" ");
     $(".modal-body .modal-capa .shiny-container").attr("onmouseover", false);
     $(".modal-body .modal-capa .shiny-container").attr("onmouseout", false);
     $("#descricao").html("");
+   } 
+	 
+   $(".modal-body .modal-capa .fast-heavy-outter .lupa-container").attr('class', 'lupa-container');
+	 
+   else if (myPokeMapas !== '') {
+    $(".modal-body .modal-capa .fast-heavy-outter .lupa-container").attr('class', 'lupa-container lupa');
+    $(".modal-body .modal-capa .fast-heavy-outter .lupa-container").addClass('map-'+myPokeMapas);
    }
    
    
@@ -10445,13 +10453,7 @@ $(".aviso").html(" ");
    
    $(".modal-body .modal-capa .fast-heavy-outter .fast-container").attr('class', 'fast-container');
    $(".modal-body .modal-capa .fast-heavy-outter .fast-container").addClass('fast-'+myPokeFast);
-	  
-   $(".modal-body .modal-capa .fast-heavy-outter .lupa-container").attr('class', 'lupa-container');
 	 
-   else if (myPokeMapas !== '') {
-    $(".modal-body .modal-capa .fast-heavy-outter .lupa-container").attr('class', 'lupa-container lupa');
-    $(".modal-body .modal-capa .fast-heavy-outter .lupa-container").addClass('map-'+myPokeMapas);
-   }
    
    
    
