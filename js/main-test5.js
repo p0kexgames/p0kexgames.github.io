@@ -972,7 +972,7 @@ pokesarray = [
 
   {nome:"Roselia",   numero:315,  level:70,   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Naturia",   clan2:"Malefic",   tipo1:"Grama",   tipo2:"Venenoso", 
-   regiao:"Hoen",   geracao:"3",   dificuldade:"Dimensional zone", xpcaught:"0", pricenpc:"Unseleable",
+   regiao:"Hoen",   geracao:"3",   dificuldade:"Dimensional zone", xpcaught:"200000", pricenpc:"Unseleable",
    shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", moves:"Magical leaf-70,Petal dance-70,Toxic-70,Leaf tornado-80,Synthesis-70,Petal blizzard-70,Grass whistle-70,Growth-70,", loots:"no", evoStone:"", boost:"7", booStone:"Mirror stone", habilidades:"Cut"},
 
