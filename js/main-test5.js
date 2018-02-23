@@ -6199,6 +6199,11 @@ movesArray = [
  { move: "Frozen armor", type: "Gelo", desc: "concede ao usuário resistência adicional contra ataques dos elementos DRAGÃO e GRAMA por 30 segundos.", 
    aoe: "", blind: "", buff: "yes", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
    target: "", nevermiss: "yes", paralyze: "", poison: "", self: "yes", slow: "", stun: "", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", }, 
+ 
+ { move: "Electric terrain", type: "Elétrico", desc: "Cria um campo de eletricidade ao redor do pokemon por 15 segundos. enquanto o usuário permanecer dentro do campo, receberá bonus de defesa e ataque físico, velocidade de movimento e ataque, bem como FOCUS para o próximo ataque. Inimigos que sairem do campo serão atordoados por 8 segundos.", 
+   aoe: "yes", blind: "", buff: "yes", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "yes", paralyze: "", poison: "", self: "yes", slow: "", stun: "yes", passive: "", 
    healing: "", silence: "", freeze: "", knockback: "", }
 
    
