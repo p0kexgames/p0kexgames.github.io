@@ -377,7 +377,7 @@ pokesarray = [
  mapas:'no',  vip: "yes", moves:"Scratch-100,Smog-100,Fire punch-100,Ember-100,Flamethrower-100,Fireball-100,Fire blast-100,Magma storm-108,Sunny day-112,Flame body-Passiva,", loots:"(1-1)//magma foot--1.5% (5.8%),(1-40)//essence of fire--80.0%,(1-1)//Fire stone--Raro,(1-1)//pot of lava--34.0% (68.0%),", evoStone:"Magmarizer (x10)", boost:"3", booStone:"Fire stone", habilidades:"Rock smash, Headbutt"},
 
  {nome:"Pinsir", numero:127, level:100, ball1:"Ultraball", ball2:"Nenhuma", clan1:"Naturia", clan2:"Nenhum", tipo1:"Inseto", tipo2:"Nenhum", regiao:"Kanto", geracao:"1", dificuldade:"Difícil", xpcaught:"200000", pricenpc:"40000",  shiny:"yes", fast:"yes", heavy:"no", preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
- mapas:'no',  vip: "no", moves:"Bug bite-100,Brick break-100,Bind-100,X scissor-105,Fury cutter-108,Guillotine-110,Revenge-112,Harden-102,Swords dance-108,Bug instinct-Passiva,Seismic toss-Passiva,", loots:"(1-1)//Pinsir horn--10.3% (92.3%),(1-50)//bug gosme--80.0%,(1-1)//pot of moss bug--28.5% (85.5%),(1-1)//Cocoon stone--Raro,", evoStone:"", boost:"3", booStone:"Cocoon stone", habilidades:"Cut, Rock smash, Headbutt"},
+ mapas:'no',  vip: "no", moves:"Crunch-100,Brick break-100,Bind-100,Bulldoze-100,Fury cutter-108,Guillotine-110,Revenge-112,Harden-102,Swords dance-108,Bug instinct-Passiva,Seismic toss-Passiva,", loots:"(1-1)//Pinsir horn--10.3% (92.3%),(1-50)//bug gosme--80.0%,(1-1)//pot of moss bug--28.5% (85.5%),(1-1)//Cocoon stone--Raro,", evoStone:"", boost:"3", booStone:"Cocoon stone", habilidades:"Cut, Rock smash, Headbutt"},
 
  {nome:"Tauros", numero:128, level:50, ball1:"Greatball", ball2:"Superball", clan1:"Gardestrike", clan2:"Nenhum", tipo1:"Normal", tipo2:"Nenhum", regiao:"Kanto", geracao:"1", dificuldade:"Médio", xpcaught:"50000", pricenpc:"5000",  shiny:"yes", fast:"yes", heavy:"no", preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
  mapas:'no',  vip: "no", moves:"Headbutt-50,Quick attack-50,Horn attack-50,Hyper beam-55,Thrash-56,Rage-50,Rest-55,Scary face-52,", loots:"(1-1)//bull tail--4.3%,(1-23)//rubber ball--80.0%,(1-1)//horn--14.0%,(1-1)//Heart stone--Raro,", evoStone:"", boost:"6", booStone:"Heart stone", habilidades:"Rock smash, Ride, Headbutt"},
@@ -640,7 +640,7 @@ pokesarray = [
  mapas:'no',  vip: "yes", moves:"Headbutt-100,Aqua tail-100,Bubblebeam-102,Wing attack-105,Air slash-103,Air cutter-108,Bounce-102,Aerial ace-104,Aqua ring-100,Green guard-Passiva,", loots:"(1-1)//streak tail--4.3% (29.8%),(1-20)//water gem--80.0%,(1-20)//straw--80.0%,(1-1)//Water stone--Raro,(1-1)//water pendant--39.0% (78.0%),(1-1)//diving mask--Raro,(1-1)//air tank--Raro,(1-1)//fins--Raro,", evoStone:"", boost:"3", booStone:"Water stone", habilidades:"Cut, Headbutt, Surf"},
 
  {nome:"Skarmory",  numero:227,  level:100,   ball1:"Ultraball",   ball2:"Nenhuma",   clan1:"Ironhard",   clan2:"Wingeon",   tipo1:"Metal",   tipo2:"Voador",   regiao:"Johto",   geracao:"2",   dificuldade:"Difícil", xpcaught:"500000", pricenpc:"120000",  shiny:"no", fast:"yes", heavy:"no", preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
- mapas:'no',  vip: "yes", moves:"Sand attack-100,Peck-100,Swift-100,Iron head-100,Metal claw-107,Air slash-103,Steel wing-108,Aerial ace-104,Agility-100,", loots:"(1-1)//steel wing--4.3% (8.5%),(1-21)//piece of steel--80.0%,(1-21)//straw--80.0%,(1-1)//Metal stone--Raro,(1-1)//Feather stone--Raro,(1-1)//bird beak--25.6% (25.6%),", evoStone:"", boost:"2", booStone:"Feather stone", habilidades:"Cut, Fly"},
+ mapas:'no',  vip: "yes", moves:"Peck-100,Iron head-100,Metal burst-100,Metal claw-107,Air slash-103,Sky attack-110,Steel wing-108,Flash cannon-108,Brave bird-100,", loots:"(1-1)//steel wing--4.3% (8.5%),(1-21)//piece of steel--80.0%,(1-21)//straw--80.0%,(1-1)//Metal stone--Raro,(1-1)//Feather stone--Raro,(1-1)//bird beak--25.6% (25.6%),", evoStone:"", boost:"2", booStone:"Feather stone", habilidades:"Cut, Fly"},
 
  {nome:"Houndour",  numero:228,  level:20,   ball1:"Pokeball",   ball2:"Greatball",   clan1:"Volcanic",   clan2:"Malefic",   tipo1:"Fogo",   tipo2:"Noturno",   regiao:"Johto",   geracao:"2",   dificuldade:"Fácil", xpcaught:"10000", pricenpc:"3500",  shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"Houndoom", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"229", nevo2:"no", 
  mapas:'"top":49,"left":33,"text":"Magma Island - Parte Sul da ilha (VIP)";"top":39,"left":66,"text":"Ascorbia"', 
@@ -2251,7 +2251,7 @@ ShinysMegasArray = [
    fast:"yes", heavy:"no", 
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
-   moves:"Bug bite-100,Brick break-100,Bind-100,X scissor-105,Fury cutter-108,Guillotine-110,Revenge-112,Harden-102,Swords dance-108,Bug instinct-Passiva,Seismic toss-Passiva,", 
+   moves:"Crunch-100,Brick break-100,Bind-100,Bulldoze-100,Fury cutter-108,Guillotine-110,Revenge-112,Harden-102,Swords dance-108,Bug instinct-Passiva,Seismic toss-Passiva,", 
    loots:"(1-1)//Pinsir horn--80.0%,", evoStone:"", boost:"2", booStone:"Cocoon stone", habilidades:"Cut, Rock smash, Headbutt"},
    
   {shiny:"Shiny", nome:"Tauros",  numero:"128-1",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma", 
@@ -2725,7 +2725,7 @@ ShinysMegasArray = [
    regiao:"Hoen",   geracao:"3",   dificuldade:"Drop", xpcaught:"0", pricenpc:"0",
    fast:"no", heavy:"no", preevo2:"no", preevo1:"Sableye", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"302", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "yes", 
-   moves:"Shadow ball-80,Fury swipes-80,Shadow sphere-80,Sucker punch-83,Astonish-80,Dark pulse-80,Shadow claw-80,Magic bounce,", 
+   moves:"Shadow ball-80,Fury swipes-80,Shadow sphere-80,Sucker punch-83,Night shade-80,Astonish-80,Dark pulse-80,Shadow claw-80,", 
    loots:"(1-1)//big crystal--1.3% (6.5%),(1-20)//ghost essence--80.0% (100.0%),(1-1)//Darkness stone--Raro,(1-1)//Sablenite--Raro,", evoStone:"", boost:"", booStone:"", habilidades:""},
    
   {shiny:"Mega", nome:"Mawile",  numero:"303-1",  level:"80",   ball1:"Nenhuma",   ball2:"Nenhuma", 
@@ -2760,7 +2760,7 @@ ShinysMegasArray = [
    fast:"yes", heavy:"no", 
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "yes", 
-   moves:"Roar-90,Spark-80,Fire fang-80,Ice fang-80,Flame burst-80,Flamethrower-80,Toxic-80,Discharge-85,Signal beam-80,Magnetic flux-80,", 
+   moves:"Roar-90,Spark-80,Swift-80,Thunder fang-80,Electro ball-80,Shockwave-80,Hiper beam-88,Discharge-85,Electric terrain-80,", 
    loots:"(1-1)//shock topknot--4.3% (21.3%),(1-43)//screw--80.0% (100.0%),(1-1)//electric box--40.0% (100.0%),(1-1)//Thunder stone--Raro,(1-1)//Manectite--Raro,", evoStone:"", boost:"", booStone:"", habilidades:""},
    
   {shiny:"Minun and", nome:"Plusle",  numero:"311-1",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma", 
