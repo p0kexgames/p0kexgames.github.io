@@ -2760,7 +2760,7 @@ ShinysMegasArray = [
    fast:"yes", heavy:"no", 
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "yes", 
-   moves:"Roar-90,Spark-80,Swift-80,Thunder fang-80,Electro ball-80,Shockwave-80,Hiper beam-88,Discharge-85,Electric terrain-80,", 
+   moves:"Roar-90,Spark-80,Swift-80,Thunder fang-80,Electro ball-80,Shockwave-80,Hyper beam-88,Discharge-85,Electric terrain-80,", 
    loots:"(1-1)//shock topknot--4.3% (21.3%),(1-43)//screw--80.0% (100.0%),(1-1)//electric box--40.0% (100.0%),(1-1)//Thunder stone--Raro,(1-1)//Manectite--Raro,", evoStone:"", boost:"", booStone:"", habilidades:""},
    
   {shiny:"Minun and", nome:"Plusle",  numero:"311-1",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma", 
@@ -6199,7 +6199,12 @@ movesArray = [
  { move: "Frozen armor", type: "Gelo", desc: "concede ao usuário resistência adicional contra ataques dos elementos DRAGÃO e GRAMA por 30 segundos.", 
    aoe: "", blind: "", buff: "yes", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
    target: "", nevermiss: "yes", paralyze: "", poison: "", self: "yes", slow: "", stun: "", passive: "", 
-   healing: "", silence: "", freeze: "", knockback: "", }
+   healing: "", silence: "", freeze: "", knockback: "", }, 
+ 
+ { move: "Electric terrain", type: "Elétrico", desc: "Cria um campo de eletricidade ao redor do pokemon por 15 segundos. enquanto o usuário permanecer dentro do campo, receberá bonus de defesa e ataque físico, velocidade de movimento e ataque, bem como FOCUS para o próximo ataque. Inimigos que sairem do campo serão atordoados por 8 segundos.", 
+    aoe: "yes", blind: "", buff: "yes", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 	
+    target: "", nevermiss: "yes", paralyze: "", poison: "", self: "yes", slow: "", stun: "yes", passive: "", 	
+    healing: "", silence: "", freeze: "", knockback: "", }
 
    
 // { move: "", type: "", desc: "", 
