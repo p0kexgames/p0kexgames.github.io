@@ -4,7 +4,7 @@ var pokesarray, ShinysMegasArray, efetividadeArray, ballsArray, ballsArrayVarPri
 pokesarray = [
 
 ///////// INICIO GERACAO 1
- {nome:"Bulbasaur", numero:1, level:20, ball1:"Pokeball", ball2:"Greatball", clan1:"Naturia", clan2:"Malefic", tipo1:"Grama", tipo2:"Venenoso", regiao:"Kanto", geracao:"1", dificuldade:"Fácil", xpcaught:"10000", pricenpc:"3000",  shiny:"yes", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"Ivysaur", evo2:"Venusaur", npreevo2:"no", npreevo1:"no", nevo1:"2", nevo2:"3", 
+ {nome:"Bulbasaur", numeegaevo2:"3", 
  mapas: '"top":27,"left":43,"text":"Jungle Island - (VIP)";"top":31,"left":73,"text":"Lost Island - (VIP)";"top":84,"left":35,"text":"Mandarin - Próximo ao deserto (FREE)"',  
  vip: "no", 
  moves:"Tackle-20,Razor leaf-20,Vine whip-20,Headbutt-20,Leech seed-20,Solar beam-26,Sleep powder-28,Stun spore-26,Poison powder-24,", loots:"(1-1)//bulb--RARO,(1-5)//seed--80.0%,(1-5)//bottle of poison--80.0%,(1-1)//leaves--26.0%,(1-1)//bag of pollem--6.0%,", evoStone:"Leaf stone", boost:"10", booStone:"Leaf stone", habilidades:"Cut, Headbutt"},
@@ -2760,7 +2760,7 @@ ShinysMegasArray = [
    fast:"yes", heavy:"no", 
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "yes", 
-   moves:"Roar-90,Spark-80,Swift-80,Thunder fang-80,Electro ball-80,Shockwave-80,Hiper beam-88,Discharge-85,Electric terrain-80,", 
+   moves:"Roar-90,Spark-80,Swift-80,Thunder fang-80,Electro ball-80,Shockwave-80,Hyper beam-88,Discharge-85,Electric terrain-80,", 
    loots:"(1-1)//shock topknot--4.3% (21.3%),(1-43)//screw--80.0% (100.0%),(1-1)//electric box--40.0% (100.0%),(1-1)//Thunder stone--Raro,(1-1)//Manectite--Raro,", evoStone:"", boost:"", booStone:"", habilidades:""},
    
   {shiny:"Minun and", nome:"Plusle",  numero:"311-1",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma", 
