@@ -7677,7 +7677,7 @@ criarPaginacaodeTabela();
 
 
  // alert ('Atenção, \n\nPara ver o local no mapa clique na imagem do pokemon, em seguida selecione a aba mapas clique na imagem em miniatura para abrir a imagem na tela grande e repare nos marcadores em vermelho\n\n\nCaso os locais destacados estejam errados deixe seu comentario e se possível uma print da sua tela para que nos consertemos.');
-  alert ('Baixe nosso aplicativo atualizado (versão 2.0.1) para android 4.1 ou superior\nBaixe no Link: http://pokexgames-tutoriais.blogspot.com/p/download.html\n\n\nEstamos em fase BETA e atualizando as informações, contamos com sua colaboração caso encontre algum erro. \n\n:)');
+  alert ('Baixe nosso aplicativo atualizado com novas profissões (versão 2.0.5), para android 4.1 ou superior\nBaixe com a loja Aptoide no Link: \nhttp://pokexgames-tutoriais.blogspot.com/p/download.html\n\n\nEstamos em fase BETA e atualizando as informações, contamos com sua colaboração caso encontre algum erro. \n\n:)');
 
 // ATUALIZA O MODAL DE INFORMAÇÃO DO POKE AO CLICAR NA CLASSE .ITEM
  $(document).on("click", ".item", function () {
