@@ -6487,7 +6487,7 @@ function criarTablePrincipal() {
        var beMedia = " " ;
    }
    
-  if (myPokeNome === "Elekid" || myPokeNome === "Magby") {
+  if (myPokeNome === "Elekid" || myPokeNome === "Magby" || myPokeNome === "Smoochum") {
   
        var pbMedia = Math.ceil(myPokePriceNPC * 0.3 / 2 / 10*1.9) * 10 ;
        var gbMedia = Math.ceil(myPokePriceNPC * 1 / 10 / 10*1.9) * 10 ;
@@ -7178,7 +7178,7 @@ function criartableShinys() {
    }
    
    
-  if (myPokeNome === "Elekid" || myPokeNome === "Magby") {
+  if (myPokeNome === "Elekid" || myPokeNome === "Magby" || myPokeNome === "Smoochum") {
   
        var pbMedia = Math.ceil(myPokePriceNPC * 0.3 / 2 / 10*1.9) * 10 ;
        var gbMedia = Math.ceil(myPokePriceNPC * 1 / 10 / 10*1.9) * 10 ;
@@ -8014,7 +8014,7 @@ $(".aviso").html(" ");
   }
   
   
-  if (myPokeNome === "Elekid" || myPokeNome === "Magby") {
+  if (myPokeNome === "Elekid" || myPokeNome === "Magby" || myPokeNome === "Smoochum") {
 	  
    $(".modal-body .tablepb").html( Math.ceil(myPokePriceNPC * 0.3 / 2 / 10*1.9) * 10 );
    $(".modal-body .tablegb").html( Math.ceil(myPokePriceNPC * 1 / 10 / 10*1.9) * 10 );
@@ -9728,7 +9728,7 @@ if (myPokeMapas !== 'no') {
    $(".modal-body .tablebe4").html( Math.ceil(myPokePriceNPC * 1.05 / 90 / 10) * 10 );
   }
   
-  if (myPokeNome === "Elekid" || myPokeNome === "Magby") {
+  if (myPokeNome === "Elekid" || myPokeNome === "Magby" || myPokeNome === "Smoochum") {
 	  
    $(".modal-body .tablepb").html( Math.ceil(myPokePriceNPC * 0.3 / 2 / 10*1.9) * 10 );
    $(".modal-body .tablegb").html( Math.ceil(myPokePriceNPC * 1 / 10 / 10*1.9) * 10 );
