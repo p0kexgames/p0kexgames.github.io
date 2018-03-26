@@ -2552,6 +2552,15 @@ ShinysMegasArray = [
    moves:"Swift-100,Iron head-100,Compass slash-100,Metal claw-107,Bullet punch-100,Pursuit-100,X scissor-105,Steel wing-108,Iron defense-104,Evasion-Passiva,", 
    loots:"(1-1)//scizor claw--Raro,(1-25)//piece of steel--80.0%,(1-25)//bug gosme--80.0%,(1-1)//Metal stone--Raro,(1-1)//Cocoon stone--Raro,(1-1)//pot of moss bug--45.0% (90.0%),(1-1)//Scizorite--Raro,", evoStone:"", boost:"", booStone:"", habilidades:""},
    
+  {shiny:"Shiny", nome:"Shuckle",  numero:"213-1",  level:"40",   ball1:"Nenhuma",   ball2:"Nenhuma", 
+   clan1:"Orebound",   clan2:"Naturia",   tipo1:"Pedra",   tipo2:"Inseto", 
+   regiao:"Johto",   geracao:"2",   dificuldade:"Quest", xpcaught:"0", pricenpc:"0",
+   fast:"no", heavy:"no", 
+   preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
+   mapas:'no',  vip: "no", 
+   moves:"Bug bite-40,Wrap-40,Shell attack-40,Struggle bug-48,Safeguard-40,Rest-44,", 
+   loots:"", evoStone:"", boost:"5", booStone:"Cocoon stone", habilidades:"Rock smash, Headbutt"},
+   
   {shiny:"Shiny", nome:"Magcargo",  numero:"219-1",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Volcanic",   clan2:"Orebound",   tipo1:"Fogo",   tipo2:"Pedra", 
    regiao:"Johto",   geracao:"2",   dificuldade:"Caught", xpcaught:"0", pricenpc:"unseleable",
@@ -2771,6 +2780,15 @@ ShinysMegasArray = [
    mapas:'no',  vip: "yes", 
    moves:"Sweet kiss-100,Spark-100,Nuzzle-105,Thunder wrath-112,Split-100,Helping hand-100,Fake tears-106,Wish-100,Flash-100,Afraid of needles-Passiva,", 
    loots:"no", evoStone:"", boost:"3", booStone:"Thunder stone", habilidades:""},
+   
+  {shiny:"Mega", nome:"Camerupt",  numero:"323-1",  level:"80",   ball1:"Nenhuma",   ball2:"Nenhuma", 
+   clan1:"Volcanic",   clan2:"Orebound",   tipo1:"Fogo",   tipo2:"Terra", 
+   regiao:"Hoen",   geracao:"3",   dificuldade:"Drop", xpcaught:"0", pricenpc:"0",
+   fast:"no", heavy:"no", 
+   preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
+   mapas:'no',  vip: "yes", 
+   moves:"Volcano shot-80,Body slam-84,Mud bomb-80,Bulldoze-80,Eruption-80,Earthquake-90,Fissure-90,Solar beam-80,Scary face-82,Focus energy-87,Solid rock-Passiva,", 
+   loots:"no", evoStone:"", boost:"", booStone:"", habilidades:"Rock smash, Ride, Headbutt"},
    
   {shiny:"Mega", nome:"Altaria",  numero:"334-1",  level:"80",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Wingeon",   clan2:"Psycraft",   tipo1:"Dragão",   tipo2:"Fada", 
