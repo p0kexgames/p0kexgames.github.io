@@ -1272,6 +1272,18 @@ pokesarray = [
    mapas:'no',  vip: "no", moves:"Sand attack-80,Doubleslap-80,Swift-80,Pursuit-80,Last resort-80,Double hit-82,Fury swipes-80,Agility-80,Double team-82,", loots:"no", evoStone:"", boost:"5", booStone:"Mirror stone", habilidades:"Dig, Rock smash, Headbutt"},
 
    
+  {nome:"Buneary",  numero:427,  level:"30",   ball1:"Nenhuma",   ball2:"Nenhuma",
+   clan1:"Gardestrike",   clan2:"Nenhum",   tipo1:"Normal",   tipo2:"Nenhum", 
+   regiao:"Sinoh",   geracao:"4",   dificuldade:"Eventos", xpcaught:"0", pricenpc:"Unselleable",
+   shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"Lopunny", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"428", nevo2:"no", 
+   mapas:'no',  vip: "no", moves:"Quick attack-30,Charm-30,Dizzy punch-30,Healing wish-32,Double hit-32,Agility-30,Double team-32,", loots:"no", evoStone:"Heart stone (x2)", boost:"10", booStone:"Heart stone", habilidades:"Headbutt"},
+  {nome:"Lopunny",  numero:428,  level:"80",   ball1:"Nenhuma",   ball2:"Nenhuma",
+   clan1:"Gardestrike",   clan2:"Nenhum",   tipo1:"Normal",   tipo2:"Nenhum", 
+   regiao:"Sinoh",   geracao:"4",   dificuldade:"Eventos", xpcaught:"0", pricenpc:"Unselleable",
+   shiny:"no", fast:"yes", heavy:"no", preevo2:"no", preevo1:"Buneary", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"427", nevo1:"no", nevo2:"no", 
+   mapas:'no',  vip: "no", moves:"Charm-80,Dizzy punch-80,Hi jump kick-80,Ice punch-80,Teeter dance-85,Double hit-82,Healing wish-82,Agility-80,Double team-82,", loots:"(1-1)//Easter coin--3.0%,", evoStone:"", boost:"3", booStone:"Heart stone", habilidades:"Dig, Rock smash, Headbutt"},
+
+
   {nome:"Mismagius",  numero:429,  level:"400",   ball1:"Nenhuma",   ball2:"Nenhuma",
    clan1:"Malefic",   clan2:"Nenhum",   tipo1:"Fantasma",   tipo2:"Nenhum", 
    regiao:"Sinoh",   geracao:"4",   dificuldade:"Não capturável", xpcaught:"0", pricenpc:"0",
