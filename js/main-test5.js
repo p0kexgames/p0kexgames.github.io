@@ -2559,7 +2559,7 @@ ShinysMegasArray = [
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
    moves:"Bug bite-40,Wrap-40,Shell attack-40,Struggle bug-48,Safeguard-40,Rest-44,", 
-   loots:"", evoStone:"", boost:"5", booStone:"Cocoon stone", habilidades:"Rock smash, Headbutt"},
+   loots:"no", evoStone:"", boost:"5", booStone:"Cocoon stone", habilidades:"Rock smash, Headbutt"},
    
   {shiny:"Shiny", nome:"Magcargo",  numero:"219-1",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Volcanic",   clan2:"Orebound",   tipo1:"Fogo",   tipo2:"Pedra", 
@@ -11090,18 +11090,26 @@ $('#sectionB').html($('#mySidenav .busca-inner-sidenav').html());
 
 //////// OCULTAR CASO ABRA INSPETOR DE ELEMENTOS
   var currentInnerHtml;
+    var currentInnerHtml2; ///////////
   var element = new Image();
+	var element2 = new Image(); /////////
   var elementWithHiddenContent = document.querySelector("#ourHolder-out");
+	var elementWithHiddenContent2 = document.querySelector(".modal .MBT-tabviewsection.row"); ////
   var innerHtml = elementWithHiddenContent.innerHTML;
+	var innerHtml2 = elementWithHiddenContent2.innerHTML;  //
   element.__defineGetter__("id", function() {
       currentInnerHtml = "Oops! Ocorreu um erro. =)";
-      $('.floatingg').css('display', 'none');
+  });
+  element2.__defineGetter__("id", function() {
+      currentInnerHtml2 = "Oops! Ocorreu um erro. =)";
   });
   setInterval(function() {
       currentInnerHtml = innerHtml;
+      currentInnerHtml2 = innerHtml2;
       console.log(element);
       console.clear();
       elementWithHiddenContent.innerHTML = currentInnerHtml;
+      elementWithHiddenContent2.innerHTML2 = currentInnerHtml2;
   }, 1000);
 
 
