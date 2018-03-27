@@ -8227,7 +8227,7 @@ $(".aviso").html(" ");
        $(".modal").addClass('Quest');
        $(".Quest .ballstable div").html(" ");
        text = "<div class='dificuldade'>";
-        text += "<i class='fa fa-exclamation-circle'></i> Esse Pokemon poderá ser adquirido através de quest.";
+        text += "<i class='fa fa-exclamation-circle'></i> Esse Pokemon poderá ser adquirido através de quest na biblioteca em Shamouti.";
        text += "</div>";
        $(".aviso").append( text );
        $(".aviso").addClass( 'show' );
