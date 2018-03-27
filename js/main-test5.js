@@ -8217,7 +8217,7 @@ $(".aviso").html(" ");
        $(".modal").addClass('Drop');
        $(".Drop .ballstable div").html(" ");
        text = "<div class='dificuldade'>";
-        text += "<i class='fa fa-exclamation-circle'></i> Esse Pokemon poderá ser adquirido por drop da própria mega evolução.";
+        text += "<i class='fa fa-exclamation-circle'></i> Esse Pokemon poderá ser adquirido por drop da própria mega evolução em Orre.";
        text += "</div>";
        $(".aviso").append( text );
        $(".aviso").addClass( 'show' );
