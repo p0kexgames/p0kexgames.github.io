@@ -11066,10 +11066,12 @@ if( text.indexOf( term ) != -1 ) {
  
  
  
-//$("#mySidenav #checkArray").remove();
-//$("#mySidenav #checkArray2").remove();
+$("#mySidenav #checkArray").remove();
+$("#mySidenav #checkArray2").remove();
+	
 $('#sectionB').html($('#mySidenav .busca-inner-sidenav').html());
 
+$("#mySidenav .busca-inner-sidenav").remove();
 //$("#mySidenav").remove();
   
 
