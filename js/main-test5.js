@@ -11054,19 +11054,19 @@ if( text.indexOf( term ) != -1 ) {
    //Função Toggle container classe .trigger
     //$(".pesquisa-sidebar").hide();
     $(".pesquisa-botao").click(function(){
-  $(".pesquisa-sidebar").toggleClass("show-pesquisa-sidebar").slideToggle("slow");
-  $(this).toggleClass("sidebar-aberto");
+	  $(".pesquisa-sidebar").toggleClass("show-pesquisa-sidebar").slideToggle("slow");
+	  $(this).toggleClass("sidebar-aberto");
     });
 
 
  
  
  
-$("#mySidenav #checkArray").remove();
-$("#mySidenav #checkArray2").remove();
+//$("#mySidenav #checkArray").remove();
+//$("#mySidenav #checkArray2").remove();
 $('#sectionB').html($('#mySidenav .busca-inner-sidenav').html());
 
-$("#mySidenav").remove();
+//$("#mySidenav").remove();
   
 
 
@@ -11089,22 +11089,20 @@ $("#mySidenav").remove();
 
 
 //////// OCULTAR CASO ABRA INSPETOR DE ELEMENTOS
-//  var currentInnerHtml;
-//  var element = new Image();
-//  var elementWithHiddenContent = document.querySelector("#Blog1");
-//  var innerHtml = elementWithHiddenContent.innerHTML;
-//  
-//  element.__defineGetter__("id", function() {
-//      currentInnerHtml = "Oops! Ocorreu um erro. Atualize a página";
-//      $('.floatingg').css('display', 'none');
-//  });
-//  
-//  setInterval(function() {
-//      currentInnerHtml = innerHtml;
-//      console.log(element);
-//      console.clear();
-//      elementWithHiddenContent.innerHTML = currentInnerHtml;
-//  }, 1000);
+  var currentInnerHtml;
+  var element = new Image();
+  var elementWithHiddenContent = document.querySelector("#ourHolder-out");
+  var innerHtml = elementWithHiddenContent.innerHTML;
+  element.__defineGetter__("id", function() {
+      currentInnerHtml = "Oops! Ocorreu um erro. =)";
+      $('.floatingg').css('display', 'none');
+  });
+  setInterval(function() {
+      currentInnerHtml = innerHtml;
+      console.log(element);
+      console.clear();
+      elementWithHiddenContent.innerHTML = currentInnerHtml;
+  }, 1000);
 
 
 
