@@ -10695,7 +10695,7 @@ $( ".contact-form-email.contributtion" ).val("contribuicao2@pxgtutor.com");
  $(".semdex").removeClass("active");
  $(".semdex."+name).addClass("active");
  
-//alert (name);
+ alert ("Cuidado ao nos enviar mensagens usando esse canal, pois você está sujeito a suspensão (BANIMENTO) temporária do site, caso faça mal uso do mesmo.");
 }
 
  
