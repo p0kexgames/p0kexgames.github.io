@@ -87,7 +87,7 @@ pokesarray = [
  {nome:"Spearow", numero:21, level:10, ball1:"Pokeball", ball2:"Greatball", clan1:"Wingeon", clan2:"Gardestrike", tipo1:"Voador", tipo2:"Normal", regiao:"Kanto", geracao:"1", dificuldade:"Fácil", xpcaught:"3000", pricenpc:"100",  shiny:"no", fast:"yes", heavy:"no", preevo2:"no", preevo1:"no", evo1:"Fearow", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"22", nevo2:"no", 
  mapas:'no',  vip: "no", moves:"Peck-10,Sand attack-10,Wing attack-12,Drill peck-10,Agility-10,", loots:"(1-1)//red wing--Raro,(1-3)//straw--80%,(1-3)//rubber ball--80%,(1-1)//feather--28.0%,", evoStone:"Feather stone", boost:"20", booStone:"Feather stone", habilidades:""},
  {nome:"Fearow", numero:22, level:50, ball1:"Greatball", ball2:"Superball", clan1:"Wingeon", clan2:"Gardestrike", tipo1:"Voador", tipo2:"Normal", regiao:"Kanto", geracao:"1", dificuldade:"Médio", xpcaught:"50000", pricenpc:"5100",  shiny:"yes", fast:"yes", heavy:"no", preevo2:"no", preevo1:"Spearow", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"21", nevo1:"no", nevo2:"no", 
- mapas:'no',  vip: "no", moves:"Peck-50,Sand attack-50,Drill peck-50,Whirlwind-50,Air cutter-50,Wing attack-52,Aerial ace-50,Agility-50,", loots:"(1-1)//red wing--4.3%,(1-13)//straw--80%,(1-13)//rubber ball--80%,(1-1)//Feather stone--Raro,(1-1)//bird beak--15.1%,(1-1)//feather--15.0%,", evoStone:"", boost:"4", booStone:"Feather stone", habilidades:"Fly"},
+ mapas:'no',  vip: "no", moves:"Peck-50,Sand attack-50,Drill peck-50,Gust-52,Air cutter-50,Wing attack-52,Aerial ace-50,Agility-50,", loots:"(1-1)//red wing--4.3%,(1-13)//straw--80%,(1-13)//rubber ball--80%,(1-1)//Feather stone--Raro,(1-1)//bird beak--15.1%,(1-1)//feather--15.0%,", evoStone:"", boost:"4", booStone:"Feather stone", habilidades:"Fly"},
  
  {nome:"Ekans", numero:23, level:10, ball1:"Pokeball", ball2:"Greatball", clan1:"Malefic", clan2:"Nenhum", tipo1:"Venenoso", tipo2:"Nenhum", regiao:"Kanto", geracao:"1", dificuldade:"Fácil", xpcaught:"3000", pricenpc:"300",  shiny:"no", fast:"yes", heavy:"no", preevo2:"no", preevo1:"no", evo1:"Arbok", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"24", nevo2:"no", 
  mapas:'no',  vip: "no", moves:"Bite-10,Poison fang-10,Gunk shot-12,Acid-15,Fear-18,", loots:"(1-1)//snake tail--1.8%,(1-8)//bottle of poison--80%,(1-1)//tooth--19.5%,", evoStone:"Venom stone", boost:"15", booStone:"Venom stone", habilidades:"Dig, Headbutt"},
@@ -144,7 +144,7 @@ pokesarray = [
  {nome:"Zubat", numero:41, level:10, ball1:"Pokeball", ball2:"Greatball", clan1:"Malefic", clan2:"Wingeon", tipo1:"Venenoso", tipo2:"Voador", regiao:"Kanto", geracao:"1", dificuldade:"Fácil", xpcaught:"3000", pricenpc:"120",  shiny:"yes", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"Golbat", evo2:"Crobat", npreevo2:"no", npreevo1:"no", nevo1:"42", nevo2:"169", 
  mapas:'no',  vip: "no", moves:"Super sonic-10,Bite-10,Poison fang-10,Absorb-12,Toxic-15,Lifesteal-Passiva,", loots:"(1-1)//bat wing--1.8%,(1-4)//bottle of poison--80%,(1-4)//straw--80.0%,(1-1)//tooth--18.0%,", evoStone:"Venom stone", boost:"20", booStone:"Venom stone", habilidades:""},
  {nome:"Golbat", numero:42, level:40, ball1:"Greatball", ball2:"Superball", clan1:"Malefic", clan2:"Wingeon", tipo1:"Venenoso", tipo2:"Voador", regiao:"Kanto", geracao:"1", dificuldade:"Médio", xpcaught:"15000", pricenpc:"3000",  shiny:"yes", fast:"yes", heavy:"no", preevo2:"no", preevo1:"Zubat", evo1:"Crobat", evo2:"no", npreevo2:"no", npreevo1:"41", nevo1:"169", nevo2:"no", 
- mapas:'"top":60,"left":38,"text":"subsolo em shamouti no caminho pro crobat - (FREE)";"top":19,"left":40,"text":"subsolo mt moon - (FREE)";"top":25,"left":48,"text":"subsolo entre saffron e celadon - (FREE)"',  vip: "no", moves:"Super sonic-40,Bite-40,Poison fang-40,Toxic-40,Whirlwind-40,Wing attack-40,Air cutter-44,Lifesteal-Passiva,", loots:"(1-1)//bat wing--4.3%,(1-9)//bottle of poison--80%,(1-9)//straw--80.0%,(1-1)//Venom stone--Raro,(1-1)//tooth--25.5%,", evoStone:"Ancient stone,Venom stone", boost:"8", booStone:"Venom stone", habilidades:""},
+ mapas:'"top":60,"left":38,"text":"subsolo em shamouti no caminho pro crobat - (FREE)";"top":19,"left":40,"text":"subsolo mt moon - (FREE)";"top":25,"left":48,"text":"subsolo entre saffron e celadon - (FREE)"',  vip: "no", moves:"Super sonic-40,Bite-40,Poison fang-40,Toxic-40,Gust-42,Wing attack-40,Air cutter-44,Lifesteal-Passiva,", loots:"(1-1)//bat wing--4.3%,(1-9)//bottle of poison--80%,(1-9)//straw--80.0%,(1-1)//Venom stone--Raro,(1-1)//tooth--25.5%,", evoStone:"Ancient stone,Venom stone", boost:"8", booStone:"Venom stone", habilidades:""},
  
  {nome:"Oddish", numero:43, level:1, ball1:"Pokeball", ball2:"Greatball", clan1:"Naturia", clan2:"Malefic", tipo1:"Grama", tipo2:"Venenoso", regiao:"Kanto", geracao:"1", dificuldade:"Fácil", xpcaught:"500", pricenpc:"5",  shiny:"yes", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"Gloom", evo2:"Vileplume, Bellosson", npreevo2:"no", npreevo1:"no", nevo1:"44", nevo2:"45,182", 
  mapas:'no',  vip: "no", moves:"Absorb-7,Acid-1,Leech seed-1,Sleep powder-9,Stun spore-8,Poison powder-8,Spores reaction-Passiva,Mega drain-Passiva,", loots:"(1-1)//strange flower--Raro,(1-3)//seed--80%,(1-3)//bottle of poison--80.0%,(1-1)//bag of pollem--1.5%,", evoStone:"Leaf stone", boost:"30", booStone:"Leaf stone", habilidades:"Cut"},
@@ -1753,7 +1753,7 @@ ShinysMegasArray = [
    fast:"yes", heavy:"no", 
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
-   moves:"Quick attack-100,Sand attack-100,Whirlwind-100,Drill peck-100,Wing attack-102,Aeroblast-104,Hurricane-110,Agility-100,Roost-105,", 
+   moves:"Quick attack-100,Sand attack-100,Whirlwind-100,Drill peck-100,Aeroblast-104,Hurricane-110,Hyper beam-110,Agility-100,Roost-105,", 
    loots:"(1-1)//feather--50.0%,(1-1)//bird beak--5.0%,(1-1)//Feather stone--Raro,(1-35)//straw--80.0%,(1-1)//Pidgeot doll--Raro,", evoStone:"", boost:"2", booStone:"Feather stone", habilidades:"Fly"},
    
   {shiny:"Shiny", nome:"Rattata",  numero:"19-1",  level:"10",   ball1:"Nenhuma",   ball2:"Nenhuma", 
@@ -1823,7 +1823,7 @@ ShinysMegasArray = [
    fast:"yes", heavy:"no", 
    preevo2:"no", preevo1:"Shiny Zubat", evo1:"Shiny Crobat", evo2:"no", npreevo2:"no", npreevo1:"41-1", nevo1:"169-1", nevo2:"no", 
    mapas:'no',  vip: "no", 
-   moves:"Super sonic-60,Bite-60,Poison fang-60,Toxic-60,Whirlwind-60,Wing attack-60,Air cutter-68,Cross poison-64,Venom gale-75,Lifesteal-Passiva,", 
+   moves:"Super sonic-60,Bite-60,Poison fang-60,Toxic-60,Gust-62,Wing attack-60,Air cutter-68,Cross poison-64,Venom gale-75,Lifesteal-Passiva,", 
    loots:"(1-1)//bat wing--25.0%,(1-1)//tooth--25.0%,(1-1)//Venom stone--Raro,(1-4)//bottle of poison--80.0%,", evoStone:"Ancient stone (x2)", boost:"4", booStone:"Venom stone", habilidades:""},
    
   {shiny:"Shiny", nome:"Oddish",  numero:"43-1",  level:"10",   ball1:"Nenhuma",   ball2:"Nenhuma", 
@@ -1874,7 +1874,7 @@ ShinysMegasArray = [
    fast:"no", heavy:"no", 
    preevo2:"no", preevo1:"Shiny Venonat", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"48-1", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
-   moves:"Super sonic-100,Leech life-105,Silver wind-100,Confusion-106,Psychic-100,Signal beam-100,Whirlwind-100,Bug buzz-106,Sleep powder-100,Poison powder-100,", 
+   moves:"Super sonic-100,Leech life-105,Silver wind-100,Confusion-100,Psychic-100,Signal beam-100,Fust-102,Bug buzz-106,Sleep powder-100,Poison powder-100,", 
    loots:"(1-1)//tooth--15.0%,(1-1)//bug venom--10.0%,(1-1)//Cocoon stone--Raro,(1-50)//seed--80.0%,", evoStone:"", boost:"2", booStone:"Venom stone", habilidades:"Fly"},
    
   {shiny:"Champion", nome:"Primeape",  numero:"57-1",  level:"",   ball1:"Nenhuma",   ball2:"Nenhuma", 
@@ -2455,7 +2455,7 @@ ShinysMegasArray = [
    fast:"no", heavy:"no", 
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "yes", 
-   moves:"String shot-150,Bug bite-150,Poison sting-150,Fury swipes-150,X scissor-160,Poison jab-150,Pin missile-153,Spider web-160,Psychic-157,Web rain-160,", 
+   moves:"String shot-150,Bug bite-150,Poison sting-150,Fury swipes-150,X scissor-160,Psychic-157,Pin missile-153,Spider web-150,Signal beam-150,Web rain-160,", 
    loots:"(1-1)//spider leg--100.0%,(1-40)//bug gosme--100.0%,(1-40)//bottle of poison--100.0%,(1-1)//Cocoon stone--8.0%,(1-1)//pot of moss bug--100.0%,", evoStone:"", boost:"2", booStone:"Cocoon stone", habilidades:""},
    
   {shiny:"Shiny", nome:"Crobat",  numero:"169-1",  level:"80",   ball1:"Nenhuma",   ball2:"Nenhuma", 
@@ -2508,7 +2508,7 @@ ShinysMegasArray = [
    fast:"no", heavy:"no", 
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "no", 
-   moves:"Mud shot-150,Doubleslap-150,Bubblebeam-150,Water gun-150,Hyper voice-150,Whirlpool-152,Tongue hook-150,Tongue grap-158,Hydropump-160,Hypnosis-150,", 
+   moves:"Mud shot-150,Doubleslap-150,Bubblebeam-150,Water gun-150,Hyper voice-150,Whirlpool-152,Tongue hook-155,Tongue grap-158,Hydropump-160,Hypnosis-150,", 
    loots:"(1-1)//strange thing--100.0%,(1-70)//water gem--100.0%,(1-1)//Water stone--8.0%,(1-1)//water pendant--100.0%,", evoStone:"", boost:"2", booStone:"Water stone", habilidades:"Surf, Headbutt"},
    
   {shiny:"Shiny", nome:"Espeon",  numero:"196-1",  level:"150",   ball1:"Nenhuma",   ball2:"Nenhuma", 
@@ -2817,7 +2817,7 @@ ShinysMegasArray = [
    fast:"no", heavy:"no", 
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "yes", 
-   moves:"Shadow ball-100,Ember-100,Flamethrower-100,Fireball-100,Eruption-100,Fire blast-100,Magma storm-110,Solar beam-100,Forecast-Passiva,Sacred breath-Passiva,", 
+   moves:"Shadow ball-100,Ember-100,Flamethrower-100,Fireball-100,Eruption-100,Fire blast-100,Magma storm-110,Solar beam-100,Forecast-Passiva,", 
    loots:"(1-99)//essence of fire--80.0%,(1-99)//snowball--80.0%,(1-99)//water gem--80.0%,(1-1)//pot of lava--80.0%,(1-1)//ice orb--80.0%,(1-1)//water pendant--80.0%,(1-1)//Water stone--1.3%,(1-1)//Fire stone--1.3%,(1-1)//Ice stone--1.3%,", evoStone:"", boost:"50", booStone:"Mystic star", habilidades:""},
   {shiny:"Water", nome:"Castform",  numero:"351-2",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Volcanic",   clan2:"Nenhum",   tipo1:"Água",   tipo2:"Nenhum", 
@@ -2833,7 +2833,7 @@ ShinysMegasArray = [
    fast:"no", heavy:"no", 
    preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "yes", 
-   moves:"Feather dance-100,Ice shards-100,Ice beam-100,Icy wind-100,Powder snow-100,Aurora beam-104,Blizzard-106,Solar beam-100,Forecast-Passiva,", 
+   moves:"Feather dance-100,Ice shards-100,Ice beam-100,Icy wind-100,Powder snow-100,Aurora beam-104,Blizzard-106,Solar beam-100,Frozen armor-100,Forecast-Passiva,", 
    loots:"(1-99)//essence of fire--80.0%,(1-99)//snowball--80.0%,(1-99)//water gem--80.0%,(1-1)//pot of lava--80.0%,(1-1)//ice orb--80.0%,(1-1)//water pendant--80.0%,(1-1)//Water stone--1.3%,(1-1)//Fire stone--1.3%,(1-1)//Ice stone--1.3%,", evoStone:"", boost:"", booStone:"", habilidades:""},
  
   {shiny:"Shiny", nome:"Bronzong",  numero:"437-1",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma", 
@@ -3347,7 +3347,7 @@ movesArray = [
    target: "yes", nevermiss: "", paralyze: "", poison: "", self: "", slow: "", stun: "", passive: "", 
    healing: "", silence: "", freeze: "", knockback: "", },
  
- { move: "Whirlwind", type: "Voador", desc: "causa dano em uma área frontal, sendo possível acertar mais de uma vez o mesmo oponente.", 
+ { move: "Whirlwind", type: "Normal", desc: "causa dano em uma área frontal, sendo possível acertar mais de uma vez o mesmo oponente.", 
    aoe: "yes", blind: "", buff: "", burn: "", confusion: "", damage: "yes", debuff: "", lifesteal: "", 
    target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "", stun: "", passive: "", 
    healing: "", silence: "", freeze: "", knockback: "", },
