@@ -9812,6 +9812,20 @@ if (myPokeMapas !== 'no') {
    $(".modal-body .tablebe4").html( Math.ceil(myPokePriceNPC * 1.295 / 90 / 10) * 10 );
   }
   
+  
+  if (myPokeNome === "Tentacruel" || myPokeNome === "Exeggutor") {
+	  
+   $(".modal-body .tableub").html( Math.ceil(myPokePriceNPC * 1.5  / 90*1.5) );
+   
+   $(".modal-body .tablebe1").html( Math.ceil(myPokePriceNPC * 1.05 / 90*1.5) );
+   $(".modal-body .tablebe2").html( Math.ceil(myPokePriceNPC * 1.05 / 90*1.5) );
+   $(".modal-body .tablebe3").html( Math.ceil(myPokePriceNPC * 1.05 / 90*1.5) );
+   $(".modal-body .tablebe4").html( Math.ceil(myPokePriceNPC * 1.05 / 90*1.5) );
+  
+
+  }
+
+  
 if (myPokeLevel <= 30) {
  if (myPokePriceNPC <= 10000) {
    $('.tablepb').removeClass('hide');
