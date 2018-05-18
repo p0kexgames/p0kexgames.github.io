@@ -6543,7 +6543,7 @@ function criarTablePrincipal() {
 
   }
    
-  if (myPokeNome === "Bagon" || myPokeNome === "Lanturn" || myPokeNome === "Pinsir") {
+  if (myPokeNome === "Bagon" || myPokeNome === "Lanturn") {
   
    var pbMedia = Math.ceil(myPokePriceNPC * 0.3 / 2*2) ;
    var gbMedia = Math.ceil(myPokePriceNPC * 1 / 10*2);
@@ -6577,9 +6577,13 @@ function criarTablePrincipal() {
 
   }
   if (myPokeNome === "Pinsir") {
-  
    var ubMedia = "2000";
    var beMedia = "1400";
+  }
+	  
+  if (myPokeNome === "Camerupt") {
+   var ubMedia = "300";
+   var beMedia = "210";
   }
   
   
@@ -7239,7 +7243,7 @@ function criartableShinys() {
 
   }
   
-  if (myPokeNome === "Bagon" || myPokeNome === "Lanturn" || myPokeNome === "Pinsir") {
+  if (myPokeNome === "Bagon" || myPokeNome === "Lanturn") {
   
    var pbMedia = Math.ceil(myPokePriceNPC * 0.3 / 2*2) ;
    var gbMedia = Math.ceil(myPokePriceNPC * 1 / 10*2);
@@ -7277,6 +7281,11 @@ function criartableShinys() {
    var ubMedia = "2000";
    var beMedia = "1400";
 
+  }
+	  
+  if (myPokeNome === "Camerupt") {
+   var ubMedia = "300";
+   var beMedia = "210";
   }
   
   
@@ -8119,6 +8128,14 @@ $(".aviso").html(" ");
    $(".modal-body .tablebe3").html( "1400" );
    $(".modal-body .tablebe4").html( "1400" );
 
+  }
+	  
+  if (myPokeNome === "Camerupt") {
+   $(".modal-body .tableub").html( "300" );
+   $(".modal-body .tablebe1").html( "210" );
+   $(".modal-body .tablebe2").html( "210" );
+   $(".modal-body .tablebe3").html( "210" );
+   $(".modal-body .tablebe4").html( "210" );
   }
   
 if (myPokeLevel <= 30) {
@@ -9820,7 +9837,7 @@ if (myPokeMapas !== 'no') {
    $(".modal-body .tablebe4").html( Math.ceil(myPokePriceNPC * 1.05 / 90 / 10*1.9) * 10 );
 
   }
-  if (myPokeNome === "Bagon" || myPokeNome === "Lanturn" || myPokeNome === "Pinsir") {
+  if (myPokeNome === "Bagon" || myPokeNome === "Lanturn") {
    $(".modal-body .tablepb").html( Math.ceil(myPokePriceNPC * 0.3 / 2 / 10*2) * 10 );
    $(".modal-body .tablegb").html( Math.ceil(myPokePriceNPC * 1 / 10 / 10*2) * 10 );
    $(".modal-body .tablesb").html( Math.ceil(myPokePriceNPC * 1 / 28 / 10*2) * 10 );
