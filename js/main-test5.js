@@ -570,7 +570,7 @@ pokesarray = [
  {nome:"Unown",    numero:201,  level:10,   ball1:"Ultraball",   ball2:"Nenhuma",   clan1:"Psycraft",   clan2:"Nenhum",   tipo1:"Psiquico",   tipo2:"Nenhum",   regiao:"Johto",   geracao:"2",   dificuldade:"Sem sistema", xpcaught:"200000", pricenpc:"unseleable",  shiny:"yes", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
  mapas:'no',  vip: "no", moves:"Invisible-10,Hidden power-15,Levitate-Passiva,", loots:"no", evoStone:"", boost:"20", booStone:"Enigma stone", habilidades:"Blink"},
 
- {nome:"Wobbuffet",   numero:202,  level:100,   ball1:"Ultraball",   ball2:"Nenhuma",   clan1:"Psycraft",   clan2:"Nenhum",   tipo1:"Psiquico",   tipo2:"Nenhum",   regiao:"Johto",   geracao:"2",   dificuldade:"Sem sistema", xpcaught:"1000000", pricenpc:"200000",  shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
+ {nome:"Wobbuffet",   numero:202,  level:100,   ball1:"Ultraball",   ball2:"Nenhuma",   clan1:"Psycraft",   clan2:"Nenhum",   tipo1:"Psiquico",   tipo2:"Nenhum",   regiao:"Johto",   geracao:"2",   dificuldade:"Sem sistema", xpcaught:"1000000", pricenpc:"200000",  shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"Wynaut", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"360", nevo1:"no", nevo2:"no", 
  mapas:'"top":87,"left":31,"text":"Deserto Mandarin - (FREE)"',  vip: "no", moves:"Destiny bond-100,Safeguard-110,Mirror coat-Passiva,Stunning confusion-Passiva,", loots:"(1-1)//strange tail--4.3%,(1-40)//enchanted gem--80.0%,(1-1)//Enigma stone--Raro,(1-1)//future orb--34.0%,", evoStone:"", boost:"3", booStone:"Enigma stone", habilidades:"Headbutt"},
 
  {nome:"Girafarig",   numero:203,  level:80,   ball1:"Ultraball",   ball2:"Nenhuma",   clan1:"Psycraft",   clan2:"Gardestrike",   tipo1:"Psiquico",   tipo2:"Normal",   regiao:"Johto",   geracao:"2",   dificuldade:"Difícil", xpcaught:"500000", pricenpc:"120000",  shiny:"no", fast:"yes", heavy:"no", preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
@@ -1146,8 +1146,8 @@ pokesarray = [
 
   {nome:"Wynaut",   numero:360,  level:70,   ball1:"Ultraball",   ball2:"Nenhuma", 
    clan1:"Psycraft",   clan2:"Nenhum",   tipo1:"Psiquico",   tipo2:"Nenhum", 
-   regiao:"Hoen",   geracao:"3",   dificuldade:"Dimensional zone", xpcaught:"", pricenpc:"",
-   shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
+   regiao:"Hoen",   geracao:"3",   dificuldade:"Dimensional zone", xpcaught:"0", pricenpc:"0",
+   shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"Woobuffet", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"202", nevo2:"no", 
    mapas:'no',  vip: "no", moves:"no", loots:"no", evoStone:"", boost:"", booStone:"", habilidades:""},
 
   {nome:"Snorunt",  numero:361,  level:30,   ball1:"Pokeball",   ball2:"Greatball", 
@@ -6576,6 +6576,11 @@ function criarTablePrincipal() {
    //$(".modal-body .tablebe1").html( Math.ceil(myPokePriceNPC * 1.295 / 90 / 10) * 10 );
 
   }
+  if (myPokeNome === "Pinsir") {
+  
+   var ubMedia = "2000";
+   var beMedia = "1400";
+  }
   
   
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -7264,6 +7269,13 @@ function criartableShinys() {
 
    //$(".modal-body .tableub").html( Math.ceil(myPokePriceNPC * 1.85  / 90 / 10) * 10 );
    //$(".modal-body .tablebe1").html( Math.ceil(myPokePriceNPC * 1.295 / 90 / 10) * 10 );
+
+  }
+
+  if (myPokeNome === "Pinsir") {
+  
+   var ubMedia = "2000";
+   var beMedia = "1400";
 
   }
   
@@ -8073,7 +8085,7 @@ $(".aviso").html(" ");
 
   }
 	 
-  if (myPokeNome === "Bagon" || myPokeNome === "Lanturn" || myPokeNome === "Pinsir") {
+  if (myPokeNome === "Bagon" || myPokeNome === "Lanturn") {
    $(".modal-body .tablepb").html( Math.ceil(myPokePriceNPC * 0.3 / 2 / 10*2) * 10 );
    $(".modal-body .tablegb").html( Math.ceil(myPokePriceNPC * 1 / 10 / 10*2) * 10 );
    $(".modal-body .tablesb").html( Math.ceil(myPokePriceNPC * 1 / 28 / 10*2) * 10 );
@@ -8096,6 +8108,16 @@ $(".aviso").html(" ");
    $(".modal-body .tablebe2").html( Math.ceil(myPokePriceNPC * 1.05 / 90 / 10*1.5) * 10 );
    $(".modal-body .tablebe3").html( Math.ceil(myPokePriceNPC * 1.05 / 90 / 10*1.5) * 10 );
    $(".modal-body .tablebe4").html( Math.ceil(myPokePriceNPC * 1.05 / 90 / 10*1.5) * 10 );
+
+  }
+  
+  if (myPokeNome === "Pinsir") {
+   $(".modal-body .tableub").html( "2000" );
+   
+   $(".modal-body .tablebe1").html( "1400" );
+   $(".modal-body .tablebe2").html( "1400" );
+   $(".modal-body .tablebe3").html( "1400" );
+   $(".modal-body .tablebe4").html( "1400" );
 
   }
   
