@@ -238,7 +238,7 @@ pokesarray = [
  {nome:"Golem", numero:76, level:70, ball1:"Superball", ball2:"Ultraball", clan1:"Orebound", clan2:"Nenhum", tipo1:"Pedra", tipo2:"Terra", regiao:"Kanto", geracao:"1", dificuldade:"Difícil", xpcaught:"100000", pricenpc:"15000",  shiny:"yes", fast:"no", heavy:"yes", preevo2:"Geodude", preevo1:"Graveler", evo1:"no", evo2:"no", npreevo2:"74", npreevo1:"75", nevo1:"no", nevo2:"no", 
  mapas:'"top":21,"left":59,"text":"Rock tunnel - terceiro andar (FREE) e quarto andar (VIP)";"top":7,"left":16,"text":"Outland East - Saída sul (VIP)"',  vip: "no", moves:"Rock throw-70,Rock slide-70,Stone edge-70,Earth power-70,Falling rocks-75,Harden-70,Rollout-70,Selfdestruction-75,", loots:"(1-1)//strange rock--4.3% (46.8%),(1-18)//small stone--80%,(1-18)//earth ball--80%,(1-1)//Rock stone--Raro,(1-1)//Earth stone--Raro,(1-1)//stone orb--31.0% (62.0%),", evoStone:"", boost:"4", booStone:"Rock stone", habilidades:"Dig, Rock Smash, Headbutt"},
  
- {nome:"Ponyta", numero:77, level:20, ball1:"Pokeball", ball2:"Greatball", clan1:"Volcanic", clan2:"Nenhum", tipo1:"Fogo", tipo2:"Nenhum", regiao:"Kanto", geracao:"1", dificuldade:"Fácil", xpcaught:"10000", pricenpc:"1500",  shiny:"no", fast:"yes", heavy:"no", preevo2:"no", preevo1:"no", evo1:"Rapidash", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"78", nevo2:"no", 
+ {nome:"Ponyta", numero:77, level:20, ball1:"Pokeball", ball2:"Greatball", clan1:"Volcanic", clan2:"Nenhum", tipo1:"Fogo", tipo2:"Nenhum", regiao:"Kanto", geracao:"1", dificuldade:"Fácil", xpcaught:"10000", pricenpc:"1500",  shiny:"yes", fast:"yes", heavy:"no", preevo2:"no", preevo1:"no", evo1:"Rapidash", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"78", nevo2:"no", 
  mapas:'no',  vip: "no", moves:"Quick attack-20,Ember-20,Flamethrower-26,Fireball-23,Stomp-28,", loots:"(1-1)//fire horse foot--1.3%,(1-10)//essence of fire--80.0%,(1-1)//pot of lava--16.0%,", evoStone:"Fire stone (x2)", boost:"10", booStone:"Fire stone", habilidades:"Ride, Headbutt"},
  {nome:"Rapidash", numero:78, level:100, ball1:"Ultraball", ball2:"Nenhuma", clan1:"Volcanic", clan2:"Nenhum", tipo1:"Fogo", tipo2:"Nenhum", regiao:"Kanto", geracao:"1", dificuldade:"Difícil", xpcaught:"50000", pricenpc:"12500",  shiny:"no", fast:"yes", heavy:"no", preevo2:"no", preevo1:"Ponyta", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"77", nevo1:"no", nevo2:"no", 
  mapas:'no',  vip: "no", moves:"Lightning horn-100,Ember-100,Flamethrower-106,Incinerate-100,Flare blitz-110,Wild charge-105,Tail whip-100,Morning sun-100,Blue flames-110,", loots:"(1-1)//fire horse foot--83%,(1-25)//essence of fire--80.0%,(1-1)//Fire stone--Raro,(1-1)//pot of lava--25.0%,", evoStone:"", boost:"3", booStone:"Fire stone", habilidades:"Ride, Headbutt"},
@@ -1144,6 +1144,12 @@ pokesarray = [
    shiny:"no", fast:"yes", heavy:"no", preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "yes", moves:"Quick attack-100,Shadowave-100,Pursuit-100,Dark pulse-100,Night slash-100,Sucker punch-103,Razor wind-108,Assurance-108,Swords dance-108,Taunt-100,Justified-Passiva,", loots:"(1-1)//dark moon--Raro,(1-43)//dark gem--80.0% (100.0%),(1-1)//Darkness stone--Raro,(1-1)//Ancient stone--Raro,", evoStone:"", boost:"30", booStone:"Ancient stone", habilidades:"Rock smash, Dig, Headbutt, Cut, Ride"},
 
+  {nome:"Wynaut",   numero:360,  level:70,   ball1:"Ultraball",   ball2:"Nenhuma", 
+   clan1:"Psycraft",   clan2:"Nenhum",   tipo1:"Psiquico",   tipo2:"Nenhum", 
+   regiao:"Hoen",   geracao:"3",   dificuldade:"Dimensional zone", xpcaught:"", pricenpc:"",
+   shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
+   mapas:'no',  vip: "no", moves:"no", loots:"no", evoStone:"", boost:"", booStone:"", habilidades:""},
+
   {nome:"Snorunt",  numero:361,  level:30,   ball1:"Pokeball",   ball2:"Greatball", 
    clan1:"Seavell",   clan2:"Nenhum",   tipo1:"Gelo",   tipo2:"Nenhum", 
    regiao:"Hoen",   geracao:"3",   dificuldade:"Fácil", xpcaught:"10000", pricenpc:"3500",
@@ -1970,6 +1976,15 @@ ShinysMegasArray = [
    mapas:'no',  vip: "no", 
    moves:"Rock throw-120,Rock slide-120,Stone edge-120,Rock blast-120,Rock wrecker-125,Falling rocks-120,Harden-120,Rollout-120,Explosion-120,", 
    loots:"no", evoStone:"", boost:"2", booStone:"Rock stone", habilidades:"Dig, Rock smash, Headbutt"},
+	
+  {shiny:"Shiny", nome:"Ponyta",  numero:"77-1",  level:"60",   ball1:"Nenhuma",   ball2:"Nenhuma", 
+   clan1:"Volcanic",   clan2:"Nenhum",   tipo1:"Fogo",   tipo2:"", 
+   regiao:"Kanto",   geracao:"1",   dificuldade:"Dimensional zone", xpcaught:"0", pricenpc:"Unselleable",
+   fast:"yes", heavy:"no", 
+   preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
+   mapas:'no',  vip: "no", 
+   moves:"Quick attack-60,Ember-60,Flamethrower-66,Incinerate-60,Flare blitz-70,Hypnosis-60,Stomp-68,Morning sun-60,", 
+   loots:"no", evoStone:"", boost:"7", booStone:"Mirror stone", habilidades:"Ride, Headbutt"},
    
   {shiny:"Mega", nome:"Slowbro",  numero:"80-1",  level:"80",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Seavell",   clan2:"Psycraft",   tipo1:"Água",   tipo2:"Psiquico", 
