@@ -1148,7 +1148,7 @@ pokesarray = [
    clan1:"Psycraft",   clan2:"Nenhum",   tipo1:"Psiquico",   tipo2:"Nenhum", 
    regiao:"Hoen",   geracao:"3",   dificuldade:"Dimensional zone", xpcaught:"0", pricenpc:"0",
    shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"Woobuffet", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"202", nevo2:"no", 
-   mapas:'no',  vip: "no", moves:"no", loots:"no", evoStone:"", boost:"", booStone:"", habilidades:""},
+   mapas:'no',  vip: "no", moves:"Safeguard-80,Stunning confusion-Passiva,", loots:"no", evoStone:"Ancient stone (x2)", boost:"7", booStone:"Mirror stone", habilidades:"Headbutt, Blink"},
 
   {nome:"Snorunt",  numero:361,  level:30,   ball1:"Pokeball",   ball2:"Greatball", 
    clan1:"Seavell",   clan2:"Nenhum",   tipo1:"Gelo",   tipo2:"Nenhum", 
