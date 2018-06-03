@@ -9878,6 +9878,19 @@ if (myPokeMapas !== 'no') {
   
 
   }
+  if (myPokeNome === "Pinsir") {
+	  
+   $(".modal-body .tableub").html( "2000" );
+   
+   $(".modal-body .tablebe1").html( "1400" );
+   $(".modal-body .tablebe2").html( "1400" );
+   $(".modal-body .tablebe3").html( "1400" );
+   $(".modal-body .tablebe4").html( "1400" );
+  
+
+  }
+	 
+	 
 
   
 if (myPokeLevel <= 30) {
