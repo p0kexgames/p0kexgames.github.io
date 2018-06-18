@@ -6668,7 +6668,7 @@ function criarTablePrincipal() {
         } else {
       		text += myPokeNum;
         }
-      text += "" + myPokeNum + "";
+	  
     text += "</span>";
 	  
 	  
