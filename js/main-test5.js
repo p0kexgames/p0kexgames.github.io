@@ -6663,7 +6663,7 @@ function criarTablePrincipal() {
 	  
         if ( myPokeNum < 10 ) {
       		text += "00" + myPokeNum;
-        } else if (myPokeNum > 9 && myPokeNum0 < 100) {
+        } else if (myPokeNum > 9 && myPokeNum < 100) {
       		text += "0" + myPokeNum;
         } else {
       		text += myPokeNum;
