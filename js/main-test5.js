@@ -8941,12 +8941,6 @@ if (myPokeXpCaught != '0') {
     $(".evos").attr('class', 'evos');
     $(".evos").addClass("col-xs-4 col-sm-4 col-md-4 col-lg-4");
  }
-  var ubM = Math.ceil(myPokePriceNPC / 60 / 10) * 10;
-  var beM = Math.ceil(ubM * 0.3 / 10) * 10;
-  var beMF = ubM-beM;
-   //$(".modal-body .tableub").html( Math.ceil(myPokePriceNPC * 1.85  / 90 / 10) * 10 );
-alert("Ub: "+ubM);
-alert("Be: "+ beMF);
 
    loadAPI();
  });
