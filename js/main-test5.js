@@ -6659,7 +6659,19 @@ function criarTablePrincipal() {
     text += "col-xs-4 col-sm-4 col-md-3 col-lg-3 hand' data-original-title='Ver informações sobre " + myPokeNome + "' data-placement='top'>";
    text += "<div class='iitem-inner'>";
    text += "<div class='id col-xs-12 col-sm-12 col-md-12 col-lg-12'>";
-    text += "<span class='number-prefix col-xs-12 col-sm-12 col-md-4 col-lg-4'>" + myPokeNum + "</span>";
+    text += "<span class='number-prefix col-xs-12 col-sm-12 col-md-4 col-lg-4'>";
+	  
+        if ( myPokeNum < 10 ) {
+      		text += "00" + myPokeNum;
+        } else if (myPokeNum > 9 && myPokeNum0 < 100) {
+      		text += "0" + myPokeNum;
+        } else {
+      		text += myPokeNum;
+        }
+      text += "" + myPokeNum + "";
+    text += "</span>";
+	  
+	  
     text += "<h5 class='col-xs-12 col-sm-12 col-md-8 col-lg-8'>" + myPokeNome + "</h5>";
    text += "</div>";
    text += "<div class='pokedex-capa figure col-xs-12 col-sm-12 col-md-12 col-lg-12'>";
