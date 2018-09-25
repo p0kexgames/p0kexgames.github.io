@@ -91,7 +91,7 @@ pokesarray = [
  
  {nome:"Ekans", numero:23, level:10, ball1:"Pokeball", ball2:"Greatball", clan1:"Malefic", clan2:"Nenhum", tipo1:"Venenoso", tipo2:"Nenhum", regiao:"Kanto", geracao:"1", dificuldade:"Fácil", xpcaught:"3000", pricenpc:"300",  shiny:"no", fast:"yes", heavy:"no", preevo2:"no", preevo1:"no", evo1:"Arbok", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"24", nevo2:"no", 
  mapas:'no',  vip: "no", moves:"Bite-10,Poison fang-10,Gunk shot-12,Acid-15,Fear-18,", loots:"(1-1)//snake tail--1.8%,(1-8)//bottle of poison--80%,(1-1)//tooth--19.5%,", evoStone:"Venom stone", boost:"15", booStone:"Venom stone", habilidades:"Dig, Headbutt"},
- {nome:"Arbok", numero:24, level:40, ball1:"Greatball", ball2:"Superball", clan1:"Malefic", clan2:"Nenhum", tipo1:"Venenoso", tipo2:"Nenhum", regiao:"Kanto", geracao:"1", dificuldade:"Médio", xpcaught:"15000", pricenpc:"3000",  shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"Ekans", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"23", nevo1:"no", nevo2:"no", 
+ {nome:"Arbok", numero:24, level:40, ball1:"Greatball", ball2:"Superball", clan1:"Malefic", clan2:"Nenhum", tipo1:"Venenoso", tipo2:"Nenhum", regiao:"Kanto", geracao:"1", dificuldade:"Médio", xpcaught:"15000", pricenpc:"3000",  shiny:"yes", fast:"no", heavy:"no", preevo2:"no", preevo1:"Ekans", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"23", nevo1:"no", nevo2:"no", 
  mapas:'no',  vip: "no", moves:"Bite-40,Poison fang-40,Gunk shot-40,Wrap-40,Pin missile-43,Acid-40,Iron tail-45,Poison jab-40,", loots:"(1-1)//snake tail--4.3%,(1-18)//bottle of poison--80%,(1-1)//Venom stone--Raro,(1-1)//tooth--25.5%,", evoStone:"", boost:"8", booStone:"Venom stone", habilidades:"Dig, Headbutt"},
  
  {nome:"Pikachu", numero:25, level:50, ball1:"Greatball", ball2:"Superball", clan1:"Raibolt", clan2:"Nenhum", tipo1:"Elétrico", tipo2:"Nenhum", regiao:"Kanto", geracao:"1", dificuldade:"Médio", xpcaught:"15000", pricenpc:"8000",  shiny:"no", fast:"yes", heavy:"no", preevo2:"no", preevo1:"Pichu", evo1:"Raichu", evo2:"no", npreevo2:"no", npreevo1:"172", nevo1:"26", nevo2:"no", 
@@ -1787,6 +1787,15 @@ ShinysMegasArray = [
    mapas:'no',  vip: "no", 
    moves:"Peck-120,Feather dance-120,Drill peck-120,Air cutter-120,Sky attack-130,Air vortex-120,Aerial ace-120,Agility-120,", 
    loots:"no", evoStone:"", boost:"2", booStone:"Feather stone", habilidades:"Fly"},
+	
+  {shiny:"Shiny", nome:"Arbok",  numero:"24-1",  level:"80",   ball1:"Nenhuma",   ball2:"Nenhuma", 
+   clan1:"Malefic",   clan2:"Nenhum",   tipo1:"Venenoso",   tipo2:"Nenhum", 
+   regiao:"Kanto",   geracao:"1",   dificuldade:"Caught", xpcaught:"0", pricenpc:"unseleable",
+   fast:"no", heavy:"no", 
+   preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
+   mapas:'no',  vip: "no", 
+   moves:"Bite-80,Fire fang-80,Poison fang-80,Poison bomb-80,Gastro acid-82,Gunk shot-80,Sludge wave-80,Intimidate-86,Scary face-84,", 
+   loots:"(1-1)//snake tail--4.3%,(1-18)//bottle of poison--80.0%,(1-1)//Venom stone--Raro,(1-1)//tooth--25.5%,", evoStone:"", boost:"3", booStone:"Feather stone", habilidades:"Fly"},
   
   {shiny:"Shiny", nome:"Raichu",  numero:"26-1",  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Raibolt",   clan2:"Nenhum",   tipo1:"Elétrico",   tipo2:"Nenhum", 
