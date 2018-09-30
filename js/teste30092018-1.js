@@ -6968,7 +6968,7 @@ $("#sectionA #accordion").prepend( opt );
      len = text.length,               
      result = [];  
      for( i=0; i<len; i++ ) {          
-			$("body").prepend( text[0] );
+			$("style.opt2").append( "ul.loots li."+text[0].replace(/[ ]/g,'%20')+" { background: url(https://p0kexgames.github.io/images/"+text[0].replace(/[ ]/g,'%20')+".png) no-repeat scroll 0 4px transparent; }" );
      }
      
      
