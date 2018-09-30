@@ -6951,9 +6951,8 @@ var semDex2 = "<div onclick='enviarcontribuicao()' class='semdex hand " +myPokeN
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-     var loots = myPokeLoots.trim().split(','),
-     var tamanho = loots.length,    
-     for( i=0; i<tamanho; i++ ) {          
+     var loots = myPokeLoots.trim().split(',');    
+     for( var ff=0; ff<loots.length; ff++ ) {          
 			$("style.opt2").append( "ul.loots li."+loots[0].replace(/[ ]/g,'%20')+" { background: url(https://p0kexgames.github.io/images/"+loots[0].replace(/[ ]/g,'%20')+".png) no-repeat scroll 0 4px transparent; }" );
      }
      
