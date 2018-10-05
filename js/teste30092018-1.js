@@ -6513,6 +6513,18 @@ function criarTablePrincipal() {
    
    var myPokeLoots = pokesarray[i].loots;
   
+	  
+	  
+	  
+	  
+     var loots3 = myPokeLoots.trim().split('//');    
+     for( var j=0; j<loots3.length; j++ ) {   
+  		$("body").append( "ul.loots li."+loots3[1].replace(/[ ]/g,'%20')+" { background: url(https://p0kexgames.github.io/images/"+loots3[1].replace(/[ ]/g,'%20')+".png) no-repeat scroll 0 4px transparent; }<br/>" );
+     }
+
+	  
+	  
+	  
     
     if (myPokeDificuldade != "Sem sistema" && myPokeDificuldade != "Dimensional zone") {
       if (myPokePriceNPC <= 3000) {
@@ -6948,23 +6960,6 @@ var semDex2 = "<div onclick='enviarcontribuicao()' class='semdex hand " +myPokeN
 // </FIM PESQUISA LATERAL
   
   
-////////////////////////////////////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-     var loots = myPokeLoots.trim().split(',');    
-     for( var ff=0; ff<loots.length; ff++ ) {     
-	    var loots2 = loots[ff].trim().split('--');
- 	    for( var gg=0; gg<loots2.length; gg++ ) {  
-		    var loots3 = loots2[0].trim().split('//');
- 		    for( var hh=0; hh<loots3.length; hh++ ) {          
-  		    	$("style.opt2").append( "ul.loots li."+loots3[1].replace(/[ ]/g,'%20')+" { background: url(https://p0kexgames.github.io/images/"+loots3[1].replace(/[ ]/g,'%20')+".png) no-repeat scroll 0 4px transparent; }" );
-  		    }
-  	    }
-			
-     }
-     
-////////////////////////////////////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////////////////////////////////////
 
   
   }
