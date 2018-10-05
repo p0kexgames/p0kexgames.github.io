@@ -6462,7 +6462,7 @@ function criarTablePrincipal() {
         $(".last-search").html("Ultima pesquisa: <a href='#container-media' data-search='"+x+"' class='filtrar'>"+x+"</a>");
  }
  
- alert('agora foi[3]?');
+ alert('agora foi[4]?');
   text = "<div id='ourHolder' class='col-xs-12 col-sm-12 col-md-12 col-lg-12'>";
   var opt = "<select class='filtrado-toposidebar selectpicker' data-header='Faça sua busca abaixo:' data-live-search='true' data-size='auto' data-style='btn-primary' data-width='100%' id='mySelect' title='Buscar Pokemon...'>";
   fLen = pokesarray.length
@@ -6523,7 +6523,8 @@ function criarTablePrincipal() {
   		    
           	 var result = [];
     		 for( var k=0; k<loots2.length; k++ ) {  
-         		if(result.indexOf(loots2[0]) == -1) result.push(loots2[0]); 
+         		result[k] =  loots2[0]; 
+         		if(result.indexOf(loots2[k]) == -1) result.push(loots2[k]); 
   			$("body").append( "ul.loots li."+loots2[0].replace(/[ ]/g,'.')+" { background: url(https://p0kexgames.github.io/images/"+loots2[0].replace(/[ ]/g,'%20')+".png) no-repeat scroll 0 4px transparent; }<br/>" );
   		 }
      }
