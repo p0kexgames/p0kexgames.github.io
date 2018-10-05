@@ -6957,7 +6957,7 @@ var semDex2 = "<div onclick='enviarcontribuicao()' class='semdex hand " +myPokeN
  	    for( var gg=0; gg<loots2.length; gg++ ) {  
 		    var loots3 = loots2[0].trim().split('//');
  		    for( var hh=0; hh<loots3.length; hh++ ) {          
-  		    	$("style.opt2").append( "ul.loots li."+loots[0].replace(/[ ]/g,'%20')+" { background: url(https://p0kexgames.github.io/images/"+loots3[1].replace(/[ ]/g,'%20')+".png) no-repeat scroll 0 4px transparent; }" );
+  		    	$("style.opt2").append( "ul.loots li."+loots3[1].replace(/[ ]/g,'%20')+" { background: url(https://p0kexgames.github.io/images/"+loots3[1].replace(/[ ]/g,'%20')+".png) no-repeat scroll 0 4px transparent; }" );
   		    }
   	    }
 			
