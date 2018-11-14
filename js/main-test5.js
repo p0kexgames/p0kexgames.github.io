@@ -935,7 +935,7 @@ pokesarray = [
    clan1:"Ironhard",   clan2:"Orebound",   tipo1:"Metal",   tipo2:"Pedra", 
    regiao:"Hoen",   geracao:"3",   dificuldade:"Sem sistema", xpcaught:"500000", pricenpc:"75000",
    shiny:"yes", fast:"no", heavy:"yes", preevo2:"Aron", preevo1:"Lairon", evo1:"no", evo2:"no", npreevo2:"304", npreevo1:"305", nevo1:"no", nevo2:"no", 
-   mapas:'no',  vip: "yes", moves:"Iron head-100,Iron tail-100,Mud slap-100,Stone edge-100,Metal burst-100,Metal claw-107,Meteor mash-100,Flash cannon-108,Harden-100,", loots:"(1-1)//metal hull--4.3% (63.8%),(1-21)//piece of steel--80.0% (100.0%),(1-21)//small stone--80.0% (100.0%),(1-1)//Rock stone--Raro,(1-1)//Metal stone--Raro,(1-1)//stone orb--50.0% (100.0%),(1-1)//Aggronite--Raro,", evoStone:"", boost:"30", booStone:"Metal stone", habilidades:"Dig, Rock smash, Headbutt"},
+   mapas:'no',  vip: "yes", moves:"Iron head-100,Iron tail-100,Mud slap-100,Stone edge-100,Metal burst-100,Metal claw-107,Meteor mash-100,Flash cannon-108,Harden-100,Sturdy-Passiva,", loots:"(1-1)//metal hull--4.3% (63.8%),(1-21)//piece of steel--80.0% (100.0%),(1-21)//small stone--80.0% (100.0%),(1-1)//Rock stone--Raro,(1-1)//Metal stone--Raro,(1-1)//stone orb--50.0% (100.0%),(1-1)//Aggronite--Raro,", evoStone:"", boost:"30", booStone:"Metal stone", habilidades:"Dig, Rock smash, Headbutt"},
 
   {nome:"Meditite",  numero:307,  level:30,   ball1:"Pokeball",   ball2:"Greatball", 
    clan1:"Gardestrike",   clan2:"Psycraft",   tipo1:"Lutador",   tipo2:"Psiquico", 
