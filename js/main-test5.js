@@ -8305,6 +8305,12 @@ $(".aviso").html(" ");
        $(".modal").addClass('capturável');
        $(".Não.capturável .ballstable div").html(" ");
       }
+	 
+  if (myPokeDificuldade === 'Nightmare World') {
+       $(".modal").addClass('Nightmare');
+       $(".modal").addClass('World');
+       $(".Nightmare.World .ballstable div").html(" ");
+      }
 
   if (myPokeDificuldade === 'Embedded tower') {
        $(".modal").addClass('Embedded');
@@ -8333,6 +8339,18 @@ $(".aviso").html(" ");
        $(".Quest .ballstable div").html(" ");
        text = "<div class='dificuldade'>";
         text += "<i class='fa fa-exclamation-circle'></i> Esse Pokemon poderá ser adquirido através de quest na biblioteca em Shamouti.";
+       text += "</div>";
+       $(".aviso").append( text );
+       $(".aviso").addClass( 'show' );
+       $(".aviso").removeClass( 'hide' );
+  }
+	 
+  if (myPokeDificuldade === 'Nightmare World') {
+       $(".modal").addClass('Nightmare');
+       $(".modal").addClass('World');
+       $(".Nightmare.World .ballstable div").html(" ");
+       text = "<div class='dificuldade'>";
+        text += "<i class='fa fa-exclamation-circle'></i> Esse Pokemon poderá ser adquirido através da Nightmare World.";
        text += "</div>";
        $(".aviso").append( text );
        $(".aviso").addClass( 'show' );
@@ -10062,6 +10080,12 @@ $(".aviso").html(" ");
        $(".modal").addClass('Não');
        $(".modal").addClass('capturável');
        $(".Não.capturável .ballstable div").html(" ");
+      }
+	 
+  if (myPokeDificuldade === 'Nightmare World') {
+       $(".modal").addClass('Nightmare');
+       $(".modal").addClass('World');
+       $(".Nightmare.World .ballstable div").html(" ");
       }
 
   if (myPokeDificuldade === 'Embedded tower') {
