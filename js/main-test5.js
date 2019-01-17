@@ -8306,11 +8306,6 @@ $(".aviso").html(" ");
        $(".Não.capturável .ballstable div").html(" ");
       }
 	 
-  if (myPokeDificuldade === 'Nightmare World') {
-       $(".modal").addClass('Nightmare');
-       $(".modal").addClass('World');
-       $(".Nightmare.World .ballstable div").html(" ");
-      }
 
   if (myPokeDificuldade === 'Embedded tower') {
        $(".modal").addClass('Embedded');
@@ -10082,11 +10077,6 @@ $(".aviso").html(" ");
        $(".Não.capturável .ballstable div").html(" ");
       }
 	 
-  if (myPokeDificuldade === 'Nightmare World') {
-       $(".modal").addClass('Nightmare');
-       $(".modal").addClass('World');
-       $(".Nightmare.World .ballstable div").html(" ");
-      }
 
   if (myPokeDificuldade === 'Embedded tower') {
        $(".modal").addClass('Embedded');
@@ -10115,6 +10105,18 @@ $(".aviso").html(" ");
        $(".Form .ballstable div").html(" ");
        text = "<div class='dificuldade'>";
         text += "<i class='fa fa-warning'></i> Essa forma não pode ser capturada, somente a forma principal, para obter essa forma somente por drop.";
+       text += "</div>";
+       $(".aviso").append( text );
+       $(".aviso").addClass( 'show' );
+       $(".aviso").removeClass( 'hide' );
+  }
+	 
+  if (myPokeDificuldade === 'Nightmare World') {
+       $(".modal").addClass('Nightmare');
+       $(".modal").addClass('World');
+       $(".Nightmare.World .ballstable div").html(" ");
+       text = "<div class='dificuldade'>";
+        text += "<i class='fa fa-exclamation-circle'></i> Esse Pokemon poderá ser adquirido através da Nightmare World.";
        text += "</div>";
        $(".aviso").append( text );
        $(".aviso").addClass( 'show' );
