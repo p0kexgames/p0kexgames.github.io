@@ -6731,7 +6731,7 @@ function criarTablePrincipal() {
     text += "<div class='collectibles-wrapper col-xs-12 col-sm-12 col-md-12 col-lg-12'>";
      text += "<div class='collectibles-collection balls col-xs-12 col-sm-12 col-md-12 col-lg-12'>";
 if (myPokeBall1 !== 'Saffariball' && myPokeDificuldade !== 'Não capturável' && myPokeBall1 !== 'Masterball') {
-if (myPokeLevel <= 30 && myPokeDificuldade !== 'Dimensional zone') {
+if (myPokeLevel <= 30 && myPokeDificuldade !== 'Dimensional zone' && myPokeDificuldade !== 'Nightmare World') {
  if (myPokePriceNPC <= 12000) {
    text += "<div title='"+pbMedia+" Pokeball' class='pokeball col-xs-2 col-sm-2 col-md-2 col-lg-2'></div>";
 
@@ -6741,7 +6741,7 @@ if (myPokeLevel <= 30 && myPokeDificuldade !== 'Dimensional zone') {
  } 
 }
 
-else if (myPokeLevel > 30 && myPokeLevel <= 60 && myPokeDificuldade !== 'Dimensional zone') {
+else if (myPokeLevel > 30 && myPokeLevel <= 60 && myPokeDificuldade !== 'Dimensional zone' && myPokeDificuldade !== 'Nightmare World') {
  if (myPokePriceNPC <= 10000) {
    text += "<div title='"+gbMedia+" Greatball' class='greatball col-xs-2 col-sm-2 col-md-2 col-lg-2'></div>";
    text += "<div title='"+sbMedia+" Superball' class='superball col-xs-2 col-sm-2 col-md-2 col-lg-2'></div>";
@@ -6751,7 +6751,7 @@ else if (myPokePriceNPC <= 15000) {
 }
 }
 
-else if (myPokeLevel > 60 && myPokeLevel <= 70 && myPokeDificuldade !== 'Dimensional zone') {
+else if (myPokeLevel > 60 && myPokeLevel <= 70 && myPokeDificuldade !== 'Dimensional zone' && myPokeDificuldade !== 'Nightmare World') {
  if (myPokePriceNPC <= 15000) {
    text += "<div title='"+sbMedia+" Superball' class='superball col-xs-2 col-sm-2 col-md-2 col-lg-2'></div>";
  }
@@ -7433,7 +7433,7 @@ function criartableShinys() {
     text += "<div class='collectibles-wrapper col-xs-12 col-sm-12 col-md-12 col-lg-12'>";
      text += "<div class='collectibles-collection balls col-xs-12 col-sm-12 col-md-12 col-lg-12'>";
 if (myPokeBall1 !== 'Saffariball' && myPokeDificuldade !== 'Não capturável' && myPokeBall1 !== 'Masterball') {
-if (myPokeLevel <= 30 && myPokeDificuldade !== 'Dimensional zone') {
+if (myPokeLevel <= 30 && myPokeDificuldade !== 'Dimensional zone' && myPokeDificuldade !== 'Nightmare World') {
  if (myPokePriceNPC <= 12000) {
    text += "<div title='"+pbMedia+" Pokeball' class='pokeball col-xs-2 col-sm-2 col-md-2 col-lg-2'></div>";
 
@@ -7443,7 +7443,7 @@ if (myPokeLevel <= 30 && myPokeDificuldade !== 'Dimensional zone') {
  } 
 }
 
-else if (myPokeLevel > 30 && myPokeLevel <= 60 && myPokeDificuldade !== 'Dimensional zone') {
+else if (myPokeLevel > 30 && myPokeLevel <= 60 && myPokeDificuldade !== 'Dimensional zone' && myPokeDificuldade !== 'Nightmare World') {
  if (myPokePriceNPC <= 10000) {
    text += "<div title='"+gbMedia+" Greatball' class='greatball col-xs-2 col-sm-2 col-md-2 col-lg-2'></div>";
    text += "<div title='"+sbMedia+" Superball' class='superball col-xs-2 col-sm-2 col-md-2 col-lg-2'></div>";
@@ -7453,7 +7453,7 @@ else if (myPokePriceNPC <= 15000) {
 }
 }
 
-else if (myPokeLevel > 60 && myPokeLevel <= 70 && myPokeDificuldade !== 'Dimensional zone') {
+else if (myPokeLevel > 60 && myPokeLevel <= 70 && myPokeDificuldade !== 'Dimensional zone' && myPokeDificuldade !== 'Nightmare World') {
  if (myPokePriceNPC <= 15000) {
    text += "<div title='"+sbMedia+" Superball' class='superball col-xs-2 col-sm-2 col-md-2 col-lg-2'></div>";
  }
