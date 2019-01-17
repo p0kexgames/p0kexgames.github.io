@@ -6308,7 +6308,21 @@ movesArray = [
  { move: "Electric terrain", type: "Elétrico", desc: "Cria um campo de eletricidade ao redor do pokemon por 15 segundos. enquanto o usuário permanecer dentro do campo, receberá bonus de defesa e ataque físico, velocidade de movimento e ataque, bem como FOCUS para o próximo ataque. Inimigos que sairem do campo serão atordoados por 8 segundos.", 
     aoe: "yes", blind: "", buff: "yes", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 	
     target: "", nevermiss: "yes", paralyze: "", poison: "", self: "yes", slow: "", stun: "yes", passive: "", 	
-    healing: "", silence: "", freeze: "", knockback: "", }
+    healing: "", silence: "", freeze: "", knockback: "", },
+
+   
+ { move: "Infestation", type: "Inseto", desc: "O usuário convoca uma horda de insetos que atacam os oponentes em uma grande área, imobilizando-os por 7 segundos e que pode acertá-los até duas vezes.", 
+   aoe: "yes", blind: "", buff: "", burn: "", confusion: "", damage: "yes", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "", paralyze: "", poison: "", self: "", slow: "", stun: "yes", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", },
+
+   
+ { move: "Quiver dance", type: "Inseto", desc: "O usuário executa levemente uma bela e mística dança, que aumenta sua velocidade e defesa por 10 segundos.", 
+   aoe: "", blind: "", buff: "yes", burn: "", confusion: "", damage: "", debuff: "", lifesteal: "", 
+   target: "", nevermiss: "yes", paralyze: "", poison: "", self: "yes", slow: "", stun: "", passive: "", 
+   healing: "", silence: "", freeze: "", knockback: "", }
+	
+	
 
    
 // { move: "", type: "", desc: "", 
