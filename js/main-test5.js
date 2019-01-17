@@ -1503,6 +1503,12 @@ pokesarray = [
 
   
 ///////// INICIO GERACAO 5
+  {nome:"Simisear",  numero:514,  level:0,   ball1:"Nenhuma",   ball2:"Nenhuma", 
+   clan1:"Volcanic",   clan2:"Nenhum",   tipo1:"Fogo",   tipo2:"Nenhum", 
+   regiao:"Unova",   geracao:"5",   dificuldade:"Nightmare World", xpcaught:"0", pricenpc:"0",
+   shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
+   mapas:'no',  vip: "yes", moves:"no", loots:"no", evoStone:"", boost:"", booStone:"", habilidades:""},
+  
   {nome:"Blitzle",  numero:522,  level:60,   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Raibolt",   clan2:"Nenhum",   tipo1:"Elétrico",   tipo2:"Nenhum", 
    regiao:"Unova",   geracao:"5",   dificuldade:"Dimensional zone", xpcaught:"0", pricenpc:"20000",
@@ -1512,7 +1518,7 @@ pokesarray = [
    clan1:"Raibolt",   clan2:"Nenhum",   tipo1:"Elétrico",   tipo2:"Nenhum", 
    regiao:"Unova",   geracao:"5",   dificuldade:"Dimensional zone", xpcaught:"0", pricenpc:"270000",
    shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"Blitzle", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"522", nevo1:"no", nevo2:"no", 
-   mapas:'no',  vip: "no", moves:"Lightning horn-100,Double kick-100,Shockwave-100,Flame charge-100,Overheat-100,Flare blitz-110,Thrash-105,Rain dance-100,Volt switch-100,", loots:"no", evoStone:"", boost:"3", booStone:"Dimensional stone", habilidades:"Dig"},
+   mapas:'no',  vip: "no", moves:"Lightning horn-100,Double kick-100,Shockwave-100,Flame charge-100,Overheat-100,Flare blitz-110,Thrash-105,Rain dance-100,Volt switch-100,", loots:"no", evoStone:"", boost:"3", booStone:"Dimensional stone", habilidades:"Dig, Ride"},
   
   {nome:"Drilbur",  numero:529,  level:50,   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Orebound",   clan2:"Nenhum",   tipo1:"Terra",   tipo2:"Nenhum", 
