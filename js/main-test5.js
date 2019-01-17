@@ -2071,6 +2071,15 @@ ShinysMegasArray = [
    moves:"Mud shot-100,Acid-100,Sludge-100,Mud bomb-100,Poison bomb-100,Venoshock-112,Sludge wave-100,Harden-155,Acid armor-108,", 
    loots:"(1-1)//gosme--30.0%,(1-1)//Venom stone--Raro,(1-4)//bottle of poison--80.0%,", evoStone:"", boost:"2", booStone:"Venom stone", habilidades:""},
    
+ {shiny:"Alolan", nome:"Muk",  numero:"89-2",  level:"0",   ball1:"Nenhuma",   ball2:"Nenhuma", 
+   clan1:"Malefic",   clan2:"Nenhum",   tipo1:"Venenoso",   tipo2:"Noturno", 
+   regiao:"Kanto",   geracao:"1",   dificuldade:"Nightmare World", xpcaught:"0", pricenpc:"0",
+   fast:"no", heavy:"no", 
+   preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
+   mapas:'no',  vip: "yes", 
+   moves:"no", 
+   loots:"no", evoStone:"", boost:"", booStone:"", habilidades:""},
+   
   {shiny:"Shiny", nome:"Gastly",  numero:"92-1",  level:"30",   ball1:"Nenhuma",   ball2:"Nenhuma", 
    clan1:"Malefic",   clan2:"Nenhum",   tipo1:"Fantasma",   tipo2:"Venenoso", 
    regiao:"Kanto",   geracao:"1",   dificuldade:"Eventos", xpcaught:"0", pricenpc:"unseleable",
