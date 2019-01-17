@@ -1255,12 +1255,12 @@ pokesarray = [
 
   {nome:"Cranidos",  numero:408,  level:"0",   ball1:"Nenhuma",   ball2:"Nenhuma",
    clan1:"Orebound",   clan2:"Nenhum",   tipo1:"Pedra",   tipo2:"Nenhum", 
-   regiao:"Sinoh",   geracao:"4",   dificuldade:"Nighmare World", xpcaught:"0", pricenpc:"0",
+   regiao:"Sinoh",   geracao:"4",   dificuldade:"Nightmare World", xpcaught:"0", pricenpc:"0",
    shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"Rampardos", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"409", nevo2:"no", 
    mapas:'no',  vip: "yes", moves:"no", loots:"no", evoStone:"", boost:"", booStone:"", habilidades:""},
   {nome:"Rampardos",  numero:409,  level:"0",   ball1:"Nenhuma",   ball2:"Nenhuma",
    clan1:"Orebound",   clan2:"Nenhum",   tipo1:"Pedra",   tipo2:"Nenhum", 
-   regiao:"Sinoh",   geracao:"4",   dificuldade:"Nighmare World", xpcaught:"0", pricenpc:"0",
+   regiao:"Sinoh",   geracao:"4",   dificuldade:"Nightmare World", xpcaught:"0", pricenpc:"0",
    shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"Cranidos", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"408", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "yes", moves:"no", loots:"no", evoStone:"", boost:"", booStone:"", habilidades:""},
 
