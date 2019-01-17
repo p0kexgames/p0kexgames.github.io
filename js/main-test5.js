@@ -1253,6 +1253,18 @@ pokesarray = [
 //  {nome:"Budew",  numero:406, 
 //  {nome:"Roserade",  numero:407, 
 
+  {nome:"Cranidos",  numero:408,  level:"0",   ball1:"Nenhuma",   ball2:"Nenhuma",
+   clan1:"Orebound",   clan2:"Nenhum",   tipo1:"Pedra",   tipo2:"Nenhum", 
+   regiao:"Sinoh",   geracao:"4",   dificuldade:"Nighmare World", xpcaught:"0", pricenpc:"0",
+   shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"Rampardos", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"409", nevo2:"no", 
+   mapas:'no',  vip: "yes", moves:"", loots:"", evoStone:"", boost:"", booStone:"", habilidades:""},
+  {nome:"Rampardos",  numero:409,  level:"0",   ball1:"Nenhuma",   ball2:"Nenhuma",
+   clan1:"Orebound",   clan2:"Nenhum",   tipo1:"Pedra",   tipo2:"Nenhum", 
+   regiao:"Sinoh",   geracao:"4",   dificuldade:"Nighmare World", xpcaught:"0", pricenpc:"0",
+   shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"Cranidos", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"408", nevo1:"no", nevo2:"no", 
+   mapas:'no',  vip: "yes", moves:"", loots:"", evoStone:"", boost:"", booStone:"", habilidades:""},
+
+
   {nome:"Shieldon",  numero:410,  level:"30",   ball1:"Masterball",   ball2:"Nenhuma",
    clan1:"Orebound",   clan2:"Ironhard",   tipo1:"Pedra",   tipo2:"Metal", 
    regiao:"Sinoh",   geracao:"4",   dificuldade:"Difícil", xpcaught:"0", pricenpc:"80000",
@@ -1263,6 +1275,12 @@ pokesarray = [
    regiao:"Sinoh",   geracao:"4",   dificuldade:"Difícil", xpcaught:"0", pricenpc:"120000",
    shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"Shieldon", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"410", nevo1:"no", nevo2:"no", 
    mapas:'no',  vip: "yes", moves:"Iron head-100,Stone edge-100,Meteor mash-100,Heavy slam-100,Rock slide-100,Rock blast-100,Rock wrecker-105,Stealth rock-110,Shield-Passiva,", loots:"(1-1)//bone shield--Raro,(1-21)//piece of steel--100.0%,(1-21)//small stone--100.0%,(1-1)//stone orb--30.0% (100.0%),(1-1)//Rock stone--3.1%,(1-1)//Metal stone--Raro,(1-1)//armor fossil--Raro,", evoStone:"", boost:"3", booStone:"Rock stone", habilidades:"Dig, Rock smash, Headbutt"},
+
+  {nome:"Wormadam",  numero:413,  level:"80",   ball1:"Nenhuma",   ball2:"Nenhuma",
+   clan1:"Naturia",   clan2:"Nenhum",   tipo1:"Inseto",   tipo2:"Grama", 
+   regiao:"Sinoh",   geracao:"4",   dificuldade:"Nightmare World", xpcaught:"0", pricenpc:"0",
+   shiny:"yes", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"no", nevo2:"no", 
+   mapas:'no',  vip: "yes", moves:"Shadow ball-80,Razor leaf-80,Grass knot-80,Signal beam-80,Solar beam-80,Leaf storm-90,Infestation-87,Quiver dance-87,", loots:"(1-10)//pile of seeds--80%,(1-1)//naturia essence--10%,(1-1)//Cocoon stone--10%,(1-1)//bagworm green leaves--40%,(1-1)//Harlequin shard--Raro,(1-1)//cyan nightmare gem--Raro,", evoStone:"", boost:"3", booStone:"Leaf stone", habilidades:""},
 
   {nome:"Pachirisu",  numero:417,  level:"100",   ball1:"Ultraball",   ball2:"Nenhuma",
    clan1:"Raibolt",   clan2:"Nenhum",   tipo1:"Elétrico",   tipo2:"Nenhum", 
