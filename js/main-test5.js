@@ -1253,16 +1253,16 @@ pokesarray = [
 //  {nome:"Budew",  numero:406, 
 //  {nome:"Roserade",  numero:407, 
 
-  {nome:"Cranidos",  numero:408,  level:"0",   ball1:"Nenhuma",   ball2:"Nenhuma",
+  {nome:"Cranidos",  numero:408,  level:"30",   ball1:"Nenhuma",   ball2:"Nenhuma",
    clan1:"Orebound",   clan2:"Nenhum",   tipo1:"Pedra",   tipo2:"Nenhum", 
    regiao:"Sinoh",   geracao:"4",   dificuldade:"Nightmare World", xpcaught:"0", pricenpc:"0",
    shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"no", evo1:"Rampardos", evo2:"no", npreevo2:"no", npreevo1:"no", nevo1:"409", nevo2:"no", 
    mapas:'no',  vip: "yes", moves:"no", loots:"no", evoStone:"", boost:"", booStone:"", habilidades:""},
-  {nome:"Rampardos",  numero:409,  level:"0",   ball1:"Nenhuma",   ball2:"Nenhuma",
+  {nome:"Rampardos",  numero:409,  level:"100",   ball1:"Nenhuma",   ball2:"Nenhuma",
    clan1:"Orebound",   clan2:"Nenhum",   tipo1:"Pedra",   tipo2:"Nenhum", 
    regiao:"Sinoh",   geracao:"4",   dificuldade:"Nightmare World", xpcaught:"0", pricenpc:"0",
-   shiny:"no", fast:"no", heavy:"no", preevo2:"no", preevo1:"Cranidos", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"408", nevo1:"no", nevo2:"no", 
-   mapas:'no',  vip: "yes", moves:"no", loots:"no", evoStone:"", boost:"", booStone:"", habilidades:""},
+   shiny:"no", fast:"no", heavy:"yes", preevo2:"no", preevo1:"Cranidos", evo1:"no", evo2:"no", npreevo2:"no", npreevo1:"408", nevo1:"no", nevo2:"no", 
+   mapas:'no',  vip: "yes", moves:"Headbutt-100,Rock slide-100,Stone edge-100,Hammer arm-100,Falling rocks-100,Head smash-105,Rock wrecker-105,Ancient power-115,", loots:"(1-10)//big stone--80%,(1-1)//orebound essence--10%,(1-1)//Rock stone--10%,(1-1)//solid head--5.8%,(1-1)//cyan nightmare gem--Raro,", evoStone:"", boost:"2", booStone:"Rock stone", habilidades:"Dig,Rock smash,Headbutt"},
 
 
   {nome:"Shieldon",  numero:410,  level:"30",   ball1:"Masterball",   ball2:"Nenhuma",
