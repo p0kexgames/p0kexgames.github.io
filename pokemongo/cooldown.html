@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+  	<title>
+		Bagon Community Day
+  	</title>
+  	<meta name="author" content="">
+  	<meta name="description" content="">
+  	<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
+  	<link rel="shortcut icon" href="./shinyBagon.ico" type="image/x-icon"/>
+    <link rel="icon" href="./shinyBagon.ico" type="image/ico"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+  	<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.3.1/css/flag-icon.min.css" rel="stylesheet"/>
+  	<link rel="stylesheet" type="text/css" href="css/index.css">
+  	<link rel="stylesheet" type="text/css" href="css/cooldown.css">
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js" type="text/javascript"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.23/moment-timezone-with-data-2012-2022.js" type="text/javascript"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>  
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136695171-1"></script>
+	<script>
+  		window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments);}
+  		gtag('js', new Date());
+
+  		gtag('config', 'UA-136695171-1');
+	</script>
+</head>
+<body>
+
+<div class="top">
+	<h2>Hora Local</h2>
+  <div id="displayMoment"></div>
+  <br>
+  <p style="text-align: justify; font-size: 12px;"><strong>* A hora local é derivada do horário do seu smartphone / desktop</strong><p>
+</div>
+
+<ul class="navbar">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="timeZone.html">Fusos Horários</a></li>
+  <li><a href="timers.html">Cronômetros</a></li>
+  <li><a href="gpx.html">Rotas GPX</a></li>
+  <li><a class="active" href="cooldown.html">Calculadora de Cooldown</a></li>
+  <li><a href="tzguess.html">Palpite Fuso Horário</a></li>
+  <li><a href="bagon.html">Bagon</a></li>
+  <li><a href="faq.html">FAQ</a></li>
+</ul>
+<div>&nbsp;</div>
+<div><h4>Coloque as coordenadas de origem e de destino para calcular o tempo de "viagem" do ponto A ao ponto B</h4></div>
+<div>&nbsp;</div>
+<h5><strong>Digite as coordenadas de origem (ponto A):</strong></h5>
+<input class="coordinate" id="input_coordinate1" type="text" placeholder="XX.XXXXXX,YY.YYYYYY" autocomplete="off" style="width: 50%;" required>
+<div>&nbsp;</div>
+<h5><strong>Digite as coordenadas de destino (ponto B):</strong></h5>
+<input class="coordinate" id="input_coordinate2" type="text" placeholder="XX.XXXXXX,YY.YYYYYY" autocomplete="off" style="width: 50%;" required>
+<div>&nbsp;</div>
+<button class="btn btn-default" id="btnSubmit" onclick="distance()">Calcular</button>
+<button class="btn btn-default" id="btnClear" onclick="clearFunction()">Limpar</button>
+<div>&nbsp;</div>
+<div id="cooldownResult" style="font-size: large;"></div>
+<script src="js/index.js" type="text/javascript"></script>
+<script src="js/cooldown.js" type="text/javascript"></script>
+</body>
+</html>
