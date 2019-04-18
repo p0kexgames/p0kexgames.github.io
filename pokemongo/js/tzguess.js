@@ -2,7 +2,7 @@ function submitFunction() {
 	try {
 		var latlng = document.getElementById("input_coordinate").value.split(",");
 		var timeZone = tzlookup(latlng[0].replace(/(^[ '\^\$\*#&]+)|([ '\^\$\*#&]+$)/g, ''), latlng[1].replace(/(^[ '\^\$\*#&]+)|([ '\^\$\*#&]+$)/g, ''));
-		var endTime = "2019-04-13 18:00:00";
+		var endTime = "2019-05-19 18:00:00";
 		var eventEndTime = moment.tz(endTime, timeZone);
 		var result = "";
 		var now = moment();
@@ -23,7 +23,7 @@ function submitFunction() {
 			result = "Event ends in: " + ("0" + days).slice(-2) + "d " + ("0" + hours).slice(-2) + "h " + ("0" + minutes).slice(-2) + "m " + ("0" + seconds).slice(-2) + "s ";
 		}
 		else {
-			result = "The event has already ended here."
+			result = "O evento já acabou aqui."
 		}
 		document.getElementById("tzguessResult").style.color = "#5EB750";
 		document.getElementById("tzguessResult").innerHTML = "<div>&nbsp;</div> O fuso horário aqui é " + timeZone + " UTC " + eventEndTime.utcOffset()/60 + "<br>" + result;

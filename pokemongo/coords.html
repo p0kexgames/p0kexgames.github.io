@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+  	<title>
+		Coordenadas
+  	</title>
+  	<meta name="author" content="">
+  	<meta name="description" content="">
+  	<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
+  	<link rel="shortcut icon" href="./shinyBagon.ico" type="image/x-icon"/>
+    <link rel="icon" href="./shinyBagon.ico" type="image/ico"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+  	<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.3.1/css/flag-icon.min.css" rel="stylesheet"/>
+  	<link rel="stylesheet" type="text/css" href="css/index.css">
+  	<link rel="stylesheet" type="text/css" href="css/timeZone.css">
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js" type="text/javascript"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.23/moment-timezone-with-data-2012-2022.js" type="text/javascript"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>  
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
+  	<script src="https://unpkg.com/popper.js@1"></script>
+	<script src="https://unpkg.com/tippy.js@4"></script>
+
+</head>
+<body>
+
+<div class="top">
+	<h2>Hora Local</h2>
+  <div id="displayMoment"></div>
+  <br>
+  <p style="text-align: justify; font-size: 12px;"><strong>*  A hora local é derivada do horário do seu smartphone / desktop</strong><p>
+</div>
+
+<ul class="navbar">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="timeZone.html">Horários</a></li>
+  <li><a href="timers.html">Cronômetro</a></li>
+  <li><a href="cooldown.html">Cooldown</a></li>
+  <li><a href="tzguess.html">Encontrar Fuso</a></li>
+  <li><a href="bagon.html">Bagon</a></li>
+  <li><a class="active" href="coords.html">Coords</a></li>
+</ul>
+
+		<div class="container">
+			<h2 align="center"><strong>Regionais</strong></h2>
+			<br/>
+			<style>
+          .btn { 
+            color: #ffffff; 
+            background-color: #666666;
+            margin: 5px;
+           }
+        </style>
+		<button class="btn" data-clip>
+    		<span class="flag-icon flag-icon-np"></span>
+			<img src="http://assets22.pokemon.com/assets/cms2/img/pokedex/full/324.png" style="height: 30px;"/>
+			<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
+			<br/>Torkoal (Índia)
+		</button>
+			
+		<button class="btn" data-clipboard-text="-41.33150051905472, 174.8302646757152">
+    		<span class="flag-icon flag-icon-nz"></span>
+			<img src="http://assets22.pokemon.com/assets/cms2/img/pokedex/full/369.png" style="height: 30px;"/>
+			<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
+			<br/>Relicanth (Nova Zelândia)
+		</button>
+			
+		<button class="btn" data-clipboard-text="-33.92549810714919, 18.423425185920486">
+    		<span class="flag-icon flag-icon-za"></span>
+			<img src="http://assets22.pokemon.com/assets/cms2/img/pokedex/full/357.png" style="height: 30px;"/>
+			<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
+			<br/>Tropius (Africa do Sul)
+		</button>
+			
+		<button class="btn" data-clipboard-text="48.890636,2.2381155">
+    		<span class="flag-icon flag-icon-fr"></span>
+			<img src="http://assets22.pokemon.com/assets/cms2/img/pokedex/full/122.png" style="height: 30px;"/>
+			<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
+			<br/>Mr. Mime (França)
+		</button>
+			
+		<button class="btn" data-clipboard-text="35.6961,139.8144">
+    		<span class="flag-icon flag-icon-jp"></span>
+			<img src="http://assets22.pokemon.com/assets/cms2/img/pokedex/full/083.png" style="height: 30px;"/>
+			<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
+			<br/>Farfetch'd (Japão)
+		</button>
+			
+		<button class="btn" data-clipboard-text="-33.8643,151.2155">
+    		<span class="flag-icon flag-icon-au"></span>
+			<img src="http://assets22.pokemon.com/assets/cms2/img/pokedex/full/115.png" style="height: 30px;"/>
+			<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
+			<br/>Kanghaskan (Austrália)
+		</button>
+			
+		<button class="btn" data-clipboard-text="25.025608,121.53711">
+    		<span class="flag-icon flag-icon-hk"></span>
+			<img src="http://assets22.pokemon.com/assets/cms2/img/pokedex/full/222.png" style="height: 30px;"/>
+			<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
+			<br/>Corsola (Taiwan)
+		</button>
+			
+		<button class="btn" data-clipboard-text="30.2742,-97.7407">
+    		<span class="flag-icon flag-icon-us"></span>
+			<img src="http://assets22.pokemon.com/assets/cms2/img/pokedex/full/128.png" style="height: 30px;"/>
+			<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
+			<br/>Tauros (USA)
+		</button>
+			
+		<button class="btn" data-clipboard-text="53.5444,-113.4909">
+    		<span class="flag-icon flag-icon-ca"></span>
+			<img src="http://assets22.pokemon.com/assets/cms2/img/pokedex/full/517.png" style="height: 30px;"/>
+			<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
+			<br/>Pachirisu (EDMONTON)
+		</button>
+			
+		<button class="btn" data-clipboard-text="-23.547765,-46.623779">
+    		<span class="flag-icon flag-icon-br"></span>
+			<img src="http://assets22.pokemon.com/assets/cms2/img/pokedex/full/441.png" style="height: 30px;"/>
+			<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
+			<br/>Chatot (São Paulo)
+		</button>
+			
+		<button class="btn" data-clipboard-text="30.332212,-81.655731">
+    		<span class="flag-icon flag-icon-us"></span>
+			<img src="http://assets22.pokemon.com/assets/cms2/img/pokedex/full/455.png" style="height: 30px;"/>
+			<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
+			<br/>Carnivine (Jacksonville)
+		</button>
+		
+		
+ <br/>
+
+
+			
+			
+		</div> 
+		
+<script src="js/index.js" type="text/javascript"></script>
+<script src="js/timeZone.js" type="text/javascript"></script>
+</body>
+</html>
