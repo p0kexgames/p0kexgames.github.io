@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
   	<title>
-		Horários - Poke Trainers do Brasil
+		Horários Próximo dia da comunidade - Poke Trainers do Brasil
   	</title>
   	<meta name="author" content="">
   	<meta name="description" content="">
@@ -15,6 +15,7 @@
   	<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.3.1/css/flag-icon.min.css" rel="stylesheet"/>
   	<link rel="stylesheet" type="text/css" href="css/index.css">
   	<link rel="stylesheet" type="text/css" href="css/timeZone.css">
+  	<link rel="stylesheet" type="text/css" href="css/tzguess.css">
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js" type="text/javascript"></script>
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.23/moment-timezone-with-data-2012-2022.js" type="text/javascript"></script>
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>  
@@ -22,7 +23,7 @@
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
   	<script src="https://unpkg.com/popper.js@1"></script>
 	<script src="https://unpkg.com/tippy.js@4"></script>
-
+	
 </head>
 <body>
 
@@ -31,7 +32,7 @@
 		<a style="color:#FFF" href="http://chat.whatsapp.com/CQYqupJxsfJHc7atguzLk3">
 			<center><img style="width:50px;box-shadow: 0 0 15px; border-radius: 50px; border: 1px solid #ccc;" src="https://chat.whatsapp.com/invite/icon/CQYqupJxsfJHc7atguzLk3"/></center>
 			<h2>PokeTrainers do Brasil</h2>
-			<b class="fa fa-whatsapp"> Grupo no Whatsapp</b> 
+			<b class="fa fa-whatsapp"> Whatsapp</b> 
 		</a>
 	</div>
 	
@@ -47,13 +48,32 @@
 
 <ul class="navbar">
   <li><a href="index.html">Home</a></li>
-  <li><a class="active" href="timeZone.html">Horários</a></li>
+  <li><a class="active" href="timeZone.html">Fusos Horários</a></li>
   <li><a href="timers.html">Cronômetro</a></li>
   <li><a href="cooldown.html">Cooldown</a></li>
-  <li><a href="tzguess.html">Encontrar Fuso</a></li>
   <li><a href="coords.html">Coords</a></li>
   <li><a href="ninhos.html">Ninhos</a></li>
 </ul>
+
+
+<div class="container">
+<h4><strong>O que é isso?</strong></h4>
+<p align="justify">É uma ferramenta que adivinha o fuso horário de latitude e longitude.</p>
+<h4><strong>Como isso é útil?</strong></h4>
+<p align="justify">
+
+Diz-lhe quando o Dia da Comunidade terminará nesse local. Um shiny não permanece shiny após o dia da comunidade terminar.
+Então, se o seu cooldown não terminar antes do dia da comunidade terminar naquele lugar, você perderá o shiny.
+</p>
+<h5><strong>Digite as coordenadas:</strong></h5>
+<input class="coordinate" id="input_coordinate" type="text" placeholder="XX.XXXXXX,YY.YYYYYY" autocomplete="off" style="width: 50%;" required>
+<div>&nbsp;</div>
+<button class="btn btn-default" id="btnSubmit" onclick="submitFunction()">Enviar</button>
+<button class="btn btn-default" id="btnClear" onclick="clearFunction()">Limpar</button>
+<div id="tzguessResult" style="font-size: large;"></div>
+
+</div>
+
 <button class="tzbar accordion" id="timerp14"><strong>UTC +14</strong></button>
 <div class="panel">
 	<div id="displaytimerp14" class="tztimer"></div>
@@ -793,5 +813,7 @@
 </div>
 <script src="js/index.js" type="text/javascript"></script>
 <script src="js/timeZone.js" type="text/javascript"></script>
+<script src="js/tz.js" type="text/javascript"></script>
+<script src="js/tzguess.js" type="text/javascript"></script>
 </body>
 </html>
