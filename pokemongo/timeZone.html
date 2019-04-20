@@ -48,29 +48,50 @@
 
 <ul class="navbar">
   <li><a href="index.html">Home</a></li>
-  <li><a class="active" href="timeZone.html">Fusos Horários</a></li>
-  <li><a href="timers.html">Cronômetro</a></li>
-  <li><a href="cooldown.html">Cooldown</a></li>
-  <li><a href="coords.html">Coords</a></li>
-  <li><a href="ninhos.html">Ninhos</a></li>
+  <li class="active">
+	<a href="timeZone.html">Dia da Comunidade</a>
+		<i><small><small>
+		<a href="timers.html" style="width">Cronômetro</a> 
+		<a href="cooldown.html">Cooldown</a>
+		</small></small></i>
+  </li>
+  <li><a href="coords.html">Coordenadas e Ninhos</a></li>
 </ul>
-
-
-<div class="container">
-<h4><strong>O que é isso?</strong></h4>
-<p align="justify">É uma ferramenta que adivinha o fuso horário de latitude e longitude.</p>
-<h4><strong>Como isso é útil?</strong></h4>
-<p align="justify">
-
-Diz-lhe quando o Dia da Comunidade terminará nesse local. Um shiny não permanece shiny após o dia da comunidade terminar.
-Então, se o seu cooldown não terminar antes do dia da comunidade terminar naquele lugar, você perderá o shiny.
-</p>
-<h5><strong>Digite as coordenadas:</strong></h5>
+<div class="container col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin-top:15px;margin-bottom:15px;box-shadow: 0 0 15px;border-radius: 50px;border: 1px solid #ccc;">
+	<div class='col-xs-12 col-sm-12 col-md-6 col-lg-6'>	
+		<h3>Próximo dia da comunidade	 (<i id='diacomunidade'></i>)</h3>
+		
+		<ul>
+		<li><strong>Pokémon:&nbsp;&nbsp;</strong><i id='pokemondiacomunidade'></i></li>
+		<li><strong>Ataque Especial:&nbsp;&nbsp;</strong><i id='ataqueexclusivo'></i></li>
+		<li><strong>Bonus:&nbsp;&nbsp;</strong><i id='bonus1'></i></li>
+		<li><strong>Bonus:&nbsp;&nbsp;</strong><i id='bonus2'></i></li>
+		<li><strong>Começa às:&nbsp;&nbsp;</strong>15-18hs Horario local</li>
+		</ul>
+		<center><small><a target="_blank" href="https://shadow0403bsr.github.io/Timer/index.html">* idéia retirada de <strong>♤DarkShadow♤, Ace Trainer e Pokedex100</strong></a></small></center>
+	</div>
+	<div class='col-xs-12 col-sm-12 col-md-6 col-lg-6'>	
+		<div class='col-xs-12 col-sm-12 col-md-6 col-lg-6'>
+			<img src="./resources/nextCD.png" alt="Shiny Family" title="Shiny Family" style="width: 100%;">
+		</div>
+		<div class='col-xs-12 col-sm-12 col-md-6 col-lg-6'><br/><br/>
+			<center>
+				<a href="timers.html" style="background-color: #111000; color: white; margin: 15px; margin-top: 30px; padding: 5px;">Cronômetro</a>
+				<br/><br/>
+				<a href="cooldown.html" style="background-color: #111000; color: white; margin: 15px; margin-top: 30px; padding: 5px;">Calcular Cooldown</a>
+			</center>
+		</div>
+	</div>
+</div>
+<div class="container col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<h4><strong>Adivinhar Fuso Horário</strong></h4>
+<h5><strong>Digite as coordenadas do local em que vai jogar para adivinhar o fuso horário:</strong></h5>
 <input class="coordinate" id="input_coordinate" type="text" placeholder="XX.XXXXXX,YY.YYYYYY" autocomplete="off" style="width: 50%;" required>
 <div>&nbsp;</div>
 <button class="btn btn-default" id="btnSubmit" onclick="submitFunction()">Enviar</button>
 <button class="btn btn-default" id="btnClear" onclick="clearFunction()">Limpar</button>
-<div id="tzguessResult" style="font-size: large;"></div>
+
+<div id="tzguessResult" style="font-size: large;">em seguida veja abaixo o horário que o evento irá começar na região baseado no seu horário local.</div>
 
 </div>
 
@@ -812,8 +833,7 @@ Então, se o seu cooldown não terminar antes do dia da comunidade terminar naqu
 	</div>
 </div>
 <script src="js/index.js" type="text/javascript"></script>
-<script src="js/timeZone.js" type="text/javascript"></script>
+<script src="js/cd/cd-calc.js" type="text/javascript"></script>
 <script src="js/tz.js" type="text/javascript"></script>
-<script src="js/tzguess.js" type="text/javascript"></script>
 </body>
 </html>
