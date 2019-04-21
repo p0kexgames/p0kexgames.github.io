@@ -74,7 +74,7 @@ function countdownTimer() {
 	var seconds = 0;
 	for (var cnt = 0; cnt < allTimeZones.length; cnt++) {
 		var eventTime = moment.tz(startTime, allTimeZones[cnt]);
-		document.getElementById(buttonId[cnt]).innerHTML = "<strong>" + tzStrings[cnt] + "</strong><br>Evento começará em: " + eventTime.local().format("DD/MM/YYYY") + "  às  " + eventTime.local().format("HH:mm:ss") + " " + moment.tz(moment.tz.guess()).zoneAbbr();
+		document.getElementById(buttonId[cnt]).innerHTML = "<strong>" + tzStrings[cnt] + "</strong><br>Evento começará em: " + eventTime.local().format("DD/MM/YYYY") + "  às  " + eventTime.local().format("HH:mm:ss") + " (GMT " + moment.tz(moment.tz.guess()).zoneAbbr()+ ") horário local";
 	}
 	continueTimer();
 	function continueTimer() {
@@ -165,7 +165,7 @@ function submitFunction() {
 	var seconds = 0;
 	for (var cnt = 0; cnt < allTimeZones.length; cnt++) {
 		var eventTime = moment.tz(startTime, allTimeZones[cnt]);
-		document.getElementById(buttonId[cnt]).innerHTML = "<strong>" + tzStrings[cnt] + "</strong><br>Evento começará em: " + eventTime.local().format("DD/MM/YYYY") + "  às  " + eventTime.local().format("HH:mm:ss") + " " + moment.tz(moment.tz.guess()).zoneAbbr();
+		document.getElementById(buttonId[cnt]).innerHTML = "<strong>" + tzStrings[cnt] + "</strong><br>Evento começará em: " + eventTime.local().format("DD/MM/YYYY") + "  às  " + eventTime.local().format("HH:mm:ss") + " (GMT " + moment.tz(moment.tz.guess()).zoneAbbr()+ ") horário local";
 	}
 	continueTimer2();
 	function continueTimer2() {

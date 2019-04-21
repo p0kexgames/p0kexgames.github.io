@@ -36,9 +36,11 @@
 	</div>
 	
 	<div class='col-xs-12 col-sm-12 col-md-6 col-lg-6'>
-		<h3>Hora Local</h3>
+		<small><small>
+		<h4>Hora Local</h3>
 		<div id="displayMoment"></div>
-		<b style="font-size: 12px;"><strong>* A hora local é derivada do horário do seu smartphone / desktop</strong></b>
+		<b style="font-size: 10px;"><strong>* A hora local é derivada do horário do seu smartphone / desktop</strong></b>
+		</small></small>
 	</div>
   <br>
   <p style="text-align: justify; font-size: 12px;"><strong> .</strong></p>
@@ -53,15 +55,21 @@
 
 		<div class="container">
 			<style>
-          .btn { 
+          #coords1 .btn,#coords2 .btn,#coords3 .btn,#ninhos .btn { 
             color: #ffffff; 
-            background-color: #666666;
+            background-color: Transparent;
+            margin: 0px;
+           }
+		   
+          #regionais .btn { 
+            color: #ffffff; 
+            background-color: blue;
             margin: 5px;
            }
         </style>
 		
 		<button class="tzbar accordion" id=""><strong>Regionais</strong></button>
-		<div class="panel">
+		<div class="panel" id="regionais">
 			Lembre-se as coordenada aqui fornecidas são apenas os locais aproximados onde se podem encontrar os regionais, ao se teleportar para a coordenada de uma volta no local e fique alerta no NEARBY até encontrar o regional desejado.
 			<br/>
 			<br/>
@@ -148,53 +156,133 @@
 		</div>
 				
 		<button class="tzbar accordion" id=""><strong>Melhores locais para FARM</strong></button>
-		<div class="panel">	
+		<div class="panel" id="coords1">	
 		 ✈Coordenadas dos Melhores Locais do Planeta para jogar Pokémon GO✈*</br></br>
 
-		 1) <span class="flag-icon flag-icon-us"></span> Pier 39, Sao Francisco 37.8095,-122.4101</br>
+		 1) <span class="flag-icon flag-icon-us"></span> Pier 39, Sao Francisco 37.8095,-122.4101 
+		 <button class="btn" data-clipboard-text="37.8095,-122.4101">
+    		<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
+		 </button>
+		</br>
 
-		 2) <span class="flag-icon flag-icon-de"></span>  Oberhausen, Alemanha 51.490025,6.874931</br>
+		 2) <span class="flag-icon flag-icon-de"></span>  Oberhausen, Alemanha 51.490025,6.874931
+		 <button class="btn" data-clipboard-text="51.490025,6.874931">
+    		<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
+		 </button>
+		</br>
 
-		 3) <span class="flag-icon flag-icon-jp"></span> Kinshicho Station, Tóquio 35.6961,139.8144</br>
+		 3) <span class="flag-icon flag-icon-jp"></span> Kinshicho Station, Tóquio 35.6961,139.8144
+		 <button class="btn" data-clipboard-text="35.6961,139.8144">
+    		<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
+		 </button>
+		</br>
 
-		 4)  <span class="flag-icon flag-icon-dk"></span>  Shopping Fisketorvet, Copenhage, Dinamarca 55.6621,12.5617</br>
+		 4)  <span class="flag-icon flag-icon-dk"></span>  Shopping Fisketorvet, Copenhage, Dinamarca 55.6621,12.5617
+		 <button class="btn" data-clipboard-text="55.6621,12.5617">
+    		<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
+		 </button>
+		</br>
 
 		 5)  <span class="flag-icon flag-icon-fr"></span>  Shopping center Les Quatre Temps, Puteaux, 11 Stops parado
-		48.890533,2.238476</br>
+		48.890533,2.238476
+		 <button class="btn" data-clipboard-text="48.890533,2.238476">
+    		<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
+		 </button>
+		</br>
 
-		 6)  <span class="flag-icon flag-icon-us"></span>  Central Park, NYC 40.7803,-73.9630</br>
+		 6)  <span class="flag-icon flag-icon-us"></span>  Central Park, NYC 40.7803,-73.9630
+		 <button class="btn" data-clipboard-text="40.7803,-73.9630">
+    		<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
+		 </button>
+		</br>
 
-		 7)  <span class="flag-icon flag-icon-us"></span>  Pier de Santa Mônica  34.0076,-118.4996</br>
+		 7)  <span class="flag-icon flag-icon-us"></span>  Pier de Santa Mônica  34.0076,-118.4996
+		 <button class="btn" data-clipboard-text="34.0076,-118.4996">
+    		<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
+		 </button>
+		</br>
 
-		 8) <span class="flag-icon flag-icon-us"></span>  Times square, NYC 40.7589,-73.9851</br>
+		 8) <span class="flag-icon flag-icon-us"></span>  Times square, NYC 40.7589,-73.9851
+		 <button class="btn" data-clipboard-text="40.7589,-73.9851">
+    		<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
+		 </button>
+		</br>
 
-		 9) <span class="flag-icon flag-icon-us"></span>  Disneyland, Califórnia 33.8119,-117.9190</br>
+		 9) <span class="flag-icon flag-icon-us"></span>  Disneyland, Califórnia 33.8119,-117.9190
+		 <button class="btn" data-clipboard-text="33.8119,-117.9190">
+    		<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
+		 </button>
+		</br>
 
-		 10) <span class="flag-icon flag-icon-us"></span> Minneapolis, Muitos Pokéstops em linha reta  45.0301,-93.3193</br>
+		 10) <span class="flag-icon flag-icon-us"></span> Minneapolis, Muitos Pokéstops em linha reta  45.0301,-93.3193
+		 <button class="btn" data-clipboard-text="45.0301,-93.3193">
+    		<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
+		 </button>
+		</br>
 
-		 11) <span class="flag-icon flag-icon-us"></span> Liberty park, Utah 40.7442,-111.8748</br>
+		 11) <span class="flag-icon flag-icon-us"></span> Liberty park, Utah 40.7442,-111.8748
+		 <button class="btn" data-clipboard-text="40.7442,-111.8748">
+    		<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
+		 </button>
+		</br>
 
 		 12) <span class="flag-icon flag-icon-br"></span> Planetário do Parque Ibirapuera, SP
-		-23.584162,-46.660813</br>
+		-23.584162,-46.660813
+		 <button class="btn" data-clipboard-text="-23.584162,-46.660813">
+    		<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
+		 </button>
+		</br>
 
 		 13) <span class="flag-icon flag-icon-br"></span> Praça XV, Rio de Janeiro
-		-22.903064,-43.173136</br>
+		-22.903064,-43.173136
+		 <button class="btn" data-clipboard-text="-22.903064,-43.173136">
+    		<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
+		 </button>
+		</br>
 
 		 14) <span class="flag-icon flag-icon-fr"></span> Arredores da Torre Eiffel, Paris
-		48.8615, 2.2893</br>
+		48.8615, 2.2893
+		 <button class="btn" data-clipboard-text="48.8615, 2.2893">
+    		<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
+		 </button>
+		</br>
 
-		 15) <span class="flag-icon flag-icon-us"></span> Union Square, SF 37.7879,-122.4074</br>
+		 15) <span class="flag-icon flag-icon-us"></span> Union Square, SF 37.7879,-122.4074
+		 <button class="btn" data-clipboard-text="37.7879,-122.4074">
+    		<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
+		 </button>
+		</br>
 
-		 16) <span class="flag-icon flag-icon-au"></span> Sydney, Austrália -33.8610,151.2128</br>
+		 16) <span class="flag-icon flag-icon-au"></span> Sydney, Austrália -33.8610,151.2128
+		 <button class="btn" data-clipboard-text="-33.8610,151.2128">
+    		<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
+		 </button>
+		</br>
 
-		 17) <span class="flag-icon flag-icon-us"></span> Austin, Texas 30.2742,-97.7407</br>
+		 17) <span class="flag-icon flag-icon-us"></span> Austin, Texas 30.2742,-97.7407
+		 <button class="btn" data-clipboard-text="30.2742,-97.7407">
+    		<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
+		 </button>
+		</br>
 
 		 18) <span class="flag-icon flag-icon-us"></span> 60 Pokéstops em linha reta, Chicago
-		42.0411,-87.7102</br>
+		42.0411,-87.7102
+		 <button class="btn" data-clipboard-text="42.0411,-87.7102">
+    		<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
+		 </button>
+		</br>
 
-		 19) <span class="flag-icon flag-icon-id"></span> NgurahRai Airport, Ilha de Bali na Indonésia -8.7467,115.1667</br>
+		 19) <span class="flag-icon flag-icon-id"></span> NgurahRai Airport, Ilha de Bali na Indonésia -8.7467,115.1667
+		 <button class="btn" data-clipboard-text="-8.7467,115.1667">
+    		<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
+		 </button>
+		</br>
 
-		 20) <span class="flag-icon flag-icon-gb"></span> Big Ben, Londres 51.5010,-0.1246</br>
+		 20) <span class="flag-icon flag-icon-gb"></span> Big Ben, Londres 51.5010,-0.1246
+		 <button class="btn" data-clipboard-text="51.5010,-0.1246">
+    		<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
+		 </button>
+		</br>
 
 		 21) <span class="flag-icon flag-icon-jp"></span> Disneyland, Tóquio 35.6312,139.8809</br>
 
@@ -244,21 +332,21 @@
 		</div>
 
 		<button class="tzbar accordion" id=""><strong>Melhores locais para FARM (2)</strong></button>
-		<div class="panel">	
+		<div class="panel" id="coords2">	
 		🛡MAIS UMA LISTA TOP 🛡</br></br>
-		*_Esta lista es para aprovechar eventos de XP ya que al girar pokeparadas nuevas con huevo de la suerte la XP aumenta considerablemente_*
+		*_Esta lista é para aproveitar eventos de XP já que ao girar pokestops novos con lucky egg a XP aumenta consideravelmente_*
 		</br></br>
 		 <span class="flag-icon flag-icon-us"></span> *New Haven*
-		*1 Huevo De La Suerte Para Girar Pokeparadas*
+		*1 Lucky Egg Para Girar Pokestops*
 		41.31553156902193, -72.92388430773028</br>
 
 		<span class="flag-icon flag-icon-us"></span> *Philadelphia*
-		*3 a 4 Huevos De La Suerte*
+		*3 a 4 Lucky Egg*
 		39.95178953189679, -75.16569636762142</br>
 
 		<span class="flag-icon flag-icon-us"></span> *Philadelphia zoológico*
 		*Cerca del centro*
-		*1huevo de la suerte*
+		*1Lucky Egg*
 		39.97451043556386, -75.19639452159512</br>
 
 		<span class="flag-icon flag-icon-us"></span> *Washington DC*
@@ -271,50 +359,50 @@
 		38.929558231395994, -77.04973664134741</br>
 
 		 <span class="flag-icon flag-icon-us"></span> *Porttland*
-		*1 huevo de la suerte*
+		*1 Lucky Egg*
 		43.657735685443264, -70.25462892114955</br>
 
 		<span class="flag-icon flag-icon-us"></span> *Orlando*
-		*2 huevos de la suerte*
+		*2 Lucky Egg*
 		28.538700109853306, -81.37881930917501</br>
 
 		 <span class="flag-icon flag-icon-us"></span> *Atlanta*
-		*2 huevos de la suerte*
+		*2 Lucky Egg*
 		33.7540347799262, -84.38953202595874</br>
 
 		<span class="flag-icon flag-icon-us"></span> *Dallas*
-		*1 a 2 Huevos de la suerte*
+		*1 a 2 Lucky Egg*
 		32.78934675405431, -96.80171533713751</br>
 
 		<span class="flag-icon flag-icon-us"></span> *Houston*
-		*1 a 2 huevos de la suerte*
+		*1 a 2 Lucky Egg*
 		29.76027065198957, -95.3701130300760</br>
 
 		<span class="flag-icon flag-icon-us"></span> *San Diego*
-		*2 a 3 huevos de la suerte*
+		*2 a 3 Lucky Egg*
 		32.71641005476639, -117.16203558007295</br>
 
 		<span class="flag-icon flag-icon-us"></span> *Los Ángeles*
 		*City Hall*
-		*2 huevos de la suerte*
+		*2 Lucky Egg*
 		34.0534773065869, -118.24124229341191</br>
 
 		<span class="flag-icon flag-icon-us"></span> *Los Ángeles*
 		*Memorial coliseo*
-		*2 huevos de la suerte*
+		*2 Lucky Egg*
 		34.01495378215627, -118.28656471788291</br>
 
 		<span class="flag-icon flag-icon-us"></span> *Los Angeles*
 		*Beverly Hills*
-		*1 a 2 huevos*
+		*1 a 2 Lucky Egg*
 		 34.07075873249537, -118.40322855859995</br>
 
 		<span class="flag-icon flag-icon-us"></span> *Sacramento California*
-		*Varios huevos de la suerte*
+		*Varios Lucky Egg*
 		 38.57665659786684, -121.49535210588718</br>
 
 		<span class="flag-icon flag-icon-us"></span> *Oakland California*
-		*2 huevo o +*
+		*2 Lucky Egg o +*
 		37.8040985070104, -122.27137394249439</br>
 
 		<span class="flag-icon flag-icon-us"></span> *San Francisco Stow Lake* *Golden Gate Park*
@@ -323,23 +411,23 @@
 
 		<span class="flag-icon flag-icon-us"></span> *San Francisco*
 		*Parque Local*
-		*2 huevos de la suerte*
+		*2 Lucky Egg*
 		37.792169647844325, -122.41217315196992</br>
 
 		<span class="flag-icon flag-icon-us"></span> *Long Beach Los Ángeles*
-		*1 huevo*
+		*1 Lucky Egg*
 		 33.7700,-118.1937</br>
 
 		<span class="flag-icon flag-icon-us"></span> *Niantic Hq California*
-		*4 o + huevos*
+		*4 o + Lucky Egg*
 		 37.7894,-122.4016</br>
 
 		<span class="flag-icon flag-icon-us"></span> *Toms Loop, Ann Arbor Michigan*
-		*2 o + huevos*
+		*2 o + Lucky Egg*
 		 42.2808,-83.7430</br>
 
 		<span class="flag-icon flag-icon-us"></span> *Times square, NewYork*
-		*4 o + huevos*
+		*4 o + Lucky Egg*
 		 40.7589,-73.9851</br>
 
 		<span class="flag-icon flag-icon-us"></span> *60 Pokestops Chicago*
@@ -347,7 +435,7 @@
 		 42.0411,-87.7102</br>
 
 		<span class="flag-icon flag-icon-us"></span> *Austin Texas*
-		*2 o + huevos*
+		*2 o + Lucky Egg*
 		 30.2742,-97.7407</br>
 
 		<span class="flag-icon flag-icon-us"></span> *Union Square California*
@@ -359,23 +447,19 @@
 		 40.7442,-111.8748</br>
 
 		<span class="flag-icon flag-icon-us"></span> *Central Park Manhattan NewYork*
-		*2 o + huevos*
+		*2 o + Lucky Egg*
 		 40.7803,-73.9630</br>
 
 		<span class="flag-icon flag-icon-us"></span> *Minneapolis Cementerio*
-		*1 huevo*
+		*1 Lucky Egg*
 		 45.01536025961122, -93.31915164917761</br>
 
 		<span class="flag-icon flag-icon-us"></span> *Disneyland Park*
-		*1 o + huevos*
+		*1 o + Lucky Egg*
 		 33.8119,-117.9190</br>
 
-		<span class="flag-icon flag-icon-us"></span> *SF Pier 39*
-		*Farmeo intensivo de pokes de agua+ Raid*
-		 37.8095,-122.4101</br>
-
 		<span class="flag-icon flag-icon-it"></span> *Roma Italia*
-		*2 o + huevos*
+		*2 o + Lucky Egg*
 		 41.900625529705685, 12.499999826242771</br>
 
 		<span class="flag-icon flag-icon-it"></span> *Roma 2 Colosseo*
@@ -387,51 +471,51 @@
 		41.90304362629451, 12.4539655074477</br>
 
 		 <span class="flag-icon flag-icon-it"></span> *Nápoli Italia*
-		*2 o + huevos*
+		*2 o + Lucky Egg*
 		40.8476997349174, 14.261621497571468</br>
 
 		<span class="flag-icon flag-icon-it"></span> *Siena Italia*
-		*2 o + huevos*
+		*2 o + Lucky Egg*
 		43.31836872483585, 11.33177150040865</br>
 
 		<span class="flag-icon flag-icon-it"></span> *Florencia Italia*
-		*1 o + huevos*
+		*1 o + Lucky Egg*
 		43.76125449793901, 11.244141415764226</br>
 
 		<span class="flag-icon flag-icon-it"></span> *Cesena Italia*
-		*1 o + huevos*
+		*1 o + Lucky Egg*
 		44.137154132737756, 12.241962365806103</br>
 
 		<span class="flag-icon flag-icon-it"></span> *Bologna Italia*
-		*2 o + huevos*
+		*2 o + Lucky Egg*
 		44.49444166766633, 11.342065818607807</br>
 
 		<span class="flag-icon flag-icon-it"></span> *Milán Italia*
-		*3 o más huevos*
+		*3 o más Lucky Egg*
 		45.46310868236533, 9.191230237483978</br>
 
 		<span class="flag-icon flag-icon-it"></span> *Turín Italia*
-		*Muy bueno 3 o + huevos*
+		*Muy bueno 3 o + Lucky Egg*
 		45.06946574892149, 7.685122601687908</br>
 
 		<span class="flag-icon flag-icon-jp"></span> *Dunas de TOTTORI*
-		*1 huevo*
+		*1 Lucky Egg*
 		 35.5440,134.2320</br>
 
 		<span class="flag-icon flag-icon-jp"></span> *Yokohama Japón*
-		*4 o + huevos Buenísimo*
+		*4 o + Lucky Egg Buenísimo*
 		35.44345,139.63754</br>
 
 		<span class="flag-icon flag-icon-jp"></span>  *Hiroshima Japón*
-		*1 o + Huevos*
+		*1 o + Lucky Egg*
 		34.39187,132.46175</br>
 
 		<span class="flag-icon flag-icon-jp"></span> *Tokyo Disneyland*
-		*1 o + huevos*
+		*1 o + Lucky Egg*
 		 35.6312,139.8809</br>
 
 		<span class="flag-icon flag-icon-jp"></span>*Tokio Japón*
-		*Exelente 4 o + huevo*
+		*Exelente 4 o + Lucky Egg*
 		35.6961,139.8144</br>
 
 		 - *2da cordenada*
@@ -441,87 +525,87 @@
 		 35.70988718428852, 139.79263845831156</br>
 
 		<span class="flag-icon flag-icon-de"></span> *Alemania Overhausen*
-		*1 o + huevos + cebos en abundancia*
+		*1 o + Lucky Egg + cebos en abundancia*
 		51.4900255429401, 6.874931529164315</br>
 
 		<span class="flag-icon flag-icon-de"></span> *Dortmund Alemania*
-		*2 o + huevos*
+		*2 o + Lucky Egg*
 		51.512747785099165, 7.464047558605672</br>
 
 		<span class="flag-icon flag-icon-de"></span> *Colonia Alemania*
-		*1 o + huevos*
+		*1 o + Lucky Egg*
 		50.93741243427256, 6.9596923515200615</br>
 
 		<span class="flag-icon flag-icon-de"></span> *Stuttgart Alemania*
-		*2 o + huevos*
+		*2 o + Lucky Egg*
 		48.776567212368185, 9.181417711079122</br>
 
 		<span class="flag-icon flag-icon-de"></span> *Munich Alemania*
-		*2 o + huevos*
+		*2 o + Lucky Egg*
 		48.13629300271557, 11.575765013694763</br>
 
 		<span class="flag-icon flag-icon-de"></span> *Hamburgo Alemania*
-		*2 o + huevos*
+		*2 o + Lucky Egg*
 		53.550362050813085, 9.992399029433727</br>
 
 		<span class="flag-icon flag-icon-de"></span> *Berlín Alemania*
-		*2 o + huevos*
+		*2 o + Lucky Egg*
 		52.51762455319561, 13.397922366857529</br>
 
 		<span class="flag-icon flag-icon-es"></span> *Málaga España*
-		*1 o + huevos*
+		*1 o + Lucky Egg*
 		36.725834562011926, -4.421746954321861</br>
 
 		<span class="flag-icon flag-icon-es"></span> *Sevilla España*
-		*1 o + huevos*
+		*1 o + Lucky Egg*
 		37.38963113183774, -5.984828732907771</br>
 
 		<span class="flag-icon flag-icon-es"></span> *Zaragoza España*
-		*1 o + huevos*
+		*1 o + Lucky Egg*
 		41.649843090178926, -0.8875446394085884</br>
 
 		<span class="flag-icon flag-icon-es"></span> *Bilbao España*
-		 *1 o + huevos*
+		 *1 o + Lucky Egg*
 		43.26476999367929, -2.9376716896999255</br>
 
 		<span class="flag-icon flag-icon-es"></span> *Valencia España*
-		*1 o + Huevos*
+		*1 o + Lucky Egg*
 		41.384933, 2.1753798</br>
 
 		<span class="flag-icon flag-icon-es"></span> *Barcelona España*
-		*2 o + Huevos*
+		*2 o + Lucky Egg*
 		41.384933, 2.1753798</br>
 
 		<span class="flag-icon flag-icon-es"></span> *Madrid España*
-		*2 o + Huevos*
+		*2 o + Lucky Egg*
 		40.413568547598814, -3.7131076678633685</br>
 
 		<span class="flag-icon flag-icon-fr"></span> *Lion Francia*
-		*2 o + huevos de la suerte*
+		*2 o + Lucky Egg*
 		45.76418798146988, 4.834103398025036</br>
 
 		<span class="flag-icon flag-icon-fr"></span> *París Francia*
-		*3 o + huevos de la suerte*
+		*3 o + Lucky Egg*
 		48.846516981439024, 2.3373570665717125</br>
 
 		<span class="flag-icon flag-icon-fr"></span> *Centro comercial Francia*
-		*1 o + huevo + cebos en  abundancia*
+		*1 o + Lucky Egg + cebos en  abundancia*
 		48.89066503424116, 2.2385823726654053</br>
 
 		<span class="flag-icon flag-icon-fr"></span>  *Paris Disney Francia*
-		*1 o + huevos*
+		*1 o + Lucky Egg*
 		48.8725,2.7775</br>
 
 		<span class="flag-icon flag-icon-cl"></span> *Cementerio General Santiago*
-		*1 o + Huevos*
+		*1 o + Lucky Egg*
 		-33.41791,-70.65017</br>
 
 		<span class="flag-icon flag-icon-cl"></span> *Santiago Chile*
-		*3 o + huevos*
+		*3 o + Lucky Egg*
 		-33.44744,-70.66644</br>
 
 		<span class="flag-icon flag-icon-cl"></span> *Valparaíso Chile*
-		*1 o + huevos*
+		*1 o + Lucky Egg*
 		-33.0442, -71.60648</br>
 
 		<span class="flag-icon flag-icon-kr"></span> *Busan*
@@ -530,85 +614,85 @@
 		 35.157340954337506, 129.05769969398378</br>
 
 		<span class="flag-icon flag-icon-kr"></span> *Songpa - Gu Korea*
-		*1 o + huevos + Farmeo*
+		*1 o + Lucky Egg + Farmeo*
 		37.5113,127.0980</br>
 
 		<span class="flag-icon flag-icon-au"></span> *Parque Queen Victoria Melbourne*
 		-37.822692,144.97206
-		*2 o + huevos*</br>
+		*2 o + Lucky Egg*</br>
 
 		<span class="flag-icon flag-icon-au"></span> *Sydney Botanical*
-		*4 o + huevos + farmeo en abundancia* -33.8643,151.2155</br>
+		*4 o + Lucky Egg + farmeo en abundancia* -33.8643,151.2155</br>
 
 		<span class="flag-icon flag-icon-au"></span> *Toronto Canadá*
-		*2 huevo o +*
+		*2 Lucky Egg o +*
 		43.6594739065908, -79.39168398231537</br>
 
 		<span class="flag-icon flag-icon-ca"></span> *Montreal Canadá*
-		*2 huevos o +*
+		*2 Lucky Egg o +*
 		45.50114955817829, -73.56746055185795</br>
 
 		<span class="flag-icon flag-icon-tw"></span> *Filipinas Manila*
-		*2 huevos de la suerte*
+		*2 Lucky Egg*
 		14.650666652909932, 121.04887437075378</br>
 
 		<span class="flag-icon flag-icon-ch"></span> *Zurich Suiza*
-		*Muy bueno 3 o + huevos*
+		*Muy bueno 3 o + Lucky Egg*
 		47.37511668838657, 8.541231416165829</br>
 
 		<span class="flag-icon flag-icon-be"></span> *Luxemburgo*
-		*2 o + huevos*
+		*2 o + Lucky Egg*
 		49.61239208663797, 6.133179031312466</br>
 
 		<span class="flag-icon flag-icon-be"></span> *Bruselas Bélgica*
-		*2 o + huevos*
+		*2 o + Lucky Egg*
 		50.84719360625939, 4.350441098213197</br>
 
 		<span class="flag-icon flag-icon-nl"></span> *Holanda Países Bajos Amsterdam*
-		*2 o + huevos*
+		*2 o + Lucky Egg*
 		52.373216634674996, 4.89100445061922</br>
 
 		<span class="flag-icon flag-icon-ar"></span> *Buenos Aires Argentina*
-		*3 o + huevos*
+		*3 o + Lucky Egg*
 		-34.604954261516276, -58.38122930377721</br>
 
 		<span class="flag-icon flag-icon-tw"></span> *Taiwan Tampei*
-		*Exelente 4 o + Huevos*
+		*Exelente 4 o + Lucky Egg*
 		 25.025608, 121.53711</br>
 
 		<span class="flag-icon flag-icon-br"></span> *Río de Janeiro*
-		*1 o + Huevos*
+		*1 o + Lucky Egg*
 		-22.90783,-43.173065</br>
 
 		<span class="flag-icon flag-icon-dk"></span> *Dinamarca Copenhague*
-		*Solo Farmeo 30 pokeparadas juntas*
+		*Solo Farmeo 30 Pokestops juntas*
 		55.662380,12.562396</br>
 
 		<span class="flag-icon flag-icon-mx"></span> *Mexico Alameda*
-		*2 o + huevos + cebos*  19.4362,-99.1443</br>
+		*2 o + Lucky Egg + cebos*  19.4362,-99.1443</br>
 
 		<span class="flag-icon flag-icon-us"></span> *Rigos Loop Hawaii*
-		*1 o + huevo*
+		*1 o + Lucky Egg*
 		 21.2983,-157.8601</br>
 
 		<span class="flag-icon flag-icon-gb"></span> *Big Ben, London*
-		*3 o + Huevos*
+		*3 o + Lucky Egg*
 		  51.5010,-0.1246</br>
 
 		<span class="flag-icon flag-icon-sg"></span>  *NgurahRai Airport Singapur*
-		*1 huevo*
+		*1 Lucky Egg*
 		 -8.745020436987492, 115.16737290813</br>
 
 		<span class="flag-icon flag-icon-sg"></span> *Singapur*
-		*1 huevo*
+		*1 Lucky Egg*
 		1.3394167, 103.72847
 
 		</div>
 
 		<button class="tzbar accordion" id=""><strong>Melhores locais para FARM (3)</strong></button>
-		<div class="panel">	
+		<div class="panel" id="coords3">	
 		🔥 *ZONAS FARMING*🔥</br>
-		(Zonas repletas de Pokeparadas)</br></br>
+		(Zonas repletas de Pokestops)</br></br>
 
 		Dinamarca  <span class="flag-icon flag-icon-dk"></span>: 55.66256,12.56215</br>
 		Alemania    <span class="flag-icon flag-icon-de"></span>:  51.491540,6.880568</br>
@@ -626,7 +710,7 @@
 			<br/><br/><br/>
 		
 		<button class="tzbar accordion" id=""><strong>Ninhos Atualizados</strong> (19/4 á 2/5, de 2019) </button>
-		<div class="panel">
+		<div class="panel" id="ninhos">
 		
 			<h2 align="center"><strong>Listα de Ninhos αtuαlizαdαs</strong></br><small>válida de 19/4 até 2/5 de 2019</small> </h2>
 			<h3 align="center"></h3>
