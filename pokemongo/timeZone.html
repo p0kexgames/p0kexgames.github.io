@@ -55,26 +55,37 @@
 		<a href="cooldown.html">Cooldown</a>
 		</small></small></i>
   </li>
-  <li><a href="coords.html">Coordenadas e Ninhos</a></li>
+  <li><a href="coords.html">Coordenadas</a></li>
 </ul>
-<div class="container col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin-top:15px;margin-bottom:15px;box-shadow: 0 0 15px;border-radius: 50px;border: 1px solid #ccc;">
-	<div class='col-xs-12 col-sm-12 col-md-6 col-lg-6'>	
-		<h3>Próximo dia da comunidade	 (<i id='diacomunidade'></i>)</h3>
-		
-		<ul>
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+    <li class="breadcrumb-item" aria-current="page">Dia da comunidade</li>
+  </ol>
+</nav>
+
+<div class="container">
+<div class="card">
+  <div class="card-header">
+    Próximo dia da comunidade 
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">(<i id='diacomunidade'></i>)</h5>
+    
+	<ul class="card-text col-xs-12 col-sm-12 col-md-6 col-lg-6">
 		<li><strong>Pokémon:&nbsp;&nbsp;</strong><i id='pokemondiacomunidade'></i></li>
 		<li><strong>Ataque Especial:&nbsp;&nbsp;</strong><i id='ataqueexclusivo'></i></li>
 		<li><strong>Bonus:&nbsp;&nbsp;</strong><i id='bonus1'></i></li>
 		<li><strong>Bonus:&nbsp;&nbsp;</strong><i id='bonus2'></i></li>
 		<li><strong>Começa às:&nbsp;&nbsp;</strong>15-18hs Horario local</li>
-		</ul>
 		<center><small><a target="_blank" href="https://shadow0403bsr.github.io/Timer/index.html">* idéia retirada de <strong>♤DarkShadow♤, Ace Trainer e Pokedex100</strong></a></small></center>
-	</div>
-	<div class='col-xs-12 col-sm-12 col-md-6 col-lg-6'>	
-		<div class='col-xs-12 col-sm-12 col-md-6 col-lg-6'>
+	</ul>
+    <div class="card-text col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="card-text col-xs-12 col-sm-12 col-md-6 col-lg-6">
 			<img src="./resources/nextCD.png" alt="Shiny Family" title="Shiny Family" style="width: 100%;">
 		</div>
-		<div class='col-xs-12 col-sm-12 col-md-6 col-lg-6'><br/><br/>
+		<div class="card-text col-xs-12 col-sm-12 col-md-6 col-lg-6">
 			<center>
 				<a href="timers.html" style="background-color: #111000; color: white; margin: 15px; margin-top: 30px; padding: 5px;">Cronômetro</a>
 				<br/><br/>
@@ -82,14 +93,21 @@
 			</center>
 		</div>
 	</div>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
 </div>
-<div class="container col-xs-12 col-sm-12 col-md-12 col-lg-12">
+</div>
+
+<div class="container col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin-top:15px;margin-bottom:15px;box-shadow: 0 0 15px;border-radius: 50px;border: 1px solid #ccc;">
 <h4><strong>Adivinhar Fuso Horário</strong></h4>
 <h5><strong>Digite as coordenadas do local em que vai jogar para adivinhar o fuso horário:</strong></h5>
 <input class="coordinate" id="input_coordinate" type="text" placeholder="XX.XXXXXX,YY.YYYYYY" autocomplete="off" style="width: 50%;" required>
 <div>&nbsp;</div>
 <button class="btn btn-default" id="btnSubmit" onclick="submitFunction()">Enviar</button>
 <button class="btn btn-default" id="btnClear" onclick="clearFunction()">Limpar</button>
+	
+</div>
+<div class="container col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
 <div id="tzguessResult" style="font-size: large;">em seguida veja abaixo o horário que o evento irá começar na região baseado no seu horário local.</div>
 
