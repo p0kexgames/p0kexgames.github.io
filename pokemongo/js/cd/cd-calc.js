@@ -1,11 +1,11 @@
-var diacomunidade = "19 de Maio";
-var novoPoke = "Torchic";
-var ataqueExclusivo ="Queimadura Explosiva";
-var bonusCD1 ="x3 Stardust";
+var diacomunidade = "8 de Junho";
+var novoPoke = "Slakoth";
+var ataqueExclusivo ="Pancada Corporal";
+var bonusCD1 ="1/4 Egg Hatch";
 var bonusCD2 ="3 Horas Lure";
 		
-var startTime = "2019-05-19 15:00:00";
-var stopTime = "2019-05-19 18:00:00";
+var startTime = "2019-06-08 15:00:00";
+var stopTime = "2019-06-08 18:00:00";
 
 var endTime = stopTime;
 
