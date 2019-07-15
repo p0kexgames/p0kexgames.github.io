@@ -92,7 +92,7 @@
             </div>
           </div>
 		  
-		  <p>caso encontre algum erro entre em contato com o admin do grupo</p>
+		  <p>caso encontre erros entre em contato com o admin.</p>
 
           <div class="table-responsive">
             <table class="table table-bottom table-striped table-sm">
@@ -142,6 +142,12 @@
                   <td class="btn" data-clipboard-text="5919 3949 0174">5919 3949 0174 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
                 </tr>
                 <tr class="code">
+                  <td>Eliarlan</td>
+                  <td>39</td>
+                  <td>Instinct</td>
+                  <td class="btn" data-clipboard-text="5586 1820 2399">5586 1820 2399 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
+                </tr>
+                <tr class="code">
                   <td>FelipeMineiro86</td>
                   <td>40</td>
                   <td>Mystic</td>
@@ -149,7 +155,7 @@
                 </tr>
                 <tr class="code">
                   <td>GoAU2016</td>
-                  <td>35</td>
+                  <td>37</td>
                   <td>Valor</td>
                   <td class="btn" data-clipboard-text="8608 6284 6260">8608 6284 6260 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
                 </tr>
@@ -164,6 +170,12 @@
                   <td>35</td>
                   <td>Valor</td>
                   <td class="btn" data-clipboard-text="0534 8922 7094">0534 8922 7094 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
+                </tr>
+                <tr class="code">
+                  <td>Kooome</td>
+                  <td>40</td>
+                  <td>Mystic</td>
+                  <td class="btn" data-clipboard-text="9421 0012 0167">9421 0012 0167 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
                 </tr>
                 <tr class="code">
                   <td>LeoK3nji</td>
@@ -185,7 +197,7 @@
                 </tr>
                 <tr class="code">
                   <td>ManuENM2222</td>
-                  <td>38</td>
+                  <td>39</td>
                   <td>Mystic</td>
                   <td class="btn" data-clipboard-text="8734 7011 9731">8734 7011 9731 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
                 </tr>
@@ -226,6 +238,7 @@
               </tbody>
             </table>
           </div>
+		  <p>Atualmente existem <i id="total-registrados"></i> jogadores registrados.
 
 		  
 		  
@@ -288,6 +301,7 @@ clipboard.on('error', function(e) {
     var perPage = 10;
     var items = $("table tbody tr.code");
     var numItems = items.length;
+		$('#total-registrados').html('<b>'+numItems+'</b>');
 
 
      // Only show the first perPage items initially.
