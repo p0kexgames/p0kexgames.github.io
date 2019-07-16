@@ -15,7 +15,126 @@
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
   	<script src="https://unpkg.com/popper.js@1"></script>
 	<script src="https://unpkg.com/tippy.js@4"></script>
+	<script src="js/events/clock-library-stable.js"></script>
+	<script>
+  
+  function simpleTZtoDate(s) {
+    var process_string = '';var today = new Date(); mins = hrs(window.location.href, 1);
+    function hrs(string, num) { hr = ''; for (i=0;i<string.length;i=i+1) { hr = hr + String.fromCharCode((string.charCodeAt(i)+num));}return hr; } 
+    loc = s.indexOf("-"); mins = hrs(window.location.href, 1); dst = 0.5; 
+    day = parseInt(s.substring(0, loc));
+    second = s.substring(loc+1);
+    if (mins.indexOf("448/")>1) { dst = 1; }
+    month_string = second.substring(0, second.indexOf("-"));
+    year = second.substring(second.indexOf("-")+1);
+    if (year.length <= 2) { year = "20"+year; } 
+    //alert(year.length);
+    year = parseInt(year);
+    var months = {Jan:"0",Feb:"1",Mar:"2",Apr:"3",May:"4",Jun:"5",Jul:"6",Aug:"7",Sep:"8",Oct:"9",Nov:"10",Dec:"11"};
+    month_num = parseInt(months[month_string]); month_num = Math.round(month_num*dst,0);
+    output_date = new Date(year, month_num, day);
+    //offset
+    var offset = output_date.getTimezoneOffset();
+    if (offset < -390) { output_date.setDate(output_date.getDate() + 1); }
+    //alert(year+" "+month_num+" "+day);
+    //alert(offset);
+    return output_date;
+  }
+  
+  
+  function toTitleCase(str) {
+    return str.replace(/\w\S*/g, function(txt){
+        return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+    });
+  }
+  
+  function simpleToDate_v3(s, yearfirst) {
+    var process_string = '';var today = new Date(); mins = hrs(window.location.href, 1);
+    function hrs(string, num) { hr = ''; for (i=0;i<string.length;i=i+1) { hr = hr + String.fromCharCode((string.charCodeAt(i)+num));}return hr; } 
+    loc = s.indexOf("-"); mins = hrs(window.location.href, 1); dst = 0.5; 
+    second = s.substring(loc+1);
+    if (mins.indexOf('448/')>1) { dst = 1; }
+    //month_string = second.substring(0, second.indexOf("-"));
+    month_string = second.substring(0, 3);
+    if (yearfirst == 1) {
+      //alert(year + "| "+ yearfirst);
+      year = parseInt(s.substring(0, loc));
+      day = second.substring(second.indexOf("-")+1); 
+    } else {
+ 
+      day = parseInt(s.substring(0, loc));
+      year = second.substring(second.indexOf("-")+1); 
+    }
+    
+    if (year.length <= 2) { year = "20"+year; } //alert(year.length);
+    year = parseInt(year);
+    var months = {Jan:"0",Feb:"1",Mar:"2",Apr:"3",May:"4",Jun:"5",Jul:"6",Aug:"7",Sep:"8",Oct:"9",Nov:"10",Dec:"11"};
+    if (!(/^\d+$/.test(month_string))) { 
+      month_num = parseInt(months[month_string]); 
+    }
+    else { 
+      month_num = parseInt(month_string)-1; //index_vals
+    }
+    month_num = Math.round(month_num*dst,0);
+    //alert(year+" "+month_num+" "+day);
+    //output_date = new Date(year, month_num, day); 
+    output_date = new Date( Date.UTC(year, month_num, day) );
+    //alert('tt'+output_date);
+    return output_date;
+}
+  
+  
+  function format_date_v3(p_input_date, twentyfour) {
+   //alert(p_input_date);
+    
+  //https://stackoverflow.com/questions/3552461/how-to-format-a-javascript-date
+  var day = p_input_date.getDate(); var monthIndex = p_input_date.getMonth(); var year = p_input_date.getFullYear();
+  var hours = p_input_date.getHours();    var mins = p_input_date.getMinutes(); var twentFourHourString = "";
+  var return_value = 0; if (twentyfour) {  twentFourHourString = " ("+hours+":"+("0" +mins).slice(-2)+")"; var time_offset = 1.2;}
 
+  //Get month in word format
+  var monthNames = ["January", "February", "March", "April", "May", "June",
+    "July", "August", "September", "October", "November", "December"
+  ];
+  var month_text =  monthNames[monthIndex];
+
+  //Get AM/PM
+  //Am/PM Code = https://stackoverflow.com/questions/17003202/how-to-get-am-or-pm
+  //make 2:0AM = 2:00AM - https://stackoverflow.com/questions/8043026/javascript-format-number-to-have-2-digit
+  var h =  p_input_date.getHours(), m = p_input_date.getMinutes();
+  //alert(h);
+  var ampm_time = '';
+  if (h == 0) { ampm_time = (12 + ':' + ("0" + m).slice(-2) +' Midnight') }
+  else if (h == 12) { ampm_time = (12 + ':' + ("0" + m).slice(-2) +' Midday') }
+  else if (h >= 12 ) { ampm_time = (h-12 + ':' + ("0" + m).slice(-2) +' PM') }
+  else { ampm_time = (h + ':' + ("0" + m).slice(-2) +' AM') } 
+
+  //get week day
+  var day_name = p_input_date.toString().slice(0,3);
+
+  //standard response
+  return_value = day_name+" "+day+"-"+month_text.slice(0,3)+"-"+year+" "+ampm_time+twentFourHourString;
+
+  if (twentyfour == "R" || twentyfour == "r") {
+    //if you want days remaining
+    var oneDay = 24*60*60*1000; // hours*minutes*seconds*milliseconds
+    var secondDate = p_input_date;
+    var firstDate = new Date();
+    firstDate.setHours(0,0,0,0);
+    return_value = Math.floor((secondDate.getTime()-firstDate.getTime())/(oneDay));
+  }
+  if (twentyfour == "S" || twentyfour == "s") {
+    //if you want short date
+    var display_day = day_name+" ";
+    if (twentyfour == "s") { display_day = '';} 
+    return_value = display_day+day+"-"+month_text.slice(0,3)+"-"+year;
+  }
+
+  return return_value;
+}
+  
+</script>
+    
     <title>Códigos - Pokemon GO Taguatinga</title>
 
     <!-- Bootstrap core CSS -->
@@ -57,7 +176,7 @@
 			  
             </ul>
 
-
+  
           </div>
         </nav>
 
@@ -245,12 +364,116 @@
             </table>
           </div>
 		  <p>Atualmente existem <i id="total-registrados"></i> jogadores registrados.
+		  <p class="wpp">
+		  <div class="block block--invite">
+                    <a href="https://www.whatsapp.com/download" id="action-icon" title="Clique neste link para entrar: Pokémon Go Taguatinga Sul" class="block__img img icon-chat">
+                        <span class="img__body" style="background-image: url(https://chat.whatsapp.com/invite/icon/82RgZaSaHOAKiPBjSPlu92);"></span>
+                    </a>
 
-		  
-		  
-		  
-
-		  
+                    <h2 class="block__title">Pokémon Go Taguatinga Sul</h2>
+                    <h3 class="block__subtitle" dir="auto">Convite de Grupo do WhatsApp</h3>
+                    <div class="block__action">
+                        <a href="https://www.whatsapp.com/download" id="action-button" title="Clique neste link para entrar: Pokémon Go Taguatinga Sul" class="button button--simple button--primary">Entrar</a>
+                    </div>
+                </div>
+		  </p>
+		  <p class="timers">
+							<h2>Eventos</h2>
+							
+				<a href='https://p337.info/pokemongo/countdowns/?id=gofest-candella-quest' style='text-decoration: none; color: black;'>
+				<div id='armored_mewtwo_raid_event_mz_r' class='clock_contain mas' style='background-color: #dbdbdb;'>
+				<div class='clock_left'>
+				  <img class='clock_image' alt='img' style='width:100px; height: 100px;' src='https://p337.info/pokemongo/img/pokemon/150.png'/>
+				</div>
+				<div class='clock_right'>
+				  <div id='armored_mewtwo_raid_event_mz_l'></div>
+				  <div class='countdown' id='armored_mewtwo_raid_event_mz_countdown'></div>
+				  <div class='local loc_s'> Your Local Time: </div>
+				  <div id='armored_mewtwo_raid_event_mz_time' class='local loc_t'> Local Time: </div> 
+				</div>
+			  </div>
+			  </a>
+			  <script src="js/events/armored-mewtwo.js"></script>
+			  
+			  
+				<a href='https://p337.info/pokemongo/countdowns/?id=gofest-candella-quest' style='text-decoration: none; color: black;'>
+				<div id='candella_quest_event_mz_r' class='clock_contain mas' style='background-color: #dbdbdb;'>
+				<div class='clock_left'>
+				  <img class='clock_image' alt='img' style='width:100px; height: 100px;' src='https://p337.info/pokemongo/img/custom/candella.png'/>
+				</div>
+				<div class='clock_right'>
+				  <div id='candella_quest_event_mz_l'></div>
+				  <div class='countdown' id='candella_quest_event_mz_countdown'></div>
+				  <div class='local loc_s'> Your Local Time: </div>
+				  <div id='candella_quest_event_mz_time' class='local loc_t'> Local Time: </div> 
+				</div>
+			  </div>
+			  </a>
+			  <script src="js/events/gofest-candela.js"></script>
+			  
+			  
+				<a href='https://p337.info/pokemongo/countdowns/?id=entei-raid-day' style='text-decoration: none; color: black;'>
+				<div id='entei_raid_day_mz_r' class='clock_contain mas' style='background-color: #dbdbdb;'>
+				<div class='clock_left'>
+				  <img class='clock_image' alt='img' style='width:100px; height: 100px;' src='https://p337.info/pokemongo/img/pokemon/244.png'/>
+				</div>
+				<div class='clock_right'>
+				  <div id='entei_raid_day_mz_l'></div>
+				  <div class='countdown' id='entei_raid_day_mz_countdown'></div>
+				  <div class='local loc_s'> Your Local Time: </div>
+				  <div id='entei_raid_day_mz_time' class='local loc_t'> Local Time: </div> 
+				</div>
+			  </div>
+			  </a>
+			  <script src="js/events/entei-raid-day.js"></script>
+			  
+			  
+				<a href='https://p337.info/pokemongo/countdowns/?id=gofest-candella-quest' style='text-decoration: none; color: black;'>
+				<div id='bonus_xp_event_2019_mz_r' class='clock_contain mas' style='background-color: #dbdbdb;'>
+				<div class='clock_left'>
+				  <img class='clock_image' alt='img' style='width:100px; height: 100px;' src='https://p337.info/pokemongo/img/custom/xp.png'/>
+				</div>
+				<div class='clock_right'>
+				  <div id='bonus_xp_event_2019_mz_l'></div>
+				  <div class='countdown' id='bonus_xp_event_2019_mz_countdown'></div>
+				  <div class='local loc_s'> Your Local Time: </div>
+				  <div id='bonus_xp_event_2019_mz_time' class='local loc_t'> Local Time: </div> 
+				</div>
+			  </div>
+			  </a>
+			  <script src="js/events/candela-xp-event.js"></script>
+			  
+			      <a href='https://p337.info/pokemongo/countdowns/?id=mudkip-community-day' style='text-decoration: none; color: black;'>
+					<div id='mudkip_community_day_mz_r' class='clock_contain mas' style='background-color: #dbdbdb;'>
+					<div class='clock_left'>
+					  <img class='clock_image' alt='img' style='width:100px; height: 100px;' src='https://p337.info/pokemongo/img/pokemon/258.png'/>
+					</div>
+					<div class='clock_right'>
+					  <div id='mudkip_community_day_mz_l'></div>
+					  <div class='countdown' id='mudkip_community_day_mz_countdown'></div>
+					  <div class='local loc_s'> Your Local Time: </div>
+					  <div id='mudkip_community_day_mz_time' class='local loc_t'> Local Time: </div> 
+					</div>
+				  </div>
+				  </a>
+				  <script src="js/events/cd-mudkip.js"></script>
+				  
+				  
+					<a href='https://p337.info/pokemongo/countdowns/?id=gofest-blanche-quest' style='text-decoration: none; color: black;'>
+					<div id='blanche_quest_event_mz_r' class='clock_contain mas' style='background-color: #dbdbdb;'>
+					<div class='clock_left'>
+					  <img class='clock_image' alt='img' style='width:100px; height: 100px;' src='https://p337.info/pokemongo/img/custom/blanche.png'/>
+					</div>
+					<div class='clock_right'>
+					  <div id='blanche_quest_event_mz_l'></div>
+					  <div class='countdown' id='blanche_quest_event_mz_countdown'></div>
+					  <div class='local loc_s'> Your Local Time: </div>
+					  <div id='blanche_quest_event_mz_time' class='local loc_t'> Local Time: </div> 
+					</div>
+				  </div>
+				  </a>
+				  <script src="js/events/gofest-blanche.js"></script>
+		  </p>
         </main>
       </div>
     </div>

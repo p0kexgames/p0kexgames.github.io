@@ -201,3 +201,180 @@ span.ellipse.clickable {
 	font-weight: bold;
 	cursor: default;
 }
+
+
+
+
+  /*Homepage timer targetting*/
+  a .mas { 
+    padding: 7px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    width: 80%;
+    margin: auto;
+    background-color: #dbdbdb;
+    height: 70px;
+    margin-bottom: 15px;
+  }
+  
+  a .mas .clock_left img {
+    height: 60px !important;
+    width: 60px  !important; 
+  }
+  
+  a .mas .clock_right .countdown {
+    margin-top: 7px; 
+    margin-bottom: 7px; 
+  }
+
+  a .mas .clock_right .loc_s {
+    display:none;
+  }
+  
+  /* if page gets less than 1100px ===== */ 
+@media (max-width:1100px)  {
+  a .mas { max-width: 80% !important; }
+
+} 
+  
+  /* countdown page css targetting*/
+
+  a .mas {
+    max-width: 350px;
+    height: 70px; 
+    padding:7px;
+  }
+  
+   a .mas .clock_left img {
+    height: 60px !important;
+    width: 60px  !important; 
+  }
+  a .mas .clock_right .countdown {
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  
+  a .mas .clock_right .loc_s { display: none; }
+  
+  a .mas .clock_right .countdown span {
+    font-size: 15px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  
+  
+  .ctd_text { max-width: 98%; margin: auto;}
+   
+   
+   
+   a .mas .clock_left img {
+    height: 60px !important;
+    width: 60px !important;
+}
+
+.clock_containss {
+    margin: auto;
+    background-color: #dbdbdb;
+    padding: 20px;
+    width: 60%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+.clock_left {
+    /* background-color: red; */
+    width: 20%;
+    margin-left: 10%;
+    float: left;
+    height: 100%;
+    max-height: 100px;
+}
+.clock_right {
+    /* background-color: blue; */
+    width: 70%;
+    float: right;
+    height: 100%;
+    max-height: 110px;
+}
+
+.timers a {
+	    font-size: 12px;
+}
+
+.block--invite {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.block--invite .block__img {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+}
+.icon-chat {
+    background-image: url(/img/v4/icon-chat.png);
+}
+.img__body {
+    display: block;
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+	border-radius: 40%;
+}
+
+.wpp .img {
+    display: inline-block;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    position: relative;
+}
+
+.block--invite .block__title {
+    margin-bottom: 9px;
+    word-break: break-all;
+}
+.block--invite .block__title, .block--send .block__title {
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 23px;
+    color: #232323;
+}
+.block--invite .block__subtitle {
+    color: #5b5f62;
+    margin-bottom: 24px;
+    line-height: normal;
+    font-weight: normal;
+    font-size: 16px;
+}
+.button--simple {
+    border-radius: 5px;
+    padding: 10px 17px;
+    font-size: 13px;
+    line-height: 19px;
+    height: 19px;
+    box-sizing: content-box;
+    letter-spacing: 0.02em;
+    font-weight: 600;
+    white-space: nowrap;
+    display: inline-block;
+}
+.wpp .button--primary {
+    background-color: #01E675;
+    color: #fff !important;
+}
+
+.clearfix:after, .three:after, .two:after, .four:after, .sitenav:after, .block:after, .toolbar:after, .breadcrumbs:after, .two--social:after, .section:after, .side:after, .page--faq .rich-text p:after, .page--faq .rich-text ul:after, .page--faq .rich-text ol:after, .page--faq .rich-text div:after, .page--business .hero__body:after, .page--safety .hero__body:after, .closing__inner:after {
+    display: table;
+    clear: both;
+    content: " ";
+}
+
+
