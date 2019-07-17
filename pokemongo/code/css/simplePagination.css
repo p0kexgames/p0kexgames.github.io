@@ -258,7 +258,7 @@ span.ellipse.clickable {
   a .mas .clock_right .loc_s { display: none; }
   
   a .mas .clock_right .countdown span {
-    font-size: 15px;
+    font-size: 13px;
     margin-bottom: 0px;
     margin-top: 0px;
   }
@@ -273,7 +273,7 @@ span.ellipse.clickable {
     width: 60px !important;
 }
 
-.clock_containss {
+.clock_contain {
     margin: auto;
     background-color: #dbdbdb;
     padding: 20px;
@@ -282,6 +282,7 @@ span.ellipse.clickable {
     margin-bottom: 20px;
     text-align: center;
     overflow: hidden;
+	font-size: 10px;
 }
 .clock_left {
     /* background-color: red; */
@@ -375,6 +376,9 @@ span.ellipse.clickable {
     display: table;
     clear: both;
     content: " ";
+}
+.wpp img {
+    border-radius: 50px;
 }
 
 

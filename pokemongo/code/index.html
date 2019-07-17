@@ -364,23 +364,29 @@
             </table>
           </div>
 		  <p>Atualmente existem <i id="total-registrados"></i> jogadores registrados.
-		  <p class="wpp">
-		  <div class="block block--invite">
-                    <a href="https://www.whatsapp.com/download" id="action-icon" title="Clique neste link para entrar: Pokémon Go Taguatinga Sul" class="block__img img icon-chat">
-                        <span class="img__body" style="background-image: url(https://chat.whatsapp.com/invite/icon/82RgZaSaHOAKiPBjSPlu92);"></span>
+		  
+		  <div class="row wpp">
+				<div class="col-sm-4 col-md-4 col-lg-4">
+                    <a href="https://chat.whatsapp.com/invite/82RgZaSaHOAKiPBjSPlu92" id="action-icon" title="Clique neste link para entrar: Pokémon Go Taguatinga Sul" class="block__img img icon-chat">
+                        <img style="width:50%;float: right;" src="https://chat.whatsapp.com/invite/icon/82RgZaSaHOAKiPBjSPlu92"/>
                     </a>
-
+				</div>
+				<div class="col-sm-8 col-md-8 col-lg-8">
+				   <a href="https://chat.whatsapp.com/invite/82RgZaSaHOAKiPBjSPlu92" id="action-icon" title="Clique neste link para entrar: Pokémon Go Taguatinga Sul" class="block__img img icon-chat">
                     <h2 class="block__title">Pokémon Go Taguatinga Sul</h2>
-                    <h3 class="block__subtitle" dir="auto">Convite de Grupo do WhatsApp</h3>
+                    <h4 class="block__subtitle" dir="auto">Convite de Grupo do WhatsApp</h3>
+				   </a>
                     <div class="block__action">
-                        <a href="https://www.whatsapp.com/download" id="action-button" title="Clique neste link para entrar: Pokémon Go Taguatinga Sul" class="button button--simple button--primary">Entrar</a>
+                        <center>
+							<a href="https://chat.whatsapp.com/invite/82RgZaSaHOAKiPBjSPlu92" id="action-button" title="Clique neste link para entrar: Pokémon Go Taguatinga Sul" class="button button--simple button--primary">Entrar</a>
+						</center>
                     </div>
-                </div>
-		  </p>
+				</div>
+          </div>
 		  <p class="timers">
 							<h2>Eventos</h2>
 							
-				<a href='https://p337.info/pokemongo/countdowns/?id=gofest-candella-quest' style='text-decoration: none; color: black;'>
+			  <a href='https://p337.info/pokemongo/countdowns/?id=armoured-mewtwo-raids-2019' style='text-decoration: none; color: black;'>
 				<div id='armored_mewtwo_raid_event_mz_r' class='clock_contain mas' style='background-color: #dbdbdb;'>
 				<div class='clock_left'>
 				  <img class='clock_image' alt='img' style='width:100px; height: 100px;' src='https://p337.info/pokemongo/img/pokemon/150.png'/>
@@ -474,6 +480,24 @@
 				  </a>
 				  <script src="js/events/gofest-blanche.js"></script>
 		  </p>
+		  
+		  
+  <div id='clockcontain' class='nest_migration_container'>
+    <div id='nest_migration_text'>Next Nest Migration</div>
+    <div id='nest_migration_div'></div>
+  </div>
+  <script>
+        if ( document.getElementById('nest_migration_div') ) {
+      //Code for nest migration
+      var deadline = 'Oct 5 2017 0:00:00 GMT';
+      if (deadline == '') { deadline = "Oct 5 2017 0:00:00 GMT"; }
+      var date_clock = get_recurring_week_day_v5(deadline, 2);
+      //var date_clock = get_recurring_week_day_v2(deadline, 2);
+      //alert(date_clock);
+      //function initializeClock(id, endtime, negative_time, message){
+      initializeClock('nest_migration_div', date_clock, 0, '');
+    }
+  </script>
         </main>
       </div>
     </div>
