@@ -410,7 +410,7 @@
               </tbody>
             </table>
           </div>
-		  <p>Atualmente existem <i id="total-registrados"></i> jogadores registrados.
+		  <p>Atualmente existem <i id="total-registrados"></i> jogadores registrados.</p>
 		  
 		  <div class="row wpp">
 				<div class="col-sm-4 col-md-4 col-lg-4">
@@ -432,23 +432,22 @@
           </div>
 		  <p class="timers">
 							<h2>Eventos</h2>
-							
-<a href="https://p337.info/pokemongo/countdowns/?id=straw-hat-pikachu" class="mincd w_l" style="text-decoration: none; color: black;">
-    <div id="straw_hat_pikachu_mz_r" class="clock_contain mas" style="background-color: #dbdbdb;">
+<a href="https://p337.info/pokemongo/countdowns/?id=rayquaza-raids-2019-2" class="mincd w_l" style="text-decoration: none; color: black;">
+    <div id="rayquaza_raids_2019_2_mz_r" class="clock_contain mas" style="background-color: #dbdbdb;">
     <div class="clock_left">
-      <img class="clock_image" alt="img" style="width:100px; height: 100px;" src="https://p337.info/pokemongo/img/pokemon/025.png">
+      <img class="clock_image" alt="img" style="width:100px; height: 100px;" src="https://p337.info/pokemongo/img/pokemon/384.png">
     </div>
     <div class="clock_right">
-      <div id="straw_hat_pikachu_mz_l">Straw Hat Pikachu Ends</div>
-      <div class="countdown" id="straw_hat_pikachu_mz_countdown"><span class="day"><span class="t_val">3</span>d</span> <span class="hour"><span class="t_val">19</span>h</span> <span class="min"><span class="t_val">51</span>m</span> <span class="sec"><span class="t_val">33</span>s</span> </div>
+      <div id="rayquaza_raids_2019_2_mz_l">Rayquaza Raids End</div>
+      <div class="countdown" id="rayquaza_raids_2019_2_mz_countdown"><span class="day"><span class="t_val">31</span>d</span> <span class="hour"><span class="t_val">16</span>h</span> <span class="min"><span class="t_val">43</span>m</span> <span class="sec"><span class="t_val">26</span>s</span> </div>
       <div class="local loc_s"> Your Local Time: </div>
-      <div id="straw_hat_pikachu_mz_time" class="local loc_t">Mon 29-Jul-2019 1:00 PM (13:00)</div> 
+      <div id="rayquaza_raids_2019_2_mz_time" class="local loc_t">Mon 2-Sep-2019 5:00 PM (17:00)</div> 
     </div>
   </div>
   </a>
-<script>
+  <script>
   
-  var s = 'Jul 22 2019 13:00:00'; var e = 'Jul 29 2019 13:00:00';
+  var s = 'Jul 31 2019 13:00:00 GMT-0700'; var e = 'Sep 2 2019 13:00:00 GMT-0700';
   
   var ds = new Date(s); var dend = new Date(e); var dn = new Date(); var o = false; var d = ''; var t = ''; var eda = true;
 
@@ -478,7 +477,7 @@
   if (e.length < 10) { console.log('hello there'); eda = false; }
   if (Date.parse(ds)-Date.parse(new Date())<0 && eda) { deadline = e; o = true; } else { deadline = s; o = false; }
   
-  var m = 'Straw Hat Pikachu';
+  var m = 'Rayquaza Raids';
   t = m.toLowerCase()
   t = t.replace('-', ' '); 
   t = t.replace('mz', ' '); 
@@ -494,32 +493,32 @@
   
   d = toTitleCase(d);  f = toTitleCase(f); 
   //alert(d);
-  if ( document.getElementById('straw_hat_pikachu_mz_l') ) { document.getElementById('straw_hat_pikachu_mz_l').innerHTML = d; } 
+  if ( document.getElementById('rayquaza_raids_2019_2_mz_l') ) { document.getElementById('rayquaza_raids_2019_2_mz_l').innerHTML = d; } 
   
   var stop_clock_id = '';
   var offset = new Date().getTimezoneOffset();
   var offset_hours = offset/60;
   var offset_miliseconds = 0;
   if (offset_hours < 0) { offset_miliseconds = 100; }
-  if ( document.getElementById('straw_hat_pikachu_mz_countdown') ) {
-    stop_clock_id = initializeClock('straw_hat_pikachu_mz_countdown', deadline, 0, f);
+  if ( document.getElementById('rayquaza_raids_2019_2_mz_countdown') ) {
+    stop_clock_id = initializeClock('rayquaza_raids_2019_2_mz_countdown', deadline, 0, f);
     var local_date = new Date(deadline);
     local_date.setTime(local_date.getTime() + (offset_hours+offset_miliseconds));
     var local_date_string = format_date(local_date,true);
-    document.getElementById('straw_hat_pikachu_mz_time').innerHTML = local_date_string;
+    document.getElementById('rayquaza_raids_2019_2_mz_time').innerHTML = local_date_string;
   }
   </script>
-
   
 
 <a href="https://p337.info/pokemongo/countdowns/?id=ralts-community-day" class="mincd w_l" style="text-decoration: none; color: black;">
+ 
     <div id="ralts_community_day_mz_r" class="clock_contain mas" style="background-color: #dbdbdb;">
     <div class="clock_left">
       <img class="clock_image" alt="img" style="width:100px; height: 100px;" src="https://p337.info/pokemongo/img/pokemon/280.png">
     </div>
     <div class="clock_right">
       <div id="ralts_community_day_mz_l">Ralts Community Day Starts</div>
-      <div class="countdown" id="ralts_community_day_mz_countdown"><span class="day"><span class="t_val">8</span>d</span> <span class="hour"><span class="t_val">22</span>h</span> <span class="min"><span class="t_val">49</span>m</span> <span class="sec"><span class="t_val">15</span>s</span> </div>
+      <div class="countdown" id="ralts_community_day_mz_countdown"><span class="day"><span class="t_val">1</span>d</span> <span class="hour"><span class="t_val">15</span>h</span> <span class="min"><span class="t_val">45</span>m</span> <span class="sec"><span class="t_val">58</span>s</span> </div>
       <div class="local loc_s"> Your Local Time: </div>
       <div id="ralts_community_day_mz_time" class="local loc_t">Sat 3-Aug-2019 4:00 PM (16:00)</div> 
     </div>
@@ -589,23 +588,7 @@
   }
   </script>
 
-
-			  <a href='https://p337.info/pokemongo/countdowns/?id=armoured-mewtwo-raids-2019' style='text-decoration: none; color: black;'>
-				<div id='armored_mewtwo_raid_event_mz_r' class='clock_contain mas' style='background-color: #dbdbdb;'>
-				<div class='clock_left'>
-				  <img class='clock_image' alt='img' style='width:100px; height: 100px;' src='https://p337.info/pokemongo/img/pokemon/150.png'/>
-				</div>
-				<div class='clock_right'>
-				  <div id='armored_mewtwo_raid_event_mz_l'></div>
-				  <div class='countdown' id='armored_mewtwo_raid_event_mz_countdown'></div>
-				  <div class='local loc_s'> Your Local Time: </div>
-				  <div id='armored_mewtwo_raid_event_mz_time' class='local loc_t'> Local Time: </div> 
-				</div>
-			  </div>
-			  </a>
-			  <script src="js/events/armored-mewtwo.js"></script>
-			  
-			  
+		  
 					<a href='https://p337.info/pokemongo/countdowns/?id=gofest-blanche-quest' style='text-decoration: none; color: black;'>
 					<div id='blanche_quest_event_mz_r' class='clock_contain mas' style='background-color: #dbdbdb;'>
 					<div class='clock_left'>
