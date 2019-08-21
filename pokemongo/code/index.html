@@ -528,23 +528,23 @@
   </script>
   
 
-<a href="https://p337.info/pokemongo/countdowns/?id=ralts-community-day" class="mincd w_l" style="text-decoration: none; color: black;">
- 
-    <div id="ralts_community_day_mz_r" class="clock_contain mas" style="background-color: #dbdbdb;">
+<a href="https://p337.info/pokemongo/countdowns/?id=water-festival-2019" class="mincd w_l" style="text-decoration: none; color: black;">
+    <div id="water_festival_2019_mz_r" class="clock_contain mas" style="background-color: #dbdbdb;">
     <div class="clock_left">
-      <img class="clock_image" alt="img" style="width:100px; height: 100px;" src="https://p337.info/pokemongo/img/pokemon/280.png">
+      <img class="clock_image" alt="img" style="width:100px; height: 100px;" src="https://p337.info/pokemongo/img/pokemon/130.png">
     </div>
     <div class="clock_right">
-      <div id="ralts_community_day_mz_l">Ralts Community Day Starts</div>
-      <div class="countdown" id="ralts_community_day_mz_countdown"><span class="day"><span class="t_val">1</span>d</span> <span class="hour"><span class="t_val">15</span>h</span> <span class="min"><span class="t_val">45</span>m</span> <span class="sec"><span class="t_val">58</span>s</span> </div>
+      <div id="water_festival_2019_mz_l">Water Festival Starts</div>
+      <div class="countdown" id="water_festival_2019_mz_countdown"><span class="day"><span class="t_val">2</span>d</span> <span class="hour"><span class="t_val">0</span>h</span> <span class="min"><span class="t_val">3</span>m</span> <span class="sec"><span class="t_val">18</span>s</span> </div>
       <div class="local loc_s"> Your Local Time: </div>
-      <div id="ralts_community_day_mz_time" class="local loc_t">Sat 3-Aug-2019 4:00 PM (16:00)</div> 
+      <div id="water_festival_2019_mz_time" class="local loc_t">Fri 23-Aug-2019 5:00 PM (17:00)</div> 
     </div>
   </div>
   </a>
+  
   <script>
   
-  var s = 'Aug 3 2019 16:00:00'; var e = 'Aug 3 2019 19:00:00';
+  var s = 'Aug 23 2019 13:00:00 GMT-0700'; var e = 'Aug 30 2019 13:00:00 GMT-0700';
   
   var ds = new Date(s); var dend = new Date(e); var dn = new Date(); var o = false; var d = ''; var t = ''; var eda = true;
 
@@ -574,7 +574,7 @@
   if (e.length < 10) { console.log('hello there'); eda = false; }
   if (Date.parse(ds)-Date.parse(new Date())<0 && eda) { deadline = e; o = true; } else { deadline = s; o = false; }
   
-  var m = 'Ralts Community Day';
+  var m = 'Water Festival';
   t = m.toLowerCase()
   t = t.replace('-', ' '); 
   t = t.replace('mz', ' '); 
@@ -583,6 +583,7 @@
   var lastItem = arr[arr.length - 1];
 
   if ( t.includes('raids') || lastItem == 's' ) { if (o) { d=t+' End'; f=t+' have finished'; } else { d=t+' Start'; f=t+' Started';} }
+  else if ( t.includes('return') ) { if (o) { d=t+' Ends'; f=t+' has finished'; } else { d=t+' '; f=t+' ';} }
   else if ( t.includes('community day') ) { if (o) { d=t+' End'; f=t+' has finished'; } else { d=t+' Starts'; f=t+' has Started';} }
   else { if (o) { d=t+' Ends'; f=t+' is over'; } else { d=t+' Starts'; f=t+' started';} }
   
@@ -590,37 +591,267 @@
   
   d = toTitleCase(d);  f = toTitleCase(f); 
   //alert(d);
-  if ( document.getElementById('ralts_community_day_mz_l') ) { document.getElementById('ralts_community_day_mz_l').innerHTML = d; } 
+  if ( document.getElementById('water_festival_2019_mz_l') ) { document.getElementById('water_festival_2019_mz_l').innerHTML = d; } 
   
   var stop_clock_id = '';
   var offset = new Date().getTimezoneOffset();
   var offset_hours = offset/60;
   var offset_miliseconds = 0;
   if (offset_hours < 0) { offset_miliseconds = 100; }
-  if ( document.getElementById('ralts_community_day_mz_countdown') ) {
-    stop_clock_id = initializeClock('ralts_community_day_mz_countdown', deadline, 0, f);
+  if ( document.getElementById('water_festival_2019_mz_countdown') ) {
+    stop_clock_id = initializeClock('water_festival_2019_mz_countdown', deadline, 0, f);
     var local_date = new Date(deadline);
     local_date.setTime(local_date.getTime() + (offset_hours+offset_miliseconds));
     var local_date_string = format_date(local_date,true);
-    document.getElementById('ralts_community_day_mz_time').innerHTML = local_date_string;
+    document.getElementById('water_festival_2019_mz_time').innerHTML = local_date_string;
   }
   </script>
+  
+  
+  
+  <a href="https://p337.info/pokemongo/countdowns/?id=first-gofest-ultra-reward" class="mincd w_l" style="text-decoration: none; color: black;">
+    <div id="first_gofest_ultra_reward_mz_r" class="clock_contain mas" style="background-color: #dbdbdb;">
+    <div class="clock_left">
+      <img class="clock_image" alt="img" style="width:100px; height: 100px;" src="https://p337.info/pokemongo/img/pokemon/161.png">
+    </div>
+    <div class="clock_right">
+      <div id="first_gofest_ultra_reward_mz_l">First Gofest Ultra Reward Starts</div>
+      <div class="countdown" id="first_gofest_ultra_reward_mz_countdown"><span class="day"><span class="t_val">12</span>d</span> <span class="hour"><span class="t_val">0</span>h</span> <span class="min"><span class="t_val">0</span>m</span> <span class="sec"><span class="t_val">3</span>s</span> </div>
+      <div class="local loc_s"> Your Local Time: </div>
+      <div id="first_gofest_ultra_reward_mz_time" class="local loc_t">Mon 2-Sep-2019 5:00 PM (17:00)</div> 
+    </div>
+  </div>
+  </a>
+  <script>
+  
+  var s = 'Sep 2 2019 13:00:00 GMT-0700'; var e = 'Sep 9 2019 13:00:00 GMT-0700';
+  
+  var ds = new Date(s); var dend = new Date(e); var dn = new Date(); var o = false; var d = ''; var t = ''; var eda = true;
 
-		  
-					<a href='https://p337.info/pokemongo/countdowns/?id=gofest-blanche-quest' style='text-decoration: none; color: black;'>
-					<div id='blanche_quest_event_mz_r' class='clock_contain mas' style='background-color: #dbdbdb;'>
-					<div class='clock_left'>
-					  <img class='clock_image' alt='img' style='width:100px; height: 100px;' src='https://p337.info/pokemongo/img/custom/blanche.png'/>
-					</div>
-					<div class='clock_right'>
-					  <div id='blanche_quest_event_mz_l'></div>
-					  <div class='countdown' id='blanche_quest_event_mz_countdown'></div>
-					  <div class='local loc_s'> Your Local Time: </div>
-					  <div id='blanche_quest_event_mz_time' class='local loc_t'> Local Time: </div> 
-					</div>
-				  </div>
-				  </a>
-				  <script src="js/events/gofest-blanche.js"></script>
+ /* new_offset */
+  var js_debug = true;
+  var offset_2 = new Date().getTimezoneOffset();
+  var offstart = (offset_2/60)*-1;
+  var ooup = 0;
+  
+  if(ooup != 0) {
+    if (parseFloat(offstart) >= parseFloat(ooup)) {
+      ds.setDate(ds.getDate() + 1);
+      dend.setDate(dend.getDate() + 1);
+      
+      //dateobj.toString();
+      s = ds.toString();
+      e = dend.toString();
+      //alert('done');
+    }
+    //if (js_debug) { alert(parseFloat(offstart) + ' ' + parseFloat(ooup)); }
+  }
+   
+  /* end */
+  
+  
+  
+  if (e.length < 10) { console.log('hello there'); eda = false; }
+  if (Date.parse(ds)-Date.parse(new Date())<0 && eda) { deadline = e; o = true; } else { deadline = s; o = false; }
+  
+  var m = 'First Gofest Ultra Reward';
+  t = m.toLowerCase()
+  t = t.replace('-', ' '); 
+  t = t.replace('mz', ' '); 
+
+  var arr = t.split('');
+  var lastItem = arr[arr.length - 1];
+
+  if ( t.includes('raids') || lastItem == 's' ) { if (o) { d=t+' End'; f=t+' have finished'; } else { d=t+' Start'; f=t+' Started';} }
+  else if ( t.includes('return') ) { if (o) { d=t+' Ends'; f=t+' has finished'; } else { d=t+' '; f=t+' ';} }
+  else if ( t.includes('community day') ) { if (o) { d=t+' End'; f=t+' has finished'; } else { d=t+' Starts'; f=t+' has Started';} }
+  else { if (o) { d=t+' Ends'; f=t+' is over'; } else { d=t+' Starts'; f=t+' started';} }
+  
+  if ( eda == false ) { d=t+''; f=t+' Started'; }
+  
+  d = toTitleCase(d);  f = toTitleCase(f); 
+  //alert(d);
+  if ( document.getElementById('first_gofest_ultra_reward_mz_l') ) { document.getElementById('first_gofest_ultra_reward_mz_l').innerHTML = d; } 
+  
+  var stop_clock_id = '';
+  var offset = new Date().getTimezoneOffset();
+  var offset_hours = offset/60;
+  var offset_miliseconds = 0;
+  if (offset_hours < 0) { offset_miliseconds = 100; }
+  if ( document.getElementById('first_gofest_ultra_reward_mz_countdown') ) {
+    stop_clock_id = initializeClock('first_gofest_ultra_reward_mz_countdown', deadline, 0, f);
+    var local_date = new Date(deadline);
+    local_date.setTime(local_date.getTime() + (offset_hours+offset_miliseconds));
+    var local_date_string = format_date(local_date,true);
+    document.getElementById('first_gofest_ultra_reward_mz_time').innerHTML = local_date_string;
+  }
+  </script>
+  
+  
+  
+  
+  
+  <a href="https://p337.info/pokemongo/countdowns/?id=second-gofest-ultra-reward" class="mincd w_l" style="text-decoration: none; color: black;">
+    <div id="second_gofest_ultra_reward_mz_r" class="clock_contain mas" style="background-color: #dbdbdb;">
+    <div class="clock_left">
+      <img class="clock_image" alt="img" style="width:100px; height: 100px;" src="https://p337.info/pokemongo/img/custom/unknown2.png">
+    </div>
+    <div class="clock_right">
+      <div id="second_gofest_ultra_reward_mz_l">Second Gofest Ultra Reward Starts</div>
+      <div class="countdown" id="second_gofest_ultra_reward_mz_countdown"><span class="day"><span class="t_val">18</span>d</span> <span class="hour"><span class="t_val">23</span>h</span> <span class="min"><span class="t_val">58</span>m</span> <span class="sec"><span class="t_val">55</span>s</span> </div>
+      <div class="local loc_s"> Your Local Time: </div>
+      <div id="second_gofest_ultra_reward_mz_time" class="local loc_t">Mon 9-Sep-2019 5:00 PM (17:00)</div> 
+    </div>
+  </div>
+  </a>
+  <script>
+  
+  var s = 'Sep 9 2019 13:00:00 GMT-0700'; var e = 'Sep 16 2019 13:00:00 GMT-0700';
+  
+  var ds = new Date(s); var dend = new Date(e); var dn = new Date(); var o = false; var d = ''; var t = ''; var eda = true;
+
+ /* new_offset */
+  var js_debug = true;
+  var offset_2 = new Date().getTimezoneOffset();
+  var offstart = (offset_2/60)*-1;
+  var ooup = 0;
+  
+  if(ooup != 0) {
+    if (parseFloat(offstart) >= parseFloat(ooup)) {
+      ds.setDate(ds.getDate() + 1);
+      dend.setDate(dend.getDate() + 1);
+      
+      //dateobj.toString();
+      s = ds.toString();
+      e = dend.toString();
+      //alert('done');
+    }
+    //if (js_debug) { alert(parseFloat(offstart) + ' ' + parseFloat(ooup)); }
+  }
+   
+  /* end */
+  
+  
+  
+  if (e.length < 10) { console.log('hello there'); eda = false; }
+  if (Date.parse(ds)-Date.parse(new Date())<0 && eda) { deadline = e; o = true; } else { deadline = s; o = false; }
+  
+  var m = 'Second Gofest Ultra Reward';
+  t = m.toLowerCase()
+  t = t.replace('-', ' '); 
+  t = t.replace('mz', ' '); 
+
+  var arr = t.split('');
+  var lastItem = arr[arr.length - 1];
+
+  if ( t.includes('raids') || lastItem == 's' ) { if (o) { d=t+' End'; f=t+' have finished'; } else { d=t+' Start'; f=t+' Started';} }
+  else if ( t.includes('return') ) { if (o) { d=t+' Ends'; f=t+' has finished'; } else { d=t+' '; f=t+' ';} }
+  else if ( t.includes('community day') ) { if (o) { d=t+' End'; f=t+' has finished'; } else { d=t+' Starts'; f=t+' has Started';} }
+  else { if (o) { d=t+' Ends'; f=t+' is over'; } else { d=t+' Starts'; f=t+' started';} }
+  
+  if ( eda == false ) { d=t+''; f=t+' Started'; }
+  
+  d = toTitleCase(d);  f = toTitleCase(f); 
+  //alert(d);
+  if ( document.getElementById('second_gofest_ultra_reward_mz_l') ) { document.getElementById('second_gofest_ultra_reward_mz_l').innerHTML = d; } 
+  
+  var stop_clock_id = '';
+  var offset = new Date().getTimezoneOffset();
+  var offset_hours = offset/60;
+  var offset_miliseconds = 0;
+  if (offset_hours < 0) { offset_miliseconds = 100; }
+  if ( document.getElementById('second_gofest_ultra_reward_mz_countdown') ) {
+    stop_clock_id = initializeClock('second_gofest_ultra_reward_mz_countdown', deadline, 0, f);
+    var local_date = new Date(deadline);
+    local_date.setTime(local_date.getTime() + (offset_hours+offset_miliseconds));
+    var local_date_string = format_date(local_date,true);
+    document.getElementById('second_gofest_ultra_reward_mz_time').innerHTML = local_date_string;
+  }
+  </script>
+  
+  
+  
+  
+  <a href="https://p337.info/pokemongo/countdowns/?id=third-gofest-ultra-reward" class="mincd w_l" style="text-decoration: none; color: black;">
+    <div id="third_gofest_ultra_reward_mz_r" class="clock_contain mas" style="background-color: #dbdbdb;">
+    <div class="clock_left">
+      <img class="clock_image" alt="img" style="width:100px; height: 100px;" src="https://p337.info/pokemongo/img/custom/unknown2.png">
+    </div>
+    <div class="clock_right">
+      <div id="third_gofest_ultra_reward_mz_l">Third Gofest Ultra Reward Starts</div>
+      <div class="countdown" id="third_gofest_ultra_reward_mz_countdown"><span class="day"><span class="t_val">25</span>d</span> <span class="hour"><span class="t_val">23</span>h</span> <span class="min"><span class="t_val">58</span>m</span> <span class="sec"><span class="t_val">34</span>s</span> </div>
+      <div class="local loc_s"> Your Local Time: </div>
+      <div id="third_gofest_ultra_reward_mz_time" class="local loc_t">Mon 16-Sep-2019 5:00 PM (17:00)</div> 
+    </div>
+  </div>
+  </a>
+  <script>
+  
+  var s = 'Sep 16 2019 13:00:00 GMT-0700'; var e = 'Sep 23 2019 13:00:00 GMT-0700';
+  
+  var ds = new Date(s); var dend = new Date(e); var dn = new Date(); var o = false; var d = ''; var t = ''; var eda = true;
+
+ /* new_offset */
+  var js_debug = true;
+  var offset_2 = new Date().getTimezoneOffset();
+  var offstart = (offset_2/60)*-1;
+  var ooup = 0;
+  
+  if(ooup != 0) {
+    if (parseFloat(offstart) >= parseFloat(ooup)) {
+      ds.setDate(ds.getDate() + 1);
+      dend.setDate(dend.getDate() + 1);
+      
+      //dateobj.toString();
+      s = ds.toString();
+      e = dend.toString();
+      //alert('done');
+    }
+    //if (js_debug) { alert(parseFloat(offstart) + ' ' + parseFloat(ooup)); }
+  }
+   
+  /* end */
+  
+  
+  
+  if (e.length < 10) { console.log('hello there'); eda = false; }
+  if (Date.parse(ds)-Date.parse(new Date())<0 && eda) { deadline = e; o = true; } else { deadline = s; o = false; }
+  
+  var m = 'Third Gofest Ultra Reward';
+  t = m.toLowerCase()
+  t = t.replace('-', ' '); 
+  t = t.replace('mz', ' '); 
+
+  var arr = t.split('');
+  var lastItem = arr[arr.length - 1];
+
+  if ( t.includes('raids') || lastItem == 's' ) { if (o) { d=t+' End'; f=t+' have finished'; } else { d=t+' Start'; f=t+' Started';} }
+  else if ( t.includes('return') ) { if (o) { d=t+' Ends'; f=t+' has finished'; } else { d=t+' '; f=t+' ';} }
+  else if ( t.includes('community day') ) { if (o) { d=t+' End'; f=t+' has finished'; } else { d=t+' Starts'; f=t+' has Started';} }
+  else { if (o) { d=t+' Ends'; f=t+' is over'; } else { d=t+' Starts'; f=t+' started';} }
+  
+  if ( eda == false ) { d=t+''; f=t+' Started'; }
+  
+  d = toTitleCase(d);  f = toTitleCase(f); 
+  //alert(d);
+  if ( document.getElementById('third_gofest_ultra_reward_mz_l') ) { document.getElementById('third_gofest_ultra_reward_mz_l').innerHTML = d; } 
+  
+  var stop_clock_id = '';
+  var offset = new Date().getTimezoneOffset();
+  var offset_hours = offset/60;
+  var offset_miliseconds = 0;
+  if (offset_hours < 0) { offset_miliseconds = 100; }
+  if ( document.getElementById('third_gofest_ultra_reward_mz_countdown') ) {
+    stop_clock_id = initializeClock('third_gofest_ultra_reward_mz_countdown', deadline, 0, f);
+    var local_date = new Date(deadline);
+    local_date.setTime(local_date.getTime() + (offset_hours+offset_miliseconds));
+    var local_date_string = format_date(local_date,true);
+    document.getElementById('third_gofest_ultra_reward_mz_time').innerHTML = local_date_string;
+  }
+  </script>
+  
+  
+  
 		  </p>
 		  
 		  
