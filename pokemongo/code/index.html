@@ -1,12 +1,26 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="favicon.ico">
 
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Open panel on swipe - jQuery Mobile Demos</title>
+	<link rel="stylesheet"  href="https://demos.jquerymobile.com/1.3.2/css/themes/default/jquery.mobile-1.3.2.min.css">
+	<link rel="stylesheet" href="https://demos.jquerymobile.com/1.3.2/_assets/css/jqm-demos.css">
+	<link rel="shortcut icon" href="https://demos.jquerymobile.com/1.3.2/favicon.ico">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+	
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link type="text/css" rel="stylesheet" href="css/simplePagination.css"/>
+
+
+    <!-- Custom styles for this template -->
+    <link href="css/dashboard.css" rel="stylesheet">
+	
+	
 
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js" type="text/javascript"></script>
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.23/moment-timezone-with-data-2012-2022.js" type="text/javascript"></script>
@@ -134,83 +148,66 @@
 }
   
 </script>
-    
-    <title>Códigos - Pokemon GO Taguatinga</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link type="text/css" rel="stylesheet" href="css/simplePagination.css"/>
+	
+	
+	<script src="https://demos.jquerymobile.com/1.3.2/js/jquery.js"></script>
+	<script src="https://demos.jquerymobile.com/1.3.2/_assets/js/index.js"></script>
+	<script src="https://demos.jquerymobile.com/1.3.2/js/jquery.mobile-1.3.2.min.js"></script>
+	<script>
+		$( document ).on( "pageinit", "#demo-page", function() {
 
+			$( document ).on( "swipeleft swiperight", "#demo-page", function( e ) {
+				// We check if there is no open panel on the page because otherwise
+				// a swipe to close the left panel would also open the right panel (and v.v.).
+				// We do this by checking the data that the framework stores on the page element (panel: open).
+				if ( $.mobile.activePage.jqmData( "panel" ) !== "open" ) {
+					if ( e.type === "swipeleft"  ) {
+						$( "#right-panel" ).panel( "open" );
+					} else if ( e.type === "swiperight" ) {
+						$( "#left-panel" ).panel( "open" );
+					}
+				}
+			});
+		});
+    </script>
+	<style>
+		/* Swipe works with mouse as well but often causes text selection. */
+		#demo-page * {
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			-o-user-select: none;
+			user-select: none;
+		}
+		/* Arrow only buttons in the header. */
+		#demo-page .ui-header .ui-btn {
+			background: none;
+			border: none;
+			top: 9px;
+		}
+		#demo-page .ui-header .ui-btn-inner {
+			border: none;
+		}
+		/* Content styling. */
+		dl { font-family: "Times New Roman", Times, serif; padding: 1em; }
+		dt { font-size: 2em; font-weight: bold; }
+		dt span { font-size: .5em; color: #777; margin-left: .5em; }
+		dd { font-size: 1.25em;	margin: 1em 0 0; padding-bottom: 1em; border-bottom: 1px solid #eee; }
+		.back-btn { float: right; margin: 0 2em 1em 0; }
+	</style>
+</head>
+<body>
 
-    <!-- Custom styles for this template -->
-    <link href="css/dashboard.css" rel="stylesheet">
-  </head>
+    <div data-role="header" data-theme="b">
+        <h1>Swipe left or right</h1>
+		<a href="#left-panel" data-theme="d" data-icon="arrow-r" data-iconpos="notext" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc">Open left panel</a>
+		<a href="#right-panel" data-theme="d" data-icon="arrow-l" data-iconpos="notext" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc">Open right panel</a>
+    </div><!-- /header -->
 
-  <body>
-    <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
-      <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Poke GO Taguá</a>
-      
-      <ul class="navbar-nav px-3">
-        <li class="nav-item text-nowrap">
-			  <!-- Botão para acionar modal -->
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modalExemplo">
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus-circle"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="16"></line><line x1="8" y1="12" x2="16" y2="12"></line></svg> 
-  Adicionar meu código
-</button>
-        </li>
-      </ul>
-    </nav>
-
-    <div class="container-fluid">
-      <div class="row">
-        <nav class="col-md-2 d-none d-md-block bg-light sidebar">
-          <div class="sidebar-sticky">
-            <ul class="nav flex-column">
-              <li class="nav-item">
-                <a class="nav-link active" href="#">
-                  <span data-feather="home"></span>
-                  Home <span class="sr-only">(current)</span>
-                </a>
-              </li>
+    <div data-role="content">
+	
 			  
-            </ul>
-
-  
-          </div>
-        </nav>
-
-        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
-          <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
-            <h1 class="h2">Códigos</h1>
-			clique no código para copiar.
-            <div class="btn-toolbar mb-2 mb-md-0">
-              <div class="btn-group mr-2">
-                <!--    <button class="btn btn-sm btn-outline-secondary">Compartilhar</button>   -->
-                <!--    <button class="btn btn-sm btn-outline-secondary">Exportar</button>       -->
-              </div>
-
-<!-- Modal -->
-<div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeLmYApVvPnDudXsI2XzSuDxPpRSFmcP0yUF_IUeSZdigaFLQ/viewform?embedded=true" width="100%" height="700" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-      </div>
-    </div>
-  </div>
-</div>
-            </div>
-          </div>
-		  
 		  <p>caso encontre erros entre em contato com o admin.</p>
 
           <div class="table-responsive">
@@ -448,6 +445,18 @@
                     </div>
 				</div>
           </div>
+
+    	<dl>
+            <dt>Swipe <span>verb</span></dt>
+            <dd><b>1.</b> to strike or move with a sweeping motion</dd>
+        </dl>
+
+		<a href="#demo-intro" data-rel="back" class="back-btn" data-role="button" data-mini="true" data-inline="true" data-icon="back" data-iconpos="right">Back to demo intro</a>
+
+    </div><!-- /content -->
+
+    <div data-role="panel" id="left-panel" data-theme="b">
+		<a href="#" data-rel="close" data-role="button" data-mini="true" data-inline="true" data-icon="delete" data-iconpos="right">Close</a>
 		  <p class="timers">
 							<h2>Eventos</h2>
 <a href="https://p337.info/pokemongo/countdowns/?id=rayquaza-raids-2019-2" class="mincd w_l" style="text-decoration: none; color: black;">
@@ -853,32 +862,20 @@
   
   
 		  </p>
-		  
-		  
-  <div id='clockcontain' class='nest_migration_container'>
-    <div id='nest_migration_text'>Próxima migração de ninho</div>
-    <div id='nest_migration_div'></div>
-  </div>
-  <script>
-        if ( document.getElementById('nest_migration_div') ) {
-      //Code for nest migration
-      var deadline = 'Oct 5 2017 0:00:00 GMT';
-      if (deadline == '') { deadline = "Oct 5 2017 0:00:00 GMT"; }
-      var date_clock = get_recurring_week_day_v5(deadline, 2);
-      //var date_clock = get_recurring_week_day_v2(deadline, 2);
-      //alert(date_clock);
-      //function initializeClock(id, endtime, negative_time, message){
-      initializeClock('nest_migration_div', date_clock, 0, '');
-    }
-  </script>
-        </main>
-      </div>
-    </div>
+    </div><!-- /panel -->
 
-    <!-- Bootstrap core JavaScript
+    <div data-role="panel" id="right-panel" data-display="push" data-position="right" data-theme="c">
+
+    	<p>Right push panel.</p>
+		<a href="#" data-rel="close" data-role="button" data-mini="true" data-inline="true" data-icon="delete" data-iconpos="right">Close</a>
+
+    </div><!-- /panel -->
+	
+	
+	    <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
 	<script type="text/javascript" src="js/simplePagination.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-slim.min.js"><\/script>')</script>
     <script src="js/vendor/popper.min.js"></script>
@@ -956,6 +953,5 @@ clipboard.on('error', function(e) {
      });
 	</script>
 
-    
-  </body>
+</body>
 </html>
