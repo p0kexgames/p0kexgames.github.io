@@ -282,7 +282,7 @@ span.ellipse.clickable {
     margin-bottom: 20px;
     text-align: center;
     overflow: hidden;
-	font-size: 10px;
+	font-size: 0.6em;
 }
 .clock_left {
     /* background-color: red; */
