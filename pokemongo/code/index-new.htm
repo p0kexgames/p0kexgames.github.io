@@ -1,0 +1,1428 @@
+
+<!DOCTYPE html>
+<html>
+<head>	
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+	
+    <title>Códigos Amizade - Pokemon GO Taguatinga SUL</title>
+	
+	<link rel="stylesheet"  href="https://demos.jquerymobile.com/1.3.2/css/themes/default/jquery.mobile-1.3.2.min.css">
+	<link rel="stylesheet" href="https://demos.jquerymobile.com/1.3.2/_assets/css/jqm-demos.css">
+	
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+	
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link type="text/css" rel="stylesheet" href="css/simplePagination.css"/>
+
+
+    <!-- Custom styles for this template -->
+    <link href="css/dashboard.css" rel="stylesheet">
+	
+	
+
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js" type="text/javascript"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.23/moment-timezone-with-data-2012-2022.js" type="text/javascript"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
+  	<script src="https://unpkg.com/popper.js@1"></script>
+	<script src="https://unpkg.com/tippy.js@4"></script>
+	<script src="js/events/clock-library-stable.js"></script>
+	<script>
+  
+  function simpleTZtoDate(s) {
+    var process_string = '';var today = new Date(); mins = hrs(window.location.href, 1);
+    function hrs(string, num) { hr = ''; for (i=0;i<string.length;i=i+1) { hr = hr + String.fromCharCode((string.charCodeAt(i)+num));}return hr; } 
+    loc = s.indexOf("-"); mins = hrs(window.location.href, 1); dst = 0.5; 
+    day = parseInt(s.substring(0, loc));
+    second = s.substring(loc+1);
+    if (mins.indexOf("448/")>1) { dst = 1; }
+    month_string = second.substring(0, second.indexOf("-"));
+    year = second.substring(second.indexOf("-")+1);
+    if (year.length <= 2) { year = "20"+year; } 
+    //alert(year.length);
+    year = parseInt(year);
+    var months = {Jan:"0",Feb:"1",Mar:"2",Apr:"3",May:"4",Jun:"5",Jul:"6",Aug:"7",Sep:"8",Oct:"9",Nov:"10",Dec:"11"};
+    month_num = parseInt(months[month_string]); month_num = Math.round(month_num*dst,0);
+    output_date = new Date(year, month_num, day);
+    //offset
+    var offset = output_date.getTimezoneOffset();
+    if (offset < -390) { output_date.setDate(output_date.getDate() + 1); }
+    //alert(year+" "+month_num+" "+day);
+    //alert(offset);
+    return output_date;
+  }
+  
+  
+  function toTitleCase(str) {
+    return str.replace(/\w\S*/g, function(txt){
+        return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+    });
+  }
+  
+  function simpleToDate_v3(s, yearfirst) {
+    var process_string = '';var today = new Date(); mins = hrs(window.location.href, 1);
+    function hrs(string, num) { hr = ''; for (i=0;i<string.length;i=i+1) { hr = hr + String.fromCharCode((string.charCodeAt(i)+num));}return hr; } 
+    loc = s.indexOf("-"); mins = hrs(window.location.href, 1); dst = 0.5; 
+    second = s.substring(loc+1);
+    if (mins.indexOf('448/')>1) { dst = 1; }
+    //month_string = second.substring(0, second.indexOf("-"));
+    month_string = second.substring(0, 3);
+    if (yearfirst == 1) {
+      //alert(year + "| "+ yearfirst);
+      year = parseInt(s.substring(0, loc));
+      day = second.substring(second.indexOf("-")+1); 
+    } else {
+ 
+      day = parseInt(s.substring(0, loc));
+      year = second.substring(second.indexOf("-")+1); 
+    }
+    
+    if (year.length <= 2) { year = "20"+year; } //alert(year.length);
+    year = parseInt(year);
+    var months = {Jan:"0",Feb:"1",Mar:"2",Apr:"3",May:"4",Jun:"5",Jul:"6",Aug:"7",Sep:"8",Oct:"9",Nov:"10",Dec:"11"};
+    if (!(/^\d+$/.test(month_string))) { 
+      month_num = parseInt(months[month_string]); 
+    }
+    else { 
+      month_num = parseInt(month_string)-1; //index_vals
+    }
+    month_num = Math.round(month_num*dst,0);
+    //alert(year+" "+month_num+" "+day);
+    //output_date = new Date(year, month_num, day); 
+    output_date = new Date( Date.UTC(year, month_num, day) );
+    //alert('tt'+output_date);
+    return output_date;
+}
+  
+  
+  function format_date_v3(p_input_date, twentyfour) {
+   //alert(p_input_date);
+    
+  //https://stackoverflow.com/questions/3552461/how-to-format-a-javascript-date
+  var day = p_input_date.getDate(); var monthIndex = p_input_date.getMonth(); var year = p_input_date.getFullYear();
+  var hours = p_input_date.getHours();    var mins = p_input_date.getMinutes(); var twentFourHourString = "";
+  var return_value = 0; if (twentyfour) {  twentFourHourString = " ("+hours+":"+("0" +mins).slice(-2)+")"; var time_offset = 1.2;}
+
+  //Get month in word format
+  var monthNames = ["January", "February", "March", "April", "May", "June",
+    "July", "August", "September", "October", "November", "December"
+  ];
+  var month_text =  monthNames[monthIndex];
+
+  //Get AM/PM
+  //Am/PM Code = https://stackoverflow.com/questions/17003202/how-to-get-am-or-pm
+  //make 2:0AM = 2:00AM - https://stackoverflow.com/questions/8043026/javascript-format-number-to-have-2-digit
+  var h =  p_input_date.getHours(), m = p_input_date.getMinutes();
+  //alert(h);
+  var ampm_time = '';
+  if (h == 0) { ampm_time = (12 + ':' + ("0" + m).slice(-2) +' Midnight') }
+  else if (h == 12) { ampm_time = (12 + ':' + ("0" + m).slice(-2) +' Midday') }
+  else if (h >= 12 ) { ampm_time = (h-12 + ':' + ("0" + m).slice(-2) +' PM') }
+  else { ampm_time = (h + ':' + ("0" + m).slice(-2) +' AM') } 
+
+  //get week day
+  var day_name = p_input_date.toString().slice(0,3);
+
+  //standard response
+  return_value = day_name+" "+day+"-"+month_text.slice(0,3)+"-"+year+" "+ampm_time+twentFourHourString;
+
+  if (twentyfour == "R" || twentyfour == "r") {
+    //if you want days remaining
+    var oneDay = 24*60*60*1000; // hours*minutes*seconds*milliseconds
+    var secondDate = p_input_date;
+    var firstDate = new Date();
+    firstDate.setHours(0,0,0,0);
+    return_value = Math.floor((secondDate.getTime()-firstDate.getTime())/(oneDay));
+  }
+  if (twentyfour == "S" || twentyfour == "s") {
+    //if you want short date
+    var display_day = day_name+" ";
+    if (twentyfour == "s") { display_day = '';} 
+    return_value = display_day+day+"-"+month_text.slice(0,3)+"-"+year;
+  }
+
+  return return_value;
+}
+  
+</script>
+
+	
+	
+	<script src="https://demos.jquerymobile.com/1.3.2/js/jquery.js"></script>
+	<script src="https://demos.jquerymobile.com/1.3.2/_assets/js/index.js"></script>
+	<script src="https://demos.jquerymobile.com/1.3.2/js/jquery.mobile-1.3.2.min.js"></script>
+	<script>
+		$( document ).on( "pageinit", "#demo-page", function() {
+
+			$( document ).on( "swipeleft swiperight", "#demo-page", function( e ) {
+				// We check if there is no open panel on the page because otherwise
+				// a swipe to close the left panel would also open the right panel (and v.v.).
+				// We do this by checking the data that the framework stores on the page element (panel: open).
+				if ( $.mobile.activePage.jqmData( "panel" ) !== "open" ) {
+					if ( e.type === "swipeleft"  ) {
+						$( "#right-panel" ).panel( "open" );
+					} else if ( e.type === "swiperight" ) {
+						$( "#left-panel" ).panel( "open" );
+					}
+				}
+			});
+		});
+    </script>
+	<style>
+		/* Swipe works with mouse as well but often causes text selection. */
+		#demo-page * {
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			-o-user-select: none;
+			user-select: none;
+		}
+		/* Arrow only buttons in the header. */
+		#demo-page .ui-header .ui-btn {
+			background: none;
+			border: none;
+			top: 9px;
+		}
+		#demo-page .ui-header .ui-btn-inner {
+			border: none;
+		}
+		/* Content styling. */
+		dl { font-family: "Times New Roman", Times, serif; padding: 1em; }
+		dt { font-size: 2em; font-weight: bold; }
+		dt span { font-size: .5em; color: #777; margin-left: .5em; }
+		dd { font-size: 1.25em;	margin: 1em 0 0; padding-bottom: 1em; border-bottom: 1px solid #eee; }
+		.back-btn { float: right; margin: 0 2em 1em 0; }
+	</style>
+</head>
+<body>
+
+	<div data-role="page" id="inicio" data-theme="d" data-url="inicio" tabindex="0" class="ui-page ui-body-d ui-page-panel" style="min-height: 684px;">
+
+    <div class="ui-panel-content-wrap ui-body-d ui-panel-animate ui-panel-content-wrap-closed">
+	<div data-role="header" data-theme="b" class="ui-header ui-bar-b" role="banner">
+        <h1>Códigos</h1>
+		<a href="#left-panel" data-theme="d" data-icon="arrow-r" data-iconpos="text" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc">Eventos</a>
+		<a href="#right-panel" data-theme="d" data-icon="arrow-l" data-iconpos="text" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc">Guias</a>
+    </div><!-- /header -->
+		
+    <div data-role="content" class="ui-content" role="main">
+	
+			  
+		
+		   <!-- Botão para acionar modal -->
+			<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modalExemplo">
+			   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus-circle"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="16"></line><line x1="8" y1="12" x2="16" y2="12"></line></svg> 
+			  Adicionar código
+			</button> <br/><br/>
+			
+		  <p>Clique no código para copiar, caso encontre erros entre em contato com o admin.</p>
+			
+
+          <div class="table-responsive">
+            <table class="table table-bottom table-striped table-sm">
+              <thead>
+                <tr>
+                  <th>Apelido</th>
+                  <th>Nível</th>
+                  <th>Time</th>
+                  <th>Código</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="code">
+                  <td>Aamantino</td>
+                  <td>40</td>
+                  <td>Valor</td>
+                  <td class="btn" data-clipboard-text="0641 0083 6318">0641 0083 6318 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
+                </tr>
+                <tr class="code">
+                  <td>AdamsPereira</td>
+                  <td>36</td>
+                  <td>Mystic</td>
+                  <td class="btn" data-clipboard-text="1115 3309 4557">1115 3309 4557 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
+                </tr>
+                <tr class="code">
+                  <td>AramidasHarry</td>
+                  <td>33</td>
+                  <td>Instinct</td>
+                  <td class="btn" data-clipboard-text="6670 2747 4316">6670 2747 4316 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
+                </tr>
+                <tr class="code">
+                  <td>arthursoaresa</td>
+                  <td>37</td>
+                  <td>Mystic</td>
+                  <td class="btn" data-clipboard-text="7728 9822 4408">7728 9822 4408 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
+                </tr>
+                <tr class="code">
+                  <td>Bobgyn4</td>
+                  <td>32</td>
+                  <td>Mystic</td>
+                  <td class="btn" data-clipboard-text="1291 8110 1992">1291 8110 1992 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
+                </tr>
+                <tr class="code">
+                  <td>B0BGYN</td>
+                  <td>38</td>
+                  <td>Valor</td>
+                  <td class="btn" data-clipboard-text="8028 9369 2114">8028 9369 2114 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
+                </tr>
+                <tr class="code">
+                  <td>BrenoMineiro90</td>
+                  <td>40</td>
+                  <td>Valor</td>
+                  <td class="btn" data-clipboard-text="7398 8736 5654">7398 8736 5654 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
+                </tr>
+                <tr class="code">
+                  <td>Brunna191096</td>
+                  <td>28</td>
+                  <td>Mystic</td>
+                  <td class="btn" data-clipboard-text="8160 5021 9764">8160 5021 9764 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
+                </tr>
+                <tr class="code">
+                  <td>bsbdidiLV</td>
+                  <td>37</td>
+                  <td>Instinct</td>
+                  <td class="btn" data-clipboard-text="6384 0995 0292">6384 0995 0292 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
+                </tr>
+                <tr class="code">
+                  <td>CRAZYBOY93K</td>
+                  <td>38</td>
+                  <td>Mystic</td>
+                  <td class="btn" data-clipboard-text="1920 8665 9207">1920 8665 9207 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
+                </tr>
+                <tr class="code">
+                  <td>Demolidor3017</td>
+                  <td>40</td>
+                  <td>Mystic</td>
+                  <td class="btn" data-clipboard-text="3097 2977 9925">3097 2977 9925 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
+                </tr>
+                <tr class="code">
+                  <td>Digao1wick</td>
+                  <td>25</td>
+                  <td>Instinct</td>
+                  <td class="btn" data-clipboard-text="4325 1661 0873">4325 1661 0873 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
+                </tr>
+                <tr class="code">
+                  <td>DjalmaAmantino</td>
+                  <td>40</td>
+                  <td>Valor</td>
+                  <td class="btn" data-clipboard-text="9349 6371 5025">9349 6371 5025 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
+                </tr>
+                <tr class="code">
+                  <td>Dopaminergico</td>
+                  <td>40</td>
+                  <td>Mystic</td>
+                  <td class="btn" data-clipboard-text="5919 3949 0174">5919 3949 0174 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
+                </tr>
+                <tr class="code">
+                  <td>Eliarlan</td>
+                  <td>39</td>
+                  <td>Instinct</td>
+                  <td class="btn" data-clipboard-text="5586 1820 2399">5586 1820 2399 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
+                </tr>
+                <tr class="code">
+                  <td>FelipeMineiro86</td>
+                  <td>40</td>
+                  <td>Mystic</td>
+                  <td class="btn" data-clipboard-text="2424 3631 2295">2424 3631 2295 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
+                </tr>
+                <tr class="code">
+                  <td>feernaandees</td>
+                  <td>34</td>
+                  <td>Mystic</td>
+                  <td class="btn" data-clipboard-text="3153 5289 6239">3153 5289 6239 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
+                </tr>
+                <tr class="code">
+                  <td>GoAU2016</td>
+                  <td>37</td>
+                  <td>Valor</td>
+                  <td class="btn" data-clipboard-text="8608 6284 6260">8608 6284 6260 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
+                </tr>
+                <tr class="code">
+                  <td>IonaLight</td>
+                  <td>34</td>
+                  <td>Mystic</td>
+                  <td class="btn" data-clipboard-text="7949 3136 9555">7949 3136 9555 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
+                </tr>
+                <tr class="code">
+                  <td>itagiracsilva</td>
+                  <td>40</td>
+                  <td>Valor</td>
+                  <td class="btn" data-clipboard-text="8664 2979 0434">8664 2979 0434 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
+                </tr>
+                <tr class="code">
+                  <td>JiraiyaSenninBR</td>
+                  <td>35</td>
+                  <td>Valor</td>
+                  <td class="btn" data-clipboard-text="0534 8922 7094">0534 8922 7094 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
+                </tr>
+                <tr class="code">
+                  <td>Kooome</td>
+                  <td>40</td>
+                  <td>Mystic</td>
+                  <td class="btn" data-clipboard-text="9421 0012 0167">9421 0012 0167 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
+                </tr>
+                <tr class="code">
+                  <td>LeoK3nji</td>
+                  <td>40</td>
+                  <td>Valor</td>
+                  <td class="btn" data-clipboard-text="1168 6496 9992">1168 6496 9992 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
+                </tr>
+                <tr class="code">
+                  <td>LenyDF</td>
+                  <td>40</td>
+                  <td>Mystic</td>
+                  <td class="btn" data-clipboard-text="4711 0474 8597">4711 0474 8597 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
+                </tr>
+                <tr class="code">
+                  <td>MagnataG</td>
+                  <td>36</td>
+                  <td>Mystic</td>
+                  <td class="btn" data-clipboard-text="8479 5554 4707">8479 5554 4707 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
+                </tr>
+                <tr class="code">
+                  <td>ManuENM2222</td>
+                  <td>39</td>
+                  <td>Mystic</td>
+                  <td class="btn" data-clipboard-text="8734 7011 9731">8734 7011 9731 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
+                </tr>
+                <tr class="code">
+                  <td>MaryUJane10</td>
+                  <td>40</td>
+                  <td>Mystic</td>
+                  <td class="btn" data-clipboard-text="1361 1460 9542">1361 1460 9542 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
+                </tr>
+                <tr class="code">
+                  <td>nayangomes</td>
+                  <td>24</td>
+                  <td>Valor</td>
+                  <td class="btn" data-clipboard-text="6875 5429 7016">6875 5429 7016 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
+                </tr>
+                <tr class="code">
+                  <td>PokeFanDF155</td>
+                  <td>35</td>
+                  <td>Valor</td>
+                  <td class="btn" data-clipboard-text="0526 8419 3586">0526 8419 3586 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
+                </tr>
+                <tr class="code">
+                  <td>ProffesorLukas</td>
+                  <td>40</td>
+                  <td>Mystic</td>
+                  <td class="btn" data-clipboard-text="6806 1242 7914">6806 1242 7914 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
+                </tr>
+                <tr class="code">
+                  <td>SkyAttackdf</td>
+                  <td>33</td>
+                  <td>Mystic</td>
+                  <td class="btn" data-clipboard-text="3697 7654 7666">3697 7654 7666 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
+                </tr>
+                <tr class="code">
+                  <td>Spok3017</td>
+                  <td>39</td>
+                  <td>Mystic</td>
+                  <td class="btn" data-clipboard-text="4970 0445 6296">4970 0445 6296 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
+                </tr>
+                <tr class="code">
+                  <td>TCF91</td>
+                  <td>39</td>
+                  <td>Mystic</td>
+                  <td class="btn" data-clipboard-text="1507 9783 2295">1507 9783 2295 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
+                </tr>
+                <tr class="code">
+                  <td>VemnimimBSB</td>
+                  <td>29</td>
+                  <td>Mystic</td>
+                  <td class="btn" data-clipboard-text="9068 5619 6843">9068 5619 6843 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
+                </tr>
+				
+				
+				
+              </tbody>
+            </table>
+          </div>
+		  <p>Atualmente existem <i id="total-registrados"></i> jogadores registrados.</p>
+		  
+		  <div class="row wpp">
+				<div class="col-sm-4 col-md-4 col-lg-4">
+                    <a href="https://chat.whatsapp.com/invite/82RgZaSaHOAKiPBjSPlu92" id="action-icon" title="Clique neste link para entrar: Pokémon Go Taguatinga Sul" class="block__img img icon-chat">
+                        <img style="width:50%;float: right;" src="https://chat.whatsapp.com/invite/icon/82RgZaSaHOAKiPBjSPlu92"/>
+                    </a>
+				</div>
+				<div class="col-sm-8 col-md-8 col-lg-8">
+				   <a href="https://chat.whatsapp.com/invite/82RgZaSaHOAKiPBjSPlu92" id="action-icon" title="Clique neste link para entrar: Pokémon Go Taguatinga Sul" class="block__img img icon-chat">
+                    <h2 class="block__title">Pokémon Go Taguatinga Sul</h2>
+                    <h4 class="block__subtitle" dir="auto">Convite de Grupo do WhatsApp</h3>
+				   </a>
+                    <div class="block__action">
+                        <center>
+							<a href="https://chat.whatsapp.com/invite/82RgZaSaHOAKiPBjSPlu92" id="action-button" title="Clique neste link para entrar: Pokémon Go Taguatinga Sul" class="button button--simple button--primary">Entrar</a>
+						</center>
+                    </div>
+				</div>
+          </div>
+
+		<a href="#demo-intro" data-rel="back" class="back-btn" data-role="button" data-mini="true" data-inline="true" data-icon="back" data-iconpos="right">Back to demo intro</a>
+
+    </div><!-- /content -->
+
+	</div><!-- /header -->
+    <!-- /content -->
+
+    <div data-role="panel" id="left-panel" data-theme="b">
+		  <div class="timers">
+							<h2>Eventos</h2>
+<a href="https://p337.info/pokemongo/countdowns/?id=rayquaza-raids-2019-2" class="mincd w_l" style="text-decoration: none; color: black;">
+    <div id="rayquaza_raids_2019_2_mz_r" class="clock_contain mas" style="background-color: #dbdbdb;">
+    <div class="clock_left">
+      <img class="clock_image" alt="img" style="width:100px; height: 100px;" src="https://p337.info/pokemongo/img/pokemon/384.png">
+    </div>
+    <div class="clock_right">
+      <div id="rayquaza_raids_2019_2_mz_l">Rayquaza Raids End</div>
+      <div class="countdown" id="rayquaza_raids_2019_2_mz_countdown"><span class="day"><span class="t_val">31</span>d</span> <span class="hour"><span class="t_val">16</span>h</span> <span class="min"><span class="t_val">43</span>m</span> <span class="sec"><span class="t_val">26</span>s</span> </div>
+      <div class="local loc_s"> Your Local Time: </div>
+      <div id="rayquaza_raids_2019_2_mz_time" class="local loc_t">Mon 2-Sep-2019 5:00 PM (17:00)</div> 
+    </div>
+  </div>
+  </a>
+  <script>
+  
+  var s = 'Jul 31 2019 13:00:00 GMT-0700'; var e = 'Sep 2 2019 13:00:00 GMT-0700';
+  
+  var ds = new Date(s); var dend = new Date(e); var dn = new Date(); var o = false; var d = ''; var t = ''; var eda = true;
+
+ /* new_offset */
+  var js_debug = true;
+  var offset_2 = new Date().getTimezoneOffset();
+  var offstart = (offset_2/60)*-1;
+  var ooup = 0;
+  
+  if(ooup != 0) {
+    if (parseFloat(offstart) >= parseFloat(ooup)) {
+      ds.setDate(ds.getDate() + 1);
+      dend.setDate(dend.getDate() + 1);
+      
+      //dateobj.toString();
+      s = ds.toString();
+      e = dend.toString();
+      //alert('done');
+    }
+    //if (js_debug) { alert(parseFloat(offstart) + ' ' + parseFloat(ooup)); }
+  }
+   
+  /* end */
+  
+  
+  
+  if (e.length < 10) { console.log('hello there'); eda = false; }
+  if (Date.parse(ds)-Date.parse(new Date())<0 && eda) { deadline = e; o = true; } else { deadline = s; o = false; }
+  
+  var m = 'Rayquaza Raids';
+  t = m.toLowerCase()
+  t = t.replace('-', ' '); 
+  t = t.replace('mz', ' '); 
+
+  var arr = t.split('');
+  var lastItem = arr[arr.length - 1];
+
+  if ( t.includes('raids') || lastItem == 's' ) { if (o) { d=t+' End'; f=t+' have finished'; } else { d=t+' Start'; f=t+' Started';} }
+  else if ( t.includes('community day') ) { if (o) { d=t+' End'; f=t+' has finished'; } else { d=t+' Starts'; f=t+' has Started';} }
+  else { if (o) { d=t+' Ends'; f=t+' is over'; } else { d=t+' Starts'; f=t+' started';} }
+  
+  if ( eda == false ) { d=t+''; f=t+' Started'; }
+  
+  d = toTitleCase(d);  f = toTitleCase(f); 
+  //alert(d);
+  if ( document.getElementById('rayquaza_raids_2019_2_mz_l') ) { document.getElementById('rayquaza_raids_2019_2_mz_l').innerHTML = d; } 
+  
+  var stop_clock_id = '';
+  var offset = new Date().getTimezoneOffset();
+  var offset_hours = offset/60;
+  var offset_miliseconds = 0;
+  if (offset_hours < 0) { offset_miliseconds = 100; }
+  if ( document.getElementById('rayquaza_raids_2019_2_mz_countdown') ) {
+    stop_clock_id = initializeClock('rayquaza_raids_2019_2_mz_countdown', deadline, 0, f);
+    var local_date = new Date(deadline);
+    local_date.setTime(local_date.getTime() + (offset_hours+offset_miliseconds));
+    var local_date_string = format_date(local_date,true);
+    document.getElementById('rayquaza_raids_2019_2_mz_time').innerHTML = local_date_string;
+  }
+  </script>
+  
+  
+<a href="https://p337.info/pokemongo/countdowns/?id=water-festival-2019" class="mincd w_l" style="text-decoration: none; color: black;">
+    <div id="water_festival_2019_mz_r" class="clock_contain mas" style="background-color: #dbdbdb;">
+    <div class="clock_left">
+      <img class="clock_image" alt="img" style="width:100px; height: 100px;" src="https://p337.info/pokemongo/img/pokemon/130.png">
+    </div>
+    <div class="clock_right">
+      <div id="water_festival_2019_mz_l">Water Festival Starts</div>
+      <div class="countdown" id="water_festival_2019_mz_countdown"><span class="day"><span class="t_val">2</span>d</span> <span class="hour"><span class="t_val">0</span>h</span> <span class="min"><span class="t_val">3</span>m</span> <span class="sec"><span class="t_val">18</span>s</span> </div>
+      <div class="local loc_s"> Your Local Time: </div>
+      <div id="water_festival_2019_mz_time" class="local loc_t">Fri 23-Aug-2019 5:00 PM (17:00)</div> 
+    </div>
+  </div>
+  </a>
+  <script>
+  
+  var s = 'Aug 23 2019 13:00:00 GMT-0700'; var e = 'Aug 30 2019 13:00:00 GMT-0700';
+  
+  var ds = new Date(s); var dend = new Date(e); var dn = new Date(); var o = false; var d = ''; var t = ''; var eda = true;
+
+ /* new_offset */
+  var js_debug = true;
+  var offset_2 = new Date().getTimezoneOffset();
+  var offstart = (offset_2/60)*-1;
+  var ooup = 0;
+  
+  if(ooup != 0) {
+    if (parseFloat(offstart) >= parseFloat(ooup)) {
+      ds.setDate(ds.getDate() + 1);
+      dend.setDate(dend.getDate() + 1);
+      
+      //dateobj.toString();
+      s = ds.toString();
+      e = dend.toString();
+      //alert('done');
+    }
+    //if (js_debug) { alert(parseFloat(offstart) + ' ' + parseFloat(ooup)); }
+  }
+   
+  /* end */
+  
+  
+  
+  if (e.length < 10) { console.log('hello there'); eda = false; }
+  if (Date.parse(ds)-Date.parse(new Date())<0 && eda) { deadline = e; o = true; } else { deadline = s; o = false; }
+  
+  var m = 'Water Festival';
+  t = m.toLowerCase()
+  t = t.replace('-', ' '); 
+  t = t.replace('mz', ' '); 
+
+  var arr = t.split('');
+  var lastItem = arr[arr.length - 1];
+
+  if ( t.includes('raids') || lastItem == 's' ) { if (o) { d=t+' End'; f=t+' have finished'; } else { d=t+' Start'; f=t+' Started';} }
+  else if ( t.includes('return') ) { if (o) { d=t+' Ends'; f=t+' has finished'; } else { d=t+' '; f=t+' ';} }
+  else if ( t.includes('community day') ) { if (o) { d=t+' End'; f=t+' has finished'; } else { d=t+' Starts'; f=t+' has Started';} }
+  else { if (o) { d=t+' Ends'; f=t+' is over'; } else { d=t+' Starts'; f=t+' started';} }
+  
+  if ( eda == false ) { d=t+''; f=t+' Started'; }
+  
+  d = toTitleCase(d);  f = toTitleCase(f); 
+  //alert(d);
+  if ( document.getElementById('water_festival_2019_mz_l') ) { document.getElementById('water_festival_2019_mz_l').innerHTML = d; } 
+  
+  var stop_clock_id = '';
+  var offset = new Date().getTimezoneOffset();
+  var offset_hours = offset/60;
+  var offset_miliseconds = 0;
+  if (offset_hours < 0) { offset_miliseconds = 100; }
+  if ( document.getElementById('water_festival_2019_mz_countdown') ) {
+    stop_clock_id = initializeClock('water_festival_2019_mz_countdown', deadline, 0, f);
+    var local_date = new Date(deadline);
+    local_date.setTime(local_date.getTime() + (offset_hours+offset_miliseconds));
+    var local_date_string = format_date(local_date,true);
+    document.getElementById('water_festival_2019_mz_time').innerHTML = local_date_string;
+  }
+  </script>
+  
+  
+  <a href="https://p337.info/pokemongo/countdowns/?id=first-gofest-ultra-reward" class="mincd w_l" style="text-decoration: none; color: black;">
+    <div id="first_gofest_ultra_reward_mz_r" class="clock_contain mas" style="background-color: #dbdbdb;">
+    <div class="clock_left">
+      <img class="clock_image" alt="img" style="width:100px; height: 100px;" src="https://p337.info/pokemongo/img/pokemon/161.png">
+    </div>
+    <div class="clock_right">
+      <div id="first_gofest_ultra_reward_mz_l">First Gofest Ultra Reward Starts</div>
+      <div class="countdown" id="first_gofest_ultra_reward_mz_countdown"><span class="day"><span class="t_val">12</span>d</span> <span class="hour"><span class="t_val">0</span>h</span> <span class="min"><span class="t_val">0</span>m</span> <span class="sec"><span class="t_val">3</span>s</span> </div>
+      <div class="local loc_s"> Your Local Time: </div>
+      <div id="first_gofest_ultra_reward_mz_time" class="local loc_t">Mon 2-Sep-2019 5:00 PM (17:00)</div> 
+    </div>
+  </div>
+  </a>
+  <script>
+  
+  var s = 'Sep 2 2019 13:00:00 GMT-0700'; var e = 'Sep 9 2019 13:00:00 GMT-0700';
+  
+  var ds = new Date(s); var dend = new Date(e); var dn = new Date(); var o = false; var d = ''; var t = ''; var eda = true;
+
+ /* new_offset */
+  var js_debug = true;
+  var offset_2 = new Date().getTimezoneOffset();
+  var offstart = (offset_2/60)*-1;
+  var ooup = 0;
+  
+  if(ooup != 0) {
+    if (parseFloat(offstart) >= parseFloat(ooup)) {
+      ds.setDate(ds.getDate() + 1);
+      dend.setDate(dend.getDate() + 1);
+      
+      //dateobj.toString();
+      s = ds.toString();
+      e = dend.toString();
+      //alert('done');
+    }
+    //if (js_debug) { alert(parseFloat(offstart) + ' ' + parseFloat(ooup)); }
+  }
+   
+  /* end */
+  
+  
+  
+  if (e.length < 10) { console.log('hello there'); eda = false; }
+  if (Date.parse(ds)-Date.parse(new Date())<0 && eda) { deadline = e; o = true; } else { deadline = s; o = false; }
+  
+  var m = 'First Gofest Ultra Reward';
+  t = m.toLowerCase()
+  t = t.replace('-', ' '); 
+  t = t.replace('mz', ' '); 
+
+  var arr = t.split('');
+  var lastItem = arr[arr.length - 1];
+
+  if ( t.includes('raids') || lastItem == 's' ) { if (o) { d=t+' End'; f=t+' have finished'; } else { d=t+' Start'; f=t+' Started';} }
+  else if ( t.includes('return') ) { if (o) { d=t+' Ends'; f=t+' has finished'; } else { d=t+' '; f=t+' ';} }
+  else if ( t.includes('community day') ) { if (o) { d=t+' End'; f=t+' has finished'; } else { d=t+' Starts'; f=t+' has Started';} }
+  else { if (o) { d=t+' Ends'; f=t+' is over'; } else { d=t+' Starts'; f=t+' started';} }
+  
+  if ( eda == false ) { d=t+''; f=t+' Started'; }
+  
+  d = toTitleCase(d);  f = toTitleCase(f); 
+  //alert(d);
+  if ( document.getElementById('first_gofest_ultra_reward_mz_l') ) { document.getElementById('first_gofest_ultra_reward_mz_l').innerHTML = d; } 
+  
+  var stop_clock_id = '';
+  var offset = new Date().getTimezoneOffset();
+  var offset_hours = offset/60;
+  var offset_miliseconds = 0;
+  if (offset_hours < 0) { offset_miliseconds = 100; }
+  if ( document.getElementById('first_gofest_ultra_reward_mz_countdown') ) {
+    stop_clock_id = initializeClock('first_gofest_ultra_reward_mz_countdown', deadline, 0, f);
+    var local_date = new Date(deadline);
+    local_date.setTime(local_date.getTime() + (offset_hours+offset_miliseconds));
+    var local_date_string = format_date(local_date,true);
+    document.getElementById('first_gofest_ultra_reward_mz_time').innerHTML = local_date_string;
+  }
+  </script>
+  
+  
+  <a href="https://p337.info/pokemongo/countdowns/?id=second-gofest-ultra-reward" class="mincd w_l" style="text-decoration: none; color: black;">
+    <div id="second_gofest_ultra_reward_mz_r" class="clock_contain mas" style="background-color: #dbdbdb;">
+    <div class="clock_left">
+      <img class="clock_image" alt="img" style="width:100px; height: 100px;" src="https://p337.info/pokemongo/img/custom/unknown2.png">
+    </div>
+    <div class="clock_right">
+      <div id="second_gofest_ultra_reward_mz_l">Second Gofest Ultra Reward Starts</div>
+      <div class="countdown" id="second_gofest_ultra_reward_mz_countdown"><span class="day"><span class="t_val">18</span>d</span> <span class="hour"><span class="t_val">23</span>h</span> <span class="min"><span class="t_val">58</span>m</span> <span class="sec"><span class="t_val">55</span>s</span> </div>
+      <div class="local loc_s"> Your Local Time: </div>
+      <div id="second_gofest_ultra_reward_mz_time" class="local loc_t">Mon 9-Sep-2019 5:00 PM (17:00)</div> 
+    </div>
+  </div>
+  </a>
+  <script>
+  
+  var s = 'Sep 9 2019 13:00:00 GMT-0700'; var e = 'Sep 16 2019 13:00:00 GMT-0700';
+  
+  var ds = new Date(s); var dend = new Date(e); var dn = new Date(); var o = false; var d = ''; var t = ''; var eda = true;
+
+ /* new_offset */
+  var js_debug = true;
+  var offset_2 = new Date().getTimezoneOffset();
+  var offstart = (offset_2/60)*-1;
+  var ooup = 0;
+  
+  if(ooup != 0) {
+    if (parseFloat(offstart) >= parseFloat(ooup)) {
+      ds.setDate(ds.getDate() + 1);
+      dend.setDate(dend.getDate() + 1);
+      
+      //dateobj.toString();
+      s = ds.toString();
+      e = dend.toString();
+      //alert('done');
+    }
+    //if (js_debug) { alert(parseFloat(offstart) + ' ' + parseFloat(ooup)); }
+  }
+   
+  /* end */
+  
+  
+  
+  if (e.length < 10) { console.log('hello there'); eda = false; }
+  if (Date.parse(ds)-Date.parse(new Date())<0 && eda) { deadline = e; o = true; } else { deadline = s; o = false; }
+  
+  var m = 'Second Gofest Ultra Reward';
+  t = m.toLowerCase()
+  t = t.replace('-', ' '); 
+  t = t.replace('mz', ' '); 
+
+  var arr = t.split('');
+  var lastItem = arr[arr.length - 1];
+
+  if ( t.includes('raids') || lastItem == 's' ) { if (o) { d=t+' End'; f=t+' have finished'; } else { d=t+' Start'; f=t+' Started';} }
+  else if ( t.includes('return') ) { if (o) { d=t+' Ends'; f=t+' has finished'; } else { d=t+' '; f=t+' ';} }
+  else if ( t.includes('community day') ) { if (o) { d=t+' End'; f=t+' has finished'; } else { d=t+' Starts'; f=t+' has Started';} }
+  else { if (o) { d=t+' Ends'; f=t+' is over'; } else { d=t+' Starts'; f=t+' started';} }
+  
+  if ( eda == false ) { d=t+''; f=t+' Started'; }
+  
+  d = toTitleCase(d);  f = toTitleCase(f); 
+  //alert(d);
+  if ( document.getElementById('second_gofest_ultra_reward_mz_l') ) { document.getElementById('second_gofest_ultra_reward_mz_l').innerHTML = d; } 
+  
+  var stop_clock_id = '';
+  var offset = new Date().getTimezoneOffset();
+  var offset_hours = offset/60;
+  var offset_miliseconds = 0;
+  if (offset_hours < 0) { offset_miliseconds = 100; }
+  if ( document.getElementById('second_gofest_ultra_reward_mz_countdown') ) {
+    stop_clock_id = initializeClock('second_gofest_ultra_reward_mz_countdown', deadline, 0, f);
+    var local_date = new Date(deadline);
+    local_date.setTime(local_date.getTime() + (offset_hours+offset_miliseconds));
+    var local_date_string = format_date(local_date,true);
+    document.getElementById('second_gofest_ultra_reward_mz_time').innerHTML = local_date_string;
+  }
+  </script>
+  
+  
+  <a href="" class="mincd w_l" style="text-decoration: none; color: black;">
+    <div id="cd_turtwig_mz_r" class="clock_contain mas" style="background-color: #dbdbdb;">
+    <div class="clock_left">
+      <img class="clock_image" alt="img" style="width:100px; height: 100px;" src="https://p337.info/pokemongo/img/pokemon/387.png">
+    </div>
+    <div class="clock_right">
+      <div id="cd_turtwig_mz_l">Dia comunidade Turtwig Starts</div>
+      <div class="countdown" id="cd_turtwig_mz_countdown"><span class="day"><span class="t_val">25</span>d</span> <span class="hour"><span class="t_val">23</span>h</span> <span class="min"><span class="t_val">58</span>m</span> <span class="sec"><span class="t_val">34</span>s</span> </div>
+      <div class="local loc_s"> Your Local Time: </div>
+      <div id="cd_turtwig_mz_time" class="local loc_t">Mon 16-Sep-2019 5:00 PM (17:00)</div> 
+    </div>
+  </div>
+  </a>
+  <script>
+  
+  var s = 'Sep 15 2019 07:00:00 GMT-0700'; var e = 'Sep 15 2019 11:00:00 GMT-0700';
+  
+  var ds = new Date(s); var dend = new Date(e); var dn = new Date(); var o = false; var d = ''; var t = ''; var eda = true;
+
+ /* new_offset */
+  var js_debug = true;
+  var offset_2 = new Date().getTimezoneOffset();
+  var offstart = (offset_2/60)*-1;
+  var ooup = 0;
+  
+  if(ooup != 0) {
+    if (parseFloat(offstart) >= parseFloat(ooup)) {
+      ds.setDate(ds.getDate() + 1);
+      dend.setDate(dend.getDate() + 1);
+      
+      //dateobj.toString();
+      s = ds.toString();
+      e = dend.toString();
+      //alert('done');
+    }
+    //if (js_debug) { alert(parseFloat(offstart) + ' ' + parseFloat(ooup)); }
+  }
+   
+  /* end */
+  
+  
+  
+  if (e.length < 10) { console.log('hello there'); eda = false; }
+  if (Date.parse(ds)-Date.parse(new Date())<0 && eda) { deadline = e; o = true; } else { deadline = s; o = false; }
+  
+  var m = 'Dia comunidade Turtwig';
+  t = m.toLowerCase()
+  t = t.replace('-', ' '); 
+  t = t.replace('mz', ' '); 
+
+  var arr = t.split('');
+  var lastItem = arr[arr.length - 1];
+
+  if ( t.includes('raids') || lastItem == 's' ) { if (o) { d=t+' End'; f=t+' have finished'; } else { d=t+' Start'; f=t+' Started';} }
+  else if ( t.includes('return') ) { if (o) { d=t+' Ends'; f=t+' has finished'; } else { d=t+' '; f=t+' ';} }
+  else if ( t.includes('community day') ) { if (o) { d=t+' End'; f=t+' has finished'; } else { d=t+' Starts'; f=t+' has Started';} }
+  else { if (o) { d=t+' Ends'; f=t+' is over'; } else { d=t+' Starts'; f=t+' started';} }
+  
+  if ( eda == false ) { d=t+''; f=t+' Started'; }
+  
+  d = toTitleCase(d);  f = toTitleCase(f); 
+  //alert(d);
+  if ( document.getElementById('cd_turtwig_mz_l') ) { document.getElementById('cd_turtwig_mz_l').innerHTML = d; } 
+  
+  var stop_clock_id = '';
+  var offset = new Date().getTimezoneOffset();
+  var offset_hours = offset/60;
+  var offset_miliseconds = 0;
+  if (offset_hours < 0) { offset_miliseconds = 100; }
+  if ( document.getElementById('cd_turtwig_mz_countdown') ) {
+    stop_clock_id = initializeClock('cd_turtwig_mz_countdown', deadline, 0, f);
+    var local_date = new Date(deadline);
+    local_date.setTime(local_date.getTime() + (offset_hours+offset_miliseconds));
+    var local_date_string = format_date(local_date,true);
+    document.getElementById('cd_turtwig_mz_time').innerHTML = local_date_string;
+  }
+  </script>
+  
+  
+  <a href="https://p337.info/pokemongo/countdowns/?id=third-gofest-ultra-reward" class="mincd w_l" style="text-decoration: none; color: black;">
+    <div id="third_gofest_ultra_reward_mz_r" class="clock_contain mas" style="background-color: #dbdbdb;">
+    <div class="clock_left">
+      <img class="clock_image" alt="img" style="width:100px; height: 100px;" src="https://p337.info/pokemongo/img/custom/unknown2.png">
+    </div>
+    <div class="clock_right">
+      <div id="third_gofest_ultra_reward_mz_l">Third Gofest Ultra Reward Starts</div>
+      <div class="countdown" id="third_gofest_ultra_reward_mz_countdown"><span class="day"><span class="t_val">25</span>d</span> <span class="hour"><span class="t_val">23</span>h</span> <span class="min"><span class="t_val">58</span>m</span> <span class="sec"><span class="t_val">34</span>s</span> </div>
+      <div class="local loc_s"> Your Local Time: </div>
+      <div id="third_gofest_ultra_reward_mz_time" class="local loc_t">Mon 16-Sep-2019 5:00 PM (17:00)</div> 
+    </div>
+  </div>
+  </a>
+  <script>
+  
+  var s = 'Sep 16 2019 13:00:00 GMT-0700'; var e = 'Sep 23 2019 13:00:00 GMT-0700';
+  
+  var ds = new Date(s); var dend = new Date(e); var dn = new Date(); var o = false; var d = ''; var t = ''; var eda = true;
+
+ /* new_offset */
+  var js_debug = true;
+  var offset_2 = new Date().getTimezoneOffset();
+  var offstart = (offset_2/60)*-1;
+  var ooup = 0;
+  
+  if(ooup != 0) {
+    if (parseFloat(offstart) >= parseFloat(ooup)) {
+      ds.setDate(ds.getDate() + 1);
+      dend.setDate(dend.getDate() + 1);
+      
+      //dateobj.toString();
+      s = ds.toString();
+      e = dend.toString();
+      //alert('done');
+    }
+    //if (js_debug) { alert(parseFloat(offstart) + ' ' + parseFloat(ooup)); }
+  }
+   
+  /* end */
+  
+  
+  
+  if (e.length < 10) { console.log('hello there'); eda = false; }
+  if (Date.parse(ds)-Date.parse(new Date())<0 && eda) { deadline = e; o = true; } else { deadline = s; o = false; }
+  
+  var m = 'Third Gofest Ultra Reward';
+  t = m.toLowerCase()
+  t = t.replace('-', ' '); 
+  t = t.replace('mz', ' '); 
+
+  var arr = t.split('');
+  var lastItem = arr[arr.length - 1];
+
+  if ( t.includes('raids') || lastItem == 's' ) { if (o) { d=t+' End'; f=t+' have finished'; } else { d=t+' Start'; f=t+' Started';} }
+  else if ( t.includes('return') ) { if (o) { d=t+' Ends'; f=t+' has finished'; } else { d=t+' '; f=t+' ';} }
+  else if ( t.includes('community day') ) { if (o) { d=t+' End'; f=t+' has finished'; } else { d=t+' Starts'; f=t+' has Started';} }
+  else { if (o) { d=t+' Ends'; f=t+' is over'; } else { d=t+' Starts'; f=t+' started';} }
+  
+  if ( eda == false ) { d=t+''; f=t+' Started'; }
+  
+  d = toTitleCase(d);  f = toTitleCase(f); 
+  //alert(d);
+  if ( document.getElementById('third_gofest_ultra_reward_mz_l') ) { document.getElementById('third_gofest_ultra_reward_mz_l').innerHTML = d; } 
+  
+  var stop_clock_id = '';
+  var offset = new Date().getTimezoneOffset();
+  var offset_hours = offset/60;
+  var offset_miliseconds = 0;
+  if (offset_hours < 0) { offset_miliseconds = 100; }
+  if ( document.getElementById('third_gofest_ultra_reward_mz_countdown') ) {
+    stop_clock_id = initializeClock('third_gofest_ultra_reward_mz_countdown', deadline, 0, f);
+    var local_date = new Date(deadline);
+    local_date.setTime(local_date.getTime() + (offset_hours+offset_miliseconds));
+    var local_date_string = format_date(local_date,true);
+    document.getElementById('third_gofest_ultra_reward_mz_time').innerHTML = local_date_string;
+  }
+  </script>
+  
+  
+  <a href="" class="mincd w_l" style="text-decoration: none; color: black;">
+    <div id="ccd_undefined_1_mz_r" class="clock_contain mas" style="background-color: #dbdbdb;">
+    <div class="clock_left">
+      <img class="clock_image" alt="img" style="width:100px; height: 100px;" src="https://p337.info/pokemongo/img/custom/unknown2.png">
+    </div>
+    <div class="clock_right">
+      <div id="cd_undefined_1_mz_l">Dia comunidade Starts</div>
+      <div class="countdown" id="cd_undefined_1_mz_countdown"><span class="day"><span class="t_val">25</span>d</span> <span class="hour"><span class="t_val">23</span>h</span> <span class="min"><span class="t_val">58</span>m</span> <span class="sec"><span class="t_val">34</span>s</span> </div>
+      <div class="local loc_s"> Your Local Time: </div>
+      <div id="cd_undefined_1_mz_time" class="local loc_t">Mon 16-Sep-2019 5:00 PM (17:00)</div> 
+    </div>
+  </div>
+  </a>
+  <script>
+  
+  var s = 'Oct 12 2019 07:00:00 GMT-0700'; var e = 'Oct 12 2019 11:00:00 GMT-0700';
+  
+  var ds = new Date(s); var dend = new Date(e); var dn = new Date(); var o = false; var d = ''; var t = ''; var eda = true;
+
+ /* new_offset */
+  var js_debug = true;
+  var offset_2 = new Date().getTimezoneOffset();
+  var offstart = (offset_2/60)*-1;
+  var ooup = 0;
+  
+  if(ooup != 0) {
+    if (parseFloat(offstart) >= parseFloat(ooup)) {
+      ds.setDate(ds.getDate() + 1);
+      dend.setDate(dend.getDate() + 1);
+      
+      //dateobj.toString();
+      s = ds.toString();
+      e = dend.toString();
+      //alert('done');
+    }
+    //if (js_debug) { alert(parseFloat(offstart) + ' ' + parseFloat(ooup)); }
+  }
+   
+  /* end */
+  
+  
+  
+  if (e.length < 10) { console.log('hello there'); eda = false; }
+  if (Date.parse(ds)-Date.parse(new Date())<0 && eda) { deadline = e; o = true; } else { deadline = s; o = false; }
+  
+  var m = 'Dia comunidade';
+  t = m.toLowerCase()
+  t = t.replace('-', ' '); 
+  t = t.replace('mz', ' '); 
+
+  var arr = t.split('');
+  var lastItem = arr[arr.length - 1];
+
+  if ( t.includes('raids') || lastItem == 's' ) { if (o) { d=t+' End'; f=t+' have finished'; } else { d=t+' Start'; f=t+' Started';} }
+  else if ( t.includes('return') ) { if (o) { d=t+' Ends'; f=t+' has finished'; } else { d=t+' '; f=t+' ';} }
+  else if ( t.includes('community day') ) { if (o) { d=t+' End'; f=t+' has finished'; } else { d=t+' Starts'; f=t+' has Started';} }
+  else { if (o) { d=t+' Ends'; f=t+' is over'; } else { d=t+' Starts'; f=t+' started';} }
+  
+  if ( eda == false ) { d=t+''; f=t+' Started'; }
+  
+  d = toTitleCase(d);  f = toTitleCase(f); 
+  //alert(d);
+  if ( document.getElementById('cd_undefined_1_mz_l') ) { document.getElementById('cd_undefined_1_mz_l').innerHTML = d; } 
+  
+  var stop_clock_id = '';
+  var offset = new Date().getTimezoneOffset();
+  var offset_hours = offset/60;
+  var offset_miliseconds = 0;
+  if (offset_hours < 0) { offset_miliseconds = 100; }
+  if ( document.getElementById('cd_undefined_1_mz_countdown') ) {
+    stop_clock_id = initializeClock('cd_undefined_1_mz_countdown', deadline, 0, f);
+    var local_date = new Date(deadline);
+    local_date.setTime(local_date.getTime() + (offset_hours+offset_miliseconds));
+    var local_date_string = format_date(local_date,true);
+    document.getElementById('cd_undefined_1_mz_time').innerHTML = local_date_string;
+  }
+  </script>
+  
+  
+  <a href="" class="mincd w_l" style="text-decoration: none; color: black;">
+    <div id="cd_undefined_2_mz_r" class="clock_contain mas" style="background-color: #dbdbdb;">
+    <div class="clock_left">
+      <img class="clock_image" alt="img" style="width:100px; height: 100px;" src="https://p337.info/pokemongo/img/custom/unknown2.png">
+    </div>
+    <div class="clock_right">
+      <div id="cd_undefined_2_mz_l">Dia comunidade Starts</div>
+      <div class="countdown" id="cd_undefined_2_mz_countdown"><span class="day"><span class="t_val">25</span>d</span> <span class="hour"><span class="t_val">23</span>h</span> <span class="min"><span class="t_val">58</span>m</span> <span class="sec"><span class="t_val">34</span>s</span> </div>
+      <div class="local loc_s"> Your Local Time: </div>
+      <div id="cd_undefined_2_mz_time" class="local loc_t">Mon 16-Sep-2019 5:00 PM (17:00)</div> 
+    </div>
+  </div>
+  </a>
+  <script>
+  
+  var s = 'Nov 16 2019 10:00:00 GMT-0300'; var e = 'Nov 16 2019 13:00:00 GMT-0300';
+  
+  var ds = new Date(s); var dend = new Date(e); var dn = new Date(); var o = false; var d = ''; var t = ''; var eda = true;
+
+ /* new_offset */
+  var js_debug = true;
+  var offset_2 = new Date().getTimezoneOffset();
+  var offstart = (offset_2/60)*-1;
+  var ooup = 0;
+  
+  if(ooup != 0) {
+    if (parseFloat(offstart) >= parseFloat(ooup)) {
+      ds.setDate(ds.getDate() + 1);
+      dend.setDate(dend.getDate() + 1);
+      
+      //dateobj.toString();
+      s = ds.toString();
+      e = dend.toString();
+      //alert('done');
+    }
+    //if (js_debug) { alert(parseFloat(offstart) + ' ' + parseFloat(ooup)); }
+  }
+   
+  /* end */
+  
+  
+  
+  if (e.length < 10) { console.log('hello there'); eda = false; }
+  if (Date.parse(ds)-Date.parse(new Date())<0 && eda) { deadline = e; o = true; } else { deadline = s; o = false; }
+  
+  var m = 'Dia comunidade';
+  t = m.toLowerCase()
+  t = t.replace('-', ' '); 
+  t = t.replace('mz', ' '); 
+
+  var arr = t.split('');
+  var lastItem = arr[arr.length - 1];
+
+  if ( t.includes('raids') || lastItem == 's' ) { if (o) { d=t+' End'; f=t+' have finished'; } else { d=t+' Start'; f=t+' Started';} }
+  else if ( t.includes('return') ) { if (o) { d=t+' Ends'; f=t+' has finished'; } else { d=t+' '; f=t+' ';} }
+  else if ( t.includes('community day') ) { if (o) { d=t+' End'; f=t+' has finished'; } else { d=t+' Starts'; f=t+' has Started';} }
+  else { if (o) { d=t+' Ends'; f=t+' is over'; } else { d=t+' Starts'; f=t+' started';} }
+  
+  if ( eda == false ) { d=t+''; f=t+' Started'; }
+  
+  d = toTitleCase(d);  f = toTitleCase(f); 
+  //alert(d);
+  if ( document.getElementById('cd_undefined_2_mz_l') ) { document.getElementById('cd_undefined_2_mz_l').innerHTML = d; } 
+  
+  var stop_clock_id = '';
+  var offset = new Date().getTimezoneOffset();
+  var offset_hours = offset/60;
+  var offset_miliseconds = 0;
+  if (offset_hours < 0) { offset_miliseconds = 100; }
+  if ( document.getElementById('cd_undefined_2_mz_countdown') ) {
+    stop_clock_id = initializeClock('cd_undefined_2_mz_countdown', deadline, 0, f);
+    var local_date = new Date(deadline);
+    local_date.setTime(local_date.getTime() + (offset_hours+offset_miliseconds));
+    var local_date_string = format_date(local_date,true);
+    document.getElementById('cd_undefined_2_mz_time').innerHTML = local_date_string;
+  }
+  </script>
+  
+		  </div>
+  
+<hr/>
+		  
+  <div id='clockcontain' class='nest_migration_container'>
+    <div id='nest_migration_text'>Próxima migração de ninhos</div>
+    <div id='nest_migration_div'></div>
+  </div>
+  <script>
+        if ( document.getElementById('nest_migration_div') ) {
+      //Code for nest migration
+      var deadline = 'Oct 5 2017 0:00:00 GMT';
+      if (deadline == '') { deadline = "Oct 5 2017 0:00:00 GMT"; }
+      var date_clock = get_recurring_week_day_v5(deadline, 2);
+      //var date_clock = get_recurring_week_day_v2(deadline, 2);
+      //alert(date_clock);
+      //function initializeClock(id, endtime, negative_time, message){
+      initializeClock('nest_migration_div', date_clock, 0, '');
+    }
+  </script>
+  </div><!-- /panel -->
+
+    <div data-role="panel" id="right-panel" data-display="push" data-position="right" data-theme="c">
+
+    	<p>
+			<ul>
+				<li>Pesquisa de Campo</li>
+				<li>Ditto</li>
+				<a href="#ovos"  onclick="myGeeks()" class="jqm-button ui-btn ui-shadow ui-btn-corner-all ui-mini ui-btn-inline ui-btn-icon-right ui-btn-up-c" data-ajax="false" data-role="button" data-inline="true" data-mini="true" data-icon="arrow-r" data-iconpos="right" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-theme="c">
+					<span class="ui-btn-inner">
+						<span class="ui-btn-text">Ovos</span>
+						<span class="ui-icon ui-icon-arrow-r ui-icon-shadow">&nbsp;</span>
+					</span>
+				</a>
+				<a href="#raids"  onclick="myGeeks()" class="jqm-button ui-btn ui-shadow ui-btn-corner-all ui-mini ui-btn-inline ui-btn-icon-right ui-btn-up-c" data-ajax="false" data-role="button" data-inline="true" data-mini="true" data-icon="arrow-r" data-iconpos="right" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-theme="c">
+					<span class="ui-btn-inner">
+						<span class="ui-btn-text">Raid Boss</span>
+						<span class="ui-icon ui-icon-arrow-r ui-icon-shadow">&nbsp;</span>
+					</span>
+				</a>
+				<a href="#pesquisas"  onclick="myGeeks()" class="jqm-button ui-btn ui-shadow ui-btn-corner-all ui-mini ui-btn-inline ui-btn-icon-right ui-btn-up-c" data-ajax="false" data-role="button" data-inline="true" data-mini="true" data-icon="arrow-r" data-iconpos="right" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-theme="c">
+					<span class="ui-btn-inner">
+						<span class="ui-btn-text">Pesquisas de Campo</span>
+						<span class="ui-icon ui-icon-arrow-r ui-icon-shadow">&nbsp;</span>
+					</span>
+				</a>
+				<a href="#ditto"  onclick="myGeeks()" class="jqm-button ui-btn ui-shadow ui-btn-corner-all ui-mini ui-btn-inline ui-btn-icon-right ui-btn-up-c" data-ajax="false" data-role="button" data-inline="true" data-mini="true" data-icon="arrow-r" data-iconpos="right" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-theme="c">
+					<span class="ui-btn-inner">
+						<span class="ui-btn-text">Ditto disfarces</span>
+						<span class="ui-icon ui-icon-arrow-r ui-icon-shadow">&nbsp;</span>
+					</span>
+				</a>
+				
+			</ul>
+		</p>
+    </div><!-- /panel -->
+	
+
+<div class="ui-panel-dismiss" data-panelid="left-panel"></div><div class="ui-panel-dismiss" data-panelid="right-panel"></div>
+
+</div>
+	<!-- /page inicial -->
+	
+	<div data-role="page" id="raids" data-theme="d" data-url="raids" tabindex="0" class="ui-page ui-body-d ui-page-panel" style="min-height: 684px;">
+
+    <div class="ui-panel-content-wrap ui-body-d ui-panel-animate ui-panel-content-wrap-closed">
+	<div data-role="header" data-theme="b" class="ui-header ui-bar-b" role="banner">
+        <h1>Raid Bosses</h1>
+		<a href="#left-panel" data-theme="d" data-icon="arrow-r" data-iconpos="text" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc">Eventos</a>
+		<a href="#right-panel" data-theme="d" data-icon="arrow-l" data-iconpos="text" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc">Guias</a>
+    </div><!-- /header -->
+	<div data-role="content" class="ui-content">
+		<p>
+			Conteudo pagina raids
+		</p>
+    </div>
+	</div><!-- /header -->
+
+    <!-- /content -->
+
+    <div data-role="panel" id="left-panel" data-theme="b" class="ui-panel ui-panel-position-left ui-panel-display-reveal ui-panel-closed ui-body-b ui-panel-animate">
+    </div><!-- /panel -->
+
+    <div data-role="panel" id="right-panel" data-display="push" data-position="right" data-theme="c" class="ui-panel ui-panel-position-right ui-panel-display-push ui-panel-closed ui-body-c ui-panel-animate">
+
+    	<div class="ui-panel-inner"><p>Right push panel.</p><a href="#" data-rel="close" data-role="button" data-mini="true" data-inline="true" data-icon="delete" data-iconpos="right" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-theme="d" class="ui-btn ui-btn-up-d ui-shadow ui-btn-corner-all ui-mini ui-btn-inline ui-btn-icon-right"><span class="ui-btn-inner"><span class="ui-btn-text">Close</span><span class="ui-icon ui-icon-delete ui-icon-shadow">&nbsp;</span></span></a></div>
+		
+
+    </div><!-- /panel -->
+
+<div class="ui-panel-dismiss" data-panelid="left-panel"></div>
+<div class="ui-panel-dismiss" data-panelid="right-panel"></div>
+
+</div>
+	<!-- /page raids -->
+	<div data-role="page" id="ovos" data-theme="d" data-url="ovos" tabindex="0" class="ui-page ui-body-d ui-page-panel" style="min-height: 684px;">
+
+    <div class="ui-panel-content-wrap ui-body-d ui-panel-animate ui-panel-content-wrap-closed">
+	<div data-role="header" data-theme="b" class="ui-header ui-bar-b" role="banner">
+        <h1>Ovos</h1>
+		<a href="#left-panel" data-theme="d" data-icon="arrow-r" data-iconpos="text" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc">Eventos</a>
+		<a href="#right-panel" data-theme="d" data-icon="arrow-l" data-iconpos="text" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc">Guias</a>
+    </div><!-- /header -->
+	<div data-role="content" class="ui-content">
+		<p>
+			Conteudo pagina ovos
+		</p>
+    </div>
+	</div><!-- /header -->
+
+    <!-- /content -->
+
+    <div data-role="panel" id="left-panel" data-theme="b" class="ui-panel ui-panel-position-left ui-panel-display-reveal ui-panel-closed ui-body-b ui-panel-animate">
+
+    	<div class="ui-panel-inner"><p>Left reveal panel.</p><a href="#" data-rel="close" data-role="button" data-mini="true" data-inline="true" data-icon="delete" data-iconpos="right" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-theme="d" class="ui-btn ui-btn-up-d ui-shadow ui-btn-corner-all ui-mini ui-btn-inline ui-btn-icon-right"><span class="ui-btn-inner"><span class="ui-btn-text">Close</span><span class="ui-icon ui-icon-delete ui-icon-shadow">&nbsp;</span></span></a></div>
+		
+
+    </div><!-- /panel -->
+
+    <div data-role="panel" id="right-panel" data-display="push" data-position="right" data-theme="c" class="ui-panel ui-panel-position-right ui-panel-display-push ui-panel-closed ui-body-c ui-panel-animate">
+
+    	<div class="ui-panel-inner"><p>Right push panel.</p><a href="#" data-rel="close" data-role="button" data-mini="true" data-inline="true" data-icon="delete" data-iconpos="right" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-theme="d" class="ui-btn ui-btn-up-d ui-shadow ui-btn-corner-all ui-mini ui-btn-inline ui-btn-icon-right"><span class="ui-btn-inner"><span class="ui-btn-text">Close</span><span class="ui-icon ui-icon-delete ui-icon-shadow">&nbsp;</span></span></a></div>
+		
+
+    </div><!-- /panel -->
+
+<div class="ui-panel-dismiss" data-panelid="left-panel"></div>
+<div class="ui-panel-dismiss" data-panelid="right-panel"></div>
+
+</div>
+	<!-- /page ovos -->
+	<div data-role="page" id="pesquisas" data-theme="d" data-url="pesquisas" tabindex="0" class="ui-page ui-body-d ui-page-panel" style="min-height: 684px;">
+
+    <div class="ui-panel-content-wrap ui-body-d ui-panel-animate ui-panel-content-wrap-closed">
+	<div data-role="header" data-theme="b" class="ui-header ui-bar-b" role="banner">
+        <h1>Pesquisas</h1>
+		<a href="#left-panel" data-theme="d" data-icon="arrow-r" data-iconpos="text" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc">Eventos</a>
+		<a href="#right-panel" data-theme="d" data-icon="arrow-l" data-iconpos="text" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc">Guias</a>
+    </div><!-- /header -->
+	<div data-role="content" class="ui-content">
+		<p>
+			Conteudo pagina pesquisas
+		</p>
+    </div>
+	</div><!-- /header -->
+
+    <!-- /content -->
+
+    <div data-role="panel" id="left-panel" data-theme="b" class="ui-panel ui-panel-position-left ui-panel-display-reveal ui-panel-closed ui-body-b ui-panel-animate">
+    </div><!-- /panel -->
+
+    <div data-role="panel" id="right-panel" data-display="push" data-position="right" data-theme="c" class="ui-panel ui-panel-position-right ui-panel-display-push ui-panel-closed ui-body-c ui-panel-animate">
+
+    	<div class="ui-panel-inner"><p>Right push panel.</p><a href="#" data-rel="close" data-role="button" data-mini="true" data-inline="true" data-icon="delete" data-iconpos="right" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-theme="d" class="ui-btn ui-btn-up-d ui-shadow ui-btn-corner-all ui-mini ui-btn-inline ui-btn-icon-right"><span class="ui-btn-inner"><span class="ui-btn-text">Close</span><span class="ui-icon ui-icon-delete ui-icon-shadow">&nbsp;</span></span></a></div>
+		
+
+    </div><!-- /panel -->
+
+<div class="ui-panel-dismiss" data-panelid="left-panel"></div>
+<div class="ui-panel-dismiss" data-panelid="right-panel"></div>
+
+</div>
+	<!-- /page pesquisas -->
+	<div data-role="page" id="ditto" data-theme="d" data-url="ditto" tabindex="0" class="ui-page ui-body-d ui-page-panel" style="min-height: 684px;">
+
+    <div class="ui-panel-content-wrap ui-body-d ui-panel-animate ui-panel-content-wrap-closed">
+	<div data-role="header" data-theme="b" class="ui-header ui-bar-b" role="banner">
+        <h1>Ditto disfarces</h1>
+		<a href="#left-panel" data-theme="d" data-icon="arrow-r" data-iconpos="text" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc">Eventos</a>
+		<a href="#right-panel" data-theme="d" data-icon="arrow-l" data-iconpos="text" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc">Guias</a>
+    </div><!-- /header -->
+	<div data-role="content" class="ui-content">
+		<p>
+			Conteudo pagina ditto
+		</p>
+    </div>
+	</div><!-- /header -->
+
+    <!-- /content -->
+
+    <div data-role="panel" id="left-panel" data-theme="b" class="ui-panel ui-panel-position-left ui-panel-display-reveal ui-panel-closed ui-body-b ui-panel-animate">
+    </div><!-- /panel -->
+
+    <div data-role="panel" id="right-panel" data-display="push" data-position="right" data-theme="c" class="ui-panel ui-panel-position-right ui-panel-display-push ui-panel-closed ui-body-c ui-panel-animate">
+
+    	<div class="ui-panel-inner"><p>Right push panel.</p><a href="#" data-rel="close" data-role="button" data-mini="true" data-inline="true" data-icon="delete" data-iconpos="right" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-theme="d" class="ui-btn ui-btn-up-d ui-shadow ui-btn-corner-all ui-mini ui-btn-inline ui-btn-icon-right"><span class="ui-btn-inner"><span class="ui-btn-text">Close</span><span class="ui-icon ui-icon-delete ui-icon-shadow">&nbsp;</span></span></a></div>
+		
+
+    </div><!-- /panel -->
+
+<div class="ui-panel-dismiss" data-panelid="left-panel"></div>
+<div class="ui-panel-dismiss" data-panelid="right-panel"></div>
+
+</div>
+	<!-- /page ditto -->
+	
+	<!-- Modal formulário adicionar códigos -->
+	<div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-lg" role="document">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+			  <span aria-hidden="true">&times;</span>
+			</button>
+		  </div>
+		  <div class="modal-body">
+			<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeLmYApVvPnDudXsI2XzSuDxPpRSFmcP0yUF_IUeSZdigaFLQ/viewform?embedded=true" width="100%" height="700" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+		  </div>
+		  <div class="modal-footer">
+			<button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+		  </div>
+		</div>
+	  </div>
+	</div>
+
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+	<script type="text/javascript" src="js/simplePagination.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="js/vendor/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+    <script>
+      feather.replace()
+    </script>
+	<script type="text/javascript">
+		
+
+tippy('.table .btn', {
+  content: "Código copiado!",
+  placement: 'right',
+  arrow: 'true',
+  animation: 'scale-with-inertia',
+  theme: 'dark',
+  trigger: 'click',
+  delay: [0,100],
+});
+
+var clipboard = new ClipboardJS('.btn');
+
+clipboard.on('success', function(e) {
+    e.clearSelection();
+});
+
+clipboard.on('error', function(e) {
+    console.error('Action:', e.action);
+    console.error('Trigger:', e.trigger);
+});
+
+
+
+   //Função Paginação dos comentarios
+    $('.table').before('<div class="comments-pagination-system"/>');
+    $('.table').after('<div class="comments-pagination-system"/>');
+	
+
+    $('.comments-pagination-system').html('<div class="comments pagination"/>');
+
+
+    var previous = "<";
+    var next = ">";
+    var perPage = 10;
+    var items = $("table tbody tr.code");
+    var numItems = items.length;
+		$('#total-registrados').html('<b>'+numItems+'</b>');
+
+
+     // Only show the first perPage items initially.
+     items.slice(perPage).hide();
+     // Now setup the pagination using the `#pagination` div.
+     $(".comments.pagination").pagination({
+      items: numItems,
+      itemsOnPage: perPage,
+      cssStyle: "light-theme",
+      prevText: previous,
+      nextText: next,
+      displayedPages: 3, // How many page numbers should be visible while navigating.Minimum allowed: 3 (previous, current & next)
+      edges: 1, // How many page numbers are visible at the beginning/ending of the pagination.
+
+      // This is the actual page changing functionality.
+      onPageClick: function(pageNumber) {
+       // We need to show and hide `tr`s appropriately.
+       var showFrom = perPage * (pageNumber - 1);
+       var showTo = showFrom + perPage;
+
+       // We'll first hide everything...
+       items.hide()
+       // ... and then only show the appropriate rows.
+      .slice(showFrom, showTo).show();
+      }
+     });
+	</script>
+
+
+    <!-- Script to move element -->        
+    <script>  
+        function myGeeks() { 
+			var menuesquerdo = $('#inicio #left-panel .ui-panel-inner').html();
+			var menudireito = $('#inicio #right-panel .ui-panel-inner').html();
+			
+			
+			$('#raids .ui-panel-position-left').html(menuesquerdo);
+			$('#ovos .ui-panel-position-left').html(menuesquerdo);
+			$('#pesquisas .ui-panel-position-left').html(menuesquerdo);
+			$('#ditto .ui-panel-position-left').html(menuesquerdo);
+			
+			$('#raids .ui-panel-position-right').html(menudireito);
+			$('#ovos .ui-panel-position-right').html(menudireito);
+			$('#pesquisas .ui-panel-position-right').html(menudireito);
+			$('#ditto .ui-panel-position-right').html(menudireito);
+        } 
+    </script>  
+</body>
+</html>
