@@ -177,6 +177,11 @@
 		});
     </script>
 	<style>
+	.graphic img { 
+    height: auto;
+    max-width: 100%;
+}
+	}
 		/* Swipe works with mouse as well but often causes text selection. */
 		#demo-page * {
 			-webkit-user-select: none;
@@ -204,22 +209,26 @@
 </head>
 <body>
 
-    <div data-role="header" data-theme="b">
+	<div data-role="page" id="inicio" data-theme="d" data-url="inicio" tabindex="0" class="ui-page ui-body-d ui-page-panel" style="min-height: 684px;">
+
+    <div class="ui-panel-content-wrap ui-body-d ui-panel-animate ui-panel-content-wrap-closed">
+	<div data-role="header" data-theme="b" class="ui-header ui-bar-b" role="banner">
         <h1>Códigos</h1>
 		<a href="#left-panel" data-theme="d" data-icon="arrow-r" data-iconpos="text" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc">Eventos</a>
-		<a href="#right-panel" data-theme="d" data-icon="arrow-l" data-iconpos="notext" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc">Open right panel</a>
+		<a href="#right-panel" data-theme="d" data-icon="arrow-l" data-iconpos="text" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc">Guias</a>
     </div><!-- /header -->
-
-			
-    <div data-role="content">
+		
+    <div data-role="content" class="ui-content" role="main">
 	
 			  
 		
 		   <!-- Botão para acionar modal -->
-			<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modalExemplo">
-			   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus-circle"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="16"></line><line x1="8" y1="12" x2="16" y2="12"></line></svg> 
-			  Adicionar código
-			</button> <br/><br/>
+			<center>
+				<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modalExemplo">
+				   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus-circle"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="16"></line><line x1="8" y1="12" x2="16" y2="12"></line></svg> 
+				  Adicionar código
+				</button>
+			</center>			<br/><br/>
 			
 		  <p>Clique no código para copiar, caso encontre erros entre em contato com o admin.</p>
 			
@@ -375,7 +384,7 @@
                 </tr>
                 <tr class="code">
                   <td>LenyDF</td>
-                  <td>39</td>
+                  <td>40</td>
                   <td>Mystic</td>
                   <td class="btn" data-clipboard-text="4711 0474 8597">4711 0474 8597 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
                 </tr>
@@ -435,7 +444,7 @@
                 </tr>
                 <tr class="code">
                   <td>VemnimimBSB</td>
-                  <td>25</td>
+                  <td>29</td>
                   <td>Mystic</td>
                   <td class="btn" data-clipboard-text="9068 5619 6843">9068 5619 6843 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
                 </tr>
@@ -447,16 +456,21 @@
           </div>
 		  <p>Atualmente existem <i id="total-registrados"></i> jogadores registrados.</p>
 		  
+		  <center><h2 class="block__title">PoGo Taguatinga Sul</h2></center>
+		  
 		  <div class="row wpp">
 				<div class="col-sm-4 col-md-4 col-lg-4">
                     <a href="https://chat.whatsapp.com/invite/82RgZaSaHOAKiPBjSPlu92" id="action-icon" title="Clique neste link para entrar: Pokémon Go Taguatinga Sul" class="block__img img icon-chat">
-                        <img style="width:50%;float: right;" src="https://chat.whatsapp.com/invite/icon/82RgZaSaHOAKiPBjSPlu92"/>
+                        <center>
+							<img style="width:50%" src="https://chat.whatsapp.com/invite/icon/82RgZaSaHOAKiPBjSPlu92"/>
+						</center>
                     </a>
 				</div>
 				<div class="col-sm-8 col-md-8 col-lg-8">
 				   <a href="https://chat.whatsapp.com/invite/82RgZaSaHOAKiPBjSPlu92" id="action-icon" title="Clique neste link para entrar: Pokémon Go Taguatinga Sul" class="block__img img icon-chat">
-                    <h2 class="block__title">Pokémon Go Taguatinga Sul</h2>
-                    <h4 class="block__subtitle" dir="auto">Convite de Grupo do WhatsApp</h3>
+                    <center>
+						<h4>Convite do WhatsApp</h3>
+					</center>
 				   </a>
                     <div class="block__action">
                         <center>
@@ -466,15 +480,13 @@
 				</div>
           </div>
 
-		<a href="#demo-intro" data-rel="back" class="back-btn" data-role="button" data-mini="true" data-inline="true" data-icon="back" data-iconpos="right">Back to demo intro</a>
-
     </div><!-- /content -->
 
-    <div data-role="panel" id="left-panel" data-theme="b">
+	</div><!-- /header -->
+    <!-- /content -->
 
-		
-  
-		  <p class="timers">
+    <div data-role="panel" id="left-panel" data-theme="b">
+		  <div class="timers">
 							<h2>Eventos</h2>
 <a href="https://p337.info/pokemongo/countdowns/?id=rayquaza-raids-2019-2" class="mincd w_l" style="text-decoration: none; color: black;">
     <div id="rayquaza_raids_2019_2_mz_r" class="clock_contain mas" style="background-color: #dbdbdb;">
@@ -1106,7 +1118,7 @@
   }
   </script>
   
-		  </p>
+		  </div>
   
 <hr/>
 		  
@@ -1130,31 +1142,220 @@
 
     <div data-role="panel" id="right-panel" data-display="push" data-position="right" data-theme="c">
 
-    	<p>Right push panel.</p>
-		<a href="#" data-rel="close" data-role="button" data-mini="true" data-inline="true" data-icon="delete" data-iconpos="right">Close</a>
-
+    	<p>
+			<ul>
+				<a href="#inicio" class="jqm-button ui-btn ui-shadow ui-btn-corner-all ui-mini ui-btn-inline ui-btn-icon-right ui-btn-up-c" data-ajax="false" data-role="button" data-inline="true" data-mini="true" data-icon="arrow-r" data-iconpos="right" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-theme="c">
+					<span class="ui-btn-inner">
+						<span class="ui-btn-text">Início</span>
+						<span class="ui-icon ui-icon-arrow-r ui-icon-shadow">&nbsp;</span>
+					</span>
+				</a>
+				<a href="#ovos"  onclick="myGeeks()" class="jqm-button ui-btn ui-shadow ui-btn-corner-all ui-mini ui-btn-inline ui-btn-icon-right ui-btn-up-c" data-ajax="false" data-role="button" data-inline="true" data-mini="true" data-icon="arrow-r" data-iconpos="right" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-theme="c">
+					<span class="ui-btn-inner">
+						<span class="ui-btn-text">Ovos</span>
+						<span class="ui-icon ui-icon-arrow-r ui-icon-shadow">&nbsp;</span>
+					</span>
+				</a>
+				<a href="#raids"  onclick="myGeeks()" class="jqm-button ui-btn ui-shadow ui-btn-corner-all ui-mini ui-btn-inline ui-btn-icon-right ui-btn-up-c" data-ajax="false" data-role="button" data-inline="true" data-mini="true" data-icon="arrow-r" data-iconpos="right" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-theme="c">
+					<span class="ui-btn-inner">
+						<span class="ui-btn-text">Raid Boss</span>
+						<span class="ui-icon ui-icon-arrow-r ui-icon-shadow">&nbsp;</span>
+					</span>
+				</a>
+				<a href="#pesquisas"  onclick="myGeeks()" class="jqm-button ui-btn ui-shadow ui-btn-corner-all ui-mini ui-btn-inline ui-btn-icon-right ui-btn-up-c" data-ajax="false" data-role="button" data-inline="true" data-mini="true" data-icon="arrow-r" data-iconpos="right" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-theme="c">
+					<span class="ui-btn-inner">
+						<span class="ui-btn-text">Pesquisas de Campo</span>
+						<span class="ui-icon ui-icon-arrow-r ui-icon-shadow">&nbsp;</span>
+					</span>
+				</a>
+				<a href="#ditto"  onclick="myGeeks()" class="jqm-button ui-btn ui-shadow ui-btn-corner-all ui-mini ui-btn-inline ui-btn-icon-right ui-btn-up-c" data-ajax="false" data-role="button" data-inline="true" data-mini="true" data-icon="arrow-r" data-iconpos="right" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-theme="c">
+					<span class="ui-btn-inner">
+						<span class="ui-btn-text">Ditto disfarces</span>
+						<span class="ui-icon ui-icon-arrow-r ui-icon-shadow">&nbsp;</span>
+					</span>
+				</a>
+				
+			</ul>
+		</p>
     </div><!-- /panel -->
 	
+
+<div class="ui-panel-dismiss" data-panelid="left-panel"></div><div class="ui-panel-dismiss" data-panelid="right-panel"></div>
+
+</div>
+	<!-- /page inicial -->
 	
-		   <!-- Modal -->
-			<div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-			  <div class="modal-dialog modal-lg" role="document">
-				<div class="modal-content">
-				  <div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-					  <span aria-hidden="true">&times;</span>
-					</button>
-				  </div>
-				  <div class="modal-body">
-					<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeLmYApVvPnDudXsI2XzSuDxPpRSFmcP0yUF_IUeSZdigaFLQ/viewform?embedded=true" width="100%" height="700" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
-				  </div>
-				  <div class="modal-footer">
-					<button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-				  </div>
-				</div>
-			  </div>
-			</div>
+	<div data-role="page" id="raids" data-theme="d" data-url="raids" tabindex="0" class="ui-page ui-body-d ui-page-panel" style="min-height: 684px;">
+
+    <div class="ui-panel-content-wrap ui-body-d ui-panel-animate ui-panel-content-wrap-closed">
+	<div data-role="header" data-theme="b" class="ui-header ui-bar-b" role="banner">
+        <h1>Raid Bosses</h1>
+		<a href="#left-panel" data-theme="d" data-icon="arrow-r" data-iconpos="text" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc">Eventos</a>
+		<a href="#right-panel" data-theme="d" data-icon="arrow-l" data-iconpos="text" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc">Guias</a>
+    </div><!-- /header -->
+	<div data-role="content" class="ui-content">
+		<p class="graphic">
+			<img src="https://leekduck.com/assets/img/raid-bosses/graphic/Raid%20Bosses%20-%20Water%20Festival_2.jpg" alt="Raid Bosses">
+		</p>
+		
+		<a href="#demo-intro" data-rel="back" class="back-btn" data-role="button" data-mini="true" data-inline="true" data-icon="back" data-iconpos="right">Voltar</a>
+
+    </div>
+	</div><!-- /header -->
+
+    <!-- /content -->
+
+    <div data-role="panel" id="left-panel" data-theme="b" class="ui-panel ui-panel-position-left ui-panel-display-reveal ui-panel-closed ui-body-b ui-panel-animate">
+    </div><!-- /panel -->
+
+    <div data-role="panel" id="right-panel" data-display="push" data-position="right" data-theme="c" class="ui-panel ui-panel-position-right ui-panel-display-push ui-panel-closed ui-body-c ui-panel-animate">
+
+    	<div class="ui-panel-inner"><p>Right push panel.</p><a href="#" data-rel="close" data-role="button" data-mini="true" data-inline="true" data-icon="delete" data-iconpos="right" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-theme="d" class="ui-btn ui-btn-up-d ui-shadow ui-btn-corner-all ui-mini ui-btn-inline ui-btn-icon-right"><span class="ui-btn-inner"><span class="ui-btn-text">Close</span><span class="ui-icon ui-icon-delete ui-icon-shadow">&nbsp;</span></span></a></div>
+		
+
+    </div><!-- /panel -->
+
+<div class="ui-panel-dismiss" data-panelid="left-panel"></div>
+<div class="ui-panel-dismiss" data-panelid="right-panel"></div>
+
+</div>
+	<!-- /page raids -->
+	<div data-role="page" id="ovos" data-theme="d" data-url="ovos" tabindex="0" class="ui-page ui-body-d ui-page-panel" style="min-height: 684px;">
+
+    <div class="ui-panel-content-wrap ui-body-d ui-panel-animate ui-panel-content-wrap-closed">
+	<div data-role="header" data-theme="b" class="ui-header ui-bar-b" role="banner">
+        <h1>Ovos</h1>
+		<a href="#left-panel" data-theme="d" data-icon="arrow-r" data-iconpos="text" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc">Eventos</a>
+		<a href="#right-panel" data-theme="d" data-icon="arrow-l" data-iconpos="text" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc">Guias</a>
+    </div><!-- /header -->
+	<div data-role="content" class="ui-content">
+		
+		<p class="graphic">
+			<img src="https://leekduck.com/assets/img/eggs/2019.06.12-currenteggs.jpg" alt="Ditto disguises">
+			
+			
+		</p>
+		<a href="#demo-intro" data-rel="back" class="back-btn" data-role="button" data-mini="true" data-inline="true" data-icon="back" data-iconpos="right">Voltar</a>
+
+    </div>
+	</div><!-- /header -->
+
+    <!-- /content -->
+
+    <div data-role="panel" id="left-panel" data-theme="b" class="ui-panel ui-panel-position-left ui-panel-display-reveal ui-panel-closed ui-body-b ui-panel-animate">
+
+    	<div class="ui-panel-inner"><p>Left reveal panel.</p><a href="#" data-rel="close" data-role="button" data-mini="true" data-inline="true" data-icon="delete" data-iconpos="right" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-theme="d" class="ui-btn ui-btn-up-d ui-shadow ui-btn-corner-all ui-mini ui-btn-inline ui-btn-icon-right"><span class="ui-btn-inner"><span class="ui-btn-text">Close</span><span class="ui-icon ui-icon-delete ui-icon-shadow">&nbsp;</span></span></a></div>
+		
+
+    </div><!-- /panel -->
+
+    <div data-role="panel" id="right-panel" data-display="push" data-position="right" data-theme="c" class="ui-panel ui-panel-position-right ui-panel-display-push ui-panel-closed ui-body-c ui-panel-animate">
+
+    	<div class="ui-panel-inner"><p>Right push panel.</p><a href="#" data-rel="close" data-role="button" data-mini="true" data-inline="true" data-icon="delete" data-iconpos="right" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-theme="d" class="ui-btn ui-btn-up-d ui-shadow ui-btn-corner-all ui-mini ui-btn-inline ui-btn-icon-right"><span class="ui-btn-inner"><span class="ui-btn-text">Close</span><span class="ui-icon ui-icon-delete ui-icon-shadow">&nbsp;</span></span></a></div>
+		
+
+    </div><!-- /panel -->
+
+<div class="ui-panel-dismiss" data-panelid="left-panel"></div>
+<div class="ui-panel-dismiss" data-panelid="right-panel"></div>
+
+</div>
+	<!-- /page ovos -->
+	<div data-role="page" id="pesquisas" data-theme="d" data-url="pesquisas" tabindex="0" class="ui-page ui-body-d ui-page-panel" style="min-height: 684px;">
+
+    <div class="ui-panel-content-wrap ui-body-d ui-panel-animate ui-panel-content-wrap-closed">
+	<div data-role="header" data-theme="b" class="ui-header ui-bar-b" role="banner">
+        <h1>Pesquisas</h1>
+		<a href="#left-panel" data-theme="d" data-icon="arrow-r" data-iconpos="text" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc">Eventos</a>
+		<a href="#right-panel" data-theme="d" data-icon="arrow-l" data-iconpos="text" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc">Guias</a>
+    </div><!-- /header -->
+	<div data-role="content" class="ui-content">
+		<p class="graphic">
+			<img src="https://leekduck.com/assets/img/research/breakthrough/JulAug%20Research%20Breakthrough.jpg" alt="Field Research Tasks">
+			
+			<img src="https://leekduck.com/assets/img/research/field/Jul%20Field%20Research.jpg" alt="Field Research Tasks">
+			
+			
+		</p>
+		<a href="#demo-intro" data-rel="back" class="back-btn" data-role="button" data-mini="true" data-inline="true" data-icon="back" data-iconpos="right">Voltar</a>
+
+    </div>
+	</div><!-- /header -->
+
+    <!-- /content -->
+
+    <div data-role="panel" id="left-panel" data-theme="b" class="ui-panel ui-panel-position-left ui-panel-display-reveal ui-panel-closed ui-body-b ui-panel-animate">
+    </div><!-- /panel -->
+
+    <div data-role="panel" id="right-panel" data-display="push" data-position="right" data-theme="c" class="ui-panel ui-panel-position-right ui-panel-display-push ui-panel-closed ui-body-c ui-panel-animate">
+
+    	<div class="ui-panel-inner"><p>Right push panel.</p><a href="#" data-rel="close" data-role="button" data-mini="true" data-inline="true" data-icon="delete" data-iconpos="right" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-theme="d" class="ui-btn ui-btn-up-d ui-shadow ui-btn-corner-all ui-mini ui-btn-inline ui-btn-icon-right"><span class="ui-btn-inner"><span class="ui-btn-text">Close</span><span class="ui-icon ui-icon-delete ui-icon-shadow">&nbsp;</span></span></a></div>
+		
+
+    </div><!-- /panel -->
+
+<div class="ui-panel-dismiss" data-panelid="left-panel"></div>
+<div class="ui-panel-dismiss" data-panelid="right-panel"></div>
+
+</div>
+	<!-- /page pesquisas -->
+	<div data-role="page" id="ditto" data-theme="d" data-url="ditto" tabindex="0" class="ui-page ui-body-d ui-page-panel" style="min-height: 684px;">
+
+    <div class="ui-panel-content-wrap ui-body-d ui-panel-animate ui-panel-content-wrap-closed">
+	<div data-role="header" data-theme="b" class="ui-header ui-bar-b" role="banner">
+        <h1>Ditto disfarces</h1>
+		<a href="#left-panel" data-theme="d" data-icon="arrow-r" data-iconpos="text" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc">Eventos</a>
+		<a href="#right-panel" data-theme="d" data-icon="arrow-l" data-iconpos="text" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc">Guias</a>
+    </div><!-- /header -->
+	<div data-role="content" class="ui-content">
+		
+		<p class="graphic">
+			<img src="images/ditto-disguises.png" alt="Ditto disguises">
+			
+			
+		</p>
+		<a href="#demo-intro" data-rel="back" class="back-btn" data-role="button" data-mini="true" data-inline="true" data-icon="back" data-iconpos="right">Voltar</a>
+
+    </div>
+	</div><!-- /header -->
+
+    <!-- /content -->
+
+    <div data-role="panel" id="left-panel" data-theme="b" class="ui-panel ui-panel-position-left ui-panel-display-reveal ui-panel-closed ui-body-b ui-panel-animate">
+    </div><!-- /panel -->
+
+    <div data-role="panel" id="right-panel" data-display="push" data-position="right" data-theme="c" class="ui-panel ui-panel-position-right ui-panel-display-push ui-panel-closed ui-body-c ui-panel-animate">
+
+    	<div class="ui-panel-inner"><p>Right push panel.</p><a href="#" data-rel="close" data-role="button" data-mini="true" data-inline="true" data-icon="delete" data-iconpos="right" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-theme="d" class="ui-btn ui-btn-up-d ui-shadow ui-btn-corner-all ui-mini ui-btn-inline ui-btn-icon-right"><span class="ui-btn-inner"><span class="ui-btn-text">Close</span><span class="ui-icon ui-icon-delete ui-icon-shadow">&nbsp;</span></span></a></div>
+		
+
+    </div><!-- /panel -->
+
+<div class="ui-panel-dismiss" data-panelid="left-panel"></div>
+<div class="ui-panel-dismiss" data-panelid="right-panel"></div>
+
+</div>
+	<!-- /page ditto -->
 	
+	<!-- Modal formulário adicionar códigos -->
+	<div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-lg" role="document">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+			  <span aria-hidden="true">&times;</span>
+			</button>
+		  </div>
+		  <div class="modal-body">
+			<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeLmYApVvPnDudXsI2XzSuDxPpRSFmcP0yUF_IUeSZdigaFLQ/viewform?embedded=true" width="100%" height="700" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+		  </div>
+		  <div class="modal-footer">
+			<button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+		  </div>
+		</div>
+	  </div>
+	</div>
+
 	<!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -1198,6 +1399,7 @@ clipboard.on('error', function(e) {
    //Função Paginação dos comentarios
     $('.table').before('<div class="comments-pagination-system"/>');
     $('.table').after('<div class="comments-pagination-system"/>');
+	
 
     $('.comments-pagination-system').html('<div class="comments pagination"/>');
 
@@ -1236,5 +1438,24 @@ clipboard.on('error', function(e) {
      });
 	</script>
 
+
+    <!-- Script to move element -->        
+    <script>  
+        function myGeeks() { 
+			var menuesquerdo = $('#inicio #left-panel .ui-panel-inner').html();
+			var menudireito = $('#inicio #right-panel .ui-panel-inner').html();
+			
+			
+			$('#raids .ui-panel-position-left').html(menuesquerdo);
+			$('#ovos .ui-panel-position-left').html(menuesquerdo);
+			$('#pesquisas .ui-panel-position-left').html(menuesquerdo);
+			$('#ditto .ui-panel-position-left').html(menuesquerdo);
+			
+			$('#raids .ui-panel-position-right').html(menudireito);
+			$('#ovos .ui-panel-position-right').html(menudireito);
+			$('#pesquisas .ui-panel-position-right').html(menudireito);
+			$('#ditto .ui-panel-position-right').html(menudireito);
+        } 
+    </script>  
 </body>
 </html>
