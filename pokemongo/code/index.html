@@ -512,163 +512,7 @@
     <div data-role="panel" id="left-panel" data-theme="b">
 		  <div class="timers">
 							<h2>Eventos</h2>
-<a href="https://p337.info/pokemongo/countdowns/?id=rayquaza-raids-2019-2" class="mincd w_l" style="text-decoration: none; color: black;">
-    <div id="rayquaza_raids_2019_2_mz_r" class="clock_contain mas" style="background-color: #dbdbdb;">
-    <div class="clock_left">
-      <img class="clock_image" alt="img" style="width:100px; height: 100px;" src="https://p337.info/pokemongo/img/pokemon/384.png">
-    </div>
-    <div class="clock_right">
-      <div id="rayquaza_raids_2019_2_mz_l">Rayquaza Raids End</div>
-      <div class="countdown" id="rayquaza_raids_2019_2_mz_countdown"><span class="day"><span class="t_val">31</span>d</span> <span class="hour"><span class="t_val">16</span>h</span> <span class="min"><span class="t_val">43</span>m</span> <span class="sec"><span class="t_val">26</span>s</span> </div>
-      <div class="local loc_s"> Your Local Time: </div>
-      <div id="rayquaza_raids_2019_2_mz_time" class="local loc_t">Mon 2-Sep-2019 5:00 PM (17:00)</div> 
-    </div>
-  </div>
-  </a>
-  <script>
-  
-  var s = 'Jul 31 2019 13:00:00 GMT-0700'; var e = 'Sep 2 2019 13:00:00 GMT-0700';
-  
-  var ds = new Date(s); var dend = new Date(e); var dn = new Date(); var o = false; var d = ''; var t = ''; var eda = true;
 
- /* new_offset */
-  var js_debug = true;
-  var offset_2 = new Date().getTimezoneOffset();
-  var offstart = (offset_2/60)*-1;
-  var ooup = 0;
-  
-  if(ooup != 0) {
-    if (parseFloat(offstart) >= parseFloat(ooup)) {
-      ds.setDate(ds.getDate() + 1);
-      dend.setDate(dend.getDate() + 1);
-      
-      //dateobj.toString();
-      s = ds.toString();
-      e = dend.toString();
-      //alert('done');
-    }
-    //if (js_debug) { alert(parseFloat(offstart) + ' ' + parseFloat(ooup)); }
-  }
-   
-  /* end */
-  
-  
-  
-  if (e.length < 10) { console.log('hello there'); eda = false; }
-  if (Date.parse(ds)-Date.parse(new Date())<0 && eda) { deadline = e; o = true; } else { deadline = s; o = false; }
-  
-  var m = 'Rayquaza Raids';
-  t = m.toLowerCase()
-  t = t.replace('-', ' '); 
-  t = t.replace('mz', ' '); 
-
-  var arr = t.split('');
-  var lastItem = arr[arr.length - 1];
-
-  if ( t.includes('raids') || lastItem == 's' ) { if (o) { d=t+' End'; f=t+' have finished'; } else { d=t+' Start'; f=t+' Started';} }
-  else if ( t.includes('community day') ) { if (o) { d=t+' End'; f=t+' has finished'; } else { d=t+' Starts'; f=t+' has Started';} }
-  else { if (o) { d=t+' Ends'; f=t+' is over'; } else { d=t+' Starts'; f=t+' started';} }
-  
-  if ( eda == false ) { d=t+''; f=t+' Started'; }
-  
-  d = toTitleCase(d);  f = toTitleCase(f); 
-  //alert(d);
-  if ( document.getElementById('rayquaza_raids_2019_2_mz_l') ) { document.getElementById('rayquaza_raids_2019_2_mz_l').innerHTML = d; } 
-  
-  var stop_clock_id = '';
-  var offset = new Date().getTimezoneOffset();
-  var offset_hours = offset/60;
-  var offset_miliseconds = 0;
-  if (offset_hours < 0) { offset_miliseconds = 100; }
-  if ( document.getElementById('rayquaza_raids_2019_2_mz_countdown') ) {
-    stop_clock_id = initializeClock('rayquaza_raids_2019_2_mz_countdown', deadline, 0, f);
-    var local_date = new Date(deadline);
-    local_date.setTime(local_date.getTime() + (offset_hours+offset_miliseconds));
-    var local_date_string = format_date(local_date,true);
-    document.getElementById('rayquaza_raids_2019_2_mz_time').innerHTML = local_date_string;
-  }
-  </script>
-  
-  
-<a href="https://p337.info/pokemongo/countdowns/?id=water-festival-2019" class="mincd w_l" style="text-decoration: none; color: black;">
-    <div id="water_festival_2019_mz_r" class="clock_contain mas" style="background-color: #dbdbdb;">
-    <div class="clock_left">
-      <img class="clock_image" alt="img" style="width:100px; height: 100px;" src="https://p337.info/pokemongo/img/pokemon/130.png">
-    </div>
-    <div class="clock_right">
-      <div id="water_festival_2019_mz_l">Water Festival Starts</div>
-      <div class="countdown" id="water_festival_2019_mz_countdown"><span class="day"><span class="t_val">2</span>d</span> <span class="hour"><span class="t_val">0</span>h</span> <span class="min"><span class="t_val">3</span>m</span> <span class="sec"><span class="t_val">18</span>s</span> </div>
-      <div class="local loc_s"> Your Local Time: </div>
-      <div id="water_festival_2019_mz_time" class="local loc_t">Fri 23-Aug-2019 5:00 PM (17:00)</div> 
-    </div>
-  </div>
-  </a>
-  <script>
-  
-  var s = 'Aug 23 2019 13:00:00 GMT-0700'; var e = 'Aug 30 2019 13:00:00 GMT-0700';
-  
-  var ds = new Date(s); var dend = new Date(e); var dn = new Date(); var o = false; var d = ''; var t = ''; var eda = true;
-
- /* new_offset */
-  var js_debug = true;
-  var offset_2 = new Date().getTimezoneOffset();
-  var offstart = (offset_2/60)*-1;
-  var ooup = 0;
-  
-  if(ooup != 0) {
-    if (parseFloat(offstart) >= parseFloat(ooup)) {
-      ds.setDate(ds.getDate() + 1);
-      dend.setDate(dend.getDate() + 1);
-      
-      //dateobj.toString();
-      s = ds.toString();
-      e = dend.toString();
-      //alert('done');
-    }
-    //if (js_debug) { alert(parseFloat(offstart) + ' ' + parseFloat(ooup)); }
-  }
-   
-  /* end */
-  
-  
-  
-  if (e.length < 10) { console.log('hello there'); eda = false; }
-  if (Date.parse(ds)-Date.parse(new Date())<0 && eda) { deadline = e; o = true; } else { deadline = s; o = false; }
-  
-  var m = 'Water Festival';
-  t = m.toLowerCase()
-  t = t.replace('-', ' '); 
-  t = t.replace('mz', ' '); 
-
-  var arr = t.split('');
-  var lastItem = arr[arr.length - 1];
-
-  if ( t.includes('raids') || lastItem == 's' ) { if (o) { d=t+' End'; f=t+' have finished'; } else { d=t+' Start'; f=t+' Started';} }
-  else if ( t.includes('return') ) { if (o) { d=t+' Ends'; f=t+' has finished'; } else { d=t+' '; f=t+' ';} }
-  else if ( t.includes('community day') ) { if (o) { d=t+' End'; f=t+' has finished'; } else { d=t+' Starts'; f=t+' has Started';} }
-  else { if (o) { d=t+' Ends'; f=t+' is over'; } else { d=t+' Starts'; f=t+' started';} }
-  
-  if ( eda == false ) { d=t+''; f=t+' Started'; }
-  
-  d = toTitleCase(d);  f = toTitleCase(f); 
-  //alert(d);
-  if ( document.getElementById('water_festival_2019_mz_l') ) { document.getElementById('water_festival_2019_mz_l').innerHTML = d; } 
-  
-  var stop_clock_id = '';
-  var offset = new Date().getTimezoneOffset();
-  var offset_hours = offset/60;
-  var offset_miliseconds = 0;
-  if (offset_hours < 0) { offset_miliseconds = 100; }
-  if ( document.getElementById('water_festival_2019_mz_countdown') ) {
-    stop_clock_id = initializeClock('water_festival_2019_mz_countdown', deadline, 0, f);
-    var local_date = new Date(deadline);
-    local_date.setTime(local_date.getTime() + (offset_hours+offset_miliseconds));
-    var local_date_string = format_date(local_date,true);
-    document.getElementById('water_festival_2019_mz_time').innerHTML = local_date_string;
-  }
-  </script>
-  
-  
   <a href="https://p337.info/pokemongo/countdowns/?id=first-gofest-ultra-reward" class="mincd w_l" style="text-decoration: none; color: black;">
     <div id="first_gofest_ultra_reward_mz_r" class="clock_contain mas" style="background-color: #dbdbdb;">
     <div class="clock_left">
@@ -751,7 +595,7 @@
   <a href="https://p337.info/pokemongo/countdowns/?id=second-gofest-ultra-reward" class="mincd w_l" style="text-decoration: none; color: black;">
     <div id="second_gofest_ultra_reward_mz_r" class="clock_contain mas" style="background-color: #dbdbdb;">
     <div class="clock_left">
-      <img class="clock_image" alt="img" style="width:100px; height: 100px;" src="https://p337.info/pokemongo/img/custom/unknown2.png">
+      <img class="clock_image" alt="img" style="width:100px; height: 100px;" src="https://p337.info/pokemongo/img/pokemon/386.png">
     </div>
     <div class="clock_right">
       <div id="second_gofest_ultra_reward_mz_l">Second Gofest Ultra Reward Starts</div>
@@ -909,7 +753,7 @@
   <a href="https://p337.info/pokemongo/countdowns/?id=third-gofest-ultra-reward" class="mincd w_l" style="text-decoration: none; color: black;">
     <div id="third_gofest_ultra_reward_mz_r" class="clock_contain mas" style="background-color: #dbdbdb;">
     <div class="clock_left">
-      <img class="clock_image" alt="img" style="width:100px; height: 100px;" src="https://p337.info/pokemongo/img/custom/unknown2.png">
+      <img class="clock_image" alt="img" style="width:100px; height: 100px;" src="https://p337.info/pokemongo/img/pokemon/150.png">
     </div>
     <div class="clock_right">
       <div id="third_gofest_ultra_reward_mz_l">Third Gofest Ultra Reward Starts</div>
