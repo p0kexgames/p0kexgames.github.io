@@ -174,13 +174,41 @@
 	.ui-panel-inner ul { margin-left: 0; padding-left: 0; }
 	.ui-panel-inner ul a { display: block; }
 	
-	.ui-panel-inner ul a.ui-link {
-    margin-top: 20px;
-    margin-bottom: 10px;
+	.ui-panel-inner a.ui-link {
     margin-right: 0;
     margin-left: 0;
-    border-top: 1px solid #000;
-    padding-top: 15px;
+	}
+	
+	.ui-panel-inner {
+    padding: 0px !important;
+    text-shadow: 0 1px 0 #3e6790;
+    color: #fff;
+	}
+	
+	.nest_migration_container {
+    margin: 5px;
+    padding: 5px;
+	}
+	
+	
+	.ui-panel-inner ul a {
+    display: block;
+    border-bottom: 2px solid #34495D;
+    padding: 1em;
+	}
+	.ui-panel-inner ul a:link, .ui-panel-inner ul a:visited {
+    color: #25B89A;
+    color: #fff;
+	}
+	.ui-panel ul {
+    border-top: 2px solid #34495D;
+	}
+	.ui-panel {
+    background: #2C3E50;
+	}
+	.ui-panel-inner a .mas {
+    width: 100% !important;
+	max-width: 100% !important;
 	}
 	
 	
@@ -220,7 +248,7 @@
 
     <div class="ui-panel-content-wrap ui-body-d ui-panel-animate ui-panel-content-wrap-closed">
 	<div data-role="header" data-theme="b" class="ui-header ui-bar-b" role="banner">
-        <h1>Códigos</h1>
+        <h1><a href="#inicio">Códigos</a></h1>
 		<a href="#left-panel" data-theme="d" data-icon="arrow-r" data-iconpos="text" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc">Eventos</a>
 		<a href="#right-panel" data-theme="d" data-icon="arrow-l" data-iconpos="text" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc">Guias</a>
     </div><!-- /header -->
@@ -518,7 +546,7 @@
 
     <div data-role="panel" id="left-panel" data-theme="b">
 		  <div class="timers">
-							<h2>Eventos</h2>
+							<h2 style="color:#CCC;"><center>Eventos<center></h2>
 
   <a href="https://p337.info/pokemongo/countdowns/?id=first-gofest-ultra-reward" class="mincd w_l" style="text-decoration: none; color: black;">
     <div id="first_gofest_ultra_reward_mz_r" class="clock_contain mas" style="background-color: #dbdbdb;">
@@ -976,8 +1004,7 @@
   </script>
   
 		  </div>
-  
-<hr/>
+  <hr/>
 		  
   <div id='clockcontain' class='nest_migration_container'>
     <div id='nest_migration_text'>Próxima migração de ninhos</div>
@@ -995,33 +1022,54 @@
       initializeClock('nest_migration_div', date_clock, 0, '');
     }
   </script>
+
   </div><!-- /panel -->
 
     <div data-role="panel" id="right-panel" data-display="push" data-position="right" data-theme="c">
 
     	<p>
-				<a href="#inicio" class="jqm-button ui-btn ui-shadow ui-btn-corner-all ui-mini ui-btn-inline ui-btn-icon-right ui-btn-up-c" data-ajax="false" data-role="button" data-inline="true" data-mini="true" data-icon="arrow-r" data-iconpos="right" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-theme="c">
-					<span class="ui-btn-inner">
-						<span class="ui-btn-text">Início</span>
-						<span class="ui-icon ui-icon-arrow-r ui-icon-shadow">&nbsp;</span>
-					</span>
-				</a>	
+				<center>
+					<a href="#inicio" class="jqm-button ui-btn ui-shadow ui-btn-corner-all ui-mini ui-btn-inline ui-btn-icon-right ui-btn-up-c" data-ajax="false" data-role="button" data-inline="true" data-mini="true" data-icon="arrow-r" data-iconpos="right" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-theme="c">
+						<span class="ui-btn-inner">
+							<span class="ui-btn-text">Início</span>
+							<span class="ui-icon ui-icon-arrow-r ui-icon-shadow">&nbsp;</span>
+						</span>
+					</a>
+				</center><br/>
 			
 			<ul>
-				<a href="#ovos"  onclick="myGeeks()" class="">
+				<a href="#ovos" onclick="myGeeks()">
 					<img src="images/egg-hatches.png"/> Ovos
 				</a>
-				<a href="#raids"  onclick="myGeeks()" class="">
+				<a href="#raids" onclick="myGeeks()">
 					<img src="images/raids.png"/> Raid Boss
 				</a>
-				<a href="#pesquisas"  onclick="myGeeks()" class="">
+				<a href="#pesquisas" onclick="myGeeks()">
 					<img src="images/pesquisas.png"/> Pesquisas de Campo
 				</a>
-				<a href="#ditto"  onclick="myGeeks()" class="">
+				<a href="#ditto" onclick="myGeeks()">
 					<img src="https://p337.info/pokemongo/img/pokemon/132.png"/> Ditto disfarces
 				</a>
 			</ul>
 		</p>
+		<hr/>
+		  
+  <div id='clockcontain' class='nest_migration_container'>
+    <div id='nest_migration_text2'>Próxima migração de ninhos</div>
+    <div id='nest_migration_div2'></div>
+  </div>
+  <script>
+        if ( document.getElementById('nest_migration_div2') ) {
+      //Code for nest migration
+      var deadline = 'Oct 5 2017 0:00:00 GMT';
+      if (deadline == '') { deadline = "Oct 5 2017 0:00:00 GMT"; }
+      var date_clock = get_recurring_week_day_v5(deadline, 2);
+      //var date_clock = get_recurring_week_day_v2(deadline, 2);
+      //alert(date_clock);
+      //function initializeClock(id, endtime, negative_time, message){
+      initializeClock('nest_migration_div2', date_clock, 0, '');
+    }
+  </script>
     </div><!-- /panel -->
 	
 
@@ -1034,7 +1082,7 @@
 
     <div class="ui-panel-content-wrap ui-body-d ui-panel-animate ui-panel-content-wrap-closed">
 	<div data-role="header" data-theme="b" class="ui-header ui-bar-b" role="banner">
-        <h1>Raid Bosses</h1>
+        <h1><a href="#inicio">Raid Bosses</a></h1>
 		<a href="#left-panel" data-theme="d" data-icon="arrow-r" data-iconpos="text" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc">Eventos</a>
 		<a href="#right-panel" data-theme="d" data-icon="arrow-l" data-iconpos="text" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc">Guias</a>
     </div><!-- /header -->
@@ -1065,11 +1113,13 @@
 
 </div>
 	<!-- /page raids -->
+	
+	
 	<div data-role="page" id="ovos" data-theme="d" data-url="ovos" tabindex="0" class="ui-page ui-body-d ui-page-panel" style="min-height: 684px;">
 
     <div class="ui-panel-content-wrap ui-body-d ui-panel-animate ui-panel-content-wrap-closed">
 	<div data-role="header" data-theme="b" class="ui-header ui-bar-b" role="banner">
-        <h1>Ovos</h1>
+        <h1><a href="#inicio">Ovos</a></h1>
 		<a href="#left-panel" data-theme="d" data-icon="arrow-r" data-iconpos="text" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc">Eventos</a>
 		<a href="#right-panel" data-theme="d" data-icon="arrow-l" data-iconpos="text" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc">Guias</a>
     </div><!-- /header -->
@@ -1106,11 +1156,13 @@
 
 </div>
 	<!-- /page ovos -->
+	
+	
 	<div data-role="page" id="pesquisas" data-theme="d" data-url="pesquisas" tabindex="0" class="ui-page ui-body-d ui-page-panel" style="min-height: 684px;">
 
     <div class="ui-panel-content-wrap ui-body-d ui-panel-animate ui-panel-content-wrap-closed">
 	<div data-role="header" data-theme="b" class="ui-header ui-bar-b" role="banner">
-        <h1>Pesquisas</h1>
+        <h1><a href="#inicio">Pesquisas</a></h1>
 		<a href="#left-panel" data-theme="d" data-icon="arrow-r" data-iconpos="text" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc">Eventos</a>
 		<a href="#right-panel" data-theme="d" data-icon="arrow-l" data-iconpos="text" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc">Guias</a>
     </div><!-- /header -->
@@ -1144,18 +1196,20 @@
 
 </div>
 	<!-- /page pesquisas -->
+	
+	
 	<div data-role="page" id="ditto" data-theme="d" data-url="ditto" tabindex="0" class="ui-page ui-body-d ui-page-panel" style="min-height: 684px;">
 
     <div class="ui-panel-content-wrap ui-body-d ui-panel-animate ui-panel-content-wrap-closed">
 	<div data-role="header" data-theme="b" class="ui-header ui-bar-b" role="banner">
-        <h1>Ditto disfarces</h1>
+        <h1><a href="#inicio">Ditto disfarces</a></h1>
 		<a href="#left-panel" data-theme="d" data-icon="arrow-r" data-iconpos="text" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc">Eventos</a>
 		<a href="#right-panel" data-theme="d" data-icon="arrow-l" data-iconpos="text" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc">Guias</a>
     </div><!-- /header -->
 	<div data-role="content" class="ui-content">
 		
 		<p class="graphic">
-			<img src="images/ditto-disguises.png" alt="Ditto disguises">
+			<img src="images/ditto-disguises.jpg" alt="Ditto disguises">
 			
 			
 		</p>
