@@ -1300,7 +1300,7 @@
 
     <div class="ui-panel-content-wrap ui-body-d ui-panel-animate ui-panel-content-wrap-closed">
 	<div data-role="header" data-theme="b" class="ui-header ui-bar-b" role="banner">
-        <h1><a href="#inicio">Melhores Pokemon por tipo</a></h1>
+        <h1><a href="#inicio">Melhores por tipo</a></h1>
 		<a href="#left-panel" data-theme="d" data-icon="arrow-r" data-iconpos="text" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc">Eventos</a>
 		<a href="#right-panel" data-theme="d" data-icon="arrow-l" data-iconpos="text" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc">Guias</a>
     </div><!-- /header -->
@@ -1309,15 +1309,18 @@
 		<div class="td-post-content">
 	<style>
 	
-	#accordion button { width: 100%; }
-	
-	#accordion button.btn.btn-link .type { width: 100%; }
-	#accordion button.btn.btn-link.collapsed .type { width: fit-content; }
-	
 	
 .bppt {
     padding: 5px;
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
+
+.bppt .ataques {
+    padding-left: 15px;
+}
+
 	.bppt-out, .status, .bottom-status, .top-status, .ataques, .ataques-top, .ataques-bottom {
 		clear:both;
 		width: 100%;
@@ -1352,7 +1355,88 @@
 		margin:-2px 6px -2px -7px;border:2px solid
 	}
 	
-	.bug{background-color:#9cb820}.bug img{border-color:#9cb820}.dark{background-color:#504843}.dark img{border-color:#504843}.dragon{background-color:#7038f8}.dragon img{border-color:#7038f8}.electric{background-color:#f8d030}.electric img{border-color:#f8d030}.fighting{background-color:#c03028}.fighting img{border-color:#c03028}.fire{background-color:#f08030}.fire img{border-color:#f08030}.flying{background-color:#9096f0}.flying img{border-color:#9096f0}.fairy{background-color:#f09ad9}.fairy img{border-color:#f09ad9}.ground{background-color:#e0b668}.ground img{border-color:#e0b668}.ghost{background-color:#705898}.ghost img{border-color:#705898}.grass{background-color:#22c02a}.grass img{border-color:#22c02a}.ice{background-color:#98d8d8}.ice img{border-color:#98d8d8}.normal{background-color:#a8a8a8}.normal img{border-color:#a8a8a8}.psychic{background-color:#f85888}.psychic img{border-color:#f85888}.poison{background-color:#a040a0}.poison img{border-color:#a040a0}.rock{background-color:#b8a038}.rock img{border-color:#b8a038}.steel{background-color:#6d8f9c}.steel img{border-color:#6d8f9c}.water{background-color:#6890f0}.water img{border-color:#6890f0}
+	.bug{background-color:#9cb820}
+	.dark{background-color:#504843}
+	.dragon{background-color:#7038f8}
+	.electric{background-color:#f8d030}
+	.fighting{background-color:#c03028}
+	.fire{background-color:#f08030}
+	.flying{background-color:#9096f0}
+	.fairy{background-color:#f09ad9}
+	.ground{background-color:#e0b668}
+	.ghost{background-color:#705898}
+	.grass{background-color:#22c02a}
+	.ice{background-color:#98d8d8}
+	.normal{background-color:#a8a8a8}
+	.psychic{background-color:#f85888}
+	.poison{background-color:#a040a0}
+	.rock{background-color:#b8a038}
+	.steel{background-color:#6d8f9c}
+	.water{background-color:#6890f0}
+	
+	.bug img{border-color:#9cb820}
+	.dark img{border-color:#504843}
+	.dragon img{border-color:#7038f8}
+	.electric img{border-color:#f8d030}
+	.fighting img{border-color:#c03028}
+	.fire img{border-color:#f08030}
+	.flying img{border-color:#9096f0}
+	.fairy img{border-color:#f09ad9}
+	.ground img{border-color:#e0b668}
+	.ghost img{border-color:#705898}
+	.grass img{border-color:#22c02a}
+	.ice img{border-color:#98d8d8}
+	.normal img{border-color:#a8a8a8}
+	.psychic img{border-color:#f85888}
+	.poison img{border-color:#a040a0}
+	.rock img{border-color:#b8a038}
+	.steel img{border-color:#6d8f9c}
+	.water img{border-color:#6890f0}
+	
+	.a-bug button {background-color:#9cb820}
+	.a-dark button {background-color:#504843}
+	.a-dragon button {background-color:#7038f8}
+	.a-electric button {background-color:#f8d030}
+	.a-fighting button {background-color:#c03028}
+	.a-fire button {background-color:#f08030}
+	.a-flying button {background-color:#9096f0}
+	.a-fairy button {background-color:#f09ad9}
+	.a-ground button {background-color:#e0b668}
+	.a-ghost button {background-color:#705898}
+	.a-grass button {background-color:#22c02a}
+	.a-ice button {background-color:#98d8d8}
+	.a-normal button {background-color:#a8a8a8}
+	.a-psychic button {background-color:#f85888}
+	.a-poison button {background-color:#a040a0}
+	.a-rock button {background-color:#b8a038}
+	.a-steel button {background-color:#6d8f9c}
+	.a-water button {background-color:#6890f0}
+	
+	
+	#accordion button { width: 100%; }
+	
+	#accordion button.btn.btn-link .type { width: 100%; }
+	#accordion button.btn.btn-link.collapsed .type { width: fit-content; }
+	button.btn.btn-link.collapsed { background: none; }
+	
+	.a-bug button:hover {background-color:#9cb820}
+	.a-dark button:hover {background-color:#504843}
+	.a-dragon button:hover {background-color:#7038f8}
+	.a-electric button:hover {background-color:#f8d030}
+	.a-fighting button:hover {background-color:#c03028}
+	.a-fire button:hover {background-color:#f08030}
+	.a-flying button:hover {background-color:#9096f0}
+	.a-fairy button:hover {background-color:#f09ad9}
+	.a-ground button:hover {background-color:#e0b668}
+	.a-ghost button:hover {background-color:#705898}
+	.a-grass button:hover {background-color:#22c02a}
+	.a-ice button:hover {background-color:#98d8d8}
+	.a-normal button:hover {background-color:#a8a8a8}
+	.a-psychic button:hover {background-color:#f85888}
+	.a-poison button:hover {background-color:#a040a0}
+	.a-rock button:hover {background-color:#b8a038}
+	.a-steel button:hover {background-color:#6d8f9c}
+	.a-water button:hover {background-color:#6890f0}
 
 	</style>
 
@@ -1379,59 +1463,6 @@
 	  
      
 		<div class="bppt-out row">  
-		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
-			<center>
-				<h3>Heracross</h3>
-				<h6>Max CP: 3101</h6>
-				<div class="imagem">
-					<img src="https://db.pokemongohub.net/images/official/detail/214.png"/>
-				</div>
-				<div class="status">
-					<div class="top-status">
-						<div class="ataque">
-							ATK
-						</div>
-						<div class="defesa">
-							DEF
-						</div>
-						<div class="stamina">
-							STA
-						</div>
-					</div>
-					<div class="bottom-status">
-						<div class="ataque">
-							234
-						</div>
-						<div class="defesa">
-							179
-						</div>
-						<div class="stamina">
-							190
-						</div>
-					</div>
-				</div>
-				
-				<div class="ataques">
-				<div class="ataques-top">
-					<div class="rapido">
-						
-					</div>
-					<div class="carregado">
-						
-					</div>
-				</div>
-				<div class="ataques-bottom">
-					<div class="rapido">
-						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type bug" title="Bug"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Bug_01.png" alt="Bug type"><span>Struggle Bug</span></span><span class="MuiTouchRipple-root"></span></div>
-					</div>
-					<div class="carregado">
-						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type bug" title="Bug"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Bug_01.png" alt="Bug type"><span>Megahorn</span></span><span class="MuiTouchRipple-root"></span></div>
-					</div>
-				</div>
-				</div>
-			</center>
-		  </div>
-	  
 		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
 			<center>
 				<h3>Scizor</h3>
@@ -1487,6 +1518,59 @@
 
 		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
 			<center>
+				<h3>Heracross</h3>
+				<h6>Max CP: 3101</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/214.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							234
+						</div>
+						<div class="defesa">
+							179
+						</div>
+						<div class="stamina">
+							190
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type bug" title="Bug"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Bug_01.png" alt="Bug type"><span>Struggle Bug</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type bug" title="Bug"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Bug_01.png" alt="Bug type"><span>Megahorn</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+	  
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
 				<h3>Pinsir</h3>
 				<h6>Max CP: 2959</h6>
 				<div class="imagem">
@@ -1540,7 +1624,8 @@
 
 		</div>
 		   
-<p style="clear:both;"><span class="type-badge bug">Bug</span> type Pokemon deal Super Effective hits against <span class="type-badge grass">Grass</span>, <span class="type-badge psychic">Psychic</span>, and <span class="type-badge dark">Dark</span> types. They have a weakness to <span class="type-badge flying">Flying</span>, <span class="type-badge rock">Rock</span>, and <span class="type-badge fire">Fire</span> attacks.</p>
+<p style="clear:both;">Pokemon do tipo <span class="type-badge bug">Bug</span> causa dano super efetivo contra <span class="type-badge grass">Grass</span>, <span class="type-badge psychic">Psychic</span>, e <span class="type-badge dark">Dark</span>. </p>
+<p style="clear:both;">Pokemon do tipo <span class="type-badge bug">Bug</span> tem fraqueza contra <span class="type-badge flying">Flying</span>, <span class="type-badge rock">Rock</span>, e <span class="type-badge fire">Fire</span>.</p>
 
 
       </div>
@@ -1550,7 +1635,7 @@
     <div class="" id="headingTwo">
       <h5 class="mb-0">
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-			<a href="#type-dark">
+			
 				<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false">
 					<span class="type dark" title="Dark">
 						<img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Dark_01.png" alt="Dark type">
@@ -1558,44 +1643,178 @@
 					</span>
 					<span class="MuiTouchRipple-root"></span>
 				</div>
-			</a>
+			
         </button>
       </h5>
     </div>
     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
       <div class="card-body">
+	  
+		<div class="bppt-out row">  
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Tyranitar</h3>
+				<h6>Max CP: 3834</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/248.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							251
+						</div>
+						<div class="defesa">
+							207
+						</div>
+						<div class="stamina">
+							225
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type dark" title="Dark"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Dark_01.png" alt="Dark type"><span>Bite</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type dark" title="Dark"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Dark_01.png" alt="Dark type"><span>Crunch</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Weavile</h3>
+				<h6>Max CP: 3005</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/461.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							251
+						</div>
+						<div class="defesa">
+							207
+						</div>
+						<div class="stamina">
+							225
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type dark" title="Dark"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Dark_01.png" alt="Dark type"><span>Feint Attack</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type dark" title="Dark"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Dark_01.png" alt="Dark type"><span>Foul Play</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+		  
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Honchkrow</h3>
+				<h6>Max CP: 2711</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/430.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							243
+						</div>
+						<div class="defesa">
+							103
+						</div>
+						<div class="stamina">
+							225
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type dark" title="Dark"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Dark_01.png" alt="Dark type"><span>Snarl</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type dark" title="Dark"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Dark_01.png" alt="Dark type"><span>Dark Pulse</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+		  
+		</div>
         <p><span class="type-badge dark">Dark</span> type Pokemon make short work of <span class="type-badge ghost">Ghost</span>, and <span class="type-badge psychic">Psychic</span> types. They are weak to <span class="type-badge fighting">Fighting</span>, <span class="type-badge bug">Bug</span>, and <span class="type-badge fairy">Fairy</span> attacks.</p>
-<div class="responsive-on-amp">
-<table class="responsive-on-mobile" style="width: 683px;"><thead><tr><th style="width: 227px;">Pokemon</th>
-<th style="width: 75px;">Max CP</th>
-<th style="width: 58px;">Atk</th>
-<th style="width: 58px;">Def</th>
-<th style="width: 58px;">Sta</th>
-<th style="width: 97px;">Fast Attack</th>
-<th style="width: 110px;">Charge Attack</th>
-</tr></thead><tbody><tr><td style="width: 227px;"><span class="pokemon-link-renderer "><a href="https://db.pokemongohub.net/pokemon/248" target="_blank"><img src="https://db.pokemongohub.net/images/official/detail/248.png" title="Pokemon GO Tyranitar" alt="Pokemon GO Tyranitar" width="80" height="80"><span class="content"><span class="name">Tyranitar</span></span></a></span></td>
-<td style="width: 75px;">3834</td>
-<td style="width: 58px;">251</td>
-<td style="width: 58px;">207</td>
-<td style="width: 58px;">225</td>
-<td style="width: 97px;">Bite</td>
-<td style="width: 110px;">Crunch</td>
-</tr><tr><td style="width: 227px;"><span class="pokemon-link-renderer "><a href="https://db.pokemongohub.net/pokemon/461" target="_blank"><img src="https://db.pokemongohub.net/images/official/detail/461.png" title="Pokemon GO Weavile" alt="Pokemon GO Weavile" width="80" height="80"><span class="content"><span class="name">Weavile</span></span></a></span></td>
-<td style="width: 75px;">3005</td>
-<td style="width: 58px;">243</td>
-<td style="width: 58px;">171</td>
-<td style="width: 58px;">172</td>
-<td style="width: 97px;">Feint Attack</td>
-<td style="width: 110px;">Foul Play</td>
-</tr><tr><td style="width: 227px;"><span class="pokemon-link-renderer "><a href="https://db.pokemongohub.net/pokemon/430" target="_blank"><img src="https://db.pokemongohub.net/images/official/detail/430.png" title="Pokemon GO Honchkrow" alt="Pokemon GO Honchkrow" width="80" height="80"><span class="content"><span class="name">Honchkrow</span></span></a></span></td>
-<td style="width: 75px;">2711</td>
-<td style="width: 58px;">243</td>
-<td style="width: 58px;">103</td>
-<td style="width: 58px;">225</td>
-<td style="width: 97px;">Snarl</td>
-<td style="width: 110px;">Dark Pulse</td>
-</tr></tbody></table><p>While we await the arrival of the mythical Darkrai, Tyranitar and Weavile are holding down the fort. Weavile is more geared toward DPS, while Tyranitar is the bulkier option. Honchkrow is a Pokémon not many expect to be a good dark type, but it falls just barely behind Tyranitar and Weavile in terms of DPS and TDO, making it a viable option for battle.</p>
-</div>
+
+		<p>While we await the arrival of the mythical Darkrai, Tyranitar and Weavile are holding down the fort. Weavile is more geared toward DPS, while Tyranitar is the bulkier option. Honchkrow is a Pokémon not many expect to be a good dark type, but it falls just barely behind Tyranitar and Weavile in terms of DPS and TDO, making it a viable option for battle.</p>
+
       </div>
     </div>
   </div>
@@ -1603,120 +1822,340 @@
     <div class="" id="headingThree">
       <h5 class="mb-0">
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-			<a href="#type-dragon"><div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type dragon" title="Dragon"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Dragon_01.png" alt="Dragon type"><span>Dragon</span></span><span class="MuiTouchRipple-root"></span></div></a>
+			
+				<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type dragon" title="Dragon"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Dragon_01.png" alt="Dragon type"><span>Dragon</span></span><span class="MuiTouchRipple-root"></span></div>
+				
         </button>
       </h5>
     </div>
     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
       <div class="card-body">
+	  
+	  
+		<div class="bppt-out row">  
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Rayquaza</h3>
+				<h6>Max CP: 3835</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/384.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							284
+						</div>
+						<div class="defesa">
+							170
+						</div>
+						<div class="stamina">
+							213
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type dragon" title="Dragon"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Dragon_01.png" alt="Dragon type"><span>Dragon Tail</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type dragon" title="Dragon"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Dragon_01.png" alt="Dragon type"><span>Outrage</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+ 
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Salamence</h3>
+				<h6>Max CP: 3749</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/373.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							277
+						</div>
+						<div class="defesa">
+							168
+						</div>
+						<div class="stamina">
+							216
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type dragon" title="Dragon"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Dragon_01.png" alt="Dragon type"><span>Dragon Tail</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type dragon" title="Dragon"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Dragon_01.png" alt="Dragon type"><span>Outrage*</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Garchomp</h3>
+				<h6>Max CP: 3962</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/445.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							261
+						</div>
+						<div class="defesa">
+							193
+						</div>
+						<div class="stamina">
+							239
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type dragon" title="Dragon"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Dragon_01.png" alt="Dragon type"><span>Dragon Tail</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type dragon" title="Dragon"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Dragon_01.png" alt="Dragon type"><span>Outrage</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+
+
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Dragonite</h3>
+				<h6>Max CP: 3792</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/149.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							263
+						</div>
+						<div class="defesa">
+							198
+						</div>
+						<div class="stamina">
+							209
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type dragon" title="Dragon"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Dragon_01.png" alt="Dragon type"><span>Dragon Tail</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type dragon" title="Dragon"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Dragon_01.png" alt="Dragon type"><span>Outrage</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Palkia</h3>
+				<h6>Max CP: 3991</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/484.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							280
+						</div>
+						<div class="defesa">
+							215
+						</div>
+						<div class="stamina">
+							189
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type dragon" title="Dragon"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Dragon_01.png" alt="Dragon type"><span>Dragon Tail</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type dragon" title="Dragon"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Dragon_01.png" alt="Dragon type"><span>Draco Meteor</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Dialga</h3>
+				<h6>Max CP: 4038</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/483.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							275
+						</div>
+						<div class="defesa">
+							211
+						</div>
+						<div class="stamina">
+							205
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type dragon" title="Dragon"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Dragon_01.png" alt="Dragon type"><span>Dragon Breath</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type dragon" title="Dragon"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Dragon_01.png" alt="Dragon type"><span>Draco Meteor</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+
+		</div>
+	  
         <p><span class="type-badge dragon">Dragon</span> type Pokemon are without a doubt some of the strongest in the current meta game. They resist <span class="type-badge fire">Fire</span>, <span class="type-badge water">Water</span>, <span class="type-badge grass">Grass</span>, and <span class="type-badge electric">Electric</span> attacks, taking only 51% damage per strike. They deliver Super Effective hits against other <span class="type-badge dragon">Dragon</span> Pokemon. <span class="type-badge ice">Ice</span>, <span class="type-badge dragon">Dragon</span>, and <span class="type-badge fairy">Fairy</span> Pokemon all land Super Effective attacks on them.</p>
-<div class="responsive-on-amp">
-<table class="responsive-on-mobile" style="width: 681px;"><thead><tr><th style="width: 262px;">Pokemon</th>
-<th style="width: 70px;">Max CP</th>
-<th style="width: 47px;">Atk</th>
-<th style="width: 47px;">Def</th>
-<th style="width: 47px;">Sta</th>
-<th style="width: 94px;">Fast Attack</th>
-<th style="width: 114px;">Charge Attack</th>
-</tr>
 
-<tr><td style="width: 262px;"><span class="pokemon-link-renderer "><a href="https://db.pokemongohub.net/pokemon/384" target="_blank"><img src="https://db.pokemongohub.net/images/official/detail/384.png" title="Pokemon GO Rayquaza" alt="Pokemon GO Rayquaza" width="80" height="80"><span class="content"><span class="name">Rayquaza</span></span></a></span></td>
-<td style="width: 70px;">3835</td>
-<td style="width: 47px;">284</td>
-<td style="width: 47px;">170</td>
-<td style="width: 47px;">213</td>
-<td style="width: 94px;">Dragon Tail</td>
-<td style="width: 114px;">Outrage</td>
-</tr>
-
-<tr style="height: 24px;">
-	<td style="height: 24px; width: 98px;">
-		<span class="pokemon-link-renderer ">
-			<a href="https://db.pokemongohub.net/pokemon/373" target="_blank">
-				<img src="https://db.pokemongohub.net/images/official/detail/373.png" title="Pokemon GO Mewtwo" alt="Pokemon GO Mewtwo" width="80" height="80">
-				<span class="content">
-					<span class="name">Salamence</span>
-				</span>
-			</a>
-		</span>
-	</td>
-	<td style="height: 24px; width: 78px;">3749</td>
-	<td style="height: 24px; width: 38px;">277</td>
-	<td style="height: 24px; width: 38px;">168</td>
-	<td style="height: 24px; width: 36.4px;">216</td>
-	<td style="height: 24px; width: 118.8px;">Dragon Tail</td>
-	<td style="height: 24px; width: 148.4px;">Outrage*</td>
-</tr>
-
-
-<tr><td style="width: 262px;"><span class="pokemon-link-renderer "><a href="https://db.pokemongohub.net/pokemon/484" target="_blank"><img src="https://db.pokemongohub.net/images/official/detail/484.png" title="Pokemon GO Palkia" alt="Pokemon GO Palkia" width="80" height="80"><span class="content"><span class="name">Palkia</span></span></a></span></td>
-<td style="width: 70px;">3991</td>
-<td style="width: 47px;">280</td>
-<td style="width: 47px;">215</td>
-<td style="width: 47px;">189</td>
-<td style="width: 94px;">Dragon Tail</td>
-<td style="width: 114px;">Draco Meteor</td>
-</tr></thead><tbody><tr><td style="width: 262px;"><span class="pokemon-link-renderer "><a href="https://db.pokemongohub.net/pokemon/483" target="_blank"><img src="https://db.pokemongohub.net/images/official/detail/483.png" title="Pokemon GO Dialga" alt="Pokemon GO Dialga" width="80" height="80"><span class="content"><span class="name">Dialga</span></span></a></span></td>
-<td style="width: 70px;">4038</td>
-<td style="width: 47px;">275</td>
-<td style="width: 47px;">211</td>
-<td style="width: 47px;">205</td>
-<td style="width: 94px;">Dragon Breath</td>
-<td style="width: 114px;">Draco Meteor</td>
-</tr>
-<tr>
-	<td>
-		<span class="pokemon-link-renderer ">
-			<a href="https://db.pokemongohub.net/pokemon/445" target="_blank">
-				<img src="https://db.pokemongohub.net/images/official/detail/445.png" title="Pokemon GO Garchomp" alt="Pokemon GO Garchomp" width="80" height="80">
-				<span class="content">
-					<span class="name">Garchomp</span>
-				</span>
-			</a>
-		</span>
-	</td>
-	<td>3962</td>
-	<td>261</td>
-	<td>193</td>
-	<td>239</td>
-	<td>Dragon Tail</td>
-	<td>Outrage</td>
-</tr>
-<tr><td style="width: 262px;"><span class="pokemon-link-renderer "><a href="https://db.pokemongohub.net/pokemon/149" target="_blank"><img src="https://db.pokemongohub.net/images/official/detail/149.png" title="Pokemon GO Dragonite" alt="Pokemon GO Dragonite" width="80" height="80"><span class="content"><span class="name">Dragonite</span></span></a></span></td>
-<td style="width: 70px;">3792</td>
-<td style="width: 47px;">263</td>
-<td style="width: 47px;">198</td>
-<td style="width: 47px;">209</td>
-<td style="width: 94px;">Dragon Tail</td>
-<td style="width: 114px;">Outrage</td>
-</tr><tr><td style="width: 262px;"><span class="pokemon-link-renderer "><a href="https://db.pokemongohub.net/pokemon/373" target="_blank"><img src="https://db.pokemongohub.net/images/official/detail/373.png" title="Pokemon GO Salamence" alt="Pokemon GO Salamence" width="80" height="80"><span class="content"><span class="name">Salamence</span></span></a></span></td>
-<td style="width: 70px;">3749</td>
-<td style="width: 47px;">277</td>
-<td style="width: 47px;">168</td>
-<td style="width: 47px;">216</td>
-<td style="width: 94px;">Dragon Tail</td>
-<td style="width: 114px;">Draco Meteor</td>
-</tr>
-<tr style="height: 24px;">
-	<td style="height: 24px; width: 98px;">
-		<span class="pokemon-link-renderer ">
-			<a href="https://db.pokemongohub.net/pokemon/149" target="_blank">
-				<img src="https://db.pokemongohub.net/images/official/detail/149.png" title="Pokemon GO Mewtwo" alt="Pokemon GO Mewtwo" width="80" height="80">
-				<span class="content">
-					<span class="name">Dragonite</span>
-				</span>
-			</a>
-		</span>
-	</td>
-	<td style="height: 24px; width: 78px;">3792</td>
-	<td style="height: 24px; width: 38px;">263</td>
-	<td style="height: 24px; width: 38px;">198</td>
-	<td style="height: 24px; width: 36.4px;">209</td>
-	<td style="height: 24px; width: 118.8px;">Dragon Tail</td>
-	<td style="height: 24px; width: 148.4px;">Draco Meteor*</td>
-</tr>
-</tbody></table><p>Dragon types have long since been considered the best type in the game, as amazing generalists, and the best counters to other dragon types. It is hard to pick out the best dragons, and with more to come in future generations, we have a lot of options. Palkia and Rayquaza are some of the best dragons, while Dragonite is very common and easier to get candy to power up. Dialga is amazing because it is not weak to dragons, like the others, and can dish out some amazing damage because of it. Salamence is like better Dragonite, in terms of DPS, but not as common. Special shout out to Latios, who is also a very good dragon option.</p>
-</div>
       </div>
     </div>
   </div>
@@ -1724,91 +2163,285 @@
     <div class="" id="headingFour">
       <h5 class="mb-0">
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
-			<a href="#type-electric"><div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type electric" title="Electric"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Electric_01.png" alt="Electric type"><span>Electric</span></span><span class="MuiTouchRipple-root"></span></div></a>
+			<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type electric" title="Electric"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Electric_01.png" alt="Electric type"><span>Electric</span></span><span class="MuiTouchRipple-root"></span></div>
         </button>
       </h5>
     </div>
     <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
       <div class="card-body">
+	  
+		<div class="bppt-out row">  
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Raikou</h3>
+				<h6>Max CP: 3452</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/243.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							241
+						</div>
+						<div class="defesa">
+							195
+						</div>
+						<div class="stamina">
+							207
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type electric" title="Electric"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Electric_01.png" alt="Electric type"><span>Thunder Shock</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type electric" title="Electric"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Electric_01.png" alt="Electric type"><span>Wild Charge</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+ 
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Zapdos</h3>
+				<h6>Max CP: 3527</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/145.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							253
+						</div>
+						<div class="defesa">
+							185
+						</div>
+						<div class="stamina">
+							207
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type electric" title="Electric"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Electric_01.png" alt="Electric type"><span>Thunder Shock*</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type electric" title="Electric"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Electric_01.png" alt="Electric type"><span>Thunderbolt</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+ 
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Electivire</h3>
+				<h6>Max CP: 3079</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/466.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							249
+						</div>
+						<div class="defesa">
+							163
+						</div>
+						<div class="stamina">
+							181
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type electric" title="Electric"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Electric_01.png" alt="Electric type"><span>Thunder Shock</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type electric" title="Electric"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Electric_01.png" alt="Electric type"><span>Wild Charge</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+ 
+ 
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Magnezone</h3>
+				<h6>Max CP: 3205</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/462.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							238
+						</div>
+						<div class="defesa">
+							205
+						</div>
+						<div class="stamina">
+							172
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type electric" title="Electric"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Electric_01.png" alt="Electric type"><span>Charge Beam</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type electric" title="Electric"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Electric_01.png" alt="Electric type"><span>Wild Charge</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+ 
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Jolteon</h3>
+				<h6>Max CP: 2888</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/135.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							232
+						</div>
+						<div class="defesa">
+							182
+						</div>
+						<div class="stamina">
+							163
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type electric" title="Electric"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Electric_01.png" alt="Electric type"><span>Thunder Shock</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type electric" title="Electric"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Electric_01.png" alt="Electric type"><span>Thunderbolt</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+ 
+ 
+		</div>
+	  
         <p>With Super Effective attacks against some of the most popular Pokemon in the current meta and only one weakness to <span class="type-badge ground">Ground</span> attacks, it’s easy to see why <span class="type-badge electric">Electric</span> Pokemon are some of the most coveted in the game. These Pokemon are the go-to options when facing <span class="type-badge flying">Flying</span>, and <span class="type-badge water">Water</span> Pokemon.</p>
-<div class="responsive-on-amp">
-<table class="responsive-on-mobile"><thead><tr><th>Pokemon</th>
-<th>Max CP</th>
-<th>Atk</th>
-<th>Def</th>
-<th>Sta</th>
-<th>Fast Attack</th>
-<th>Charge Attack</th>
-</tr></thead><tbody><tr><td><span class="pokemon-link-renderer "><a href="https://db.pokemongohub.net/pokemon/243" target="_blank"><img src="https://db.pokemongohub.net/images/official/detail/243.png" title="Pokemon GO Raikou" alt="Pokemon GO Raikou" width="80" height="80"><span class="content"><span class="name">Raikou</span></span></a></span></td>
-<td>3452</td>
-<td>241</td>
-<td>195</td>
-<td>207</td>
-<td>Thunder Shock</td>
-<td>Wild Charge</td>
-</tr>
 
-<tr>
-	<td><span class="pokemon-link-renderer ">
-		<a href="https://db.pokemongohub.net/pokemon/145" target="_blank">
-			<img src="https://db.pokemongohub.net/images/official/detail/145.png" title="Pokemon GO Zapdos" alt="Pokemon GO Zapdos" width="80" height="80">
-			<span class="content">
-				<span class="name">Zapdos</span>
-			</span>
-		</a>
-	</span>
-	</td>
-	<td>3527</td>
-	<td>253</td>
-	<td>185</td>
-	<td>207</td>
-	<td>Thunder Shock*</td>
-	<td>Thunderbolt</td>
-</tr>
-<tr>
-	<td><span class="pokemon-link-renderer ">
-		<a href="https://db.pokemongohub.net/pokemon/466" target="_blank">
-			<img src="https://db.pokemongohub.net/images/official/detail/466.png" title="Pokemon GO Electivire" alt="Pokemon GO Electivire" width="80" height="80">
-			<span class="content">
-				<span class="name">Electivire</span>
-			</span>
-		</a>
-	</span>
-	</td>
-	<td>3079</td>
-	<td>249</td>
-	<td>163</td>
-	<td>181</td>
-	<td>Thunder Shock</td>
-	<td>Wild Charge</td>
-</tr>
-<tr>
-	<td><span class="pokemon-link-renderer ">
-		<a href="https://db.pokemongohub.net/pokemon/462" target="_blank">
-			<img src="https://db.pokemongohub.net/images/official/detail/462.png" title="Pokemon GO Magnezone" alt="Pokemon GO Magnezone" width="80" height="80">
-			<span class="content">
-				<span class="name">Magnezone</span>
-			</span>
-		</a>
-	</span>
-	</td>
-	<td>3205</td>
-	<td>238</td>
-	<td>205</td>
-	<td>172</td>
-	<td>Charge Beam</td>
-	<td>Wild Charge</td>
-</tr>
-
-<tr><td><span class="pokemon-link-renderer "><a href="https://db.pokemongohub.net/pokemon/135" target="_blank"><img src="https://db.pokemongohub.net/images/official/detail/135.png" title="Pokemon GO Jolteon" alt="Pokemon GO Jolteon" width="80" height="80"><span class="content"><span class="name">Jolteon</span></span></a></span></td>
-<td>2888</td>
-<td>232</td>
-<td>182</td>
-<td>163</td>
-<td>Thunder Shock</td>
-<td>Thunderbolt</td>
-</tr></tbody></table><p>Only weak to one type, and super effective against one of the most common types, water, having a few good electric types never hurt anyone.</p>
-</div>
       </div>
     </div>
   </div>
@@ -1816,50 +2449,123 @@
     <div class="" id="headingFive">
       <h5 class="mb-0">
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
-          <a href="#type-fairy"><div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type fairy" title="Fairy"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Fairy_01.png" alt="Fairy type"><span>Fairy</span></span><span class="MuiTouchRipple-root"></span></div></a>
+          
+		  <div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type fairy" title="Fairy"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Fairy_01.png" alt="Fairy type"><span>Fairy</span></span><span class="MuiTouchRipple-root"></span></div>
         </button>
       </h5>
     </div>
     <div id="collapseFive" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
       <div class="card-body">
+		<div class="bppt-out row">  
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Gardevoir</h3>
+				<h6>Max CP: 3093</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/282.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							237
+						</div>
+						<div class="defesa">
+							195
+						</div>
+						<div class="stamina">
+							169
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type fairy" title="Fairy"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Fairy_01.png" alt="Fairy type"><span>Charm</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type fairy" title="Fairy"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Fairy_01.png" alt="Fairy type"><span>Dazzling Gleam</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+  
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Togekiss</h3>
+				<h6>Max CP: 3332</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/468.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							225	
+						</div>
+						<div class="defesa">
+							217
+						</div>
+						<div class="stamina">
+							198
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type fairy" title="Fairy"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Fairy_01.png" alt="Fairy type"><span>Charm</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type fairy" title="Fairy"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Fairy_01.png" alt="Fairy type"><span>Dazzling Gleam</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+ 
+		</div>
         <p><span class="type-badge fairy">Fairy</span> type Pokemon are <span class="type-badge fighting">Fighting</span>, <span class="type-badge dragon">Dragon</span>, and <span class="type-badge dark">Dark</span> type slayers. They suffer a weakness to <span class="type-badge poison">Poison</span> and <span class="type-badge steel">Steel</span> attacks.</p>
-<div class="responsive-on-amp">
-<table class="responsive-on-mobile"><thead><tr><th>Pokemon</th>
-<th>Max CP</th>
-<th>Atk</th>
-<th>Def</th>
-<th>Sta</th>
-<th>Fast Attack</th>
-<th>Charge Attack</th>
-</tr></thead><tbody><tr><td><span class="pokemon-link-renderer "><a href="https://db.pokemongohub.net/pokemon/282" target="_blank"><img src="https://db.pokemongohub.net/images/official/detail/282.png" title="Pokemon GO Gardevoir" alt="Pokemon GO Gardevoir" width="80" height="80"><span class="content"><span class="name">Gardevoir</span></span></a></span></td>
-<td>3093</td>
-<td>237</td>
-<td>195</td>
-<td>169</td>
-<td>Charm</td>
-<td>Dazzling Gleam</td>
-</tr>
 
-<tr>
-	<td>
-		<span class="pokemon-link-renderer ">
-			<a href="https://db.pokemongohub.net/pokemon/468" target="_blank">
-				<img src="https://db.pokemongohub.net/images/official/detail/468.png" title="Pokemon GO Garchomp" alt="Pokemon GO Garchomp" width="80" height="80">
-				<span class="content">
-					<span class="name">Togekiss</span>
-				</span>
-			</a>
-		</span>
-	</td>
-	<td>3332</td>
-	<td>225</td>
-	<td>217</td>
-	<td>198</td>
-	<td>Charm</td>
-	<td>Dazzling Gleam</td>
-</tr>
-</tbody></table><p>Lacking a fairy fast move, this type is pretty lacking and because of that, is hardly used. We hope that fairies get a fast move someday, then we can all invest in our favorite fairy types.</p>
-</div>
       </div>
     </div>
   </div> 
@@ -1867,44 +2573,176 @@
     <div class="" id="headingSix">
       <h5 class="mb-0">
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
-          <a href="#type-fighting"><div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type fighting" title="Fighting"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Fighting_01.png" alt="Fighting type"><span>Fighting</span></span><span class="MuiTouchRipple-root"></span></div></a>
+          <div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type fighting" title="Fighting"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Fighting_01.png" alt="Fighting type"><span>Fighting</span></span><span class="MuiTouchRipple-root"></span></div>
         </button>
       </h5>
     </div>
     <div id="collapseSix" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
       <div class="card-body">
+		<div class="bppt-out row">  
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Machamp</h3>
+				<h6>Max CP: 3056</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/068.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							234
+						</div>
+						<div class="defesa">
+							159
+						</div>
+						<div class="stamina">
+							207
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type fighting" title="Fighting"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Fighting_01.png" alt="Fighting type"><span>Counter</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type fighting" title="Fighting"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Fighting_01.png" alt="Fighting type"><span>Dynamic Punch</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+  
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Hariyama</h3>
+				<h6>Max CP: 2829</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/297.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							209
+						</div>
+						<div class="defesa">
+							114
+						</div>
+						<div class="stamina">
+							302
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type fighting" title="Fighting"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Fighting_01.png" alt="Fighting type"><span>Counter</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type fighting" title="Fighting"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Fighting_01.png" alt="Fighting type"><span>Dynamic Punch</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+  
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Breloom</h3>
+				<h6>Max CP: 2628</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/286.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							241
+						</div>
+						<div class="defesa">
+							144
+						</div>
+						<div class="stamina">
+							155
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type fighting" title="Fighting"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Fighting_01.png" alt="Fighting type"><span>Counter</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type fighting" title="Fighting"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Fighting_01.png" alt="Fighting type"><span>Dynamic Punch</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+  
+		</div>
+		
         <p><span class="type-badge fighting">Fighting</span> type Pokemon are easily some of the most useful in the current meta with Super Effective attacks against <span class="type-badge normal">Normal</span>, <span class="type-badge rock">Rock</span>, <span class="type-badge steel">Steel</span>, <span class="type-badge ice">Ice</span>, and <span class="type-badge dark">Dark</span> Pokemon and will continue to be relevant for generations to come due to their versatility. Be mindful though, as they suffer from weakness to <span class="type-badge flying">Flying</span>, <span class="type-badge psychic">Psychic</span>, and <span class="type-badge fairy">Fairy</span> attacks.</p>
-<div class="responsive-on-amp">
-<table class="responsive-on-mobile" style="height: 178px;"><thead><tr style="height: 50px;"><th style="height: 50px; width: 239.6px;">Pokemon</th>
-<th style="height: 50px; width: 53.2px;">Max CP</th>
-<th style="height: 50px; width: 29.2px;">Atk</th>
-<th style="height: 50px; width: 29.2px;">Def</th>
-<th style="height: 50px; width: 29.2px;">Sta</th>
-<th style="height: 50px; width: 77.2px;">Fast Attack</th>
-<th style="height: 50px; width: 98px;">Charge Attack</th>
-</tr></thead><tbody><tr style="height: 50px;"><td style="height: 50px; width: 239.6px;"><span class="pokemon-link-renderer "><a href="https://db.pokemongohub.net/pokemon/68" target="_blank"><img src="https://db.pokemongohub.net/images/official/detail/068.png" title="Pokemon GO Machamp" alt="Pokemon GO Machamp" width="80" height="80"><span class="content"><span class="name">Machamp</span></span></a></span></td>
-<td style="height: 50px; width: 53.2px;">3056</td>
-<td style="height: 50px; width: 29.2px;">234</td>
-<td style="height: 50px; width: 29.2px;">159</td>
-<td style="height: 50px; width: 29.2px;">207</td>
-<td style="height: 50px; width: 77.2px;">Counter</td>
-<td style="height: 50px; width: 98px;">Dynamic Punch</td>
-</tr><tr style="height: 50px;"><td style="height: 50px; width: 239.6px;"><span class="pokemon-link-renderer "><a href="https://db.pokemongohub.net/pokemon/297" target="_blank"><img src="https://db.pokemongohub.net/images/official/detail/297.png" title="Pokemon GO Hariyama" alt="Pokemon GO Hariyama" width="80" height="80"><span class="content"><span class="name">Hariyama</span></span></a></span></td>
-<td style="height: 50px; width: 53.2px;">2829</td>
-<td style="height: 50px; width: 29.2px;">209</td>
-<td style="height: 50px; width: 29.2px;">114</td>
-<td style="height: 50px; width: 29.2px;">302</td>
-<td style="height: 50px; width: 77.2px;">Counter</td>
-<td style="height: 50px; width: 98px;">Dynamic Punch</td>
-</tr><tr style="height: 50px;"><td style="height: 28px; width: 239.6px;"><span class="pokemon-link-renderer "><a href="https://db.pokemongohub.net/pokemon/286" target="_blank"><img src="https://db.pokemongohub.net/images/official/detail/286.png" title="Pokemon GO Breloom" alt="Pokemon GO Breloom" width="80" height="80"><span class="content"><span class="name">Breloom</span></span></a></span></td>
-<td style="height: 28px; width: 53.2px;">2628</td>
-<td style="height: 28px; width: 29.2px;">241</td>
-<td style="height: 28px; width: 29.2px;">144</td>
-<td style="height: 28px; width: 29.2px;">155</td>
-<td style="height: 28px; width: 77.2px;">Counter</td>
-<td style="height: 28px; width: 98px;">Dynamic Punch</td>
-</tr></tbody></table><p>There are many options when it comes to fighting types, but the best one for right now is easily Machamp. Many like Hariyama because of its bulkyness, but do not take it to a battle where you need to do a lot of damage very fast. Breloom is situationally better than Machamp (like against a Dialga with Thunder), but is really a glass cannon. There are a lot of future fighting types to come, but investing in Machamps now is still a good idea.</p>
-</div>
+
       </div>
     </div>
   </div>
@@ -1912,45 +2750,176 @@
     <div class="" id="headingSeven">
       <h5 class="mb-0">
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseThree">
-          <a href="#type-fire"><div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type fire" title="Fire"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Fire_01.png" alt="Fire type"><span>Fire</span></span><span class="MuiTouchRipple-root"></span></div></a>
+          <div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type fire" title="Fire"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Fire_01.png" alt="Fire type"><span>Fire</span></span><span class="MuiTouchRipple-root"></span></div>
         </button>
       </h5>
     </div>
     <div id="collapseSeven" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
       <div class="card-body">
-        
+      
+		<div class="bppt-out row">  
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Entei</h3>
+				<h6>Max CP: 3473</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/244.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							235
+						</div>
+						<div class="defesa">
+							171
+						</div>
+						<div class="stamina">
+							251
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type fire" title="Fire"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Fire_01.png" alt="Fire type"><span>Fire Spin</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type fire" title="Fire"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Fire_01.png" alt="Fire type"><span>Overheat</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+ 
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Moltres</h3>
+				<h6>Max CP: 3465</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/146.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							251
+						</div>
+						<div class="defesa">
+							181
+						</div>
+						<div class="stamina">
+							207
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type fire" title="Fire"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Fire_01.png" alt="Fire type"><span>Fire Spin</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type fire" title="Fire"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Fire_01.png" alt="Fire type"><span>Overheat</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+ 
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Flareon</h3>
+				<h6>Max CP: 3029</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/136.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							246
+						</div>
+						<div class="defesa">
+							179
+						</div>
+						<div class="stamina">
+							163
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type fire" title="Fire"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Fire_01.png" alt="Fire type"><span>Fire Spin</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type fire" title="Fire"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Fire_01.png" alt="Fire type"><span>Overheat</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+ 
+		</div>  
 <p>These Pokemon are some of the most underused in the game, even though they have some of the highest attack stats of all Pokemon. <span class="type-badge fire">Fire</span> type Pokemon are Super Effective against <span class="type-badge bug">Bug</span>, <span class="type-badge steel">Steel</span>, <span class="type-badge grass">Grass</span> and <span class="type-badge ice">Ice</span> Pokemon. They also suffer several weaknesses to <span class="type-badge ground">Ground</span>, <span class="type-badge rock">Rock</span>, and <span class="type-badge water">Water</span> attacks which are some of the most common in the current meta.</p>
-<div class="responsive-on-amp">
-<table class="responsive-on-mobile"><thead><tr><th>Pokemon</th>
-<th>Max CP</th>
-<th>Atk</th>
-<th>Def</th>
-<th>Sta</th>
-<th>Fast Attack</th>
-<th>Charge Attack</th>
-</tr></thead><tbody><tr><td><span class="pokemon-link-renderer "><a href="https://db.pokemongohub.net/pokemon/244" target="_blank"><img src="https://db.pokemongohub.net/images/official/detail/244.png" title="Pokemon GO Entei" alt="Pokemon GO Entei" width="80" height="80"><span class="content"><span class="name">Entei</span></span></a></span></td>
-<td>3473</td>
-<td>235</td>
-<td>171</td>
-<td>251</td>
-<td>Fire Spin</td>
-<td>Overheat</td>
-</tr><tr><td><span class="pokemon-link-renderer "><a href="https://db.pokemongohub.net/pokemon/146" target="_blank"><img src="https://db.pokemongohub.net/images/official/detail/146.png" title="Pokemon GO Moltres" alt="Pokemon GO Moltres" width="80" height="80"><span class="content"><span class="name">Moltres</span></span></a></span></td>
-<td>3465</td>
-<td>251</td>
-<td>181</td>
-<td>207</td>
-<td>Fire Spin</td>
-<td>Overheat</td>
-</tr><tr><td><span class="pokemon-link-renderer "><a href="https://db.pokemongohub.net/pokemon/136" target="_blank"><img src="https://db.pokemongohub.net/images/official/detail/136.png" title="Pokemon GO Flareon" alt="Pokemon GO Flareon" width="80" height="80"><span class="content"><span class="name">Flareon</span></span></a></span></td>
-<td>3029</td>
-<td>246</td>
-<td>179</td>
-<td>163</td>
-<td>Fire Spin</td>
-<td>Overheat</td>
-</tr></tbody></table><p>Entei with Flamethrower will do higher weave damage than Overheat. Both are viable options for this Pokemon and use comes down to Trainer preference.</p>
-</div>
+
 		</div>
     </div>
   </div>
@@ -1958,69 +2927,176 @@
     <div class="" id="headingEight">
       <h5 class="mb-0">
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseThree">
-          <a href="#type-flying"><div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type flying" title="Flying"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Flying_01.png" alt="Flying type"><span>Flying</span></span><span class="MuiTouchRipple-root"></span></div></a>
+          <div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type flying" title="Flying"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Flying_01.png" alt="Flying type"><span>Flying</span></span><span class="MuiTouchRipple-root"></span></div>
         </button>
       </h5>
     </div>
     <div id="collapseEight" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
       <div class="card-body">
+		<div class="bppt-out row">  
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Moltres</h3>
+				<h6>Max CP: 3465</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/146.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							251
+						</div>
+						<div class="defesa">
+							181
+						</div>
+						<div class="stamina">
+							207
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type fire" title="Fire"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Fire_01.png" alt="Fire type"><span>Fire Spin</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type flying" title="Flying"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Flying_01.png" alt="Flying type"><span>Sky Attack*</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+ 
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Rayquaza</h3>
+				<h6>Max CP: 3835</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/384.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							284
+						</div>
+						<div class="defesa">
+							170
+						</div>
+						<div class="stamina">
+							213
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type flying" title="Flying"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Flying_01.png" alt="Flying type"><span>Air Slash</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type flying" title="Flying"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Flying_01.png" alt="Flying type"><span>Aerial Ace</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+ 
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Honchkrow</h3>
+				<h6>Max CP: 2711</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/430.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							243
+						</div>
+						<div class="defesa">
+							103
+						</div>
+						<div class="stamina">
+							225
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type flying" title="Flying"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Flying_01.png" alt="Flying type"><span>Peck</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type flying" title="Flying"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Flying_01.png" alt="Flying type"><span>Sky Attack</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+ 
+ 
+		</div>  
         <p><span class="type-badge flying">Flying</span> types are good choices against <span class="type-badge fighting">Fighting</span>, <span class="type-badge bug">Bug</span>, or <span class="type-badge grass">Grass</span> Pokemon. <span class="type-badge flying">Flying</span> Pokemon suffer from harsh weaknesses to <span class="type-badge rock">Rock</span>, <span class="type-badge electric">Electric</span>, and <span class="type-badge ice">Ice</span> attacks.</p>
-<div class="responsive-on-amp">
-<table class="responsive-on-mobile" style="width: 681px;"><thead><tr><th style="width: 256px;">Pokemon</th>
-<th style="width: 72px;">Max CP</th>
-<th style="width: 47px;">Atk</th>
-<th style="width: 47px;">Def</th>
-<th style="width: 47px;">Sta</th>
-<th style="width: 95px;">Fast Attack</th>
-<th style="width: 117px;">Charge Attack</th>
-</tr></thead><tbody><tr><td style="width: 256px;"><span class="pokemon-link-renderer "><a href="https://db.pokemongohub.net/pokemon/146" target="_blank"><img src="https://db.pokemongohub.net/images/official/detail/146.png" title="Pokemon GO Moltres" alt="Pokemon GO Moltres" width="80" height="80"><span class="content"><span class="name">Moltres</span></span></a></span></td>
-<td style="width: 72px;">3465</td>
-<td style="width: 47px;">251</td>
-<td style="width: 47px;">181</td>
-<td style="width: 47px;">207</td>
-<td style="width: 95px;">Fire Spin</td>
-<td style="width: 117px;">Sky Attack*</td>
-</tr>
-<tr>
-	<td style="width: 256px;">
-		<span class="pokemon-link-renderer ">
-			<a href="https://db.pokemongohub.net/pokemon/384" target="_blank">
-				<img src="https://db.pokemongohub.net/images/official/detail/384.png" title="Pokemon GO Rayquaza" alt="Pokemon GO Rayquaza" width="80" height="80">
-				<span class="content">
-					<span class="name">Rayquaza</span>
-				</span>
-			</a>
-		</span>
-	</td>
-	<td style="width: 72px;">3835</td>
-	<td style="width: 47px;">284</td>
-	<td style="width: 47px;">170</td>
-	<td style="width: 47px;">213</td>
-	<td style="width: 95px;">Air Slash</td>
-	<td style="width: 117px;">Aerial Ace</td>
-</tr>
-<tr>
-	<td style="width: 256px;">
-		<span class="pokemon-link-renderer ">
-			<a href="https://db.pokemongohub.net/pokemon/430" target="_blank">
-				<img src="https://db.pokemongohub.net/images/official/detail/430.png" title="Pokemon GO Honchkrow" alt="Pokemon GO Honchkrow" width="80" height="80">
-				<span class="content">
-					<span class="name">Honchkrow</span>
-				</span>
-			</a>
-		</span>
-	</td>
-	<td style="width: 72px;">2711</td>
-	<td style="width: 47px;">243</td>
-	<td style="width: 47px;">103</td>
-	<td style="width: 47px;">225</td>
-	<td style="width: 95px;">Peck</td>
-	<td style="width: 117px;">Sky Attack</td>
-</tr>
 
-
-</tbody></table><p>The best instance to use flying type Pokémon will be in a Gen 5 raid boss battle again Virizion, which is double weak to flying.</p>
-</div>
       </div>
     </div>
   </div>
@@ -2028,70 +3104,177 @@
     <div class="" id="headingNine">
       <h5 class="mb-0">
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseThree">
-          <a href="#type-ghost"><div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type ghost" title="Ghost"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Ghost_01.png" alt="Ghost type"><span>Ghost</span></span><span class="MuiTouchRipple-root"></span></div></a>
+          <div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type ghost" title="Ghost"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Ghost_01.png" alt="Ghost type"><span>Ghost</span></span><span class="MuiTouchRipple-root"></span></div>
         </button>
       </h5>
     </div>
     <div id="collapseNine" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
       <div class="card-body">
+		<div class="bppt-out row">  
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Giratina (Origin)</h3>
+				<h6>Max CP: 3683</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/487_f2.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							225
+						</div>
+						<div class="defesa">
+							187
+						</div>
+						<div class="stamina">
+							284
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type ghost" title="Ghost"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Ghost_01.png" alt="Ghost type"><span>Shadow Claw</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type ghost" title="Ghost"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Ghost_01.png" alt="Ghost type"><span>Shadow Ball</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+   
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Mewtwo</h3>
+				<h6>Max CP: 4178</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/150.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							300
+						</div>
+						<div class="defesa">
+							182
+						</div>
+						<div class="stamina">
+							214
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type psychic" title="Psychic"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Psychic_01.png" alt="Psychic type"><span>Confusion</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type ghost" title="Ghost"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Ghost_01.png" alt="Ghost type"><span>Shadow Ball</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+ 
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Gengar</h3>
+				<h6>Max CP: 2878</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/094.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							261
+						</div>
+						<div class="defesa">
+							149
+						</div>
+						<div class="stamina">
+							155
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type ghost" title="Ghost"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Ghost_01.png" alt="Ghost type"><span>Lick*</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type ghost" title="Ghost"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Ghost_01.png" alt="Ghost type"><span>Shadow Ball</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+ 
+ 
+		</div> 
+
         <p><span class="type-badge ghost">Ghost</span> Pokemon, oddly enough, are weak to <span class="type-badge ghost">Ghost</span> attacks, as well as <span class="type-badge dark">Dark</span> types. They are Super Effective against <span class="type-badge psychic">Psychic</span> and <span class="type-badge ghost">Ghost</span> Pokemon.</p>
-<div class="responsive-on-amp">
-<table class="responsive-on-mobile"><thead><tr><th>Pokemon</th>
-<th>Max CP</th>
-<th>Atk</th>
-<th>Def</th>
-<th>Sta</th>
-<th>Fast Attack</th>
-<th>Charge Attack</th>
-</tr></thead><tbody>
-<tr style="height: 24px;">
-	<td style="height: 24px; width: 98px;">
-		<span class="pokemon-link-renderer ">
-			<a href="https://db.pokemongohub.net/pokemon/487?form=Origin" target="_blank">
-				<img src="https://db.pokemongohub.net/images/official/detail/487_f2.png" title="Pokemon GO Giratina (Origin)" alt="Pokemon GO Giratina (Origin)" width="80" height="80">
-				<span class="content">
-					<span class="name">Giratina (Origin)</span>
-				</span>
-			</a>
-		</span>
-	</td>
-	<td style="height: 24px; width: 78px;">3683</td>
-	<td style="height: 24px; width: 38px;">225</td>
-	<td style="height: 24px; width: 38px;">187</td>
-	<td style="height: 24px; width: 36.4px;">284</td>
-	<td style="height: 24px; width: 118.8px;">Shadow Claw</td>
-	<td style="height: 24px; width: 148.4px;">Shadow Ball</td>
-</tr>
-<tr style="height: 24px;">
-	<td style="height: 24px; width: 98px;">
-		<span class="pokemon-link-renderer ">
-			<a href="https://db.pokemongohub.net/pokemon/150" target="_blank">
-				<img src="https://db.pokemongohub.net/images/official/detail/150.png" title="Pokemon GO Mewtwo" alt="Pokemon GO Mewtwo" width="80" height="80">
-				<span class="content">
-					<span class="name">Mewtwo</span>
-				</span>
-			</a>
-		</span>
-	</td>
-	<td style="height: 24px; width: 78px;">4178</td>
-	<td style="height: 24px; width: 38px;">300</td>
-	<td style="height: 24px; width: 38px;">182</td>
-	<td style="height: 24px; width: 36.4px;">214</td>
-	<td style="height: 24px; width: 118.8px;">Confusion</td>
-	<td style="height: 24px; width: 148.4px;">Shadow Ball</td>
-</tr>
 
-<tr><td><span class="pokemon-link-renderer "><a href="https://db.pokemongohub.net/pokemon/94" target="_blank"><img src="https://db.pokemongohub.net/images/official/detail/094.png" title="Pokemon GO Gengar" alt="Pokemon GO Gengar" width="80" height="80"><span class="content"><span class="name">Gengar</span></span></a></span></td>
-<td>2878</td>
-<td>261</td>
-<td>149</td>
-<td>155</td>
-<td>Lick*</td>
-<td>Shadow Ball</td>
-</tr>
-
-</tbody></table><p>There are not many good ghost types out there, with Giratina having an awful moveset, so Gengar is your go-to. It is really good DPS and dies pretty easily so use it in the front of your team!</p>
-</div>
       </div>
     </div>
   </div>
@@ -2099,76 +3282,230 @@
     <div class="" id="headingTen">
       <h5 class="mb-0">
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseThree">
-          <a href="#type-grass"><div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type grass" title="Grass"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Grass_01.png" alt="Grass type"><span>Grass</span></span><span class="MuiTouchRipple-root"></span></div></a>
+          <div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type grass" title="Grass"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Grass_01.png" alt="Grass type"><span>Grass</span></span><span class="MuiTouchRipple-root"></span></div>
         </button>
       </h5>
     </div>
     <div id="collapseTen" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
       <div class="card-body">
-        <p>Due to the release of Kyogre and Groudon, <span class="type-badge grass">Grass</span> type Pokemon have seen a recent surge in usefulness. They are Super Effective against <span class="type-badge ground">Ground</span>, <span class="type-badge water">Water</span> and <span class="type-badge rock">Rock</span> Pokemon, and are weak to <span class="type-badge flying">Flying</span>, <span class="type-badge poison">Poison</span>, <span class="type-badge ice">Ice</span>, <span class="type-badge bug">Bug</span>, and <span class="type-badge fire">Fire</span> attacks.</p>
-<div class="responsive-on-amp">
-<table class="responsive-on-mobile" style="height: 96px;"><thead><tr style="height: 24px;"><th style="height: 24px; width: 98px;">Pokemon</th>
-<th style="height: 24px; width: 78px;">Max CP</th>
-<th style="height: 24px; width: 38px;">Atk</th>
-<th style="height: 24px; width: 38px;">Def</th>
-<th style="height: 24px; width: 36.4px;">Sta</th>
-<th style="height: 24px; width: 118.8px;">Fast Attack</th>
-<th style="height: 24px; width: 148.4px;">Charge Attack</th>
-</tr></thead>
-<tbody>
-<tr style="height: 24px;">
-	<td style="height: 24px; width: 98px;">
-		<span class="pokemon-link-renderer ">
-			<a href="https://db.pokemongohub.net/pokemon/407" target="_blank">
-				<img src="https://db.pokemongohub.net/images/official/detail/407.png" title="Pokemon GO Roserade" alt="Pokemon GO Roserade" width="80" height="80">
-				<span class="content">
-					<span class="name">Roserade</span>
-				</span>
-			</a>
-		</span>
-	</td>
-	<td style="height: 24px; width: 78px;">2971</td>
-	<td style="height: 24px; width: 38px;">243</td>
-	<td style="height: 24px; width: 38px;">185</td>
-	<td style="height: 24px; width: 36.4px;">155</td>
-	<td style="height: 24px; width: 118.8px;">Razor Leaf</td>
-	<td style="height: 24px; width: 148.4px;">Grass Knot</td>
-</tr>
-<tr style="height: 24px;">
-	<td style="height: 24px; width: 98px;">
-		<span class="pokemon-link-renderer ">
-			<a href="https://db.pokemongohub.net/pokemon/003" target="_blank">
-				<img src="https://db.pokemongohub.net/images/official/detail/003.png" title="Pokemon GO Roserade" alt="Pokemon GO Roserade" width="80" height="80">
-				<span class="content">
-					<span class="name">Venusaur</span>
-				</span>
-			</a>
-		</span>
-	</td>
-	<td style="height: 24px; width: 78px;">2720</td>
-	<td style="height: 24px; width: 38px;">198</td>
-	<td style="height: 24px; width: 38px;">189</td>
-	<td style="height: 24px; width: 36.4px;">190</td>
-	<td style="height: 24px; width: 118.8px;">Vine Whip</td>
-	<td style="height: 24px; width: 148.4px;">Frenzy Plant*</td>
-</tr>
+		<div class="bppt-out row">  
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Roserade</h3>
+				<h6>Max CP: 2971</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/407.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							243
+						</div>
+						<div class="defesa">
+							185
+						</div>
+						<div class="stamina">
+							155
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type grass" title="Grass"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Grass_01.png" alt="Grass type"><span>Razor Leaf</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type grass" title="Grass"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Grass_01.png" alt="Grass type"><span>Grass Knot</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+   
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Venusaur</h3>
+				<h6>Max CP: 2720</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/003.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							198
+						</div>
+						<div class="defesa">
+							189
+						</div>
+						<div class="stamina">
+							190
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type grass" title="Grass"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Grass_01.png" alt="Grass type"><span>Vine Whip</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type grass" title="Grass"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Grass_01.png" alt="Grass type"><span>Frenzy Plant*</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+   
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Breloom</h3>
+				<h6>Max CP: 2628</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/286.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							241
+						</div>
+						<div class="defesa">
+							144
+						</div>
+						<div class="stamina">
+							155
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type grass" title="Grass"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Grass_01.png" alt="Grass type"><span>Bullet Seed</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type grass" title="Grass"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Grass_01.png" alt="Grass type"><span>Grass Knot*</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+   
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Exeggutor</h3>
+				<h6>Max CP: 3014</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/103.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							233
+						</div>
+						<div class="defesa">
+							149
+						</div>
+						<div class="stamina">
+							216
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type grass" title="Grass"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Grass_01.png" alt="Grass type"><span>Bullet Seed</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type grass" title="Grass"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Grass_01.png" alt="Grass type"><span>Solar Beam</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+   
+   
+		</div> 
 
-<tr style="height: 24px;"><td style="height: 24px; width: 98px;"><span class="pokemon-link-renderer "><a href="https://db.pokemongohub.net/pokemon/286" target="_blank"><img src="https://db.pokemongohub.net/images/official/detail/286.png" title="Pokemon GO Breloom" alt="Pokemon GO Breloom" width="80" height="80"><span class="content"><span class="name">Breloom</span></span></a></span></td>
-<td style="height: 24px; width: 78px;">2628</td>
-<td style="height: 24px; width: 38px;">241</td>
-<td style="height: 24px; width: 38px;">144</td>
-<td style="height: 24px; width: 36.4px;">155</td>
-<td style="height: 24px; width: 118.8px;">Bullet Seed</td>
-<td style="height: 24px; width: 148.4px;">Grass Knot*</td>
-</tr><tr style="height: 24px;"><td style="height: 24px; width: 98px;"><span class="pokemon-link-renderer "><a href="https://db.pokemongohub.net/pokemon/103" target="_blank"><img src="https://db.pokemongohub.net/images/official/detail/103.png" title="Pokemon GO Exeggutor" alt="Pokemon GO Exeggutor" width="80" height="80"><span class="content"><span class="name">Exeggutor</span></span></a></span></td>
-<td style="height: 24px; width: 78px;">3014</td>
-<td style="height: 24px; width: 38px;">233</td>
-<td style="height: 24px; width: 38px;">149</td>
-<td style="height: 24px; width: 36.4px;">216</td>
-<td style="height: 24px; width: 118.8px;">Bullet Seed</td>
-<td style="height: 24px; width: 148.4px;">Solar Beam</td>
-</tr></tbody></table><p>Roserade was crowned the rosey ruler of grass types with the addition of Grass Knot to its move pool, giving it the best DPS of all grass types. It is a very safe power up for grass and poison use. Alolan Exeggutor is pretty on par with its Kantonian form, with a different set of resistances and weaknesses due to its dragon typing, making it a bulky option in some cases. Also note that the inevitable Sceptile with Frenzy Plant will easily usurp Exeggutor in terms of DPS.</p>
-</div>
+        <p>Due to the release of Kyogre and Groudon, <span class="type-badge grass">Grass</span> type Pokemon have seen a recent surge in usefulness. They are Super Effective against <span class="type-badge ground">Ground</span>, <span class="type-badge water">Water</span> and <span class="type-badge rock">Rock</span> Pokemon, and are weak to <span class="type-badge flying">Flying</span>, <span class="type-badge poison">Poison</span>, <span class="type-badge ice">Ice</span>, <span class="type-badge bug">Bug</span>, and <span class="type-badge fire">Fire</span> attacks.</p>
+
       </div>
     </div>
   </div>
@@ -2176,69 +3513,176 @@
     <div class="" id="headingEleven">
       <h5 class="mb-0">
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseThree">
-          <a href="#type-ground"><div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type ground" title="Ground"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Ground_01.png" alt="Ground type"><span>Ground</span></span><span class="MuiTouchRipple-root"></span></div></a>
+          <div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type ground" title="Ground"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Ground_01.png" alt="Ground type"><span>Ground</span></span><span class="MuiTouchRipple-root"></span></div>
         </button>
       </h5>
     </div>
     <div id="collapseEleven" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
       <div class="card-body">
-        <p>These extremely hard hitting Pokemon dominate any <span class="type-badge poison">Poison</span>, <span class="type-badge steel">Steel</span>, <span class="type-badge fire">Fire</span>, <span class="type-badge rock">Rock</span> or <span class="type-badge electric">Electric</span> Pokemon with Super Effective hits. <span class="type-badge ground">Ground</span> Pokemon run into trouble against <span class="type-badge water">Water</span>, <span class="type-badge grass">Grass</span>, and <span class="type-badge ice">Ice</span> attacks.</p>
-<div class="responsive-on-amp">
-<table class="responsive-on-mobile"><thead><tr><th>Pokemon</th>
-<th>Max CP</th>
-<th>Atk</th>
-<th>Def</th>
-<th>Sta</th>
-<th>Fast Attack</th>
-<th>Charge Attack</th>
-</tr></thead>
-<tbody>
-<tr>
-	<td>
-		<span class="pokemon-link-renderer ">
-			<a href="https://db.pokemongohub.net/pokemon/383" target="_blank">
-				<img src="https://db.pokemongohub.net/images/official/detail/383.png" title="Pokemon GO Groudon" alt="Pokemon GO Groudon" width="80" height="80">
-				<span class="content">
-					<span class="name">Groudon</span>
-				</span>
-			</a>
-		</span>
-	</td>
-	<td>4115</td>
-	<td>270</td>
-	<td>228</td>
-	<td>205</td>
-	<td>Mud Shot</td>
-	<td>Earthquake</td>
-</tr>
-<tr>
-	<td>
-		<span class="pokemon-link-renderer ">
-			<a href="https://db.pokemongohub.net/pokemon/445" target="_blank">
-				<img src="https://db.pokemongohub.net/images/official/detail/445.png" title="Pokemon GO Garchomp" alt="Pokemon GO Garchomp" width="80" height="80">
-				<span class="content">
-					<span class="name">Garchomp</span>
-				</span>
-			</a>
-		</span>
-	</td>
-	<td>3962</td>
-	<td>261</td>
-	<td>193</td>
-	<td>239</td>
-	<td>Mud Shot</td>
-	<td>Earthquake</td>
-</tr>
+		<div class="bppt-out row">  
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Groudon</h3>
+				<h6>Max CP: 4115</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/383.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							270
+						</div>
+						<div class="defesa">
+							228
+						</div>
+						<div class="stamina">
+							205
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type ground" title="Ground"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Ground_01.png" alt="Ground type"><span>Mud Shot</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type ground" title="Ground"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Ground_01.png" alt="Ground type"><span>Earthquake</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+   
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Garchomp</h3>
+				<h6>Max CP: 3962</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/445.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							261
+						</div>
+						<div class="defesa">
+							193
+						</div>
+						<div class="stamina">
+							239
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type ground" title="Ground"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Ground_01.png" alt="Ground type"><span>Mud Shot</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type ground" title="Ground"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Ground_01.png" alt="Ground type"><span>Earthquake</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+   
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Rhyperior</h3>
+				<h6>Max CP: 3733</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/464.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							241
+						</div>
+						<div class="defesa">
+							190
+						</div>
+						<div class="stamina">
+							251
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type ground" title="Ground"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Ground_01.png" alt="Ground type"><span>Mud Slap</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type ground" title="Ground"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Ground_01.png" alt="Ground type"><span>Earthquake</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+   
+		</div> 
 
-<tr><td><span class="pokemon-link-renderer "><a href="https://db.pokemongohub.net/pokemon/464" target="_blank"><img src="https://db.pokemongohub.net/images/official/detail/464.png" title="Pokemon GO Rhyperior" alt="Pokemon GO Rhyperior" width="80" height="80"><span class="content"><span class="name">Rhyperior</span></span></a></span></td>
-<td>3733</td>
-<td>241</td>
-<td>190</td>
-<td>251</td>
-<td>Mud Slap</td>
-<td>Earthquake</td>
-</tr></tbody></table><p>Being the sole Pokémon super effective against electric types, it is important to have a few ground types at your disposal for raids like Raikou, and for other bosses like Heatran.</p>
-</div>
+        <p>These extremely hard hitting Pokemon dominate any <span class="type-badge poison">Poison</span>, <span class="type-badge steel">Steel</span>, <span class="type-badge fire">Fire</span>, <span class="type-badge rock">Rock</span> or <span class="type-badge electric">Electric</span> Pokemon with Super Effective hits. <span class="type-badge ground">Ground</span> Pokemon run into trouble against <span class="type-badge water">Water</span>, <span class="type-badge grass">Grass</span>, and <span class="type-badge ice">Ice</span> attacks.</p>
+
       </div>
     </div>
   </div>
@@ -2246,69 +3690,176 @@
     <div class="" id="headingTwelve">
       <h5 class="mb-0">
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseThree">
-          <a href="#type-ice"><div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type ice" title="Ice"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Ice_01.png" alt="Ice type"><span>Ice</span></span><span class="MuiTouchRipple-root"></span></div></a>
+          <div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type ice" title="Ice"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Ice_01.png" alt="Ice type"><span>Ice</span></span><span class="MuiTouchRipple-root"></span></div>
         </button>
       </h5>
     </div>
     <div id="collapseTwelve" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
       <div class="card-body">
-        <p>Being the best counter to the fan favorite, <span class="type-badge dragon">Dragon</span> types, as well as being Super Effective against <span class="type-badge flying">Flying</span>, <span class="type-badge ground">Ground</span>, and <span class="type-badge grass">Grass</span> Pokemon, <span class="type-badge ice">Ice</span> type Pokemon are absolutely worth their stardust investment. These Pokemon suffer weakness to <span class="type-badge fighting">Fighting</span>, <span class="type-badge rock">Rock</span>, <span class="type-badge steel">Steel</span>, and <span class="type-badge fire">Fire</span> attacks.</p>
-<div class="responsive-on-amp">
-<table class="responsive-on-mobile"><thead><tr><th>Pokemon</th>
-<th>Max CP</th>
-<th>Atk</th>
-<th>Def</th>
-<th>Sta</th>
-<th>Fast Attack</th>
-<th>Charge Attack</th>
-</tr></thead>
-<tbody>
-<tr>
-	<td>
-		<span class="pokemon-link-renderer ">
-			<a href="https://db.pokemongohub.net/pokemon/473" target="_blank">
-				<img src="https://db.pokemongohub.net/images/official/detail/473.png" title="Pokemon GO Mamoswine" alt="Pokemon GO Mamoswine" width="80" height="80">
-				<span class="content">
-					<span class="name">Mamoswine</span>
-				</span>
-			</a>
-		</span>
-	</td>
-	<td>3328</td>
-	<td>247</td>
-	<td>146</td>
-	<td>242</td>
-	<td>Powder Snow</td>
-	<td>Avalanche</td>
-</tr>
-<tr>
-	<td>
-		<span class="pokemon-link-renderer ">
-			<a href="https://db.pokemongohub.net/pokemon/150" target="_blank">
-				<img src="https://db.pokemongohub.net/images/official/detail/150.png" title="Pokemon GO Mewtwo" alt="Pokemon GO Mewtwo" width="80" height="80">
-				<span class="content">
-					<span class="name">Mewtwo</span>
-				</span>
-			</a>
-		</span>
-	</td>
-	<td>4178</td>
-	<td>300</td>
-	<td>182</td>
-	<td>214</td>
-	<td>Confusion</td>
-	<td>Ice Beam</td>
-</tr>
+		<div class="bppt-out row">  
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Mamoswine</h3>
+				<h6>Max CP: 3328</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/473.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							247
+						</div>
+						<div class="defesa">
+							146
+						</div>
+						<div class="stamina">
+							242
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type ice" title="Ice"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Ice_01.png" alt="Ice type"><span>Powder Snow</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type ice" title="Ice"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Ice_01.png" alt="Ice type"><span>Avalanche</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+    
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Mewtwo</h3>
+				<h6>Max CP: 4178</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/150.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							300
+						</div>
+						<div class="defesa">
+							182
+						</div>
+						<div class="stamina">
+							214
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type psychic" title="Psychic"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Psychic_01.png" alt="Psychic type"><span>Confusion</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type ice" title="Ice"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Ice_01.png" alt="Ice type"><span>Ice Beam</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+    
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Weavile</h3>
+				<h6>Max CP: 3005</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/461.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							243
+						</div>
+						<div class="defesa">
+							171
+						</div>
+						<div class="stamina">
+							172
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type ice" title="Ice"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Ice_01.png" alt="Ice type"><span>Ice Shard</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type ice" title="Ice"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Ice_01.png" alt="Ice type"><span>Avalanche</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+    
+		</div> 
 
-<tr><td><span class="pokemon-link-renderer "><a href="https://db.pokemongohub.net/pokemon/461" target="_blank"><img src="https://db.pokemongohub.net/images/official/detail/461.png" title="Pokemon GO Weavile" alt="Pokemon GO Weavile" width="80" height="80"><span class="content"><span class="name">Weavile</span></span></a></span></td>
-<td>3005</td>
-<td>243</td>
-<td>171</td>
-<td>172</td>
-<td>Ice Shard</td>
-<td>Avalanche</td>
-</tr></tbody></table><p>With some legendaries in the future being weak, or double weak, to ice types, and not a variables for great ice attackers in the future, Mamoswine and Weavile are amazing power ups. Kyurem is the only ice threat, and as of right now it does not have a single ice type fast move that it can learn in main series. Without an ice fast move, Mamoswine and Weavile will step all over it.</p>
-</div>
+        <p>Being the best counter to the fan favorite, <span class="type-badge dragon">Dragon</span> types, as well as being Super Effective against <span class="type-badge flying">Flying</span>, <span class="type-badge ground">Ground</span>, and <span class="type-badge grass">Grass</span> Pokemon, <span class="type-badge ice">Ice</span> type Pokemon are absolutely worth their stardust investment. These Pokemon suffer weakness to <span class="type-badge fighting">Fighting</span>, <span class="type-badge rock">Rock</span>, <span class="type-badge steel">Steel</span>, and <span class="type-badge fire">Fire</span> attacks.</p>
+
       </div>
     </div>
   </div>
@@ -2316,38 +3867,124 @@
     <div class="" id="headingThirteen">
       <h5 class="mb-0">
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThree">
-          <a href="#type-normal"><div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type normal" title="Normal"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Normal_01.png" alt="Normal type"><span>Normal</span></span><span class="MuiTouchRipple-root"></span></div></a>
+          <div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type normal" title="Normal"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Normal_01.png" alt="Normal type"><span>Normal</span></span><span class="MuiTouchRipple-root"></span></div>
         </button>
       </h5>
     </div>
     <div id="collapseThirteen" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
       <div class="card-body">
-        
-
+		<div class="bppt-out row">  
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Snorlax</h3>
+				<h6>Max CP: 3225</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/143.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							190
+						</div>
+						<div class="defesa">
+							169
+						</div>
+						<div class="stamina">
+							330
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type psychic" title="Psychic"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Psychic_01.png" alt="Psychic type"><span>Zen Headbutt</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type steel" title="Steel"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Steel_01.png" alt="Steel type"><span>Heavy Slam</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+    
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Blissey</h3>
+				<h6>Max CP: 2757</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/242.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							129
+						</div>
+						<div class="defesa">
+							169
+						</div>
+						<div class="stamina">
+							496
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type psychic" title="Psychic"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Psychic_01.png" alt="Psychic type"><span>Zen Headbutt</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type fairy" title="Fairy"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Fairy_01.png" alt="Fairy type"><span>Dazzling Gleam</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+    
+	
+		</div> 
+		
 <p><span class="type-badge normal">Normal</span> type Pokemon currently dominate the Gym Defending meta with their high defensive stats and immunity (49% reduced damage) to <span class="type-badge ghost">Ghost</span> attacks. They have only one weakness; <span class="type-badge fighting">Fighting</span> attacks.</p>
-<div class="responsive-on-amp">
-<table class="responsive-on-mobile"><thead><tr><th>Pokemon</th>
-<th>Max CP</th>
-<th>Atk</th>
-<th>Def</th>
-<th>Sta</th>
-<th>Fast Attack</th>
-<th>Charge Attack</th>
-</tr></thead><tbody><tr><td><span class="pokemon-link-renderer "><a href="https://db.pokemongohub.net/pokemon/143" target="_blank"><img src="https://db.pokemongohub.net/images/official/detail/143.png" title="Pokemon GO Snorlax" alt="Pokemon GO Snorlax" width="80" height="80"><span class="content"><span class="name">Snorlax</span></span></a></span></td>
-<td>3225</td>
-<td>190</td>
-<td>169</td>
-<td>330</td>
-<td>Zen Headbutt</td>
-<td>Heavy Slam</td>
-</tr><tr><td><span class="pokemon-link-renderer "><a href="https://db.pokemongohub.net/pokemon/242" target="_blank"><img src="https://db.pokemongohub.net/images/official/detail/242.png" title="Pokemon GO Blissey" alt="Pokemon GO Blissey" width="80" height="80"><span class="content"><span class="name">Blissey</span></span></a></span></td>
-<td>2757</td>
-<td>129</td>
-<td>169</td>
-<td>496</td>
-<td>Zen Headbutt</td>
-<td>Dazzling Gleam</td>
-</tr></tbody></table></div>
+
 <p>Blissey, though nerfed in the CP rework, is only viable as a gym defender, or a PVP troll wall.</p>
       </div>
     </div>
@@ -2356,30 +3993,70 @@
     <div class="" id="headingFourteen">
       <h5 class="mb-0">
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseThree">
-          <a href="#type-poison"><div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type poison" title="Poison"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Poison_01.png" alt="Poison type"><span>Poison</span></span><span class="MuiTouchRipple-root"></span></div></a>
+          <div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type poison" title="Poison"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Poison_01.png" alt="Poison type"><span>Poison</span></span><span class="MuiTouchRipple-root"></span></div>
         </button>
       </h5>
     </div>
     <div id="collapseFourteen" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
       <div class="card-body">
+		<div class="bppt-out row">  
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Roserade</h3>
+				<h6>Max CP: 2971</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/407.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							243
+						</div>
+						<div class="defesa">
+							185
+						</div>
+						<div class="stamina">
+							155
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type poison" title="Poison"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Poison_01.png" alt="Poison type"><span>Poison Jab</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type poison" title="Poison"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Poison_01.png" alt="Poison type"><span>Sludge Bomb</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+    
+	
+		</div> 
+		
         <p>This drastically underutilized type is Super Effective against <span class="type-badge grass">Grass</span> and <span class="type-badge fairy">Fairy</span> Pokemon. With the release of new generations, their presence may become more important. <span class="type-badge poison">Poison</span> types are weak to <span class="type-badge ground">Ground</span>, and <span class="type-badge psychic">Psychic</span> attacks.</p>
-<div class="responsive-on-amp">
-<table class="responsive-on-mobile" style="width: 680px;"><thead><tr><th style="width: 162px;">Pokemon</th>
-<th style="width: 86px;">Max CP</th>
-<th style="width: 54px;">Atk</th>
-<th style="width: 54px;">Def</th>
-<th style="width: 53px;">Sta</th>
-<th style="width: 123px;">Fast Attack</th>
-<th style="width: 148px;">Charge Attack</th>
-</tr><tr style="height: 24px;"><td style="height: 24px; width: 162px;"><span class="pokemon-link-renderer "><a href="https://db.pokemongohub.net/pokemon/407" target="_blank"><img src="https://db.pokemongohub.net/images/official/detail/407.png" title="Pokemon GO Roserade" alt="Pokemon GO Roserade" width="80" height="80"><span class="content"><span class="name">Roserade</span></span></a></span></td>
-<td style="height: 24px; width: 86px;">2971</td>
-<td style="height: 24px; width: 54px;">243</td>
-<td style="height: 24px; width: 54px;">185</td>
-<td style="height: 24px; width: 53px;">155</td>
-<td style="height: 24px; width: 123px;">Poison Jab</td>
-<td style="height: 24px; width: 148px;">Sludge Bomb</td>
-</tr></thead></table><p>With very little use of the poison type, Roserade is best used as a grass type, but if need be, we have TMs! Steel types and fire types handle fairy and grass types better, respectively. Gengar is also a decent poison type, but lacking a poison type fast move combined with it being as squishy as it is, it is not suggested.</p>
-</div>
       </div>
     </div>
   </div>
@@ -2387,7 +4064,7 @@
     <div class="" id="headingFifteen">
       <h5 class="mb-0">
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseThree">
-          <a href="#type-psychic"><div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type psychic" title="Psychic"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Psychic_01.png" alt="Psychic type"><span>Psychic</span></span><span class="MuiTouchRipple-root"></span></div></a>
+          <div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type psychic" title="Psychic"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Psychic_01.png" alt="Psychic type"><span>Psychic</span></span><span class="MuiTouchRipple-root"></span></div>
         </button>
       </h5>
     </div>
@@ -2512,44 +4189,177 @@
     <div class="" id="headingSixteen">
       <h5 class="mb-0">
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSixteen" aria-expanded="false" aria-controls="collapseThree">
-          <a href="#type-rock"><div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type rock" title="Rock"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Rock_01.png" alt="Rock type"><span>Rock</span></span><span class="MuiTouchRipple-root"></span></div></a>
+          <div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type rock" title="Rock"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Rock_01.png" alt="Rock type"><span>Rock</span></span><span class="MuiTouchRipple-root"></span></div>
         </button>
       </h5>
     </div>
     <div id="collapseSixteen" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
       <div class="card-body">
+		<div class="bppt-out row">  
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Rampardos</h3>
+				<h6>Max CP: 3298</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/409.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							295
+						</div>
+						<div class="defesa">
+							109
+						</div>
+						<div class="stamina">
+							219
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type rock" title="Rock"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Rock_01.png" alt="Rock type"><span>Smack Down</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type rock" title="Rock"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Rock_01.png" alt="Rock type"><span>Rock Slide</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+     
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Tyranitar</h3>
+				<h6>Max CP: 3834</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/248.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							251
+						</div>
+						<div class="defesa">
+							207
+						</div>
+						<div class="stamina">
+							225
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type rock" title="Rock"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Rock_01.png" alt="Rock type"><span>Smack Down</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type rock" title="Rock"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Rock_01.png" alt="Rock type"><span>Rock Slide</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+    
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Rhyperior</h3>
+				<h6>Max CP: 3733</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/464.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							241
+						</div>
+						<div class="defesa">
+							190
+						</div>
+						<div class="stamina">
+							251
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type rock" title="Rock"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Rock_01.png" alt="Rock type"><span>Smack Down</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type rock" title="Rock"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Rock_01.png" alt="Rock type"><span>Rock Slide</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+    
+	
+		</div> 
+		
        <p><span class="type-badge flying">Flying</span>, <span class="type-badge bug">Bug</span>, <span class="type-badge fire">Fire</span>, and <span class="type-badge ice">Ice</span> types will get completely ruined by <span class="type-badge rock">Rock</span> Pokemon. They have several weakness though, so make sure you have other options available for <span class="type-badge fighting">Fighting</span>, <span class="type-badge ground">Ground</span>, <span class="type-badge steel">Steel</span>, <span class="type-badge water">Water</span>, and <span class="type-badge grass">Grass</span> Pokemon.</p>
-<div class="responsive-on-amp">
-<table class="responsive-on-mobile" style="width: 680px;"><thead><tr><th style="width: 259px;">Pokemon</th>
-<th style="width: 70px;">Max CP</th>
-<th style="width: 47px;">Atk</th>
-<th style="width: 47px;">Def</th>
-<th style="width: 47px;">Sta</th>
-<th style="width: 96px;">Fast Attack</th>
-<th style="width: 114px;">Charge Attack</th>
-</tr></thead><tbody><tr><td style="width: 259px;"><span class="pokemon-link-renderer "><a href="https://db.pokemongohub.net/pokemon/409" target="_blank"><img src="https://db.pokemongohub.net/images/official/detail/409.png" title="Pokemon GO Rampardos" alt="Pokemon GO Rampardos" width="80" height="80"><span class="content"><span class="name">Rampardos</span></span></a></span></td>
-<td style="width: 70px;">3298</td>
-<td style="width: 47px;">295</td>
-<td style="width: 47px;">109</td>
-<td style="width: 47px;">219</td>
-<td style="width: 96px;">Smack Down</td>
-<td style="width: 114px;">Rock Slide</td>
-</tr><tr><td style="width: 259px;"><span class="pokemon-link-renderer "><a href="https://db.pokemongohub.net/pokemon/248" target="_blank"><img src="https://db.pokemongohub.net/images/official/detail/248.png" title="Pokemon GO Tyranitar" alt="Pokemon GO Tyranitar" width="80" height="80"><span class="content"><span class="name">Tyranitar</span></span></a></span></td>
-<td style="width: 70px;">3834</td>
-<td style="width: 47px;">251</td>
-<td style="width: 47px;">207</td>
-<td style="width: 47px;">225</td>
-<td style="width: 96px;">Smack Down</td>
-<td style="width: 114px;">Stone Edge</td>
-</tr><tr><td style="width: 259px;"><span class="pokemon-link-renderer "><a href="https://db.pokemongohub.net/pokemon/464" target="_blank"><img src="https://db.pokemongohub.net/images/official/detail/464.png" title="Pokemon GO Rhyperior" alt="Pokemon GO Rhyperior" width="80" height="80"><span class="content"><span class="name">Rhyperior</span></span></a></span></td>
-<td style="width: 70px;">3733</td>
-<td style="width: 47px;">241</td>
-<td style="width: 47px;">190</td>
-<td style="width: 47px;">251</td>
-<td style="width: 96px;">Smack Down</td>
-<td style="width: 114px;">Stone Edge</td>
-</tr></tbody></table><p>Newcomer Rampardos offers a lot in terms of DPS, and is a good addition to any rock type team! Tyranitar is still the gold standard of good, bulky, rock types, and Rhyperior is mostly a back up or budget option.</p>
-</div>
+
       </div>
     </div>
   </div>
@@ -2557,37 +4367,123 @@
     <div class="" id="headingSeventeen">
       <h5 class="mb-0">
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeventeen" aria-expanded="false" aria-controls="collapseThree">
-          <a href="#type-steel"><div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type steel" title="Steel"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Steel_01.png" alt="Steel type"><span>Steel</span></span><span class="MuiTouchRipple-root"></span></div></a>
+          <div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type steel" title="Steel"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Steel_01.png" alt="Steel type"><span>Steel</span></span><span class="MuiTouchRipple-root"></span></div>
         </button>
       </h5>
     </div>
     <div id="collapseSeventeen" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
       <div class="card-body">
+		<div class="bppt-out row">  
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Metagross</h3>
+				<h6>Max CP: 3791</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/376.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							257
+						</div>
+						<div class="defesa">
+							228
+						</div>
+						<div class="stamina">
+							190
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type steel" title="Steel"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Steel_01.png" alt="Steel type"><span>Bullet Punch</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type steel" title="Steel"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Steel_01.png" alt="Steel type"><span>Meteor Mash*</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+     
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Dialga</h3>
+				<h6>Max CP: 4038</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/483.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							275
+						</div>
+						<div class="defesa">
+							211
+						</div>
+						<div class="stamina">
+							205
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type steel" title="Steel"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Steel_01.png" alt="Steel type"><span>Metal Claw</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type steel" title="Steel"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Steel_01.png" alt="Steel type"><span>Iron Head</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+     
+		</div> 
+		
         <p><span class="type-badge steel">Steel</span> type Pokemon are Super Effective against <span class="type-badge rock">Rock</span>, <span class="type-badge ice">Ice</span> and <span class="type-badge fairy">Fairy</span> Pokemon, as well as having a resistances to <span class="type-badge normal">Normal</span>, <span class="type-badge flying">Flying</span>, <span class="type-badge rock">Rock</span>, <span class="type-badge bug">Bug</span>, <span class="type-badge grass">Grass</span>, <span class="type-badge psychic">Psychic</span>, <span class="type-badge ice">Ice</span>, <span class="type-badge dragon">Dragon</span>, <span class="type-badge fairy">Fairy</span>, and other <span class="type-badge steel">Steel</span> Pokemon. They have a weakness to <span class="type-badge fighting">Fighting</span>, <span class="type-badge ground">Ground</span>, and <span class="type-badge fire">Fire</span> attacks.</p>
-<div class="responsive-on-amp">
-<table class="responsive-on-mobile" style="width: 681px;"><thead><tr><th style="width: 219px;">Pokemon</th>
-<th style="width: 77px;">Max CP</th>
-<th style="width: 58px;">Atk</th>
-<th style="width: 58px;">Def</th>
-<th style="width: 58px;">Sta</th>
-<th style="width: 98px;">Fast Attack</th>
-<th style="width: 113px;">Charge Attack</th>
-</tr></thead><tbody><tr><td style="width: 219px;"><span class="pokemon-link-renderer "><a href="https://db.pokemongohub.net/pokemon/376" target="_blank"><img src="https://db.pokemongohub.net/images/official/detail/376.png" title="Pokemon GO Metagross" alt="Pokemon GO Metagross" width="80" height="80"><span class="content"><span class="name">Metagross</span></span></a></span></td>
-<td style="width: 77px;">3791</td>
-<td style="width: 58px;">257</td>
-<td style="width: 58px;">228</td>
-<td style="width: 58px;">190</td>
-<td style="width: 98px;">Bullet Punch</td>
-<td style="width: 113px;">Meteor Mash*</td>
-</tr><tr><td style="width: 219px;"><span class="pokemon-link-renderer "><a href="https://db.pokemongohub.net/pokemon/483" target="_blank"><img src="https://db.pokemongohub.net/images/official/detail/483.png" title="Pokemon GO Dialga" alt="Pokemon GO Dialga" width="80" height="80"><span class="content"><span class="name">Dialga</span></span></a></span></td>
-<td style="width: 77px;">4038</td>
-<td style="width: 58px;">275</td>
-<td style="width: 58px;">211</td>
-<td style="width: 58px;">205</td>
-<td style="width: 98px;">&nbsp;Metal Claw</td>
-<td style="width: 113px;">Iron Head</td>
-</tr></tbody></table><p>With the lack of great Posion types, Steel is the best way to deal with fairy types. They are great in battle because they have a lot of resistances, paired with great damage output. Metagross and Dialga will be the best steel types for a long time, assuming Solgaleo and Kartana get good movesets, which is not guaranteed.</p>
-</div>
+
       </div>
     </div>
   </div>
@@ -2595,74 +4491,227 @@
     <div class="" id="headingEighteen">
       <h5 class="mb-0">
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEighteen" aria-expanded="false" aria-controls="collapseThree">
-          <a href="#type-water"><div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type water" title="Water"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Water_01.png" alt="Water type"><span>Water</span></span><span class="MuiTouchRipple-root"></span></div></a>
+          <div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type water" title="Water"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Water_01.png" alt="Water type"><span>Water</span></span><span class="MuiTouchRipple-root"></span></div>
         </button>
       </h5>
     </div>
     <div id="collapseEighteen" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
       <div class="card-body">
+		<div class="bppt-out row">  
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Kyogre</h3>
+				<h6>Max CP: 4115</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/382.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							270
+						</div>
+						<div class="defesa">
+							228
+						</div>
+						<div class="stamina">
+							205
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type water" title="Water"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Water_01.png" alt="Water type"><span>Waterfall</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type water" title="Water"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Water_01.png" alt="Water type"><span>Hydro Pump</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+     
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Kingler</h3>
+				<h6>Max CP: 2829</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/099.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							240
+						</div>
+						<div class="defesa">
+							181
+						</div>
+						<div class="stamina">
+							146
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type water" title="Water"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Water_01.png" alt="Water type"><span>Bubble</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type water" title="Water"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Water_01.png" alt="Water type"><span>Crabhammer</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+     
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Gyarados</h3>
+				<h6>Max CP: 3391</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/130.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							237
+						</div>
+						<div class="defesa">
+							186
+						</div>
+						<div class="stamina">
+							216
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type water" title="Water"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Water_01.png" alt="Water type"><span>Waterfall</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type water" title="Water"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Water_01.png" alt="Water type"><span>Hydro Pump</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+     
+		  <div class="bppt col-sm-12 col-md-6 col-lg-4">
+			<center>
+				<h3>Vaporeon</h3>
+				<h6>Max CP: 3114</h6>
+				<div class="imagem">
+					<img src="https://db.pokemongohub.net/images/official/detail/134.png"/>
+				</div>
+				<div class="status">
+					<div class="top-status">
+						<div class="ataque">
+							ATK
+						</div>
+						<div class="defesa">
+							DEF
+						</div>
+						<div class="stamina">
+							STA
+						</div>
+					</div>
+					<div class="bottom-status">
+						<div class="ataque">
+							205
+						</div>
+						<div class="defesa">
+							161
+						</div>
+						<div class="stamina">
+							277
+						</div>
+					</div>
+				</div>
+				
+				<div class="ataques">
+				<div class="ataques-top">
+					<div class="rapido">
+						
+					</div>
+					<div class="carregado">
+						
+					</div>
+				</div>
+				<div class="ataques-bottom">
+					<div class="rapido">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type water" title="Water"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Water_01.png" alt="Water type"><span>Water Gun</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+					<div class="carregado">
+						<div class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false"><span class="type water" title="Water"><img src="https://db.pokemongohub.net/images/badges/thumb/Badge_Type_Water_01.png" alt="Water type"><span>Hydro Pump</span></span><span class="MuiTouchRipple-root"></span></div>
+					</div>
+				</div>
+				</div>
+			</center>
+		  </div>
+     
+		</div> 
         <p>One of the most popular types in the game, <span class="type-badge water">Water</span> Pokemon are Super Effective against <span class="type-badge fire">Fire</span>, <span class="type-badge ground">Ground</span>, and <span class="type-badge rock">Rock</span> Pokemon. <span class="type-badge grass">Grass</span> and <span class="type-badge electric">Electric</span> attacks are their only weakness.</p>
-<div class="responsive-on-amp">
-<table class="responsive-on-mobile"><thead><tr><th>Pokemon</th>
-<th>Max CP</th>
-<th>Atk</th>
-<th>Def</th>
-<th>Sta</th>
-<th>Fast Attack</th>
-<th>Charge Attack</th>
-</tr></thead>
-<tbody>
-<tr>
-	<td>
-		<span class="pokemon-link-renderer ">
-			<a href="https://db.pokemongohub.net/pokemon/099" target="_blank"><img src="https://db.pokemongohub.net/images/official/detail/099.png" title="Pokemon GO Kingler" alt="Pokemon GO Kingler" width="80" height="80">
-				<span class="content">
-					<span class="name">Kingler</span>
-				</span>
-			</a>
-		</span>
-	</td>
-	<td>2829</td>
-	<td>240</td>
-	<td>181</td>
-	<td>146</td>
-	<td>Bubble</td>
-	<td>Crabhammer</td>
-</tr>
-<tr>
-	<td>
-		<span class="pokemon-link-renderer ">
-			<a href="https://db.pokemongohub.net/pokemon/382" target="_blank"><img src="https://db.pokemongohub.net/images/official/detail/382.png" title="Pokemon GO Kyogre" alt="Pokemon GO Kyogre" width="80" height="80">
-				<span class="content">
-					<span class="name">Kyogre</span>
-				</span>
-			</a>
-		</span>
-	</td>
-	<td>4115</td>
-	<td>270</td>
-	<td>228</td>
-	<td>205</td>
-	<td>Waterfall</td>
-	<td>Hydro Pump</td>
-</tr>
-<tr>
-<td><span class="pokemon-link-renderer "><a href="https://db.pokemongohub.net/pokemon/130" target="_blank"><img src="https://db.pokemongohub.net/images/official/detail/130.png" title="Pokemon GO Gyarados" alt="Pokemon GO Gyarados" width="80" height="80"><span class="content"><span class="name">Gyarados</span></span></a></span></td>
-<td>3391</td>
-<td>237</td>
-<td>186</td>
-<td>216</td>
-<td>Waterfall</td>
-<td>Hydro Pump</td>
-</tr><tr><td><span class="pokemon-link-renderer "><a href="https://db.pokemongohub.net/pokemon/134" target="_blank"><img src="https://db.pokemongohub.net/images/official/detail/134.png" title="Pokemon GO Vaporeon" alt="Pokemon GO Vaporeon" width="80" height="80"><span class="content"><span class="name">Vaporeon</span></span></a></span></td>
-<td>3114</td>
-<td>205</td>
-<td>161</td>
-<td>277</td>
-<td>Water Gun</td>
-<td>Hydro Pump</td>
-</tr></tbody></table><p>Palkia is a AMAZING for water type use, though it lacks a water type fast move. Using it with Dragon Tail/Hydro Pump will give you a good filler for your water team.</p>
-</div>
       </div>
     </div>
   </div>
