@@ -600,6 +600,13 @@
                   <td class="btn" data-clipboard-text="1507 9783 2295">1507 9783 2295 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
                 </tr>
 
+                <tr class="code">
+                  <td>Topmaxpp</td>
+                  <td>27</td>
+                  <td>Instinct</td>
+                  <td class="btn" data-clipboard-text="5168 0044 5039">5168 0044 5039 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
+                </tr>
+
 			  <!-- Jogadores com letra V -->
                 <tr class="code">
                   <td>VemnimimBSB</td>
@@ -647,234 +654,6 @@
     <div data-role="panel" id="left-panel" data-theme="b">
 		  <div class="timers">
 							<h2 style="color:#CCC;"><center>Eventos<center></h2>
-
-  <a href="https://p337.info/pokemongo/countdowns/?id=first-gofest-ultra-reward" class="mincd w_l" style="text-decoration: none; color: black;">
-    <div id="first_gofest_ultra_reward_mz_r" class="clock_contain mas" style="background-color: #dbdbdb;">
-    <div class="clock_left">
-      <img class="clock_image" alt="img" style="width:100px; height: 100px;" src="https://p337.info/pokemongo/img/pokemon/161.png">
-    </div>
-    <div class="clock_right">
-      <div id="first_gofest_ultra_reward_mz_l">First Gofest Ultra Reward Starts</div>
-      <div class="countdown" id="first_gofest_ultra_reward_mz_countdown"><span class="day"><span class="t_val">12</span>d</span> <span class="hour"><span class="t_val">0</span>h</span> <span class="min"><span class="t_val">0</span>m</span> <span class="sec"><span class="t_val">3</span>s</span> </div>
-      <div class="local loc_s"> Your Local Time: </div>
-      <div id="first_gofest_ultra_reward_mz_time" class="local loc_t">Mon 2-Sep-2019 5:00 PM (17:00)</div> 
-    </div>
-  </div>
-  </a>
-  <script>
-  
-  var s = 'Sep 2 2019 13:00:00 GMT-0700'; var e = 'Sep 9 2019 13:00:00 GMT-0700';
-  
-  var ds = new Date(s); var dend = new Date(e); var dn = new Date(); var o = false; var d = ''; var t = ''; var eda = true;
- /* new_offset */
-  var js_debug = true;
-  var offset_2 = new Date().getTimezoneOffset();
-  var offstart = (offset_2/60)*-1;
-  var ooup = 0;
-  
-  if(ooup != 0) {
-    if (parseFloat(offstart) >= parseFloat(ooup)) {
-      ds.setDate(ds.getDate() + 1);
-      dend.setDate(dend.getDate() + 1);
-      
-      //dateobj.toString();
-      s = ds.toString();
-      e = dend.toString();
-      //alert('done');
-    }
-    //if (js_debug) { alert(parseFloat(offstart) + ' ' + parseFloat(ooup)); }
-  }
-   
-  /* end */
-  
-  
-  
-  if (e.length < 10) { console.log('hello there'); eda = false; }
-  if (Date.parse(ds)-Date.parse(new Date())<0 && eda) { deadline = e; o = true; } else { deadline = s; o = false; }
-  
-  var m = 'First Gofest Ultra Reward';
-  t = m.toLowerCase()
-  t = t.replace('-', ' '); 
-  t = t.replace('mz', ' '); 
-  var arr = t.split('');
-  var lastItem = arr[arr.length - 1];
-  if ( t.includes('raids') || lastItem == 's' ) { if (o) { d=t+' End'; f=t+' have finished'; } else { d=t+' Start'; f=t+' Started';} }
-  else if ( t.includes('return') ) { if (o) { d=t+' Ends'; f=t+' has finished'; } else { d=t+' '; f=t+' ';} }
-  else if ( t.includes('community day') ) { if (o) { d=t+' End'; f=t+' has finished'; } else { d=t+' Starts'; f=t+' has Started';} }
-  else { if (o) { d=t+' Ends'; f=t+' is over'; } else { d=t+' Starts'; f=t+' started';} }
-  
-  if ( eda == false ) { d=t+''; f=t+' Started'; }
-  
-  d = toTitleCase(d);  f = toTitleCase(f); 
-  //alert(d);
-  if ( document.getElementById('first_gofest_ultra_reward_mz_l') ) { document.getElementById('first_gofest_ultra_reward_mz_l').innerHTML = d; } 
-  
-  var stop_clock_id = '';
-  var offset = new Date().getTimezoneOffset();
-  var offset_hours = offset/60;
-  var offset_miliseconds = 0;
-  if (offset_hours < 0) { offset_miliseconds = 100; }
-  if ( document.getElementById('first_gofest_ultra_reward_mz_countdown') ) {
-    stop_clock_id = initializeClock('first_gofest_ultra_reward_mz_countdown', deadline, 0, f);
-    var local_date = new Date(deadline);
-    local_date.setTime(local_date.getTime() + (offset_hours+offset_miliseconds));
-    var local_date_string = format_date(local_date,true);
-    document.getElementById('first_gofest_ultra_reward_mz_time').innerHTML = local_date_string;
-  }
-  </script>
-  
-  
-  <a href="https://p337.info/pokemongo/countdowns/?id=second-gofest-ultra-reward" class="mincd w_l" style="text-decoration: none; color: black;">
-    <div id="second_gofest_ultra_reward_mz_r" class="clock_contain mas" style="background-color: #dbdbdb;">
-    <div class="clock_left">
-      <img class="clock_image" alt="img" style="width:100px; height: 100px;" src="https://p337.info/pokemongo/img/pokemon/386.png">
-    </div>
-    <div class="clock_right">
-      <div id="second_gofest_ultra_reward_mz_l">Second Gofest Ultra Reward Starts</div>
-      <div class="countdown" id="second_gofest_ultra_reward_mz_countdown"><span class="day"><span class="t_val">18</span>d</span> <span class="hour"><span class="t_val">23</span>h</span> <span class="min"><span class="t_val">58</span>m</span> <span class="sec"><span class="t_val">55</span>s</span> </div>
-      <div class="local loc_s"> Your Local Time: </div>
-      <div id="second_gofest_ultra_reward_mz_time" class="local loc_t">Mon 9-Sep-2019 5:00 PM (17:00)</div> 
-    </div>
-  </div>
-  </a>
-  <script>
-  
-  var s = 'Sep 9 2019 13:00:00 GMT-0700'; var e = 'Sep 16 2019 13:00:00 GMT-0700';
-  
-  var ds = new Date(s); var dend = new Date(e); var dn = new Date(); var o = false; var d = ''; var t = ''; var eda = true;
- /* new_offset */
-  var js_debug = true;
-  var offset_2 = new Date().getTimezoneOffset();
-  var offstart = (offset_2/60)*-1;
-  var ooup = 0;
-  
-  if(ooup != 0) {
-    if (parseFloat(offstart) >= parseFloat(ooup)) {
-      ds.setDate(ds.getDate() + 1);
-      dend.setDate(dend.getDate() + 1);
-      
-      //dateobj.toString();
-      s = ds.toString();
-      e = dend.toString();
-      //alert('done');
-    }
-    //if (js_debug) { alert(parseFloat(offstart) + ' ' + parseFloat(ooup)); }
-  }
-   
-  /* end */
-  
-  
-  
-  if (e.length < 10) { console.log('hello there'); eda = false; }
-  if (Date.parse(ds)-Date.parse(new Date())<0 && eda) { deadline = e; o = true; } else { deadline = s; o = false; }
-  
-  var m = 'Second Gofest Ultra Reward';
-  t = m.toLowerCase()
-  t = t.replace('-', ' '); 
-  t = t.replace('mz', ' '); 
-  var arr = t.split('');
-  var lastItem = arr[arr.length - 1];
-  if ( t.includes('raids') || lastItem == 's' ) { if (o) { d=t+' End'; f=t+' have finished'; } else { d=t+' Start'; f=t+' Started';} }
-  else if ( t.includes('return') ) { if (o) { d=t+' Ends'; f=t+' has finished'; } else { d=t+' '; f=t+' ';} }
-  else if ( t.includes('community day') ) { if (o) { d=t+' End'; f=t+' has finished'; } else { d=t+' Starts'; f=t+' has Started';} }
-  else { if (o) { d=t+' Ends'; f=t+' is over'; } else { d=t+' Starts'; f=t+' started';} }
-  
-  if ( eda == false ) { d=t+''; f=t+' Started'; }
-  
-  d = toTitleCase(d);  f = toTitleCase(f); 
-  //alert(d);
-  if ( document.getElementById('second_gofest_ultra_reward_mz_l') ) { document.getElementById('second_gofest_ultra_reward_mz_l').innerHTML = d; } 
-  
-  var stop_clock_id = '';
-  var offset = new Date().getTimezoneOffset();
-  var offset_hours = offset/60;
-  var offset_miliseconds = 0;
-  if (offset_hours < 0) { offset_miliseconds = 100; }
-  if ( document.getElementById('second_gofest_ultra_reward_mz_countdown') ) {
-    stop_clock_id = initializeClock('second_gofest_ultra_reward_mz_countdown', deadline, 0, f);
-    var local_date = new Date(deadline);
-    local_date.setTime(local_date.getTime() + (offset_hours+offset_miliseconds));
-    var local_date_string = format_date(local_date,true);
-    document.getElementById('second_gofest_ultra_reward_mz_time').innerHTML = local_date_string;
-  }
-  </script>
-  
-  
-  <a href="" class="mincd w_l" style="text-decoration: none; color: black;">
-    <div id="cd_turtwig_mz_r" class="clock_contain mas" style="background-color: #dbdbdb;">
-    <div class="clock_left">
-      <img class="clock_image" alt="img" style="width:100px; height: 100px;" src="https://p337.info/pokemongo/img/pokemon/387.png">
-    </div>
-    <div class="clock_right">
-      <div id="cd_turtwig_mz_l">Dia comunidade Turtwig Starts</div>
-      <div class="countdown" id="cd_turtwig_mz_countdown"><span class="day"><span class="t_val">25</span>d</span> <span class="hour"><span class="t_val">23</span>h</span> <span class="min"><span class="t_val">58</span>m</span> <span class="sec"><span class="t_val">34</span>s</span> </div>
-      <div class="local loc_s"> Your Local Time: </div>
-      <div id="cd_turtwig_mz_time" class="local loc_t">Mon 16-Sep-2019 5:00 PM (17:00)</div> 
-    </div>
-  </div>
-  </a>
-  <script>
-  
-  var s = 'Sep 15 2019 07:00:00 GMT-0700'; var e = 'Sep 15 2019 11:00:00 GMT-0700';
-  
-  var ds = new Date(s); var dend = new Date(e); var dn = new Date(); var o = false; var d = ''; var t = ''; var eda = true;
- /* new_offset */
-  var js_debug = true;
-  var offset_2 = new Date().getTimezoneOffset();
-  var offstart = (offset_2/60)*-1;
-  var ooup = 0;
-  
-  if(ooup != 0) {
-    if (parseFloat(offstart) >= parseFloat(ooup)) {
-      ds.setDate(ds.getDate() + 1);
-      dend.setDate(dend.getDate() + 1);
-      
-      //dateobj.toString();
-      s = ds.toString();
-      e = dend.toString();
-      //alert('done');
-    }
-    //if (js_debug) { alert(parseFloat(offstart) + ' ' + parseFloat(ooup)); }
-  }
-   
-  /* end */
-  
-  
-  
-  if (e.length < 10) { console.log('hello there'); eda = false; }
-  if (Date.parse(ds)-Date.parse(new Date())<0 && eda) { deadline = e; o = true; } else { deadline = s; o = false; }
-  
-  var m = 'Dia comunidade Turtwig';
-  t = m.toLowerCase()
-  t = t.replace('-', ' '); 
-  t = t.replace('mz', ' '); 
-  var arr = t.split('');
-  var lastItem = arr[arr.length - 1];
-  if ( t.includes('raids') || lastItem == 's' ) { if (o) { d=t+' End'; f=t+' have finished'; } else { d=t+' Start'; f=t+' Started';} }
-  else if ( t.includes('return') ) { if (o) { d=t+' Ends'; f=t+' has finished'; } else { d=t+' '; f=t+' ';} }
-  else if ( t.includes('community day') ) { if (o) { d=t+' End'; f=t+' has finished'; } else { d=t+' Starts'; f=t+' has Started';} }
-  else { if (o) { d=t+' Ends'; f=t+' is over'; } else { d=t+' Starts'; f=t+' started';} }
-  
-  if ( eda == false ) { d=t+''; f=t+' Started'; }
-  
-  d = toTitleCase(d);  f = toTitleCase(f); 
-  //alert(d);
-  if ( document.getElementById('cd_turtwig_mz_l') ) { document.getElementById('cd_turtwig_mz_l').innerHTML = d; } 
-  
-  var stop_clock_id = '';
-  var offset = new Date().getTimezoneOffset();
-  var offset_hours = offset/60;
-  var offset_miliseconds = 0;
-  if (offset_hours < 0) { offset_miliseconds = 100; }
-  if ( document.getElementById('cd_turtwig_mz_countdown') ) {
-    stop_clock_id = initializeClock('cd_turtwig_mz_countdown', deadline, 0, f);
-    var local_date = new Date(deadline);
-    local_date.setTime(local_date.getTime() + (offset_hours+offset_miliseconds));
-    var local_date_string = format_date(local_date,true);
-    document.getElementById('cd_turtwig_mz_time').innerHTML = local_date_string;
-  }
-  </script>
-  
   
   <a href="https://p337.info/pokemongo/countdowns/?id=third-gofest-ultra-reward" class="mincd w_l" style="text-decoration: none; color: black;">
     <div id="third_gofest_ultra_reward_mz_r" class="clock_contain mas" style="background-color: #dbdbdb;">
@@ -951,11 +730,167 @@
   }
   </script>
   
+  <a href="https://www.p337.info/pokemongo/countdowns/?id=giratina-altered-raids-2019-2" class="mincd w_l" style="text-decoration: none; color: black;">
+    <div id="giratina_altered_raids_2019_2_mz_r" class="clock_contain mas" style="background-color: #dbdbdb;">
+    <div class="clock_left">
+      <img class="clock_image" alt="img" style="width:100px; height: 100px;" src="https://www.p337.info/pokemongo/img/pokemon/487.png">
+    </div>
+    <div class="clock_right">
+      <div id="giratina_altered_raids_2019_2_mz_l">Giratina Altered Raids Start</div>
+      <div class="countdown" id="giratina_altered_raids_2019_2_mz_countdown"><span class="day"><span class="t_val">1</span>d</span> <span class="hour"><span class="t_val">2</span>h</span> <span class="min"><span class="t_val">40</span>m</span> <span class="sec"><span class="t_val">29</span>s</span> </div>
+      <div class="local loc_s"> Your Local Time: </div>
+      <div id="giratina_altered_raids_2019_2_mz_time" class="local loc_t">Mon 23-Sep-2019 5:00 PM (17:00)</div> 
+    </div>
+  </div>
+  </a>
+  <script>
+  
+  var s = 'Sep 25 2019 13:00:00 GMT-0700'; var e = '';
+  
+  var ds = new Date(s); var dend = new Date(e); var dn = new Date(); var o = false; var d = ''; var t = ''; var eda = true;
+
+ /* new_offset */
+  var js_debug = true;
+  var offset_2 = new Date().getTimezoneOffset();
+  var offstart = (offset_2/60)*-1;
+  var ooup = 0;
+  
+  if(ooup != 0) {
+    if (parseFloat(offstart) >= parseFloat(ooup)) {
+      ds.setDate(ds.getDate() + 1);
+      dend.setDate(dend.getDate() + 1);
+      
+      //dateobj.toString();
+      s = ds.toString();
+      e = dend.toString();
+      //alert('done');
+    }
+    //if (js_debug) { alert(parseFloat(offstart) + ' ' + parseFloat(ooup)); }
+  }
+   
+  /* end */
+  
+  
+  
+  if (e.length < 10) { console.log('hello there'); eda = false; }
+  if (Date.parse(ds)-Date.parse(new Date())<0 && eda) { deadline = e; o = true; } else { deadline = s; o = false; }
+  
+  var m = 'Shadow Ball Mewtwo Returns';
+  t = m.toLowerCase()
+  t = t.replace('-', ' '); 
+  t = t.replace('mz', ' '); 
+
+  var arr = t.split('');
+  var lastItem = arr[arr.length - 1];
+
+  if ( t.includes('raids') || lastItem == 's' ) { if (o) { d=t+' End'; f=t+' have finished'; } else { d=t+' Start'; f=t+' Started';} }
+  else if ( t.includes('return') ) { if (o) { d=t+' Ends'; f=t+' has finished'; } else { d=t+' '; f=t+' ';} }
+  else if ( t.includes('community day') ) { if (o) { d=t+' End'; f=t+' has finished'; } else { d=t+' Starts'; f=t+' has Started';} }
+  else { if (o) { d=t+' Ends'; f=t+' is over'; } else { d=t+' Starts'; f=t+' started';} }
+  
+  if ( eda == false ) { d=t+''; f=t+' Started'; }
+  
+  d = toTitleCase(d);  f = toTitleCase(f); 
+  //alert(d);
+  if ( document.getElementById('shadow_ball_mewtwo_returns_2019_mz_l') ) { document.getElementById('shadow_ball_mewtwo_returns_2019_mz_l').innerHTML = d; } 
+  
+  var stop_clock_id = '';
+  var offset = new Date().getTimezoneOffset();
+  var offset_hours = offset/60;
+  var offset_miliseconds = 0;
+  if (offset_hours < 0) { offset_miliseconds = 100; }
+  if ( document.getElementById('shadow_ball_mewtwo_returns_2019_mz_countdown') ) {
+    stop_clock_id = initializeClock('shadow_ball_mewtwo_returns_2019_mz_countdown', deadline, 0, f);
+    var local_date = new Date(deadline);
+    local_date.setTime(local_date.getTime() + (offset_hours+offset_miliseconds));
+    var local_date_string = format_date(local_date,true);
+    document.getElementById('shadow_ball_mewtwo_returns_2019_mz_time').innerHTML = local_date_string;
+  }
+  </script>
+  
+  
+  <a href="https://www.p337.info/pokemongo/countdowns/?id=shadow-ball-mewtwo-returns-2019" class="mincd w_l" style="text-decoration: none; color: black;">
+    <div id="shadow_ball_mewtwo_returns_2019_mz_r" class="clock_contain mas" style="background-color: #dbdbdb;">
+    <div class="clock_left">
+      <img class="clock_image" alt="img" style="width:100px; height: 100px;" src="https://www.p337.info/pokemongo/img/pokemon/150.png">
+    </div>
+    <div class="clock_right">
+      <div id="shadow_ball_mewtwo_returns_2019_mz_l">Shadow Ball Mewtwo Returns</div>
+      <div class="countdown" id="shadow_ball_mewtwo_returns_2019_mz_countdown"><span class="day"><span class="t_val">3</span>d</span> <span class="hour"><span class="t_val">2</span>h</span> <span class="min"><span class="t_val">39</span>m</span> <span class="sec"><span class="t_val">31</span>s</span> </div>
+      <div class="local loc_s"> Your Local Time: </div>
+      <div id="shadow_ball_mewtwo_returns_2019_mz_time" class="local loc_t">Wed 25-Sep-2019 5:00 PM (17:00)</div> 
+    </div>
+  </div>
+  </a>
+  <script>
+  
+  var s = 'Sep 25 2019 13:00:00 GMT-0700'; var e = '';
+  
+  var ds = new Date(s); var dend = new Date(e); var dn = new Date(); var o = false; var d = ''; var t = ''; var eda = true;
+
+ /* new_offset */
+  var js_debug = true;
+  var offset_2 = new Date().getTimezoneOffset();
+  var offstart = (offset_2/60)*-1;
+  var ooup = 0;
+  
+  if(ooup != 0) {
+    if (parseFloat(offstart) >= parseFloat(ooup)) {
+      ds.setDate(ds.getDate() + 1);
+      dend.setDate(dend.getDate() + 1);
+      
+      //dateobj.toString();
+      s = ds.toString();
+      e = dend.toString();
+      //alert('done');
+    }
+    //if (js_debug) { alert(parseFloat(offstart) + ' ' + parseFloat(ooup)); }
+  }
+   
+  /* end */
+  
+  
+  
+  if (e.length < 10) { console.log('hello there'); eda = false; }
+  if (Date.parse(ds)-Date.parse(new Date())<0 && eda) { deadline = e; o = true; } else { deadline = s; o = false; }
+  
+  var m = 'Shadow Ball Mewtwo Returns';
+  t = m.toLowerCase()
+  t = t.replace('-', ' '); 
+  t = t.replace('mz', ' '); 
+
+  var arr = t.split('');
+  var lastItem = arr[arr.length - 1];
+
+  if ( t.includes('raids') || lastItem == 's' ) { if (o) { d=t+' End'; f=t+' have finished'; } else { d=t+' Start'; f=t+' Started';} }
+  else if ( t.includes('return') ) { if (o) { d=t+' Ends'; f=t+' has finished'; } else { d=t+' '; f=t+' ';} }
+  else if ( t.includes('community day') ) { if (o) { d=t+' End'; f=t+' has finished'; } else { d=t+' Starts'; f=t+' has Started';} }
+  else { if (o) { d=t+' Ends'; f=t+' is over'; } else { d=t+' Starts'; f=t+' started';} }
+  
+  if ( eda == false ) { d=t+''; f=t+' Started'; }
+  
+  d = toTitleCase(d);  f = toTitleCase(f); 
+  //alert(d);
+  if ( document.getElementById('shadow_ball_mewtwo_returns_2019_mz_l') ) { document.getElementById('shadow_ball_mewtwo_returns_2019_mz_l').innerHTML = d; } 
+  
+  var stop_clock_id = '';
+  var offset = new Date().getTimezoneOffset();
+  var offset_hours = offset/60;
+  var offset_miliseconds = 0;
+  if (offset_hours < 0) { offset_miliseconds = 100; }
+  if ( document.getElementById('shadow_ball_mewtwo_returns_2019_mz_countdown') ) {
+    stop_clock_id = initializeClock('shadow_ball_mewtwo_returns_2019_mz_countdown', deadline, 0, f);
+    var local_date = new Date(deadline);
+    local_date.setTime(local_date.getTime() + (offset_hours+offset_miliseconds));
+    var local_date_string = format_date(local_date,true);
+    document.getElementById('shadow_ball_mewtwo_returns_2019_mz_time').innerHTML = local_date_string;
+  }
+  </script>
   
   <a href="" class="mincd w_l" style="text-decoration: none; color: black;">
     <div id="ccd_undefined_1_mz_r" class="clock_contain mas" style="background-color: #dbdbdb;">
     <div class="clock_left">
-      <img class="clock_image" alt="img" style="width:100px; height: 100px;" src="https://p337.info/pokemongo/img/custom/unknown2.png">
+      <img class="clock_image" alt="img" style="width:100px; height: 100px;" src="https://www.p337.info/pokemongo/img/pokemon/328.png">
     </div>
     <div class="clock_right">
       <div id="cd_undefined_1_mz_l">Dia comunidade Starts</div>
@@ -1916,7 +1851,8 @@
 		  </div>
 		  
 		</div>
-        <p><span class="type-badge dark">Dark</span> type Pokemon make short work of <span class="type-badge ghost">Ghost</span>, and <span class="type-badge psychic">Psychic</span> types. They are weak to <span class="type-badge fighting">Fighting</span>, <span class="type-badge bug">Bug</span>, and <span class="type-badge fairy">Fairy</span> attacks.</p>
+        <p>Pokemon do tipo <span class="type-badge dark">Dark</span> são efetivos contra tipo <span class="type-badge ghost">Ghost</span>, e <span class="type-badge psychic">Psychic</span>. 
+		<br/>Pokemon do tipo <span class="type-badge dark">Dark</span> tem fraqueza contra os tipos <span class="type-badge fighting">Fighting</span>, <span class="type-badge bug">Bug</span>, e <span class="type-badge fairy">Fairy</span>.</p>
 
 		<p>While we await the arrival of the mythical Darkrai, Tyranitar and Weavile are holding down the fort. Weavile is more geared toward DPS, while Tyranitar is the bulkier option. Honchkrow is a Pokémon not many expect to be a good dark type, but it falls just barely behind Tyranitar and Weavile in terms of DPS and TDO, making it a viable option for battle.</p>
 
@@ -2314,7 +2250,9 @@
 
 		</div>
 	  
-        <p><span class="type-badge dragon">Dragon</span> type Pokemon are without a doubt some of the strongest in the current meta game. They resist <span class="type-badge fire">Fire</span>, <span class="type-badge water">Water</span>, <span class="type-badge grass">Grass</span>, and <span class="type-badge electric">Electric</span> attacks, taking only 51% damage per strike. They deliver Super Effective hits against other <span class="type-badge dragon">Dragon</span> Pokemon. <span class="type-badge ice">Ice</span>, <span class="type-badge dragon">Dragon</span>, and <span class="type-badge fairy">Fairy</span> Pokemon all land Super Effective attacks on them.</p>
+        <p>Pokemon do tipo <span class="type-badge dragon">Dragon</span> são super efetivos contra o tipo <span class="type-badge dragon">Dragon</span>.</p>
+		<p>Pokemon do tipo <span class="type-badge dragon">Dragon</span> são fracos contra os tipos <span class="type-badge ice">Ice</span>, <span class="type-badge dragon">Dragon</span>, and <span class="type-badge fairy">Fairy</span></p>		
+		<p>Pokemon do tipo <span class="type-badge dragon">Dragon</span> são resistentes aos tipos <span class="type-badge fire">Fire</span>, <span class="type-badge water">Water</span>, <span class="type-badge grass">Grass</span>, e <span class="type-badge electric">Electric</span>, levando apenas 51% do dano.</p>
 
       </div>
     </div>
@@ -2641,7 +2579,9 @@
  
 		</div>
 	  
-        <p>With Super Effective attacks against some of the most popular Pokemon in the current meta and only one weakness to <span class="type-badge ground">Ground</span> attacks, it’s easy to see why <span class="type-badge electric">Electric</span> Pokemon are some of the most coveted in the game. These Pokemon are the go-to options when facing <span class="type-badge flying">Flying</span>, and <span class="type-badge water">Water</span> Pokemon.</p>
+        <p>Pokemon do tipo <span class="type-badge electric">Electric</span> causam dano super efetivo contra os tipos <span class="type-badge flying">Flying</span>, e <span class="type-badge water">Water</span></p>
+		
+		<p>Pokemon do tipo <span class="type-badge electric">Electric</span> tem fraqueza contra os tipos <span class="type-badge ground">Ground</span> </p>
 
       </div>
     </div>
@@ -2781,8 +2721,8 @@
 		  </div>
  
 		</div>
-        <p><span class="type-badge fairy">Fairy</span> type Pokemon are <span class="type-badge fighting">Fighting</span>, <span class="type-badge dragon">Dragon</span>, and <span class="type-badge dark">Dark</span> type slayers. They suffer a weakness to <span class="type-badge poison">Poison</span> and <span class="type-badge steel">Steel</span> attacks.</p>
-
+        <p>Pokemon do tipo <span class="type-badge fairy">Fairy</span> causam dano super efetivo nos tipos <span class="type-badge fighting">Fighting</span>, <span class="type-badge dragon">Dragon</span>, e <span class="type-badge dark">Dark</span> </p>
+		<p>Pokemon do tipo <span class="type-badge fairy">Fairy</span> levam dano efetivo dos tipos <span class="type-badge poison">Poison</span> and <span class="type-badge steel">Steel</span></p>
       </div>
     </div>
   </div> 
