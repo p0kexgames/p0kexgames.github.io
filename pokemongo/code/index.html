@@ -456,6 +456,18 @@
                   <td>Mystic</td>
                   <td class="btn" data-clipboard-text="3153 5289 6239">3153 5289 6239 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
                 </tr>
+				<tr class="code">
+                  <td>Fiamachine</td>
+                  <td>36</td>
+                  <td>Valor</td>
+                  <td class="btn" data-clipboard-text="2373 2137 6988">2373 2137 6988 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
+                </tr>
+				<tr class="code">
+                  <td>Filipecdn72</td>
+                  <td>25</td>
+                  <td>Mystic</td>
+                  <td class="btn" data-clipboard-text="1234 6503 6108">1234 6503 6108 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
+                </tr>
 
 			  <!-- Jogadores com letra G -->
                 <tr class="code">
@@ -463,6 +475,12 @@
                   <td>33</td>
                   <td>Valor</td>
                   <td class="btn" data-clipboard-text="7419 7561 6928">7419 7561 6928 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
+                </tr>
+                <tr class="code">
+                  <td>Guuii91 </td>
+                  <td>25</td>
+                  <td>Mystic</td>
+                  <td class="btn" data-clipboard-text="3318 9701 2519">3318 9701 2519 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
                 </tr>
                 <tr class="code">
                   <td>GoAU2016</td>
@@ -523,6 +541,12 @@
                   <td class="btn" data-clipboard-text="4711 0474 8597">4711 0474 8597 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
                 </tr>
                 <tr class="code">
+                  <td>LIFQ23</td>
+                  <td>33</td>
+                  <td>Mystic</td>
+                  <td class="btn" data-clipboard-text="5542 5296 1880">5542 5296 1880 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
+                </tr>
+                <tr class="code">
                   <td>Lucikeila</td>
                   <td>32</td>
                   <td>Mystic</td>
@@ -547,6 +571,12 @@
                   <td>40</td>
                   <td>Mystic</td>
                   <td class="btn" data-clipboard-text="1361 1460 9542">1361 1460 9542 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
+                </tr>
+                <tr class="code">
+                  <td>MIM2two</td>
+                  <td>33</td>
+                  <td>Valor</td>
+                  <td class="btn" data-clipboard-text="6721 6010 2721">6721 6010 2721 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
                 </tr>
 
 			  <!-- Jogadores com letra N -->
@@ -582,6 +612,12 @@
 			  <!-- Jogadores com letra Q -->
 
 			  <!-- Jogadores com letra R -->
+                <tr class="code">
+                  <td>RedTyrnar</td>
+                  <td>25</td>
+                  <td>Valor</td>
+                  <td class="btn" data-clipboard-text="2011 0282 5918">2011 0282 5918 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
+                </tr>
 
 			  <!-- Jogadores com letra S -->
                 <tr class="code">
@@ -604,7 +640,12 @@
                   <td>Mystic</td>
                   <td class="btn" data-clipboard-text="1507 9783 2295">1507 9783 2295 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
                 </tr>
-
+                <tr class="code">
+                  <td>Tyrnar</td>
+                  <td>28</td>
+                  <td>Mystic</td>
+                  <td class="btn" data-clipboard-text="5992 4301 8471">5992 4301 8471 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
+                </tr>
                 <tr class="code">
                   <td>Topmaxpp</td>
                   <td>27</td>
@@ -712,10 +753,20 @@
   var arr = t.split('');
   var lastItem = arr[arr.length - 1];
 
-  if ( t.includes('raids') || lastItem == 's' ) { if (o) { d=t+' End'; f=t+' have finished'; } else { d=t+' Start'; f=t+' Started';} }
-  else if ( t.includes('return') ) { if (o) { d=t+' Ends'; f=t+' has finished'; } else { d=t+' '; f=t+' ';} }
-  else if ( t.includes('community day') ) { if (o) { d=t+' End'; f=t+' has finished'; } else { d=t+' Starts'; f=t+' has Started';} }
-  else { if (o) { d=t+' Ends'; f=t+' is over'; } else { d=t+' Starts'; f=t+' started';} }
+  if ( t.includes('raids') || lastItem == 's' ) { 
+	if (o) { 
+		d=t+' Acaba em'; f=t+' acabou';
+	} else { d=t+' Começa'; f=t+' Começou';} 
+  }
+  else if ( t.includes('return') ) { 
+	if (o) { d=t+' Acaba em'; f=t+' Acabou'; 
+	} else { d=t+' '; f=t+' ';} 
+  }
+  else if ( t.includes('community day') ) { 
+	if (o) { d=t+' Acaba em'; f=t+' acabou'; 
+	} else { d=t+' Começa'; f=t+' começou';}
+  }
+  else { if (o) { d=t+' Acaba em'; f=t+' Terminou'; } else { d=t+' Começa'; f=t+' Começou';} }
   
   if ( eda == false ) { d=t+''; f=t+' Started'; }
   
@@ -787,10 +838,22 @@
   t = t.replace('mz', ' '); 
   var arr = t.split('');
   var lastItem = arr[arr.length - 1];
-  if ( t.includes('raids') || lastItem == 's' ) { if (o) { d=t+' End'; f=t+' have finished'; } else { d=t+' Start'; f=t+' Started';} }
-  else if ( t.includes('return') ) { if (o) { d=t+' Ends'; f=t+' has finished'; } else { d=t+' '; f=t+' ';} }
-  else if ( t.includes('community day') ) { if (o) { d=t+' End'; f=t+' has finished'; } else { d=t+' Starts'; f=t+' has Started';} }
-  else { if (o) { d=t+' Ends'; f=t+' is over'; } else { d=t+' Starts'; f=t+' started';} }
+  
+  if ( t.includes('raids') || lastItem == 's' ) { 
+	if (o) { 
+		d=t+' Acaba em'; f=t+' acabou';
+	} else { d=t+' Começa'; f=t+' Começou';} 
+  }
+  else if ( t.includes('return') ) { 
+	if (o) { d=t+' Acaba em'; f=t+' Acabou'; 
+	} else { d=t+' '; f=t+' ';} 
+  }
+  else if ( t.includes('community day') ) { 
+	if (o) { d=t+' Acaba em'; f=t+' acabou'; 
+	} else { d=t+' Começa'; f=t+' começou';}
+  }
+  else { if (o) { d=t+' Acaba em'; f=t+' Terminou'; } else { d=t+' Começa'; f=t+' Começou';} }
+  
   
   if ( eda == false ) { d=t+''; f=t+' Started'; }
   
@@ -862,10 +925,22 @@
   t = t.replace('mz', ' '); 
   var arr = t.split('');
   var lastItem = arr[arr.length - 1];
-  if ( t.includes('raids') || lastItem == 's' ) { if (o) { d=t+' End'; f=t+' have finished'; } else { d=t+' Start'; f=t+' Started';} }
-  else if ( t.includes('return') ) { if (o) { d=t+' Ends'; f=t+' has finished'; } else { d=t+' '; f=t+' ';} }
-  else if ( t.includes('community day') ) { if (o) { d=t+' End'; f=t+' has finished'; } else { d=t+' Starts'; f=t+' has Started';} }
-  else { if (o) { d=t+' Ends'; f=t+' is over'; } else { d=t+' Starts'; f=t+' started';} }
+  
+  if ( t.includes('raids') || lastItem == 's' ) { 
+	if (o) { 
+		d=t+' Acaba em'; f=t+' acabou';
+	} else { d=t+' Começa'; f=t+' Começou';} 
+  }
+  else if ( t.includes('return') ) { 
+	if (o) { d=t+' Acaba em'; f=t+' Acabou'; 
+	} else { d=t+' '; f=t+' ';} 
+  }
+  else if ( t.includes('community day') ) { 
+	if (o) { d=t+' Acaba em'; f=t+' acabou'; 
+	} else { d=t+' Começa'; f=t+' começou';}
+  }
+  else { if (o) { d=t+' Acaba em'; f=t+' Terminou'; } else { d=t+' Começa'; f=t+' Começou';} }
+  
   
   if ( eda == false ) { d=t+''; f=t+' Started'; }
   
@@ -937,10 +1012,21 @@
   t = t.replace('mz', ' '); 
   var arr = t.split('');
   var lastItem = arr[arr.length - 1];
-  if ( t.includes('raids') || lastItem == 's' ) { if (o) { d=t+' End'; f=t+' have finished'; } else { d=t+' Start'; f=t+' Started';} }
-  else if ( t.includes('return') ) { if (o) { d=t+' Ends'; f=t+' has finished'; } else { d=t+' '; f=t+' ';} }
-  else if ( t.includes('community day') ) { if (o) { d=t+' End'; f=t+' has finished'; } else { d=t+' Starts'; f=t+' has Started';} }
-  else { if (o) { d=t+' Ends'; f=t+' is over'; } else { d=t+' Starts'; f=t+' started';} }
+  
+  if ( t.includes('raids') || lastItem == 's' ) { 
+	if (o) { 
+		d=t+' Acaba em'; f=t+' acabou';
+	} else { d=t+' Começa'; f=t+' Começou';} 
+  }
+  else if ( t.includes('return') ) { 
+	if (o) { d=t+' Acaba em'; f=t+' Acabou'; 
+	} else { d=t+' '; f=t+' ';} 
+  }
+  else if ( t.includes('community day') ) { 
+	if (o) { d=t+' Acaba em'; f=t+' acabou'; 
+	} else { d=t+' Começa'; f=t+' começou';}
+  }
+  else { if (o) { d=t+' Acaba em'; f=t+' Terminou'; } else { d=t+' Começa'; f=t+' Começou';} }
   
   if ( eda == false ) { d=t+''; f=t+' Started'; }
   
@@ -1013,10 +1099,21 @@
   t = t.replace('mz', ' '); 
   var arr = t.split('');
   var lastItem = arr[arr.length - 1];
-  if ( t.includes('raids') || lastItem == 's' ) { if (o) { d=t+' End'; f=t+' have finished'; } else { d=t+' Start'; f=t+' Started';} }
-  else if ( t.includes('return') ) { if (o) { d=t+' Ends'; f=t+' has finished'; } else { d=t+' '; f=t+' ';} }
-  else if ( t.includes('community day') ) { if (o) { d=t+' End'; f=t+' has finished'; } else { d=t+' Starts'; f=t+' has Started';} }
-  else { if (o) { d=t+' Ends'; f=t+' is over'; } else { d=t+' Starts'; f=t+' started';} }
+  
+  if ( t.includes('raids') || lastItem == 's' ) { 
+	if (o) { 
+		d=t+' Acaba em'; f=t+' acabou';
+	} else { d=t+' Começa'; f=t+' Começou';} 
+  }
+  else if ( t.includes('return') ) { 
+	if (o) { d=t+' Acaba em'; f=t+' Acabou'; 
+	} else { d=t+' '; f=t+' ';} 
+  }
+  else if ( t.includes('community day') ) { 
+	if (o) { d=t+' Acaba em'; f=t+' acabou'; 
+	} else { d=t+' Começa'; f=t+' começou';}
+  }
+  else { if (o) { d=t+' Acaba em'; f=t+' Terminou'; } else { d=t+' Começa'; f=t+' Começou';} }
   
   if ( eda == false ) { d=t+''; f=t+' Started'; }
   
