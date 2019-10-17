@@ -603,6 +603,12 @@
                   <td class="btn" data-clipboard-text="0526 8419 3586">0526 8419 3586 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
                 </tr>
                 <tr class="code">
+                  <td>PolvicDMC</td>
+                  <td>24</td>
+                  <td>Valor</td>
+                  <td class="btn" data-clipboard-text="1056 9885 3248">1056 9885 3248 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
+                </tr>
+                <tr class="code">
                   <td>ProffesorLukas</td>
                   <td>40</td>
                   <td>Mystic</td>
@@ -700,174 +706,8 @@
     <div data-role="panel" id="left-panel" data-theme="b">
 		  <div class="timers">
 							<h2 style="color:#CCC;"><center>Eventos<center></h2>
-<a href="https://www.p337.info/pokemongo/countdowns/?id=stardust-blast-2019" class="mincd w_l" style="text-decoration: none; color: black;">
-    <div id="stardust_blast_2019_mz_r" class="clock_contain mas" style="background-color: #dbdbdb;">
-    <div class="clock_left">
-      <img class="clock_image" alt="img" style="width:100px; height: 100px;" src="https://www.p337.info/pokemongo/img/custom/stardust.png">
-    </div>
-    <div class="clock_right">
-      <div id="stardust_blast_2019_mz_l">Stardust Blast Ends</div>
-      <div class="countdown" id="stardust_blast_2019_mz_countdown"><span class="day"><span class="t_val">5</span>d</span> <span class="hour"><span class="t_val">21</span>h</span> <span class="min"><span class="t_val">30</span>m</span> <span class="sec"><span class="t_val">48</span>s</span> </div>
-      <div class="local loc_s"> Your Local Time: </div>
-      <div id="stardust_blast_2019_mz_time" class="local loc_t">Thu 10-Oct-2019 5:00 PM (17:00)</div> 
-    </div>
-  </div>
-  </a>
-  <script>
-  
-  var s = 'Oct 3 2019 13:00:00 GMT-0700'; var e = 'Oct 10 2019 13:00:00 GMT-0700';
-  
-  var ds = new Date(s); var dend = new Date(e); var dn = new Date(); var o = false; var d = ''; var t = ''; var eda = true;
-
- /* new_offset */
-  var js_debug = true;
-  var offset_2 = new Date().getTimezoneOffset();
-  var offstart = (offset_2/60)*-1;
-  var ooup = 0;
-  
-  if(ooup != 0) {
-    if (parseFloat(offstart) >= parseFloat(ooup)) {
-      ds.setDate(ds.getDate() + 1);
-      dend.setDate(dend.getDate() + 1);
-      
-      //dateobj.toString();
-      s = ds.toString();
-      e = dend.toString();
-      //alert('done');
-    }
-    //if (js_debug) { alert(parseFloat(offstart) + ' ' + parseFloat(ooup)); }
-  }
-   
-  /* end */
-  
-  
-  
-  if (e.length < 10) { console.log('hello there'); eda = false; }
-  if (Date.parse(ds)-Date.parse(new Date())<0 && eda) { deadline = e; o = true; } else { deadline = s; o = false; }
-  
-  var m = 'Stardust Blast';
-  t = m.toLowerCase()
-  t = t.replace('-', ' '); 
-  t = t.replace('mz', ' '); 
-
-  var arr = t.split('');
-  var lastItem = arr[arr.length - 1];
-
-  if ( t.includes('raids') || lastItem == 's' ) { if (o) { d=t+' End'; f=t+' have finished'; } else { d=t+' Start'; f=t+' Started';} }
-  else if ( t.includes('return') ) { if (o) { d=t+' Ends'; f=t+' has finished'; } else { d=t+' '; f=t+' ';} }
-  else if ( t.includes('community day') ) { if (o) { d=t+' End'; f=t+' has finished'; } else { d=t+' Starts'; f=t+' has Started';} }
-  else { if (o) { d=t+' Ends'; f=t+' is over'; } else { d=t+' Starts'; f=t+' started';} }
-  
-  if ( eda == false ) { d=t+''; f=t+' Started'; }
-  
-  d = toTitleCase(d);  f = toTitleCase(f); 
-  //alert(d);
-  if ( document.getElementById('stardust_blast_2019_mz_l') ) { document.getElementById('stardust_blast_2019_mz_l').innerHTML = d; } 
-  
-  var stop_clock_id = '';
-  var offset = new Date().getTimezoneOffset();
-  var offset_hours = offset/60;
-  var offset_miliseconds = 0;
-  if (offset_hours < 0) { offset_miliseconds = 100; }
-  if ( document.getElementById('stardust_blast_2019_mz_countdown') ) {
-    stop_clock_id = initializeClock('stardust_blast_2019_mz_countdown', deadline, 0, f);
-    var local_date = new Date(deadline);
-    local_date.setTime(local_date.getTime() + (offset_hours+offset_miliseconds));
-    var local_date_string = format_date(local_date,true);
-    document.getElementById('stardust_blast_2019_mz_time').innerHTML = local_date_string;
-  }
-  </script>
 
 
-
-  <a href="https://www.p337.info/pokemongo/countdowns/?id=world-tourisim-2019" class="mincd w_l ui-link" style="text-decoration: none; color: black;">
-    <div id="world_tourisim_2019_mz_r" class="clock_contain mas" style="background-color: #dbdbdb;">
-    <div class="clock_left">
-      <img class="clock_image" alt="img" style="width:100px; height: 100px;" src="https://www.p337.info/pokemongo/img/pokemon/122.png">
-    </div>
-    <div class="clock_right">
-      <div id="world_tourisim_2019_mz_l">World Tourisim Ends</div>
-      <div class="countdown" id="world_tourisim_2019_mz_countdown"><span class="day"><span class="t_val">3</span>d</span> <span class="hour"><span class="t_val">0</span>h</span> <span class="min"><span class="t_val">46</span>m</span> <span class="sec"><span class="t_val">16</span>s</span> </div>
-      <div class="local loc_s"> Your Local Time: </div>
-      <div id="world_tourisim_2019_mz_time" class="local loc_t">Tue 1-Oct-2019 5:00 PM (17:00)</div> 
-    </div>
-  </div>
-  </a>
-  <script>
-  
-  var s = 'Sep 26 2019 13:00:00 GMT-0700'; var e = 'Oct 1 2019 13:00:00 GMT-0700';
-  
-  var ds = new Date(s); var dend = new Date(e); var dn = new Date(); var o = false; var d = ''; var t = ''; var eda = true;
-
- /* new_offset */
-  var js_debug = true;
-  var offset_2 = new Date().getTimezoneOffset();
-  var offstart = (offset_2/60)*-1;
-  var ooup = 0;
-  
-  if(ooup != 0) {
-    if (parseFloat(offstart) >= parseFloat(ooup)) {
-      ds.setDate(ds.getDate() + 1);
-      dend.setDate(dend.getDate() + 1);
-      
-      //dateobj.toString();
-      s = ds.toString();
-      e = dend.toString();
-      //alert('done');
-    }
-    //if (js_debug) { alert(parseFloat(offstart) + ' ' + parseFloat(ooup)); }
-  }
-   
-  /* end */
-  
-  
-  
-  if (e.length < 10) { console.log('hello there'); eda = false; }
-  if (Date.parse(ds)-Date.parse(new Date())<0 && eda) { deadline = e; o = true; } else { deadline = s; o = false; }
-  
-  var m = 'World Tourisim';
-  t = m.toLowerCase()
-  t = t.replace('-', ' '); 
-  t = t.replace('mz', ' '); 
-
-  var arr = t.split('');
-  var lastItem = arr[arr.length - 1];
-
-  if ( t.includes('raids') || lastItem == 's' ) { 
-	if (o) { 
-		d=t+' Acaba em'; f=t+' acabou';
-	} else { d=t+' Começa'; f=t+' Começou';} 
-  }
-  else if ( t.includes('return') ) { 
-	if (o) { d=t+' Acaba em'; f=t+' Acabou'; 
-	} else { d=t+' '; f=t+' ';} 
-  }
-  else if ( t.includes('community day') ) { 
-	if (o) { d=t+' Acaba em'; f=t+' acabou'; 
-	} else { d=t+' Começa'; f=t+' começou';}
-  }
-  else { if (o) { d=t+' Acaba em'; f=t+' Terminou'; } else { d=t+' Começa'; f=t+' Começou';} }
-  
-  if ( eda == false ) { d=t+''; f=t+' Started'; }
-  
-  d = toTitleCase(d);  f = toTitleCase(f); 
-  //alert(d);
-  if ( document.getElementById('world_tourisim_2019_mz_l') ) { document.getElementById('world_tourisim_2019_mz_l').innerHTML = d; } 
-  
-  var stop_clock_id = '';
-  var offset = new Date().getTimezoneOffset();
-  var offset_hours = offset/60;
-  var offset_miliseconds = 0;
-  if (offset_hours < 0) { offset_miliseconds = 100; }
-  if ( document.getElementById('world_tourisim_2019_mz_countdown') ) {
-    stop_clock_id = initializeClock('world_tourisim_2019_mz_countdown', deadline, 0, f);
-    var local_date = new Date(deadline);
-    local_date.setTime(local_date.getTime() + (offset_hours+offset_miliseconds));
-    var local_date_string = format_date(local_date,true);
-    document.getElementById('world_tourisim_2019_mz_time').innerHTML = local_date_string;
-  }
-  </script>
-  
   <a href="https://www.p337.info/pokemongo/countdowns/?id=giratina-altered-raids-2019-2" class="mincd w_l" style="text-decoration: none; color: black;">
     <div id="giratina_altered_raids_2019_2_mz_r" class="clock_contain mas" style="background-color: #dbdbdb;">
     <div class="clock_left">
@@ -954,6 +794,318 @@
     document.getElementById('giratina_altered_raids_2019_2_mz_time').innerHTML = local_date_string;
   }
   </script>  
+  
+  <a href="https://www.p337.info/pokemongo/countdowns/?id=halloween-additions-2019" class="mincd w_l" style="text-decoration: none; color: black;">
+    <div id="halloween_additions_2019_mz_r" class="clock_contain mas" style="background-color: #dbdbdb;">
+    <div class="clock_left">
+      <img class="clock_image" alt="img" style="width:100px; height: 100px;" src="https://www.p337.info/pokemongo/img/pokemon/562.png">
+    </div>
+    <div class="clock_right">
+      <div id="halloween_additions_2019_mz_l">Halloween Additions</div>
+      <div class="countdown" id="halloween_additions_2019_mz_countdown"><span class="hour"><span class="t_val">1</span>h</span> <span class="min"><span class="t_val">18</span>m</span> <span class="sec"><span class="t_val">54</span>s</span> </div>
+      <div class="local loc_s"> Your Local Time: </div>
+      <div id="halloween_additions_2019_mz_time" class="local loc_t">Thu 17-Oct-2019 5:00 PM (17:00)</div> 
+    </div>
+  </div>
+  </a>
+  <script>
+  
+  var s = 'Oct 17 2019 13:00:00 GMT-0700'; var e = '';
+  
+  var ds = new Date(s); var dend = new Date(e); var dn = new Date(); var o = false; var d = ''; var t = ''; var eda = true;
+
+ /* new_offset */
+  var js_debug = true;
+  var offset_2 = new Date().getTimezoneOffset();
+  var offstart = (offset_2/60)*-1;
+  var ooup = 0;
+  
+  if(ooup != 0) {
+    if (parseFloat(offstart) >= parseFloat(ooup)) {
+      ds.setDate(ds.getDate() + 1);
+      dend.setDate(dend.getDate() + 1);
+      
+      //dateobj.toString();
+      s = ds.toString();
+      e = dend.toString();
+      //alert('done');
+    }
+    //if (js_debug) { alert(parseFloat(offstart) + ' ' + parseFloat(ooup)); }
+  }
+   
+  /* end */
+  
+  
+  
+  if (e.length < 10) { console.log('hello there'); eda = false; }
+  if (Date.parse(ds)-Date.parse(new Date())<0 && eda) { deadline = e; o = true; } else { deadline = s; o = false; }
+  
+  var m = 'Halloween Additions';
+  t = m.toLowerCase()
+  t = t.replace('-', ' '); 
+  t = t.replace('mz', ' '); 
+
+  var arr = t.split('');
+  var lastItem = arr[arr.length - 1];
+
+  if ( t.includes('raids') || lastItem == 's' ) { if (o) { d=t+' End'; f=t+' have finished'; } else { d=t+' Start'; f=t+' Started';} }
+  else if ( t.includes('return') ) { if (o) { d=t+' Ends'; f=t+' has finished'; } else { d=t+' '; f=t+' ';} }
+  else if ( t.includes('community day') ) { if (o) { d=t+' End'; f=t+' has finished'; } else { d=t+' Starts'; f=t+' has Started';} }
+  else { if (o) { d=t+' Ends'; f=t+' is over'; } else { d=t+' Starts'; f=t+' started';} }
+  
+  if ( eda == false ) { d=t+''; f=t+' Started'; }
+  
+  d = toTitleCase(d);  f = toTitleCase(f); 
+  //alert(d);
+  if ( document.getElementById('halloween_additions_2019_mz_l') ) { document.getElementById('halloween_additions_2019_mz_l').innerHTML = d; } 
+  
+  var stop_clock_id = '';
+  var offset = new Date().getTimezoneOffset();
+  var offset_hours = offset/60;
+  var offset_miliseconds = 0;
+  if (offset_hours < 0) { offset_miliseconds = 100; }
+  if ( document.getElementById('halloween_additions_2019_mz_countdown') ) {
+    stop_clock_id = initializeClock('halloween_additions_2019_mz_countdown', deadline, 0, f);
+    var local_date = new Date(deadline);
+    local_date.setTime(local_date.getTime() + (offset_hours+offset_miliseconds));
+    var local_date_string = format_date(local_date,true);
+    document.getElementById('halloween_additions_2019_mz_time').innerHTML = local_date_string;
+  }
+  </script>
+  
+  <a href="https://www.p337.info/pokemongo/countdowns/?id=halloween-event-2019" class="mincd w_l" style="text-decoration: none; color: black;">
+    <div id="halloween_event_2019_mz_r" class="clock_contain mas" style="background-color: #dbdbdb;">
+    <div class="clock_left">
+      <img class="clock_image" alt="img" style="width:100px; height: 100px;" src="https://www.p337.info/pokemongo/img/custom/candy.png">
+    </div>
+    <div class="clock_right">
+      <div id="halloween_event_2019_mz_l">Halloween Event Starts</div>
+      <div class="countdown" id="halloween_event_2019_mz_countdown"><span class="hour"><span class="t_val">1</span>h</span> <span class="min"><span class="t_val">17</span>m</span> <span class="sec"><span class="t_val">33</span>s</span> </div>
+      <div class="local loc_s"> Your Local Time: </div>
+      <div id="halloween_event_2019_mz_time" class="local loc_t">Thu 17-Oct-2019 5:00 PM (17:00)</div> 
+    </div>
+  </div>
+  </a>
+  <script>
+  
+  var s = 'Oct 17 2019 13:00:00 GMT-0700'; var e = 'Nov 1 2019 13:00:00 GMT-0700';
+  
+  var ds = new Date(s); var dend = new Date(e); var dn = new Date(); var o = false; var d = ''; var t = ''; var eda = true;
+
+ /* new_offset */
+  var js_debug = true;
+  var offset_2 = new Date().getTimezoneOffset();
+  var offstart = (offset_2/60)*-1;
+  var ooup = 0;
+  
+  if(ooup != 0) {
+    if (parseFloat(offstart) >= parseFloat(ooup)) {
+      ds.setDate(ds.getDate() + 1);
+      dend.setDate(dend.getDate() + 1);
+      
+      //dateobj.toString();
+      s = ds.toString();
+      e = dend.toString();
+      //alert('done');
+    }
+    //if (js_debug) { alert(parseFloat(offstart) + ' ' + parseFloat(ooup)); }
+  }
+   
+  /* end */
+  
+  
+  
+  if (e.length < 10) { console.log('hello there'); eda = false; }
+  if (Date.parse(ds)-Date.parse(new Date())<0 && eda) { deadline = e; o = true; } else { deadline = s; o = false; }
+  
+  var m = 'Halloween Event';
+  t = m.toLowerCase()
+  t = t.replace('-', ' '); 
+  t = t.replace('mz', ' '); 
+
+  var arr = t.split('');
+  var lastItem = arr[arr.length - 1];
+
+  if ( t.includes('raids') || lastItem == 's' ) { if (o) { d=t+' End'; f=t+' have finished'; } else { d=t+' Start'; f=t+' Started';} }
+  else if ( t.includes('return') ) { if (o) { d=t+' Ends'; f=t+' has finished'; } else { d=t+' '; f=t+' ';} }
+  else if ( t.includes('community day') ) { if (o) { d=t+' End'; f=t+' has finished'; } else { d=t+' Starts'; f=t+' has Started';} }
+  else { if (o) { d=t+' Ends'; f=t+' is over'; } else { d=t+' Starts'; f=t+' started';} }
+  
+  if ( eda == false ) { d=t+''; f=t+' Started'; }
+  
+  d = toTitleCase(d);  f = toTitleCase(f); 
+  //alert(d);
+  if ( document.getElementById('halloween_event_2019_mz_l') ) { document.getElementById('halloween_event_2019_mz_l').innerHTML = d; } 
+  
+  var stop_clock_id = '';
+  var offset = new Date().getTimezoneOffset();
+  var offset_hours = offset/60;
+  var offset_miliseconds = 0;
+  if (offset_hours < 0) { offset_miliseconds = 100; }
+  if ( document.getElementById('halloween_event_2019_mz_countdown') ) {
+    stop_clock_id = initializeClock('halloween_event_2019_mz_countdown', deadline, 0, f);
+    var local_date = new Date(deadline);
+    local_date.setTime(local_date.getTime() + (offset_hours+offset_miliseconds));
+    var local_date_string = format_date(local_date,true);
+    document.getElementById('halloween_event_2019_mz_time').innerHTML = local_date_string;
+  }
+  </script>
+  
+  <a href="https://www.p337.info/pokemongo/countdowns/?id=darkrai-raids-2019" class="mincd w_l" style="text-decoration: none; color: black;">
+    <div id="darkrai_raids_2019_mz_r" class="clock_contain mas" style="background-color: #dbdbdb;">
+    <div class="clock_left">
+      <img class="clock_image" alt="img" style="width:100px; height: 100px;" src="https://www.p337.info/pokemongo/img/pokemon/491.png">
+    </div>
+    <div class="clock_right">
+      <div id="darkrai_raids_2019_mz_l">Darkrai Raids Start</div>
+      <div class="countdown" id="darkrai_raids_2019_mz_countdown"><span class="hour"><span class="t_val">1</span>h</span> <span class="min"><span class="t_val">17</span>m</span> <span class="sec"><span class="t_val">0</span>s</span> </div>
+      <div class="local loc_s"> Your Local Time: </div>
+      <div id="darkrai_raids_2019_mz_time" class="local loc_t">Thu 17-Oct-2019 5:00 PM (17:00)</div> 
+    </div>
+  </div>
+  </a>
+  <script>
+  
+  var s = 'Oct 17 2019 13:00:00 GMT-0700'; var e = 'Nov 1 2019 13:00:00 GMT-0700';
+  
+  var ds = new Date(s); var dend = new Date(e); var dn = new Date(); var o = false; var d = ''; var t = ''; var eda = true;
+
+ /* new_offset */
+  var js_debug = true;
+  var offset_2 = new Date().getTimezoneOffset();
+  var offstart = (offset_2/60)*-1;
+  var ooup = 0;
+  
+  if(ooup != 0) {
+    if (parseFloat(offstart) >= parseFloat(ooup)) {
+      ds.setDate(ds.getDate() + 1);
+      dend.setDate(dend.getDate() + 1);
+      
+      //dateobj.toString();
+      s = ds.toString();
+      e = dend.toString();
+      //alert('done');
+    }
+    //if (js_debug) { alert(parseFloat(offstart) + ' ' + parseFloat(ooup)); }
+  }
+   
+  /* end */
+  
+  
+  
+  if (e.length < 10) { console.log('hello there'); eda = false; }
+  if (Date.parse(ds)-Date.parse(new Date())<0 && eda) { deadline = e; o = true; } else { deadline = s; o = false; }
+  
+  var m = 'Darkrai Raids';
+  t = m.toLowerCase()
+  t = t.replace('-', ' '); 
+  t = t.replace('mz', ' '); 
+
+  var arr = t.split('');
+  var lastItem = arr[arr.length - 1];
+
+  if ( t.includes('raids') || lastItem == 's' ) { if (o) { d=t+' End'; f=t+' have finished'; } else { d=t+' Start'; f=t+' Started';} }
+  else if ( t.includes('return') ) { if (o) { d=t+' Ends'; f=t+' has finished'; } else { d=t+' '; f=t+' ';} }
+  else if ( t.includes('community day') ) { if (o) { d=t+' End'; f=t+' has finished'; } else { d=t+' Starts'; f=t+' has Started';} }
+  else { if (o) { d=t+' Ends'; f=t+' is over'; } else { d=t+' Starts'; f=t+' started';} }
+  
+  if ( eda == false ) { d=t+''; f=t+' Started'; }
+  
+  d = toTitleCase(d);  f = toTitleCase(f); 
+  //alert(d);
+  if ( document.getElementById('darkrai_raids_2019_mz_l') ) { document.getElementById('darkrai_raids_2019_mz_l').innerHTML = d; } 
+  
+  var stop_clock_id = '';
+  var offset = new Date().getTimezoneOffset();
+  var offset_hours = offset/60;
+  var offset_miliseconds = 0;
+  if (offset_hours < 0) { offset_miliseconds = 100; }
+  if ( document.getElementById('darkrai_raids_2019_mz_countdown') ) {
+    stop_clock_id = initializeClock('darkrai_raids_2019_mz_countdown', deadline, 0, f);
+    var local_date = new Date(deadline);
+    local_date.setTime(local_date.getTime() + (offset_hours+offset_miliseconds));
+    var local_date_string = format_date(local_date,true);
+    document.getElementById('darkrai_raids_2019_mz_time').innerHTML = local_date_string;
+  }
+  </script>
+  
+  <a href="https://www.p337.info/pokemongo/countdowns/?id=regi-raids-2019" class="mincd w_l" style="text-decoration: none; color: black;">
+    <div id="regi_raids_2019_mz_r" class="clock_contain mas" style="background-color: #dbdbdb;">
+    <div class="clock_left">
+      <img class="clock_image" alt="img" style="width:100px; height: 100px;" src="https://www.p337.info/pokemongo/img/pokemon/377.png">
+    </div>
+    <div class="clock_right">
+      <div id="regi_raids_2019_mz_l">Regi Raids Start</div>
+      <div class="countdown" id="regi_raids_2019_mz_countdown"><span class="day"><span class="t_val">15</span>d</span> <span class="hour"><span class="t_val">1</span>h</span> <span class="min"><span class="t_val">16</span>m</span> <span class="sec"><span class="t_val">26</span>s</span> </div>
+      <div class="local loc_s"> Your Local Time: </div>
+      <div id="regi_raids_2019_mz_time" class="local loc_t">Fri 1-Nov-2019 5:00 PM (17:00)</div> 
+    </div>
+  </div>
+  </a>
+  <script>
+  
+  var s = 'Nov 1 2019 13:00:00 GMT-0700'; var e = 'Nov 4 2019 13:00:00 GMT-0700';
+  
+  var ds = new Date(s); var dend = new Date(e); var dn = new Date(); var o = false; var d = ''; var t = ''; var eda = true;
+
+ /* new_offset */
+  var js_debug = true;
+  var offset_2 = new Date().getTimezoneOffset();
+  var offstart = (offset_2/60)*-1;
+  var ooup = 0;
+  
+  if(ooup != 0) {
+    if (parseFloat(offstart) >= parseFloat(ooup)) {
+      ds.setDate(ds.getDate() + 1);
+      dend.setDate(dend.getDate() + 1);
+      
+      //dateobj.toString();
+      s = ds.toString();
+      e = dend.toString();
+      //alert('done');
+    }
+    //if (js_debug) { alert(parseFloat(offstart) + ' ' + parseFloat(ooup)); }
+  }
+   
+  /* end */
+  
+  
+  
+  if (e.length < 10) { console.log('hello there'); eda = false; }
+  if (Date.parse(ds)-Date.parse(new Date())<0 && eda) { deadline = e; o = true; } else { deadline = s; o = false; }
+  
+  var m = 'Regi Raids';
+  t = m.toLowerCase()
+  t = t.replace('-', ' '); 
+  t = t.replace('mz', ' '); 
+
+  var arr = t.split('');
+  var lastItem = arr[arr.length - 1];
+
+  if ( t.includes('raids') || lastItem == 's' ) { if (o) { d=t+' End'; f=t+' have finished'; } else { d=t+' Start'; f=t+' Started';} }
+  else if ( t.includes('return') ) { if (o) { d=t+' Ends'; f=t+' has finished'; } else { d=t+' '; f=t+' ';} }
+  else if ( t.includes('community day') ) { if (o) { d=t+' End'; f=t+' has finished'; } else { d=t+' Starts'; f=t+' has Started';} }
+  else { if (o) { d=t+' Ends'; f=t+' is over'; } else { d=t+' Starts'; f=t+' started';} }
+  
+  if ( eda == false ) { d=t+''; f=t+' Started'; }
+  
+  d = toTitleCase(d);  f = toTitleCase(f); 
+  //alert(d);
+  if ( document.getElementById('regi_raids_2019_mz_l') ) { document.getElementById('regi_raids_2019_mz_l').innerHTML = d; } 
+  
+  var stop_clock_id = '';
+  var offset = new Date().getTimezoneOffset();
+  var offset_hours = offset/60;
+  var offset_miliseconds = 0;
+  if (offset_hours < 0) { offset_miliseconds = 100; }
+  if ( document.getElementById('regi_raids_2019_mz_countdown') ) {
+    stop_clock_id = initializeClock('regi_raids_2019_mz_countdown', deadline, 0, f);
+    var local_date = new Date(deadline);
+    local_date.setTime(local_date.getTime() + (offset_hours+offset_miliseconds));
+    var local_date_string = format_date(local_date,true);
+    document.getElementById('regi_raids_2019_mz_time').innerHTML = local_date_string;
+  }
+  </script>
   
   <a href="https://www.p337.info/pokemongo/countdowns/?id=shadow-ball-mewtwo-returns-2019" class="mincd w_l" style="text-decoration: none; color: black;">
     <div id="shadow_ball_mewtwo_returns_2019_mz_r" class="clock_contain mas" style="background-color: #dbdbdb;">
@@ -1042,92 +1194,8 @@
   }
   </script>
   
-  <a href="" class="mincd w_l" style="text-decoration: none; color: black;">
-    <div id="ccd_undefined_1_mz_r" class="clock_contain mas" style="background-color: #dbdbdb;">
-    <div class="clock_left">
-      <img class="clock_image" alt="img" style="width:100px; height: 100px;" src="https://www.p337.info/pokemongo/img/pokemon/328.png">
-    </div>
-    <div class="clock_right">
-      <div id="cd_undefined_1_mz_l">Dia comunidade Starts</div>
-      <div class="countdown" id="cd_undefined_1_mz_countdown"><span class="day"><span class="t_val">25</span>d</span> <span class="hour"><span class="t_val">23</span>h</span> <span class="min"><span class="t_val">58</span>m</span> <span class="sec"><span class="t_val">34</span>s</span> </div>
-      <div class="local loc_s"> Your Local Time: </div>
-      <div id="cd_undefined_1_mz_time" class="local loc_t">Mon 16-Sep-2019 5:00 PM (17:00)</div> 
-    </div>
-  </div>
-  </a>
-  <script>
-  
-  var s = 'Oct 12 2019 07:00:00 GMT-0700'; var e = 'Oct 12 2019 11:00:00 GMT-0700';
-  
-  var ds = new Date(s); var dend = new Date(e); var dn = new Date(); var o = false; var d = ''; var t = ''; var eda = true;
- /* new_offset */
-  var js_debug = true;
-  var offset_2 = new Date().getTimezoneOffset();
-  var offstart = (offset_2/60)*-1;
-  var ooup = 0;
-  
-  if(ooup != 0) {
-    if (parseFloat(offstart) >= parseFloat(ooup)) {
-      ds.setDate(ds.getDate() + 1);
-      dend.setDate(dend.getDate() + 1);
-      
-      //dateobj.toString();
-      s = ds.toString();
-      e = dend.toString();
-      //alert('done');
-    }
-    //if (js_debug) { alert(parseFloat(offstart) + ' ' + parseFloat(ooup)); }
-  }
-   
-  /* end */
-  
-  
-  
-  if (e.length < 10) { console.log('hello there'); eda = false; }
-  if (Date.parse(ds)-Date.parse(new Date())<0 && eda) { deadline = e; o = true; } else { deadline = s; o = false; }
-  
-  var m = 'Dia comunidade';
-  t = m.toLowerCase()
-  t = t.replace('-', ' '); 
-  t = t.replace('mz', ' '); 
-  var arr = t.split('');
-  var lastItem = arr[arr.length - 1];
-  
-  if ( t.includes('raids') || lastItem == 's' ) { 
-	if (o) { 
-		d=t+' Acaba em'; f=t+' acabou';
-	} else { d=t+' Começa'; f=t+' Começou';} 
-  }
-  else if ( t.includes('return') ) { 
-	if (o) { d=t+' Acaba em'; f=t+' Acabou'; 
-	} else { d=t+' '; f=t+' ';} 
-  }
-  else if ( t.includes('community day') ) { 
-	if (o) { d=t+' Acaba em'; f=t+' acabou'; 
-	} else { d=t+' Começa'; f=t+' começou';}
-  }
-  else { if (o) { d=t+' Acaba em'; f=t+' Terminou'; } else { d=t+' Começa'; f=t+' Começou';} }
-  
-  if ( eda == false ) { d=t+''; f=t+' Started'; }
-  
-  d = toTitleCase(d);  f = toTitleCase(f); 
-  //alert(d);
-  if ( document.getElementById('cd_undefined_1_mz_l') ) { document.getElementById('cd_undefined_1_mz_l').innerHTML = d; } 
-  
-  var stop_clock_id = '';
-  var offset = new Date().getTimezoneOffset();
-  var offset_hours = offset/60;
-  var offset_miliseconds = 0;
-  if (offset_hours < 0) { offset_miliseconds = 100; }
-  if ( document.getElementById('cd_undefined_1_mz_countdown') ) {
-    stop_clock_id = initializeClock('cd_undefined_1_mz_countdown', deadline, 0, f);
-    var local_date = new Date(deadline);
-    local_date.setTime(local_date.getTime() + (offset_hours+offset_miliseconds));
-    var local_date_string = format_date(local_date,true);
-    document.getElementById('cd_undefined_1_mz_time').innerHTML = local_date_string;
-  }
-  </script>
-  
+
+
   
   <a href="" class="mincd w_l" style="text-decoration: none; color: black;">
     <div id="cd_undefined_2_mz_r" class="clock_contain mas" style="background-color: #dbdbdb;">
@@ -1344,9 +1412,10 @@
 	<div data-role="content" class="ui-content">
 		
 		<p class="graphic">
-			<img src="images/ovos.jpg" alt="ovos2km">
-			<img src="images/ovos2.jpg" alt="ovos5km">
-			<img src="images/ovos3.jpg" alt="ovos 7 e 10km">
+			<img src="images/ovos1.jpg" alt="ovos 2km">
+			<img src="images/ovos2.jpg" alt="ovos 5km">
+			<img src="images/ovos3.jpg" alt="ovos 5km Regionais">
+			<img src="images/ovos4.jpg" alt="ovos 7 e 10km">
 			
 			
 			
