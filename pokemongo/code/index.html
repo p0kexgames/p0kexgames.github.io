@@ -518,6 +518,12 @@
                   <td>Valor</td>
                   <td class="btn" data-clipboard-text="0534 8922 7094">0534 8922 7094 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
                 </tr>
+                <tr class="code">
+                  <td>Julsmonster</td>
+                  <td>36</td>
+                  <td>Mystic</td>
+                  <td class="btn" data-clipboard-text="2135 7469 5015">2135 7469 5015 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
+                </tr>
 
 			  <!-- Jogadores com letra K -->
                 <tr class="code">
@@ -636,6 +642,12 @@
                   <td>Valor</td>
                   <td class="btn" data-clipboard-text="2011 0282 5918">2011 0282 5918 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
                 </tr>
+                <tr class="code">
+                  <td>RobsonSatoshi</td>
+                  <td>30</td>
+                  <td>Valor</td>
+                  <td class="btn" data-clipboard-text="8165 2521 1460">8165 2521 1460 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
+                </tr>
 
 			  <!-- Jogadores com letra S -->
                 <tr class="code">
@@ -680,6 +692,17 @@
                 </tr>
 				
 				
+			  <!-- Jogadores com letra W -->
+                <tr class="code">
+                  <td>Wylzinhu</td>
+                  <td>25</td>
+                  <td>Valor</td>
+                  <td class="btn" data-clipboard-text="6458 0647 7576">6458 0647 7576 <i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i></td>
+                </tr>
+				
+			  <!-- Jogadores com letra X -->
+			  <!-- Jogadores com letra Y -->
+			  <!-- Jogadores com letra Z -->
 				
               </tbody>
             </table>
@@ -719,22 +742,22 @@
 		  <div class="timers">
 							<h2 style="color:#CCC;"><center>Eventos<center></h2>
 
-  <a href="https://www.p337.info/pokemongo/countdowns/?id=halloween-additions-2019" class="mincd w_l" style="text-decoration: none; color: black;">
-    <div id="halloween_additions_2019_mz_r" class="clock_contain mas" style="background-color: #dbdbdb;">
+<a href="https://www.p337.info/pokemongo/countdowns/?id=cobalion-raids-2019" class="mincd w_l" style="text-decoration: none; color: black;">
+    <div id="cobalion_raids_2019_mz_r" class="clock_contain mas" style="background-color: #dbdbdb;">
     <div class="clock_left">
-      <img class="clock_image" alt="img" style="width:100px; height: 100px;" src="https://www.p337.info/pokemongo/img/pokemon/562.png">
+      <img class="clock_image" alt="img" style="width:100px; height: 100px;" src="https://www.p337.info/pokemongo/img/pokemon/638.png">
     </div>
     <div class="clock_right">
-      <div id="halloween_additions_2019_mz_l">Halloween Additions</div>
-      <div class="countdown" id="halloween_additions_2019_mz_countdown"><span class="hour"><span class="t_val">1</span>h</span> <span class="min"><span class="t_val">18</span>m</span> <span class="sec"><span class="t_val">54</span>s</span> </div>
+      <div id="cobalion_raids_2019_mz_l">Cobalion Raids Start</div>
+      <div class="countdown" id="cobalion_raids_2019_mz_countdown"><span class="day"><span class="t_val">2</span>d</span> <span class="hour"><span class="t_val">1</span>h</span> <span class="min"><span class="t_val">37</span>m</span> <span class="sec"><span class="t_val">55</span>s</span> </div>
       <div class="local loc_s"> Your Local Time: </div>
-      <div id="halloween_additions_2019_mz_time" class="local loc_t">Thu 17-Oct-2019 5:00 PM (17:00)</div> 
+      <div id="cobalion_raids_2019_mz_time" class="local loc_t">Mon 4-Nov-2019 6:00 PM (18:00)</div> 
     </div>
   </div>
   </a>
-  <script>
+<script>
   
-  var s = 'Oct 17 2019 13:00:00 GMT-0700'; var e = '';
+  var s = 'Nov 4 2019 13:00:00 GMT-0800'; var e = 'Nov 26 2019 13:00:00 GMT-0800';
   
   var ds = new Date(s); var dend = new Date(e); var dn = new Date(); var o = false; var d = ''; var t = ''; var eda = true;
 
@@ -764,7 +787,7 @@
   if (e.length < 10) { console.log('hello there'); eda = false; }
   if (Date.parse(ds)-Date.parse(new Date())<0 && eda) { deadline = e; o = true; } else { deadline = s; o = false; }
   
-  var m = 'Halloween Additions';
+  var m = 'Cobalion Raids';
   t = m.toLowerCase()
   t = t.replace('-', ' '); 
   t = t.replace('mz', ' '); 
@@ -781,177 +804,22 @@
   
   d = toTitleCase(d);  f = toTitleCase(f); 
   //alert(d);
-  if ( document.getElementById('halloween_additions_2019_mz_l') ) { document.getElementById('halloween_additions_2019_mz_l').innerHTML = d; } 
+  if ( document.getElementById('cobalion_raids_2019_mz_l') ) { document.getElementById('cobalion_raids_2019_mz_l').innerHTML = d; } 
   
   var stop_clock_id = '';
   var offset = new Date().getTimezoneOffset();
   var offset_hours = offset/60;
   var offset_miliseconds = 0;
   if (offset_hours < 0) { offset_miliseconds = 100; }
-  if ( document.getElementById('halloween_additions_2019_mz_countdown') ) {
-    stop_clock_id = initializeClock('halloween_additions_2019_mz_countdown', deadline, 0, f);
+  if ( document.getElementById('cobalion_raids_2019_mz_countdown') ) {
+    stop_clock_id = initializeClock('cobalion_raids_2019_mz_countdown', deadline, 0, f);
     var local_date = new Date(deadline);
     local_date.setTime(local_date.getTime() + (offset_hours+offset_miliseconds));
     var local_date_string = format_date(local_date,true);
-    document.getElementById('halloween_additions_2019_mz_time').innerHTML = local_date_string;
+    document.getElementById('cobalion_raids_2019_mz_time').innerHTML = local_date_string;
   }
   </script>
-  
-  <a href="https://www.p337.info/pokemongo/countdowns/?id=halloween-event-2019" class="mincd w_l" style="text-decoration: none; color: black;">
-    <div id="halloween_event_2019_mz_r" class="clock_contain mas" style="background-color: #dbdbdb;">
-    <div class="clock_left">
-      <img class="clock_image" alt="img" style="width:100px; height: 100px;" src="https://www.p337.info/pokemongo/img/custom/candy.png">
-    </div>
-    <div class="clock_right">
-      <div id="halloween_event_2019_mz_l">Halloween Event Starts</div>
-      <div class="countdown" id="halloween_event_2019_mz_countdown"><span class="hour"><span class="t_val">1</span>h</span> <span class="min"><span class="t_val">17</span>m</span> <span class="sec"><span class="t_val">33</span>s</span> </div>
-      <div class="local loc_s"> Your Local Time: </div>
-      <div id="halloween_event_2019_mz_time" class="local loc_t">Thu 17-Oct-2019 5:00 PM (17:00)</div> 
-    </div>
-  </div>
-  </a>
-  <script>
-  
-  var s = 'Oct 17 2019 13:00:00 GMT-0700'; var e = 'Nov 1 2019 13:00:00 GMT-0700';
-  
-  var ds = new Date(s); var dend = new Date(e); var dn = new Date(); var o = false; var d = ''; var t = ''; var eda = true;
 
- /* new_offset */
-  var js_debug = true;
-  var offset_2 = new Date().getTimezoneOffset();
-  var offstart = (offset_2/60)*-1;
-  var ooup = 0;
-  
-  if(ooup != 0) {
-    if (parseFloat(offstart) >= parseFloat(ooup)) {
-      ds.setDate(ds.getDate() + 1);
-      dend.setDate(dend.getDate() + 1);
-      
-      //dateobj.toString();
-      s = ds.toString();
-      e = dend.toString();
-      //alert('done');
-    }
-    //if (js_debug) { alert(parseFloat(offstart) + ' ' + parseFloat(ooup)); }
-  }
-   
-  /* end */
-  
-  
-  
-  if (e.length < 10) { console.log('hello there'); eda = false; }
-  if (Date.parse(ds)-Date.parse(new Date())<0 && eda) { deadline = e; o = true; } else { deadline = s; o = false; }
-  
-  var m = 'Halloween Event';
-  t = m.toLowerCase()
-  t = t.replace('-', ' '); 
-  t = t.replace('mz', ' '); 
-
-  var arr = t.split('');
-  var lastItem = arr[arr.length - 1];
-
-  if ( t.includes('raids') || lastItem == 's' ) { if (o) { d=t+' End'; f=t+' have finished'; } else { d=t+' Start'; f=t+' Started';} }
-  else if ( t.includes('return') ) { if (o) { d=t+' Ends'; f=t+' has finished'; } else { d=t+' '; f=t+' ';} }
-  else if ( t.includes('community day') ) { if (o) { d=t+' End'; f=t+' has finished'; } else { d=t+' Starts'; f=t+' has Started';} }
-  else { if (o) { d=t+' Ends'; f=t+' is over'; } else { d=t+' Starts'; f=t+' started';} }
-  
-  if ( eda == false ) { d=t+''; f=t+' Started'; }
-  
-  d = toTitleCase(d);  f = toTitleCase(f); 
-  //alert(d);
-  if ( document.getElementById('halloween_event_2019_mz_l') ) { document.getElementById('halloween_event_2019_mz_l').innerHTML = d; } 
-  
-  var stop_clock_id = '';
-  var offset = new Date().getTimezoneOffset();
-  var offset_hours = offset/60;
-  var offset_miliseconds = 0;
-  if (offset_hours < 0) { offset_miliseconds = 100; }
-  if ( document.getElementById('halloween_event_2019_mz_countdown') ) {
-    stop_clock_id = initializeClock('halloween_event_2019_mz_countdown', deadline, 0, f);
-    var local_date = new Date(deadline);
-    local_date.setTime(local_date.getTime() + (offset_hours+offset_miliseconds));
-    var local_date_string = format_date(local_date,true);
-    document.getElementById('halloween_event_2019_mz_time').innerHTML = local_date_string;
-  }
-  </script>
-  
-  <a href="https://www.p337.info/pokemongo/countdowns/?id=darkrai-raids-2019" class="mincd w_l" style="text-decoration: none; color: black;">
-    <div id="darkrai_raids_2019_mz_r" class="clock_contain mas" style="background-color: #dbdbdb;">
-    <div class="clock_left">
-      <img class="clock_image" alt="img" style="width:100px; height: 100px;" src="https://www.p337.info/pokemongo/img/pokemon/491.png">
-    </div>
-    <div class="clock_right">
-      <div id="darkrai_raids_2019_mz_l">Darkrai Raids Start</div>
-      <div class="countdown" id="darkrai_raids_2019_mz_countdown"><span class="hour"><span class="t_val">1</span>h</span> <span class="min"><span class="t_val">17</span>m</span> <span class="sec"><span class="t_val">0</span>s</span> </div>
-      <div class="local loc_s"> Your Local Time: </div>
-      <div id="darkrai_raids_2019_mz_time" class="local loc_t">Thu 17-Oct-2019 5:00 PM (17:00)</div> 
-    </div>
-  </div>
-  </a>
-  <script>
-  
-  var s = 'Oct 17 2019 13:00:00 GMT-0700'; var e = 'Nov 1 2019 13:00:00 GMT-0700';
-  
-  var ds = new Date(s); var dend = new Date(e); var dn = new Date(); var o = false; var d = ''; var t = ''; var eda = true;
-
- /* new_offset */
-  var js_debug = true;
-  var offset_2 = new Date().getTimezoneOffset();
-  var offstart = (offset_2/60)*-1;
-  var ooup = 0;
-  
-  if(ooup != 0) {
-    if (parseFloat(offstart) >= parseFloat(ooup)) {
-      ds.setDate(ds.getDate() + 1);
-      dend.setDate(dend.getDate() + 1);
-      
-      //dateobj.toString();
-      s = ds.toString();
-      e = dend.toString();
-      //alert('done');
-    }
-    //if (js_debug) { alert(parseFloat(offstart) + ' ' + parseFloat(ooup)); }
-  }
-   
-  /* end */
-  
-  
-  
-  if (e.length < 10) { console.log('hello there'); eda = false; }
-  if (Date.parse(ds)-Date.parse(new Date())<0 && eda) { deadline = e; o = true; } else { deadline = s; o = false; }
-  
-  var m = 'Darkrai Raids';
-  t = m.toLowerCase()
-  t = t.replace('-', ' '); 
-  t = t.replace('mz', ' '); 
-
-  var arr = t.split('');
-  var lastItem = arr[arr.length - 1];
-
-  if ( t.includes('raids') || lastItem == 's' ) { if (o) { d=t+' End'; f=t+' have finished'; } else { d=t+' Start'; f=t+' Started';} }
-  else if ( t.includes('return') ) { if (o) { d=t+' Ends'; f=t+' has finished'; } else { d=t+' '; f=t+' ';} }
-  else if ( t.includes('community day') ) { if (o) { d=t+' End'; f=t+' has finished'; } else { d=t+' Starts'; f=t+' has Started';} }
-  else { if (o) { d=t+' Ends'; f=t+' is over'; } else { d=t+' Starts'; f=t+' started';} }
-  
-  if ( eda == false ) { d=t+''; f=t+' Started'; }
-  
-  d = toTitleCase(d);  f = toTitleCase(f); 
-  //alert(d);
-  if ( document.getElementById('darkrai_raids_2019_mz_l') ) { document.getElementById('darkrai_raids_2019_mz_l').innerHTML = d; } 
-  
-  var stop_clock_id = '';
-  var offset = new Date().getTimezoneOffset();
-  var offset_hours = offset/60;
-  var offset_miliseconds = 0;
-  if (offset_hours < 0) { offset_miliseconds = 100; }
-  if ( document.getElementById('darkrai_raids_2019_mz_countdown') ) {
-    stop_clock_id = initializeClock('darkrai_raids_2019_mz_countdown', deadline, 0, f);
-    var local_date = new Date(deadline);
-    local_date.setTime(local_date.getTime() + (offset_hours+offset_miliseconds));
-    var local_date_string = format_date(local_date,true);
-    document.getElementById('darkrai_raids_2019_mz_time').innerHTML = local_date_string;
-  }
-  </script>
   
   <a href="https://www.p337.info/pokemongo/countdowns/?id=regi-raids-2019" class="mincd w_l" style="text-decoration: none; color: black;">
     <div id="regi_raids_2019_mz_r" class="clock_contain mas" style="background-color: #dbdbdb;">
