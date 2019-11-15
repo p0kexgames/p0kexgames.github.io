@@ -309,8 +309,20 @@
 	
 			  
 		   <!-- Botão para acionar modal -->
+		   
+		  <div class="row home">
+				<div class="col-sm-4 col-md-4 col-lg-4">
+                    
+				</div>
+				<div class="col-sm-4 col-md-4 col-lg-4">
+                    <a data-toggle="modal" data-target="#modalExemplo"><img  style="width: 100%; cursor: pointer;" src="images/home.gif"/></a>
+				</div>
+				<div class="col-sm-4 col-md-4 col-lg-4">
+                    
+				</div>
+		  </div>
 			<center>
-				<a data-toggle="modal" data-target="#modalExemplo"><img src="images/home.gif"/></a><br/><br/>
+				<br/><br/>
 				<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modalExemplo">
 				   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus-circle"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="16"></line><line x1="8" y1="12" x2="16" y2="12"></line></svg> 
 				  Adicionar código
@@ -721,7 +733,7 @@
 				<div class="col-sm-4 col-md-4 col-lg-4">
                     <a href="https://chat.whatsapp.com/invite/82RgZaSaHOAKiPBjSPlu92" id="action-icon" title="Clique neste link para entrar: Pokémon Go Taguatinga Sul" class="block__img img icon-chat">
                         <center>
-							<img style="width:50%" src="https://chat.whatsapp.com/invite/icon/82RgZaSaHOAKiPBjSPlu92"/>
+							<img style="width:50%" src="images/wpp.jpg"/>
 						</center>
                     </a>
 				</div>
@@ -903,6 +915,83 @@
   }
   </script>
 
+<a href="https://www.p337.info/pokemongo/countdowns/?id=terrakion-raids-2019" class="mincd w_l" style="text-decoration: none; color: black;">
+    <div id="terrakion_raids_2019_mz_r" class="clock_contain mas" style="background-color: #dbdbdb;">
+    <div class="clock_left">
+      <img class="clock_image" alt="img" style="width:100px; height: 100px;" src="https://www.p337.info/pokemongo/img/pokemon/639.png">
+    </div>
+    <div class="clock_right">
+      <div id="terrakion_raids_2019_mz_l">terrakion Raids Start</div>
+      <div class="countdown" id="terrakion_raids_2019_mz_countdown"><span class="day"><span class="t_val">2</span>d</span> <span class="hour"><span class="t_val">1</span>h</span> <span class="min"><span class="t_val">37</span>m</span> <span class="sec"><span class="t_val">55</span>s</span> </div>
+      <div class="local loc_s"> Your Local Time: </div>
+      <div id="terrakion_raids_2019_mz_time" class="local loc_t">Mon 4-Nov-2019 6:00 PM (18:00)</div> 
+    </div>
+  </div>
+  </a>
+<script>
+  
+  var s = 'Nov 26 2019 13:00:00 GMT-0700'; var e = 'Nov 28 2019 13:00:00 GMT-0700';
+  
+  var ds = new Date(s); var dend = new Date(e); var dn = new Date(); var o = false; var d = ''; var t = ''; var eda = true;
+
+ /* new_offset */
+  var js_debug = true;
+  var offset_2 = new Date().getTimezoneOffset();
+  var offstart = (offset_2/60)*-1;
+  var ooup = 0;
+  
+  if(ooup != 0) {
+    if (parseFloat(offstart) >= parseFloat(ooup)) {
+      ds.setDate(ds.getDate() + 1);
+      dend.setDate(dend.getDate() + 1);
+      
+      //dateobj.toString();
+      s = ds.toString();
+      e = dend.toString();
+      //alert('done');
+    }
+    //if (js_debug) { alert(parseFloat(offstart) + ' ' + parseFloat(ooup)); }
+  }
+   
+  /* end */
+  
+  
+  
+  if (e.length < 10) { console.log('hello there'); eda = false; }
+  if (Date.parse(ds)-Date.parse(new Date())<0 && eda) { deadline = e; o = true; } else { deadline = s; o = false; }
+  
+  var m = 'Terrakion Raids';
+  t = m.toLowerCase()
+  t = t.replace('-', ' '); 
+  t = t.replace('mz', ' '); 
+
+  var arr = t.split('');
+  var lastItem = arr[arr.length - 1];
+
+  if ( t.includes('raids') || lastItem == 's' ) { if (o) { d=t+' End'; f=t+' have finished'; } else { d=t+' Start'; f=t+' Started';} }
+  else if ( t.includes('return') ) { if (o) { d=t+' Ends'; f=t+' has finished'; } else { d=t+' '; f=t+' ';} }
+  else if ( t.includes('community day') ) { if (o) { d=t+' End'; f=t+' has finished'; } else { d=t+' Starts'; f=t+' has Started';} }
+  else { if (o) { d=t+' Ends'; f=t+' is over'; } else { d=t+' Starts'; f=t+' started';} }
+  
+  if ( eda == false ) { d=t+''; f=t+' Started'; }
+  
+  d = toTitleCase(d);  f = toTitleCase(f); 
+  //alert(d);
+  if ( document.getElementById('terrakion_raids_2019_mz_l') ) { document.getElementById('terrakion_raids_2019_mz_l').innerHTML = d; } 
+  
+  var stop_clock_id = '';
+  var offset = new Date().getTimezoneOffset();
+  var offset_hours = offset/60;
+  var offset_miliseconds = 0;
+  if (offset_hours < 0) { offset_miliseconds = 100; }
+  if ( document.getElementById('terrakion_raids_2019_mz_countdown') ) {
+    stop_clock_id = initializeClock('terrakion_raids_2019_mz_countdown', deadline, 0, f);
+    var local_date = new Date(deadline);
+    local_date.setTime(local_date.getTime() + (offset_hours+offset_miliseconds));
+    var local_date_string = format_date(local_date,true);
+    document.getElementById('terrakion_raids_2019_mz_time').innerHTML = local_date_string;
+  }
+  </script>
   
   <a href="https://www.p337.info/pokemongo/countdowns/?id=shadow-ball-mewtwo-returns-2019" class="mincd w_l" style="text-decoration: none; color: black;">
     <div id="shadow_ball_mewtwo_returns_2019_mz_r" class="clock_contain mas" style="background-color: #dbdbdb;">
