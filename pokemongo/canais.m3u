@@ -1,0 +1,142 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-id="Marcador.br" tvg-name="Filmes" tvg-logo="h.png" group-title="Canais Filmes",################# Filmes e Séries
+
+#EXTINF:-1 tvg-id="Warnerchannel.br" tvg-name="WARNER CHANNEL HD" tvg-logo="https://1.bp.blogspot.com/-op011tmRIXQ/Xk70oGwc0-I/AAAAAAAACH8/Pf3FY0ON8Ic7PXZDKBtbiGbLJU4imuV4wCLcBGAsYHQ/s1600/warnerchannel.png" group-title="Canais Filmes",WARNER CHANNEL
+http://solutionplay.xyz:8080/techruthes/89951662/6486
+
+#EXTINF:-1 tvg-id="Megapix.br" tvg-name="MEGAPIX HD" tvg-logo="https://1.bp.blogspot.com/-KYJNJ8ofZhQ/Xk70bsae15I/AAAAAAAACF4/bu4pFKpyK3I802HKsQJEP4f8S7_KLRUXgCLcBGAsYHQ/s1600/megapix.png" group-title="Canais Filmes",MEGAPIX
+http://solutionplay.xyz:8080/techruthes/89951662/6457
+
+#EXTINF:-1 tvg-id="Hbo.br" tvg-name="HBO HD" tvg-logo="https://1.bp.blogspot.com/-KUhkg79gvtE/Xk70Ycy0l6I/AAAAAAAACFU/FSdt9HsRs98gkzltg-oGA049omcb1KWlQCLcBGAsYHQ/s1600/hbo.png" group-title="Canais HBO",HBO
+http://solutionplay.xyz:8080/techruthes/89951662/5948
+
+#EXTINF:-1 tvg-id="Fox.br" tvg-name="FOX HD" tvg-logo="https://1.bp.blogspot.com/-P6cQUUDS-Ws/Xk70VNVJJCI/AAAAAAAACEw/HZclRp1OCPkrLP-4bjNk2NCxXssDKGNqQCLcBGAsYHQ/s1600/foxchannel.png" group-title="Canais Filmes",FOX
+http://solutionplay.xyz:8080/techruthes/89951662/6439
+
+#EXTINF:-1 tvg-id="Sony.br" tvg-name="SONY HD" tvg-logo="https://1.bp.blogspot.com/-7mzrwenGEL0/XmQY1Lhuh0I/AAAAAAAACSM/KO7bzqORN4MkRz4IYz5nmmvsvpMa7AWEQCK4BGAYYCw/s400/SONY.png" group-title="Canais Filmes",SONY
+http://solutionplay.xyz:8080/techruthes/89951662/6463
+
+
+
+#EXTINF:-1 tvg-id="Ae.br" tvg-name="A&E HD" tvg-logo="https://1.bp.blogspot.com/-KVAJJtXKXUE/XmQOw0jLTMI/AAAAAAAACRo/GORUzAEatRU7S0MPBE7yXcIRsXTYmwN0QCK4BGAYYCw/s400/A%2526E.png" group-title="Canais Filmes",A&E
+http://solutionplay.xyz:8080/techruthes/89951662/6427
+
+#EXTINF:-1 tvg-id="Space.br" tvg-name="SPACE HD" tvg-logo="https://1.bp.blogspot.com/-YBl9_nxYYEg/Xk70g8w-e4I/AAAAAAAACGw/Dka4nvxveQomHzF23ECe1TTjbLrHmV7HQCLcBGAsYHQ/s1600/space.png" group-title="Canais Filmes",SPACE
+http://solutionplay.xyz:8080/techruthes/89951662/6466
+
+
+#EXTINF:-1 tvg-id="Tcfun.br" tvg-name="TELECINE FUN FHD" tvg-logo="https://2.bp.blogspot.com/-U4WH_IfwjL0/Xk81J1ihAbI/AAAAAAAACKE/zz1a5trjqeEu6PQbXNbrpKDe2ZXf7qWSgCK4BGAYYCw/s400/TELECINE%2BFUN.png" group-title="Canais Telecine",TELECINE FUN
+http://solutionplay.xyz:8080/techruthes/89951662/6034
+
+
+
+#EXTINF:-1 tvg-id="Marcador.br" tvg-name="Filmes" tvg-logo="h.png" group-title="Canais Filmes",################# Comédia Documentarios Desenho
+
+
+#EXTINF:-1 tvg-id="Historychannel.br" tvg-name="HISTORY CHANNEL HD" tvg-logo="https://1.bp.blogspot.com/-A_BkkBW2TRg/Xk70ZvLLFqI/AAAAAAAACFk/UdNNhHr_eyIX7YInVJ1owphUbFoBmsq4ACLcBGAsYHQ/s1600/history.png" group-title="Canais Documentários",HISTORY CHANNEL
+http://solutionplay.xyz:8080/techruthes/89951662/5966
+
+#EXTINF:-1 tvg-id="H2.br" tvg-name="H2 HD" tvg-logo="https://1.bp.blogspot.com/-uh9tauhKWww/Xk70ZxoWtWI/AAAAAAAACFo/MthwzRm9VcY96cemup2ZY_4hclxsCYvygCLcBGAsYHQ/s1600/history2.png" group-title="Canais Documentários",HISTORY H2
+http://solutionplay.xyz:8080/techruthes/89951662/5939
+
+#EXTINF:-1 tvg-id="Comedycentral.br" tvg-name="COMEDY CENTRAL HD" tvg-logo="https://1.bp.blogspot.com/-Nbl1xKywDX4/Xk70PRed9GI/AAAAAAAACDw/0MAoqSfWmZIhGxK8iGzKN3Q0HjHS-bYOgCLcBGAsYHQ/s1600/comedycentral.png" group-title="Canais Variedades",COMEDY CENTRAL
+http://solutionplay.xyz:8080/techruthes/89951662/6070
+
+#EXTINF:-1 tvg-id="Multishow.br" tvg-name="MULTISHOW HD" tvg-logo="https://2.bp.blogspot.com/-YLvYyrLM0Tc/XmQENo4hcuI/AAAAAAAACQs/jKWMWXYMuvIhu7iXvLJCm-9BEONKMcqxwCK4BGAYYCw/s400/MULTICHO.png" group-title="Canais Variedades",MULTISHOW
+http://solutionplay.xyz:8080/techruthes/89951662/6086
+
+
+#EXTINF:-1 tvg-id="Cartoonnetwork.br" tvg-name="CARTOON NETWORK HD" tvg-logo="https://1.bp.blogspot.com/-aondLW2i3Nw/Xk70ObLd84I/AAAAAAAACDk/UaL7ElNQW-AaFhG-9gEv2FSWp28Cci5hACLcBGAsYHQ/s1600/cartoonnetwork.png" group-title="Canais infantis",CARTOON NETWORK
+http://solutionplay.xyz:8080/techruthes/89951662/5860
+
+#EXTINF:-1 tvg-id="Discovery.br" tvg-name="DISCOVERY CHANNEL HD" tvg-logo="https://1.bp.blogspot.com/-gO9KQOa5_VM/Xk70PmiUxFI/AAAAAAAACD0/bActYU1lpyUhbKJQrR-parzrrGHAVIEkgCLcBGAsYHQ/s1600/discoverychannel.png" group-title="Canais Documentários",DISCOVERY CHANNEL
+http://solutionplay.xyz:8080/techruthes/89951662/5875
+
+#EXTINF:-1 tvg-id="Nickelodeon.br" tvg-name="NICKELODEON HD" tvg-logo="https://1.bp.blogspot.com/-NshftfFiUg0/Xk70chBGcxI/AAAAAAAACGA/EIQEzc-XyAkryBvxiUq8OHG2yI1Qv9RfwCLcBGAsYHQ/s1600/nick.png" group-title="Canais infantis",NICKELODEON
+http://solutionplay.xyz:8080/techruthes/89951662/5985
+
+#EXTINF:-1 tvg-id="Gloob.br" tvg-name="GLOOB HD" tvg-logo="https://1.bp.blogspot.com/-_Sup4b2u1Fw/Xk70XYrRbSI/AAAAAAAACFM/dltfrlbQAWw-oxFUijzgnnskPf-06OVJACLcBGAsYHQ/s1600/gloob.png" group-title="Canais infantis",GLOOB HD
+http://solutionplay.xyz:8080/techruthes/89951662/5935
+
+#EXTINF:-1 tvg-id="Boomerang.br" tvg-name="BOOMERANG HD" tvg-logo="https://1.bp.blogspot.com/-n17CiRTaCyE/Xk70Nj_rjpI/AAAAAAAACDc/TsDf_fpQBlosivwrkLjoygIHYogbaV70ACLcBGAsYHQ/s1600/boomerang.png" group-title="Canais infantis",BOOMERANG HD
+http://solutionplay.xyz:8080/techruthes/89951662/5856
+
+#EXTINF:-1 tvg-id="Natgeokids.br" tvg-name="NATGEO KIDS HD" tvg-logo="https://1.bp.blogspot.com/-bvOXCHs2GF0/XmUiDzgij6I/AAAAAAAACW4/QbZLmqWLRfMICJBeq6cfDBhayu_L2Ao5wCK4BGAYYCw/s400/NATGEO%2BKIDS.png" group-title="Canais infantis",NATGEO KIDS HD
+http://solutionplay.xyz:8080/techruthes/89951662/5973
+
+
+
+#EXTINF:-1 tvg-id="Marcador.br" tvg-name="Filmes" tvg-logo="h.png" group-title="Canais Filmes",################# CANAIS DE TV ABERTA
+
+#EXTINF:-1 tvg-id="" tvg-name="GLOBO SP HD" tvg-logo="https://1.bp.blogspot.com/-5NFWoGxXMVo/Xk70W5FuqxI/AAAAAAAACFI/R0Md5ax85cUGHe4H8bhHZorfcukZH3TOACLcBGAsYHQ/s1600/globo.png" group-title="Canais Globo",GLOBO SP
+http://solutionplay.xyz:8080/techruthes/89951662/6259
+
+#EXTINF:-1 tvg-id="Rederecord.br" tvg-name="RECORD SP HD" tvg-logo="https://1.bp.blogspot.com/-XLsOZ60zFmY/Xk70eb1f_EI/AAAAAAAACGY/AxeGba7vVX0CNxveZAuNj3QzXwaN_t8FQCLcBGAsYHQ/s1600/record.png" group-title="Canais Record",RECORD SP
+http://solutionplay.xyz:8080/techruthes/89951662/6358
+
+#EXTINF:-1 tvg-id="" tvg-name="SBT SP HD" tvg-logo="https://1.bp.blogspot.com/-w44XqjPTvWs/Xk70frnPuKI/AAAAAAAACGo/WLsOdZ3ANYApiYNooamMIhJAWiZwP2yLgCLcBGAsYHQ/s1600/sbt.png" group-title="Canais Abertos",SBT SP
+http://solutionplay.xyz:8080/techruthes/89951662/6368
+
+#EXTINF:-1 tvg-id="" tvg-name="BAND SP HD" tvg-logo="https://1.bp.blogspot.com/-7wD5BCJxD9Y/Xk70MQFgPEI/AAAAAAAACDQ/BpR4PcQ1ou48cOLmC77yc1mz9xkZ0zssgCLcBGAsYHQ/s1600/band_2.png" group-title="Canais Abertos",BAND SP
+http://solutionplay.xyz:8080/techruthes/89951662/6326
+
+#EXTINF:-1 tvg-id="" tvg-name="REDE TV FHD" tvg-logo="https://1.bp.blogspot.com/-HUc16HfletI/Xk70fFB40uI/AAAAAAAACGg/dBpqILiwhXEA3Fc8oQo36AIbTkKmkJZewCLcBGAsYHQ/s1600/redetv.png" group-title="Canais Abertos",REDE TV
+http://solutionplay.xyz:8080/techruthes/89951662/6331
+
+#EXTINF:-1 tvg-id="Globonews.br" tvg-name="GLOBO NEWS HD" tvg-logo="https://1.bp.blogspot.com/-JElazdWUyUo/Xk70WwgDZCI/AAAAAAAACFE/Fj8OKkbTSp03ONDEPgW9PzMlDWSmMx52QCLcBGAsYHQ/s1600/globonews.png" group-title="Canais Noticias",GLOBO NEWS
+http://solutionplay.xyz:8080/techruthes/89951662/6108
+
+#EXTINF:-1 tvg-id="Recordnews.br" tvg-name="RECORD NEWS FHD" tvg-logo="https://4.bp.blogspot.com/-nwyV2Oapghc/XmUXf5cBdNI/AAAAAAAACWs/m5dRX93VsokD8xiO7QID692c8KvL8cMUQCK4BGAYYCw/s400/RECORD%2BNEW.png" group-title="Canais Noticias",RECORD NEWS
+http://solutionplay.xyz:8080/techruthes/89951662/6104
+
+
+
+#EXTINF:-1 tvg-id="Marcador.br" tvg-name="Filmes" tvg-logo="h.png" group-title="Canais Filmes",################# Outros
+
+#EXTINF:-1 tvg-id="DiscoveryCivilization.br" tvg-name="HGTV HD" tvg-logo="https://1.bp.blogspot.com/-BXGlMOVHnMs/Xk8rh1-AnnI/AAAAAAAACIk/f8OG9cGj4usH-PydVM-T9P7c1t5PFWjdQCK4BGAYYCw/s400/HGTV.png" group-title="Canais Variedades",HGTV HD
+http://solutionplay.xyz:8080/techruthes/89951662/6081
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#EXTINF:-1 tvg-id="Gnt.br" tvg-name="GNT HD" tvg-logo="https://3.bp.blogspot.com/-iCbjYIDrwhE/XmP_eN3d_iI/AAAAAAAACQI/gVXF4j0G4Dwz8ZDiKaI8Qgth5DSUrcscgCK4BGAYYCw/s400/GNT.png" group-title="Canais Variedades",GNT HD
+http://solutionplay.xyz:8080/techruthes/89951662/6076
+
+#EXTINF:-1 tvg-id="Idealtv.br" tvg-name="LOADING HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/84/Canal_Loading.png" group-title="Canais Variedades",LOADING HD
+http://solutionplay.xyz:8080/techruthes/89951662/6197
+
+#EXTINF:-1 tvg-id="" tvg-name="EVANGELIZAR HD" tvg-logo="https://listaiptv.gratis/logos/imagens/tv_evangelizar.png" group-title="Canais Religiosos ",EVANGELIZAR HD
+http://solutionplay.xyz:8080/techruthes/89951662/5921
+
+#EXTINF:-1 tvg-id="" tvg-name="TV APARECIDA HD" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/1e/Logotipo_da_TV_Aparecida.png" group-title="Canais Religiosos ",TV APARECIDA HD
+http://solutionplay.xyz:8080/techruthes/89951662/6047
+
+#EXTINF:-1 tvg-id="Agromais.br" tvg-name="ANIMAL PLANET HD" tvg-logo="https://1.bp.blogspot.com/-Umzjn4GxBm4/Xk70MrYC09I/AAAAAAAACDU/9GwM2dyQ3dMYVEkiWwaLXOq86emiSUPVACLcBGAsYHQ/s1600/animalplanet.png" group-title="Canais Documentários",ANIMAL PLANET HD
+http://solutionplay.xyz:8080/techruthes/89951662/5848
+
+#EXTINF:-1 tvg-id="" tvg-name="PrimePlay Music (EM FASE DE TESTES)" tvg-logo="https://i.imgur.com/bCLtAv7.png" group-title="Canais Variedades",PrimePlay Music (EM FASE DE TESTES)
+http://solutionplay.xyz:8080/techruthes/89951662/13873
+
+
+
+
+
+
