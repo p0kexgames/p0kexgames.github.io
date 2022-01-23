@@ -26,8 +26,8 @@
     "preEvo": "",
     "evo": "",
     "moves": [
-      "move1",
-      "move2"
+      "m1": "move1",
+      "m2": "move2"
     ],
     "loots": [
       "",
@@ -76,8 +76,8 @@
     "preEvo": "",
     "evo": "",
     "moves": [
-      "move3",
-      "move4"
+      "m1": "move3",
+      "m2": "move4"
     ],
     "loots": [
       "",

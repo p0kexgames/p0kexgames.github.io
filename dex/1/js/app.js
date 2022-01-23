@@ -124,11 +124,11 @@ function loadStats(stats) {
 
 function loadMoves(moves) {
   return Object.entries(moves)
-    .filter(([value]) => !['total'].includes(value))
-    .map(([value]) =>
-      `<div class="moves-row">
-        <div>${value}</div>
-        <div class="moves-bar">
+    .filter(([name, value]) => !['total'].includes(name))
+    .map(([name, value]) =>
+      `<div class="stat-row">
+        <div>${name}</div>
+        <div class="stat-bar">
           <div class="stat-bar-bg" style="width: ${100*value/250}%">${value}</div>
         </div>
       </div>`
