@@ -26,8 +26,8 @@
     "preEvo": "",
     "evo": "",
     "moves": [
-      "ataqk1": "1",
-      "ataqk2": "2"
+      "ataqk1": 1,
+      "ataqk2": 2
     ],
     "loots": [
       "",
@@ -76,8 +76,8 @@
     "preEvo": "",
     "evo": "",
     "moves": [
-      "ataqk3": "1",
-      "ataqk4": "2"
+      "ataqk3": 1,
+      "ataqk4": 2
     ],
     "loots": [
       "",

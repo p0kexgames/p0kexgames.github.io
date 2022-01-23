@@ -128,9 +128,7 @@ function loadMoves(moves) {
     .map(([name, value]) =>
       `<div class="stat-row">
         <div>${name}</div>
-        <div class="stat-bar">
-          <div class="stat-bar-bg" style="width: ${100*value/250}%">${value}</div>
-        </div>
+        <div>${value}</div>
       </div>`
     )
     .join('')
