@@ -6,6 +6,38 @@
       "grass",
       "poison"
     ],
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "move1",
+      "move2"
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
+    
     "stats": {
       "total": 318,
       "hp": 45,
@@ -22,6 +54,38 @@
     "type": [
       "grass",
       "poison"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "move3",
+      "move4"
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 405,
@@ -40,6 +104,38 @@
       "grass",
       "poison"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 525,
       "hp": 80,
@@ -56,6 +152,38 @@
     "type": [
       "fire"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 309,
       "hp": 39,
@@ -71,6 +199,38 @@
     "name": "Charmeleon",
     "type": [
       "fire"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 405,
@@ -89,6 +249,38 @@
       "fire",
       "flying"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 534,
       "hp": 78,
@@ -104,6 +296,38 @@
     "name": "Squirtle",
     "type": [
       "water"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 314,
@@ -121,6 +345,38 @@
     "type": [
       "water"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 405,
       "hp": 59,
@@ -136,6 +392,38 @@
     "name": "Blastoise",
     "type": [
       "water"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 530,
@@ -153,6 +441,38 @@
     "type": [
       "bug"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 195,
       "hp": 45,
@@ -168,6 +488,38 @@
     "name": "Metapod",
     "type": [
       "bug"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 205,
@@ -186,6 +538,38 @@
       "bug",
       "flying"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 395,
       "hp": 60,
@@ -202,6 +586,38 @@
     "type": [
       "bug",
       "poison"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 195,
@@ -220,6 +636,38 @@
       "bug",
       "poison"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 205,
       "hp": 45,
@@ -236,6 +684,38 @@
     "type": [
       "bug",
       "poison"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 395,
@@ -254,6 +734,38 @@
       "normal",
       "flying"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 251,
       "hp": 40,
@@ -270,6 +782,38 @@
     "type": [
       "normal",
       "flying"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 349,
@@ -288,6 +832,38 @@
       "normal",
       "flying"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 479,
       "hp": 83,
@@ -304,6 +880,38 @@
     "type": [
       "normal"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 253,
       "hp": 30,
@@ -319,6 +927,38 @@
     "name": "Raticate",
     "type": [
       "normal"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 413,
@@ -337,6 +977,38 @@
       "normal",
       "flying"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 262,
       "hp": 40,
@@ -354,6 +1026,38 @@
       "normal",
       "flying"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 442,
       "hp": 65,
@@ -369,6 +1073,38 @@
     "name": "Ekans",
     "type": [
       "poison"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 288,
@@ -386,6 +1122,38 @@
     "type": [
       "poison"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 448,
       "hp": 60,
@@ -401,6 +1169,38 @@
     "name": "Pikachu",
     "type": [
       "electric"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 320,
@@ -418,6 +1218,38 @@
     "type": [
       "electric"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 485,
       "hp": 60,
@@ -433,6 +1265,38 @@
     "name": "Sandshrew",
     "type": [
       "ground"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 300,
@@ -450,6 +1314,38 @@
     "type": [
       "ground"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 450,
       "hp": 75,
@@ -466,6 +1362,38 @@
     "type": [
       "poison"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 275,
       "hp": 55,
@@ -481,6 +1409,38 @@
     "name": "Nidorina",
     "type": [
       "poison"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 365,
@@ -499,6 +1459,38 @@
       "poison",
       "ground"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 505,
       "hp": 90,
@@ -515,6 +1507,38 @@
     "type": [
       "poison"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 273,
       "hp": 46,
@@ -530,6 +1554,38 @@
     "name": "Nidorino",
     "type": [
       "poison"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 365,
@@ -548,6 +1604,38 @@
       "poison",
       "ground"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 505,
       "hp": 81,
@@ -563,6 +1651,38 @@
     "name": "Clefairy",
     "type": [
       "fairy"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 323,
@@ -580,6 +1700,38 @@
     "type": [
       "fairy"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 483,
       "hp": 95,
@@ -596,6 +1748,38 @@
     "type": [
       "fire"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 299,
       "hp": 38,
@@ -611,6 +1795,38 @@
     "name": "Ninetales",
     "type": [
       "fire"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 505,
@@ -629,6 +1845,38 @@
       "normal",
       "fairy"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 270,
       "hp": 115,
@@ -645,6 +1893,38 @@
     "type": [
       "normal",
       "fairy"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 435,
@@ -663,6 +1943,38 @@
       "poison",
       "flying"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 245,
       "hp": 40,
@@ -679,6 +1991,38 @@
     "type": [
       "poison",
       "flying"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 455,
@@ -697,6 +2041,38 @@
       "poison",
       "grass"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 320,
       "hp": 45,
@@ -713,6 +2089,38 @@
     "type": [
       "poison",
       "grass"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 395,
@@ -731,6 +2139,38 @@
       "poison",
       "grass"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 490,
       "hp": 75,
@@ -747,6 +2187,38 @@
     "type": [
       "bug",
       "grass"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 285,
@@ -765,6 +2237,38 @@
       "bug",
       "grass"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 405,
       "hp": 60,
@@ -781,6 +2285,38 @@
     "type": [
       "bug",
       "poison"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 305,
@@ -799,6 +2335,38 @@
       "bug",
       "poison"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 450,
       "hp": 70,
@@ -814,6 +2382,38 @@
     "name": "Diglett",
     "type": [
       "ground"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 265,
@@ -831,6 +2431,38 @@
     "type": [
       "ground"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 425,
       "hp": 35,
@@ -846,6 +2478,38 @@
     "name": "Meowth",
     "type": [
       "normal"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 290,
@@ -863,6 +2527,38 @@
     "type": [
       "normal"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 440,
       "hp": 65,
@@ -878,6 +2574,38 @@
     "name": "Psyduck",
     "type": [
       "water"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 320,
@@ -895,6 +2623,38 @@
     "type": [
       "water"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 500,
       "hp": 80,
@@ -910,6 +2670,38 @@
     "name": "Mankey",
     "type": [
       "fighting"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 305,
@@ -927,6 +2719,38 @@
     "type": [
       "fighting"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 455,
       "hp": 65,
@@ -942,6 +2766,38 @@
     "name": "Growlithe",
     "type": [
       "fire"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 350,
@@ -959,6 +2815,38 @@
     "type": [
       "fire"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 555,
       "hp": 90,
@@ -975,6 +2863,38 @@
     "type": [
       "water"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 300,
       "hp": 40,
@@ -990,6 +2910,38 @@
     "name": "Poliwhirl",
     "type": [
       "water"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 385,
@@ -1008,6 +2960,38 @@
       "water",
       "fighting"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 510,
       "hp": 90,
@@ -1023,6 +3007,38 @@
     "name": "Abra",
     "type": [
       "psychic"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 310,
@@ -1040,6 +3056,38 @@
     "type": [
       "psychic"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 400,
       "hp": 40,
@@ -1055,6 +3103,38 @@
     "name": "Alakazam",
     "type": [
       "psychic"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 500,
@@ -1072,6 +3152,38 @@
     "type": [
       "fighting"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 305,
       "hp": 70,
@@ -1088,6 +3200,38 @@
     "type": [
       "fighting"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 405,
       "hp": 80,
@@ -1103,6 +3247,38 @@
     "name": "Machamp",
     "type": [
       "fighting"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 505,
@@ -1121,6 +3297,38 @@
       "grass",
       "poison"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 300,
       "hp": 50,
@@ -1137,6 +3345,38 @@
     "type": [
       "grass",
       "poison"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 390,
@@ -1155,6 +3395,38 @@
       "grass",
       "poison"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 490,
       "hp": 80,
@@ -1171,6 +3443,38 @@
     "type": [
       "water",
       "poison"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 335,
@@ -1189,6 +3493,38 @@
       "water",
       "poison"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 515,
       "hp": 80,
@@ -1205,6 +3541,38 @@
     "type": [
       "ground",
       "rock"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 300,
@@ -1223,6 +3591,38 @@
       "ground",
       "rock"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 390,
       "hp": 55,
@@ -1240,6 +3640,38 @@
       "ground",
       "rock"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 495,
       "hp": 80,
@@ -1256,6 +3688,38 @@
     "type": [
       "fire"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 410,
       "hp": 50,
@@ -1271,6 +3735,38 @@
     "name": "Rapidash",
     "type": [
       "fire"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 500,
@@ -1289,6 +3785,38 @@
       "water",
       "psychic"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 315,
       "hp": 90,
@@ -1305,6 +3833,38 @@
     "type": [
       "water",
       "psychic"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 490,
@@ -1323,6 +3883,38 @@
       "electric",
       "steel"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 325,
       "hp": 25,
@@ -1339,6 +3931,38 @@
     "type": [
       "electric",
       "steel"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 465,
@@ -1357,6 +3981,38 @@
       "normal",
       "flying"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 377,
       "hp": 52,
@@ -1373,6 +4029,38 @@
     "type": [
       "normal",
       "flying"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 310,
@@ -1391,6 +4079,38 @@
       "normal",
       "flying"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 470,
       "hp": 60,
@@ -1406,6 +4126,38 @@
     "name": "Seel",
     "type": [
       "water"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 325,
@@ -1424,6 +4176,38 @@
       "water",
       "ice"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 475,
       "hp": 90,
@@ -1439,6 +4223,38 @@
     "name": "Grimer",
     "type": [
       "poison"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 325,
@@ -1456,6 +4272,38 @@
     "type": [
       "poison"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 500,
       "hp": 105,
@@ -1471,6 +4319,38 @@
     "name": "Shellder",
     "type": [
       "water"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 305,
@@ -1489,6 +4369,38 @@
       "water",
       "ice"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 525,
       "hp": 50,
@@ -1505,6 +4417,38 @@
     "type": [
       "ghost",
       "poison"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 310,
@@ -1523,6 +4467,38 @@
       "ghost",
       "poison"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 405,
       "hp": 45,
@@ -1539,6 +4515,38 @@
     "type": [
       "ghost",
       "poison"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 500,
@@ -1557,6 +4565,38 @@
       "rock",
       "ground"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 385,
       "hp": 35,
@@ -1572,6 +4612,38 @@
     "name": "Drowzee",
     "type": [
       "psychic"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 328,
@@ -1589,6 +4661,38 @@
     "type": [
       "psychic"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 483,
       "hp": 85,
@@ -1604,6 +4708,38 @@
     "name": "Krabby",
     "type": [
       "water"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 325,
@@ -1621,6 +4757,38 @@
     "type": [
       "water"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 475,
       "hp": 55,
@@ -1637,6 +4805,38 @@
     "type": [
       "electric"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 330,
       "hp": 40,
@@ -1652,6 +4852,38 @@
     "name": "Electrode",
     "type": [
       "electric"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 490,
@@ -1670,6 +4902,38 @@
       "grass",
       "psychic"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 325,
       "hp": 60,
@@ -1687,6 +4951,38 @@
       "grass",
       "psychic"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 530,
       "hp": 95,
@@ -1702,6 +4998,38 @@
     "name": "Cubone",
     "type": [
       "ground"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 320,
@@ -1719,6 +5047,38 @@
     "type": [
       "ground"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 425,
       "hp": 60,
@@ -1734,6 +5094,38 @@
     "name": "Hitmonlee",
     "type": [
       "fighting"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 455,
@@ -1751,6 +5143,38 @@
     "type": [
       "fighting"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 455,
       "hp": 50,
@@ -1766,6 +5190,38 @@
     "name": "Lickitung",
     "type": [
       "normal"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 385,
@@ -1783,6 +5239,38 @@
     "type": [
       "poison"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 340,
       "hp": 40,
@@ -1798,6 +5286,38 @@
     "name": "Weezing",
     "type": [
       "poison"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 490,
@@ -1816,6 +5336,38 @@
       "ground",
       "rock"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 345,
       "hp": 80,
@@ -1833,6 +5385,38 @@
       "ground",
       "rock"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 485,
       "hp": 105,
@@ -1848,6 +5432,38 @@
     "name": "Chansey",
     "type": [
       "normal"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 450,
@@ -1865,6 +5481,38 @@
     "type": [
       "grass"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 435,
       "hp": 65,
@@ -1880,6 +5528,38 @@
     "name": "Kangaskhan",
     "type": [
       "normal"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 490,
@@ -1897,6 +5577,38 @@
     "type": [
       "water"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 295,
       "hp": 30,
@@ -1912,6 +5624,38 @@
     "name": "Seadra",
     "type": [
       "water"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 440,
@@ -1929,6 +5673,38 @@
     "type": [
       "water"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 320,
       "hp": 45,
@@ -1945,6 +5721,38 @@
     "type": [
       "water"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 450,
       "hp": 80,
@@ -1960,6 +5768,38 @@
     "name": "Staryu",
     "type": [
       "water"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 340,
@@ -1978,6 +5818,38 @@
       "water",
       "psychic"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 520,
       "hp": 60,
@@ -1994,6 +5866,38 @@
     "type": [
       "psychic",
       "fairy"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 460,
@@ -2012,6 +5916,38 @@
       "bug",
       "flying"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 500,
       "hp": 70,
@@ -2029,6 +5965,38 @@
       "ice",
       "psychic"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 455,
       "hp": 65,
@@ -2044,6 +6012,38 @@
     "name": "Electabuzz",
     "type": [
       "electric"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 490,
@@ -2061,6 +6061,38 @@
     "type": [
       "fire"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 495,
       "hp": 65,
@@ -2076,6 +6108,38 @@
     "name": "Pinsir",
     "type": [
       "bug"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 500,
@@ -2093,6 +6157,38 @@
     "type": [
       "normal"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 490,
       "hp": 75,
@@ -2108,6 +6204,38 @@
     "name": "Magikarp",
     "type": [
       "water"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 200,
@@ -2126,6 +6254,38 @@
       "water",
       "flying"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 540,
       "hp": 95,
@@ -2143,6 +6303,38 @@
       "water",
       "ice"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 535,
       "hp": 130,
@@ -2158,6 +6350,38 @@
     "name": "Ditto",
     "type": [
       "normal"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 288,
@@ -2175,6 +6399,38 @@
     "type": [
       "normal"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 325,
       "hp": 55,
@@ -2190,6 +6446,38 @@
     "name": "Vaporeon",
     "type": [
       "water"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 525,
@@ -2207,6 +6495,38 @@
     "type": [
       "electric"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 525,
       "hp": 65,
@@ -2223,6 +6543,38 @@
     "type": [
       "fire"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 525,
       "hp": 65,
@@ -2238,6 +6590,38 @@
     "name": "Porygon",
     "type": [
       "normal"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 395,
@@ -2256,6 +6640,38 @@
       "rock",
       "water"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 355,
       "hp": 35,
@@ -2272,6 +6688,38 @@
     "type": [
       "rock",
       "water"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 495,
@@ -2290,6 +6738,38 @@
       "rock",
       "water"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 355,
       "hp": 30,
@@ -2306,6 +6786,38 @@
     "type": [
       "rock",
       "water"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 495,
@@ -2324,6 +6836,38 @@
       "rock",
       "flying"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 515,
       "hp": 80,
@@ -2339,6 +6883,38 @@
     "name": "Snorlax",
     "type": [
       "normal"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 540,
@@ -2357,6 +6933,38 @@
       "ice",
       "flying"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 580,
       "hp": 90,
@@ -2373,6 +6981,38 @@
     "type": [
       "electric",
       "flying"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 580,
@@ -2391,6 +7031,38 @@
       "fire",
       "flying"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 580,
       "hp": 90,
@@ -2407,6 +7079,38 @@
     "type": [
       "dragon"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 300,
       "hp": 41,
@@ -2422,6 +7126,38 @@
     "name": "Dragonair",
     "type": [
       "dragon"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 420,
@@ -2440,6 +7176,38 @@
       "dragon",
       "flying"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 600,
       "hp": 91,
@@ -2456,6 +7224,38 @@
     "type": [
       "psychic"
     ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
+    ],
     "stats": {
       "total": 680,
       "hp": 106,
@@ -2471,6 +7271,38 @@
     "name": "Mew",
     "type": [
       "psychic"
+    ],
+    
+    "clan": [
+      "",
+      ""
+    ],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": "",
+    "boostStone": "",
+    "boostIncrease": "",
+    "variation": "yes or no (shiny? baby? mega?)",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+      "",
+      ""
+    ],
+    "loots": [
+      "",
+      ""
+    ],
+    "maps": [
+      "",
+      ""
     ],
     "stats": {
       "total": 600,
