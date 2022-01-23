@@ -124,9 +124,8 @@ function loadStats(stats) {
 
 function loadMoves(moves) {
   return Object.entries(moves)
-    .filter(([name, value]) => !['total'].includes(name))
     .map(([name, value]) =>
-      `<div class="stat-row">
+      `<div class="move-row">
         <div>${name}</div>
         <div>${value}</div>
       </div>`

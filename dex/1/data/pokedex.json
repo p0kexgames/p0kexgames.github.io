@@ -25,7 +25,7 @@
     "vip": "",
     "preEvo": "",
     "evo": "",
-    "moves": [
+    "move": [
       "ataqk1": 1,
       "ataqk2": 2
     ],
@@ -75,7 +75,7 @@
     "vip": "",
     "preEvo": "",
     "evo": "",
-    "moves": [
+    "move": [
       "ataqk3": 1,
       "ataqk4": 2
     ],
