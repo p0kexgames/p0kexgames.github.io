@@ -2,13 +2,12 @@ let warning
 let pokedexChilds
 let pokedexValues
 let pokemonTypes = []
-let pokemonClans = []
 const pokedexElement = document.querySelector('.pokedex')
 const filterName = document.querySelector('#filter-name')
 const filterType = document.querySelector('#filter-type')
 const sortType = document.querySelector('#sort-type')
 
-fetch('data/pokedex2.json')
+fetch('data/pokedex.json')
   .then(res => res.json())
   .then(json => loadPokedex(json, sortType.value))
 
@@ -69,7 +68,6 @@ function loadPokedex(pokedex, sort) {
   pokedexChilds = Array.from(pokedexElement.querySelectorAll('.pokemon'))
   warning = pokedexElement.querySelector('.warning')
   loadTypeFilter(pokemonTypes.uniq().sort())
-  loadClansFilter(pokemonClans.uniq().sort())
   pokedexValues = pokedex
 }
 
@@ -90,33 +88,29 @@ function pokemonCard(pokemon) {
   const types = pokemon.type
     .map(t => `<span class="pokemon-type background-${t}">${t}</span>`)
     .join('')
-  const clans = pokemon.clans
-    .map(t => `<span class="pokemon-clans background-${t}">${t}</span>`)
+  const clans = pokemon.clan
+    .map(t => `<span class="pokemon-clan background-${t}">${t}</span>`)
     .join('')
   const img = pokemon.name.replace(/['\.]/g, '').replace(/\s/g, '-')
   pokemonTypes = pokemonTypes.concat(pokemon.type)
-  pokemonClans = pokemonClans.concat(pokemon.clans)
-  return `<div class="pokemon" data-name="${pokemon.name}" data-type="${pokemon.type}" data-clans="${pokemon.clans}" tabindex="${pokemon.id}">
+  pokemonClans = pokemonClans.concat(pokemon.clan)
+  return `<div class="pokemon" data-name="${pokemon.name}" data-type="${pokemon.type}" data-clan="${pokemon.clan}" tabindex="${pokemon.id}">
       <figure class="pokemon-figure">
         <img src="img/${img.toLowerCase()}.png" alt="${pokemon.name}">
       </figure>
       <section class="pokemon-description">
         <span class="pokemon-id">#${Number(pokemon.id).toString().padStart(3, '0')}</span>
         <h1 class="pokemon-name">${pokemon.name}</h1>
-        <h2 class="pokemon-level">level: ${pokemon.level}</h1>
+        <h1 class="pokemon-level">${pokemon.level}</h1>
         <div class="pokemon-types">${types}</div>
         <div class="pokemon-clans">${clans}</div>
       </section>
       <section class="pokemon-stats">${loadStats(pokemon.stats)}</section>
-      <section class="pokemon-moves">${loadMoves(pokemon.moves)}</section>
     </div>`
 }
 
 function loadTypeFilter(types) {
   types.map(t => filterType.insertAdjacentHTML('beforeend', `<option>${t}</option>`))
-}
-function loadClansFilter(clans) {
-  clans.map(t => filterClans.insertAdjacentHTML('beforeend', `<option>${t}</option>`))
 }
 
 function loadStats(stats) {
@@ -132,19 +126,7 @@ function loadStats(stats) {
     )
     .join('')
 }
-function loadMoves(moves) {
-  return Object.entries(moves)
-    .filter(([move, value]) => !['total'].includes(move))
-    .map(([move, value]) =>
-      `<div class="move-row">
-        <div>${move}</div>
-        <div class="move-bar">
-          <div class="move-bar-bg" style="width: ${100*value/250}%">${value}</div>
-        </div>
-      </div>`
-    )
-    .join('')
-}
+
 
 
 Array.prototype.uniq = function () {
