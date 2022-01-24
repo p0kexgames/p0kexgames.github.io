@@ -1,39 +1,52 @@
 [
-  {
-    "id": 1,
-    "name": "Bulbasaur",
+  {    "id": 1,   "name": "Bulbasaur",
     "type": [
       "grass",
       "poison"
     ],
     "clan": [
-      "",
-      ""
+      "naturia",
+      "malefic"
     ],
-    "level": "",
-    "price": "",
-    "xp": "",
-    "dificulty": "",
-    "generation": "",
-    "region": "",
-    "evolveStone": "",
-    "boostStone": "",
-    "boostIncrease": "",
-    "variation": "yes or no (shiny? baby? mega?)",
-    "fast": "",
-    "heavy": "",
-    "vip": "",
-    "preEvo": "",
-    "evo": "",
-    "move": [
-      "ataqk1": 1,
-      "ataqk2": 2
+    "level": "20",
+    "price": "3000",
+    "xp": "10000",
+    "dificulty": "2",
+    "generation": "1",
+    "region": "Kanto",
+    "evolveStone": "Leaf",
+    "boostStone": : [
+      "Leaf",
+      "Venom"
+    ],
+    "boostIncrease": "10",
+    "variation": "yes",
+    "fast": "no",
+    "heavy": "no",
+    "vip": "no",
+    "preEvo": "no",
+    "evo": "Ivysaur",
+    "moves": [
+      "Tackle": 20,
+      "Razor Leaf": 20,
+      "Vine Whip": 20,
+      "Headbutt": 20,
+      "leech Seed": 20,
+      "Solar Beam": 26
+	  "Sleep powder": 28,
+	  "Stun spore":26,
+	  "Poison powder":24
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -48,9 +61,7 @@
       "speed": 45
     }
   },
-  {
-    "id": 2,
-    "name": "Ivysaur",
+  {    "id": 2,   "name": "Ivysaur",
     "type": [
       "grass",
       "poison"
@@ -67,7 +78,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -75,15 +89,20 @@
     "vip": "",
     "preEvo": "",
     "evo": "",
-    "move": [
+    "moves": [
       "ataqk3": 1,
       "ataqk4": 2
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -97,9 +116,7 @@
       "speed": 60
     }
   },
-  {
-    "id": 3,
-    "name": "Venusaur",
+  {    "id": 3,   "name": "Venusaur",
     "type": [
       "grass",
       "poison"
@@ -116,7 +133,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -129,10 +149,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -146,9 +171,7 @@
       "speed": 80
     }
   },
-  {
-    "id": 4,
-    "name": "Charmander",
+  {    "id": 4,   "name": "Charmander",
     "type": [
       "fire"
     ],
@@ -164,7 +187,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -177,10 +203,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -194,9 +225,7 @@
       "speed": 65
     }
   },
-  {
-    "id": 5,
-    "name": "Charmeleon",
+  {    "id": 5,   "name": "Charmeleon",
     "type": [
       "fire"
     ],
@@ -212,7 +241,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -225,10 +257,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -242,9 +279,7 @@
       "speed": 80
     }
   },
-  {
-    "id": 6,
-    "name": "Charizard",
+  {    "id": 6,   "name": "Charizard",
     "type": [
       "fire",
       "flying"
@@ -261,7 +296,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -274,10 +312,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -291,9 +334,7 @@
       "speed": 100
     }
   },
-  {
-    "id": 7,
-    "name": "Squirtle",
+  {    "id": 7,   "name": "Squirtle",
     "type": [
       "water"
     ],
@@ -309,7 +350,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -322,10 +366,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -339,9 +388,7 @@
       "speed": 43
     }
   },
-  {
-    "id": 8,
-    "name": "Wartortle",
+  {    "id": 8,   "name": "Wartortle",
     "type": [
       "water"
     ],
@@ -357,7 +404,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -370,10 +420,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -387,9 +442,7 @@
       "speed": 58
     }
   },
-  {
-    "id": 9,
-    "name": "Blastoise",
+  {    "id": 9,   "name": "Blastoise",
     "type": [
       "water"
     ],
@@ -405,7 +458,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -418,10 +474,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -435,9 +496,7 @@
       "speed": 78
     }
   },
-  {
-    "id": 10,
-    "name": "Caterpie",
+  {    "id": 10,   "name": "Caterpie",
     "type": [
       "bug"
     ],
@@ -453,7 +512,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -466,10 +528,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -483,9 +550,7 @@
       "speed": 45
     }
   },
-  {
-    "id": 11,
-    "name": "Metapod",
+  {    "id": 11,   "name": "Metapod",
     "type": [
       "bug"
     ],
@@ -501,7 +566,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -514,10 +582,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -531,9 +604,7 @@
       "speed": 30
     }
   },
-  {
-    "id": 12,
-    "name": "Butterfree",
+  {    "id": 12,   "name": "Butterfree",
     "type": [
       "bug",
       "flying"
@@ -550,7 +621,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -563,10 +637,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -580,9 +659,7 @@
       "speed": 70
     }
   },
-  {
-    "id": 13,
-    "name": "Weedle",
+  {    "id": 13,   "name": "Weedle",
     "type": [
       "bug",
       "poison"
@@ -599,7 +676,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -612,10 +692,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -629,9 +714,7 @@
       "speed": 50
     }
   },
-  {
-    "id": 14,
-    "name": "Kakuna",
+  {    "id": 14,   "name": "Kakuna",
     "type": [
       "bug",
       "poison"
@@ -648,7 +731,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -661,10 +747,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -678,9 +769,7 @@
       "speed": 35
     }
   },
-  {
-    "id": 15,
-    "name": "Beedrill",
+  {    "id": 15,   "name": "Beedrill",
     "type": [
       "bug",
       "poison"
@@ -697,7 +786,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -710,10 +802,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -727,9 +824,7 @@
       "speed": 75
     }
   },
-  {
-    "id": 16,
-    "name": "Pidgey",
+  {    "id": 16,   "name": "Pidgey",
     "type": [
       "normal",
       "flying"
@@ -746,7 +841,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -759,10 +857,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -776,9 +879,7 @@
       "speed": 56
     }
   },
-  {
-    "id": 17,
-    "name": "Pidgeotto",
+  {    "id": 17,   "name": "Pidgeotto",
     "type": [
       "normal",
       "flying"
@@ -795,7 +896,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -808,10 +912,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -825,9 +934,7 @@
       "speed": 71
     }
   },
-  {
-    "id": 18,
-    "name": "Pidgeot",
+  {    "id": 18,   "name": "Pidgeot",
     "type": [
       "normal",
       "flying"
@@ -844,7 +951,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -857,10 +967,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -874,9 +989,7 @@
       "speed": 101
     }
   },
-  {
-    "id": 19,
-    "name": "Rattata",
+  {    "id": 19,   "name": "Rattata",
     "type": [
       "normal"
     ],
@@ -892,7 +1005,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -905,10 +1021,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -922,9 +1043,7 @@
       "speed": 72
     }
   },
-  {
-    "id": 20,
-    "name": "Raticate",
+  {    "id": 20,   "name": "Raticate",
     "type": [
       "normal"
     ],
@@ -940,7 +1059,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -953,10 +1075,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -970,9 +1097,7 @@
       "speed": 97
     }
   },
-  {
-    "id": 21,
-    "name": "Spearow",
+  {    "id": 21,   "name": "Spearow",
     "type": [
       "normal",
       "flying"
@@ -989,7 +1114,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -1002,10 +1130,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -1019,9 +1152,7 @@
       "speed": 70
     }
   },
-  {
-    "id": 22,
-    "name": "Fearow",
+  {    "id": 22,   "name": "Fearow",
     "type": [
       "normal",
       "flying"
@@ -1038,7 +1169,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -1051,10 +1185,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -1068,9 +1207,7 @@
       "speed": 100
     }
   },
-  {
-    "id": 23,
-    "name": "Ekans",
+  {    "id": 23,   "name": "Ekans",
     "type": [
       "poison"
     ],
@@ -1086,7 +1223,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -1099,10 +1239,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -1116,9 +1261,7 @@
       "speed": 55
     }
   },
-  {
-    "id": 24,
-    "name": "Arbok",
+  {    "id": 24,   "name": "Arbok",
     "type": [
       "poison"
     ],
@@ -1134,7 +1277,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -1147,10 +1293,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -1164,9 +1315,7 @@
       "speed": 80
     }
   },
-  {
-    "id": 25,
-    "name": "Pikachu",
+  {    "id": 25,   "name": "Pikachu",
     "type": [
       "electric"
     ],
@@ -1182,7 +1331,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -1195,10 +1347,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -1212,9 +1369,7 @@
       "speed": 90
     }
   },
-  {
-    "id": 26,
-    "name": "Raichu",
+  {    "id": 26,   "name": "Raichu",
     "type": [
       "electric"
     ],
@@ -1230,7 +1385,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -1243,10 +1401,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -1260,9 +1423,7 @@
       "speed": 110
     }
   },
-  {
-    "id": 27,
-    "name": "Sandshrew",
+  {    "id": 27,   "name": "Sandshrew",
     "type": [
       "ground"
     ],
@@ -1278,7 +1439,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -1291,10 +1455,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -1308,9 +1477,7 @@
       "speed": 40
     }
   },
-  {
-    "id": 28,
-    "name": "Sandslash",
+  {    "id": 28,   "name": "Sandslash",
     "type": [
       "ground"
     ],
@@ -1326,7 +1493,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -1339,10 +1509,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -1356,9 +1531,7 @@
       "speed": 65
     }
   },
-  {
-    "id": 29,
-    "name": "Nidoran♀",
+  {    "id": 29,   "name": "Nidoran♀",
     "type": [
       "poison"
     ],
@@ -1374,7 +1547,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -1387,10 +1563,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -1404,9 +1585,7 @@
       "speed": 41
     }
   },
-  {
-    "id": 30,
-    "name": "Nidorina",
+  {    "id": 30,   "name": "Nidorina",
     "type": [
       "poison"
     ],
@@ -1422,7 +1601,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -1435,10 +1617,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -1452,9 +1639,7 @@
       "speed": 56
     }
   },
-  {
-    "id": 31,
-    "name": "Nidoqueen",
+  {    "id": 31,   "name": "Nidoqueen",
     "type": [
       "poison",
       "ground"
@@ -1471,7 +1656,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -1484,10 +1672,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -1501,9 +1694,7 @@
       "speed": 76
     }
   },
-  {
-    "id": 32,
-    "name": "Nidoran♂",
+  {    "id": 32,   "name": "Nidoran♂",
     "type": [
       "poison"
     ],
@@ -1519,7 +1710,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -1532,10 +1726,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -1549,9 +1748,7 @@
       "speed": 50
     }
   },
-  {
-    "id": 33,
-    "name": "Nidorino",
+  {    "id": 33,   "name": "Nidorino",
     "type": [
       "poison"
     ],
@@ -1567,7 +1764,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -1580,10 +1780,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -1597,9 +1802,7 @@
       "speed": 65
     }
   },
-  {
-    "id": 34,
-    "name": "Nidoking",
+  {    "id": 34,   "name": "Nidoking",
     "type": [
       "poison",
       "ground"
@@ -1616,7 +1819,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -1629,10 +1835,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -1646,9 +1857,7 @@
       "speed": 85
     }
   },
-  {
-    "id": 35,
-    "name": "Clefairy",
+  {    "id": 35,   "name": "Clefairy",
     "type": [
       "fairy"
     ],
@@ -1664,7 +1873,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -1677,10 +1889,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -1694,9 +1911,7 @@
       "speed": 35
     }
   },
-  {
-    "id": 36,
-    "name": "Clefable",
+  {    "id": 36,   "name": "Clefable",
     "type": [
       "fairy"
     ],
@@ -1712,7 +1927,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -1725,10 +1943,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -1742,9 +1965,7 @@
       "speed": 60
     }
   },
-  {
-    "id": 37,
-    "name": "Vulpix",
+  {    "id": 37,   "name": "Vulpix",
     "type": [
       "fire"
     ],
@@ -1760,7 +1981,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -1773,10 +1997,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -1790,9 +2019,7 @@
       "speed": 65
     }
   },
-  {
-    "id": 38,
-    "name": "Ninetales",
+  {    "id": 38,   "name": "Ninetales",
     "type": [
       "fire"
     ],
@@ -1808,7 +2035,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -1821,10 +2051,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -1838,9 +2073,7 @@
       "speed": 100
     }
   },
-  {
-    "id": 39,
-    "name": "Jigglypuff",
+  {    "id": 39,   "name": "Jigglypuff",
     "type": [
       "normal",
       "fairy"
@@ -1857,7 +2090,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -1870,10 +2106,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -1887,9 +2128,7 @@
       "speed": 20
     }
   },
-  {
-    "id": 40,
-    "name": "Wigglytuff",
+  {    "id": 40,   "name": "Wigglytuff",
     "type": [
       "normal",
       "fairy"
@@ -1906,7 +2145,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -1919,10 +2161,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -1936,9 +2183,7 @@
       "speed": 45
     }
   },
-  {
-    "id": 41,
-    "name": "Zubat",
+  {    "id": 41,   "name": "Zubat",
     "type": [
       "poison",
       "flying"
@@ -1955,7 +2200,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -1968,10 +2216,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -1985,9 +2238,7 @@
       "speed": 55
     }
   },
-  {
-    "id": 42,
-    "name": "Golbat",
+  {    "id": 42,   "name": "Golbat",
     "type": [
       "poison",
       "flying"
@@ -2004,7 +2255,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -2017,10 +2271,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -2034,9 +2293,7 @@
       "speed": 90
     }
   },
-  {
-    "id": 43,
-    "name": "Oddish",
+  {    "id": 43,   "name": "Oddish",
     "type": [
       "poison",
       "grass"
@@ -2053,7 +2310,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -2066,10 +2326,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -2083,9 +2348,7 @@
       "speed": 30
     }
   },
-  {
-    "id": 44,
-    "name": "Gloom",
+  {    "id": 44,   "name": "Gloom",
     "type": [
       "poison",
       "grass"
@@ -2102,7 +2365,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -2115,10 +2381,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -2132,9 +2403,7 @@
       "speed": 40
     }
   },
-  {
-    "id": 45,
-    "name": "Vileplume",
+  {    "id": 45,   "name": "Vileplume",
     "type": [
       "poison",
       "grass"
@@ -2151,7 +2420,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -2164,10 +2436,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -2181,9 +2458,7 @@
       "speed": 50
     }
   },
-  {
-    "id": 46,
-    "name": "Paras",
+  {    "id": 46,   "name": "Paras",
     "type": [
       "bug",
       "grass"
@@ -2200,7 +2475,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -2213,10 +2491,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -2230,9 +2513,7 @@
       "speed": 25
     }
   },
-  {
-    "id": 47,
-    "name": "Parasect",
+  {    "id": 47,   "name": "Parasect",
     "type": [
       "bug",
       "grass"
@@ -2249,7 +2530,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -2262,10 +2546,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -2279,9 +2568,7 @@
       "speed": 30
     }
   },
-  {
-    "id": 48,
-    "name": "Venonat",
+  {    "id": 48,   "name": "Venonat",
     "type": [
       "bug",
       "poison"
@@ -2298,7 +2585,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -2311,10 +2601,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -2328,9 +2623,7 @@
       "speed": 45
     }
   },
-  {
-    "id": 49,
-    "name": "Venomoth",
+  {    "id": 49,   "name": "Venomoth",
     "type": [
       "bug",
       "poison"
@@ -2347,7 +2640,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -2360,10 +2656,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -2377,9 +2678,7 @@
       "speed": 90
     }
   },
-  {
-    "id": 50,
-    "name": "Diglett",
+  {    "id": 50,   "name": "Diglett",
     "type": [
       "ground"
     ],
@@ -2395,7 +2694,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -2408,10 +2710,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -2425,9 +2732,7 @@
       "speed": 95
     }
   },
-  {
-    "id": 51,
-    "name": "Dugtrio",
+  {    "id": 51,   "name": "Dugtrio",
     "type": [
       "ground"
     ],
@@ -2443,7 +2748,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -2456,10 +2764,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -2473,9 +2786,7 @@
       "speed": 120
     }
   },
-  {
-    "id": 52,
-    "name": "Meowth",
+  {    "id": 52,   "name": "Meowth",
     "type": [
       "normal"
     ],
@@ -2491,7 +2802,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -2504,10 +2818,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -2521,9 +2840,7 @@
       "speed": 90
     }
   },
-  {
-    "id": 53,
-    "name": "Persian",
+  {    "id": 53,   "name": "Persian",
     "type": [
       "normal"
     ],
@@ -2539,7 +2856,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -2552,10 +2872,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -2569,9 +2894,7 @@
       "speed": 115
     }
   },
-  {
-    "id": 54,
-    "name": "Psyduck",
+  {    "id": 54,   "name": "Psyduck",
     "type": [
       "water"
     ],
@@ -2587,7 +2910,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -2600,10 +2926,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -2617,9 +2948,7 @@
       "speed": 55
     }
   },
-  {
-    "id": 55,
-    "name": "Golduck",
+  {    "id": 55,   "name": "Golduck",
     "type": [
       "water"
     ],
@@ -2635,7 +2964,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -2648,10 +2980,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -2665,9 +3002,7 @@
       "speed": 85
     }
   },
-  {
-    "id": 56,
-    "name": "Mankey",
+  {    "id": 56,   "name": "Mankey",
     "type": [
       "fighting"
     ],
@@ -2683,7 +3018,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -2696,10 +3034,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -2713,9 +3056,7 @@
       "speed": 70
     }
   },
-  {
-    "id": 57,
-    "name": "Primeape",
+  {    "id": 57,   "name": "Primeape",
     "type": [
       "fighting"
     ],
@@ -2731,7 +3072,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -2744,10 +3088,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -2761,9 +3110,7 @@
       "speed": 95
     }
   },
-  {
-    "id": 58,
-    "name": "Growlithe",
+  {    "id": 58,   "name": "Growlithe",
     "type": [
       "fire"
     ],
@@ -2779,7 +3126,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -2792,10 +3142,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -2809,9 +3164,7 @@
       "speed": 60
     }
   },
-  {
-    "id": 59,
-    "name": "Arcanine",
+  {    "id": 59,   "name": "Arcanine",
     "type": [
       "fire"
     ],
@@ -2827,7 +3180,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -2840,10 +3196,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -2857,9 +3218,7 @@
       "speed": 95
     }
   },
-  {
-    "id": 60,
-    "name": "Poliwag",
+  {    "id": 60,   "name": "Poliwag",
     "type": [
       "water"
     ],
@@ -2875,7 +3234,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -2888,10 +3250,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -2905,9 +3272,7 @@
       "speed": 90
     }
   },
-  {
-    "id": 61,
-    "name": "Poliwhirl",
+  {    "id": 61,   "name": "Poliwhirl",
     "type": [
       "water"
     ],
@@ -2923,7 +3288,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -2936,10 +3304,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -2953,9 +3326,7 @@
       "speed": 90
     }
   },
-  {
-    "id": 62,
-    "name": "Poliwrath",
+  {    "id": 62,   "name": "Poliwrath",
     "type": [
       "water",
       "fighting"
@@ -2972,7 +3343,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -2985,10 +3359,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -3002,9 +3381,7 @@
       "speed": 70
     }
   },
-  {
-    "id": 63,
-    "name": "Abra",
+  {    "id": 63,   "name": "Abra",
     "type": [
       "psychic"
     ],
@@ -3020,7 +3397,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -3033,10 +3413,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -3050,9 +3435,7 @@
       "speed": 90
     }
   },
-  {
-    "id": 64,
-    "name": "Kadabra",
+  {    "id": 64,   "name": "Kadabra",
     "type": [
       "psychic"
     ],
@@ -3068,7 +3451,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -3081,10 +3467,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -3098,9 +3489,7 @@
       "speed": 105
     }
   },
-  {
-    "id": 65,
-    "name": "Alakazam",
+  {    "id": 65,   "name": "Alakazam",
     "type": [
       "psychic"
     ],
@@ -3116,7 +3505,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -3129,10 +3521,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -3146,9 +3543,7 @@
       "speed": 120
     }
   },
-  {
-    "id": 66,
-    "name": "Machop",
+  {    "id": 66,   "name": "Machop",
     "type": [
       "fighting"
     ],
@@ -3164,7 +3559,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -3177,10 +3575,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -3194,9 +3597,7 @@
       "speed": 35
     }
   },
-  {
-    "id": 67,
-    "name": "Machoke",
+  {    "id": 67,   "name": "Machoke",
     "type": [
       "fighting"
     ],
@@ -3212,7 +3613,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -3225,10 +3629,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -3242,9 +3651,7 @@
       "speed": 45
     }
   },
-  {
-    "id": 68,
-    "name": "Machamp",
+  {    "id": 68,   "name": "Machamp",
     "type": [
       "fighting"
     ],
@@ -3260,7 +3667,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -3273,10 +3683,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -3290,9 +3705,7 @@
       "speed": 55
     }
   },
-  {
-    "id": 69,
-    "name": "Bellsprout",
+  {    "id": 69,   "name": "Bellsprout",
     "type": [
       "grass",
       "poison"
@@ -3309,7 +3722,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -3322,10 +3738,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -3339,9 +3760,7 @@
       "speed": 40
     }
   },
-  {
-    "id": 70,
-    "name": "Weepinbell",
+  {    "id": 70,   "name": "Weepinbell",
     "type": [
       "grass",
       "poison"
@@ -3358,7 +3777,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -3371,10 +3793,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -3388,9 +3815,7 @@
       "speed": 55
     }
   },
-  {
-    "id": 71,
-    "name": "Victreebel",
+  {    "id": 71,   "name": "Victreebel",
     "type": [
       "grass",
       "poison"
@@ -3407,7 +3832,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -3420,10 +3848,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -3437,9 +3870,7 @@
       "speed": 70
     }
   },
-  {
-    "id": 72,
-    "name": "Tentacool",
+  {    "id": 72,   "name": "Tentacool",
     "type": [
       "water",
       "poison"
@@ -3456,7 +3887,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -3469,10 +3903,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -3486,9 +3925,7 @@
       "speed": 70
     }
   },
-  {
-    "id": 73,
-    "name": "Tentacruel",
+  {    "id": 73,   "name": "Tentacruel",
     "type": [
       "water",
       "poison"
@@ -3505,7 +3942,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -3518,10 +3958,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -3535,9 +3980,7 @@
       "speed": 100
     }
   },
-  {
-    "id": 74,
-    "name": "Geodude",
+  {    "id": 74,   "name": "Geodude",
     "type": [
       "ground",
       "rock"
@@ -3554,7 +3997,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -3567,10 +4013,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -3584,9 +4035,7 @@
       "speed": 20
     }
   },
-  {
-    "id": 75,
-    "name": "Graveler",
+  {    "id": 75,   "name": "Graveler",
     "type": [
       "ground",
       "rock"
@@ -3603,7 +4052,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -3616,10 +4068,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -3633,9 +4090,7 @@
       "speed": 35
     }
   },
-  {
-    "id": 76,
-    "name": "Golem",
+  {    "id": 76,   "name": "Golem",
     "type": [
       "ground",
       "rock"
@@ -3652,7 +4107,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -3665,10 +4123,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -3682,9 +4145,7 @@
       "speed": 45
     }
   },
-  {
-    "id": 77,
-    "name": "Ponyta",
+  {    "id": 77,   "name": "Ponyta",
     "type": [
       "fire"
     ],
@@ -3700,7 +4161,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -3713,10 +4177,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -3730,9 +4199,7 @@
       "speed": 90
     }
   },
-  {
-    "id": 78,
-    "name": "Rapidash",
+  {    "id": 78,   "name": "Rapidash",
     "type": [
       "fire"
     ],
@@ -3748,7 +4215,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -3761,10 +4231,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -3778,9 +4253,7 @@
       "speed": 105
     }
   },
-  {
-    "id": 79,
-    "name": "Slowpoke",
+  {    "id": 79,   "name": "Slowpoke",
     "type": [
       "water",
       "psychic"
@@ -3797,7 +4270,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -3810,10 +4286,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -3827,9 +4308,7 @@
       "speed": 15
     }
   },
-  {
-    "id": 80,
-    "name": "Slowbro",
+  {    "id": 80,   "name": "Slowbro",
     "type": [
       "water",
       "psychic"
@@ -3846,7 +4325,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -3859,10 +4341,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -3876,9 +4363,7 @@
       "speed": 30
     }
   },
-  {
-    "id": 81,
-    "name": "Magnemite",
+  {    "id": 81,   "name": "Magnemite",
     "type": [
       "electric",
       "steel"
@@ -3895,7 +4380,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -3908,10 +4396,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -3925,9 +4418,7 @@
       "speed": 45
     }
   },
-  {
-    "id": 82,
-    "name": "Magneton",
+  {    "id": 82,   "name": "Magneton",
     "type": [
       "electric",
       "steel"
@@ -3944,7 +4435,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -3957,10 +4451,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -3974,9 +4473,7 @@
       "speed": 70
     }
   },
-  {
-    "id": 83,
-    "name": "Farfetch'd",
+  {    "id": 83,   "name": "Farfetch'd",
     "type": [
       "normal",
       "flying"
@@ -3993,7 +4490,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -4006,10 +4506,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -4023,9 +4528,7 @@
       "speed": 60
     }
   },
-  {
-    "id": 84,
-    "name": "Doduo",
+  {    "id": 84,   "name": "Doduo",
     "type": [
       "normal",
       "flying"
@@ -4042,7 +4545,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -4055,10 +4561,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -4072,9 +4583,7 @@
       "speed": 75
     }
   },
-  {
-    "id": 85,
-    "name": "Dodrio",
+  {    "id": 85,   "name": "Dodrio",
     "type": [
       "normal",
       "flying"
@@ -4091,7 +4600,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -4104,10 +4616,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -4121,9 +4638,7 @@
       "speed": 110
     }
   },
-  {
-    "id": 86,
-    "name": "Seel",
+  {    "id": 86,   "name": "Seel",
     "type": [
       "water"
     ],
@@ -4139,7 +4654,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -4152,10 +4670,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -4169,9 +4692,7 @@
       "speed": 45
     }
   },
-  {
-    "id": 87,
-    "name": "Dewgong",
+  {    "id": 87,   "name": "Dewgong",
     "type": [
       "water",
       "ice"
@@ -4188,7 +4709,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -4201,10 +4725,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -4218,9 +4747,7 @@
       "speed": 70
     }
   },
-  {
-    "id": 88,
-    "name": "Grimer",
+  {    "id": 88,   "name": "Grimer",
     "type": [
       "poison"
     ],
@@ -4236,7 +4763,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -4249,10 +4779,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -4266,9 +4801,7 @@
       "speed": 25
     }
   },
-  {
-    "id": 89,
-    "name": "Muk",
+  {    "id": 89,   "name": "Muk",
     "type": [
       "poison"
     ],
@@ -4284,7 +4817,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -4297,10 +4833,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -4314,9 +4855,7 @@
       "speed": 50
     }
   },
-  {
-    "id": 90,
-    "name": "Shellder",
+  {    "id": 90,   "name": "Shellder",
     "type": [
       "water"
     ],
@@ -4332,7 +4871,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -4345,10 +4887,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -4362,9 +4909,7 @@
       "speed": 40
     }
   },
-  {
-    "id": 91,
-    "name": "Cloyster",
+  {    "id": 91,   "name": "Cloyster",
     "type": [
       "water",
       "ice"
@@ -4381,7 +4926,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -4394,10 +4942,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -4411,9 +4964,7 @@
       "speed": 70
     }
   },
-  {
-    "id": 92,
-    "name": "Gastly",
+  {    "id": 92,   "name": "Gastly",
     "type": [
       "ghost",
       "poison"
@@ -4430,7 +4981,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -4443,10 +4997,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -4460,9 +5019,7 @@
       "speed": 80
     }
   },
-  {
-    "id": 93,
-    "name": "Haunter",
+  {    "id": 93,   "name": "Haunter",
     "type": [
       "ghost",
       "poison"
@@ -4479,7 +5036,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -4492,10 +5052,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -4509,9 +5074,7 @@
       "speed": 95
     }
   },
-  {
-    "id": 94,
-    "name": "Gengar",
+  {    "id": 94,   "name": "Gengar",
     "type": [
       "ghost",
       "poison"
@@ -4528,7 +5091,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -4541,10 +5107,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -4558,9 +5129,7 @@
       "speed": 110
     }
   },
-  {
-    "id": 95,
-    "name": "Onix",
+  {    "id": 95,   "name": "Onix",
     "type": [
       "rock",
       "ground"
@@ -4577,7 +5146,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -4590,10 +5162,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -4607,9 +5184,7 @@
       "speed": 70
     }
   },
-  {
-    "id": 96,
-    "name": "Drowzee",
+  {    "id": 96,   "name": "Drowzee",
     "type": [
       "psychic"
     ],
@@ -4625,7 +5200,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -4638,10 +5216,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -4655,9 +5238,7 @@
       "speed": 42
     }
   },
-  {
-    "id": 97,
-    "name": "Hypno",
+  {    "id": 97,   "name": "Hypno",
     "type": [
       "psychic"
     ],
@@ -4673,7 +5254,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -4686,10 +5270,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -4703,9 +5292,7 @@
       "speed": 67
     }
   },
-  {
-    "id": 98,
-    "name": "Krabby",
+  {    "id": 98,   "name": "Krabby",
     "type": [
       "water"
     ],
@@ -4721,7 +5308,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -4734,10 +5324,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -4751,9 +5346,7 @@
       "speed": 50
     }
   },
-  {
-    "id": 99,
-    "name": "Kingler",
+  {    "id": 99,   "name": "Kingler",
     "type": [
       "water"
     ],
@@ -4769,7 +5362,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -4782,10 +5378,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -4799,9 +5400,7 @@
       "speed": 75
     }
   },
-  {
-    "id": 100,
-    "name": "Voltorb",
+  {    "id": 100,   "name": "Voltorb",
     "type": [
       "electric"
     ],
@@ -4817,7 +5416,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -4830,10 +5432,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -4847,9 +5454,7 @@
       "speed": 100
     }
   },
-  {
-    "id": 101,
-    "name": "Electrode",
+  {    "id": 101,   "name": "Electrode",
     "type": [
       "electric"
     ],
@@ -4865,7 +5470,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -4878,10 +5486,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -4895,9 +5508,7 @@
       "speed": 150
     }
   },
-  {
-    "id": 102,
-    "name": "Exeggcute",
+  {    "id": 102,   "name": "Exeggcute",
     "type": [
       "grass",
       "psychic"
@@ -4914,7 +5525,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -4927,10 +5541,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -4944,9 +5563,7 @@
       "speed": 40
     }
   },
-  {
-    "id": 103,
-    "name": "Exeggutor",
+  {    "id": 103,   "name": "Exeggutor",
     "type": [
       "grass",
       "psychic"
@@ -4963,7 +5580,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -4976,10 +5596,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -4993,9 +5618,7 @@
       "speed": 55
     }
   },
-  {
-    "id": 104,
-    "name": "Cubone",
+  {    "id": 104,   "name": "Cubone",
     "type": [
       "ground"
     ],
@@ -5011,7 +5634,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -5024,10 +5650,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -5041,9 +5672,7 @@
       "speed": 35
     }
   },
-  {
-    "id": 105,
-    "name": "Marowak",
+  {    "id": 105,   "name": "Marowak",
     "type": [
       "ground"
     ],
@@ -5059,7 +5688,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -5072,10 +5704,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -5089,9 +5726,7 @@
       "speed": 45
     }
   },
-  {
-    "id": 106,
-    "name": "Hitmonlee",
+  {    "id": 106,   "name": "Hitmonlee",
     "type": [
       "fighting"
     ],
@@ -5107,7 +5742,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -5120,10 +5758,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -5137,9 +5780,7 @@
       "speed": 87
     }
   },
-  {
-    "id": 107,
-    "name": "Hitmonchan",
+  {    "id": 107,   "name": "Hitmonchan",
     "type": [
       "fighting"
     ],
@@ -5155,7 +5796,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -5168,10 +5812,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -5185,9 +5834,7 @@
       "speed": 76
     }
   },
-  {
-    "id": 108,
-    "name": "Lickitung",
+  {    "id": 108,   "name": "Lickitung",
     "type": [
       "normal"
     ],
@@ -5203,7 +5850,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -5216,10 +5866,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -5233,9 +5888,7 @@
       "speed": 30
     }
   },
-  {
-    "id": 109,
-    "name": "Koffing",
+  {    "id": 109,   "name": "Koffing",
     "type": [
       "poison"
     ],
@@ -5251,7 +5904,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -5264,10 +5920,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -5281,9 +5942,7 @@
       "speed": 35
     }
   },
-  {
-    "id": 110,
-    "name": "Weezing",
+  {    "id": 110,   "name": "Weezing",
     "type": [
       "poison"
     ],
@@ -5299,7 +5958,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -5312,10 +5974,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -5329,9 +5996,7 @@
       "speed": 60
     }
   },
-  {
-    "id": 111,
-    "name": "Rhyhorn",
+  {    "id": 111,   "name": "Rhyhorn",
     "type": [
       "ground",
       "rock"
@@ -5348,7 +6013,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -5361,10 +6029,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -5378,9 +6051,7 @@
       "speed": 25
     }
   },
-  {
-    "id": 112,
-    "name": "Rhydon",
+  {    "id": 112,   "name": "Rhydon",
     "type": [
       "ground",
       "rock"
@@ -5397,7 +6068,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -5410,10 +6084,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -5427,9 +6106,7 @@
       "speed": 40
     }
   },
-  {
-    "id": 113,
-    "name": "Chansey",
+  {    "id": 113,   "name": "Chansey",
     "type": [
       "normal"
     ],
@@ -5445,7 +6122,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -5458,10 +6138,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -5475,9 +6160,7 @@
       "speed": 50
     }
   },
-  {
-    "id": 114,
-    "name": "Tangela",
+  {    "id": 114,   "name": "Tangela",
     "type": [
       "grass"
     ],
@@ -5493,7 +6176,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -5506,10 +6192,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -5523,9 +6214,7 @@
       "speed": 60
     }
   },
-  {
-    "id": 115,
-    "name": "Kangaskhan",
+  {    "id": 115,   "name": "Kangaskhan",
     "type": [
       "normal"
     ],
@@ -5541,7 +6230,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -5554,10 +6246,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -5571,9 +6268,7 @@
       "speed": 90
     }
   },
-  {
-    "id": 116,
-    "name": "Horsea",
+  {    "id": 116,   "name": "Horsea",
     "type": [
       "water"
     ],
@@ -5589,7 +6284,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -5602,10 +6300,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -5619,9 +6322,7 @@
       "speed": 60
     }
   },
-  {
-    "id": 117,
-    "name": "Seadra",
+  {    "id": 117,   "name": "Seadra",
     "type": [
       "water"
     ],
@@ -5637,7 +6338,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -5650,10 +6354,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -5667,9 +6376,7 @@
       "speed": 85
     }
   },
-  {
-    "id": 118,
-    "name": "Goldeen",
+  {    "id": 118,   "name": "Goldeen",
     "type": [
       "water"
     ],
@@ -5685,7 +6392,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -5698,10 +6408,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -5715,9 +6430,7 @@
       "speed": 63
     }
   },
-  {
-    "id": 119,
-    "name": "Seaking",
+  {    "id": 119,   "name": "Seaking",
     "type": [
       "water"
     ],
@@ -5733,7 +6446,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -5746,10 +6462,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -5763,9 +6484,7 @@
       "speed": 68
     }
   },
-  {
-    "id": 120,
-    "name": "Staryu",
+  {    "id": 120,   "name": "Staryu",
     "type": [
       "water"
     ],
@@ -5781,7 +6500,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -5794,10 +6516,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -5811,9 +6538,7 @@
       "speed": 85
     }
   },
-  {
-    "id": 121,
-    "name": "Starmie",
+  {    "id": 121,   "name": "Starmie",
     "type": [
       "water",
       "psychic"
@@ -5830,7 +6555,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -5843,10 +6571,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -5860,9 +6593,7 @@
       "speed": 115
     }
   },
-  {
-    "id": 122,
-    "name": "Mr. Mime",
+  {    "id": 122,   "name": "Mr. Mime",
     "type": [
       "psychic",
       "fairy"
@@ -5879,7 +6610,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -5892,10 +6626,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -5909,9 +6648,7 @@
       "speed": 90
     }
   },
-  {
-    "id": 123,
-    "name": "Scyther",
+  {    "id": 123,   "name": "Scyther",
     "type": [
       "bug",
       "flying"
@@ -5928,7 +6665,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -5941,10 +6681,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -5958,9 +6703,7 @@
       "speed": 105
     }
   },
-  {
-    "id": 124,
-    "name": "Jynx",
+  {    "id": 124,   "name": "Jynx",
     "type": [
       "ice",
       "psychic"
@@ -5977,7 +6720,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -5990,10 +6736,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -6007,9 +6758,7 @@
       "speed": 95
     }
   },
-  {
-    "id": 125,
-    "name": "Electabuzz",
+  {    "id": 125,   "name": "Electabuzz",
     "type": [
       "electric"
     ],
@@ -6025,7 +6774,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -6038,10 +6790,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -6055,9 +6812,7 @@
       "speed": 105
     }
   },
-  {
-    "id": 126,
-    "name": "Magmar",
+  {    "id": 126,   "name": "Magmar",
     "type": [
       "fire"
     ],
@@ -6073,7 +6828,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -6086,10 +6844,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -6103,9 +6866,7 @@
       "speed": 93
     }
   },
-  {
-    "id": 127,
-    "name": "Pinsir",
+  {    "id": 127,   "name": "Pinsir",
     "type": [
       "bug"
     ],
@@ -6121,7 +6882,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -6134,10 +6898,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -6151,9 +6920,7 @@
       "speed": 85
     }
   },
-  {
-    "id": 128,
-    "name": "Tauros",
+  {    "id": 128,   "name": "Tauros",
     "type": [
       "normal"
     ],
@@ -6169,7 +6936,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -6182,10 +6952,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -6199,9 +6974,7 @@
       "speed": 110
     }
   },
-  {
-    "id": 129,
-    "name": "Magikarp",
+  {    "id": 129,   "name": "Magikarp",
     "type": [
       "water"
     ],
@@ -6217,7 +6990,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -6230,10 +7006,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -6247,9 +7028,7 @@
       "speed": 80
     }
   },
-  {
-    "id": 130,
-    "name": "Gyarados",
+  {    "id": 130,   "name": "Gyarados",
     "type": [
       "water",
       "flying"
@@ -6266,7 +7045,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -6279,10 +7061,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -6296,9 +7083,7 @@
       "speed": 81
     }
   },
-  {
-    "id": 131,
-    "name": "Lapras",
+  {    "id": 131,   "name": "Lapras",
     "type": [
       "water",
       "ice"
@@ -6315,7 +7100,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -6328,10 +7116,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -6345,9 +7138,7 @@
       "speed": 60
     }
   },
-  {
-    "id": 132,
-    "name": "Ditto",
+  {    "id": 132,   "name": "Ditto",
     "type": [
       "normal"
     ],
@@ -6363,7 +7154,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -6376,10 +7170,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -6393,9 +7192,7 @@
       "speed": 48
     }
   },
-  {
-    "id": 133,
-    "name": "Eevee",
+  {    "id": 133,   "name": "Eevee",
     "type": [
       "normal"
     ],
@@ -6411,7 +7208,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -6424,10 +7224,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -6441,9 +7246,7 @@
       "speed": 55
     }
   },
-  {
-    "id": 134,
-    "name": "Vaporeon",
+  {    "id": 134,   "name": "Vaporeon",
     "type": [
       "water"
     ],
@@ -6459,7 +7262,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -6472,10 +7278,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -6489,9 +7300,7 @@
       "speed": 65
     }
   },
-  {
-    "id": 135,
-    "name": "Jolteon",
+  {    "id": 135,   "name": "Jolteon",
     "type": [
       "electric"
     ],
@@ -6507,7 +7316,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -6520,10 +7332,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -6537,9 +7354,7 @@
       "speed": 130
     }
   },
-  {
-    "id": 136,
-    "name": "Flareon",
+  {    "id": 136,   "name": "Flareon",
     "type": [
       "fire"
     ],
@@ -6555,7 +7370,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -6568,10 +7386,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -6585,9 +7408,7 @@
       "speed": 65
     }
   },
-  {
-    "id": 137,
-    "name": "Porygon",
+  {    "id": 137,   "name": "Porygon",
     "type": [
       "normal"
     ],
@@ -6603,7 +7424,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -6616,10 +7440,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -6633,9 +7462,7 @@
       "speed": 40
     }
   },
-  {
-    "id": 138,
-    "name": "Omanyte",
+  {    "id": 138,   "name": "Omanyte",
     "type": [
       "rock",
       "water"
@@ -6652,7 +7479,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -6665,10 +7495,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -6682,9 +7517,7 @@
       "speed": 35
     }
   },
-  {
-    "id": 139,
-    "name": "Omastar",
+  {    "id": 139,   "name": "Omastar",
     "type": [
       "rock",
       "water"
@@ -6701,7 +7534,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -6714,10 +7550,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -6731,9 +7572,7 @@
       "speed": 55
     }
   },
-  {
-    "id": 140,
-    "name": "Kabuto",
+  {    "id": 140,   "name": "Kabuto",
     "type": [
       "rock",
       "water"
@@ -6750,7 +7589,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -6763,10 +7605,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -6780,9 +7627,7 @@
       "speed": 55
     }
   },
-  {
-    "id": 141,
-    "name": "Kabutops",
+  {    "id": 141,   "name": "Kabutops",
     "type": [
       "rock",
       "water"
@@ -6799,7 +7644,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -6812,10 +7660,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -6829,9 +7682,7 @@
       "speed": 80
     }
   },
-  {
-    "id": 142,
-    "name": "Aerodactyl",
+  {    "id": 142,   "name": "Aerodactyl",
     "type": [
       "rock",
       "flying"
@@ -6848,7 +7699,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -6861,10 +7715,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -6878,9 +7737,7 @@
       "speed": 130
     }
   },
-  {
-    "id": 143,
-    "name": "Snorlax",
+  {    "id": 143,   "name": "Snorlax",
     "type": [
       "normal"
     ],
@@ -6896,7 +7753,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -6909,10 +7769,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -6926,9 +7791,7 @@
       "speed": 30
     }
   },
-  {
-    "id": 144,
-    "name": "Articuno",
+  {    "id": 144,   "name": "Articuno",
     "type": [
       "ice",
       "flying"
@@ -6945,7 +7808,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -6958,10 +7824,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -6975,9 +7846,7 @@
       "speed": 85
     }
   },
-  {
-    "id": 145,
-    "name": "Zapdos",
+  {    "id": 145,   "name": "Zapdos",
     "type": [
       "electric",
       "flying"
@@ -6994,7 +7863,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -7007,10 +7879,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -7024,9 +7901,7 @@
       "speed": 100
     }
   },
-  {
-    "id": 146,
-    "name": "Moltres",
+  {    "id": 146,   "name": "Moltres",
     "type": [
       "fire",
       "flying"
@@ -7043,7 +7918,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -7056,10 +7934,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -7073,9 +7956,7 @@
       "speed": 90
     }
   },
-  {
-    "id": 147,
-    "name": "Dratini",
+  {    "id": 147,   "name": "Dratini",
     "type": [
       "dragon"
     ],
@@ -7091,7 +7972,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -7104,10 +7988,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -7121,9 +8010,7 @@
       "speed": 50
     }
   },
-  {
-    "id": 148,
-    "name": "Dragonair",
+  {    "id": 148,   "name": "Dragonair",
     "type": [
       "dragon"
     ],
@@ -7139,7 +8026,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -7152,10 +8042,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -7169,9 +8064,7 @@
       "speed": 70
     }
   },
-  {
-    "id": 149,
-    "name": "Dragonite",
+  {    "id": 149,   "name": "Dragonite",
     "type": [
       "dragon",
       "flying"
@@ -7188,7 +8081,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -7201,10 +8097,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -7218,9 +8119,7 @@
       "speed": 80
     }
   },
-  {
-    "id": 150,
-    "name": "Mewtwo",
+  {    "id": 150,   "name": "Mewtwo",
     "type": [
       "psychic"
     ],
@@ -7236,7 +8135,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -7249,10 +8151,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
@@ -7266,9 +8173,7 @@
       "speed": 130
     }
   },
-  {
-    "id": 151,
-    "name": "Mew",
+  {    "id": 151,   "name": "Mew",
     "type": [
       "psychic"
     ],
@@ -7284,7 +8189,10 @@
     "generation": "",
     "region": "",
     "evolveStone": "",
-    "boostStone": "",
+    "boostStone": : [
+      "",
+      ""
+    ],
     "boostIncrease": "",
     "variation": "yes or no (shiny? baby? mega?)",
     "fast": "",
@@ -7297,10 +8205,15 @@
       ""
     ],
     "loots": [
-      "",
-      ""
-    ],
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
     "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": [
       "",
       ""
     ],
