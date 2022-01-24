@@ -2,6 +2,7 @@ let warning
 let pokedexChilds
 let pokedexValues
 let pokemonTypes = []
+let pokemonClans = []
 const pokedexElement = document.querySelector('.pokedex')
 const filterName = document.querySelector('#filter-name')
 const filterType = document.querySelector('#filter-type')
@@ -68,6 +69,7 @@ function loadPokedex(pokedex, sort) {
   pokedexChilds = Array.from(pokedexElement.querySelectorAll('.pokemon'))
   warning = pokedexElement.querySelector('.warning')
   loadTypeFilter(pokemonTypes.uniq().sort())
+  loadClansFilter(pokemonClans.uniq().sort())
   pokedexValues = pokedex
 }
 
@@ -88,9 +90,13 @@ function pokemonCard(pokemon) {
   const types = pokemon.type
     .map(t => `<span class="pokemon-type background-${t}">${t}</span>`)
     .join('')
+  const clans = pokemon.clans
+    .map(t => `<span class="pokemon-clans background-${t}">${t}</span>`)
+    .join('')
   const img = pokemon.name.replace(/['\.]/g, '').replace(/\s/g, '-')
   pokemonTypes = pokemonTypes.concat(pokemon.type)
-  return `<div class="pokemon" data-name="${pokemon.name}" data-type="${pokemon.type}" tabindex="${pokemon.id}">
+  pokemonClans = pokemonClans.concat(pokemon.clans)
+  return `<div class="pokemon" data-name="${pokemon.name}" data-type="${pokemon.type}" data-clans="${pokemon.clans}" tabindex="${pokemon.id}">
       <figure class="pokemon-figure">
         <img src="img/${img.toLowerCase()}.png" alt="${pokemon.name}">
       </figure>
@@ -99,6 +105,7 @@ function pokemonCard(pokemon) {
         <h1 class="pokemon-name">${pokemon.name}</h1>
         <h2 class="pokemon-level">level: ${pokemon.level}</h1>
         <div class="pokemon-types">${types}</div>
+        <div class="pokemon-clans">${clans}</div>
       </section>
       <section class="pokemon-stats">${loadStats(pokemon.stats)}</section>
       <section class="pokemon-moves">${loadMoves(pokemon.moves)}</section>
@@ -107,6 +114,9 @@ function pokemonCard(pokemon) {
 
 function loadTypeFilter(types) {
   types.map(t => filterType.insertAdjacentHTML('beforeend', `<option>${t}</option>`))
+}
+function loadClansFilter(clans) {
+  clans.map(t => filterClans.insertAdjacentHTML('beforeend', `<option>${t}</option>`))
 }
 
 function loadStats(stats) {
