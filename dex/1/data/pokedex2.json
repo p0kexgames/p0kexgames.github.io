@@ -1,4 +1,89 @@
 [
+  {	"id": 1,   "name": "bulbasaur",
+    "type": ["grass", "poison"],
+    "clan": ["naturia", "malefic"],
+    "level": "20",
+    "price": "3000",
+    "xp": "10000",
+    "dificulty": "2",
+    "generation": "1",
+    "region": "Kanto",
+    "evolveStone": ["Leaf"],
+    "boostStone": ["Leaf", "Venom"],
+    "boostIncrease": "10",
+    "variation": "yes",
+    "fast": "no",
+    "heavy": "no",
+    "vip": "no",
+    "preEvo": "no",
+    "evo": "Ivysaur",
+    "moves": [
+            {"move":"ataqk1", "level":"20"},
+            {"move":"ataqk2", "level":"22"}
+    ],
+    "loots": [
+            {"item":"iten1", "qtd":"1", "percent":"2"},
+            {"item":"iten2", "qtd":"2", "percent":"10"},
+            {"item":"iten3", "qtd":"3", "percent":"raro"}
+        ],
+    "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": ["cut", ""],
+    "stats": {
+      "total": 318,
+      "hp": 45,
+      "attack": 49,
+      "defense": 49,
+      "sp-atk": 65,
+      "sp-def": 65,
+      "speed": 45
+    }
+  },
+  {	"id": 2,   "name": "ivysaur",
+    "type": ["grass", "poison"],
+    "clan": ["naturia", "malefic"],
+    "level": "40",
+    "price": "10000",
+    "xp": "50000",
+    "dificulty": "5",
+    "generation": "1",
+    "region": "Kanto",
+    "evolveStone": ["Leaf", "Venom"],
+    "boostStone": ["Leaf", "Venom"],
+    "boostIncrease": "5",
+    "variation": "no",
+    "fast": "no",
+    "heavy": "no",
+    "vip": "yes",
+    "preEvo": "bulbasaur",
+    "evo": "venusaur",
+    "moves": [
+            {"move":"ataqk1", "level":"40"},
+            {"move":"ataqk2", "level":"42"}
+    ],
+    "loots": [
+            {"item":"iten1", "qtd":"1", "percent":"2"},
+            {"item":"iten2", "qtd":"2", "percent":"10"},
+            {"item":"iten3", "qtd":"3", "percent":"raro"}
+        ],
+    "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": ["cut", "ride"],
+    "stats": {
+      "total": 318,
+      "hp": 45,
+      "attack": 49,
+      "defense": 49,
+      "sp-atk": 65,
+      "sp-def": 65,
+      "speed": 45
+    }
+  },
+  
   {	"id": 1,   "name": "",
     "type": ["", ""],
     "clan": ["", ""],
@@ -8,7 +93,7 @@
     "dificulty": "",
     "generation": "",
     "region": "",
-    "evolveStone": "",
+    "evolveStone": ["", ""],
     "boostStone": ["", ""],
     "boostIncrease": "",
     "variation": "",
