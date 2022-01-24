@@ -100,7 +100,6 @@ function pokemonCard(pokemon) {
         <div class="pokemon-types">${types}</div>
       </section>
       <section class="pokemon-stats">${loadStats(pokemon.stats)}</section>
-      <section class="pokemon-moves">${loadMoves(pokemon.moves)}</section>
     </div>`
 }
 
@@ -122,16 +121,6 @@ function loadStats(stats) {
     .join('')
 }
 
-function loadMoves(moves) {
-  return Object.entries(moves)
-    .map(([name, value]) =>
-      `<div class="move-row">
-        <div>${name}</div>
-        <div>${value}</div>
-      </div>`
-    )
-    .join('')
-}
 
 Array.prototype.uniq = function () {
   return this.filter(function (value, index, self) {
