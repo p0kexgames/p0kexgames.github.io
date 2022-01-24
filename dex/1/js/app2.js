@@ -102,13 +102,13 @@ function pokemonCard(pokemon) {
       <section class="pokemon-description">
         <span class="pokemon-id">#${Number(pokemon.id).toString().padStart(3, '0')}</span>
         <h1 class="pokemon-name">${pokemon.name}</h1>
-        <h1 class="pokemon-level">${pokemon.level}</h1>
+        <h1 class="pokemon-level">Level: ${pokemon.level}</h1>
         <div class="pokemon-types">${types}</div>
         <div class="pokemon-clans">${clans}</div>
       </section>
       <section class="pokemon-stats">${loadStats(pokemon.stats)}</section>
-      <section class="pokemon-description">
-        <span class="pokemon-price">$${Number(pokemon.price).toString().padStart(3, '0')}</span>
+      <section class="pokemon-description2">
+        <span class="pokemon-price">Price: $${Number(pokemon.price).toString().padStart(3, '0')}</span>
       </section>
     </div>`
 }
