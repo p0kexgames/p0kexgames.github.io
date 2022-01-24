@@ -107,6 +107,9 @@ function pokemonCard(pokemon) {
         <div class="pokemon-clans">${clans}</div>
       </section>
       <section class="pokemon-stats">${loadStats(pokemon.stats)}</section>
+      <section class="pokemon-description">
+        <span class="pokemon-price">$${Number(pokemon.price).toString().padStart(3, '0')}</span>
+      </section>
     </div>`
 }
 
