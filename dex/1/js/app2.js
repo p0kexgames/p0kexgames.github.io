@@ -2,6 +2,7 @@ let warning
 let pokedexChilds
 let pokedexValues
 let pokemonTypes = []
+let pokemonClans = []
 const pokedexElement = document.querySelector('.pokedex')
 const filterName = document.querySelector('#filter-name')
 const filterType = document.querySelector('#filter-type')
