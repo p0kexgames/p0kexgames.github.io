@@ -109,6 +109,7 @@ function pokemonCard(pokemon) {
       <section class="pokemon-stats">${loadStats(pokemon.stats)}</section>
       <section class="pokemon-description2">
         <span class="pokemon-price">Price: $${Number(pokemon.price).toString().padStart(3, '0')}</span>
+        <span class="pokemon-xp">XP: ${Number(pokemon.xp).toString().padStart(3, '0')}</span>
       </section>
     </div>`
 }
