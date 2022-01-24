@@ -7,7 +7,7 @@ const filterName = document.querySelector('#filter-name')
 const filterType = document.querySelector('#filter-type')
 const sortType = document.querySelector('#sort-type')
 
-fetch('data/pokedex.json')
+fetch('data/pokedex2.json')
   .then(res => res.json())
   .then(json => loadPokedex(json, sortType.value))
 
