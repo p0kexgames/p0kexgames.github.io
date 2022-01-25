@@ -112,7 +112,7 @@ function pokemonCard(pokemon) {
         <span class="pokemon-xp">XP: ${Number(pokemon.xp).toString().padStart(3, '0')}</span>
         <div class="container">
           <div class="dif-lvl-out">
-            <div class="dif-lvl lvl${pokemon.dificulty}">${pokemon.dificulty}</div>
+            <div class="dif-lvl lvl${pokemon.dificulty}">Dificulty ${pokemon.dificulty}</div>
           </div>
         </div>
           
