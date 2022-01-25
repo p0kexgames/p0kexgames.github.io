@@ -84,6 +84,54 @@
     }
   },
   
+  
+  {	"id": 3,   "name": "Venusaur",
+    "type": ["", ""],
+    "clan": ["", ""],
+    "level": "",
+    "price": "",
+    "xp": "",
+    "dificulty": "",
+    "generation": "",
+    "region": "",
+    "evolveStone": ["", ""],
+    "boostStone": ["", ""],
+    "boostIncrease": "",
+    "variation": "",
+    "fast": "",
+    "heavy": "",
+    "vip": "",
+    "preEvo": "",
+    "evo": "",
+    "moves": [
+            {"move":"", "level":""},
+            {"move":"", "level":""}
+    ],
+    "loots": [
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""},
+            {"item":"", "qtd":"", "percent":""}
+        ],
+    "maps": [
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
+            {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
+    ],
+    "ability": ["", ""],
+    "stats": {
+      "total": 318,
+      "hp": 45,
+      "attack": 49,
+      "defense": 49,
+      "sp-atk": 65,
+      "sp-def": 65,
+      "speed": 45
+    }
+  }
+ 
+ 
+ 
+ 
+  
   {	"id": 10,   "name": "",
     "type": ["", ""],
     "clan": ["", ""],
