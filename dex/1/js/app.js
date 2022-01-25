@@ -113,10 +113,8 @@ function pokemonCard(pokemon) {
         <span class="pokemon-id">#${Number(pokemon.id).toString().padStart(3, '0')}</span>
         <h1 class="pokemon-name">${pokemon.name}</h1>
         <h1 class="pokemon-level">Level: ${pokemon.level}</h1>
-        <div class="pokemon-types">${types}</div>
         <div class="pokemon-clans">${clans}</div>
-        <div class="pokemon-boost-stones">${boostStones}</div>
-        <div class="pokemon-evolve-stones">${evolveStones}</div>
+        <div class="pokemon-types">${types}</div>
       </section>
       <section class="pokemon-stats">${loadStats(pokemon.stats)}</section>
       <section class="pokemon-description2">
@@ -131,6 +129,9 @@ function pokemonCard(pokemon) {
 		 <div class="container generation region">
             <div class="generation${pokemon.generation}">Generation ${pokemon.generation} (${pokemon.region})</div>
          </div>
+		 
+        <div class="pokemon-boost-stones">${boostStones}</div>
+        <div class="pokemon-evolve-stones">${evolveStones}</div>
       </section>
     </div>`
 } 
