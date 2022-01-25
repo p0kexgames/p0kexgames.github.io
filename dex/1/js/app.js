@@ -111,14 +111,14 @@ function pokemonCard(pokemon) {
       </figure>
       <section class="pokemon-description">
         <h2 class="pokemon-name"><span class="pokemon-id">#${Number(pokemon.id).toString().padStart(3, '0')}</span> ${pokemon.name}</h2>
+        <span class="pokemon-price">Price: $${Number(pokemon.price).toString().padStart(3, '0')}</span>
+        <span class="pokemon-xp">XP: ${Number(pokemon.xp).toString().padStart(3, '0')}</span>
         <h3 class="pokemon-level">Level: ${pokemon.level}</h3>
         <div class="pokemon-clans">${clans}</div>
         <div class="pokemon-types">${types}</div>
       </section>
       <section class="pokemon-stats">${loadStats(pokemon.stats)}</section>
       <section class="pokemon-description2">
-        <span class="pokemon-price">Price: $${Number(pokemon.price).toString().padStart(3, '0')}</span>
-        <span class="pokemon-xp">XP: ${Number(pokemon.xp).toString().padStart(3, '0')}</span>
         <div class="container dificulty">
           <div class="dif-lvl-out">
             <div class="dif-lvl lvl${pokemon.dificulty}">Dificulty ${pokemon.dificulty}</div>
