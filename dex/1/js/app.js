@@ -129,7 +129,7 @@ function pokemonCard(pokemon) {
             <div class="generation${pokemon.generation}">Generation ${pokemon.generation} (${pokemon.region})</div>
          </div>
 		 
-        <div class="pokemon-boost-stones">Boost: ${boostStones}</div>
+        <div class="pokemon-boost-stones">Boost: ${boostStones} (x${pokemon.boostIncrease})</div>
         <div class="pokemon-evolve-stones">Evolve ${evolveStones}</div>
       </section>
     </div>`
