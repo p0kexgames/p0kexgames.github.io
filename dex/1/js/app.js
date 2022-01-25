@@ -110,8 +110,8 @@ function pokemonCard(pokemon) {
         <img src="img/${img.toLowerCase()}.png" alt="${pokemon.name}">
       </figure>
       <section class="pokemon-description">
-        <h1 class="pokemon-name"><span class="pokemon-id">#${Number(pokemon.id).toString().padStart(3, '0')}</span> ${pokemon.name}</h1>
-        <h2 class="pokemon-level">Level: ${pokemon.level}</h1>
+        <h2 class="pokemon-name"><span class="pokemon-id">#${Number(pokemon.id).toString().padStart(3, '0')}</span> ${pokemon.name}</h2>
+        <h3 class="pokemon-level">Level: ${pokemon.level}</h3>
         <div class="pokemon-clans">${clans}</div>
         <div class="pokemon-types">${types}</div>
       </section>
