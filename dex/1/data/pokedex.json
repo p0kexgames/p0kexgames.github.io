@@ -108,7 +108,7 @@
     "loots": [
             {"item":"Leaf Stone", "qtd":"1-1", "percent":"raro"},
             {"item":"Venom Stone", "qtd":"1-1", "percent":"raro"},
-            {"item":"seed", "qtd":"10-40", "percent":"20"}
+            {"item":"seed", "qtd":"10-40", "percent":"80"}
         ],
     "maps": [
             {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},

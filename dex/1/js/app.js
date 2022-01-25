@@ -5,6 +5,7 @@ let pokemonTypes = []
 let pokemonClans = []
 let pokemonEvolveStone = []
 let pokemonBoostStone = []
+let pokemonClans = []
 const pokedexElement = document.querySelector('.pokedex')
 const filterName = document.querySelector('#filter-name')
 const filterType = document.querySelector('#filter-type')
@@ -97,6 +98,9 @@ function pokemonCard(pokemon) {
   const boostStones = pokemon.boostStone
     .map(t => `<span class="pokemon-boost-stone background-${t}">${t}</span>`)
     .join(' or ')
+  const moves = pokemon.moves
+    .map(t => `<span class="pokemon-type background-${t}">${t}</span>`)
+    .join('')
   const evolveStones = pokemon.evolveStone
     .map(t => `<span class="pokemon-evolve-stone background-${t}">${t}</span>`)
     .join(' + ')
@@ -105,6 +109,7 @@ function pokemonCard(pokemon) {
   pokemonClans = pokemonClans.concat(pokemon.clan)
   pokemonBoostStone = pokemonBoostStone.concat(pokemon.boostStone)
   pokemonEvolveStone = pokemonEvolveStone.concat(pokemon.evolveStone)
+  pokemonMoves = pokemonMoves.concat(pokemon.moves)
   return `<div class="pokemon" data-name="${pokemon.name}" data-type="${pokemon.type}" data-clan="${pokemon.clan}" tabindex="${pokemon.id}">
       <figure class="pokemon-figure">
         <img src="img/${img.toLowerCase()}.png" alt="${pokemon.name}">
@@ -138,6 +143,10 @@ function pokemonCard(pokemon) {
         <div class="pokemon-vip">vip ${pokemon.vip}</div>
         <div class="pokemon-preEvo">pre evolution ${pokemon.preEvo}</div>
         <div class="pokemon-Evo">Evolution ${pokemon.evo}</div>
+      </section>
+	  
+      <section class="pokemon-moves">
+		<div class="pokemon-move">${moves}</div>
       </section>
     </div>`
 } 
