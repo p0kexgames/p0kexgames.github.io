@@ -110,12 +110,18 @@ function pokemonCard(pokemon) {
       <section class="pokemon-description2">
         <span class="pokemon-price">Price: $${Number(pokemon.price).toString().padStart(3, '0')}</span>
         <span class="pokemon-xp">XP: ${Number(pokemon.xp).toString().padStart(3, '0')}</span>
-        <div class="container">
+        <div class="container dificulty">
           <div class="dif-lvl-out">
             <div class="dif-lvl lvl${pokemon.dificulty}">Dificulty ${pokemon.dificulty}</div>
           </div>
         </div>
-          
+		
+		 <div class="container generation">
+            <div class="generation${pokemon.generation}">Generation ${pokemon.generation}</div>
+         </div>
+		 <div class="container region">
+            <div class="region${pokemon.region}">Region ${pokemon.region}</div>
+         </div>
       </section>
     </div>`
 } 
