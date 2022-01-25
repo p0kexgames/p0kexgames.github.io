@@ -83,8 +83,6 @@
       "speed": 45
     }
   },
-  
-  
   {	"id": 3,   "name": "Venusaur",
     "type": ["grass", "poison"],
     "clan": ["naturia", "malefic"],
@@ -130,9 +128,7 @@
  
  
  
- 
-  
-  {	"id": 10,   "name": "",
+  {	"id": 0,   "name": "",
     "type": ["", ""],
     "clan": ["", ""],
     "level": "",
