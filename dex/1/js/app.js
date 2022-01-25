@@ -99,7 +99,7 @@ function pokemonCard(pokemon) {
     .join('')
   const evolveStones = pokemon.evolveStone
     .map(t => `<span class="pokemon-evolve-stone background-${t}">${t}</span>`)
-    .join('')
+    .join('+')
   const img = pokemon.name.replace(/['\.]/g, '').replace(/\s/g, '-')
   pokemonTypes = pokemonTypes.concat(pokemon.type)
   pokemonClans = pokemonClans.concat(pokemon.clan)
