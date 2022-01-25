@@ -109,7 +109,7 @@ function pokemonCard(pokemon) {
   pokemonClans = pokemonClans.concat(pokemon.clan)
   pokemonBoostStone = pokemonBoostStone.concat(pokemon.boostStone)
   pokemonEvolveStone = pokemonEvolveStone.concat(pokemon.evolveStone)
-  pokemonMoves = pokemonMoves(pokemon.moves)
+  //pokemonMoves = pokemonMoves(pokemon.moves)
   return `<div class="pokemon" data-name="${pokemon.name}" data-type="${pokemon.type}" data-clan="${pokemon.clan}" tabindex="${pokemon.id}">
       <figure class="pokemon-figure">
         <img src="img/${img.toLowerCase()}.png" alt="${pokemon.name}">
