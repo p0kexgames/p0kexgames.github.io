@@ -310,6 +310,7 @@ main {
   padding-bottom: 10px; /* Add bottom padding */
   color: white; /* White text color */
   position:relative;
+  white-space: nowrap;
   text-shadow: #000 0px 0px 10px, #000 0px 0px 10px, #000 0px 0px 10px, #000 0px 0px 10px, #000 0px 0px 10px, #000 0px 0px 10px, -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
   
 }
