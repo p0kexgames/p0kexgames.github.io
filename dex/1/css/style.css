@@ -301,16 +301,18 @@ main {
   background-color: #ddd; /* Grey background */
 }
 
-.dif-lvl {
+.dif-lvl-out {
   text-align: right; /* Right-align text */
   padding-top: 10px; /* Add top padding */
   padding-bottom: 10px; /* Add bottom padding */
   color: white; /* White text color */
   position:relative;
+  text-shadow: #000 0px 0px 10px, #000 0px 0px 10px, #000 0px 0px 10px, #000 0px 0px 10px, #000 0px 0px 10px, #000 0px 0px 10px, -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  
 }
 
 .dif-lvl.lvl5 {width: 90%; background-color: #f44336;} /* Red */
-.dif-lvl.lvl4 {width: 72%; background-color: orange;} /* yellow */
-.dif-lvl.lvl3 {width: 56%; background-color: yellow;} /* Red */
-.dif-lvl.lvl2 {width: 36%; background-color: navy;} /* Dark Grey */
+.dif-lvl.lvl4 {width: 72%; background-color: orange;} /*  */
+.dif-lvl.lvl3 {width: 56%; background-color: yellow;} /*  */
+.dif-lvl.lvl2 {width: 36%; background-color: navy;} /*  */
 .dif-lvl.lvl1 {width: 18%; background-color: #04AA6D;} /* Green */
