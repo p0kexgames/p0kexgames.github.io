@@ -3,6 +3,8 @@ let pokedexChilds
 let pokedexValuesf
 let pokemonTypes = []
 let pokemonClans = []
+let pokemonEvolveStone = []
+let pokemonBoostStone = []
 const pokedexElement = document.querySelector('.pokedex')
 const filterName = document.querySelector('#filter-name')
 const filterType = document.querySelector('#filter-type')
@@ -92,9 +94,17 @@ function pokemonCard(pokemon) {
   const clans = pokemon.clan
     .map(t => `<span class="pokemon-clan background-${t}">${t}</span>`)
     .join('')
+  const boostStones = pokemon.boostStone
+    .map(t => `<span class="pokemon-boost-stone background-${t}">${t}</span>`)
+    .join('')
+  const evolveStones = pokemon.evolveStone
+    .map(t => `<span class="pokemon-evolve-stone background-${t}">${t}</span>`)
+    .join('')
   const img = pokemon.name.replace(/['\.]/g, '').replace(/\s/g, '-')
   pokemonTypes = pokemonTypes.concat(pokemon.type)
   pokemonClans = pokemonClans.concat(pokemon.clan)
+  pokemonBoostStone = pokemonBoostStone.concat(pokemon.boostStone)
+  pokemonEvolveStone = pokemonEvolveStone.concat(pokemon.evolveStone)
   return `<div class="pokemon" data-name="${pokemon.name}" data-type="${pokemon.type}" data-clan="${pokemon.clan}" tabindex="${pokemon.id}">
       <figure class="pokemon-figure">
         <img src="img/${img.toLowerCase()}.png" alt="${pokemon.name}">
@@ -105,6 +115,8 @@ function pokemonCard(pokemon) {
         <h1 class="pokemon-level">Level: ${pokemon.level}</h1>
         <div class="pokemon-types">${types}</div>
         <div class="pokemon-clans">${clans}</div>
+        <div class="pokemon-boost-stones">${boost-stones}</div>
+        <div class="pokemon-evolve-stones">${evolve-stones}</div>
       </section>
       <section class="pokemon-stats">${loadStats(pokemon.stats)}</section>
       <section class="pokemon-description2">
@@ -116,11 +128,8 @@ function pokemonCard(pokemon) {
           </div>
         </div>
 		
-		 <div class="container generation">
-            <div class="generation${pokemon.generation}">Generation ${pokemon.generation}</div>
-         </div>
-		 <div class="container region">
-            <div class="region${pokemon.region}">Region ${pokemon.region}</div>
+		 <div class="container generation region">
+            <div class="generation${pokemon.generation}">Generation ${pokemon.generation} (${pokemon.region})</div>
          </div>
       </section>
     </div>`
