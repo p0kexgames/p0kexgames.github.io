@@ -301,6 +301,9 @@ main {
   background-color: #ddd; /* Grey background */
 }
 
+.dif-lvl-out {
+	border: 1px solid gray;
+}
 .dif-lvl {
   text-align: right; /* Right-align text */
   padding-top: 10px; /* Add top padding */
@@ -311,8 +314,8 @@ main {
   
 }
 
-.dif-lvl.lvl5 {width: 90%; background-color: #f44336;} /* Red */
+.dif-lvl.lvl5 {width: 95%; background-color: #f44336;} /* Red */
 .dif-lvl.lvl4 {width: 72%; background-color: orange;} /*  */
 .dif-lvl.lvl3 {width: 56%; background-color: yellow;} /*  */
-.dif-lvl.lvl2 {width: 36%; background-color: navy;} /*  */
+.dif-lvl.lvl2 {width: 36%; background-color: blue;} /*  */
 .dif-lvl.lvl1 {width: 18%; background-color: #04AA6D;} /* Green */
