@@ -296,3 +296,21 @@ main {
   color: #fff;
   padding: 0 .2rem;
 }
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.dif-lvl {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+  position:relative;
+}
+
+.dif-lvl.lvl5 {width: 90%; background-color: #f44336;} /* Red */
+.dif-lvl.lvl4 {width: 72%; background-color: orange;} /* yellow */
+.dif-lvl.lvl3 {width: 56%; background-color: yellow;} /* Red */
+.dif-lvl.lvl2 {width: 36%; background-color: navy;} /* Dark Grey */
+.dif-lvl.lvl1 {width: 18%; background-color: #04AA6D;} /* Green */
