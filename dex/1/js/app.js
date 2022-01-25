@@ -115,8 +115,8 @@ function pokemonCard(pokemon) {
         <h1 class="pokemon-level">Level: ${pokemon.level}</h1>
         <div class="pokemon-types">${types}</div>
         <div class="pokemon-clans">${clans}</div>
-        <div class="pokemon-boost-stones">${boost-stones}</div>
-        <div class="pokemon-evolve-stones">${evolve-stones}</div>
+        <div class="pokemon-boost-stones">${boostStones}</div>
+        <div class="pokemon-evolve-stones">${evolveStones}</div>
       </section>
       <section class="pokemon-stats">${loadStats(pokemon.stats)}</section>
       <section class="pokemon-description2">
