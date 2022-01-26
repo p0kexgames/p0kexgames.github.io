@@ -147,7 +147,6 @@ function pokemonCard(pokemon) {
 	  
       <section class="pokemon-moves">
 		<div class="pokemon-move">${pokemonMoves}</div>
-      <section class="pokemon-move">${loadMoves(pokemon.moves)}</section>
       </section>
     </div>`
 } 
@@ -164,19 +163,6 @@ function loadStats(stats) {
         <div>${name}</div>
         <div class="stat-bar">
           <div class="stat-bar-bg" style="width: ${100*value/250}%">${value}</div>
-        </div>
-      </div>`
-    )
-    .join('')
-} 
-function loadMoves(moves) {
-  return Object.entries(moves)
-    .filter(([name, value]) => !['move'].includes(name))
-    .map(([name, value]) =>
-      `<div class="stat-row">
-        <div>${name}</div>
-        <div class="stat-bar">
-          <div>${value}</div>
         </div>
       </div>`
     )
