@@ -87,8 +87,9 @@ function sortPokedex(pokedex, sort) {
       return pokedex.sort((a, b) => a.name > b.name ? -1 : a.name < b.name ? 1 : 0)
   }
 }
-
+//books.map((book) => book.shelves.map((shelf) => shelf.category));
 function pokemonCard(pokemon) {
+
   const types = pokemon.type
     .map(t => `<span class="pokemon-type background-${t}">${t}</span>`)
     .join('')
@@ -109,7 +110,6 @@ function pokemonCard(pokemon) {
   pokemonClans = pokemonClans.concat(pokemon.clan)
   pokemonBoostStone = pokemonBoostStone.concat(pokemon.boostStone)
   pokemonEvolveStone = pokemonEvolveStone.concat(pokemon.evolveStone)
-  //pokemonMoves = pokemonMoves(pokemon.moves)
   return `<div class="pokemon" data-name="${pokemon.name}" data-type="${pokemon.type}" data-clan="${pokemon.clan}" tabindex="${pokemon.id}">
       <figure class="pokemon-figure">
         <img src="img/${img.toLowerCase()}.png" alt="${pokemon.name}">
