@@ -89,7 +89,7 @@ function sortPokedex(pokedex, sort) {
 }
 //books.map((book) => book.shelves.map((shelf) => shelf.category));
 function pokemonCard(pokemon) {
-  const alertmoves = pokemon['moves'][0]['move'];
+  const alertmoves = pokemon['moves']['move'][0]+' '+[1];
   alert(alertmoves);
   const types = pokemon.type
     .map(t => `<span class="pokemon-type background-${t}">${t}</span>`)
