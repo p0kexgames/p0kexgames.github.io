@@ -18,13 +18,13 @@
     "preEvo": "no",
     "evo": "Ivysaur",
     "moves": [
-            {"ataqk1","20"},
-            {"ataqk2","22"}
+            {"move":"ataqk1", "level":"20"},
+            {"move":"ataqk2", "level":"22"}
     ],
     "loots": [
-            {"iten1","1-10", "2%"},
-            {"iten2","2-15", "10%"},
-            {"iten3","1-1", "raro%"},
+            {"item":"iten1", "qtd":"1", "percent":"2"},
+            {"item":"iten2", "qtd":"2", "percent":"10"},
+            {"item":"iten3", "qtd":"3", "percent":"raro"}
         ],
     "maps": [
             {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
@@ -60,13 +60,13 @@
     "preEvo": "bulbasaur",
     "evo": "venusaur",
     "moves": [
-            {"ataqk1","20"},
-            {"ataqk2","22"}
+            {"move":"ataqk1", "level":"40"},
+            {"move":"ataqk2", "level":"42"}
     ],
     "loots": [
-            {"iten1","1-10", "2%"},
-            {"iten2","2-15", "10%"},
-            {"iten3","1-1", "raro%"},
+            {"item":"iten1", "qtd":"1", "percent":"2"},
+            {"item":"iten2", "qtd":"2", "percent":"10"},
+            {"item":"iten3", "qtd":"3", "percent":"raro"}
         ],
     "maps": [
             {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
@@ -101,14 +101,14 @@
     "vip": "yes",
     "preEvo": "Ivysaur",
     "evo": "",
-     "moves": [
-            {"Leech seed","20"},
-            {"LEaf storm","22"}
+    "moves": [
+            {"move":"atakq1", "level":"80"},
+            {"move":"ataque2", "level":"85"}
     ],
     "loots": [
-            {"poison of","1-10", "2%"},
-            {"seed","2-15", "10%"},
-            {"leaf stone","1-1", "raro%"},
+            {"item":"Leaf Stone", "qtd":"1-1", "percent":"raro"},
+            {"item":"Venom Stone", "qtd":"1-1", "percent":"raro"},
+            {"item":"seed", "qtd":"10-40", "percent":"80"}
         ],
     "maps": [
             {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""},
