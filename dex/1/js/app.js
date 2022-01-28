@@ -173,13 +173,16 @@ function loadStats(stats) {
 } 
 
 
-function loadMoves(moves) {
-	for( var i=0; i<moves.length; i++) {
-          var text1 = moves[0];
-          var text2 = moves[1];
-		  alert(text1);
-		  alert(text2);
-	}
+function loadMoves(move) {
+	for( var i=0; i<move.length; i++)
+	.map(([name, value]) =>
+      `<div class="move-row">
+        <div>NAME : ${name}</div>
+        <div>VALUE ${value}</div>
+		
+      </div>`
+    )
+    .join('')
     
 } 
 
