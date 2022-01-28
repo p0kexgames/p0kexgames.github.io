@@ -190,7 +190,6 @@ function loadMoves(moves) {
 			
 	 </div>`
     
-    .join('')
     
 	} 
 }
