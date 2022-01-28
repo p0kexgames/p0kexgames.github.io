@@ -189,7 +189,7 @@ function loadMoves(moves) {
 			<div>LEVEL2 : ${level2}</div>
 			
 	 </div>`
-    )
+    
     .join('')
     
 	} 
