@@ -181,6 +181,13 @@ function loadMoves(move) {
 			<div>NAME : ${name}</div>
 			<div>VALUE ${value}</div>
 			
+			<div>pokemon['moves'][0]['move']</div>
+			<div>pokemon['moves'][1]['move']</div>
+			
+			<div>pokemon['moves'][0]['level']</div>
+			<div>pokemon['moves'][1]['level']</div>
+			
+			
 			
 	 </div>`
     )
