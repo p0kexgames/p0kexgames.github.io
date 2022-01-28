@@ -89,8 +89,6 @@ function sortPokedex(pokedex, sort) {
 }
 //books.map((book) => book.shelves.map((shelf) => shelf.category));
 function pokemonCard(pokemon) {
-  const alertmoves = pokemon['moves']['move'][0];
-  alert(alertmoves);
   const types = pokemon.type
     .map(t => `<span class="pokemon-type background-${t}">${t}</span>`)
     .join('')
@@ -100,9 +98,12 @@ function pokemonCard(pokemon) {
   const boostStones = pokemon.boostStone
     .map(t => `<span class="pokemon-boost-stone background-${t}">${t}</span>`)
     .join(' or ')
-  const pokemonMoves = pokemon.moves
-    .map(t => `<span class="pokemon-moves background-${t}">${t}</span>`)
-    .join('')
+	const moves = pokemon.moves
+  //const pokemonMoves = pokemon.moves
+  //  .map(t => `<span class="pokemon-moves background-${t}">${t}</span>`)
+  //  .join('')
+ // const alertmoves = pokemon['moves'][0]['move'];
+ // alert(alertmoves);
   const evolveStones = pokemon.evolveStone
     .map(t => `<span class="pokemon-evolve-stone background-${t}">${t}</span>`)
     .join(' + ')
@@ -148,6 +149,7 @@ function pokemonCard(pokemon) {
 	  
       <section class="pokemon-moves">
 		<div class="pokemon-move">${pokemonMoves}</div>
+		<div class="pokemon-move">${loadMoves(pokemon.moves)}</div>
       </section>
     </div>`
 } 
@@ -170,15 +172,17 @@ function loadStats(stats) {
     .join('')
 } 
 
-function loadDificulty(dificulty) {
-  return 
-      `<div class="stat-row">
-        <div class="stat-bar">
-          <div class="stat-bar-bg" style="width: ${100*value/250}%">${value}</div>
-        </div>
-      </div>`
+
+function loadMoves(moves) {
+	for( var i=0; i<moves.length; i++) {
+          var text1 = moves[0];
+          var text2 = moves[1];
+		  alert(text1);
+		  alert(text2);
+	}
     
 } 
+
 
 
 Array.prototype.uniq = function () {
