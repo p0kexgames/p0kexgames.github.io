@@ -174,20 +174,20 @@ function loadStats(stats) {
 
 
 function loadMoves(move) {
-  return Object.entries(move)
+	for( var i=0; i<move.length; i++) {
+	return Object.entries(move)
 	.map(([name, value]) =>
-		for( var i=0; i<move.length; i++) {
-		  `<div class="move-row">
+	 `<div class="move-row">
 			<div>NAME : ${name}</div>
 			<div>VALUE ${value}</div>
 			
-		  </div>`
-		}
+			
+	 </div>`
     )
     .join('')
     
-} 
-
+	} 
+}
 
 
 Array.prototype.uniq = function () {
