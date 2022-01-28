@@ -174,7 +174,7 @@ function loadStats(stats) {
 
 
 function loadMoves(move) {
-	for( var i=0; i<move.length; i++)
+	for( var i=0; i<move.length; i++) {
 	.map(([name, value]) =>
       `<div class="move-row">
         <div>NAME : ${name}</div>
@@ -182,6 +182,7 @@ function loadMoves(move) {
 		
       </div>`
     )
+	}
     .join('')
     
 } 
