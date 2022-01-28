@@ -181,9 +181,7 @@ function loadMoves(moves) {
 	const level1 = moves[0]['level'];
 	const level2 = moves[1]['level'];
 	
-	return Object.entries(move)
-	.map(([name, value]) =>
-	 `<div class="move-row">
+	return `<div class="move-row">
 			<div>MOVE1 : ${move1}</div>
 			<div>MOVE2 : ${move2}</div>
 			
