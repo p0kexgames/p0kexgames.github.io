@@ -173,13 +173,13 @@ function loadStats(stats) {
 } 
 
 
-function loadMoves(move) {
-	for( var i=0; i<move.length; i++) {
-	const move1 = pokemon['moves'][0]['move'];
-	const move2 = pokemon['moves'][1]['move'];
+function loadMoves(moves) {
+	for( var i=0; i<moves.length; i++) {
+	const move1 = moves[0]['move'];
+	const move2 = moves[1]['move'];
 	
-	const level1 = pokemon['moves'][0]['level'];
-	const level2 = pokemon['moves'][1]['level'];
+	const level1 = moves[0]['level'];
+	const level2 = moves[1]['level'];
 	
 	return Object.entries(move)
 	.map(([name, value]) =>
