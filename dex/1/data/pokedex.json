@@ -103,7 +103,8 @@
     "evo": "",
     "moves": [
             {"move":"atakq1", "level":"80"},
-            {"move":"ataque2", "level":"85"}
+            {"move":"ataque2", "level":"85"},
+            {"move":"ataque3", "level":"passiva"}
     ],
     "loots": [
             {"item":"Leaf Stone", "qtd":"1-1", "percent":"raro"},

@@ -175,18 +175,50 @@ function loadStats(stats) {
 
 function loadMoves(moves) {
 	for( var i=0; i<moves.length; i++) {
-	const move1 = moves[0]['move'];
-	const move2 = moves[1]['move'];
+		if (move1 != " " && move1 != "") {
+			const move1 = moves[0]['move'];
+		} else {
+			const move1 = '';
+		}
 	
-	const level1 = moves[0]['level'];
-	const level2 = moves[1]['level'];
+		if (move2 != " " && move2 != "") {
+			const move2 = moves[1]['move'];
+		} else {
+			const move2 = '';
+		}
+		
+		if (move3 != " " && move3 != "") {
+			const move3 = moves[2]['move'];
+		} else {
+			const move3 = '';
+		}
+		
+		
+		
+		if (level1 != " " && level1 != "") {
+			const level1 = moves[0]['level'];
+		} else {
+			const level1 = '';
+		}
+		
+		if (level2 != " " && level2 != "") {
+			const level2 = moves[1]['level'];
+		} else {
+			const level2 = '';
+		}
+		
+		if (level3 != " " && level3 != "") {
+			const level3 = moves[2]['level'];
+		} else {
+			const level3 = '';
+		}
+	
 	
 	return `<div class="move-row">
-			<div>MOVE1 : ${move1}</div>
-			<div>MOVE2 : ${move2}</div>
+			<div>${move1} lvl:${level1}</div>
+			<div>${move2} lvl:${level2}</div>
+			<div>${move3} lvl:${level3}</div>
 			
-			<div>LEVEL1 : ${level1}</div>
-			<div>LEVEL2 : ${level2}</div>
 			
 	 </div>`
     
