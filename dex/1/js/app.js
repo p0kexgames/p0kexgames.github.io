@@ -176,47 +176,14 @@ function loadStats(stats) {
 function loadMoves(moves) {
 	for( var i=0; i<moves.length; i++) {
 		const move1 = moves[0]['move'];
-		if (move1 != " " && move1 != "" && move1 != null) {
-			const move1 = moves[0]['move'];
-		} else {
-			const move1 = '';
-		}
-		
 		const move2 = moves[1]['move'];
-		if (move2 != " " && move2 != "" && move2 != null) {
-			const move2 = moves[0]['move'];
-		} else {
-			const move2 = '';
-		}
-		
 		const move3 = moves[2]['move'];
-		if (move3 != " " && move3 != "" && move3 != null) {
-			const move3 = moves[0]['move'];
-		} else {
-			const move3 = '';
-		}
+		
 		
 		
 		const level1 = moves[0]['level'];
-		if (level1 != " " && level1 != "" && level1 != null) {
-			const level1 = moves[2]['level'];
-		} else {
-			const level1 = '';
-		}
-		
 		const level2 = moves[1]['level'];
-		if (level2 != " " && level2 != "" && level2 != null) {
-			const level2 = moves[2]['level'];
-		} else {
-			const level2 = '';
-		}
-		
 		const level3 = moves[2]['level'];
-		if (level3 != " " && level3 != "" && level3 != null) {
-			const level3 = moves[2]['level'];
-		} else {
-			const level3 = '';
-		}
 	
 	
 	return `<div class="move-row">
