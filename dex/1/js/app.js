@@ -175,19 +175,20 @@ function loadStats(stats) {
 
 function loadMoves(move) {
 	for( var i=0; i<move.length; i++) {
+	const move1 = pokemon['moves'][0]['move'];
+	const move2 = pokemon['moves'][1]['move'];
+	
+	const level1 = pokemon['moves'][0]['level'];
+	const level2 = pokemon['moves'][1]['level'];
+	
 	return Object.entries(move)
 	.map(([name, value]) =>
 	 `<div class="move-row">
-			<div>NAME : ${name}</div>
-			<div>VALUE ${value}</div>
+			<div>MOVE1 : ${move1}</div>
+			<div>MOVE2 : ${move2}</div>
 			
-			<div>pokemon['moves'][0]['move']</div>
-			<div>pokemon['moves'][1]['move']</div>
-			
-			<div>pokemon['moves'][0]['level']</div>
-			<div>pokemon['moves'][1]['level']</div>
-			
-			
+			<div>LEVEL1 : ${level1}</div>
+			<div>LEVEL2 : ${level2}</div>
 			
 	 </div>`
     )
