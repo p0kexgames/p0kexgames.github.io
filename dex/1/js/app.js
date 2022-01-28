@@ -175,19 +175,19 @@ function loadStats(stats) {
 
 function loadMoves(moves) {
 	for( var i=0; i<moves.length; i++) {
-		if (moves[0]['move'] != " " && moves[0]['move'] != "") {
+		if (moves[0]['move'] != " " && moves[0]['move'] != "" && moves[0]['move'] != null) {
 			const move1 = moves[0]['move'];
 		} else {
 			const move1 = '';
 		}
 	
-		if (moves[1]['move'] != " " && moves[1]['move'] != "") {
+		if (moves[1]['move'] != " " && moves[1]['move'] != "" && moves[1]['move'] != null) {
 			const move2 = moves[1]['move'];
 		} else {
 			const move2 = '';
 		}
 		
-		if (moves[2]['move'] != " " && moves[2]['move'] != "") {
+		if (moves[2]['move'] != " " && moves[2]['move'] != "" && moves[2]['move'] != null) {
 			const move3 = moves[2]['move'];
 		} else {
 			const move3 = '';
@@ -195,19 +195,19 @@ function loadMoves(moves) {
 		
 		
 		
-		if (moves[0]['level'] != " " && moves[0]['level'] != "") {
+		if (moves[0]['level'] != " " && moves[0]['level'] != "" && moves[0]['level'] != null) {
 			const level1 = moves[0]['level'];
 		} else {
 			const level1 = '';
 		}
 		
-		if (moves[1]['level'] != " " && moves[1]['level'] != "") {
+		if (moves[1]['level'] != " " && moves[1]['level'] != "" && moves[1]['level'] != null) {
 			const level2 = moves[1]['level'];
 		} else {
 			const level2 = '';
 		}
 		
-		if (moves[2]['level'] != " " && moves[2]['level'] != "") {
+		if (moves[2]['level'] != " " && moves[2]['level'] != "" && moves[2]['level'] != null) {
 			const level3 = moves[2]['level'];
 		} else {
 			const level3 = '';
