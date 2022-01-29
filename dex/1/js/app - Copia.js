@@ -95,17 +95,15 @@ function pokemonCard(pokemon) {
   const clans = pokemon.clan
     .map(t => `<span class="pokemon-clan background-${t}">${t}</span>`)
     .join('')
-	const pokemonMoves = pokemon.moves
-    .map(t => `<span class="pokemon-move background-${t}">${t}</span>`)
-    .join('')
+  const boostStones = pokemon.boostStone
+    .map(t => `<span class="pokemon-boost-stone background-${t}">${t}</span>`)
+    .join(' or ')
+	const moves = pokemon.moves
   //const pokemonMoves = pokemon.moves
   //  .map(t => `<span class="pokemon-moves background-${t}">${t}</span>`)
   //  .join('')
  // const alertmoves = pokemon['moves'][0]['move'];
  // alert(alertmoves);
-  const boostStones = pokemon.boostStone
-    .map(t => `<span class="pokemon-boost-stone background-${t}">${t}</span>`)
-    .join(' or ')
   const evolveStones = pokemon.evolveStone
     .map(t => `<span class="pokemon-evolve-stone background-${t}">${t}</span>`)
     .join(' + ')
@@ -177,13 +175,15 @@ function loadStats(stats) {
 
 function loadMoves(moves) {
 	for( var i=0; i<moves.length; i++) {
-		const move1 = moves[0];
-		const move2 = moves[1];
-		const move3 = moves[2];
+		const move1 = moves[0]['move'];
+		const move2 = moves[1]['move'];
+		const move3 = moves[2]['move'];
 		
-		const level1 = moves[0];
-		const level2 = moves[1];
-		const level3 = moves[2];
+		
+		
+		const level1 = moves[0]['level'];
+		const level2 = moves[1]['level'];
+		const level3 = moves[2]['level'];
 	
 	
 	return `<div class="move-row">
