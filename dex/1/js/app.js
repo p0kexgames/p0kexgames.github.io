@@ -108,6 +108,7 @@ function pokemonCard(pokemon) {
     .join(' + ')
   const img = pokemon.name.replace(/['\.]/g, '').replace(/\s/g, '-')
   pokemonTypes = pokemonTypes.concat(pokemon.type)
+  pokemonMoves = pokemonMoves.concat(pokemon.moves)
   pokemonClans = pokemonClans.concat(pokemon.clan)
   pokemonBoostStone = pokemonBoostStone.concat(pokemon.boostStone)
   pokemonEvolveStone = pokemonEvolveStone.concat(pokemon.evolveStone)
