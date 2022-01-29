@@ -95,12 +95,9 @@ function pokemonCard(pokemon) {
   const clans = pokemon.clan
     .map(t => `<span class="pokemon-clan background-${t}">${t}</span>`)
     .join('')
-	const pokemonMoves = pokemon.moves
-    .map(t => `<span class="pokemon-move background-${t}">${t}</span>`)
+  const pokemonMoves = pokemon.moves
+    .map(t => `<span class="pokemon-moves background-${t}">${t}</span>`)
     .join('')
-  //const pokemonMoves = pokemon.moves
-  //  .map(t => `<span class="pokemon-moves background-${t}">${t}</span>`)
-  //  .join('')
  // const alertmoves = pokemon['moves'][0]['move'];
  // alert(alertmoves);
   const boostStones = pokemon.boostStone
