@@ -151,7 +151,6 @@ function pokemonCard(pokemon) {
 	  
       <section class="pokemon-moves">
 		<div class="pokemon-move">${pokemonMoves}</div>
-		<div class="pokemon-move">${loadMoves(pokemon.moves)}</div>
       </section>
     </div>`
 } 
@@ -175,27 +174,7 @@ function loadStats(stats) {
 } 
 
 
-function loadMoves(moves) {
-	for( var i=0; i<moves.length; i++) {
-		const move1 = moves[0];
-		const move2 = moves[1];
-		const move3 = moves[2];
-		
-		const level1 = moves[0];
-		const level2 = moves[1];
-		const level3 = moves[2];
-	
-	
-	return `<div class="move-row">
-			<div>${move1} lvl:${level1}</div>
-			<div>${move2} lvl:${level2}</div>
-			<div>${move3} lvl:${level3}</div>
-			
-			
-	 </div>`
-    
-	} 
-}
+
 
 
 Array.prototype.uniq = function () {
