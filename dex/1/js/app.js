@@ -95,11 +95,7 @@ function pokemonCard(pokemon) {
   const clans = pokemon.clan
     .map(t => `<span class="pokemon-clan background-${t}">${t}</span>`)
     .join('')
-  const pokemonMoves = pokemon.moves
-    .map(t => `<span class="pokemon-moves background-${t}">${t}</span>`)
-    .join('')
-  const alertmoves = pokemon['moves'][0];
-  alert(alertmoves);
+
   const boostStones = pokemon.boostStone
     .map(t => `<span class="pokemon-boost-stone background-${t}">${t}</span>`)
     .join(' or ')
@@ -108,7 +104,6 @@ function pokemonCard(pokemon) {
     .join(' + ')
   const img = pokemon.name.replace(/['\.]/g, '').replace(/\s/g, '-')
   pokemonTypes = pokemonTypes.concat(pokemon.type)
-  pokemonMoves = pokemonMoves.concat(pokemon.moves)
   pokemonClans = pokemonClans.concat(pokemon.clan)
   pokemonBoostStone = pokemonBoostStone.concat(pokemon.boostStone)
   pokemonEvolveStone = pokemonEvolveStone.concat(pokemon.evolveStone)
@@ -147,9 +142,6 @@ function pokemonCard(pokemon) {
         <div class="pokemon-Evo">Evolution ${pokemon.evo}</div>
       </section>
 	  
-      <section class="pokemon-moves">
-		<div class="pokemon-move">${pokemonMoves}</div>
-      </section>
     </div>`
 } 
 
