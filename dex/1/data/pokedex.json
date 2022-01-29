@@ -17,7 +17,7 @@
     "vip": "no",
     "preEvo": "no",
     "evo": "Ivysaur",
-    "moves": "Tackle-20,Razor leaf-20,Vine whip-20,Headbutt-20,Leech seed-20,Solar beam-26,Sleep powder-28,Stun spore-26,Poison powder-24",
+    "moves": ["Tackle-20", "Razor leaf-20", "Vine whip-20", "Headbutt-20", "Leech seed-20", "Solar beam-26", "Sleep powder-28", "Stun spore-26", "Poison powder-24"],
     "loots": [
             {"item":"iten1", "qtd":"1", "percent":"2"},
             {"item":"iten2", "qtd":"2", "percent":"10"},
@@ -65,7 +65,7 @@
     "vip": "yes",
     "preEvo": "bulbasaur",
     "evo": "venusaur",
-    "moves": "Tackle-20,Razor leaf-20,Vine whip-20,Headbutt-20,Leech seed-20,Solar beam-26,Sleep powder-28,Stun spore-26,Poison powder-24",
+    "moves": ["Tackle-20", "Razor leaf-20", "Vine whip-20", "Headbutt-20", "Leech seed-20", "Solar beam-26", "Sleep powder-28", "Stun spore-26", "Poison powder-24"],
     "loots": [
             {"item":"iten1", "qtd":"1", "percent":"2"},
             {"item":"iten2", "qtd":"2", "percent":"10"},
@@ -113,7 +113,7 @@
     "vip": "yes",
     "preEvo": "Ivysaur",
     "evo": "",
-    "moves": "Tackle-20,Razor leaf-20,Vine whip-20,Headbutt-20,Leech seed-20,Solar beam-26,Sleep powder-28,Stun spore-26,Poison powder-24",
+    "moves": ["Tackle-20", "Razor leaf-20", "Vine whip-20", "Headbutt-20", "Leech seed-20", "Solar beam-26", "Sleep powder-28", "Stun spore-26", "Poison powder-24"],
     "loots": [
             {"item":"Leaf Stone", "qtd":"1-1", "percent":"raro"},
             {"item":"Venom Stone", "qtd":"1-1", "percent":"raro"},

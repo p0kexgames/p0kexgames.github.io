@@ -95,7 +95,7 @@ function pokemonCard(pokemon) {
   const clans = pokemon.clan
     .map(t => `<span class="pokemon-clan background-${t}">${t}</span>`)
     .join('')
-  const moves = pokemon.moves
+  const move = pokemon.moves
     .map(t => `<span class="pokemon-moves background-${t}">${t}</span>`)
     .join('')
 
@@ -148,7 +148,7 @@ function pokemonCard(pokemon) {
       </section>
 	  
 	  
-      <section class="pokemon-moves"><div class="pokemon-move">${moves}</div></section>
+      <section class="pokemon-moves"><div class="pokemon-move">${move}</div></section>
 	  
     </div>`
 } 
