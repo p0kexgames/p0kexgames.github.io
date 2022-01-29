@@ -28,6 +28,15 @@
             {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
     ],
     "ability": ["cut", ""],
+    "moveTest": {
+      "total": 318,
+      "hp": 45,
+      "attack": 49,
+      "defense": 49,
+      "sp-atk": 65,
+      "sp-def": 65,
+      "speed": 45
+    },
     "stats": {
       "total": 318,
       "hp": 45,
@@ -67,6 +76,15 @@
             {"top":"", "bottom":"", "left":"", "right":"", "desc":"", "vip":"", "qtd":""}
     ],
     "ability": ["cut", "ride"],
+    "moveTest": {
+      "total": 318,
+      "hp": 45,
+      "attack": 49,
+      "defense": 49,
+      "sp-atk": 65,
+      "sp-def": 65,
+      "speed": 45
+    },
     "stats": {
       "total": 318,
       "hp": 45,
