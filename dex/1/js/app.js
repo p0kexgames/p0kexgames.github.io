@@ -98,8 +98,8 @@ function pokemonCard(pokemon) {
   const pokemonMoves = pokemon.moves
     .map(t => `<span class="pokemon-moves background-${t}">${t}</span>`)
     .join('')
- // const alertmoves = pokemon['moves'][0]['move'];
- // alert(alertmoves);
+  const alertmoves = pokemon['moves'][0];
+  alert(alertmoves);
   const boostStones = pokemon.boostStone
     .map(t => `<span class="pokemon-boost-stone background-${t}">${t}</span>`)
     .join(' or ')
