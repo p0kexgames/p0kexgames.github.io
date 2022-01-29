@@ -95,6 +95,9 @@ function pokemonCard(pokemon) {
   const clans = pokemon.clan
     .map(t => `<span class="pokemon-clan background-${t}">${t}</span>`)
     .join('')
+  const moves = pokemon.moves
+    .map(t => `<span class="pokemon-moves background-${t}">${t}</span>`)
+    .join('')
 
   const boostStones = pokemon.boostStone
     .map(t => `<span class="pokemon-boost-stone background-${t}">${t}</span>`)
@@ -105,6 +108,7 @@ function pokemonCard(pokemon) {
   const img = pokemon.name.replace(/['\.]/g, '').replace(/\s/g, '-')
   pokemonTypes = pokemonTypes.concat(pokemon.type)
   pokemonClans = pokemonClans.concat(pokemon.clan)
+  pokemonMoves = pokemonMoves.concat(pokemon.moves)
   pokemonBoostStone = pokemonBoostStone.concat(pokemon.boostStone)
   pokemonEvolveStone = pokemonEvolveStone.concat(pokemon.evolveStone)
   return `<div class="pokemon" data-name="${pokemon.name}" data-type="${pokemon.type}" data-clan="${pokemon.clan}" tabindex="${pokemon.id}">
@@ -118,6 +122,7 @@ function pokemonCard(pokemon) {
         <h3 class="pokemon-level">Level: ${pokemon.level}</h3>
         <div class="pokemon-clans">${clans}</div>
         <div class="pokemon-types">${types}</div>
+        
       </section>
       <section class="pokemon-stats">${loadStats(pokemon.stats)}</section>
       <section class="pokemon-description2">
@@ -143,7 +148,7 @@ function pokemonCard(pokemon) {
       </section>
 	  
 	  
-      <section class="pokemon-moves">${loadMoves(pokemon.moveTest)}</section>
+      <section class="pokemon-moves"><div class="pokemon-types">${moves}</div></section>
 	  
     </div>`
 } 
@@ -165,20 +170,7 @@ function loadStats(stats) {
     )
     .join('')
 }
-
-function loadMoves(moveTest) {
-  return Object.entries(moveTest)
-    .filter(([name, value]) => !['total'].includes(name))
-    .map(([name, value]) =>
-      `<div class="stat-row">
-        <div>aaaMoveTEste   ${name}</div>
-        <div class="stat-bar">
-          <div class="stat-bar-bg" style="width: ${100*value/250}%">${value}</div>
-        </div>
-      </div>`
-    )
-    .join('')
-}  
+  
 
 
 
