@@ -148,7 +148,7 @@ function pokemonCard(pokemon) {
       </section>
 	  
 	  
-      <section class="pokemon-moves"><div class="pokemon-types">${moves}</div></section>
+      <section class="pokemon-moves"><div class="pokemon-move">${moves}</div></section>
 	  
     </div>`
 } 
