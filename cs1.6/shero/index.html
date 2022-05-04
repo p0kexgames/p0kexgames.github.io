@@ -67,7 +67,7 @@
             <div class="title">Contact us</div>
             <div class="title-info">We'll get back to you soon!</div>
 
-            <form action="https://formspree.io/f/mbjwpbqo" method="POST" class="form">
+            <form action="https://formspree.io/f/mbjwpbqo" name="form1" method="POST" id="form1" class="form" onsubmit="required()">
                 <div class="input-group">
                     <input type="text" name="first_name" id="first-name" placeholder="First name">
                     <label for="first-name">First name</label>
@@ -106,4 +106,45 @@
             <a href="#" target="_blank"><img class="social-media-img" src="./static/img/social_media/youtube.svg" alt="YouTube"></a>
         </footer>
     </body>
+	
+	
+<script>
+function required()
+{
+var emptname = document.forms["form1"]["first_name"].value;
+var emptmail = document.forms["form1"]["e-mail"].value;
+var emptmessage = document.forms["form1"]["message"].value;
+
+var elemento = document.getElementById("form1");
+
+
+if (emptname == "")
+{
+elemento.setAttribute("action", "#");
+alert("Please input a Value name");
+return false;
+}
+
+else if (emptmail == "")
+{
+elemento.setAttribute("action", "#");
+alert("Please input a Value mail");
+return false;
+}
+else if (emptmessage == "")
+{
+elemento.setAttribute("action", "#");
+alert("Please input a Value message");
+return false;
+}
+
+else 
+{
+elemento.setAttribute("action", "https://formspree.io/f/mbjwpbqo");
+alert('Code has accepted : you can try another');
+return true; 
+}
+}
+</script>
+
 </html>
