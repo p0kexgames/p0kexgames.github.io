@@ -9582,7 +9582,7 @@ var itemsCount = $("#ourHolder > div.zqzq").length;
 
    var x = readCookie('likecookie')
    if (!x) {
-     $(".bigform-content").addClass('adjustlikemodal');
+     //$(".bigform-content").addClass('adjustlikemodal');
    } else {
      $(".bigform-content").removeClass('adjustlikemodal');
    } 
