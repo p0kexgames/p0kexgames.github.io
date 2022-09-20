@@ -9193,12 +9193,12 @@ function pesquisaavancada() {
  var x = readCookie('likecookie')
  if (!x) {
    //getting click event to show modal
-   $('#dialog_confirm_map').modal();
+//$('#dialog_confirm_map').modal();
     
     //appending modal background inside the bigform-content
-   $('.modal-backdrop').appendTo('.bigform-content');
+//$('.modal-backdrop').appendTo('.bigform-content');
     //removing body classes to able click events
-   $('body').removeClass();
+//$('body').removeClass();
    // end getting click event to show modal
  } 
 
